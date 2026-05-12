@@ -1,0 +1,5 @@
+
+# Large/local generated content
+library/
+downloads/
+.DS_Store
