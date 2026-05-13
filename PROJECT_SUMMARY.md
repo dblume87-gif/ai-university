@@ -1,7 +1,7 @@
 # AI University — Project Summary
 
-**Date:** 2026-04-13 (started)  
-**Last Updated:** 2026-04-15  
+**Start:** 2026-04-13  
+**Last Updated:** 2026-05-13  
 **Started by:** Dondi187 (Discord) in #ai-university  
 **Platform:** OpenClaw + Discord
 
@@ -9,15 +9,54 @@
 
 ## Was ist AI University?
 
-Eine AI-powered Learning Platform, die MIT/OpenCourseWare Kurse scrapet, aufbereitet und mit AI-Tools wie NotebookLM nutzbar macht. Eigene Erklärvideos werden aus den Kursmaterialien generiert.
+AI University ist eine AI-powered Learning Platform fuer kuratierte Lernpfade aus hochwertigen Kursmaterialien. Der aktuelle Fokus liegt auf MIT OpenCourseWare und verwandten Kursquellen: Kurse werden gescreent, Materialien werden strukturiert, in NotebookLM nutzbar gemacht und spaeter als deutschsprachige Erklaervideos, YouTube-Inhalte und Website-Kursseiten ausgespielt.
+
+Langfristig soll ein Nutzer nicht nur fertige Kursvideos sehen, sondern aus einem spezifischen NotebookLM-Kurs eigene massgeschneiderte Videos oder Materialien bestellen koennen.
 
 **Kern-Ziele:**
-- [x] Content scrapen (Videos, Slides, Papers)
-- [x] In NotebookLM als Sources importieren
-- [x] AI-Erklärvideos aus Kursmaterialien generieren
-- [ ] Personalisiertes Lernen — AI passt Lernpfade an
-- [ ] AI Tutor — Chatbot der Fragen beantwortet, erklärt, quizt
-- [ ] Auto-Assessment — AI bewertet Einsendungen, gibt Feedback
+
+- [x] Erste Kursmaterialien aus MIT OCW und How2AI erfassen
+- [x] Erste NotebookLM-Notebooks fuer Kursmaterialien anlegen
+- [x] Erste AI-Erklaervideos aus NotebookLM generieren
+- [x] Ingestion-Plan fuer lernpfadgebundenes Kursscreening erstellen
+- [ ] Programmatisches Screening gegen einen aktiven Lernpfad umsetzen
+- [ ] Kurskandidaten, Library-Status und NotebookLM-Freigaben in Manifesten tracken
+- [ ] NotebookLM-Upload-Pipeline mit Freigabe-Gate stabilisieren
+- [ ] NotebookLM-Video-Generierung unter Tageslimit planen
+- [ ] YouTube-Upload und Kursseite aufbauen
+- [ ] On-Demand-Generierung fuer Nutzeranfragen entwickeln
+
+---
+
+## Aktueller High-Level Ablauf
+
+1. **Screening**
+   - MIT OCW Kurse programmatisch gegen einen aktiven Lernpfad screenen.
+   - Kandidaten werden pro Lernpfad-Slot gesucht, nicht ueber einen globalen AI/ML-Themenfilter.
+
+2. **Kursauswahl**
+   - Pro Slot wird ein empfohlener Kurs plus bis zu 3 Alternativen vorgeschlagen.
+   - Ein Kurs wird nur `selected`, wenn er zu einem konkreten Lernpfad-Slot passt.
+
+3. **Materialzusammenstellung**
+   - PDFs lokal speichern.
+   - Videos, Websites und externe Artikel als URLs referenzieren.
+   - Kursmaterialien in Unterrichtseinheiten normalisieren.
+
+4. **Manifest / QA**
+   - `learning_path_manifest.json`: aktiver Lernpfad als Sequenz von Slots.
+   - `course_candidates.json`: gescreente Kandidaten pro Slot.
+   - `library_manifest.json`: zentraler Status aller gescreenten Kurse.
+   - Optional pro Kurs: `course_manifest.json`.
+
+5. **NotebookLM-Freigabe und Upload**
+   - `ready_for_notebooklm`: Kurs hat Einheiten, pro Einheit mindestens 2 Quellen, davon mindestens Slides, Video oder Lecture Notes.
+   - Menschliche Freigabe wird im `library_manifest.json` dokumentiert: Status `approved_for_notebooklm` plus `approved_at`.
+   - Danach Upload aller verfuegbaren Quellen in NotebookLM.
+
+6. **Video- und Publishing-Pipeline**
+   - NotebookLM-Erklaervideos generieren, aktuelles Bottleneck: ca. 20 Videos pro Tag.
+   - Videos lokal sammeln, zu YouTube hochladen und auf einer weiteren Kursseite anzeigen.
 
 ---
 
@@ -25,160 +64,45 @@ Eine AI-powered Learning Platform, die MIT/OpenCourseWare Kurse scrapet, aufbere
 
 | Tool | Status | Notes |
 |------|--------|-------|
-| **MIT OCW** | ✅ aktiv | Content-Quelle für Kurse |
-| **NotebookLM** | ✅ aktiv | notebooklm-py + OAuth login |
-| **Discord** | ✅ aktiv | Interface für Kurszugang |
-| **OpenClaw** | ✅ aktiv | Orchestrierung + Subagenten |
-| **Supabase** | ✅ aktiv | Optional als Backend |
-| **YouTube** | ✅ aktiv | AI University Kanal |
-| **n8n** | nicht aktiv | Workflow Automation |
-| **yt-dlp** | ✅ installiert | Video Downloads |
+| **MIT OCW** | aktiv | Primaere Kursquelle |
+| **How2AI / MAS.S60** | aktiv | Moderner Zusatzkurs mit Slides, Papers und Videos |
+| **NotebookLM** | aktiv | Kurs-Notebooks und AI-Content-Generierung |
+| **YouTube** | geplant/teilweise aktiv | Kanal vorhanden, Upload-Pipeline noch ausbauen |
+| **Discord** | geplant/aktiv | Interface und Community-Kanal |
+| **OpenClaw** | aktiv | Workspace und Orchestrierung |
+| **Supabase** | optional | Moegliches Backend fuer Status, Nutzer, Website |
+| **yt-dlp** | installiert | Video-Download-Werkzeug |
 
 ---
 
-## Workflows
+## Aktuelle Library
 
-### Kurs scrapen (2-Schritt)
-1. Video Links scrapen (YouTube / OCW)
-2. Slides PDF scrapen (lecture-slides-code)
+Lokal liegen aktuell **10 MIT-Kurse + How2AI** im Ordner `library/`.
 
-### NotebookLM Pipeline
-1. Notebook erstellen (`notebooklm create`)
-2. PDFs hinzufügen (`notebooklm source add`)
-3. YouTube URLs hinzufügen (`notebooklm source add`)
-4. AI Content generieren (`notebooklm generate video --style whiteboard --language de`)
+| Kurs | Materiallage | Hinweise |
+|------|--------------|----------|
+| MIT 6.0001 Python | 12 PDFs, 12 Videos | Sehr sauberer Starterkurs |
+| MIT 6.0002 Computational Thinking | 15 PDFs, 15 Videos | Gute Fortsetzung nach Python |
+| MIT 6.034 Artificial Intelligence | 23 PDFs, 23 Videos | Klassiker, Sondernummerierung |
+| MIT 6.036 Intro to ML | 12 PDFs, Video-Mapping uneinheitlich | Normalisierung noetig |
+| MIT 6.7960 Deep Learning | 23 PDFs, viele Videos | Aktueller DL-Kurs, gross |
+| MIT 6.867 Machine Learning | 45 PDFs, keine Videos | Gut fuer Material/Tutor, weniger fuer Video-Pipeline |
+| MIT 6.S191 Intro to DL | 10 PDFs, 10 Videos | Kompakt und stark fuer Pipeline |
+| MIT 15.773 Hands-on DL | 13 PDFs, 11 Videos | Praxisnah, Video/Slide-Mapping pruefen |
+| MIT 6.8300 Computer Vision | 18 PDFs, Panopto-Videos | Wertvoll, aber schwieriger zu ingestieren |
+| MIT RES.10-002 Ethics of AI Bias | 7 PDFs/Transcripts, Videos, OCW JSON | Spezialmodul statt Standardkurs |
+| MAS.S60 How2AI Spring 2025 | 84 PDFs, 26 Markdown-Dateien | Wochenbasiert, moderne Papers/Slides/Videos |
 
-### YouTube Upload
-1. AI-Videos von NotebookLM downloaden
-2. YouTube Playlist erstellen
-3. Videos hochladen + zur Playlist hinzufügen
-
----
-
-## Kurse
-
-### A) MIT OCW Kurse (10 Kurse — komplett)
-
-| # | Kurs | NotebookLM | Slides | Videos |
-|---|------|-----------|--------|--------|
-| 1 | 6.0001 Python | ✅ | 12 PDFs | 12 YT |
-| 2 | 6.0002 Data Science | ✅ | 15 PDFs | 15 YT |
-| 3 | 6.034 Artificial Intelligence | ✅ | 23 PDFs | 23 YT |
-| 4 | 6.036 Intro to ML | ✅ | 12 PDFs | 14 YT |
-| 5 | 6.7960 Deep Learning | ✅ | 23 PDFs | 24 YT |
-| 6 | 6.867 Machine Learning | ✅ | 23 PDFs | ❌ |
-| 7 | 6.S191 Intro to DL | ✅ | 10 PDFs | 10 YT |
-| 8 | 15.773 Hands-on DL | ✅ | 13 PDFs | 11 YT |
-| 9 | 6.8300 Computer Vision | ✅ | 18 PDFs | ❌ |
-| 10 | RES.10-002 AI Ethics | ✅ | — | 2 YT |
-
-### B) How2AI MAS.S60 Spring 2025 (1 Kurs — neu!)
-
-**Notebook:** `d9648f39-95c4-4267-a636-3e62b4eed301`  
-**URL:** https://notebooklm.google.com/notebook/d9648f39-95c4-4267-a636-3e62b4eed301
-
-| Einheit | Slides | Papers | Videos |
-|---------|--------|--------|--------|
-| Week 01 Introduction | ✅ | 3 | ✅ |
-| Week 01 AI Research | ✅ | — | ✅ |
-| Week 02 Data | ✅ | 1 | ✅ |
-| Week 02 Tools | ✅ | — | ✅ |
-| Week 04 Model Architectures | ✅ | 5 | ✅ |
-| Week 05 Multimodal 1 | ✅ | 2 | ✅ |
-| Week 06 Multimodal 2 | ✅ | 1 | ✅ |
-| Week 07 Multimodal 3 | ✅ | 3 | ✅ |
-| Week 09 Large Foundation Models | ✅ | 3 | ✅ |
-| Week 11 Large Multimodal Models | ✅ | 3 | ✅ |
-| Week 12 Generative AI | ✅ | 4 | ❌ |
-| Week 14 Interactive Agents | ✅ | 3 | ✅ |
-| Week 15 Human AI Interaction | ✅ | 4 | ✅ |
-
-**Total:** 13 Slides, 28 Papers (arXiv PDFs), 12 YouTube Videos
+Siehe auch: `INVENTORY.md`
 
 ---
 
-## YouTube Kanal
+## NotebookLM Stand
 
-**Kanal:** AI University  
-**URL:** https://www.youtube.com/@aiuniversity
-
-### Playlists
-- **Python Programming Fundamentals** (PLDK9LaaawGj...) — 12 AI-Videos ( NotebookLM generiert, 00-09)
-
----
-
-## Erstellte AI-Videos
-
-| Video | Kurs | Stil | Sprache | Dauer | Datei |
-|-------|------|-------|--------|--------|--------|
-| "KI für (fast) alles" | How2AI Week 1 | Whiteboard | Deutsch | ~5min | MAS.S60-Week01-Weisswandtafel.mp4 |
-| 10x Python-Erklärungen | MIT 6.0001 | NotebookLM | Deutsch | je 2-5min | Lecture_00-09.mp4 |
-
----
-
-## Workspace Struktur
-
-```
-ai-university/
-├── AGENTS.md
-├── AI_COURSES.md
-├── PROJECT_SUMMARY.md
-├── batch_upload.py              # Batch Upload Script für NotebookLM
-│
-├── downloads/
-│   ├── MIT-6.0001/             # AI-generierte Videos (00-09)
-│   │   └── Lecture_00.mp4 ... Lecture_09.mp4
-│   └── MAS.S60-Week01-Weisswandtafel.mp4
-│
-└── library/
-    ├── MIT-6.0001-.../        # 10 MIT OCW Kurse
-    ├── MIT-6.0002-.../
-    ├── MIT-6.034-.../
-    ├── MIT-6.036-.../
-    ├── MIT-6.7960-.../
-    ├── MIT-6.867-.../         # + Problem Sets, Exams, Solutions
-    ├── MIT-6.S191-.../
-    ├── MIT-15.773-.../
-    ├── MIT-6.8300-.../
-    └── MIT-RES.10-002-.../
-    │
-    └── MAS.S60-How2AI-Spring2025/   # How2AI Kurs
-        ├── READINGS_OVERVIEW.md
-        ├── Week_01_Introduction/
-        │   ├── README.md
-        │   ├── lec1 - introduction.pdf
-        │   ├── arxiv_1206.5538.pdf    (Representation Learning)
-        │   ├── arxiv_1705.09406.pdf   (Multimodal ML Survey)
-        │   └── arxiv_2209.03430.pdf   (Foundations of Multimodal ML)
-        ├── Week_01_AI_Research/
-        ├── Week_02_Data_Structure_Information/
-        ├── Week_02_Practical_AI_Tools/
-        ├── Week_04_Model_Architectures/
-        ├── Week_05_Multimodal_1/
-        ├── Week_06_Multimodal_2/
-        ├── Week_07_Multimodal_3/
-        ├── Week_09_Large_Foundation_Models/
-        ├── Week_11_Large_Multimodal_Models/
-        ├── Week_12_Generative_AI/
-        ├── Week_14_Interactive_Agents/
-        └── Week_15_Human_AI_Interaction/
-```
-
----
-
-## Scripts & Tools
-
-| Script | Zweck |
-|--------|-------|
-| `batch_upload.py` | Alle Kurse zu NotebookLM hochladen (PDFs + YouTubes) |
-| `notebooklm` (CLI) | NotebookLM API via notebooklm-py |
-
----
-
-## NotebookLM Notebooks (IDs)
+Bekannte NotebookLM-IDs:
 
 | Kurs | Notebook ID |
-|------|------------|
+|------|-------------|
 | MIT 6.0001 Python | `e9b29f80-838e-43d3-989d-e40bfe2f9eb1` |
 | MIT 6.0002 Data Science | `b783ff81-777f-4def-ac19-ef824acb0621` |
 | MIT 6.034 AI | `a99d5700-fffe-4e56-b251-9a3005a80ea2` |
@@ -189,33 +113,52 @@ ai-university/
 | MIT 15.773 DL | `d9203b2c-389e-4246-bfaf-7e3dd60c60e0` |
 | MIT 6.8300 CV | `b29cef54-6882-4645-9395-2985e1b7e7d3` |
 | MIT RES.10-002 Ethics | `37a656de-dea4-44a1-8d04-7ef76d3e0b1ae` |
-| **MAS.S60 How2AI** | `d9648f39-95c4-4267-a636-3e62b4eed301` |
+| MAS.S60 How2AI | `d9648f39-95c4-4267-a636-3e62b4eed301` |
 
 ---
 
-## Offene Tasks
+## Erstellte AI-Videos
 
-- [ ] How2AI Videos für alle 12 verfügbaren Weeks generieren (wie Week 1)
-- [ ] YouTube Playlist für How2AI erstellen
-- [ ] YouTube Upload für alle AI-Videos (Python + How2AI)
-- [ ] Discord Interface für Kursnavigation aufbauen
-- [ ] Restliche 78 AI-Kurse aus MIT OCW scrapen
+Lokal liegen aktuell **11 MP4-Dateien** in `downloads/`:
+
+- `downloads/MAS.S60-Week01-Weisswandtafel.mp4`
+- `downloads/MIT-6.0001/00_Vom_Koch_zum_Meister_Coder.mp4`
+- `downloads/MIT-6.0001/01_Was_ist_Berechnung.mp4`
+- `downloads/MIT-6.0001/02_Verzweigung_Iteration.mp4`
+- `downloads/MIT-6.0001/03_Komplexitaet_zerlegen.mp4`
+- `downloads/MIT-6.0001/04_The_Smartest_Solution.mp4`
+- `downloads/MIT-6.0001/05_Tupel_und_Listen.mp4`
+- `downloads/MIT-6.0001/06_Rekursion_Dictionaries.mp4`
+- `downloads/MIT-6.0001/07_Testen_Debuggen_robuster_Code.mp4`
+- `downloads/MIT-6.0001/08_OOP_Bauen_mit_Code.mp4`
+- `downloads/MIT-6.0001/09_Vom_Bauplan_zum_Stammbaum.mp4`
 
 ---
 
-## Daten & Fakten
+## Scripts & Dokumente
 
-- **11 Kurse** in NotebookLM
-- **~160 Vorlesungen** (Videos + Slides)
-- **1 AI-Erklärvideo** generiert (How2AI Week 1, Whiteboard, Deutsch)
-- **10 AI-Videos** vom Python Notebook (zum Upload bereit)
-- **28+ Papers** als PDF gedownloaded
-- **Scrape-Daten:** MIT OCW Kurse 2026-04-13, How2AI 2026-04-14
+| Datei | Zweck |
+|-------|-------|
+| `INGESTION_PLAN.md` | Arbeitsplan fuer Screening, Kursauswahl, Manifeste und NotebookLM-Freigabe |
+| `INVENTORY.md` | Generiertes Inventar der vorhandenen Kursmaterialien |
+| `AI_COURSES.md` | Kandidatenliste aus MIT OCW fuer fruehere AI/ML/DL-Suche |
+| `batch_upload.py` | Batch-Upload vorhandener MIT-Kurse zu NotebookLM |
+| `build_inventory.py` | Generiert `INVENTORY.md` aus der lokalen Library |
+
+---
+
+## Naechste Schritte
+
+1. `learning_path_manifest.json` Schema finalisieren.
+2. Scoring fuer Materialqualitaet, Slot-Fit und Automatisierbarkeit festlegen.
+3. `course_candidates.json` und `library_manifest.json` Schema finalisieren.
+4. Existing Library gegen das Manifest-Schema mappen.
+5. NotebookLM-ready Gate implementieren.
+6. Erst danach NotebookLM-Upload- und Video-Generierung weiter automatisieren.
 
 ---
 
 ## Discord Channel
 
-- **Channel:** #ai-university (ID: 1493334080972886)
-- **Guild:** Allgemein
+- **Channel:** #ai-university (ID: `1493334080970952886`)
 - **Start-Datum:** 2026-04-13
