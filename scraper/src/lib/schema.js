@@ -41,17 +41,22 @@ export const TIER = {
  * - Automatisierbarkeit: strukturiert + stabil
  * - NotebookLM-Tauglichkeit: Quellenmix sinnvoll
  */
-export function calculateTier(dataJson, contentMap) {
+export function calculateTier(dataJson, contentMap, courseWebsite = null) {
   let score = 0;
   const warnings = [];
 
-  // 1. Minimum Gate prüfen
-  const resourceTypes = dataJson.learning_resource_types || [];
-  const hasLectures = resourceTypes.includes('Lecture Notes') || 
+  // 1. Minimum Gate prüfen — course website kann fehlende OCW-Signale ergänzen
+  const resourceTypes = [...(dataJson.learning_resource_types || [])];
+  if (courseWebsite?.slides > 0 && !resourceTypes.includes('Lecture Notes')) {
+    resourceTypes.push('Lecture Notes');
+  }
+  if (courseWebsite?.videos > 0 && !resourceTypes.includes('Lecture Videos')) {
+    resourceTypes.push('Lecture Videos');
+  }
+
+  const hasLectures = resourceTypes.includes('Lecture Notes') ||
                       resourceTypes.includes('Lecture Videos');
-  const hasAssignments = resourceTypes.includes('Problem Sets') || 
-                         resourceTypes.includes('Programming Assignments');
-  
+
   if (!hasLectures) {
     return { tier: TIER.TIER_3, score: 0, warnings: ['Keine Lecture Materials'], reason: 'Keine Lecture Materials' };
   }
@@ -67,40 +72,27 @@ export function calculateTier(dataJson, contentMap) {
   if (dataJson.level?.includes('Undergraduate')) score += 5;
   if (dataJson.level?.includes('Graduate')) score += 3;
 
-  // 4. Content Map Analyse (0-20 Punkte)
-  if (contentMap) {
-    const resourceCount = Object.keys(contentMap).length;
-    if (resourceCount >= 20) score += 10;
-    else if (resourceCount >= 10) score += 5;
-    
-    // PDF-URLs suchen
-    const pdfKeys = Object.keys(contentMap).filter(k => 
-      contentMap[k]?.toLowerCase().includes('.pdf')
-    );
-    if (pdfKeys.length >= 5) score += 10;
-    else if (pdfKeys.length >= 2) score += 5;
-    else warnings.push('Wenige PDFs gefunden');
+  // 4. Materialdichte (0-10 Punkte) — course website hat Vorrang vor content_map
+  if (courseWebsite) {
+    if (courseWebsite.sessions >= 10) score += 10;
+    else if (courseWebsite.sessions >= 5) score += 5;
+    else warnings.push('Wenige Sessions auf Course Website gefunden');
+    if (courseWebsite.slides > 0 || courseWebsite.videos > 0) {
+      console.log(`[SCREEN] Course Website: ${courseWebsite.sessions} Sessions, ${courseWebsite.slides} Slides, ${courseWebsite.videos} Videos`);
+    }
+  } else if (contentMap) {
+    const resourceEntries = Object.values(contentMap).filter(v => v?.includes('/resources/'));
+    if (resourceEntries.length >= 5) score += 10;
+    else if (resourceEntries.length >= 2) score += 5;
+    else warnings.push('Wenige herunterladbare Materialien gefunden');
   }
-
-  // 5. Themen-Relevanz (0-15 Punkte)
-  const topics = (dataJson.topics || []).flat();
-  const relevantTopics = ['Artificial Intelligence', 'Machine Learning', 
-    'Deep Learning', 'Computer Science', 'Algorithms', 'Programming Languages'];
-  const topicMatches = topics.filter(t => 
-    relevantTopics.some(rt => t.toLowerCase().includes(rt.toLowerCase()))
-  );
-  score += Math.min(topicMatches.length * 3, 15);
-
-  // 6. Instructors (0-5 Punkte)
-  if (dataJson.instructors?.length >= 1) score += 3;
-  if (dataJson.instructors?.length >= 3) score += 2;
 
   // Tier zuordnung
   let tier, reason;
-  if (score >= 50) {
+  if (score >= 35) {
     tier = TIER.TIER_1;
     reason = 'Starke Materialbasis, gute Automatisierbarkeit';
-  } else if (score >= 30) {
+  } else if (score >= 20) {
     tier = TIER.TIER_2;
     reason = 'Braucht Normalisierung oder manuelle Prüfung';
   } else {

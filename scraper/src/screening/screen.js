@@ -9,6 +9,7 @@
  */
 
 import axios from 'axios';
+import * as cheerio from 'cheerio';
 import { upsertCourse, updateScreening, getCoursesByStatus } from '../lib/db.js';
 import { calculateTier, SCREENING_STATUS } from '../lib/schema.js';
 
@@ -30,6 +31,65 @@ export async function fetchCourseData(courseId) {
   const url = `${BASE_URL}/courses/${courseId}/data.json`;
   const response = await http.get(url);
   return response.data;
+}
+
+/**
+ * Fetcht die externe Course Website und parst den Schedule
+ * Nur wenn ein external-resources/course-website Eintrag in der content_map vorhanden ist
+ */
+export async function fetchCourseWebsite(contentMap) {
+  if (!contentMap) return null;
+
+  const websiteEntry = Object.values(contentMap).find(v =>
+    v?.includes('/external-resources/course-website/')
+  );
+  if (!websiteEntry) return null;
+
+  try {
+    const { data: resourceData } = await http.get(`${BASE_URL}${websiteEntry}`);
+    const externalUrl = resourceData.external_url;
+    if (!externalUrl) return null;
+
+    const scheduleUrl = externalUrl.replace(/\/?$/, '/') + 'schedule/';
+    console.log(`[SCREEN] Course Website gefunden: ${scheduleUrl}`);
+    const { data: html } = await http.get(scheduleUrl, { timeout: 15000 });
+
+    return parseScheduleHtml(html);
+  } catch (err) {
+    console.log(`[WARN] Course Website fetch fehlgeschlagen: ${err.message}`);
+    return null;
+  }
+}
+
+function parseScheduleHtml(html) {
+  const $ = cheerio.load(html);
+  let sessions = 0;
+  let slides = 0;
+  let videos = 0;
+
+  $('table tr').each((i, row) => {
+    if (i === 0) return; // Header überspringen
+    const text = $(row).text().trim();
+    if (!text) return;
+    sessions++;
+
+    $(row).find('a').each((_, a) => {
+      const href = ($(a).attr('href') || '').toLowerCase();
+      const label = $(a).text().toLowerCase();
+      if (href.includes('youtube') || href.includes('youtu.be') || label.includes('video')) {
+        videos++;
+      } else if (
+        href.includes('docs.google.com/presentation') ||
+        href.includes('slides') ||
+        label.includes('slides') ||
+        href.endsWith('.pdf')
+      ) {
+        slides++;
+      }
+    });
+  });
+
+  return { sessions, slides, videos };
 }
 
 /**
@@ -60,9 +120,12 @@ export async function screenCourse(courseId) {
     
     // 2. content_map.json fetchen (optional)
     const contentMap = await fetchContentMap(courseId);
-    
-    // 3. Tier-Score berechnen
-    const { tier, score, warnings, reason } = calculateTier(data, contentMap);
+
+    // 3. Course Website fetchen falls verlinkt
+    const courseWebsite = await fetchCourseWebsite(contentMap);
+
+    // 4. Tier-Score berechnen
+    const { tier, score, warnings, reason } = calculateTier(data, contentMap, courseWebsite);
     
     // 4. DB updaten
     const dbData = {
