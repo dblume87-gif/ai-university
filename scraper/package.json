@@ -1,0 +1,20 @@
+{
+  "name": "mit-ocw-scraper",
+  "version": "0.1.0",
+  "description": "MIT OCW course discovery and screening scraper",
+  "type": "module",
+  "scripts": {
+    "discover": "node src/scrape.js discover",
+    "discover:test": "node src/scrape.js discover --query \"python\" --max 5 --headless --dry-run",
+    "screen": "node src/screening/screen.js",
+    "scrape": "node src/scrape.js",
+    "db:init": "node src/lib/db.js"
+  },
+  "dependencies": {
+    "crawlee": "^3.0.0",
+    "playwright": "^1.40.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "better-sqlite3": "^9.0.0"
+  }
+}
