@@ -1,0 +1,4 @@
+node_modules/
+storage/
+library.db-shm
+library.db-wal
