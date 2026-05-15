@@ -159,16 +159,15 @@ export async function screenCourse(courseId) {
  */
 export async function screenCourses(courseIds, { delayMs = DELAY_MS } = {}) {
   const results = [];
-  
-  for (const courseId of courseIds) {
-    const result = await screenCourse(courseId);
+
+  for (let i = 0; i < courseIds.length; i++) {
+    const result = await screenCourse(courseIds[i]);
     results.push(result);
-    
-    if (delayMs > 0 && courseIds.indexOf(courseId) < courseIds.length - 1) {
+    if (delayMs > 0 && i < courseIds.length - 1) {
       await sleep(delayMs);
     }
   }
-  
+
   return results;
 }
 

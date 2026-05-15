@@ -92,7 +92,7 @@ export function upsertCourse(courseId, data) {
   `);
   stmt.run({
     course_id: courseId,
-    title: data.course_title || data.title,
+    title: data.course_title || data.title || 'Unknown',
     source_url: data.source_url,
     term: data.term,
     year: data.year,
@@ -109,7 +109,7 @@ export function upsertDiscoveredCourse(courseId, data) {
     INSERT INTO courses (course_id, title, source_url)
     VALUES (@course_id, @title, @source_url)
     ON CONFLICT(course_id) DO UPDATE SET
-      source_url = COALESCE(courses.source_url, excluded.source_url)
+      source_url = excluded.source_url
   `);
   const insertLog = db.prepare(`
     INSERT INTO discovery_log (course_id, source_url)
