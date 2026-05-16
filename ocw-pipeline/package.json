@@ -8,9 +8,19 @@
     "discover:test": "node src/scrape.js discover --query \"python\" --max 5 --headless --dry-run",
     "screen": "node src/scrape.js screen",
     "scrape": "node src/scrape.js",
+    "status": "node src/scrape.js status",
+    "shortlist": "node src/scrape.js shortlist",
+    "similar": "node src/scrape.js similar",
+    "local:import": "node src/scrape.js local import",
     "db:init": "node src/lib/db.js",
     "notebooklm:install": "python3 -m pip install \"notebooklm-py[browser]==0.3.4\"",
-    "notebooklm:check": "notebooklm --version"
+    "notebooklm:check": "notebooklm --version",
+    "notebooklm:ready": "node src/scrape.js notebooklm ready",
+    "notebooklm:sync": "node src/scrape.js notebooklm sync",
+    "notebooklm:assets": "node src/scrape.js notebooklm assets"
+  },
+  "engines": {
+    "node": ">=20"
   },
   "dependencies": {
     "crawlee": "^3.0.0",
