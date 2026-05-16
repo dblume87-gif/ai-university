@@ -8,7 +8,9 @@
     "discover:test": "node src/scrape.js discover --query \"python\" --max 5 --headless --dry-run",
     "screen": "node src/scrape.js screen",
     "scrape": "node src/scrape.js",
-    "db:init": "node src/lib/db.js"
+    "db:init": "node src/lib/db.js",
+    "notebooklm:install": "python3 -m pip install \"notebooklm-py[browser]==0.3.4\"",
+    "notebooklm:check": "notebooklm --version"
   },
   "dependencies": {
     "crawlee": "^3.0.0",
