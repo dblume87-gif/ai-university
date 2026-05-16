@@ -1,5 +1,5 @@
 import { spawnSync } from 'child_process';
-import { mkdir, readFile, writeFile } from 'fs/promises';
+import { mkdir, readdir, readFile, stat, writeFile } from 'fs/promises';
 import { dirname, join, relative } from 'path';
 import { fileURLToPath } from 'url';
 import {
@@ -18,6 +18,18 @@ const SCRAPER_ROOT = join(__dirname, '../..');
 const WORKSPACE_ROOT = join(SCRAPER_ROOT, '..');
 const DEFAULT_OUTPUT_ROOT = join(WORKSPACE_ROOT, 'library', 'notebooklm');
 const DEFAULT_SOURCE_LIMIT = 50;
+const DEFAULT_ASSET_TYPES = [
+  'audio',
+  'video',
+  'cinematic-video',
+  'slide-deck',
+  'infographic',
+  'report',
+  'mind-map',
+  'data-table',
+  'flashcards',
+  'quiz'
+];
 
 const SOURCE_PRIORITY = {
   pdf: 1,
@@ -45,6 +57,9 @@ export function getNotebookLmOptions(args) {
     createNotebook: args.includes('--create'),
     dryRun: args.includes('--dry-run'),
     withMetadata: args.includes('--with-metadata'),
+    download: args.includes('--download'),
+    force: args.includes('--force'),
+    types: getListOption(args, '--types') || DEFAULT_ASSET_TYPES,
     wait: args.includes('--wait'),
     timeout: getIntegerOption(args, '--timeout') || 120
   };
@@ -53,7 +68,7 @@ export function getNotebookLmOptions(args) {
 function getCourseArg(args) {
   for (let i = 1; i < args.length; i++) {
     const value = args[i];
-    if (['--limit', '--max-sources', '--out', '--notebook-id', '--timeout'].includes(value)) {
+    if (['--limit', '--max-sources', '--out', '--notebook-id', '--timeout', '--types'].includes(value)) {
       i++;
       continue;
     }
@@ -73,6 +88,13 @@ function getOptionValue(args, name) {
 function getIntegerOption(args, name) {
   const value = Number.parseInt(getOptionValue(args, name), 10);
   return Number.isInteger(value) && value > 0 ? value : undefined;
+}
+
+function getListOption(args, name) {
+  const value = getOptionValue(args, name);
+  return value
+    ? value.split(',').map(item => item.trim()).filter(Boolean)
+    : null;
 }
 
 export function getReadyNotebookLmCourses({ limit = 10, includeHold = false } = {}) {
@@ -291,7 +313,6 @@ export function syncNotebookLmCourses(options = {}) {
 
   for (const match of primaryByCourse) {
     const sourceCount = match.notebook.sources?.length ?? null;
-    match.source_count = sourceCount;
 
     if (!options.dryRun) {
       markNotebookLmUploaded(match.course.course_id, {
@@ -300,7 +321,7 @@ export function syncNotebookLmCourses(options = {}) {
       });
     }
 
-    updated.push(match);
+    updated.push({ ...match, source_count: sourceCount });
   }
 
   return {
@@ -308,7 +329,7 @@ export function syncNotebookLmCourses(options = {}) {
     totalNotebooks: notebooks.length,
     matched: matches.filter(match => match.course),
     unmatched: matches.filter(match => !match.course),
-    primary: primaryByCourse,
+    primary: updated,
     duplicates: findDuplicateMatches(matches),
     updated
   };
@@ -347,10 +368,163 @@ export function printNotebookLmSyncResult(result) {
   }
 }
 
+export async function indexNotebookLmAssets(options = {}) {
+  const courses = getNotebookLmAssetCourses(options);
+  const indexedAt = new Date().toISOString();
+  const courseResults = [];
+  const assetRoot = join(DEFAULT_OUTPUT_ROOT, 'assets');
+
+  await mkdir(assetRoot, { recursive: true });
+
+  for (const course of courses) {
+    const courseDir = join(assetRoot, course.course_id);
+    await mkdir(courseDir, { recursive: true });
+
+    const artifacts = listNotebookLmArtifacts(course);
+    const downloads = options.download
+      ? downloadNotebookLmAssets(course, courseDir, options)
+      : [];
+    const localFiles = await listLocalFiles(courseDir);
+
+    courseResults.push({
+      course_id: course.course_id,
+      title: course.title,
+      notebook_id: course.notebooklm_notebook_id,
+      notebook_title: artifacts.notebook_title || null,
+      artifact_count: artifacts.artifacts.length,
+      artifacts: artifacts.artifacts,
+      downloads,
+      local_dir: relative(WORKSPACE_ROOT, courseDir),
+      local_files: localFiles
+    });
+  }
+
+  const index = {
+    generated_at: indexedAt,
+    asset_root: relative(WORKSPACE_ROOT, assetRoot),
+    course_count: courseResults.length,
+    artifact_count: courseResults.reduce((sum, course) => sum + course.artifact_count, 0),
+    local_file_count: courseResults.reduce((sum, course) => sum + course.local_files.length, 0),
+    courses: courseResults
+  };
+
+  const indexPath = join(assetRoot, 'index.json');
+  const markdownPath = join(assetRoot, 'INDEX.md');
+  await writeFile(indexPath, `${JSON.stringify(index, null, 2)}\n`, 'utf8');
+  await writeFile(markdownPath, renderAssetIndex(index), 'utf8');
+
+  return { ...index, indexPath, markdownPath };
+}
+
+export function printNotebookLmAssetIndex(result) {
+  console.log('\n=== NotebookLM Asset Index ===\n');
+  console.log(`Courses: ${result.course_count}`);
+  console.log(`Artifacts: ${result.artifact_count}`);
+  console.log(`Local files: ${result.local_file_count}`);
+  console.log(`Index: ${result.indexPath}`);
+  console.log(`Markdown: ${result.markdownPath}`);
+  console.log('');
+
+  for (const course of result.courses) {
+    console.log(`${course.course_id}`);
+    console.log(`  ${course.title}`);
+    console.log(`  notebook=${course.notebook_id} artifacts=${course.artifact_count} local_files=${course.local_files.length}`);
+  }
+}
+
 function requireCourse(courseId) {
   const course = getCourse(courseId);
   if (!course) throw new Error(`Kurs nicht gefunden: ${courseId}`);
   return course;
+}
+
+function getNotebookLmAssetCourses(options = {}) {
+  const courses = getAllCourses()
+    .filter(course => course.notebooklm_notebook_id);
+
+  if (options.courseId) {
+    return courses.filter(course => course.course_id === options.courseId);
+  }
+
+  if (options.notebookId) {
+    return courses.filter(course => course.notebooklm_notebook_id?.startsWith(options.notebookId));
+  }
+
+  return courses;
+}
+
+function listNotebookLmArtifacts(course) {
+  try {
+    return runNotebookLmJson(['artifact', 'list', '--notebook', course.notebooklm_notebook_id, '--json']);
+  } catch (err) {
+    return {
+      notebook_id: course.notebooklm_notebook_id,
+      notebook_title: course.title,
+      artifacts: [],
+      count: 0,
+      error: err.message
+    };
+  }
+}
+
+function downloadNotebookLmAssets(course, courseDir, options = {}) {
+  const downloads = [];
+
+  for (const type of options.types || DEFAULT_ASSET_TYPES) {
+    const typeDir = join(courseDir, type);
+    const args = ['download', type, '--notebook', course.notebooklm_notebook_id, '--all', typeDir, '--json'];
+    args.push(options.force ? '--force' : '--no-clobber');
+    if (options.dryRun) args.push('--dry-run');
+
+    try {
+      const result = runNotebookLmJson(args);
+      downloads.push({
+        type,
+        status: result.error ? 'empty' : 'ok',
+        result
+      });
+    } catch (err) {
+      const message = err.message || '';
+      const missing = message.includes('No completed') || message.includes('No artifacts');
+      downloads.push({
+        type,
+        status: missing ? 'empty' : 'error',
+        message
+      });
+    }
+  }
+
+  return downloads;
+}
+
+async function listLocalFiles(rootDir) {
+  const files = [];
+
+  async function walk(dir) {
+    let entries = [];
+    try {
+      entries = await readdir(dir, { withFileTypes: true });
+    } catch {
+      return;
+    }
+
+    for (const entry of entries) {
+      const path = join(dir, entry.name);
+      if (entry.isDirectory()) {
+        await walk(path);
+      } else if (entry.isFile()) {
+        const info = await stat(path);
+        files.push({
+          path: relative(WORKSPACE_ROOT, path),
+          bytes: info.size,
+          modified_at: info.mtime.toISOString()
+        });
+      }
+    }
+  }
+
+  await walk(rootDir);
+  return files.sort((a, b) => a.path.localeCompare(b.path));
 }
 
 function selectNotebookLmSources(materials, maxSources) {
@@ -615,7 +789,7 @@ function runNotebookLmJson(args) {
   try {
     return JSON.parse(output);
   } catch {
-    return { output };
+    throw new Error(`notebooklm ${args.join(' ')}: ungültige JSON-Ausgabe: ${output.slice(0, 200)}`);
   }
 }
 
@@ -712,4 +886,53 @@ function renderUploadQueue(manifest) {
 
   lines.push('');
   return `${lines.join('\n')}\n`;
+}
+
+function renderAssetIndex(index) {
+  const lines = [
+    '# NotebookLM Asset Index',
+    '',
+    `Generated: ${index.generated_at}`,
+    `Asset root: \`${index.asset_root}\``,
+    `Courses: ${index.course_count}`,
+    `Artifacts: ${index.artifact_count}`,
+    `Local files: ${index.local_file_count}`,
+    '',
+    '## Courses',
+    ''
+  ];
+
+  for (const course of index.courses) {
+    lines.push(`### ${course.title}`);
+    lines.push('');
+    lines.push(`- Course ID: \`${course.course_id}\``);
+    lines.push(`- Notebook ID: \`${course.notebook_id}\``);
+    lines.push(`- Artifacts: ${course.artifact_count}`);
+    lines.push(`- Local files: ${course.local_files.length}`);
+
+    if (course.artifacts.length > 0) {
+      lines.push('');
+      lines.push('| Type | Title | Status | Created | ID |');
+      lines.push('|------|-------|--------|---------|----|');
+      for (const artifact of course.artifacts) {
+        lines.push(`| ${artifact.type_id || artifact.type || ''} | ${escapeMarkdownTable(artifact.title || '')} | ${artifact.status || ''} | ${artifact.created_at || ''} | \`${artifact.id || ''}\` |`);
+      }
+    }
+
+    if (course.local_files.length > 0) {
+      lines.push('');
+      lines.push('Local files:');
+      for (const file of course.local_files) {
+        lines.push(`- \`${file.path}\` (${file.bytes} bytes)`);
+      }
+    }
+
+    lines.push('');
+  }
+
+  return `${lines.join('\n')}\n`;
+}
+
+function escapeMarkdownTable(value) {
+  return String(value).replaceAll('|', '\\|');
 }

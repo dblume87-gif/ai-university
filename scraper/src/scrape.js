@@ -11,11 +11,14 @@ import { discoverViaSearch, discoverAllDepartments } from './discovery/crawl.js'
 import { screenCourse, screenCourses, screenDiscovered } from './screening/screen.js';
 import { getShortlist, getShortlistOptions, printShortlist } from './curation/shortlist.js';
 import { getSimilarCourses, getSimilarOptions, printSimilarCourses } from './curation/similar.js';
+import { getLocalImportOptions, importLocalLibrary, printLocalImportResults } from './local/import-library.js';
 import {
   approveCourseForNotebookLm,
   exportNotebookLmManifest,
   getNotebookLmOptions,
   getReadyNotebookLmCourses,
+  indexNotebookLmAssets,
+  printNotebookLmAssetIndex,
   printReadyNotebookLmCourses,
   printNotebookLmSyncResult,
   syncNotebookLmCourses,
@@ -39,11 +42,13 @@ Usage:
   node src/scrape.js screen <course-id> [--fast|--deep] [--deep-tier 1,2]
   node src/scrape.js shortlist [--limit 5] [--topic "Economics"] [--department 18] [--material psets] [--min-videos 10] [--min-pdfs 5] [--include-hold] [--sort score|videos|pdfs|notes|psets|exams|title]
   node src/scrape.js similar <course-id> [--limit 5] [--include-hold]
+  node src/scrape.js local import [--root ../library] [--course-id id] [--rescreen] [--fast] [--dry-run]
   node src/scrape.js notebooklm ready [--limit 10] [--include-hold]
   node src/scrape.js notebooklm approve <course-id>
   node src/scrape.js notebooklm export <course-id> [--max-sources 50] [--out library/notebooklm/<course-id>] [--mark-ready] [--notebook-id id]
   node src/scrape.js notebooklm upload <course-id> [--notebook-id id|--create] [--max-sources 50] [--wait] [--dry-run]
   node src/scrape.js notebooklm sync [--dry-run] [--with-metadata]
+  node src/scrape.js notebooklm assets [course-id] [--download] [--dry-run] [--types video,audio,report]
   node src/scrape.js test [course-id]
   node src/scrape.js status
       `);
@@ -107,10 +112,11 @@ function getScreenOptions() {
     : null;
 
   const selectedDeepTiers = deepTiers?.length ? deepTiers : null;
+  const isFast = hasOption('--fast');
 
   return {
-    deep: hasOption('--fast') && !selectedDeepTiers ? false : true,
-    deepTiers: selectedDeepTiers
+    deep: !isFast || selectedDeepTiers !== null,
+    deepTiers: isFast ? selectedDeepTiers : null
   };
 }
 
@@ -194,6 +200,18 @@ async function main() {
       break;
     }
 
+    case 'local': {
+      const action = args[1] || 'import';
+      if (action === 'import') {
+        const options = getLocalImportOptions(args.slice(2));
+        const results = await importLocalLibrary(options);
+        printLocalImportResults(results);
+      } else {
+        printUsage();
+      }
+      break;
+    }
+
     case 'notebooklm': {
       const action = args[1] || 'ready';
       const options = getNotebookLmOptions(args.slice(1));
@@ -223,6 +241,10 @@ async function main() {
       } else if (action === 'sync') {
         const result = syncNotebookLmCourses(options);
         printNotebookLmSyncResult(result);
+      } else if (action === 'assets') {
+        const assetOptions = getNotebookLmOptions(['assets', ...args.slice(2)]);
+        const result = await indexNotebookLmAssets(assetOptions);
+        printNotebookLmAssetIndex(result);
       } else {
         printUsage();
       }

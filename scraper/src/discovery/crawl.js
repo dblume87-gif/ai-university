@@ -47,7 +47,7 @@ async function scrollAndCollectCourseLinks(page, discovered, maxCourses) {
 
   while (discovered.size + links.length < maxCourses && idleRounds < 5) {
     const before = links.length;
-    const freshLinks = await collectCourseLinks(page, new Set([...discovered, ...links.map(extractCourseId)]), maxCourses);
+    const freshLinks = await collectCourseLinks(page, new Set([...discovered, ...links.map(extractCourseId).filter(Boolean)]), maxCourses);
     links.push(...freshLinks);
 
     const height = await page.evaluate(() => document.body.scrollHeight);

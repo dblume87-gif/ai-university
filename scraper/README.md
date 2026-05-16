@@ -77,6 +77,26 @@ node src/scrape.js similar 6-622-power-electronics-spring-2023 --limit 10 --incl
 Die Ähnlichkeitssuche ist ebenfalls nicht-mutierend. Topics sind das stärkste
 Signal, Departments das zweite Signal, gemeinsame Titelwörter das schwächste.
 
+## Lokale Kursordner importieren
+
+```bash
+# Lokale Testphase-Kurse aus ../library prüfen, ohne DB-Änderung
+node src/scrape.js local import --dry-run
+
+# Lokale PDFs, Markdown-Dateien und Video-Links strukturiert in library.db aufnehmen
+node src/scrape.js local import
+
+# Vor dem lokalen Import OCW-Metadaten erneut schnell scrapen
+node src/scrape.js local import --rescreen --fast
+
+# Nur einen Kurs importieren
+node src/scrape.js local import --course-id 6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016
+```
+
+Der lokale Import ersetzt nur Materialien mit `source_kind='local_library'`.
+Online gescrapte OCW-Materialien bleiben erhalten. NotebookLM-Status wie
+`uploaded_to_notebooklm` werden beim Re-Screening bewahrt.
+
 ## NotebookLM-Anschluss
 
 Der erste Anschluss ist bewusst ein Freigabe- und Manifest-Schritt. Er lädt noch
