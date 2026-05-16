@@ -22,12 +22,16 @@ function initSchema() {
       course_id            TEXT PRIMARY KEY,
       title                TEXT NOT NULL,
       source_url           TEXT,
+      departments          TEXT,
+      department_numbers   TEXT,
+      as_taught_in         TEXT,
       term                 TEXT,
       year                 TEXT,
       level                TEXT,
       topics               TEXT,
       instructors          TEXT,
       learning_resource_types TEXT,
+      course_page_metadata TEXT,
       status               TEXT NOT NULL DEFAULT 'discovered',
       tier                 INTEGER,
       tier_score           INTEGER,
@@ -53,9 +57,17 @@ function initSchema() {
       course_id         TEXT NOT NULL REFERENCES courses(course_id),
       lecture_id        INTEGER REFERENCES lectures(id),
       type              TEXT,
+      title             TEXT,
+      material_type     TEXT,
+      media_type        TEXT,
+      source_kind       TEXT,
+      resource_id       TEXT,
+      resource_path     TEXT,
       source_url        TEXT,
       local_path        TEXT,
-      extraction_status TEXT
+      extraction_status TEXT,
+      metadata_json     TEXT,
+      created_at        TEXT DEFAULT CURRENT_TIMESTAMP
     );
 
     CREATE TABLE IF NOT EXISTS warnings (
@@ -73,33 +85,105 @@ function initSchema() {
       found_at   TEXT DEFAULT CURRENT_TIMESTAMP
     );
   `);
+
+  migrateSchema();
+}
+
+function migrateSchema() {
+  const courseColumns = new Set(db.prepare('PRAGMA table_info(courses)').all().map(column => column.name));
+  const courseMigrations = [
+    ['departments', 'ALTER TABLE courses ADD COLUMN departments TEXT'],
+    ['department_numbers', 'ALTER TABLE courses ADD COLUMN department_numbers TEXT'],
+    ['as_taught_in', 'ALTER TABLE courses ADD COLUMN as_taught_in TEXT'],
+    ['course_page_metadata', 'ALTER TABLE courses ADD COLUMN course_page_metadata TEXT']
+  ];
+
+  for (const [column, sql] of courseMigrations) {
+    if (!courseColumns.has(column)) {
+      db.exec(sql);
+    }
+  }
+
+  const materialColumns = new Set(db.prepare('PRAGMA table_info(materials)').all().map(column => column.name));
+  const materialMigrations = [
+    ['title', 'ALTER TABLE materials ADD COLUMN title TEXT'],
+    ['material_type', 'ALTER TABLE materials ADD COLUMN material_type TEXT'],
+    ['media_type', 'ALTER TABLE materials ADD COLUMN media_type TEXT'],
+    ['source_kind', 'ALTER TABLE materials ADD COLUMN source_kind TEXT'],
+    ['resource_id', 'ALTER TABLE materials ADD COLUMN resource_id TEXT'],
+    ['resource_path', 'ALTER TABLE materials ADD COLUMN resource_path TEXT'],
+    ['metadata_json', 'ALTER TABLE materials ADD COLUMN metadata_json TEXT'],
+    ['created_at', 'ALTER TABLE materials ADD COLUMN created_at TEXT']
+  ];
+
+  for (const [column, sql] of materialMigrations) {
+    if (!materialColumns.has(column)) {
+      db.exec(sql);
+    }
+  }
 }
 
 export function upsertCourse(courseId, data) {
   const db = getDb();
   const stmt = db.prepare(`
-    INSERT INTO courses (course_id, title, source_url, term, year, level, topics, instructors, learning_resource_types)
-    VALUES (@course_id, @title, @source_url, @term, @year, @level, @topics, @instructors, @learning_resource_types)
+    INSERT INTO courses (
+      course_id,
+      title,
+      source_url,
+      departments,
+      department_numbers,
+      as_taught_in,
+      term,
+      year,
+      level,
+      topics,
+      instructors,
+      learning_resource_types,
+      course_page_metadata
+    )
+    VALUES (
+      @course_id,
+      @title,
+      @source_url,
+      @departments,
+      @department_numbers,
+      @as_taught_in,
+      @term,
+      @year,
+      @level,
+      @topics,
+      @instructors,
+      @learning_resource_types,
+      @course_page_metadata
+    )
     ON CONFLICT(course_id) DO UPDATE SET
       title = excluded.title,
       source_url = excluded.source_url,
+      departments = excluded.departments,
+      department_numbers = excluded.department_numbers,
+      as_taught_in = excluded.as_taught_in,
       term = excluded.term,
       year = excluded.year,
       level = excluded.level,
       topics = excluded.topics,
       instructors = excluded.instructors,
-      learning_resource_types = excluded.learning_resource_types
+      learning_resource_types = excluded.learning_resource_types,
+      course_page_metadata = excluded.course_page_metadata
   `);
   stmt.run({
     course_id: courseId,
     title: data.course_title || data.title || 'Unknown',
     source_url: data.source_url,
+    departments: JSON.stringify(data.departments || []),
+    department_numbers: JSON.stringify(data.department_numbers || []),
+    as_taught_in: data.as_taught_in || [data.term, data.year].filter(Boolean).join(' ') || null,
     term: data.term,
     year: data.year,
     level: JSON.stringify(data.level || []),
     topics: JSON.stringify(data.topics || []),
     instructors: JSON.stringify(data.instructors || []),
-    learning_resource_types: JSON.stringify(data.learning_resource_types || [])
+    learning_resource_types: JSON.stringify(data.learning_resource_types || []),
+    course_page_metadata: JSON.stringify(data.course_page_metadata || {})
   });
 }
 
@@ -152,6 +236,68 @@ export function updateScreening(courseId, { tier, score, warnings, reason, statu
   });
 }
 
+export function replaceCourseMaterials(courseId, materials) {
+  const db = getDb();
+  const deleteStmt = db.prepare('DELETE FROM materials WHERE course_id = ?');
+  const insertStmt = db.prepare(`
+    INSERT INTO materials (
+      course_id,
+      lecture_id,
+      type,
+      title,
+      material_type,
+      media_type,
+      source_kind,
+      resource_id,
+      resource_path,
+      source_url,
+      local_path,
+      extraction_status,
+      metadata_json,
+      created_at
+    )
+    VALUES (
+      @course_id,
+      @lecture_id,
+      @type,
+      @title,
+      @material_type,
+      @media_type,
+      @source_kind,
+      @resource_id,
+      @resource_path,
+      @source_url,
+      @local_path,
+      @extraction_status,
+      @metadata_json,
+      CURRENT_TIMESTAMP
+    )
+  `);
+
+  const tx = db.transaction(() => {
+    deleteStmt.run(courseId);
+    for (const material of materials) {
+      insertStmt.run({
+        course_id: courseId,
+        lecture_id: material.lecture_id || null,
+        type: material.type || material.material_type || null,
+        title: material.title || null,
+        material_type: material.material_type || material.type || 'Other',
+        media_type: material.media_type || 'other',
+        source_kind: material.source_kind || null,
+        resource_id: material.resource_id || null,
+        resource_path: material.resource_path || null,
+        source_url: material.source_url || null,
+        local_path: material.local_path || null,
+        extraction_status: material.extraction_status || 'linked',
+        metadata_json: JSON.stringify(material.metadata || {})
+      });
+    }
+  });
+
+  tx();
+}
+
 export function getCoursesByStatus(status) {
   const db = getDb();
   return db.prepare('SELECT * FROM courses WHERE status = ?').all(status);
@@ -162,4 +308,12 @@ export function getCourse(courseId) {
   return db.prepare('SELECT * FROM courses WHERE course_id = ?').get(courseId);
 }
 
-export default { getDb, upsertCourse, upsertDiscoveredCourse, updateScreening, getCoursesByStatus, getCourse };
+export default {
+  getDb,
+  upsertCourse,
+  upsertDiscoveredCourse,
+  updateScreening,
+  replaceCourseMaterials,
+  getCoursesByStatus,
+  getCourse
+};

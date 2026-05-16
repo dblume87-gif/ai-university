@@ -16,6 +16,20 @@ const args = process.argv.slice(2);
 const command = args[0];
 const arg = args[1];
 
+function printUsage() {
+  console.log(`
+MIT OCW Scraper
+
+Usage:
+  node src/scrape.js discover --query "machine learning" [--max 5] [--headless|--headed] [--dry-run]
+  node src/scrape.js discover --depts [--max 5] [--headless|--headed] [--dry-run]
+  node src/scrape.js screen --all
+  node src/scrape.js screen <course-id>
+  node src/scrape.js test [course-id]
+  node src/scrape.js status
+      `);
+}
+
 function getOptionValue(name) {
   const index = args.indexOf(name);
   const value = index >= 0 ? args[index + 1] : undefined;
@@ -51,6 +65,11 @@ function getDiscoverOptions() {
 }
 
 async function main() {
+  if (!command || hasOption('--help') || hasOption('-h')) {
+    printUsage();
+    return;
+  }
+
   switch (command) {
     case 'discover': {
       // discover --query "machine learning"
@@ -113,17 +132,7 @@ async function main() {
     }
     
     default:
-      console.log(`
-MIT OCW Scraper
-
-Usage:
-  node src/scrape.js discover --query "machine learning" [--max 5] [--headless|--headed] [--dry-run]
-  node src/scrape.js discover --depts [--max 5] [--headless|--headed] [--dry-run]
-  node src/scrape.js screen --all
-  node src/scrape.js screen <course-id>
-  node src/scrape.js test [course-id]
-  node src/scrape.js status
-      `);
+      printUsage();
   }
   
   process.exit(0);
