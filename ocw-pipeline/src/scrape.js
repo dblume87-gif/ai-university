@@ -1,5 +1,5 @@
 /**
- * MIT OCW Scraper — Main Entry Point
+ * MIT OCW Pipeline — Main Entry Point
  * 
  * Usage:
  *   node src/scrape.js discover --query "machine learning"
@@ -33,7 +33,7 @@ const arg = args[1];
 
 function printUsage() {
   console.log(`
-MIT OCW Scraper
+MIT OCW Pipeline
 
 Usage:
   node src/scrape.js discover --query "machine learning" [--max 5] [--headless|--headed] [--dry-run]

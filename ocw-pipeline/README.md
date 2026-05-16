@@ -1,4 +1,4 @@
-# MIT OCW Scraper
+# MIT OCW Pipeline
 
 Phase 1: Discovery der Kurs-IDs via Playwright (JS-gerenderte Seiten)
 Phase 2+3: Screening via HTTP + JSON (data.json, content_map.json)
@@ -14,7 +14,7 @@ lib/                ← Shared: Schema, DB, Utilities
 ## Setup
 
 ```bash
-cd scraper
+cd ocw-pipeline
 npm init -y
 npm install crawlee playwright
 npx playwright install chromium

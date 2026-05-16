@@ -1,7 +1,7 @@
 {
-  "name": "mit-ocw-scraper",
+  "name": "mit-ocw-pipeline",
   "version": "0.1.0",
-  "description": "MIT OCW course discovery and screening scraper",
+  "description": "MIT OCW course discovery, screening, and NotebookLM pipeline",
   "type": "module",
   "scripts": {
     "discover": "node src/scrape.js discover",

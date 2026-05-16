@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-16T12:49:06.797Z",
+  "dry_run": true,
+  "course_id": "6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016",
+  "notebook_id": null,
+  "notebook_created": false,
+  "sources": [
+    {
+      "order": 1,
+      "title": "Lecture 1: Welcome",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/e921a690079369751bcce3e34da6c6ee_MIT6_0001F16_Lec1.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/e921a690079369751bcce3e34da6c6ee_MIT6_0001F16_Lec1.pdf --title Lecture 1: Welcome --json --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 2,
+      "title": "Lecture 2: Branching, Iteration",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/ba2947b25b1580e4a84df0ec5dbe5cdd_MIT6_0001F16_Lec2.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/ba2947b25b1580e4a84df0ec5dbe5cdd_MIT6_0001F16_Lec2.pdf --title Lecture 2: Branching, Iteration --json --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 3,
+      "title": "Lecture 3: String Manipulation, Guess-and-Check, Approximations, Bisection",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/b9b9a82a29e8746db1facfbd30c07940_MIT6_0001F16_Lec3.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/b9b9a82a29e8746db1facfbd30c07940_MIT6_0001F16_Lec3.pdf --title Lecture 3: String Manipulation, Guess-and-Check, Approximations, Bisection --json --type url",
+      "status": "dry_run"
+    }
+  ]
+}

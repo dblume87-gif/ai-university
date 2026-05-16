@@ -1,0 +1,355 @@
+{
+  "generated_at": "2026-05-16T12:49:26.363Z",
+  "target": "notebooklm",
+  "upload_mode": "source_manifest",
+  "notebooklm_api_note": "Personal NotebookLM can use this as a manual upload queue. NotebookLM Enterprise can map these sources to its notebook/source API.",
+  "course": {
+    "course_id": "6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016",
+    "title": "Introduction to Computer Science and Programming in Python",
+    "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/",
+    "term": "Fall",
+    "year": "2016",
+    "level": [
+      "Undergraduate"
+    ],
+    "topics": [
+      [
+        "Engineering",
+        "Computer Science"
+      ],
+      [
+        "Engineering",
+        "Computer Science",
+        "Algorithms and Data Structures"
+      ],
+      [
+        "Engineering",
+        "Computer Science",
+        "Programming Languages"
+      ]
+    ],
+    "instructors": [
+      {
+        "first_name": "Ana",
+        "last_name": "Bell",
+        "middle_initial": "",
+        "salutation": "Dr.",
+        "title": "Dr. Ana Bell",
+        "uid": "5c0454cf-72a0-46d9-66ca-fa2edb801005",
+        "url": "/search/?q=Dr.+Ana+Bell"
+      },
+      {
+        "first_name": "Eric",
+        "last_name": "Grimson",
+        "middle_initial": "",
+        "salutation": "Prof.",
+        "title": "Prof. Eric Grimson",
+        "uid": "c010ab86-ace6-3792-07c9-ce6c8e62e38f",
+        "url": "/search/?q=Prof.+Eric+Grimson"
+      },
+      {
+        "first_name": "John",
+        "last_name": "Guttag",
+        "middle_initial": "",
+        "salutation": "Prof.",
+        "title": "Prof. John Guttag",
+        "uid": "0fb19bce-9520-8355-d51a-1d5087eb5391",
+        "url": "/search/?q=Prof.+John+Guttag"
+      }
+    ],
+    "status": "ready_for_notebooklm",
+    "tier": 1,
+    "tier_score": 40,
+    "screening_reason": "Starke Materialbasis, gute Automatisierbarkeit",
+    "warnings": []
+  },
+  "qa": {
+    "status": "ready",
+    "blocking": [],
+    "warnings": [
+      "431 Materialien wurden wegen Source-Limit oder ungeeignetem Typ nicht exportiert."
+    ],
+    "material_counts": {
+      "pdf": 144,
+      "youtube": 43,
+      "video": 39,
+      "html": 2,
+      "captions": 192,
+      "code": 12,
+      "other": 3,
+      "external": 3,
+      "archive": 5
+    }
+  },
+  "source_limits": {
+    "max_sources": 12,
+    "exported_sources": 12,
+    "total_materials": 443
+  },
+  "sources": [
+    {
+      "order": 1,
+      "title": "Lecture 1: Welcome",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/e921a690079369751bcce3e34da6c6ee_MIT6_0001F16_Lec1.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Slides and Code",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "e921a690-0793-6975-1bcc-e3e34da6c6ee"
+      }
+    },
+    {
+      "order": 2,
+      "title": "Lecture 2: Branching, Iteration",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/ba2947b25b1580e4a84df0ec5dbe5cdd_MIT6_0001F16_Lec2.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Slides and Code",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "ba2947b2-5b15-80e4-a84d-f0ec5dbe5cdd"
+      }
+    },
+    {
+      "order": 3,
+      "title": "Lecture 3: String Manipulation, Guess-and-Check, Approximations, Bisection",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/b9b9a82a29e8746db1facfbd30c07940_MIT6_0001F16_Lec3.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Slides and Code",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "b9b9a82a-29e8-746d-b1fa-cfbd30c07940"
+      }
+    },
+    {
+      "order": 4,
+      "title": "Lecture 4: Decomposition, Abstraction, Functions",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6ba59859535f1566dd57a7279aeba5d1_MIT6_0001F16_Lec4.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Slides and Code",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "6ba59859-535f-1566-dd57-a7279aeba5d1"
+      }
+    },
+    {
+      "order": 5,
+      "title": "Lecture 5: Tuples, Lists, Aliasing, Mutability, Cloning",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/1776670e271578eeb99fc25975f20586_MIT6_0001F16_Lec5.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Slides and Code",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "1776670e-2715-78ee-b99f-c25975f20586"
+      }
+    },
+    {
+      "order": 6,
+      "title": "Lecture 6: Recursion, Dictionaries",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/876348c652c5353daccc96e1b7d577bb_MIT6_0001F16_Lec6.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Slides and Code",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "876348c6-52c5-353d-accc-96e1b7d577bb"
+      }
+    },
+    {
+      "order": 7,
+      "title": "Lecture 7: Testing, Debugging, Exceptions, Assertions",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/51bdde43dfd773ba20747ce5d89119ac_MIT6_0001F16_Lec7.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Slides and Code",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "51bdde43-dfd7-73ba-2074-7ce5d89119ac"
+      }
+    },
+    {
+      "order": 8,
+      "title": "Lecture 8: Object Oriented Programming",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/7a6f85d03f132dcd9d7592bc4643be1c_MIT6_0001F16_Lec8.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Slides and Code",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "7a6f85d0-3f13-2dcd-9d75-92bc4643be1c"
+      }
+    },
+    {
+      "order": 9,
+      "title": "Lecture 9: Python Classes and Inheritance",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/2dd6c75e7b4bd6bd135078e6f3701201_MIT6_0001F16_Lec9.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Slides and Code",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "2dd6c75e-7b4b-d6bd-1350-78e6f3701201"
+      }
+    },
+    {
+      "order": 10,
+      "title": "Lecture 10: Understanding Program Efficiency: 1",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/066eba6ea6d56a88e56ae325940d4c4c_MIT6_0001F16_Lec10.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Slides and Code",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "066eba6e-a6d5-6a88-e56a-e325940d4c4c"
+      }
+    },
+    {
+      "order": 11,
+      "title": "Lecture 11: Understanding Program Efficiency: 2",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/bb953fb81d4afa3bc837c16eba613955_MIT6_0001F16_Lec11.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Slides and Code",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "bb953fb8-1d4a-fa3b-c837-c16eba613955"
+      }
+    },
+    {
+      "order": 12,
+      "title": "Lecture 12: Searching and Sorting Algorithms",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6425d0dabb1cea1a076b8c46c0ae2da6_MIT6_0001F16_Lec12.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Slides and Code",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "6425d0da-bb1c-ea1a-076b-8c46c0ae2da6"
+      }
+    }
+  ]
+}

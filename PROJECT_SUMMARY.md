@@ -21,8 +21,8 @@ Langfristig soll ein Nutzer nicht nur fertige Kursvideos sehen, sondern aus eine
 - [x] Erste NotebookLM-Notebooks fuer Kursmaterialien anlegen
 - [x] Erste AI-Erklaervideos aus NotebookLM generieren
 - [x] Ingestion-Plan fuer kurszentriertes Screening und NotebookLM-Freigabe erstellen
-- [x] SQLite-basierte Kurs-Library (`scraper/library.db`) aufbauen
-- [x] MIT-OCW-Scraper fuer Discovery, Screening, Shortlist und Aehnlichkeitssuche implementieren
+- [x] SQLite-basierte Kurs-Library (`ocw-pipeline/library.db`) aufbauen
+- [x] MIT-OCW-Pipeline fuer Discovery, Screening, Shortlist und Aehnlichkeitssuche implementieren
 - [x] NotebookLM-CLI-Anbindung fuer Ready-Listen, Manifeste, Uploads und Online-Sync implementieren
 - [x] Bestehende Online-Notebooks mit `library.db` synchronisieren
 - [ ] NotebookLM-Upload-Pipeline im Alltag stabilisieren und Duplikate bereinigen
@@ -38,7 +38,7 @@ Langfristig soll ein Nutzer nicht nur fertige Kursvideos sehen, sondern aus eine
 1. **Discovery**
    - MIT OCW Kurse werden per Scraper gefunden.
    - Discovery kann ueber Suchquery oder Department-Seiten laufen.
-   - Ergebnisse landen in `scraper/library.db`.
+   - Ergebnisse landen in `ocw-pipeline/library.db`.
 
 2. **Screening**
    - `data.json`, `content_map.json` und sichtbare Kursseiten-Metadaten werden ausgewertet.
@@ -74,8 +74,8 @@ Langfristig soll ein Nutzer nicht nur fertige Kursvideos sehen, sondern aus eine
 | **How2AI / MAS.S60** | aktiv | Moderner Zusatzkurs mit Slides, Papers und Videos |
 | **NotebookLM** | aktiv | Kurs-Notebooks, Sources und AI-Content-Generierung |
 | **NotebookLM CLI** | aktiv | Online-Notebooks listen, Metadaten lesen, Sources uploaden, Sync mit `library.db` |
-| **SQLite** | aktiv | `scraper/library.db` als Source of Truth fuer Kursstatus |
-| **Node.js Scraper** | aktiv | Discovery, Screening, Shortlist, Similar, NotebookLM-Integration |
+| **SQLite** | aktiv | `ocw-pipeline/library.db` als Source of Truth fuer Kursstatus |
+| **Node.js OCW Pipeline** | aktiv | Discovery, Screening, Shortlist, Similar, NotebookLM-Integration |
 | **YouTube** | geplant/teilweise aktiv | Kanal vorhanden, Upload-Pipeline noch ausbauen |
 | **Discord** | geplant/aktiv | Interface und Community-Kanal |
 | **OpenClaw** | aktiv | Workspace und Orchestrierung |
@@ -86,7 +86,7 @@ Langfristig soll ein Nutzer nicht nur fertige Kursvideos sehen, sondern aus eine
 
 ## Aktuelle Library
 
-`scraper/library.db` enthaelt aktuell **112 gescreente/verwaltete Kurse**.
+`ocw-pipeline/library.db` enthaelt aktuell **112 gescreente/verwaltete Kurse**.
 
 | Status | Anzahl |
 |--------|-------:|
@@ -99,8 +99,8 @@ Zusaetzlich gibt es eine aeltere lokale Materialsammlung in `library/` mit **10 
 Siehe auch:
 
 - `INVENTORY.md`
-- `scraper/library.db`
-- `scraper/README.md`
+- `ocw-pipeline/library.db`
+- `ocw-pipeline/README.md`
 
 ---
 
@@ -132,7 +132,7 @@ Auffaelligkeit:
 Relevante Kommandos:
 
 ```bash
-cd scraper
+cd ocw-pipeline
 node src/scrape.js notebooklm ready
 node src/scrape.js notebooklm export <course-id> --mark-ready
 node src/scrape.js notebooklm upload <course-id> --create --wait
@@ -164,10 +164,10 @@ Lokal liegen aktuell **11 MP4-Dateien** in `downloads/`:
 
 | Datei | Zweck |
 |-------|-------|
-| `scraper/src/scrape.js` | Haupt-CLI fuer Discovery, Screening, Kuratierung und NotebookLM |
-| `scraper/src/notebooklm/manifest.js` | NotebookLM Ready/Approve/Export/Upload/Sync |
-| `scraper/library.db` | SQLite Source of Truth fuer Kursstatus, Materialien und NotebookLM-IDs |
-| `scraper/README.md` | Scraper- und NotebookLM-CLI-Dokumentation |
+| `ocw-pipeline/src/scrape.js` | Haupt-CLI fuer Discovery, Screening, Kuratierung und NotebookLM |
+| `ocw-pipeline/src/notebooklm/manifest.js` | NotebookLM Ready/Approve/Export/Upload/Sync |
+| `ocw-pipeline/library.db` | SQLite Source of Truth fuer Kursstatus, Materialien und NotebookLM-IDs |
+| `ocw-pipeline/README.md` | OCW-Pipeline- und NotebookLM-CLI-Dokumentation |
 | `INGESTION_PLAN.md` | Arbeitsplan fuer Screening, Kursauswahl, Manifeste und NotebookLM-Freigabe |
 | `INGESTION_PLAN_TECHNICAL.md` | Technische Details zu Scoring, Schema und Designentscheidungen |
 | `INVENTORY.md` | Generiertes Inventar der vorhandenen lokalen Kursmaterialien |

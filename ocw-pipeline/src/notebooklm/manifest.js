@@ -15,8 +15,7 @@ import { SCREENING_STATUS } from '../lib/schema.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const SCRAPER_ROOT = join(__dirname, '../..');
-const WORKSPACE_ROOT = join(SCRAPER_ROOT, '..');
-const DEFAULT_OUTPUT_ROOT = join(WORKSPACE_ROOT, 'library', 'notebooklm');
+const DEFAULT_OUTPUT_ROOT = join(SCRAPER_ROOT, 'output', 'notebooklm');
 const DEFAULT_SOURCE_LIMIT = 50;
 const DEFAULT_ASSET_TYPES = [
   'audio',
