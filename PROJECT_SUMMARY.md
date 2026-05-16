@@ -7,6 +7,14 @@
 
 ---
 
+## Rolle dieses Dokuments
+
+Dieses Dokument beschreibt den laufenden Projektstand, Produktkontext und die naechsten Schritte. Es ist bewusst keine Installations- oder API-Dokumentation.
+
+Fuer den Einstieg ins Repo siehe [README.md](README.md). Fuer die aktive Pipeline siehe [ocw-pipeline/README.md](ocw-pipeline/README.md).
+
+---
+
 ## Was ist AI University?
 
 AI University ist eine AI-powered Learning Platform fuer kuratierte Lernpfade aus hochwertigen Kursmaterialien. Der aktuelle Build konzentriert sich auf MIT OpenCourseWare und verwandte Kursquellen: Kurse werden entdeckt, gescreent, materialseitig bewertet, fuer NotebookLM vorbereitet und spaeter als deutschsprachige Erklaervideos, YouTube-Inhalte und Website-Kursseiten ausgespielt.
@@ -98,7 +106,7 @@ Zusaetzlich gibt es eine aeltere lokale Materialsammlung in `library/` mit **10 
 
 Siehe auch:
 
-- `INVENTORY.md`
+- `archive/INVENTORY.md`
 - `ocw-pipeline/library.db`
 - `ocw-pipeline/README.md`
 
@@ -164,16 +172,21 @@ Lokal liegen aktuell **11 MP4-Dateien** in `downloads/`:
 
 | Datei | Zweck |
 |-------|-------|
+| `README.md` | Einstieg ins Gesamtprojekt und Links auf aktuelle Doku |
 | `ocw-pipeline/src/scrape.js` | Haupt-CLI fuer Discovery, Screening, Kuratierung und NotebookLM |
 | `ocw-pipeline/src/notebooklm/manifest.js` | NotebookLM Ready/Approve/Export/Upload/Sync |
 | `ocw-pipeline/library.db` | SQLite Source of Truth fuer Kursstatus, Materialien und NotebookLM-IDs |
 | `ocw-pipeline/README.md` | OCW-Pipeline- und NotebookLM-CLI-Dokumentation |
-| `INGESTION_PLAN.md` | Arbeitsplan fuer Screening, Kursauswahl, Manifeste und NotebookLM-Freigabe |
-| `INGESTION_PLAN_TECHNICAL.md` | Technische Details zu Scoring, Schema und Designentscheidungen |
-| `INVENTORY.md` | Generiertes Inventar der vorhandenen lokalen Kursmaterialien |
-| `AI_COURSES.md` | Kandidatenliste aus MIT OCW fuer fruehere AI/ML/DL-Suche |
-| `batch_upload.py` | Aelterer Batch-Upload vorhandener MIT-Kurse zu NotebookLM |
-| `build_inventory.py` | Generiert `INVENTORY.md` aus der lokalen Library |
+| `docs/ARCHITECTURE.md` | Aktueller Systemueberblick und Datenfluss |
+| `docs/DATA_MODEL.md` | SQLite-Tabellen, Statuswerte und NotebookLM-Felder |
+| `docs/RUNBOOKS.md` | Wiederholbare Arbeitsablaeufe fuer Entwicklung und Betrieb |
+| `docs/DECISIONS.md` | Kurzer Decision Log fuer Architekturentscheidungen |
+| `docs/archive/INGESTION_PLAN.md` | Archivierter Planungsstand fuer Ingestion |
+| `docs/archive/INGESTION_PLAN_TECHNICAL.md` | Archivierte technische Planungsdetails |
+| `archive/INVENTORY.md` | Generiertes Inventar der vorhandenen lokalen Kursmaterialien |
+| `archive/AI_COURSES.md` | Kandidatenliste aus MIT OCW fuer fruehere AI/ML/DL-Suche |
+| `archive/batch_upload.py` | Aelterer Batch-Upload vorhandener MIT-Kurse zu NotebookLM |
+| `archive/build_inventory.py` | Generiert `INVENTORY.md` aus der lokalen Library |
 
 ---
 

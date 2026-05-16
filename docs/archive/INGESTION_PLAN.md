@@ -1,5 +1,7 @@
 # AI University Ingestion Plan
 
+> Archivhinweis: Dieses Dokument stammt aus der Planungsphase. Die aktuelle Softwaredokumentation steht in `../ARCHITECTURE.md`, `../DATA_MODEL.md`, `../RUNBOOKS.md` und `../DECISIONS.md`.
+
 Arbeitsdokument fuer den ersten Pipeline-Teil: MIT OCW Kurse screenen, auswaehlen, Materialien zusammenstellen und fuer NotebookLM freigeben.
 
 Details zu Schemas, Scoring-Regeln und Designentscheidungen: [INGESTION_PLAN_TECHNICAL.md](INGESTION_PLAN_TECHNICAL.md)

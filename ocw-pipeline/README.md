@@ -1,31 +1,60 @@
 # MIT OCW Pipeline
 
-Phase 1: Discovery der Kurs-IDs via Playwright (JS-gerenderte Seiten)
-Phase 2+3: Screening via HTTP + JSON (data.json, content_map.json)
+Die MIT OCW Pipeline ist die aktive Softwarebasis von AI University. Sie entdeckt Kurse, screent Materiallage und Metadaten, verwaltet den lokalen Kursstatus in SQLite und erzeugt NotebookLM-taugliche Manifeste, Upload-Queues, Upload-Logs und Asset-Indizes.
 
-## Architektur
-
-```
-discovery/          ← Playwright: Kurssuche + Department Pages scrapen
-screening/          ← HTTP: data.json + content_map.json pro Kurs
-lib/                ← Shared: Schema, DB, Utilities
-```
+Der CLI-Einstieg liegt in `src/scrape.js`. Die lokale Datenbank `library.db` ist der Source of Truth fuer Kursstatus, Materialien und NotebookLM-Zuordnung.
 
 ## Setup
 
 ```bash
 cd ocw-pipeline
-npm init -y
-npm install crawlee playwright
+npm install
 npx playwright install chromium
+npm run db:init
+npm run scrape -- status
 ```
 
-## Workflow
+Optional fuer NotebookLM-Uploads und Sync:
 
-1. **Discovery** → Kurs-IDs sammeln (Playwright)
-2. **Bulk-Screening** → data.json pro Kurs fetchen + parsen
-3. **Detail-Check** → content_map.json für Material-Analyse
-4. **Output** → library.db updaten
+```bash
+npm run notebooklm:install
+npm run notebooklm:check
+```
+
+## Architektur
+
+```text
+src/discovery/      Playwright: Kurssuche und Department-Seiten
+src/screening/      HTTP/HTML/JSON: data.json, content_map.json, Course Website
+src/curation/       Shortlist und Aehnlichkeitssuche
+src/local/          Import lokaler Kursordner
+src/notebooklm/     Ready Gate, Manifest, Upload, Sync, Asset Index
+src/lib/            SQLite, Schema und geteilte Hilfsfunktionen
+```
+
+Mehr Kontext: [../docs/ARCHITECTURE.md](../docs/ARCHITECTURE.md)
+
+## NPM Scripts
+
+| Command | Zweck |
+|---------|-------|
+| `npm run discover` | Discovery ueber `src/scrape.js discover` |
+| `npm run discover:test` | Kleine Discovery-Testsuche nach `python` |
+| `npm run screen` | Screening-Einstieg |
+| `npm run scrape -- <args>` | Generischer CLI-Einstieg |
+| `npm run db:init` | Datenbank initialisieren/migrieren |
+| `npm run notebooklm:install` | NotebookLM CLI installieren |
+| `npm run notebooklm:check` | NotebookLM CLI pruefen |
+
+## Basis-Workflow
+
+1. **Discovery:** Kurs-IDs sammeln und als `discovered` in `library.db` speichern.
+2. **Screening:** Kursdaten, Content Map und Materiallage auswerten.
+3. **Kuratierung:** Gute Kandidaten per Shortlist und Similarity finden.
+4. **NotebookLM Gate:** Kandidaten pruefen und explizit freigeben.
+5. **Export/Upload/Sync:** Manifeste erzeugen, Quellen hochladen und Online-Notebooks abgleichen.
+
+Status und Datenmodell: [../docs/DATA_MODEL.md](../docs/DATA_MODEL.md)
 
 ## Screening-Modi
 
@@ -39,6 +68,8 @@ node src/scrape.js screen --all --fast
 # Empfohlen für große Batches: schnell vorsortieren, nur Tier 1/2 tief materialisieren
 node src/scrape.js screen --all --fast --deep-tier 1,2
 ```
+
+`--fast` vermeidet Material-Detail-Requests und eignet sich fuer groessere Batches. `--deep-tier 1,2` vertieft danach nur starke Kandidaten.
 
 ## Kurs-Shortlist
 
@@ -99,9 +130,7 @@ Online gescrapte OCW-Materialien bleiben erhalten. NotebookLM-Status wie
 
 ## NotebookLM-Anschluss
 
-Der erste Anschluss ist bewusst ein Freigabe- und Manifest-Schritt. Er lädt noch
-nicht automatisch hoch, sondern erzeugt eine saubere Upload-Queue für NotebookLM
-oder NotebookLM Enterprise.
+Der NotebookLM-Anschluss ist bewusst gated: erst Kandidaten anzeigen, dann freigeben, dann Manifest/Upload-Queue erzeugen, danach optional mit der lokal installierten `notebooklm` CLI hochladen oder Online-Notebooks synchronisieren.
 
 ```bash
 # Kandidaten mit genug Material für NotebookLM anzeigen
@@ -134,13 +163,22 @@ node src/scrape.js notebooklm export 6-0001-introduction-to-computer-science-and
 
 Output:
 
-- `library/notebooklm/<course-id>/notebooklm_manifest.json`
-- `library/notebooklm/<course-id>/UPLOAD_QUEUE.md`
-- `library/notebooklm/<course-id>/notebooklm_upload_log.json` nach `upload`
+- `output/notebooklm/<course-id>/notebooklm_manifest.json`
+- `output/notebooklm/<course-id>/UPLOAD_QUEUE.md`
+- `output/notebooklm/<course-id>/notebooklm_upload_log.json` nach `upload`
+- `output/notebooklm/assets/index.json` und `output/notebooklm/assets/INDEX.md` nach `notebooklm assets`
 
 Das Manifest priorisiert PDFs, danach Videos und Webseiten. Archive und Code
 werden nicht exportiert, weil sie für NotebookLM-Quellen meist erst normalisiert
 werden müssen.
+
+## Typische Fehlerquellen
+
+- **NotebookLM CLI fehlt:** `npm run notebooklm:install` ausfuehren und danach `npm run notebooklm:check`.
+- **Keine Ready-Kandidaten:** Zuerst Discovery und Deep Screening ausfuehren; `notebooklm ready` benoetigt Materialien mit `source_url`.
+- **Upload ohne Notebook-ID:** Entweder `--notebook-id <id>` oder `--create` verwenden.
+- **Falsche Output-Pfade:** Generierte NotebookLM-Dateien liegen unter `ocw-pipeline/output/notebooklm/`, nicht unter einem Root-`library/`-Ordner.
+- **Lokaler Import ueberschreibt Online-Materialien nicht:** Der Import ersetzt nur Materialien mit `source_kind='local_library'`.
 
 ## Screening-Signale aus data.json
 

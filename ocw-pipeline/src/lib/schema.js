@@ -39,7 +39,7 @@ export const TIER = {
 /**
  * Berechnet vorläufigen Tier-Score aus data.json + content_map.json
  * 
- * Regeln (aus INGESTION_PLAN_TECHNICAL.md):
+ * Regeln aus der fruehen Ingestion-Planung:
  * - Minimum Gate: ableitbare Unterrichtseinheiten + mindestens 2 Quellen/Einheit
  * - Materialqualität: PDFs, Videos, Lecture Notes
  * - Einheitenstruktur: Lectures/Sessions/Module klar ableitbar

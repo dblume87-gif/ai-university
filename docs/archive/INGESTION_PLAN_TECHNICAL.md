@@ -1,5 +1,7 @@
 # AI University Ingestion Plan — Technische Details
 
+> Archivhinweis: Dieses Dokument stammt aus der Planungsphase. Die aktuelle Softwaredokumentation steht in `../ARCHITECTURE.md`, `../DATA_MODEL.md`, `../RUNBOOKS.md` und `../DECISIONS.md`.
+
 Detaildokument zu Schemas, Scoring, Design-Entscheidungen und Implementierungsregeln.
 Uebersicht und Pipeline: [INGESTION_PLAN.md](INGESTION_PLAN.md)
 

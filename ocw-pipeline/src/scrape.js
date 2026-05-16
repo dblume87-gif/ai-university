@@ -45,7 +45,7 @@ Usage:
   node src/scrape.js local import [--root ../library] [--course-id id] [--rescreen] [--fast] [--dry-run]
   node src/scrape.js notebooklm ready [--limit 10] [--include-hold]
   node src/scrape.js notebooklm approve <course-id>
-  node src/scrape.js notebooklm export <course-id> [--max-sources 50] [--out library/notebooklm/<course-id>] [--mark-ready] [--notebook-id id]
+  node src/scrape.js notebooklm export <course-id> [--max-sources 50] [--out ocw-pipeline/output/notebooklm/<course-id>] [--mark-ready] [--notebook-id id]
   node src/scrape.js notebooklm upload <course-id> [--notebook-id id|--create] [--max-sources 50] [--wait] [--dry-run]
   node src/scrape.js notebooklm sync [--dry-run] [--with-metadata]
   node src/scrape.js notebooklm assets [course-id] [--download] [--dry-run] [--types video,audio,report]
