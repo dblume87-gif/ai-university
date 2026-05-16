@@ -45,6 +45,11 @@ Mehr Kontext: [../docs/ARCHITECTURE.md](../docs/ARCHITECTURE.md)
 | `npm run db:init` | Datenbank initialisieren/migrieren |
 | `npm run notebooklm:install` | NotebookLM CLI installieren |
 | `npm run notebooklm:check` | NotebookLM CLI pruefen |
+| `npm run notebooklm:ready` | NotebookLM-Kandidaten anzeigen |
+| `npm run notebooklm:export -- <course-id>` | Manifest und Upload-Queue erzeugen |
+| `npm run notebooklm:upload -- <course-id> --create` | Notebook erstellen und Quellen hochladen |
+| `npm run notebooklm:sync` | Online-Notebooks mit `library.db` abgleichen |
+| `npm run notebooklm:assets` | NotebookLM-Artefakte indexieren |
 
 ## Basis-Workflow
 
@@ -145,6 +150,9 @@ node src/scrape.js notebooklm export 6-0001-introduction-to-computer-science-and
 # Upload mit der lokal installierten `notebooklm` CLI testen
 node src/scrape.js notebooklm upload 6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016 --notebook-id <id> --dry-run
 
+# Dry Run für ein neu zu erstellendes Notebook; schreibt nur Manifest + Upload-Log
+node src/scrape.js notebooklm upload 6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016 --create --dry-run
+
 # Online-Notebooks gegen library.db abgleichen
 node src/scrape.js notebooklm sync --dry-run
 
@@ -156,6 +164,9 @@ node src/scrape.js notebooklm upload 6-0001-introduction-to-computer-science-and
 
 # Neues Notebook erstellen und Quellen hochladen
 node src/scrape.js notebooklm upload 6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016 --create --wait
+
+# Bei erster fehlerhafter Quelle abbrechen; sonst werden Fehler geloggt und der Rest weiter versucht
+node src/scrape.js notebooklm upload 6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016 --create --stop-on-error
 
 # Mehr Quellen exportieren, z.B. für NotebookLM Pro/Enterprise
 node src/scrape.js notebooklm export 6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016 --max-sources 300
@@ -170,7 +181,9 @@ Output:
 
 Das Manifest priorisiert PDFs, danach Videos und Webseiten. Archive und Code
 werden nicht exportiert, weil sie für NotebookLM-Quellen meist erst normalisiert
-werden müssen.
+werden müssen. Quellen koennen aus `source_url` oder, bei lokal importierten
+Kursen, aus `local_path` kommen. `upload --dry-run` schreibt keine
+NotebookLM-Statusänderung in `library.db`.
 
 ## Typische Fehlerquellen
 
