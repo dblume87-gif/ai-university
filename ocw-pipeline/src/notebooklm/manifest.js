@@ -993,7 +993,7 @@ function renderUploadQueue(manifest) {
 
   for (const source of manifest.sources) {
     lines.push(`${source.order}. [${source.media_type}] ${source.title}`);
-    lines.push(`   ${source.source_url}`);
+    lines.push(`   ${getSourceContent(source)}`);
   }
 
   lines.push('');
