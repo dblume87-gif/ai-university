@@ -1,6 +1,6 @@
 import { spawnSync } from 'child_process';
 import { mkdir, readdir, readFile, stat, writeFile } from 'fs/promises';
-import { dirname, join, relative } from 'path';
+import { dirname, extname, join, relative, resolve } from 'path';
 import { fileURLToPath } from 'url';
 import {
   getCourse,
@@ -15,6 +15,7 @@ import { SCREENING_STATUS } from '../lib/schema.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const SCRAPER_ROOT = join(__dirname, '../..');
+const WORKSPACE_ROOT = join(SCRAPER_ROOT, '..');
 const DEFAULT_OUTPUT_ROOT = join(SCRAPER_ROOT, 'output', 'notebooklm');
 const DEFAULT_SOURCE_LIMIT = 50;
 const DEFAULT_ASSET_TYPES = [
@@ -58,6 +59,7 @@ export function getNotebookLmOptions(args) {
     withMetadata: args.includes('--with-metadata'),
     download: args.includes('--download'),
     force: args.includes('--force'),
+    stopOnError: args.includes('--stop-on-error'),
     types: getListOption(args, '--types') || DEFAULT_ASSET_TYPES,
     wait: args.includes('--wait'),
     timeout: getIntegerOption(args, '--timeout') || 120
@@ -94,6 +96,10 @@ function getListOption(args, name) {
   return value
     ? value.split(',').map(item => item.trim()).filter(Boolean)
     : null;
+}
+
+function resolveNotebookLmOutputDir(courseId, outDir) {
+  return outDir ? resolve(WORKSPACE_ROOT, outDir) : join(DEFAULT_OUTPUT_ROOT, courseId);
 }
 
 export function getReadyNotebookLmCourses({ limit = 10, includeHold = false } = {}) {
@@ -179,9 +185,7 @@ export async function exportNotebookLmManifest(courseId, options = {}) {
     updateCourseStatus(courseId, SCREENING_STATUS.READY_FOR_NOTEBOOKLM);
   }
 
-  const outDir = options.outDir
-    ? join(WORKSPACE_ROOT, options.outDir)
-    : join(DEFAULT_OUTPUT_ROOT, courseId);
+  const outDir = resolveNotebookLmOutputDir(courseId, options.outDir);
   await mkdir(outDir, { recursive: true });
 
   const manifest = {
@@ -206,12 +210,14 @@ export async function exportNotebookLmManifest(courseId, options = {}) {
   await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
   await writeFile(queuePath, renderUploadQueue(manifest), 'utf8');
 
-  updateNotebookLmExport(courseId, {
-    status,
-    manifestPath: relative(WORKSPACE_ROOT, manifestPath),
-    sourceCount: sources.length,
-    notebookId: options.notebookId || null
-  });
+  if (!options.dryRun) {
+    updateNotebookLmExport(courseId, {
+      status,
+      manifestPath: relative(WORKSPACE_ROOT, manifestPath),
+      sourceCount: sources.length,
+      notebookId: options.notebookId || null
+    });
+  }
 
   return {
     course,
@@ -235,6 +241,14 @@ export async function uploadNotebookLmManifest(courseId, options = {}) {
     course_id: courseId,
     notebook_id: notebookId,
     notebook_created: false,
+    create_command: null,
+    source_summary: {
+      total: manifest.sources.length,
+      added: 0,
+      ready: 0,
+      failed: 0,
+      dry_run: options.dryRun ? manifest.sources.length : 0
+    },
     sources: []
   };
 
@@ -242,60 +256,99 @@ export async function uploadNotebookLmManifest(courseId, options = {}) {
     throw new Error(`NotebookLM Upload blockiert: ${manifest.qa.blocking.join('; ')}`);
   }
 
-  if (options.createNotebook && !notebookId && !options.dryRun) {
-    const created = runNotebookLmJson(['create', notebookTitle, '--json']);
-    notebookId = extractNotebookId(created);
-    uploadLog.notebook_id = notebookId;
-    uploadLog.notebook_created = true;
+  if (options.createNotebook && !notebookId) {
+    const createArgs = ['create', notebookTitle, '--json'];
+    uploadLog.create_command = formatNotebookLmCommand(createArgs);
+
+    if (!options.dryRun) {
+      const created = runNotebookLmJson(createArgs);
+      notebookId = extractNotebookId(created);
+      if (!notebookId) {
+        throw new Error(`NotebookLM create lieferte keine Notebook-ID: ${JSON.stringify(created).slice(0, 300)}`);
+      }
+      uploadLog.notebook_id = notebookId;
+      uploadLog.notebook_created = true;
+      uploadLog.notebook_create_result = created;
+    }
   }
 
   if (!notebookId && !options.dryRun) {
     throw new Error('Keine Notebook-ID angegeben. Nutze --notebook-id <id> oder --create.');
   }
 
+  const targetNotebookId = notebookId || (options.dryRun && options.createNotebook ? '<created-notebook-id>' : null);
+
   for (const source of manifest.sources) {
-    const args = buildSourceAddArgs(source, notebookId);
+    const args = buildSourceAddArgs(source, targetNotebookId);
     const entry = {
       order: source.order,
       title: source.title,
       source_url: source.source_url,
-      command: ['notebooklm', ...args].join(' '),
+      local_path: source.local_path,
+      content: getSourceContent(source),
+      command: formatNotebookLmCommand(args),
       status: options.dryRun ? 'dry_run' : 'pending'
     };
 
     if (!options.dryRun) {
-      const result = runNotebookLmJson(args);
-      entry.status = 'added';
-      entry.result = result;
-      entry.source_id = extractSourceId(result);
+      try {
+        const result = runNotebookLmJson(args);
+        entry.status = 'added';
+        entry.result = result;
+        entry.source_id = extractSourceId(result);
+        uploadLog.source_summary.added++;
 
-      if (options.wait && entry.source_id) {
-        const waitArgs = ['source', 'wait', entry.source_id, '--timeout', String(options.timeout), '--json'];
-        if (notebookId) waitArgs.push('--notebook', notebookId);
-        entry.wait_result = runNotebookLmJson(waitArgs);
-        entry.status = 'ready';
+        if (options.wait && entry.source_id) {
+          const waitArgs = ['source', 'wait', entry.source_id, '--timeout', String(options.timeout), '--json'];
+          if (notebookId) waitArgs.push('--notebook', notebookId);
+          entry.wait_command = formatNotebookLmCommand(waitArgs);
+          entry.wait_result = runNotebookLmJson(waitArgs);
+          entry.status = 'ready';
+          uploadLog.source_summary.ready++;
+        }
+      } catch (err) {
+        entry.status = 'error';
+        entry.error = err.message;
+        uploadLog.source_summary.failed++;
       }
     }
 
     uploadLog.sources.push(entry);
+
+    if (!options.dryRun && entry.status === 'error' && options.stopOnError) {
+      uploadLog.stopped_early = true;
+      break;
+    }
   }
 
   await writeFile(exportResult.uploadLogPath, `${JSON.stringify(uploadLog, null, 2)}\n`, 'utf8');
 
   if (!options.dryRun) {
-    updateNotebookLmExport(courseId, {
-      status: SCREENING_STATUS.UPLOADED_TO_NOTEBOOKLM,
-      manifestPath: relative(WORKSPACE_ROOT, exportResult.manifestPath),
-      sourceCount: uploadLog.sources.length,
-      notebookId
-    });
+    const manifestPath = relative(WORKSPACE_ROOT, exportResult.manifestPath);
+
+    if (uploadLog.source_summary.failed === 0) {
+      markNotebookLmUploaded(courseId, {
+        notebookId,
+        sourceCount: uploadLog.source_summary.added,
+        manifestPath
+      });
+    } else {
+      updateCourseStatus(courseId, SCREENING_STATUS.NEEDS_FIX);
+      updateNotebookLmExport(courseId, {
+        status: SCREENING_STATUS.NEEDS_FIX,
+        manifestPath,
+        sourceCount: uploadLog.source_summary.added,
+        notebookId
+      });
+    }
   }
 
   return {
     ...exportResult,
     notebookId,
     uploadLogPath: exportResult.uploadLogPath,
-    uploadedSources: uploadLog.sources.length,
+    uploadedSources: options.dryRun ? uploadLog.sources.length : uploadLog.source_summary.added,
+    failedSources: uploadLog.source_summary.failed,
     dryRun: Boolean(options.dryRun)
   };
 }
@@ -528,7 +581,7 @@ async function listLocalFiles(rootDir) {
 
 function selectNotebookLmSources(materials, maxSources) {
   return materials
-    .filter(material => material.source_url)
+    .filter(hasSourceContent)
     .filter(material => !['archive', 'code'].includes(material.media_type))
     .sort((a, b) => {
       const priorityA = getSourcePriority(a);
@@ -544,6 +597,7 @@ function selectNotebookLmSources(materials, maxSources) {
       order: index + 1,
       title: material.title,
       source_url: material.source_url,
+      content: getSourceContent(material),
       source_kind: material.source_kind,
       material_type: material.material_type,
       media_type: material.media_type,
@@ -574,6 +628,7 @@ function getLectureNumber(material) {
 }
 
 function mapNotebookLmSourceType(material) {
+  if (material.local_path) return 'file';
   if (material.media_type === 'pdf') return 'file_or_url';
   if (material.media_type === 'youtube') return 'youtube';
   if (material.media_type === 'video') return 'video_url';
@@ -583,19 +638,58 @@ function mapNotebookLmSourceType(material) {
 }
 
 function buildSourceAddArgs(source, notebookId) {
-  const content = source.local_path || source.source_url;
-  const args = ['source', 'add', content, '--title', source.title, '--json'];
+  const content = getSourceContent(source);
+  if (!content) throw new Error(`Quelle ohne content/source_url/local_path: ${source.title || '(untitled)'}`);
+
+  const args = ['source', 'add', content, '--json'];
   if (notebookId) args.push('--notebook', notebookId);
 
-  if (source.media_type === 'youtube') {
-    args.push('--type', 'youtube');
-  } else if (source.local_path) {
-    args.push('--type', 'file');
-  } else if (source.source_url?.startsWith('http')) {
-    args.push('--type', 'url');
-  }
+  const title = getSourceTitle(source);
+  if (title) args.push('--title', title);
+
+  const sourceType = getNotebookLmCliSourceType(source);
+  if (sourceType) args.push('--type', sourceType);
+
+  const mimeType = getSourceMimeType(source, content);
+  if (mimeType) args.push('--mime-type', mimeType);
 
   return args;
+}
+
+function hasSourceContent(material) {
+  return Boolean(getSourceContent(material));
+}
+
+function getSourceContent(source) {
+  return source.local_path || source.source_url || source.content || null;
+}
+
+function getSourceTitle(source) {
+  return source.title || source.resource_path || source.local_path || source.source_url || null;
+}
+
+function getNotebookLmCliSourceType(source) {
+  if (source.media_type === 'youtube') return 'youtube';
+  if (source.local_path) return 'file';
+  if (isYoutubeUrl(source.source_url)) return 'youtube';
+  if (source.source_url?.startsWith('http')) return 'url';
+  return null;
+}
+
+function getSourceMimeType(source, content) {
+  if (!source.local_path || getNotebookLmCliSourceType(source) !== 'file') return null;
+  const extension = extname(content).toLowerCase();
+  const mimeTypes = {
+    '.pdf': 'application/pdf',
+    '.html': 'text/html',
+    '.htm': 'text/html',
+    '.csv': 'text/csv'
+  };
+  return mimeTypes[extension] || null;
+}
+
+function isYoutubeUrl(url) {
+  return Boolean(url && /(?:youtube\.com|youtu\.be)/i.test(url));
 }
 
 function matchNotebooksToCourses(notebooks, courses) {
@@ -792,6 +886,16 @@ function runNotebookLmJson(args) {
   }
 }
 
+function formatNotebookLmCommand(args) {
+  return ['notebooklm', ...args].map(shellQuote).join(' ');
+}
+
+function shellQuote(value) {
+  const text = String(value);
+  if (/^[A-Za-z0-9_@%+=:,./-]+$/.test(text)) return text;
+  return `'${text.replaceAll("'", "'\\''")}'`;
+}
+
 function extractNotebookId(result) {
   return result.id || result.notebook_id || result.notebookId || result.notebook?.id;
 }
@@ -804,15 +908,23 @@ function buildQa(course, materials, sources) {
   const warnings = [];
   const blocking = [];
   const counts = countBy(materials, 'media_type');
+  const sourceCounts = countBy(sources, 'media_type');
+  const uploadableMaterials = materials
+    .filter(hasSourceContent)
+    .filter(material => !['archive', 'code'].includes(material.media_type));
+  const missingContent = materials.filter(material => !hasSourceContent(material)).length;
 
   if (!course.title || course.title === 'Unknown') blocking.push('Kurstitel fehlt.');
   if (materials.length === 0) blocking.push('Keine Materialien in library.db gefunden. Deep Screening ausfuehren.');
   if (sources.length === 0) blocking.push('Keine NotebookLM-tauglichen Quellen gefunden.');
-  if (!counts.pdf && !counts.youtube && !counts.video && !counts.html && !counts.external && !counts.slides) {
+  if (!sourceCounts.pdf && !sourceCounts.youtube && !sourceCounts.video && !sourceCounts.html && !sourceCounts.external && !sourceCounts.slides) {
     blocking.push('Quellenmix enthaelt keine PDFs, Videos oder Webseiten.');
   }
-  if (sources.length < materials.length) {
-    warnings.push(`${materials.length - sources.length} Materialien wurden wegen Source-Limit oder ungeeignetem Typ nicht exportiert.`);
+  if (sources.length < uploadableMaterials.length) {
+    warnings.push(`${uploadableMaterials.length - sources.length} uploadbare Materialien wurden wegen Source-Limit nicht exportiert.`);
+  }
+  if (missingContent > 0) {
+    warnings.push(`${missingContent} Materialien haben weder source_url noch local_path und wurden nicht exportiert.`);
   }
   if ((counts.external || 0) > (counts.pdf || 0) + (counts.html || 0)) {
     warnings.push('Viele externe Quellen: vor Upload stichprobenartig pruefen.');
@@ -822,7 +934,8 @@ function buildQa(course, materials, sources) {
     status: blocking.length > 0 ? 'needs_fix' : 'ready',
     blocking,
     warnings,
-    material_counts: counts
+    material_counts: counts,
+    source_counts: sourceCounts
   };
 }
 
