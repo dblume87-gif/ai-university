@@ -25,6 +25,7 @@ const http = axios.create({
 });
 
 const RESOURCE_DETAIL_CONCURRENCY = 5;
+const RESOURCE_BATCH_DELAY_MS = 200;
 
 /**
  * Fetcht und parst data.json für einen Kurs
@@ -203,6 +204,10 @@ export async function extractMaterialsFromContentMap(courseId, contentMap) {
       } else {
         console.log(`[WARN] Resource-Detail fetch fehlgeschlagen: ${result.reason.message}`);
       }
+    }
+
+    if (i + RESOURCE_DETAIL_CONCURRENCY < entries.length) {
+      await sleep(RESOURCE_BATCH_DELAY_MS);
     }
   }
 
@@ -447,8 +452,8 @@ export async function screenCourse(courseId) {
 
     // 4. Tier-Score berechnen
     const { tier, score, warnings, reason } = calculateTier(data, contentMap, courseWebsite);
-    
-    // 4. DB updaten
+
+    // 5. DB updaten
     const dbData = {
       course_title: data.course_title,
       source_url: `${BASE_URL}/courses/${courseId}/`,
@@ -466,7 +471,7 @@ export async function screenCourse(courseId) {
     upsertCourse(courseId, dbData);
     replaceCourseMaterials(courseId, materials);
     
-    // 5. Screening-Status setzen
+    // 6. Screening-Status setzen
     const status = tier === 3 ? SCREENING_STATUS.HOLD : SCREENING_STATUS.SCREENED;
     updateScreening(courseId, { tier, score, warnings, reason, status });
     
