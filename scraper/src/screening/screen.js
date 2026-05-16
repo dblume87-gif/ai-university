@@ -429,7 +429,8 @@ function dedupeMaterials(materials) {
 /**
  * Screent einen einzelnen Kurs
  */
-export async function screenCourse(courseId) {
+export async function screenCourse(courseId, options = {}) {
+  const { deep = true, deepTiers = null } = options;
   console.log(`[SCREEN] ${courseId}`);
   
   try {
@@ -442,16 +443,25 @@ export async function screenCourse(courseId) {
     // 2. content_map.json fetchen (optional)
     const contentMap = await fetchContentMap(courseId);
 
-    // 3. Course Website fetchen falls verlinkt
-    const courseWebsite = await fetchCourseWebsite(contentMap);
+    // 3. Schnellen Tier-Score ohne Resource-Detail-Requests berechnen
+    let courseWebsite = null;
+    let tierResult = calculateTier(data, contentMap, courseWebsite);
+    const shouldDeepScan = deep && shouldRunDeepScan(tierResult.tier, deepTiers);
+    let materials = [];
 
-    const materials = dedupeMaterials([
-      ...await extractMaterialsFromContentMap(courseId, contentMap),
-      ...(courseWebsite?.materials || [])
-    ]);
+    if (shouldDeepScan) {
+      // 4. Course Website fetchen falls verlinkt
+      courseWebsite = await fetchCourseWebsite(contentMap);
 
-    // 4. Tier-Score berechnen
-    const { tier, score, warnings, reason } = calculateTier(data, contentMap, courseWebsite);
+      materials = dedupeMaterials([
+        ...await extractMaterialsFromContentMap(courseId, contentMap),
+        ...(courseWebsite?.materials || [])
+      ]);
+
+      tierResult = calculateTier(data, contentMap, courseWebsite);
+    }
+
+    const { tier, score, warnings, reason } = tierResult;
 
     // 5. DB updaten
     const dbData = {
@@ -469,15 +479,22 @@ export async function screenCourse(courseId) {
       course_page_metadata: pageMetadata
     };
     upsertCourse(courseId, dbData);
-    replaceCourseMaterials(courseId, materials);
+    if (shouldDeepScan) {
+      replaceCourseMaterials(courseId, materials);
+    }
     
     // 6. Screening-Status setzen
     const status = tier === 3 ? SCREENING_STATUS.HOLD : SCREENING_STATUS.SCREENED;
     updateScreening(courseId, { tier, score, warnings, reason, status });
     
-    console.log(`[SCREEN] ${courseId} → Tier ${tier} (${score}p) - ${reason}; ${materials.length} Materialien`);
+    const mode = shouldDeepScan
+      ? `${materials.length} Materialien`
+      : deep
+        ? `Fast Screening; Deep Scan übersprungen für Tier ${tier}`
+        : 'Fast Screening; keine Material-Details geladen';
+    console.log(`[SCREEN] ${courseId} → Tier ${tier} (${score}p) - ${reason}; ${mode}`);
     
-    return { courseId, tier, score, warnings, reason, status };
+    return { courseId, tier, score, warnings, reason, status, deepScan: shouldDeepScan, materials: materials.length };
     
   } catch (err) {
     console.error(`[ERROR] ${courseId}: ${err.message}`);
@@ -488,11 +505,11 @@ export async function screenCourse(courseId) {
 /**
  * Screent mehrere Kurse nacheinander mit Delay
  */
-export async function screenCourses(courseIds, { delayMs = DELAY_MS } = {}) {
+export async function screenCourses(courseIds, { delayMs = DELAY_MS, deep = true, deepTiers = null } = {}) {
   const results = [];
 
   for (let i = 0; i < courseIds.length; i++) {
-    const result = await screenCourse(courseIds[i]);
+    const result = await screenCourse(courseIds[i], { deep, deepTiers });
     results.push(result);
     if (delayMs > 0 && i < courseIds.length - 1) {
       await sleep(delayMs);
@@ -505,12 +522,16 @@ export async function screenCourses(courseIds, { delayMs = DELAY_MS } = {}) {
 /**
  * Screent alle 'discovered' Kurse aus der DB
  */
-export async function screenDiscovered() {
+export async function screenDiscovered(options = {}) {
   const discovered = getCoursesByStatus(SCREENING_STATUS.DISCOVERED);
   const courseIds = discovered.map(c => c.course_id);
   
   console.log(`[SCREEN] ${courseIds.length} entdeckte Kurse zum Screenen...`);
-  return screenCourses(courseIds);
+  return screenCourses(courseIds, options);
+}
+
+function shouldRunDeepScan(tier, deepTiers) {
+  return !deepTiers || deepTiers.includes(tier);
 }
 
 function sleep(ms) {

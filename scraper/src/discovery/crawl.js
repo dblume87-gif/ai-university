@@ -25,6 +25,47 @@ function recordDiscoveredCourse(courseId, sourceUrl, { dryRun }) {
   });
 }
 
+async function collectCourseLinks(page, discovered, maxCourses) {
+  const remaining = maxCourses - discovered.size;
+  if (remaining <= 0) return [];
+
+  return page.$$eval('a[href*="/courses/"]', links =>
+    links
+      .map(a => a.href)
+      .filter(h => h.includes('/courses/') && !h.includes('/search'))
+      .filter((v, i, a) => a.indexOf(v) === i)
+  ).then(links => links.filter(link => {
+    const courseId = extractCourseId(link);
+    return courseId && !discovered.has(courseId);
+  }).slice(0, remaining));
+}
+
+async function scrollAndCollectCourseLinks(page, discovered, maxCourses) {
+  const links = [];
+  let lastHeight = 0;
+  let idleRounds = 0;
+
+  while (discovered.size + links.length < maxCourses && idleRounds < 5) {
+    const before = links.length;
+    const freshLinks = await collectCourseLinks(page, new Set([...discovered, ...links.map(extractCourseId)]), maxCourses);
+    links.push(...freshLinks);
+
+    const height = await page.evaluate(() => document.body.scrollHeight);
+    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+    await page.waitForTimeout(1200);
+
+    const nextHeight = await page.evaluate(() => document.body.scrollHeight);
+    if (links.length === before && nextHeight === lastHeight) {
+      idleRounds++;
+    } else {
+      idleRounds = 0;
+    }
+    lastHeight = nextHeight || height;
+  }
+
+  return links.slice(0, maxCourses - discovered.size);
+}
+
 /**
  * Extrahiert course-id aus einer Kurs-URL
  * z.B. /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/
@@ -57,19 +98,8 @@ export async function discoverViaSearch(searchQuery, options = {}) {
         console.log('[WARN] Keine Kurslinks gefunden');
       });
       
-      // Extrahiere Kurs-Links
-      const remaining = maxCourses - discovered.size;
-      if (remaining <= 0) return;
-
-      const courseLinks = await page.$$eval('a[href*="/courses/"]', links => 
-        links
-          .map(a => a.href)
-          .filter(h => h.includes('/courses/') && !h.includes('/search'))
-          .filter((v, i, a) => a.indexOf(v) === i) // Dedup
-      ).then(links => links.filter(link => {
-        const courseId = extractCourseId(link);
-        return courseId && !discovered.has(courseId);
-      }).slice(0, remaining));
+      // Extrahiere Kurs-Links; die Suche lädt weitere Treffer per Infinite Scroll.
+      const courseLinks = await scrollAndCollectCourseLinks(page, discovered, maxCourses);
       
       console.log(`[DISCOVERY] ${courseLinks.length} Kurs-Links gefunden`);
       
@@ -121,18 +151,7 @@ export async function discoverViaDepartment(departmentSlug, options = {}) {
         console.log('[WARN] Keine Kurslinks gefunden');
       });
       
-      const remaining = maxCourses - discovered.size;
-      if (remaining <= 0) return;
-
-      const courseLinks = await page.$$eval('a[href*="/courses/"]', links => 
-        links
-          .map(a => a.href)
-          .filter(h => h.includes('/courses/') && !h.includes('/search'))
-          .filter((v, i, a) => a.indexOf(v) === i)
-      ).then(links => links.filter(link => {
-        const courseId = extractCourseId(link);
-        return courseId && !discovered.has(courseId);
-      }).slice(0, remaining));
+      const courseLinks = await scrollAndCollectCourseLinks(page, discovered, maxCourses);
       
       for (const link of courseLinks) {
         const courseId = extractCourseId(link);

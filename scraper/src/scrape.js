@@ -9,6 +9,8 @@
 
 import { discoverViaSearch, discoverAllDepartments } from './discovery/crawl.js';
 import { screenCourse, screenCourses, screenDiscovered } from './screening/screen.js';
+import { getShortlist, getShortlistOptions, printShortlist } from './curation/shortlist.js';
+import { getSimilarCourses, getSimilarOptions, printSimilarCourses } from './curation/similar.js';
 import { getDb, getCoursesByStatus } from './lib/db.js';
 import { SCREENING_STATUS } from './lib/schema.js';
 
@@ -23,8 +25,10 @@ MIT OCW Scraper
 Usage:
   node src/scrape.js discover --query "machine learning" [--max 5] [--headless|--headed] [--dry-run]
   node src/scrape.js discover --depts [--max 5] [--headless|--headed] [--dry-run]
-  node src/scrape.js screen --all
-  node src/scrape.js screen <course-id>
+  node src/scrape.js screen --all [--fast|--deep] [--deep-tier 1,2]
+  node src/scrape.js screen <course-id> [--fast|--deep] [--deep-tier 1,2]
+  node src/scrape.js shortlist [--limit 5] [--topic "Economics"] [--department 18] [--material psets] [--min-videos 10] [--min-pdfs 5] [--include-hold] [--sort score|videos|pdfs|notes|psets|exams|title]
+  node src/scrape.js similar <course-id> [--limit 5] [--include-hold]
   node src/scrape.js test [course-id]
   node src/scrape.js status
       `);
@@ -64,6 +68,37 @@ function getDiscoverOptions() {
   };
 }
 
+function getScreenCourseArg() {
+  for (let i = 1; i < args.length; i++) {
+    const value = args[i];
+    if (value === '--deep-tier') {
+      i++;
+      continue;
+    }
+    if (value.startsWith('--')) continue;
+    return value;
+  }
+
+  return undefined;
+}
+
+function getScreenOptions() {
+  const deepTierValue = getOptionValue('--deep-tier');
+  const deepTiers = deepTierValue
+    ? deepTierValue
+        .split(',')
+        .map(value => Number.parseInt(value.trim(), 10))
+        .filter(value => Number.isInteger(value))
+    : null;
+
+  const selectedDeepTiers = deepTiers?.length ? deepTiers : null;
+
+  return {
+    deep: hasOption('--fast') && !selectedDeepTiers ? false : true,
+    deepTiers: selectedDeepTiers
+  };
+}
+
 async function main() {
   if (!command || hasOption('--help') || hasOption('-h')) {
     printUsage();
@@ -88,15 +123,18 @@ async function main() {
     }
     
     case 'screen': {
-      if (arg === '--all') {
+      const options = getScreenOptions();
+      const courseId = getScreenCourseArg();
+
+      if (hasOption('--all')) {
         console.log('[MAIN] Screene alle discovered Kurse...');
-        await screenDiscovered();
-      } else if (arg) {
-        console.log(`[MAIN] Screene Kurs: ${arg}`);
-        await screenCourse(arg);
+        await screenDiscovered(options);
+      } else if (courseId) {
+        console.log(`[MAIN] Screene Kurs: ${courseId}`);
+        await screenCourse(courseId, options);
       } else {
         console.log('[MAIN] Screene alle discovered Kurse...');
-        await screenDiscovered();
+        await screenDiscovered(options);
       }
       break;
     }
@@ -121,12 +159,26 @@ async function main() {
       console.log(`\nTotal: ${total.count}`);
       break;
     }
+
+    case 'shortlist': {
+      const options = getShortlistOptions(args.slice(1));
+      const courses = getShortlist(options);
+      printShortlist(courses, options);
+      break;
+    }
+
+    case 'similar': {
+      const options = getSimilarOptions(args.slice(1));
+      const { seed, courses } = getSimilarCourses(options);
+      printSimilarCourses(seed, courses, options);
+      break;
+    }
     
     case 'test': {
       // Teste einen einzelnen Kurs
       const courseId = arg || '6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016';
       console.log(`[TEST] Screene Test-Kurs: ${courseId}`);
-      const result = await screenCourse(courseId);
+      const result = await screenCourse(courseId, getScreenOptions());
       console.log(JSON.stringify(result, null, 2));
       break;
     }
