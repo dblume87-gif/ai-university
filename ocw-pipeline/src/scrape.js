@@ -46,7 +46,7 @@ Usage:
   node src/scrape.js notebooklm ready [--limit 10] [--include-hold]
   node src/scrape.js notebooklm approve <course-id>
   node src/scrape.js notebooklm export <course-id> [--max-sources 50] [--out ocw-pipeline/output/notebooklm/<course-id>] [--mark-ready] [--notebook-id id]
-  node src/scrape.js notebooklm upload <course-id> [--notebook-id id|--create] [--max-sources 50] [--wait] [--dry-run]
+  node src/scrape.js notebooklm upload <course-id> [--notebook-id id|--create] [--max-sources 50] [--wait] [--dry-run] [--stop-on-error]
   node src/scrape.js notebooklm sync [--dry-run] [--with-metadata]
   node src/scrape.js notebooklm assets [course-id] [--download] [--dry-run] [--types video,audio,report]
   node src/scrape.js test [course-id]
@@ -238,6 +238,9 @@ async function main() {
         console.log(`[NOTEBOOKLM] Manifest: ${result.manifestPath}`);
         console.log(`[NOTEBOOKLM] Upload Log: ${result.uploadLogPath}`);
         console.log(`[NOTEBOOKLM] ${result.dryRun ? 'Dry Run' : 'Upload'}: ${result.uploadedSources} Quellen${result.notebookId ? ` → ${result.notebookId}` : ''}`);
+        if (result.failedSources > 0) {
+          console.log(`[NOTEBOOKLM] Fehlgeschlagen: ${result.failedSources} Quellen, Details im Upload Log.`);
+        }
       } else if (action === 'sync') {
         const result = syncNotebookLmCourses(options);
         printNotebookLmSyncResult(result);

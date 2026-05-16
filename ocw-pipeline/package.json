@@ -16,6 +16,8 @@
     "notebooklm:install": "python3 -m pip install \"notebooklm-py[browser]==0.3.4\"",
     "notebooklm:check": "notebooklm --version",
     "notebooklm:ready": "node src/scrape.js notebooklm ready",
+    "notebooklm:export": "node src/scrape.js notebooklm export",
+    "notebooklm:upload": "node src/scrape.js notebooklm upload",
     "notebooklm:sync": "node src/scrape.js notebooklm sync",
     "notebooklm:assets": "node src/scrape.js notebooklm assets"
   },
