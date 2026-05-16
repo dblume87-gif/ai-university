@@ -37,6 +37,11 @@ function initSchema() {
       tier_score           INTEGER,
       screening_reason     TEXT,
       warnings             TEXT,
+      notebooklm_status    TEXT,
+      notebooklm_manifest_path TEXT,
+      notebooklm_notebook_id TEXT,
+      notebooklm_source_count INTEGER,
+      notebooklm_uploaded_at TEXT,
       discovered_at        TEXT DEFAULT CURRENT_TIMESTAMP,
       screened_at         TEXT,
       selected_at          TEXT,
@@ -95,7 +100,12 @@ function migrateSchema() {
     ['departments', 'ALTER TABLE courses ADD COLUMN departments TEXT'],
     ['department_numbers', 'ALTER TABLE courses ADD COLUMN department_numbers TEXT'],
     ['as_taught_in', 'ALTER TABLE courses ADD COLUMN as_taught_in TEXT'],
-    ['course_page_metadata', 'ALTER TABLE courses ADD COLUMN course_page_metadata TEXT']
+    ['course_page_metadata', 'ALTER TABLE courses ADD COLUMN course_page_metadata TEXT'],
+    ['notebooklm_status', 'ALTER TABLE courses ADD COLUMN notebooklm_status TEXT'],
+    ['notebooklm_manifest_path', 'ALTER TABLE courses ADD COLUMN notebooklm_manifest_path TEXT'],
+    ['notebooklm_notebook_id', 'ALTER TABLE courses ADD COLUMN notebooklm_notebook_id TEXT'],
+    ['notebooklm_source_count', 'ALTER TABLE courses ADD COLUMN notebooklm_source_count INTEGER'],
+    ['notebooklm_uploaded_at', 'ALTER TABLE courses ADD COLUMN notebooklm_uploaded_at TEXT']
   ];
 
   for (const [column, sql] of courseMigrations) {
@@ -308,6 +318,104 @@ export function getCourse(courseId) {
   return db.prepare('SELECT * FROM courses WHERE course_id = ?').get(courseId);
 }
 
+export function getAllCourses() {
+  const db = getDb();
+  return db.prepare('SELECT * FROM courses ORDER BY course_id').all();
+}
+
+export function getCourseMaterials(courseId) {
+  const db = getDb();
+  return db.prepare(`
+    SELECT *
+    FROM materials
+    WHERE course_id = ?
+    ORDER BY
+      CASE media_type
+        WHEN 'pdf' THEN 1
+        WHEN 'youtube' THEN 2
+        WHEN 'video' THEN 3
+        WHEN 'html' THEN 4
+        ELSE 5
+      END,
+      id
+  `).all(courseId);
+}
+
+export function updateCourseStatus(courseId, status) {
+  const db = getDb();
+  const approvedAtSql = status === 'approved_for_notebooklm'
+    ? ', approved_at = COALESCE(approved_at, CURRENT_TIMESTAMP)'
+    : '';
+
+  const result = db.prepare(`
+    UPDATE courses
+    SET status = @status${approvedAtSql}
+    WHERE course_id = @course_id
+  `).run({ course_id: courseId, status });
+
+  return result.changes;
+}
+
+export function updateNotebookLmExport(courseId, { status, manifestPath, sourceCount, notebookId = null }) {
+  const db = getDb();
+  const result = db.prepare(`
+    UPDATE courses
+    SET
+      notebooklm_status = @status,
+      notebooklm_manifest_path = @manifest_path,
+      notebooklm_source_count = @source_count,
+      notebooklm_notebook_id = COALESCE(@notebook_id, notebooklm_notebook_id),
+      notebooklm_uploaded_at = CASE
+        WHEN @status = 'uploaded_to_notebooklm' THEN CURRENT_TIMESTAMP
+        ELSE notebooklm_uploaded_at
+      END
+    WHERE course_id = @course_id
+  `).run({
+    course_id: courseId,
+    status,
+    manifest_path: manifestPath,
+    source_count: sourceCount,
+    notebook_id: notebookId
+  });
+
+  return result.changes;
+}
+
+export function markNotebookLmUploaded(courseId, { notebookId, sourceCount = null, manifestPath = null }) {
+  const db = getDb();
+  const result = db.prepare(`
+    UPDATE courses
+    SET
+      status = 'uploaded_to_notebooklm',
+      notebooklm_status = 'uploaded_to_notebooklm',
+      notebooklm_notebook_id = @notebook_id,
+      notebooklm_source_count = COALESCE(@source_count, notebooklm_source_count),
+      notebooklm_manifest_path = COALESCE(@manifest_path, notebooklm_manifest_path),
+      notebooklm_uploaded_at = COALESCE(notebooklm_uploaded_at, CURRENT_TIMESTAMP)
+    WHERE course_id = @course_id
+  `).run({
+    course_id: courseId,
+    notebook_id: notebookId,
+    source_count: sourceCount,
+    manifest_path: manifestPath
+  });
+
+  return result.changes;
+}
+
+export function markNotebookLmValidated(courseId) {
+  const db = getDb();
+  const result = db.prepare(`
+    UPDATE courses
+    SET
+      status = 'notebooklm_validated',
+      notebooklm_status = 'notebooklm_validated'
+    WHERE course_id = @course_id
+  `).run({ course_id: courseId });
+
+  return result.changes;
+}
+
 export default {
   getDb,
   upsertCourse,
@@ -315,5 +423,11 @@ export default {
   updateScreening,
   replaceCourseMaterials,
   getCoursesByStatus,
-  getCourse
+  getCourse,
+  getAllCourses,
+  getCourseMaterials,
+  updateCourseStatus,
+  updateNotebookLmExport,
+  markNotebookLmUploaded,
+  markNotebookLmValidated
 };

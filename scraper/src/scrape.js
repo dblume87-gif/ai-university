@@ -11,6 +11,16 @@ import { discoverViaSearch, discoverAllDepartments } from './discovery/crawl.js'
 import { screenCourse, screenCourses, screenDiscovered } from './screening/screen.js';
 import { getShortlist, getShortlistOptions, printShortlist } from './curation/shortlist.js';
 import { getSimilarCourses, getSimilarOptions, printSimilarCourses } from './curation/similar.js';
+import {
+  approveCourseForNotebookLm,
+  exportNotebookLmManifest,
+  getNotebookLmOptions,
+  getReadyNotebookLmCourses,
+  printReadyNotebookLmCourses,
+  printNotebookLmSyncResult,
+  syncNotebookLmCourses,
+  uploadNotebookLmManifest
+} from './notebooklm/manifest.js';
 import { getDb, getCoursesByStatus } from './lib/db.js';
 import { SCREENING_STATUS } from './lib/schema.js';
 
@@ -29,6 +39,11 @@ Usage:
   node src/scrape.js screen <course-id> [--fast|--deep] [--deep-tier 1,2]
   node src/scrape.js shortlist [--limit 5] [--topic "Economics"] [--department 18] [--material psets] [--min-videos 10] [--min-pdfs 5] [--include-hold] [--sort score|videos|pdfs|notes|psets|exams|title]
   node src/scrape.js similar <course-id> [--limit 5] [--include-hold]
+  node src/scrape.js notebooklm ready [--limit 10] [--include-hold]
+  node src/scrape.js notebooklm approve <course-id>
+  node src/scrape.js notebooklm export <course-id> [--max-sources 50] [--out library/notebooklm/<course-id>] [--mark-ready] [--notebook-id id]
+  node src/scrape.js notebooklm upload <course-id> [--notebook-id id|--create] [--max-sources 50] [--wait] [--dry-run]
+  node src/scrape.js notebooklm sync [--dry-run] [--with-metadata]
   node src/scrape.js test [course-id]
   node src/scrape.js status
       `);
@@ -145,6 +160,11 @@ async function main() {
         SCREENING_STATUS.DISCOVERED,
         SCREENING_STATUS.SCREENED,
         SCREENING_STATUS.SELECTED,
+        SCREENING_STATUS.READY_FOR_NOTEBOOKLM,
+        SCREENING_STATUS.APPROVED_FOR_NOTEBOOKLM,
+        SCREENING_STATUS.UPLOADED_TO_NOTEBOOKLM,
+        SCREENING_STATUS.NOTEBOOKLM_VALIDATED,
+        SCREENING_STATUS.NEEDS_FIX,
         SCREENING_STATUS.HOLD,
         SCREENING_STATUS.REJECTED
       ];
@@ -171,6 +191,41 @@ async function main() {
       const options = getSimilarOptions(args.slice(1));
       const { seed, courses } = getSimilarCourses(options);
       printSimilarCourses(seed, courses, options);
+      break;
+    }
+
+    case 'notebooklm': {
+      const action = args[1] || 'ready';
+      const options = getNotebookLmOptions(args.slice(1));
+
+      if (action === 'ready') {
+        const courses = getReadyNotebookLmCourses(options);
+        printReadyNotebookLmCourses(courses);
+      } else if (action === 'approve') {
+        if (!options.courseId) throw new Error('Bitte course-id angeben: notebooklm approve <course-id>');
+        const course = approveCourseForNotebookLm(options.courseId);
+        console.log(`[NOTEBOOKLM] Freigegeben: ${course.course_id} (${course.title})`);
+      } else if (action === 'export') {
+        if (!options.courseId) throw new Error('Bitte course-id angeben: notebooklm export <course-id>');
+        const result = await exportNotebookLmManifest(options.courseId, options);
+        console.log(`[NOTEBOOKLM] Manifest: ${result.manifestPath}`);
+        console.log(`[NOTEBOOKLM] Upload Queue: ${result.queuePath}`);
+        console.log(`[NOTEBOOKLM] Status: ${result.status}; Quellen: ${result.sourceCount}`);
+        if (result.qa.blocking.length > 0) {
+          console.log(`[NOTEBOOKLM] Blocker: ${result.qa.blocking.join('; ')}`);
+        }
+      } else if (action === 'upload') {
+        if (!options.courseId) throw new Error('Bitte course-id angeben: notebooklm upload <course-id>');
+        const result = await uploadNotebookLmManifest(options.courseId, options);
+        console.log(`[NOTEBOOKLM] Manifest: ${result.manifestPath}`);
+        console.log(`[NOTEBOOKLM] Upload Log: ${result.uploadLogPath}`);
+        console.log(`[NOTEBOOKLM] ${result.dryRun ? 'Dry Run' : 'Upload'}: ${result.uploadedSources} Quellen${result.notebookId ? ` → ${result.notebookId}` : ''}`);
+      } else if (action === 'sync') {
+        const result = syncNotebookLmCourses(options);
+        printNotebookLmSyncResult(result);
+      } else {
+        printUsage();
+      }
       break;
     }
     

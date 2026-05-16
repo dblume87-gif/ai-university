@@ -77,6 +77,51 @@ node src/scrape.js similar 6-622-power-electronics-spring-2023 --limit 10 --incl
 Die Ähnlichkeitssuche ist ebenfalls nicht-mutierend. Topics sind das stärkste
 Signal, Departments das zweite Signal, gemeinsame Titelwörter das schwächste.
 
+## NotebookLM-Anschluss
+
+Der erste Anschluss ist bewusst ein Freigabe- und Manifest-Schritt. Er lädt noch
+nicht automatisch hoch, sondern erzeugt eine saubere Upload-Queue für NotebookLM
+oder NotebookLM Enterprise.
+
+```bash
+# Kandidaten mit genug Material für NotebookLM anzeigen
+node src/scrape.js notebooklm ready
+
+# Kurs explizit für NotebookLM freigeben
+node src/scrape.js notebooklm approve 6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016
+
+# NotebookLM-Manifest und Upload-Queue erzeugen
+node src/scrape.js notebooklm export 6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016 --mark-ready
+
+# Upload mit der lokal installierten `notebooklm` CLI testen
+node src/scrape.js notebooklm upload 6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016 --notebook-id <id> --dry-run
+
+# Online-Notebooks gegen library.db abgleichen
+node src/scrape.js notebooklm sync --dry-run
+
+# Treffer in library.db als uploaded_to_notebooklm markieren
+node src/scrape.js notebooklm sync --with-metadata
+
+# In ein bestehendes Notebook hochladen
+node src/scrape.js notebooklm upload 6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016 --notebook-id <id> --wait
+
+# Neues Notebook erstellen und Quellen hochladen
+node src/scrape.js notebooklm upload 6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016 --create --wait
+
+# Mehr Quellen exportieren, z.B. für NotebookLM Pro/Enterprise
+node src/scrape.js notebooklm export 6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016 --max-sources 300
+```
+
+Output:
+
+- `library/notebooklm/<course-id>/notebooklm_manifest.json`
+- `library/notebooklm/<course-id>/UPLOAD_QUEUE.md`
+- `library/notebooklm/<course-id>/notebooklm_upload_log.json` nach `upload`
+
+Das Manifest priorisiert PDFs, danach Videos und Webseiten. Archive und Code
+werden nicht exportiert, weil sie für NotebookLM-Quellen meist erst normalisiert
+werden müssen.
+
 ## Screening-Signale aus data.json
 
 - `learning_resource_types` (Lecture Notes, Videos, Problem Sets...)

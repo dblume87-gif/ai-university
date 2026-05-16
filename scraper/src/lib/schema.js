@@ -21,6 +21,11 @@ export const SCREENING_STATUS = {
   DISCOVERED: 'discovered',
   SCREENED: 'screened',
   SELECTED: 'selected',
+  READY_FOR_NOTEBOOKLM: 'ready_for_notebooklm',
+  APPROVED_FOR_NOTEBOOKLM: 'approved_for_notebooklm',
+  UPLOADED_TO_NOTEBOOKLM: 'uploaded_to_notebooklm',
+  NOTEBOOKLM_VALIDATED: 'notebooklm_validated',
+  NEEDS_FIX: 'needs_fix',
   HOLD: 'hold',
   REJECTED: 'rejected'
 };
