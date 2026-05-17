@@ -1,96 +1,43 @@
 {
-  "generated_at": "2026-05-16T13:30:46.104Z",
-  "asset_root": "library/notebooklm/assets",
-  "course_count": 5,
-  "artifact_count": 3,
-  "local_file_count": 0,
+  "generated_at": "2026-05-17T13:00:05.213Z",
+  "asset_root": "ocw-pipeline/output/notebooklm/assets",
+  "course_count": 1,
+  "artifact_count": 1,
+  "local_file_count": 1,
   "courses": [
-    {
-      "course_id": "15-773-hands-on-deep-learning-spring-2024",
-      "title": "Hands-on Deep Learning",
-      "notebook_id": "d9203b2c-389e-4246-bfaf-7cc5a3e68ef7",
-      "notebook_title": "Hands-on Deep Learning (MIT 15.773)",
-      "artifact_count": 0,
-      "artifacts": [],
-      "downloads": [],
-      "local_dir": "library/notebooklm/assets/15-773-hands-on-deep-learning-spring-2024",
-      "local_files": []
-    },
-    {
-      "course_id": "6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016",
-      "title": "Introduction to Computer Science and Programming in Python",
-      "notebook_id": "e9b29f80-838e-43d3-989d-e3416658b76a",
-      "notebook_title": "Introduction to Computer Science and Programming in Python (MIT 6.0001)",
-      "artifact_count": 0,
-      "artifacts": [],
-      "downloads": [],
-      "local_dir": "library/notebooklm/assets/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016",
-      "local_files": []
-    },
-    {
-      "course_id": "6-0002-introduction-to-computational-thinking-and-data-science-fall-2016",
-      "title": "Introduction to Computational Thinking and Data Science",
-      "notebook_id": "b783ff81-777f-4def-ac19-ef824acb0621",
-      "notebook_title": "MIT-6.0002 Computational Thinking and Data Science",
-      "artifact_count": 2,
-      "artifacts": [
-        {
-          "index": 1,
-          "id": "0d3449b4-ea56-417e-bfd1-d2036d8859f6",
-          "title": "How to Spot Statistical Illusions",
-          "type": "Audio",
-          "type_id": "audio",
-          "status": "completed",
-          "status_id": 3,
-          "created_at": "2026-04-13T23:32:15"
-        },
-        {
-          "index": 2,
-          "id": "577ee686-8703-42e4-8f3f-7b69846a12d3",
-          "title": "Informatik Lernkarten",
-          "type": "Flashcards",
-          "type_id": "flashcards",
-          "status": "completed",
-          "status_id": 3,
-          "created_at": "2026-04-13T23:32:51"
-        }
-      ],
-      "downloads": [],
-      "local_dir": "library/notebooklm/assets/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016",
-      "local_files": []
-    },
     {
       "course_id": "6-034-artificial-intelligence-fall-2010",
       "title": "Artificial Intelligence",
       "notebook_id": "a99d5700-fffe-4e56-b251-9a3005a80ea2",
       "notebook_title": "Artificial Intelligence (MIT 6.034)",
-      "artifact_count": 0,
-      "artifacts": [],
-      "downloads": [],
-      "local_dir": "library/notebooklm/assets/6-034-artificial-intelligence-fall-2010",
-      "local_files": []
-    },
-    {
-      "course_id": "mas-s60-how-to-ai-almost-anything-spring-2025",
-      "title": "How to AI (Almost) Anything",
-      "notebook_id": "d9648f39-95c4-4267-a636-3e62b4eed301",
-      "notebook_title": "How2AI Spring 2025 (MIT MAS.S60)",
       "artifact_count": 1,
       "artifacts": [
         {
           "index": 1,
-          "id": "37e75144-7099-4d41-9dde-299f1ac711ca",
-          "title": "KI für (fast) alles",
+          "id": "df8a1793-2d3b-4496-b00e-d679e8229507",
+          "title": "Einführung in die KI",
           "type": "Video",
           "type_id": "video",
           "status": "completed",
           "status_id": 3,
-          "created_at": "2026-04-15T18:04:40"
+          "created_at": "2026-05-17T11:38:32"
         }
       ],
-      "downloads": [],
-      "local_dir": "library/notebooklm/assets/mas-s60-how-to-ai-almost-anything-spring-2025",
-      "local_files": []
+      "downloads": [
+        {
+          "type": "video",
+          "status": "error",
+          "message": "notebooklm download video --notebook a99d5700-fffe-4e56-b251-9a3005a80ea2 --all /Users/shula2/.openclaw/workspace/ai-university/ocw-pipeline/output/notebooklm/assets/6-034-artificial-intelligence-fall-2010/video --json --no-clobber: ungültige JSON-Ausgabe: {\n  \"operation\": \"download_all\",\n  \"output_dir\": \n\"/Users/shula2/.openclaw/workspace/ai-university/ocw-pipeline/output/notebooklm/\nassets/6-034-artificial-intelligence-fall-2010/video\",\n  \"total\": 1,\n"
+        }
+      ],
+      "local_dir": "ocw-pipeline/output/notebooklm/assets/6-034-artificial-intelligence-fall-2010",
+      "local_files": [
+        {
+          "path": "ocw-pipeline/output/notebooklm/assets/6-034-artificial-intelligence-fall-2010/video/Einführung in die KI.mp4",
+          "bytes": 74589633,
+          "modified_at": "2026-05-17T13:00:15.222Z"
+        }
+      ]
     }
   ]
 }

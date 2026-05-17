@@ -10,7 +10,7 @@
 
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import { upsertCourse, updateScreening, replaceCourseMaterials, getCoursesByStatus } from '../lib/db.js';
+import { applyScreeningResult, getCourse, getCoursesByStatus } from '../lib/db.js';
 import { calculateTier, SCREENING_STATUS } from '../lib/schema.js';
 
 const BASE_URL = 'https://ocw.mit.edu';
@@ -26,6 +26,13 @@ const http = axios.create({
 
 const RESOURCE_DETAIL_CONCURRENCY = 5;
 const RESOURCE_BATCH_DELAY_MS = 200;
+const PRESERVED_PIPELINE_STATUSES = new Set([
+  SCREENING_STATUS.SELECTED,
+  SCREENING_STATUS.READY_FOR_NOTEBOOKLM,
+  SCREENING_STATUS.APPROVED_FOR_NOTEBOOKLM,
+  SCREENING_STATUS.UPLOADED_TO_NOTEBOOKLM,
+  SCREENING_STATUS.NOTEBOOKLM_VALIDATED
+]);
 
 /**
  * Fetcht und parst data.json für einen Kurs
@@ -434,6 +441,8 @@ export async function screenCourse(courseId, options = {}) {
   console.log(`[SCREEN] ${courseId}`);
   
   try {
+    const existingCourse = getCourse(courseId);
+
     // 1. data.json fetchen
     const data = await fetchCourseData(courseId);
 
@@ -463,8 +472,8 @@ export async function screenCourse(courseId, options = {}) {
 
     const { tier, score, warnings, reason } = tierResult;
 
-    // 5. DB updaten
-    const dbData = {
+    // 5. + 6. Atomares Update: Course-Metadaten, optional Materials, Screening-Felder.
+    const courseData = {
       course_title: data.course_title,
       source_url: `${BASE_URL}/courses/${courseId}/`,
       departments: pageMetadata.departments,
@@ -478,14 +487,15 @@ export async function screenCourse(courseId, options = {}) {
       learning_resource_types: data.learning_resource_types,
       course_page_metadata: pageMetadata
     };
-    upsertCourse(courseId, dbData);
-    if (shouldDeepScan) {
-      replaceCourseMaterials(courseId, materials);
-    }
-    
-    // 6. Screening-Status setzen
-    const status = tier === 3 ? SCREENING_STATUS.HOLD : SCREENING_STATUS.SCREENED;
-    updateScreening(courseId, { tier, score, warnings, reason, status });
+    const screeningStatus = tier === 3 ? SCREENING_STATUS.HOLD : SCREENING_STATUS.SCREENED;
+    const status = preservePipelineStatus(existingCourse?.status, screeningStatus);
+
+    applyScreeningResult({
+      courseId,
+      courseData,
+      materials: shouldDeepScan ? materials : null,
+      screening: { tier, score, warnings, reason, status }
+    });
     
     const mode = shouldDeepScan
       ? `${materials.length} Materialien`
@@ -500,6 +510,10 @@ export async function screenCourse(courseId, options = {}) {
     console.error(`[ERROR] ${courseId}: ${err.message}`);
     return { courseId, error: err.message };
   }
+}
+
+function preservePipelineStatus(currentStatus, nextStatus) {
+  return PRESERVED_PIPELINE_STATUSES.has(currentStatus) ? currentStatus : nextStatus;
 }
 
 /**

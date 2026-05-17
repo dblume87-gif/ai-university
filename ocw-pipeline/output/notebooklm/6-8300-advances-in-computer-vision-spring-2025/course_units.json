@@ -1,0 +1,462 @@
+{
+  "generated_at": "2026-05-16T21:22:58.492Z",
+  "course": {
+    "course_id": "6-8300-advances-in-computer-vision-spring-2025",
+    "title": "Advances in Computer Vision",
+    "source_url": "https://ocw.mit.edu/courses/6-8300-advances-in-computer-vision-spring-2025/",
+    "status": "uploaded_to_notebooklm",
+    "notebooklm_status": "uploaded_to_notebooklm",
+    "notebooklm_notebook_id": "b29cef54-6882-4645-9395-2afce4c8c1aa"
+  },
+  "summary": {
+    "material_sources": 20,
+    "unit_count": 18,
+    "assigned_sources": 18,
+    "unassigned_sources": 2
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 3,
+      "title": "Linear Image Processing & Transformations",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7918,
+          "title": "Lecture 3: Linear Image Processing & Transformations",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec3.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec3.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Representation Theory in Vision",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7919,
+          "title": "Lecture 4: Representation Theory in Vision",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec4.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec4.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Geometric Deep Learning and Vision",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7920,
+          "title": "Lecture 5: Geometric Deep Learning and Vision",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec5.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec5.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Optical Flow",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7921,
+          "title": "Lecture 6: Optical Flow",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec6.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec6.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Point Tracking, Scene Flow and Feature Matching",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7922,
+          "title": "Lecture 7: Point Tracking, Scene Flow and Feature Matching",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec7.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec7.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Multi-View Geometry",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7923,
+          "title": "Lecture 8: Multi-View Geometry",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec8.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec8.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Differentiable Rendering: Data Structures and Signal Parameterizations",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7924,
+          "title": "Lecture 9: Differentiable Rendering: Data Structures and Signal Parameterizations",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec9.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec9.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Differentiable Rendering: Novel View Synthesis",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7907,
+          "title": "Lecture 11: Differentiable Rendering: Novel View Synthesis",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec11.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec11.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Differentiable Rendering: Novel View Synthesis 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7908,
+          "title": "Lecture 12: Differentiable Rendering: Novel View Synthesis 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec12.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec12.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Differentiable Rendering: Prior-Based 3D Reconstruction and Novel View Synthesis",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7909,
+          "title": "Lecture 13: Differentiable Rendering: Prior-Based 3D Reconstruction and Novel View Synthesis",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec13.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec13.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Introduction to Representation Learning and Generative Modeling",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7910,
+          "title": "Lecture 14: Introduction to Representation Learning and Generative Modeling",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec14.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec14.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Peter Holderrieth: Diffusion Models 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7911,
+          "title": "Lecture 15: Peter Holderrieth: Diffusion Models 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec15.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec15.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "Peter Holderrieth: Diffusion Models 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7912,
+          "title": "Lecture 16: Peter Holderrieth: Diffusion Models 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec16.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec16.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Diffusion Models 3",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7913,
+          "title": "Lecture 18: Diffusion Models 3",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec18.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec18.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "Sequence Generative Models",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7914,
+          "title": "Lecture 19: Sequence Generative Models",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec19.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec19.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "Sequence Generative Models II",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7915,
+          "title": "Lecture 20: Sequence Generative Models II",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec20.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec20.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "Introduction to Robotic Perception",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7916,
+          "title": "Lecture 23: Introduction to Robotic Perception",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec23.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec23.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 25,
+      "title": "Learning Skills from Demonstrations",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7917,
+          "title": "Lecture 25: Learning Skills from Demonstrations",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec25.pdf",
+          "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/MIT6_8300S25_Lec25.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 7905,
+      "title": "FILELIST.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/FILELIST.md",
+      "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/FILELIST.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7906,
+      "title": "LECTURE_VIDEOS.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-6.8300-Advances-in-Computer-Vision/LECTURE_VIDEOS.md",
+      "resource_path": "library/MIT-6.8300-Advances-in-Computer-Vision/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

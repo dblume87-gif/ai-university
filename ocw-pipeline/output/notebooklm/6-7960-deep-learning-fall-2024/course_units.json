@@ -1,0 +1,841 @@
+{
+  "generated_at": "2026-05-16T21:22:58.490Z",
+  "course": {
+    "course_id": "6-7960-deep-learning-fall-2024",
+    "title": "Deep Learning",
+    "source_url": "https://ocw.mit.edu/courses/6-7960-deep-learning-fall-2024/",
+    "status": "uploaded_to_notebooklm",
+    "notebooklm_status": "uploaded_to_notebooklm",
+    "notebooklm_notebook_id": "079e535f-f79a-4d12-8815-295040653fae"
+  },
+  "summary": {
+    "material_sources": 49,
+    "unit_count": 23,
+    "assigned_sources": 23,
+    "unassigned_sources": 26
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Introduction to Deep Learning",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7858,
+          "title": "Lecture 1: Introduction to Deep Learning",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec1.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec1.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "How to Train a Neural Net",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7869,
+          "title": "Lecture 2: How to Train a Neural Net",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec2.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec2.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Approximation Theory",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7874,
+          "title": "Lecture 3: Approximation Theory",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec3.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec3.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Architectures for Grids",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7875,
+          "title": "Lecture 4: Architectures for Grids",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec4.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec4.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Graph Neural Networks",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7876,
+          "title": "Lecture 5: Graph Neural Networks",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec5.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec5.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Neural Network Generalization",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7877,
+          "title": "Lecture 6: Neural Network Generalization",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec6.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec6.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Scaling Rules for Optimization",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7878,
+          "title": "Lecture 7: Scaling Rules for Optimization",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec7.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec7.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Transformers",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7879,
+          "title": "Lecture 8: Transformers",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec8.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec8.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Hacker's Guide to Deep Learning",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7880,
+          "title": "Lecture 9: Hacker's Guide to Deep Learning",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec9.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec9.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Memory and Sequence Modeling",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7859,
+          "title": "Lecture 10: Memory and Sequence Modeling",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec10.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec10.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Representation Learning I",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7860,
+          "title": "Lecture 11: Representation Learning I",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec11.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec11.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Similarity-Based Representation Learning",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7861,
+          "title": "Lecture 12: Similarity-Based Representation Learning",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec12.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec12.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Architectural Bias on Representations",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7862,
+          "title": "Lecture 13: Architectural Bias on Representations",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec13.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec13.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Deep Generative Models I",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7863,
+          "title": "Lecture 14: Deep Generative Models I",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec14.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec14.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Deep Generative Models II",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7864,
+          "title": "Lecture 15: Deep Generative Models II",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec15.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec15.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "Deep Generative Models III",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7865,
+          "title": "Lecture 16: Deep Generative Models III",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec16.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec16.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "Out-of-Distribution Generalization",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7866,
+          "title": "Lecture 17: Out-of-Distribution Generalization",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec17.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec17.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Transfer Learning I",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7867,
+          "title": "Lecture 18: Transfer Learning I",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec18.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec18.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "Transfer Learning II",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7868,
+          "title": "Lecture 19: Transfer Learning II",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec19.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec19.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "Scaling Laws",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7870,
+          "title": "Lecture 20: Scaling Laws",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec20.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec20.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "Language Models",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7871,
+          "title": "Lecture 21: Language Models",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec21.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec21.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "Metrized Deep Learning",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7872,
+          "title": "Lecture 23: Metrized Deep Learning",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec23.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec23.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 24,
+      "title": "Inference Methods for Deep Learning",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7873,
+          "title": "Lecture 24: Inference Methods for Deep Learning",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec24.pdf",
+          "resource_path": "library/MIT-6.7960-Deep-Learning/MIT6_7960F24_Lec24.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 7856,
+      "title": "FILELIST.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-6.7960-Deep-Learning/FILELIST.md",
+      "resource_path": "library/MIT-6.7960-Deep-Learning/FILELIST.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7857,
+      "title": "LECTURE_VIDEOS.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7881,
+      "title": "https://www.youtube.com/embed/6FkRvTtUc-o",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/6FkRvTtUc-o",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7882,
+      "title": "https://www.youtube.com/embed/vidCX_dMCu0",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/vidCX_dMCu0",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7883,
+      "title": "https://www.youtube.com/embed/ySaoWrv3T_Q",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/ySaoWrv3T_Q",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7884,
+      "title": "https://www.youtube.com/embed/bxVkZ4M-hIE",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/bxVkZ4M-hIE",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7885,
+      "title": "https://www.youtube.com/embed/0niIwb37nF0",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/0niIwb37nF0",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7886,
+      "title": "https://www.youtube.com/embed/EiO8BBa-xdc",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/EiO8BBa-xdc",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7887,
+      "title": "https://www.youtube.com/embed/VcGPE4s_oNw",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/VcGPE4s_oNw",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7888,
+      "title": "https://www.youtube.com/embed/Q1HOKrNeh2M",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/Q1HOKrNeh2M",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7889,
+      "title": "https://www.youtube.com/embed/DC2Hw9DiLCg",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/DC2Hw9DiLCg",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7890,
+      "title": "https://www.youtube.com/embed/IiHknRHA-Gk",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/IiHknRHA-Gk",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7891,
+      "title": "https://www.youtube.com/embed/QxOzQRtd440",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/QxOzQRtd440",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7892,
+      "title": "https://www.youtube.com/embed/yUh1fEGGdl4",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/yUh1fEGGdl4",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7893,
+      "title": "https://www.youtube.com/embed/-eC0-5mXHQg",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/-eC0-5mXHQg",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7894,
+      "title": "https://www.youtube.com/embed/hJlrAHqGOS8",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/hJlrAHqGOS8",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7895,
+      "title": "https://www.youtube.com/embed/8zzfcYIELdo",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/8zzfcYIELdo",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7896,
+      "title": "https://www.youtube.com/embed/zaMcHuJwe1w",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/zaMcHuJwe1w",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7897,
+      "title": "https://www.youtube.com/embed/tjD9LIzIIek",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/tjD9LIzIIek",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7898,
+      "title": "https://www.youtube.com/embed/tNfuZ9Imt3M",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/tNfuZ9Imt3M",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7899,
+      "title": "https://www.youtube.com/embed/RUdQMHV-7KM",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/RUdQMHV-7KM",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7900,
+      "title": "https://www.youtube.com/embed/7hbf4klU3ks",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/7hbf4klU3ks",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7901,
+      "title": "https://www.youtube.com/embed/9GWd3SAWLbA",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/9GWd3SAWLbA",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7902,
+      "title": "https://www.youtube.com/embed/zBvsoxC6tAo",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/zBvsoxC6tAo",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7903,
+      "title": "https://www.youtube.com/embed/mbgFTqKxR7A",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/mbgFTqKxR7A",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7904,
+      "title": "https://www.youtube.com/embed/o5gPABcGZwc",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/o5gPABcGZwc",
+      "local_path": null,
+      "resource_path": "library/MIT-6.7960-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

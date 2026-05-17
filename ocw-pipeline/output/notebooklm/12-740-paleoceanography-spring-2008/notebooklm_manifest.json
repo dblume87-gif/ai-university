@@ -1,0 +1,1076 @@
+{
+  "generated_at": "2026-05-16T20:30:55.473Z",
+  "target": "notebooklm",
+  "upload_mode": "source_manifest",
+  "notebooklm_api_note": "Personal NotebookLM can use this as a manual upload queue. NotebookLM Enterprise can map these sources to its notebook/source API.",
+  "course": {
+    "course_id": "12-740-paleoceanography-spring-2008",
+    "title": "Paleoceanography",
+    "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/",
+    "term": "Spring",
+    "year": "2008",
+    "level": [
+      "Graduate"
+    ],
+    "topics": [
+      [
+        "Science",
+        "Earth Science",
+        "Oceanography"
+      ],
+      [
+        "Science",
+        "Earth Science",
+        "Geology"
+      ],
+      [
+        "Science",
+        "Earth Science",
+        "Climate Studies"
+      ],
+      [
+        "Science",
+        "Earth Science",
+        "Geochemistry"
+      ]
+    ],
+    "instructors": [
+      {
+        "first_name": "Edward",
+        "last_name": "Boyle",
+        "middle_initial": "",
+        "salutation": "Prof.",
+        "title": "Prof. Edward Boyle",
+        "uid": "62ce5249-fee9-d425-0d77-765502ec1f24",
+        "url": "/search/?q=Prof.+Edward+Boyle"
+      }
+    ],
+    "status": "ready_for_notebooklm",
+    "tier": 2,
+    "tier_score": 28,
+    "screening_reason": "Braucht Normalisierung oder manuelle Prüfung",
+    "warnings": []
+  },
+  "qa": {
+    "status": "ready",
+    "blocking": [],
+    "warnings": [
+      "3 Nicht-Dokument-Links wurden nicht exportiert."
+    ],
+    "material_counts": {
+      "pdf": 38,
+      "other": 9
+    },
+    "source_counts": {
+      "pdf": 38,
+      "other": 6
+    }
+  },
+  "source_limits": {
+    "max_sources": 300,
+    "exported_sources": 44,
+    "total_materials": 47
+  },
+  "sources": [
+    {
+      "order": 1,
+      "title": "Major Paleoceanographic and Paleoclimatic Events of the Past 2 Million Years",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/02f5d967ce637f066a1f68acf5e0bde0_lec01.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/02f5d967ce637f066a1f68acf5e0bde0_lec01.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "02f5d967-ce63-7f06-6a1f-68acf5e0bde0"
+      }
+    },
+    {
+      "order": 2,
+      "title": "Coral evidence for temperature, salinity, and nutrient changes",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/0903b3905645d2102a1197fa5afcd272_lec13.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/0903b3905645d2102a1197fa5afcd272_lec13.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "0903b390-5645-d210-2a11-97fa5afcd272"
+      }
+    },
+    {
+      "order": 3,
+      "title": "Ice Core Evidence for Climate Change",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/0c98b30de23c15696cb75881bd1c07a1_lec07.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/0c98b30de23c15696cb75881bd1c07a1_lec07.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "0c98b30d-e23c-1569-6cb7-5881bd1c07a1"
+      }
+    },
+    {
+      "order": 4,
+      "title": "Other Tracers",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/0f2c17315ac362e4f1be38904e8029b7_lec15.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/0f2c17315ac362e4f1be38904e8029b7_lec15.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "0f2c1731-5ac3-62e4-f1be-38904e8029b7"
+      }
+    },
+    {
+      "order": 5,
+      "title": "Glacial/interglacial 'Oscillations': Why? Time-series Analysis",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/16d8a87dab54f0c3eaaf79a03c8d2b64_lec06.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/16d8a87dab54f0c3eaaf79a03c8d2b64_lec06.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "16d8a87d-ab54-f0c3-eaaf-79a03c8d2b64"
+      }
+    },
+    {
+      "order": 6,
+      "title": "Ice Core Paleoclimatology Ii: Solutes and Particulates",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/17d1a45db2afc0290756927fda0d9b85_lec08b_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/17d1a45db2afc0290756927fda0d9b85_lec08b_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "17d1a45d-b2af-c029-0756-927fda0d9b85"
+      }
+    },
+    {
+      "order": 7,
+      "title": "Introduction to Cenozoic Palenoceanography",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/20c1a264cfa46883498078d9e4500ac1_lec14.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/20c1a264cfa46883498078d9e4500ac1_lec14.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "20c1a264-cfa4-6883-4980-78d9e4500ac1"
+      }
+    },
+    {
+      "order": 8,
+      "title": "Continental evidence for glacial climate change",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/27b958411670287742040cad5b015072_lec11.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/27b958411670287742040cad5b015072_lec11.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "27b95841-1670-2877-4204-0cad5b015072"
+      }
+    },
+    {
+      "order": 9,
+      "title": "Oxygen isotope paleothermometry",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/3f263afcc13cc3c0dbc7b37a2ba33003_lec03_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/3f263afcc13cc3c0dbc7b37a2ba33003_lec03_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "3f263afc-c13c-c3c0-dbc7-b37a2ba33003"
+      }
+    },
+    {
+      "order": 10,
+      "title": "Coastline evidence for sea level change",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/425c940364cab0b50dad0480e5267156_lec05_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/425c940364cab0b50dad0480e5267156_lec05_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "425c9403-64ca-b0b5-0dad-0480e5267156"
+      }
+    },
+    {
+      "order": 11,
+      "title": "Atmospheric Carbon Dioxide, Ocean Chemistry, and Mechanisms of Climate Change",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/44d3cbec1620faae3329d01d400afb76_lec10.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/44d3cbec1620faae3329d01d400afb76_lec10.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "44d3cbec-1620-faae-3329-d01d400afb76"
+      }
+    },
+    {
+      "order": 12,
+      "title": "Ice Core Evidence for Climate Change (cont.)",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/5261502f74f09d3f51d75872bccc9aa9_lec08.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/5261502f74f09d3f51d75872bccc9aa9_lec08.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "5261502f-74f0-9d3f-51d7-5872bccc9aa9"
+      }
+    },
+    {
+      "order": 13,
+      "title": "Ice Core Paleoclimatology II: gases",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/5924472ff303174bf647366009af9831_lec08a_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/5924472ff303174bf647366009af9831_lec08a_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "5924472f-f303-174b-f647-366009af9831"
+      }
+    },
+    {
+      "order": 14,
+      "title": "Deep Ocean Paleoceanography",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/647e0b5225b6342b1e3fb8dd7e417f41_lec09_1_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/647e0b5225b6342b1e3fb8dd7e417f41_lec09_1_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "647e0b52-25b6-342b-1e3f-b8dd7e417f41"
+      }
+    },
+    {
+      "order": 15,
+      "title": "The Carbon-14 Story",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/7f42a97fdeab1a693be905653c2c620a_lec09a_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/7f42a97fdeab1a693be905653c2c620a_lec09a_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "7f42a97f-deab-1a69-3be9-05653c2c620a"
+      }
+    },
+    {
+      "order": 16,
+      "title": "Paleo-ecological Temperature Estimates",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/81363ae0114b5824c91a90fcd867022e_lec04a.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/81363ae0114b5824c91a90fcd867022e_lec04a.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "81363ae0-114b-5824-c91a-90fcd867022e"
+      }
+    },
+    {
+      "order": 17,
+      "title": "Oxygen-isotope paleothermometry",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/903012022c8da78aec9470f1332257bb_lec03.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/903012022c8da78aec9470f1332257bb_lec03.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "90301202-2c8d-a78a-ec94-70f1332257bb"
+      }
+    },
+    {
+      "order": 18,
+      "title": "Lifestyles of the Small and Calcareous",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/92bace8a0a56bdb59d09f9d44bc497a2_lec12.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/92bace8a0a56bdb59d09f9d44bc497a2_lec12.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "92bace8a-0a56-bdb5-9d09-f9d44bc497a2"
+      }
+    },
+    {
+      "order": 19,
+      "title": "Continental Evidence for Glacial Climate",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/941a132cd1c5fd22734a8e6f7887430c_lec11_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/941a132cd1c5fd22734a8e6f7887430c_lec11_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "941a132c-d1c5-fd22-734a-8e6f7887430c"
+      }
+    },
+    {
+      "order": 20,
+      "title": "Deep-ocean paleoceanography and ocean chemistry",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/a2363badee08c771ae9efe57df0c2d41_lec09_2_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/a2363badee08c771ae9efe57df0c2d41_lec09_2_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "a2363bad-ee08-c771-ae9e-fe57df0c2d41"
+      }
+    },
+    {
+      "order": 21,
+      "title": "Deep-ocean Paleoceanography and Ocean Chemistry: Links to Atmospheric Carbon Dioxide and Carbon-14/Carbon-12",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/ae76716434bccc1a11b3192025c48b20_lec09.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/ae76716434bccc1a11b3192025c48b20_lec09.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "ae767164-34bc-cc1a-11b3-192025c48b20"
+      }
+    },
+    {
+      "order": 22,
+      "title": "Ice Core Paleoclimatology I",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/c1deb54b73b591e240d4460cd668aac3_lec07_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/c1deb54b73b591e240d4460cd668aac3_lec07_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "c1deb54b-73b5-91e2-40d4-460cd668aac3"
+      }
+    },
+    {
+      "order": 23,
+      "title": "Glacial/Interglacial ‘oscillations’: WHY? Time-series analysis",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/c4c1e4f1f05564b21d4c631909a8048d_lec06_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/c4c1e4f1f05564b21d4c631909a8048d_lec06_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "c4c1e4f1-f055-64b2-1d4c-631909a8048d"
+      }
+    },
+    {
+      "order": 24,
+      "title": "Atmospheric Carbon Dioxide and Ocean Chemistry",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/c5040d5c3c20372c8f6225d75e95674d_lec10_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/c5040d5c3c20372c8f6225d75e95674d_lec10_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "c5040d5c-3c20-372c-8f62-25d75e95674d"
+      }
+    },
+    {
+      "order": 25,
+      "title": "Oxygen Isotope Paleoclimatology",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/c8d0a79efe58126c966be31d1c3ff440_lec02.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/c8d0a79efe58126c966be31d1c3ff440_lec02.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "c8d0a79e-fe58-126c-966b-e31d1c3ff440"
+      }
+    },
+    {
+      "order": 26,
+      "title": "Oxygen Isotope Paleoclimatology",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/e144c3c90caeec03b949e1f8cdc08f9a_lec02_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/e144c3c90caeec03b949e1f8cdc08f9a_lec02_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "e144c3c9-0cae-ec03-b949-e1f8cdc08f9a"
+      }
+    },
+    {
+      "order": 27,
+      "title": "Fundamentals of Factor Analysis: Satellite Image",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/eaa463027aeb98f28731d0a48349ce8c_lec04b.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/eaa463027aeb98f28731d0a48349ce8c_lec04b.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "eaa46302-7aeb-98f2-8731-d0a48349ce8c"
+      }
+    },
+    {
+      "order": 28,
+      "title": "The Carbon-14 Story",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/f3f8e699e86571a6b0e430eeb095a018_lec09a.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/f3f8e699e86571a6b0e430eeb095a018_lec09a.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "f3f8e699-e865-71a6-b0e4-30eeb095a018"
+      }
+    },
+    {
+      "order": 29,
+      "title": "Paleoceanographic Tracers and Major Paleoceanographic and Paleoclimate Events of the Past 70 Million Years",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/f5fbc800bcb1e2820f22c01a2ae2eebd_lec01_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/f5fbc800bcb1e2820f22c01a2ae2eebd_lec01_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "f5fbc800-bcb1-e282-0f22-c01a2ae2eebd"
+      }
+    },
+    {
+      "order": 30,
+      "title": "Paleo-ecological temperature estimation",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/f68484ab61b7903984dab3d74462b06d_lec04_slide.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/f68484ab61b7903984dab3d74462b06d_lec04_slide.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "f68484ab-61b7-9039-84da-b3d74462b06d"
+      }
+    },
+    {
+      "order": 31,
+      "title": "Sea-level and Climate Change: Coral Reefs On Stable and Emerging Islands",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/fb1398024a2268b22a0fceae71d98f03_lec05.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/fb1398024a2268b22a0fceae71d98f03_lec05.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "fb139802-4a22-68b2-2a0f-ceae71d98f03"
+      }
+    },
+    {
+      "order": 32,
+      "title": "Problem Set 3: Introduction to Ocean Box Modeling",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/451402bcacfa51c1bfa43c3b4cb4f174_problem_set3.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/451402bcacfa51c1bfa43c3b4cb4f174_problem_set3.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "451402bc-acfa-51c1-bfa4-3c3b4cb4f174"
+      }
+    },
+    {
+      "order": 33,
+      "title": "Problem Set 2",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/6fdf81ef97aa4e72dfaff3fcb7651abf_problemset2.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/6fdf81ef97aa4e72dfaff3fcb7651abf_problemset2.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "6fdf81ef-97aa-4e72-dfaf-f3fcb7651abf"
+      }
+    },
+    {
+      "order": 34,
+      "title": "Problem Set 3: Introduction to Ocean Box Modeling",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/7ad84b195a13936f97eda3a58cc5f2c0_problemset3.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/7ad84b195a13936f97eda3a58cc5f2c0_problemset3.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "7ad84b19-5a13-936f-97ed-a3a58cc5f2c0"
+      }
+    },
+    {
+      "order": 35,
+      "title": "Introduction to Ocean Carbon System Box Models: The Toggweiler-Sarmiento 3-Box Model",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/9c513047c551f0b212e3e2d81e5cf39c_3_box_model.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/9c513047c551f0b212e3e2d81e5cf39c_3_box_model.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Other",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [],
+        "parent_title": "Study Materials",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "9c513047-c551-f0b2-12e3-e2d81e5cf39c"
+      }
+    },
+    {
+      "order": 36,
+      "title": "Problem Set 2",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/a2c6561936aa336a52c56991e8f76960_paleo_problem2.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/a2c6561936aa336a52c56991e8f76960_paleo_problem2.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "a2c65619-36aa-336a-52c5-6991e8f76960"
+      }
+    },
+    {
+      "order": 37,
+      "title": "Problem Set 1",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/b10d1257c1a77d3bfe038b8c07aa8768_paleo_problem1.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/b10d1257c1a77d3bfe038b8c07aa8768_paleo_problem1.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "b10d1257-c1a7-7d3b-fe03-8b8c07aa8768"
+      }
+    },
+    {
+      "order": 38,
+      "title": "Model Color Coding",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/bff6b58b72856474daf22f97ec77dd4c_modelcolorcoding.pdf",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/bff6b58b72856474daf22f97ec77dd4c_modelcolorcoding.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Other",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [],
+        "parent_title": "Study Materials",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "bff6b58b-7285-6474-daf2-2f97ec77dd4c"
+      }
+    },
+    {
+      "order": 39,
+      "title": "3box_model_PreInd_rev11h_PC_",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/5a31eb2fed44e6c0ad7d4f579baecd06_3box_model_PreInd_rev11h_PC_.xls",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/5a31eb2fed44e6c0ad7d4f579baecd06_3box_model_PreInd_rev11h_PC_.xls",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Other",
+      "media_type": "other",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "document",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/msword",
+        "learning_resource_types": [],
+        "parent_title": "Study Materials",
+        "parent_type": "CourseSection",
+        "resourcetype": "Other",
+        "uid": "5a31eb2f-ed44-e6c0-ad7d-4f579baecd06"
+      }
+    },
+    {
+      "order": 40,
+      "title": "3box_model_Glacial_rev11h_PC",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/63ba8b28228842b9b55af0bb0bbf5a36_3box_model_Glacial_rev11h_PC.xls",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/63ba8b28228842b9b55af0bb0bbf5a36_3box_model_Glacial_rev11h_PC.xls",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Other",
+      "media_type": "other",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "document",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/msword",
+        "learning_resource_types": [],
+        "parent_title": "Study Materials",
+        "parent_type": "CourseSection",
+        "resourcetype": "Other",
+        "uid": "63ba8b28-2288-42b9-b55a-f0bb0bbf5a36"
+      }
+    },
+    {
+      "order": 41,
+      "title": "3boxModel11hMac",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/9d06e267d934bb513d0ff1180436b7bd_3boxModel11hMac.xls",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/9d06e267d934bb513d0ff1180436b7bd_3boxModel11hMac.xls",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "other",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "document",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/msword",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Other",
+        "uid": "9d06e267-d934-bb51-3d0f-f1180436b7bd"
+      }
+    },
+    {
+      "order": 42,
+      "title": "3boxmodelPreIndrev11hMAC",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/cbd144ca870f529bc3f20e9a24bf8278_3boxmodelPreIndrev11hMAC.xls",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/cbd144ca870f529bc3f20e9a24bf8278_3boxmodelPreIndrev11hMAC.xls",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Other",
+      "media_type": "other",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "document",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/msword",
+        "learning_resource_types": [],
+        "parent_title": "Study Materials",
+        "parent_type": "CourseSection",
+        "resourcetype": "Other",
+        "uid": "cbd144ca-870f-529b-c3f2-0e9a24bf8278"
+      }
+    },
+    {
+      "order": 43,
+      "title": "3box_model_11h_PC",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/e33a7457de0ecd4a799ef2d122441863_3box_model_11h_PC.xls",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/e33a7457de0ecd4a799ef2d122441863_3box_model_11h_PC.xls",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "other",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "document",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/msword",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Other",
+        "uid": "e33a7457-de0e-cd4a-799e-f2d122441863"
+      }
+    },
+    {
+      "order": 44,
+      "title": "3boxmodelGlacialrev11fMAC",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/e3460ab616f085541a4a94501542603e_3boxmodelGlacialrev11fMAC.xls",
+      "content": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/e3460ab616f085541a4a94501542603e_3boxmodelGlacialrev11fMAC.xls",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Other",
+      "media_type": "other",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "document",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/msword",
+        "learning_resource_types": [],
+        "parent_title": "Study Materials",
+        "parent_type": "CourseSection",
+        "resourcetype": "Other",
+        "uid": "e3460ab6-16f0-8554-1a4a-94501542603e"
+      }
+    }
+  ]
+}

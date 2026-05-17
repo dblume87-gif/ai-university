@@ -1,6 +1,7 @@
 import Database from 'better-sqlite3';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import { parseCliArgs } from '../lib/cli.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DB_PATH = join(__dirname, '../../library.db');
@@ -9,16 +10,23 @@ const DEFAULT_LIMIT = 5;
 const VALID_MATERIAL_FILTERS = new Set(['videos', 'pdfs', 'notes', 'psets', 'exams']);
 const VALID_SORTS = new Set(['score', 'videos', 'pdfs', 'notes', 'psets', 'exams', 'title']);
 
+const SHORTLIST_SCHEMA = {
+  stringFlags: ['--topic', '--department', '--material', '--sort'],
+  intFlags: ['--limit', '--min-videos', '--min-pdfs'],
+  booleanFlags: ['--include-hold']
+};
+
 export function getShortlistOptions(args = []) {
+  const parsed = parseCliArgs(args, SHORTLIST_SCHEMA);
   const options = {
-    limit: getPositiveIntegerOption(args, '--limit', DEFAULT_LIMIT),
-    topic: getOptionValue(args, '--topic'),
-    department: getOptionValue(args, '--department'),
-    material: getOptionValue(args, '--material'),
-    minVideos: getPositiveIntegerOption(args, '--min-videos', 0),
-    minPdfs: getPositiveIntegerOption(args, '--min-pdfs', 0),
-    includeHold: args.includes('--include-hold'),
-    sort: getOptionValue(args, '--sort') || 'score'
+    limit: parsed.getPositiveInt('--limit', DEFAULT_LIMIT),
+    topic: parsed.getString('--topic'),
+    department: parsed.getString('--department'),
+    material: parsed.getString('--material'),
+    minVideos: parsed.getPositiveInt('--min-videos', 0),
+    minPdfs: parsed.getPositiveInt('--min-pdfs', 0),
+    includeHold: parsed.has('--include-hold'),
+    sort: parsed.getString('--sort', 'score')
   };
 
   if (!VALID_SORTS.has(options.sort)) {
@@ -243,17 +251,6 @@ function truncate(value, maxLength) {
   const text = String(value || '');
   if (text.length <= maxLength) return text;
   return `${text.slice(0, maxLength - 1)}…`;
-}
-
-function getOptionValue(args, name) {
-  const index = args.indexOf(name);
-  const value = index >= 0 ? args[index + 1] : undefined;
-  return value && !value.startsWith('--') ? value : undefined;
-}
-
-function getPositiveIntegerOption(args, name, fallback) {
-  const value = Number.parseInt(getOptionValue(args, name), 10);
-  return Number.isInteger(value) && value > 0 ? value : fallback;
 }
 
 export default {

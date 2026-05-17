@@ -1,29 +1,466 @@
 {
-  "generated_at": "2026-05-16T12:49:06.797Z",
+  "generated_at": "2026-05-16T19:52:33.697Z",
   "dry_run": true,
   "course_id": "6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016",
-  "notebook_id": null,
+  "notebook_id": "e9b29f80-838e-43d3-989d-e3416658b76a",
   "notebook_created": false,
+  "create_command": null,
+  "source_summary": {
+    "total": 50,
+    "added": 0,
+    "ready": 0,
+    "failed": 0,
+    "dry_run": 50
+  },
   "sources": [
     {
       "order": 1,
       "title": "Lecture 1: Welcome",
       "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/e921a690079369751bcce3e34da6c6ee_MIT6_0001F16_Lec1.pdf",
-      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/e921a690079369751bcce3e34da6c6ee_MIT6_0001F16_Lec1.pdf --title Lecture 1: Welcome --json --type url",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/e921a690079369751bcce3e34da6c6ee_MIT6_0001F16_Lec1.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/e921a690079369751bcce3e34da6c6ee_MIT6_0001F16_Lec1.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 1: Welcome' --type url",
       "status": "dry_run"
     },
     {
       "order": 2,
       "title": "Lecture 2: Branching, Iteration",
       "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/ba2947b25b1580e4a84df0ec5dbe5cdd_MIT6_0001F16_Lec2.pdf",
-      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/ba2947b25b1580e4a84df0ec5dbe5cdd_MIT6_0001F16_Lec2.pdf --title Lecture 2: Branching, Iteration --json --type url",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/ba2947b25b1580e4a84df0ec5dbe5cdd_MIT6_0001F16_Lec2.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/ba2947b25b1580e4a84df0ec5dbe5cdd_MIT6_0001F16_Lec2.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 2: Branching, Iteration' --type url",
       "status": "dry_run"
     },
     {
       "order": 3,
       "title": "Lecture 3: String Manipulation, Guess-and-Check, Approximations, Bisection",
       "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/b9b9a82a29e8746db1facfbd30c07940_MIT6_0001F16_Lec3.pdf",
-      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/b9b9a82a29e8746db1facfbd30c07940_MIT6_0001F16_Lec3.pdf --title Lecture 3: String Manipulation, Guess-and-Check, Approximations, Bisection --json --type url",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/b9b9a82a29e8746db1facfbd30c07940_MIT6_0001F16_Lec3.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/b9b9a82a29e8746db1facfbd30c07940_MIT6_0001F16_Lec3.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 3: String Manipulation, Guess-and-Check, Approximations, Bisection' --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 4,
+      "title": "Lecture 4: Decomposition, Abstraction, Functions",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6ba59859535f1566dd57a7279aeba5d1_MIT6_0001F16_Lec4.pdf",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6ba59859535f1566dd57a7279aeba5d1_MIT6_0001F16_Lec4.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6ba59859535f1566dd57a7279aeba5d1_MIT6_0001F16_Lec4.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 4: Decomposition, Abstraction, Functions' --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 5,
+      "title": "Lecture 5: Tuples, Lists, Aliasing, Mutability, Cloning",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/1776670e271578eeb99fc25975f20586_MIT6_0001F16_Lec5.pdf",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/1776670e271578eeb99fc25975f20586_MIT6_0001F16_Lec5.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/1776670e271578eeb99fc25975f20586_MIT6_0001F16_Lec5.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 5: Tuples, Lists, Aliasing, Mutability, Cloning' --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 6,
+      "title": "Lecture 6: Recursion, Dictionaries",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/876348c652c5353daccc96e1b7d577bb_MIT6_0001F16_Lec6.pdf",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/876348c652c5353daccc96e1b7d577bb_MIT6_0001F16_Lec6.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/876348c652c5353daccc96e1b7d577bb_MIT6_0001F16_Lec6.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 6: Recursion, Dictionaries' --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 7,
+      "title": "Lecture 7: Testing, Debugging, Exceptions, Assertions",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/51bdde43dfd773ba20747ce5d89119ac_MIT6_0001F16_Lec7.pdf",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/51bdde43dfd773ba20747ce5d89119ac_MIT6_0001F16_Lec7.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/51bdde43dfd773ba20747ce5d89119ac_MIT6_0001F16_Lec7.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 7: Testing, Debugging, Exceptions, Assertions' --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 8,
+      "title": "Lecture 8: Object Oriented Programming",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/7a6f85d03f132dcd9d7592bc4643be1c_MIT6_0001F16_Lec8.pdf",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/7a6f85d03f132dcd9d7592bc4643be1c_MIT6_0001F16_Lec8.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/7a6f85d03f132dcd9d7592bc4643be1c_MIT6_0001F16_Lec8.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 8: Object Oriented Programming' --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 9,
+      "title": "Lecture 9: Python Classes and Inheritance",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/2dd6c75e7b4bd6bd135078e6f3701201_MIT6_0001F16_Lec9.pdf",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/2dd6c75e7b4bd6bd135078e6f3701201_MIT6_0001F16_Lec9.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/2dd6c75e7b4bd6bd135078e6f3701201_MIT6_0001F16_Lec9.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 9: Python Classes and Inheritance' --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 10,
+      "title": "Lecture 10: Understanding Program Efficiency: 1",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/066eba6ea6d56a88e56ae325940d4c4c_MIT6_0001F16_Lec10.pdf",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/066eba6ea6d56a88e56ae325940d4c4c_MIT6_0001F16_Lec10.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/066eba6ea6d56a88e56ae325940d4c4c_MIT6_0001F16_Lec10.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 10: Understanding Program Efficiency: 1' --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 11,
+      "title": "Lecture 11: Understanding Program Efficiency: 2",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/bb953fb81d4afa3bc837c16eba613955_MIT6_0001F16_Lec11.pdf",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/bb953fb81d4afa3bc837c16eba613955_MIT6_0001F16_Lec11.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/bb953fb81d4afa3bc837c16eba613955_MIT6_0001F16_Lec11.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 11: Understanding Program Efficiency: 2' --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 12,
+      "title": "Lecture 12: Searching and Sorting Algorithms",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6425d0dabb1cea1a076b8c46c0ae2da6_MIT6_0001F16_Lec12.pdf",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6425d0dabb1cea1a076b8c46c0ae2da6_MIT6_0001F16_Lec12.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6425d0dabb1cea1a076b8c46c0ae2da6_MIT6_0001F16_Lec12.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 12: Searching and Sorting Algorithms' --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 13,
+      "title": "Additional Python Resources",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/5dbf3131e472f4f013b1896c05b9f7a3_MIT6_0001F16_additional.pdf",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/5dbf3131e472f4f013b1896c05b9f7a3_MIT6_0001F16_additional.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/5dbf3131e472f4f013b1896c05b9f7a3_MIT6_0001F16_additional.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Additional Python Resources' --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 14,
+      "title": "Problem Set 1",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/8cf75481d7047180c386de3e485bd050_MIT6_0001F16_ps1.pdf",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/8cf75481d7047180c386de3e485bd050_MIT6_0001F16_ps1.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/8cf75481d7047180c386de3e485bd050_MIT6_0001F16_ps1.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Problem Set 1' --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 15,
+      "title": "Style Guide",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/f79b87104b0a0f787f6a43413e8eafd0_MIT6_0001F16_StyleGuide.pdf",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/f79b87104b0a0f787f6a43413e8eafd0_MIT6_0001F16_StyleGuide.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/f79b87104b0a0f787f6a43413e8eafd0_MIT6_0001F16_StyleGuide.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Style Guide' --type url",
+      "status": "dry_run"
+    },
+    {
+      "order": 16,
+      "title": "Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning",
+      "source_url": "https://www.youtube.com/watch?v=RvRKT-jXvko",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=RvRKT-jXvko",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=RvRKT-jXvko' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 17,
+      "title": "Lecture 9: Python Classes and Inheritance",
+      "source_url": "https://www.youtube.com/watch?v=FlGjISF3l78",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=FlGjISF3l78",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=FlGjISF3l78' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 9: Python Classes and Inheritance' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 18,
+      "title": "While Loops",
+      "source_url": "https://www.youtube.com/watch?v=P-0w8xWcnDQ",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=P-0w8xWcnDQ",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=P-0w8xWcnDQ' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'While Loops' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 19,
+      "title": "Strings",
+      "source_url": "https://www.youtube.com/watch?v=w4uxYDPsjbw",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=w4uxYDPsjbw",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=w4uxYDPsjbw' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title Strings --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 20,
+      "title": "Functions as Arguments",
+      "source_url": "https://www.youtube.com/watch?v=QaOHeMnpnmU",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=QaOHeMnpnmU",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=QaOHeMnpnmU' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Functions as Arguments' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 21,
+      "title": "Bindings",
+      "source_url": "https://www.youtube.com/watch?v=EFCdr_43qmU",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=EFCdr_43qmU",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=EFCdr_43qmU' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title Bindings --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 22,
+      "title": "Lecture 4: Decomposition, Abstraction, and Functions",
+      "source_url": "https://www.youtube.com/watch?v=MjbuarJ7SE0",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=MjbuarJ7SE0",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=MjbuarJ7SE0' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 4: Decomposition, Abstraction, and Functions' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 23,
+      "title": "Function Calls",
+      "source_url": "https://www.youtube.com/watch?v=4gPwo38MNss",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=4gPwo38MNss",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=4gPwo38MNss' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Function Calls' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 24,
+      "title": "For Loops",
+      "source_url": "https://www.youtube.com/watch?v=mrvBnZIEsZY",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=mrvBnZIEsZY",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=mrvBnZIEsZY' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'For Loops' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 25,
+      "title": "Python vs. Math",
+      "source_url": "https://www.youtube.com/watch?v=F-_PKUUM-qY",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=F-_PKUUM-qY",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=F-_PKUUM-qY' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Python vs. Math' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 26,
+      "title": "For Loops With Strings",
+      "source_url": "https://www.youtube.com/watch?v=4WtaFLayz_w",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=4WtaFLayz_w",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=4WtaFLayz_w' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'For Loops With Strings' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 27,
+      "title": "List Aliasing / Mutation",
+      "source_url": "https://www.youtube.com/watch?v=FKp-6sojt9A",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=FKp-6sojt9A",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=FKp-6sojt9A' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'List Aliasing / Mutation' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 28,
+      "title": "Lecture 7: Testing, Debugging, Exceptions, and Assertions",
+      "source_url": "https://www.youtube.com/watch?v=9H6muyZjms0",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=9H6muyZjms0",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=9H6muyZjms0' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 7: Testing, Debugging, Exceptions, and Assertions' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 29,
+      "title": "Special Methods",
+      "source_url": "https://www.youtube.com/watch?v=qq7I2MQNrtU",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=qq7I2MQNrtU",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=qq7I2MQNrtU' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Special Methods' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 30,
+      "title": "Black Box and Glass Box Testing",
+      "source_url": "https://www.youtube.com/watch?v=5McjE8e5gIg",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=5McjE8e5gIg",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=5McjE8e5gIg' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Black Box and Glass Box Testing' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 31,
+      "title": "Branching",
+      "source_url": "https://www.youtube.com/watch?v=jjbWNcIjmzc",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=jjbWNcIjmzc",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=jjbWNcIjmzc' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title Branching --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 32,
+      "title": "Simple Lists",
+      "source_url": "https://www.youtube.com/watch?v=zYVWQpCitKQ",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=zYVWQpCitKQ",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=zYVWQpCitKQ' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Simple Lists' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 33,
+      "title": "Method Call",
+      "source_url": "https://www.youtube.com/watch?v=_ax4eNMI9Dw",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=_ax4eNMI9Dw",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=_ax4eNMI9Dw' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Method Call' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 34,
+      "title": "Subclass",
+      "source_url": "https://www.youtube.com/watch?v=8s0d87sjy1A",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=8s0d87sjy1A",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=8s0d87sjy1A' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title Subclass --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 35,
+      "title": "Lecture 1: What is Computation?",
+      "source_url": "https://www.youtube.com/watch?v=nykOeWgQcHM",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=nykOeWgQcHM",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=nykOeWgQcHM' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 1: What is Computation?' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 36,
+      "title": "Class Instance",
+      "source_url": "https://www.youtube.com/watch?v=2__KumJsGXc",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=2__KumJsGXc",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=2__KumJsGXc' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Class Instance' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 37,
+      "title": "Errors",
+      "source_url": "https://www.youtube.com/watch?v=-wz4iU2V-Yo",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=-wz4iU2V-Yo",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=-wz4iU2V-Yo' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title Errors --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 38,
+      "title": "Lecture 8: Object Oriented Programming",
+      "source_url": "https://www.youtube.com/watch?v=-DP1i2ZU9gk",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=-DP1i2ZU9gk",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=-DP1i2ZU9gk' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 8: Object Oriented Programming' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 39,
+      "title": "Exceptions",
+      "source_url": "https://www.youtube.com/watch?v=0Whyfs88TYE",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=0Whyfs88TYE",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=0Whyfs88TYE' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title Exceptions --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 40,
+      "title": "Lecture 2: Branching and Iteration",
+      "source_url": "https://www.youtube.com/watch?v=0jljZRnHwOI",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=0jljZRnHwOI",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=0jljZRnHwOI' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 2: Branching and Iteration' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 41,
+      "title": "Tuples",
+      "source_url": "https://www.youtube.com/watch?v=ncpb4wIsQu8",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=ncpb4wIsQu8",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=ncpb4wIsQu8' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title Tuples --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 42,
+      "title": "Lecture 10: Understanding Program Efficiency, Part 1",
+      "source_url": "https://www.youtube.com/watch?v=o9nW0uBqvEo",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=o9nW0uBqvEo",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=o9nW0uBqvEo' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 10: Understanding Program Efficiency, Part 1' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 43,
+      "title": "Lecture 11: Understanding Program Efficiency, Part 2",
+      "source_url": "https://www.youtube.com/watch?v=7lQXYl_L28w",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=7lQXYl_L28w",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=7lQXYl_L28w' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Lecture 11: Understanding Program Efficiency, Part 2' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 44,
+      "title": "Methods",
+      "source_url": "https://www.youtube.com/watch?v=goalLDamePE",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=goalLDamePE",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=goalLDamePE' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title Methods --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 45,
+      "title": "List Operations",
+      "source_url": "https://www.youtube.com/watch?v=SrkqbLOQcEo",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=SrkqbLOQcEo",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=SrkqbLOQcEo' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'List Operations' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 46,
+      "title": "Class Definition",
+      "source_url": "https://www.youtube.com/watch?v=vqn_yk5aFcI",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=vqn_yk5aFcI",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=vqn_yk5aFcI' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'Class Definition' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 47,
+      "title": "Comparisons",
+      "source_url": "https://www.youtube.com/watch?v=lniF6ys2CIk",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=lniF6ys2CIk",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=lniF6ys2CIk' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title Comparisons --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 48,
+      "title": "String Manipulations",
+      "source_url": "https://www.youtube.com/watch?v=-jjUoTiaSHw",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=-jjUoTiaSHw",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=-jjUoTiaSHw' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'String Manipulations' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 49,
+      "title": "MIT Programmer on Gen AI, Growth Mindset, and Rubber Ducks? transcript",
+      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/p8918BiV01c_transcript.pdf",
+      "local_path": null,
+      "content": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/p8918BiV01c_transcript.pdf",
+      "command": "notebooklm source add https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/p8918BiV01c_transcript.pdf --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'MIT Programmer on Gen AI, Growth Mindset, and Rubber Ducks? transcript' --type youtube",
+      "status": "dry_run"
+    },
+    {
+      "order": 50,
+      "title": "MIT Programmer on Gen AI, Growth Mindset, and Rubber Ducks? transcript",
+      "source_url": "https://www.youtube.com/watch?v=p8918BiV01c",
+      "local_path": null,
+      "content": "https://www.youtube.com/watch?v=p8918BiV01c",
+      "command": "notebooklm source add 'https://www.youtube.com/watch?v=p8918BiV01c' --json --notebook e9b29f80-838e-43d3-989d-e3416658b76a --title 'MIT Programmer on Gen AI, Growth Mindset, and Rubber Ducks? transcript' --type youtube",
       "status": "dry_run"
     }
   ]

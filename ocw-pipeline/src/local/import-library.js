@@ -1,8 +1,8 @@
 import { readdir, readFile, stat } from 'fs/promises';
-import { basename, extname, join, relative } from 'path';
+import { basename, dirname, extname, join, relative } from 'path';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 import { getDb, getCourse, upsertCourse } from '../lib/db.js';
+import { parseCliArgs } from '../lib/cli.js';
 import { screenCourse } from '../screening/screen.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -11,6 +11,11 @@ const WORKSPACE_ROOT = join(SCRAPER_ROOT, '..');
 const DEFAULT_LIBRARY_ROOT = join(WORKSPACE_ROOT, 'library');
 const LOCAL_SOURCE_KIND = 'local_library';
 const DEFAULT_LIMIT = 100;
+const LOCAL_IMPORT_SCHEMA = {
+  stringFlags: ['--root', '--course-id'],
+  intFlags: ['--limit'],
+  booleanFlags: ['--dry-run', '--rescreen', '--fast']
+};
 const PRESERVED_NOTEBOOKLM_STATUSES = new Set([
   'ready_for_notebooklm',
   'approved_for_notebooklm',
@@ -66,13 +71,14 @@ const KNOWN_COURSES = {
 };
 
 export function getLocalImportOptions(args = []) {
+  const parsed = parseCliArgs(args, LOCAL_IMPORT_SCHEMA);
   return {
-    root: getOptionValue(args, '--root') || DEFAULT_LIBRARY_ROOT,
-    courseId: getOptionValue(args, '--course-id'),
-    dryRun: args.includes('--dry-run'),
-    rescreen: args.includes('--rescreen'),
-    fast: args.includes('--fast'),
-    limit: getPositiveIntegerOption(args, '--limit', DEFAULT_LIMIT)
+    root: parsed.getString('--root', DEFAULT_LIBRARY_ROOT),
+    courseId: parsed.getString('--course-id'),
+    dryRun: parsed.has('--dry-run'),
+    rescreen: parsed.has('--rescreen'),
+    fast: parsed.has('--fast'),
+    limit: parsed.getPositiveInt('--limit', DEFAULT_LIMIT)
   };
 }
 
@@ -157,7 +163,14 @@ export function printLocalImportResults(results) {
 }
 
 async function discoverCourseDirs(root) {
-  const entries = await readdir(root, { withFileTypes: true });
+  let entries = [];
+  try {
+    entries = await readdir(root, { withFileTypes: true });
+  } catch (err) {
+    if (err.code === 'ENOENT') return [];
+    throw err;
+  }
+
   return entries
     .filter(entry => entry.isDirectory())
     .filter(entry => !entry.name.startsWith('.') && entry.name !== 'notebooklm')
@@ -584,17 +597,6 @@ function safeJsonParse(value, fallback) {
 
 function mergeValues(left = [], right = []) {
   return [...new Set([...left, ...right].filter(Boolean))];
-}
-
-function getOptionValue(args, name) {
-  const index = args.indexOf(name);
-  const value = index >= 0 ? args[index + 1] : undefined;
-  return value && !value.startsWith('--') ? value : undefined;
-}
-
-function getPositiveIntegerOption(args, name, fallback) {
-  const value = Number.parseInt(getOptionValue(args, name), 10);
-  return Number.isInteger(value) && value > 0 ? value : fallback;
 }
 
 export default {

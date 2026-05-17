@@ -1,0 +1,1060 @@
+{
+  "generated_at": "2026-05-16T20:23:26.494Z",
+  "target": "notebooklm",
+  "upload_mode": "source_manifest",
+  "notebooklm_api_note": "Personal NotebookLM can use this as a manual upload queue. NotebookLM Enterprise can map these sources to its notebook/source API.",
+  "course": {
+    "course_id": "1-018j-ecology-i-the-earth-system-fall-2009",
+    "title": "Ecology I: The Earth System",
+    "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/",
+    "term": "Fall",
+    "year": "2009",
+    "level": [
+      "Undergraduate"
+    ],
+    "topics": [
+      [
+        "Science",
+        "Biology",
+        "Ecology"
+      ],
+      [
+        "Science",
+        "Earth Science"
+      ]
+    ],
+    "instructors": [
+      {
+        "first_name": "Edward",
+        "last_name": "DeLong",
+        "middle_initial": "",
+        "salutation": "Prof.",
+        "title": "Prof. Edward DeLong",
+        "uid": "c83a0144-a4ce-0ebb-e0ef-9572b87df77d",
+        "url": "/search/?q=Prof.+Edward+DeLong"
+      },
+      {
+        "first_name": "Penny",
+        "last_name": "Chisholm",
+        "middle_initial": "",
+        "salutation": "Prof.",
+        "title": "Prof. Penny Chisholm",
+        "uid": "e996e85a-e94d-9194-2d6e-e0644dbc9b21",
+        "url": "/search/?q=Prof.+Penny+Chisholm"
+      }
+    ],
+    "status": "ready_for_notebooklm",
+    "tier": 2,
+    "tier_score": 33,
+    "screening_reason": "Braucht Normalisierung oder manuelle Prüfung",
+    "warnings": []
+  },
+  "qa": {
+    "status": "ready",
+    "blocking": [],
+    "warnings": [
+      "13 Nicht-Dokument-Links wurden nicht exportiert."
+    ],
+    "material_counts": {
+      "pdf": 42,
+      "html": 6,
+      "external": 5,
+      "slides": 1,
+      "other": 2
+    },
+    "source_counts": {
+      "pdf": 42,
+      "slides": 1
+    }
+  },
+  "source_limits": {
+    "max_sources": 300,
+    "exported_sources": 43,
+    "total_materials": 56
+  },
+  "sources": [
+    {
+      "order": 1,
+      "title": "Lecture 1 — Introduction to Ecology",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/707c2b5e8f4e7c76320b809ee5414baa_MIT1_018JF09_Lec01.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/707c2b5e8f4e7c76320b809ee5414baa_MIT1_018JF09_Lec01.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "707c2b5e-8f4e-7c76-320b-809ee5414baa"
+      }
+    },
+    {
+      "order": 2,
+      "title": "Lecture 3: How to be Alive",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/6fe3ea2270721edf436a2e35030705a1_MIT1_018JF09_Lec03.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/6fe3ea2270721edf436a2e35030705a1_MIT1_018JF09_Lec03.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "6fe3ea22-7072-1edf-436a-2e35030705a1"
+      }
+    },
+    {
+      "order": 3,
+      "title": "Lecture 7 Notes — Biogeochemical cycles",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/720ffd9ddb139d9b3f080f79079dd25c_MIT1_018JF09_Lec07.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/720ffd9ddb139d9b3f080f79079dd25c_MIT1_018JF09_Lec07.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "720ffd9d-db13-9d9b-3f08-0f79079dd25c"
+      }
+    },
+    {
+      "order": 4,
+      "title": "Lecture 10 — Limiting Factors, and Redfield",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/0349026b6816f94442dfd54b37a8698f_MIT1_018JF09_Lec10.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/0349026b6816f94442dfd54b37a8698f_MIT1_018JF09_Lec10.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "0349026b-6816-f944-42df-d54b37a8698f"
+      }
+    },
+    {
+      "order": 5,
+      "title": "Lecture 12 — food webs and secondary productivity",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/15ad92a531dce47f1e339d2223125d6b_MIT1_018JF09_Lec12.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/15ad92a531dce47f1e339d2223125d6b_MIT1_018JF09_Lec12.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "15ad92a5-31dc-e47f-1e33-9d2223125d6b"
+      }
+    },
+    {
+      "order": 6,
+      "title": "Lecture 16 — Predator Prey Interactions",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/1bd9edad2c2bf24b7d06c66a7b60395b_MIT1_018JF09_Lec18.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/1bd9edad2c2bf24b7d06c66a7b60395b_MIT1_018JF09_Lec18.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "1bd9edad-2c2b-f24b-7d06-c66a7b60395b"
+      }
+    },
+    {
+      "order": 7,
+      "title": "Lectures 5 and 6 — Primary Productivity",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/10a23382a2263c7c3b7153f5efdc4081_MIT1_018JF09_Lec05.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/10a23382a2263c7c3b7153f5efdc4081_MIT1_018JF09_Lec05.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "10a23382-a226-3c7c-3b71-53f5efdc4081"
+      }
+    },
+    {
+      "order": 8,
+      "title": "Population Growth in Chemostats",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/46984021a8ccf3cef0d5f77e4677dfda_MIT1_018JF09_Lec14_chemo.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/46984021a8ccf3cef0d5f77e4677dfda_MIT1_018JF09_Lec14_chemo.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "46984021-a8cc-f3ce-f0d5-f77e4677dfda"
+      }
+    },
+    {
+      "order": 9,
+      "title": "Competition and the Niche",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/4d922119832362db083555b659710da7_MIT1_018JF09_Lec17.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/4d922119832362db083555b659710da7_MIT1_018JF09_Lec17.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "4d922119-8323-62db-0835-55b659710da7"
+      }
+    },
+    {
+      "order": 10,
+      "title": "Introduction to Chemostat Theory",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/6966ce0775e30a4d945190ee9f1cbbb8_MIT1_018JF09_Lec14.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/6966ce0775e30a4d945190ee9f1cbbb8_MIT1_018JF09_Lec14.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "6966ce07-75e3-0a4d-9451-90ee9f1cbbb8"
+      }
+    },
+    {
+      "order": 11,
+      "title": "Ecosystem Experiments and Geoengineering",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/781d3a40ad923c6c75c972eaa3cf35d1_MIT1_018JF09_Lec11.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/781d3a40ad923c6c75c972eaa3cf35d1_MIT1_018JF09_Lec11.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "781d3a40-ad92-3c6c-75c9-72eaa3cf35d1"
+      }
+    },
+    {
+      "order": 12,
+      "title": "Overview of Photosynthesis",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/78f4caee126b79c57142ba50ca974868_MIT1_018JF09_lec03_Photo.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/78f4caee126b79c57142ba50ca974868_MIT1_018JF09_lec03_Photo.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "78f4caee-126b-79c5-7142-ba50ca974868"
+      }
+    },
+    {
+      "order": 13,
+      "title": "CI lecture: getting started with the term project",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/92d6f475020898ef3733f61a31e21ea7_MIT1_018JF09_Lec04.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/92d6f475020898ef3733f61a31e21ea7_MIT1_018JF09_Lec04.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "92d6f475-0208-98ef-3733-f61a31e21ea7"
+      }
+    },
+    {
+      "order": 14,
+      "title": "Redox Chemistry Review",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/dde8c3fc99c70f0a60c935480cd607cb_MIT1_018JF09_lec03_Redox.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/dde8c3fc99c70f0a60c935480cd607cb_MIT1_018JF09_lec03_Redox.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "dde8c3fc-99c7-0f0a-60c9-35480cd607cb"
+      }
+    },
+    {
+      "order": 15,
+      "title": "Lectures 13,14 — Population Growth",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/f15695f7ccdb6f2509f5541942e50d03_MIT1_018JF09_Lec13.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/f15695f7ccdb6f2509f5541942e50d03_MIT1_018JF09_Lec13.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "f15695f7-ccdb-6f25-09f5-541942e50d03"
+      }
+    },
+    {
+      "order": 16,
+      "title": "Writing the Project Description of your Term Project Proposal",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/019aba80d09c26f99eb9d36bc86be8c3_MIT1_018JF09_Proj_Desc.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/019aba80d09c26f99eb9d36bc86be8c3_MIT1_018JF09_Proj_Desc.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Projects",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Projects"
+        ],
+        "parent_title": "Projects",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "019aba80-d09c-26f9-9eb9-d36bc86be8c3"
+      }
+    },
+    {
+      "order": 17,
+      "title": "Quiz 2 Study Guide",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/059b560d09451081a3994c3d4cce6602_MIT1_018JF09_guide_2.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/059b560d09451081a3994c3d4cce6602_MIT1_018JF09_guide_2.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Exams",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Exams"
+        ],
+        "parent_title": "Exams",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "059b560d-0945-1081-a399-4c3d4cce6602"
+      }
+    },
+    {
+      "order": 18,
+      "title": "Quiz 3 Study Guide",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/06db8aa84f9a7c61bcddc7baaf57d895_MIT1_018JF09_guide_3.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/06db8aa84f9a7c61bcddc7baaf57d895_MIT1_018JF09_guide_3.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Exams",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Exams"
+        ],
+        "parent_title": "Exams",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "06db8aa8-4f9a-7c61-bcdd-c7baaf57d895"
+      }
+    },
+    {
+      "order": 19,
+      "title": "Locusts in the Red Sea",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/1671096cbd17a40031ae914be1e9c847_MIT1_018JF09_Carruthers.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/1671096cbd17a40031ae914be1e9c847_MIT1_018JF09_Carruthers.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Readings",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Readings"
+        ],
+        "parent_title": "Readings",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "1671096c-bd17-a400-31ae-914be1e9c847"
+      }
+    },
+    {
+      "order": 20,
+      "title": "Problem Set 1",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/192edd0b7f19d638a717be72d28aa3e2_MIT1_018JF09_hw1.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/192edd0b7f19d638a717be72d28aa3e2_MIT1_018JF09_hw1.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "192edd0b-7f19-d638-a717-be72d28aa3e2"
+      }
+    },
+    {
+      "order": 21,
+      "title": "Problem Set 2",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/1a442d21306795ca1b8bb4ebcc244aab_MIT1_018JF09_hw2.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/1a442d21306795ca1b8bb4ebcc244aab_MIT1_018JF09_hw2.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "1a442d21-3067-95ca-1b8b-b4ebcc244aab"
+      }
+    },
+    {
+      "order": 22,
+      "title": "Investigation of the effects of stratospheric sulfur injection on terrestrial autotroph productivity via experimentation with diffuse radiation controlled greenhouses",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/21e0efc79947af46ee3f3401155afdcc_MIT1_018JF09_sw_paper3.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/21e0efc79947af46ee3f3401155afdcc_MIT1_018JF09_sw_paper3.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Projects",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Projects"
+        ],
+        "parent_title": "Projects",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "21e0efc7-9947-af46-ee3f-3401155afdcc"
+      }
+    },
+    {
+      "order": 23,
+      "title": "Assessing Excess Carbon Emissions and Soil Toxicity as Unintended Consequences in Applying Biochar as a Geoengineering Scheme",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/24cd78928a1edc2327e9ca2f57d8fc1b_MIT1_018JF09_sw_paper5.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/24cd78928a1edc2327e9ca2f57d8fc1b_MIT1_018JF09_sw_paper5.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Projects",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Projects"
+        ],
+        "parent_title": "Projects",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "24cd7892-8a1e-dc23-27e9-ca2f57d8fc1b"
+      }
+    },
+    {
+      "order": 24,
+      "title": "Quiz 3",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/293cfab7623c00559cf7b021bfdd5b9f_MIT1_018JF09_study_3.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/293cfab7623c00559cf7b021bfdd5b9f_MIT1_018JF09_study_3.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Exams",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Exams"
+        ],
+        "parent_title": "Exams",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "293cfab7-623c-0055-9cf7-b021bfdd5b9f"
+      }
+    },
+    {
+      "order": 25,
+      "title": "Quiz #3 Solutions",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/2f529c7c35ba9e09c9a54793841a87b6_MIT1_018JF09_exam_3.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/2f529c7c35ba9e09c9a54793841a87b6_MIT1_018JF09_exam_3.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Exams",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Exams"
+        ],
+        "parent_title": "Exams",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "2f529c7c-35ba-9e09-c9a5-4793841a87b6"
+      }
+    },
+    {
+      "order": 26,
+      "title": "Quiz #1 Solutions",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/32374c78802e00d5c7f5f79e535fad32_MIT1_018JF09_exam_1.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/32374c78802e00d5c7f5f79e535fad32_MIT1_018JF09_exam_1.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Exams",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Exams"
+        ],
+        "parent_title": "Exams",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "32374c78-802e-00d5-c7f5-f79e535fad32"
+      }
+    },
+    {
+      "order": 27,
+      "title": "Quiz 2",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/35b358f411f36e79bbacb4d1451dc1ad_MIT1_018JF09_study_2.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/35b358f411f36e79bbacb4d1451dc1ad_MIT1_018JF09_study_2.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Exams",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Exams"
+        ],
+        "parent_title": "Exams",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "35b358f4-11f3-6e79-bbac-b4d1451dc1ad"
+      }
+    },
+    {
+      "order": 28,
+      "title": "The Unintended Consequences of Sulfate Aerosols in the Troposphere and Lower Stratosphere",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/3c25717d56a07fda2127e723dacf7f77_MIT1_018JF09_sw_paper4.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/3c25717d56a07fda2127e723dacf7f77_MIT1_018JF09_sw_paper4.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Projects",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Projects"
+        ],
+        "parent_title": "Projects",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "3c25717d-56a0-7fda-2127-e723dacf7f77"
+      }
+    },
+    {
+      "order": 29,
+      "title": "Quiz 3 Solutions",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/6e477924aedc5a1a8172697035cb0b73_MIT1_018JF09_study_sol_3.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/6e477924aedc5a1a8172697035cb0b73_MIT1_018JF09_study_sol_3.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Exams",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Exams"
+        ],
+        "parent_title": "Exams",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "6e477924-aedc-5a1a-8172-697035cb0b73"
+      }
+    },
+    {
+      "order": 30,
+      "title": "Problem Set 1 Solutions",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/747e85c46270700c35838964a3ddc015_MIT1_018JF09_hw1_ans.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/747e85c46270700c35838964a3ddc015_MIT1_018JF09_hw1_ans.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "747e85c4-6270-700c-3583-8964a3ddc015"
+      }
+    },
+    {
+      "order": 31,
+      "title": "Problem Set 2 Solutions",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/7858a402a585f23ca091c8c148b799cd_MIT1_018JF09_hw2_ans.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/7858a402a585f23ca091c8c148b799cd_MIT1_018JF09_hw2_ans.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "7858a402-a585-f23c-a091-c8c148b799cd"
+      }
+    },
+    {
+      "order": 32,
+      "title": "Quiz #2 Solutions",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/982aba2967f5799cf6191eb5f01a9235_MIT1_018JF09_exam_2.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/982aba2967f5799cf6191eb5f01a9235_MIT1_018JF09_exam_2.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Exams",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Exams"
+        ],
+        "parent_title": "Exams",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "982aba29-67f5-799c-f619-1eb5f01a9235"
+      }
+    },
+    {
+      "order": 33,
+      "title": "Problem Set 3 Solutions",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/a452316ec4d31f35850542765afb0ba1_MIT1_018JF09_hw3_ans.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/a452316ec4d31f35850542765afb0ba1_MIT1_018JF09_hw3_ans.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "a452316e-c4d3-1f35-8505-42765afb0ba1"
+      }
+    },
+    {
+      "order": 34,
+      "title": "Term Project on Geoengineering",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/aaa1cf12a567d4e09deeb98f7900990e_MIT1_018JF09_Term_Project.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/aaa1cf12a567d4e09deeb98f7900990e_MIT1_018JF09_Term_Project.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Projects",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Projects"
+        ],
+        "parent_title": "Projects",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "aaa1cf12-a567-d4e0-9dee-b98f7900990e"
+      }
+    },
+    {
+      "order": 35,
+      "title": "Quiz 1 Solutions",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/bd53b3556e7a749cc71989fc3eeba256_MIT1_018JF09_study_sol_1.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/bd53b3556e7a749cc71989fc3eeba256_MIT1_018JF09_study_sol_1.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Exams",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Exams"
+        ],
+        "parent_title": "Exams",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "bd53b355-6e7a-749c-c719-89fc3eeba256"
+      }
+    },
+    {
+      "order": 36,
+      "title": "A proposal for limited implementation of a sunshade to evaluate the effects of albedo modification on global biogeochemical cycles",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/c1d72a3cdb6cfcbfce43fadb7eb56798_MIT1_018JF09_sw_paper1.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/c1d72a3cdb6cfcbfce43fadb7eb56798_MIT1_018JF09_sw_paper1.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Projects",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Projects"
+        ],
+        "parent_title": "Projects",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "c1d72a3c-db6c-fcbf-ce43-fadb7eb56798"
+      }
+    },
+    {
+      "order": 37,
+      "title": "Testing the Unintended Consequences of Lignin Reduction in Genetically Modified Trees on Trophic Interactions",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/c67b6ae95d37958688d8669187367519_MIT1_018JF09_sw_paper2.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/c67b6ae95d37958688d8669187367519_MIT1_018JF09_sw_paper2.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Projects",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Projects"
+        ],
+        "parent_title": "Projects",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "c67b6ae9-5d37-9586-88d8-669187367519"
+      }
+    },
+    {
+      "order": 38,
+      "title": "Problem Set 3",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/d91196c2b3ac1d1b4bfdbc380cb641c2_MIT1_018JF09_hw3.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/d91196c2b3ac1d1b4bfdbc380cb641c2_MIT1_018JF09_hw3.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "d91196c2-b3ac-1d1b-4bfd-bc380cb641c2"
+      }
+    },
+    {
+      "order": 39,
+      "title": "Quiz 1",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/dd13237d0b8b5aad5c667566b0692b32_MIT1_018JF09_study_1.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/dd13237d0b8b5aad5c667566b0692b32_MIT1_018JF09_study_1.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Exams",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Exams"
+        ],
+        "parent_title": "Exams",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "dd13237d-0b8b-5aad-5c66-7566b0692b32"
+      }
+    },
+    {
+      "order": 40,
+      "title": "PDF",
+      "source_url": "http://web.mit.edu/academicintegrity/handbook/handbook.pdf",
+      "content": "http://web.mit.edu/academicintegrity/handbook/handbook.pdf",
+      "source_kind": "ocw_external_resource_data",
+      "material_type": "Other",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "external-resource",
+        "learning_resource_types": [],
+        "uid": "e55f555a-b544-4bf8-9bed-1d74fb899743"
+      }
+    },
+    {
+      "order": 41,
+      "title": "Quiz 1 Study Guide",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/ee75dfa0cca424fd820d7cc213204cac_MIT1_018JF09_guide_1.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/ee75dfa0cca424fd820d7cc213204cac_MIT1_018JF09_guide_1.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Exams",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Exams"
+        ],
+        "parent_title": "Exams",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "ee75dfa0-cca4-24fd-820d-7cc213204cac"
+      }
+    },
+    {
+      "order": 42,
+      "title": "Quiz 2 Solutions",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/f354326eff6a2a7dd2e18935fda1b026_MIT1_018JF09_study_sol_2.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/f354326eff6a2a7dd2e18935fda1b026_MIT1_018JF09_study_sol_2.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Exams",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Exams"
+        ],
+        "parent_title": "Exams",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "f354326e-ff6a-2a7d-d2e1-8935fda1b026"
+      }
+    },
+    {
+      "order": 43,
+      "title": "Population Ecology",
+      "source_url": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/411512cd75fa5462605af52ccc238e38_MIT1_018JF09_Lec13_Slides.pdf",
+      "content": "https://ocw.mit.edu/courses/1-018j-ecology-i-the-earth-system-fall-2009/411512cd75fa5462605af52ccc238e38_MIT1_018JF09_Lec13_Slides.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "slides",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "document",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "411512cd-75fa-5462-605a-f52ccc238e38"
+      }
+    }
+  ]
+}

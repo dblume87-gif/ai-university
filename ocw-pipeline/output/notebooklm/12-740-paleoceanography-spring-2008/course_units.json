@@ -1,0 +1,717 @@
+{
+  "generated_at": "2026-05-16T21:22:58.464Z",
+  "course": {
+    "course_id": "12-740-paleoceanography-spring-2008",
+    "title": "Paleoceanography",
+    "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/",
+    "status": "needs_fix",
+    "notebooklm_status": "needs_fix",
+    "notebooklm_notebook_id": "ccd2a905-9b7e-4922-84c4-15efeb66d6d9"
+  },
+  "summary": {
+    "material_sources": 38,
+    "unit_count": 15,
+    "assigned_sources": 36,
+    "unassigned_sources": 2
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Major Paleoceanographic and Paleoclimatic Events of the Past 2 Million Years",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8014,
+          "title": "Major Paleoceanographic and Paleoclimatic Events of the Past 2 Million Years",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/02f5d967ce637f066a1f68acf5e0bde0_lec01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec01/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8058,
+          "title": "Paleoceanographic Tracers and Major Paleoceanographic and Paleoclimate Events of the Past 70 Million Years",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/f5fbc800bcb1e2820f22c01a2ae2eebd_lec01_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec01_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8045,
+          "title": "Problem Set 1",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/b10d1257c1a77d3bfe038b8c07aa8768_paleo_problem1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/paleo_problem1/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Assignments"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Oxygen Isotope Paleoclimatology",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8050,
+          "title": "Oxygen Isotope Paleoclimatology",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/c8d0a79efe58126c966be31d1c3ff440_lec02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec02/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8053,
+          "title": "Oxygen Isotope Paleoclimatology",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/e144c3c90caeec03b949e1f8cdc08f9a_lec02_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec02_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8033,
+          "title": "Problem Set 2",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/6fdf81ef97aa4e72dfaff3fcb7651abf_problemset2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/problemset2/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Assignments"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 8043,
+          "title": "Problem Set 2",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/a2c6561936aa336a52c56991e8f76960_paleo_problem2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/paleo_problem2/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Assignments"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 4
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Oxygen isotope paleothermometry",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8024,
+          "title": "Oxygen isotope paleothermometry",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/3f263afcc13cc3c0dbc7b37a2ba33003_lec03_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec03_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8037,
+          "title": "Oxygen-isotope paleothermometry",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/903012022c8da78aec9470f1332257bb_lec03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec03/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8027,
+          "title": "Problem Set 3: Introduction to Ocean Box Modeling",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/451402bcacfa51c1bfa43c3b4cb4f174_problem_set3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/problem_set3/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Assignments"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 8034,
+          "title": "Problem Set 3: Introduction to Ocean Box Modeling",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/7ad84b195a13936f97eda3a58cc5f2c0_problemset3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/problemset3/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Assignments"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 4
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Paleo-ecological Temperature Estimates",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8036,
+          "title": "Paleo-ecological Temperature Estimates",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/81363ae0114b5824c91a90fcd867022e_lec04a.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec04a/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8056,
+          "title": "Fundamentals of Factor Analysis: Satellite Image",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/eaa463027aeb98f28731d0a48349ce8c_lec04b.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec04b/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8059,
+          "title": "Paleo-ecological temperature estimation",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/f68484ab61b7903984dab3d74462b06d_lec04_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec04_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Coastline evidence for sea level change",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8025,
+          "title": "Coastline evidence for sea level change",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/425c940364cab0b50dad0480e5267156_lec05_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec05_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8060,
+          "title": "Sea-level and Climate Change: Coral Reefs On Stable and Emerging Islands",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/fb1398024a2268b22a0fceae71d98f03_lec05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec05/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Glacial/interglacial 'Oscillations': Why? Time-series Analysis",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8019,
+          "title": "Glacial/interglacial 'Oscillations': Why? Time-series Analysis",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/16d8a87dab54f0c3eaaf79a03c8d2b64_lec06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec06/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8048,
+          "title": "Glacial/Interglacial ‘oscillations’: WHY? Time-series analysis",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/c4c1e4f1f05564b21d4c631909a8048d_lec06_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec06_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Ice Core Evidence for Climate Change",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8016,
+          "title": "Ice Core Evidence for Climate Change",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/0c98b30de23c15696cb75881bd1c07a1_lec07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec07/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8047,
+          "title": "Ice Core Paleoclimatology I",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/c1deb54b73b591e240d4460cd668aac3_lec07_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec07_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Ice Core Paleoclimatology Ii: Solutes and Particulates",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8020,
+          "title": "Ice Core Paleoclimatology Ii: Solutes and Particulates",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/17d1a45db2afc0290756927fda0d9b85_lec08b_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec08b_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8028,
+          "title": "Ice Core Evidence for Climate Change (cont.)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/5261502f74f09d3f51d75872bccc9aa9_lec08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec08/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8029,
+          "title": "Ice Core Paleoclimatology II: gases",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/5924472ff303174bf647366009af9831_lec08a_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec08a_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Deep Ocean Paleoceanography",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8032,
+          "title": "Deep Ocean Paleoceanography",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/647e0b5225b6342b1e3fb8dd7e417f41_lec09_1_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec09_1_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8035,
+          "title": "The Carbon-14 Story",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/7f42a97fdeab1a693be905653c2c620a_lec09a_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec09a_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8042,
+          "title": "Deep-ocean paleoceanography and ocean chemistry",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/a2363badee08c771ae9efe57df0c2d41_lec09_2_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec09_2_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8044,
+          "title": "Deep-ocean Paleoceanography and Ocean Chemistry: Links to Atmospheric Carbon Dioxide and Carbon-14/Carbon-12",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/ae76716434bccc1a11b3192025c48b20_lec09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec09/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8057,
+          "title": "The Carbon-14 Story",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/f3f8e699e86571a6b0e430eeb095a018_lec09a.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec09a/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 5
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Atmospheric Carbon Dioxide, Ocean Chemistry, and Mechanisms of Climate Change",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8026,
+          "title": "Atmospheric Carbon Dioxide, Ocean Chemistry, and Mechanisms of Climate Change",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/44d3cbec1620faae3329d01d400afb76_lec10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec10/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8049,
+          "title": "Atmospheric Carbon Dioxide and Ocean Chemistry",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/c5040d5c3c20372c8f6225d75e95674d_lec10_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec10_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Continental evidence for glacial climate change",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8022,
+          "title": "Continental evidence for glacial climate change",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/27b958411670287742040cad5b015072_lec11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec11/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8039,
+          "title": "Continental Evidence for Glacial Climate",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/941a132cd1c5fd22734a8e6f7887430c_lec11_slide.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec11_slide/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Lifestyles of the Small and Calcareous",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8038,
+          "title": "Lifestyles of the Small and Calcareous",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/92bace8a0a56bdb59d09f9d44bc497a2_lec12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec12/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Coral evidence for temperature, salinity, and nutrient changes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8015,
+          "title": "Coral evidence for temperature, salinity, and nutrient changes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/0903b3905645d2102a1197fa5afcd272_lec13.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec13/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Introduction to Cenozoic Palenoceanography",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8021,
+          "title": "Introduction to Cenozoic Palenoceanography",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/20c1a264cfa46883498078d9e4500ac1_lec14.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec14/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Other Tracers",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8017,
+          "title": "Other Tracers",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/0f2c17315ac362e4f1be38904e8029b7_lec15.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/lec15/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 8040,
+      "title": "Introduction to Ocean Carbon System Box Models: The Toggweiler-Sarmiento 3-Box Model",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/9c513047c551f0b212e3e2d81e5cf39c_3_box_model.pdf",
+      "local_path": null,
+      "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/3_box_model/data.json",
+      "parent_title": "Study Materials",
+      "learning_resource_types": []
+    },
+    {
+      "id": 8046,
+      "title": "Model Color Coding",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/bff6b58b72856474daf22f97ec77dd4c_modelcolorcoding.pdf",
+      "local_path": null,
+      "resource_path": "/courses/12-740-paleoceanography-spring-2008/resources/modelcolorcoding/data.json",
+      "parent_title": "Study Materials",
+      "learning_resource_types": []
+    }
+  ]
+}

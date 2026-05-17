@@ -1,0 +1,572 @@
+{
+  "generated_at": "2026-05-16T21:22:58.488Z",
+  "course": {
+    "course_id": "6-036-introduction-to-machine-learning-fall-2020",
+    "title": "Introduction to Machine Learning",
+    "source_url": "https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/",
+    "status": "uploaded_to_notebooklm",
+    "notebooklm_status": "uploaded_to_notebooklm",
+    "notebooklm_notebook_id": "a8fa56c6-1826-4e0f-8be5-424700da4ccb"
+  },
+  "summary": {
+    "material_sources": 29,
+    "unit_count": 13,
+    "assigned_sources": 12,
+    "unassigned_sources": 17
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Basics",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7829,
+          "title": "Lecture 1: Lecture 01: Basics",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec01.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec01.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Perceptrons",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7830,
+          "title": "Lecture 2: Lecture 02: Perceptrons",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec02.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec02.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Features",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7831,
+          "title": "Lecture 3: Lecture 03: Features",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec03.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec03.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Logistic regression, a.k.a. linear logistic classification",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7832,
+          "title": "Lecture 4: Lecture 04: Logistic regression, a.k.a. linear logistic classification",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec04.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec04.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Regression",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7833,
+          "title": "Lecture 5: Lecture 05: Regression",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec05.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec05.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Neural networks",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7834,
+          "title": "Lecture 6: Lecture 06: Neural networks",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec06.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec06.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Convolutional neural networks",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7835,
+          "title": "Lecture 7: Lecture 08: Convolutional neural networks",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec08.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec08.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Convolutional neural networks",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7835,
+          "title": "Lecture 7: Lecture 08: Convolutional neural networks",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec08.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec08.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 7836,
+          "title": "Lecture 8: Lecture 09: State machines and Markov decision processes",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec09.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec09.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "State machines and Markov decision processes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7836,
+          "title": "Lecture 8: Lecture 09: State machines and Markov decision processes",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec09.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec09.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 7837,
+          "title": "Lecture 9: Lecture 10: Reinforcement learning",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec10.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec10.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Reinforcement learning",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7837,
+          "title": "Lecture 9: Lecture 10: Reinforcement learning",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec10.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec10.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 7838,
+          "title": "Lecture 10: Lecture 11: Recurrent neural networks",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec11.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec11.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Recurrent neural networks",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7838,
+          "title": "Lecture 10: Lecture 11: Recurrent neural networks",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec11.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec11.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 7839,
+          "title": "Lecture 11: Lecture 12: Decision trees and random forests",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec12.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec12.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Decision trees and random forests",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7839,
+          "title": "Lecture 11: Lecture 12: Decision trees and random forests",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec12.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec12.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 7840,
+          "title": "Lecture 12: Lecture 13: Clustering",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec13.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec13.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Clustering",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7840,
+          "title": "Lecture 12: Lecture 13: Clustering",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec13.pdf",
+          "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec13.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 7827,
+      "title": "FILELIST.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/FILELIST.md",
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/FILELIST.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7828,
+      "title": "LECTURE_VIDEOS.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7841,
+      "title": "https://www.youtube.com/watch?v=0xaLT4Svzgo&list=PLxC_ffO4q_rW0bqQB80_vcQB09HOA3ClV)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=0xaLT4Svzgo&list=PLxC_ffO4q_rW0bqQB80_vcQB09HOA3ClV)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7842,
+      "title": "https://youtu.be/0xaLT4Svzgo)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/0xaLT4Svzgo)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7843,
+      "title": "https://youtu.be/A3obZhw7Jc4)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/A3obZhw7Jc4)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7844,
+      "title": "https://youtu.be/WZVNvfMdk-E)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/WZVNvfMdk-E)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7845,
+      "title": "https://youtu.be/abB3fwfPy14)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/abB3fwfPy14)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7846,
+      "title": "https://youtu.be/OpvrwhWEUmY)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/OpvrwhWEUmY)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7847,
+      "title": "https://youtu.be/N0uGnAfXUes)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/N0uGnAfXUes)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7848,
+      "title": "https://youtu.be/QJY342H8LOo)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/QJY342H8LOo)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7849,
+      "title": "https://youtu.be/sFEZ180RvTI)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/sFEZ180RvTI)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7850,
+      "title": "https://youtu.be/O5hkIfUR_uA)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/O5hkIfUR_uA)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7851,
+      "title": "https://youtu.be/Ir93m9OmOHo)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/Ir93m9OmOHo)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7852,
+      "title": "https://youtu.be/JZ0WVuk4mt8)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/JZ0WVuk4mt8)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7853,
+      "title": "https://youtu.be/ZOiBe-nrmc4)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/ZOiBe-nrmc4)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7854,
+      "title": "https://youtu.be/BaZWcSq3IuI)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/BaZWcSq3IuI)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7855,
+      "title": "https://youtu.be/kZWPuZV9Qkc)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/kZWPuZV9Qkc)",
+      "local_path": null,
+      "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

@@ -133,8 +133,20 @@ function migrateSchema() {
   }
 }
 
+function jsonArrayOrNull(value) {
+  if (!Array.isArray(value) || value.length === 0) return null;
+  return JSON.stringify(value);
+}
+
+function jsonObjectOrNull(value) {
+  if (!value || typeof value !== 'object') return null;
+  if (Object.keys(value).length === 0) return null;
+  return JSON.stringify(value);
+}
+
 export function upsertCourse(courseId, data) {
   const db = getDb();
+  // Leere Arrays/Objects werden als NULL übergeben und via COALESCE alte Werte erhalten.
   const stmt = db.prepare(`
     INSERT INTO courses (
       course_id,
@@ -155,45 +167,45 @@ export function upsertCourse(courseId, data) {
       @course_id,
       @title,
       @source_url,
-      @departments,
-      @department_numbers,
+      COALESCE(@departments, '[]'),
+      COALESCE(@department_numbers, '[]'),
       @as_taught_in,
       @term,
       @year,
-      @level,
-      @topics,
-      @instructors,
-      @learning_resource_types,
-      @course_page_metadata
+      COALESCE(@level, '[]'),
+      COALESCE(@topics, '[]'),
+      COALESCE(@instructors, '[]'),
+      COALESCE(@learning_resource_types, '[]'),
+      COALESCE(@course_page_metadata, '{}')
     )
     ON CONFLICT(course_id) DO UPDATE SET
       title = excluded.title,
-      source_url = excluded.source_url,
-      departments = excluded.departments,
-      department_numbers = excluded.department_numbers,
-      as_taught_in = excluded.as_taught_in,
-      term = excluded.term,
-      year = excluded.year,
-      level = excluded.level,
-      topics = excluded.topics,
-      instructors = excluded.instructors,
-      learning_resource_types = excluded.learning_resource_types,
-      course_page_metadata = excluded.course_page_metadata
+      source_url = COALESCE(excluded.source_url, courses.source_url),
+      departments = COALESCE(@departments, courses.departments),
+      department_numbers = COALESCE(@department_numbers, courses.department_numbers),
+      as_taught_in = COALESCE(excluded.as_taught_in, courses.as_taught_in),
+      term = COALESCE(excluded.term, courses.term),
+      year = COALESCE(excluded.year, courses.year),
+      level = COALESCE(@level, courses.level),
+      topics = COALESCE(@topics, courses.topics),
+      instructors = COALESCE(@instructors, courses.instructors),
+      learning_resource_types = COALESCE(@learning_resource_types, courses.learning_resource_types),
+      course_page_metadata = COALESCE(@course_page_metadata, courses.course_page_metadata)
   `);
   stmt.run({
     course_id: courseId,
     title: data.course_title || data.title || 'Unknown',
-    source_url: data.source_url,
-    departments: JSON.stringify(data.departments || []),
-    department_numbers: JSON.stringify(data.department_numbers || []),
+    source_url: data.source_url || null,
+    departments: jsonArrayOrNull(data.departments),
+    department_numbers: jsonArrayOrNull(data.department_numbers),
     as_taught_in: data.as_taught_in || [data.term, data.year].filter(Boolean).join(' ') || null,
-    term: data.term,
-    year: data.year,
-    level: JSON.stringify(data.level || []),
-    topics: JSON.stringify(data.topics || []),
-    instructors: JSON.stringify(data.instructors || []),
-    learning_resource_types: JSON.stringify(data.learning_resource_types || []),
-    course_page_metadata: JSON.stringify(data.course_page_metadata || {})
+    term: data.term || null,
+    year: data.year || null,
+    level: jsonArrayOrNull(data.level),
+    topics: jsonArrayOrNull(data.topics),
+    instructors: jsonArrayOrNull(data.instructors),
+    learning_resource_types: jsonArrayOrNull(data.learning_resource_types),
+    course_page_metadata: jsonObjectOrNull(data.course_page_metadata)
   });
 }
 
@@ -305,6 +317,21 @@ export function replaceCourseMaterials(courseId, materials) {
     }
   });
 
+  tx();
+}
+
+/**
+ * Atomares Update für einen Screening-Lauf: upsert Course-Metadaten, optional
+ * Material-Replace, dann Screening-Felder setzen. Alles in einer Transaktion,
+ * damit ein Crash zwischen den Schritten keine inkonsistenten Kurse hinterlässt.
+ */
+export function applyScreeningResult({ courseId, courseData, materials, screening }) {
+  const db = getDb();
+  const tx = db.transaction(() => {
+    upsertCourse(courseId, courseData);
+    if (materials) replaceCourseMaterials(courseId, materials);
+    updateScreening(courseId, screening);
+  });
   tx();
 }
 
@@ -422,6 +449,7 @@ export default {
   upsertDiscoveredCourse,
   updateScreening,
   replaceCourseMaterials,
+  applyScreeningResult,
   getCoursesByStatus,
   getCourse,
   getAllCourses,

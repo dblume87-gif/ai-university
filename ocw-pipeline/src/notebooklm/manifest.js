@@ -1,5 +1,6 @@
 import { spawnSync } from 'child_process';
-import { mkdir, readdir, readFile, stat, writeFile } from 'fs/promises';
+import { existsSync } from 'fs';
+import { mkdir, readdir, stat, writeFile } from 'fs/promises';
 import { dirname, extname, join, relative, resolve } from 'path';
 import { fileURLToPath } from 'url';
 import {
@@ -12,12 +13,19 @@ import {
   updateNotebookLmExport
 } from '../lib/db.js';
 import { SCREENING_STATUS } from '../lib/schema.js';
+import { parseCliArgs } from '../lib/cli.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const SCRAPER_ROOT = join(__dirname, '../..');
 const WORKSPACE_ROOT = join(SCRAPER_ROOT, '..');
 const DEFAULT_OUTPUT_ROOT = join(SCRAPER_ROOT, 'output', 'notebooklm');
 const DEFAULT_SOURCE_LIMIT = 50;
+const NOTEBOOKLM_STATUS_RANK = {
+  [SCREENING_STATUS.READY_FOR_NOTEBOOKLM]: 1,
+  [SCREENING_STATUS.APPROVED_FOR_NOTEBOOKLM]: 2,
+  [SCREENING_STATUS.UPLOADED_TO_NOTEBOOKLM]: 3,
+  [SCREENING_STATUS.NOTEBOOKLM_VALIDATED]: 4
+};
 const DEFAULT_ASSET_TYPES = [
   'audio',
   'video',
@@ -31,80 +39,110 @@ const DEFAULT_ASSET_TYPES = [
   'quiz'
 ];
 
+const VIDEO_SOURCE_MEDIA_TYPES = new Set(['youtube', 'video']);
+const DOCUMENT_EXTENSIONS = new Set([
+  '.csv',
+  '.doc',
+  '.docx',
+  '.md',
+  '.markdown',
+  '.ods',
+  '.odp',
+  '.odt',
+  '.pdf',
+  '.ppt',
+  '.pptx',
+  '.rst',
+  '.rtf',
+  '.tsv',
+  '.txt',
+  '.xls',
+  '.xlsx'
+]);
+
 const SOURCE_PRIORITY = {
   pdf: 1,
   youtube: 2,
   video: 3,
-  captions: 4,
-  html: 5,
-  slides: 6,
-  external: 7,
-  data: 8,
+  markdown: 4,
+  slides: 5,
+  data: 6,
+  captions: 7,
+  html: 8,
+  external: 9,
   code: 9,
   archive: 10,
   other: 11
 };
 
+const NOTEBOOKLM_SCHEMA = {
+  stringFlags: ['--out', '--notebook-id'],
+  intFlags: ['--limit', '--max-sources', '--timeout'],
+  listFlags: ['--types'],
+  booleanFlags: [
+    '--include-hold',
+    '--mark-ready',
+    '--create',
+    '--dry-run',
+    '--with-metadata',
+    '--download',
+    '--force',
+    '--stop-on-error',
+    '--wait'
+  ]
+};
+
 export function getNotebookLmOptions(args) {
+  // args[0] ist die Sub-Action (ready/approve/export/...) — als positional[0] erhalten.
+  const parsed = parseCliArgs(args, NOTEBOOKLM_SCHEMA);
   return {
-    courseId: getCourseArg(args),
-    limit: getIntegerOption(args, '--limit') || 10,
-    maxSources: getIntegerOption(args, '--max-sources') || DEFAULT_SOURCE_LIMIT,
-    outDir: getOptionValue(args, '--out'),
-    includeHold: args.includes('--include-hold'),
-    markReady: args.includes('--mark-ready'),
-    notebookId: getOptionValue(args, '--notebook-id'),
-    createNotebook: args.includes('--create'),
-    dryRun: args.includes('--dry-run'),
-    withMetadata: args.includes('--with-metadata'),
-    download: args.includes('--download'),
-    force: args.includes('--force'),
-    stopOnError: args.includes('--stop-on-error'),
-    types: getListOption(args, '--types') || DEFAULT_ASSET_TYPES,
-    wait: args.includes('--wait'),
-    timeout: getIntegerOption(args, '--timeout') || 120
+    courseId: parsed.positional[1],
+    limit: parsed.getPositiveInt('--limit', 10),
+    maxSources: parsed.getPositiveInt('--max-sources', DEFAULT_SOURCE_LIMIT),
+    outDir: parsed.getString('--out'),
+    includeHold: parsed.has('--include-hold'),
+    markReady: parsed.has('--mark-ready'),
+    notebookId: parsed.getString('--notebook-id'),
+    createNotebook: parsed.has('--create'),
+    dryRun: parsed.has('--dry-run'),
+    withMetadata: parsed.has('--with-metadata'),
+    download: parsed.has('--download'),
+    force: parsed.has('--force'),
+    stopOnError: parsed.has('--stop-on-error'),
+    types: parsed.getList('--types', DEFAULT_ASSET_TYPES),
+    wait: parsed.has('--wait'),
+    timeout: parsed.getPositiveInt('--timeout', 120)
   };
-}
-
-function getCourseArg(args) {
-  for (let i = 1; i < args.length; i++) {
-    const value = args[i];
-    if (['--limit', '--max-sources', '--out', '--notebook-id', '--timeout', '--types'].includes(value)) {
-      i++;
-      continue;
-    }
-    if (value.startsWith('--')) continue;
-    return value;
-  }
-
-  return undefined;
-}
-
-function getOptionValue(args, name) {
-  const index = args.indexOf(name);
-  const value = index >= 0 ? args[index + 1] : undefined;
-  return value && !value.startsWith('--') ? value : undefined;
-}
-
-function getIntegerOption(args, name) {
-  const value = Number.parseInt(getOptionValue(args, name), 10);
-  return Number.isInteger(value) && value > 0 ? value : undefined;
-}
-
-function getListOption(args, name) {
-  const value = getOptionValue(args, name);
-  return value
-    ? value.split(',').map(item => item.trim()).filter(Boolean)
-    : null;
 }
 
 function resolveNotebookLmOutputDir(courseId, outDir) {
   return outDir ? resolve(WORKSPACE_ROOT, outDir) : join(DEFAULT_OUTPUT_ROOT, courseId);
 }
 
+function getNotebookLmSourceWhereSql(alias) {
+  return `(
+    COALESCE(${alias}.source_url, ${alias}.local_path, '') != ''
+    AND (
+      ${alias}.media_type IN ('pdf', 'youtube', 'video')
+      OR ${getNotebookLmDocumentSourceWhereSql(alias)}
+    )
+  )`;
+}
+
+function getNotebookLmDocumentSourceWhereSql(alias) {
+  const content = `LOWER(COALESCE(${alias}.source_url, ${alias}.local_path, ''))`;
+  const extensionChecks = [...DOCUMENT_EXTENSIONS]
+    .map(extension => `${content} LIKE '%${extension}%'`)
+    .join(' OR ');
+
+  return `(${alias}.media_type = 'pdf' OR ${extensionChecks})`;
+}
+
 export function getReadyNotebookLmCourses({ limit = 10, includeHold = false } = {}) {
   const db = getDb();
   const holdClause = includeHold ? '' : "AND c.status != 'hold'";
+  const allowedSourceClause = getNotebookLmSourceWhereSql('m');
+  const documentSourceClause = getNotebookLmDocumentSourceWhereSql('m');
 
   return db.prepare(`
     SELECT
@@ -119,17 +157,16 @@ export function getReadyNotebookLmCourses({ limit = 10, includeHold = false } = 
       COUNT(m.id) AS source_count,
       SUM(CASE WHEN m.media_type = 'pdf' THEN 1 ELSE 0 END) AS pdf_count,
       SUM(CASE WHEN m.media_type IN ('youtube', 'video') THEN 1 ELSE 0 END) AS video_count,
-      SUM(CASE WHEN m.media_type IN ('html', 'external', 'slides') THEN 1 ELSE 0 END) AS link_count
+      SUM(CASE WHEN ${documentSourceClause} AND m.media_type != 'pdf' THEN 1 ELSE 0 END) AS document_count
     FROM courses c
     JOIN materials m ON m.course_id = c.course_id
     WHERE c.tier IN (1, 2)
       ${holdClause}
       AND c.status NOT IN ('rejected', 'needs_fix')
-      AND m.source_url IS NOT NULL
-      AND m.media_type NOT IN ('archive', 'code')
+      AND ${allowedSourceClause}
     GROUP BY c.course_id
     HAVING source_count >= 2
-       AND (pdf_count > 0 OR video_count > 0 OR link_count > 0)
+       AND (pdf_count > 0 OR video_count > 0 OR document_count > 0)
     ORDER BY
       CASE c.status
         WHEN 'approved_for_notebooklm' THEN 1
@@ -155,7 +192,7 @@ export function printReadyNotebookLmCourses(courses) {
   for (const course of courses) {
     console.log(`${course.course_id}`);
     console.log(`  ${course.title}`);
-    console.log(`  status=${course.status} tier=${course.tier} score=${course.tier_score} sources=${course.source_count} pdfs=${course.pdf_count} videos=${course.video_count} links=${course.link_count}`);
+    console.log(`  status=${course.status} tier=${course.tier} score=${course.tier_score} sources=${course.source_count} pdfs=${course.pdf_count} videos=${course.video_count} docs=${course.document_count}`);
     if (course.notebooklm_status) {
       console.log(`  notebooklm=${course.notebooklm_status} manifest=${course.notebooklm_manifest_path || '-'}`);
     }
@@ -181,7 +218,7 @@ export async function exportNotebookLmManifest(courseId, options = {}) {
       ? SCREENING_STATUS.APPROVED_FOR_NOTEBOOKLM
       : SCREENING_STATUS.READY_FOR_NOTEBOOKLM;
 
-  if (qa.blocking.length === 0 && options.markReady && course.status !== SCREENING_STATUS.APPROVED_FOR_NOTEBOOKLM) {
+  if (!options.dryRun && qa.blocking.length === 0 && options.markReady && course.status !== SCREENING_STATUS.APPROVED_FOR_NOTEBOOKLM) {
     updateCourseStatus(courseId, SCREENING_STATUS.READY_FOR_NOTEBOOKLM);
   }
 
@@ -211,10 +248,15 @@ export async function exportNotebookLmManifest(courseId, options = {}) {
   await writeFile(queuePath, renderUploadQueue(manifest), 'utf8');
 
   if (!options.dryRun) {
+    const notebookLmStatus = preserveNotebookLmProgress(course.notebooklm_status, status);
+    const sourceCount = notebookLmStatus === status
+      ? sources.length
+      : course.notebooklm_source_count;
+
     updateNotebookLmExport(courseId, {
-      status,
+      status: notebookLmStatus,
       manifestPath: relative(WORKSPACE_ROOT, manifestPath),
-      sourceCount: sources.length,
+      sourceCount: sourceCount ?? sources.length,
       notebookId: options.notebookId || null
     });
   }
@@ -223,6 +265,7 @@ export async function exportNotebookLmManifest(courseId, options = {}) {
     course,
     status,
     sourceCount: sources.length,
+    manifest,
     manifestPath,
     queuePath,
     uploadLogPath,
@@ -232,7 +275,7 @@ export async function exportNotebookLmManifest(courseId, options = {}) {
 
 export async function uploadNotebookLmManifest(courseId, options = {}) {
   const exportResult = await exportNotebookLmManifest(courseId, options);
-  const manifest = JSON.parse(await readFile(exportResult.manifestPath, 'utf8'));
+  const { manifest } = exportResult;
   const notebookTitle = manifest.course.title;
   let notebookId = options.notebookId || null;
   const uploadLog = {
@@ -581,8 +624,7 @@ async function listLocalFiles(rootDir) {
 
 function selectNotebookLmSources(materials, maxSources) {
   return materials
-    .filter(hasSourceContent)
-    .filter(material => !['archive', 'code'].includes(material.media_type))
+    .filter(isNotebookLmAllowedSource)
     .sort((a, b) => {
       const priorityA = getSourcePriority(a);
       const priorityB = getSourcePriority(b);
@@ -628,13 +670,12 @@ function getLectureNumber(material) {
 }
 
 function mapNotebookLmSourceType(material) {
-  if (material.local_path) return 'file';
+  if (hasUsableLocalSource(material)) return 'file';
   if (material.media_type === 'pdf') return 'file_or_url';
   if (material.media_type === 'youtube') return 'youtube';
   if (material.media_type === 'video') return 'video_url';
-  if (['html', 'external', 'slides'].includes(material.media_type)) return 'website_url';
-  if (material.media_type === 'captions') return 'text_or_file';
-  return 'url';
+  if (isDocumentSource(material)) return 'document';
+  return 'unsupported';
 }
 
 function buildSourceAddArgs(source, notebookId) {
@@ -660,8 +701,51 @@ function hasSourceContent(material) {
   return Boolean(getSourceContent(material));
 }
 
+function isNotebookLmAllowedSource(material) {
+  if (!hasSourceContent(material)) return false;
+  if (['archive', 'code'].includes(material.media_type)) return false;
+  if (VIDEO_SOURCE_MEDIA_TYPES.has(material.media_type)) return true;
+  return isDocumentSource(material);
+}
+
+function isDocumentSource(source) {
+  if (source.media_type === 'pdf') return true;
+  const extension = getContentExtension(getSourceContent(source));
+  return DOCUMENT_EXTENSIONS.has(extension);
+}
+
 function getSourceContent(source) {
-  return source.local_path || source.source_url || source.content || null;
+  if (source.local_path && isUsableLocalPath(source.local_path)) {
+    return source.local_path;
+  }
+
+  if (source.source_url) return source.source_url;
+
+  if (source.content && source.content !== source.local_path) {
+    return source.content;
+  }
+
+  return null;
+}
+
+function isUsableLocalPath(localPath) {
+  if (!localPath) return false;
+  return existsSync(resolve(WORKSPACE_ROOT, localPath));
+}
+
+function hasUsableLocalSource(source) {
+  return Boolean(source.local_path && isUsableLocalPath(source.local_path));
+}
+
+function getContentExtension(content) {
+  const value = String(content || '');
+  if (!value) return '';
+
+  try {
+    return extname(new URL(value).pathname).toLowerCase();
+  } catch {
+    return extname(value).toLowerCase();
+  }
 }
 
 function getSourceTitle(source) {
@@ -670,20 +754,33 @@ function getSourceTitle(source) {
 
 function getNotebookLmCliSourceType(source) {
   if (source.media_type === 'youtube') return 'youtube';
-  if (source.local_path) return 'file';
+  if (hasUsableLocalSource(source)) return 'file';
   if (isYoutubeUrl(source.source_url)) return 'youtube';
   if (source.source_url?.startsWith('http')) return 'url';
   return null;
 }
 
 function getSourceMimeType(source, content) {
-  if (!source.local_path || getNotebookLmCliSourceType(source) !== 'file') return null;
-  const extension = extname(content).toLowerCase();
+  if (!hasUsableLocalSource(source) || getNotebookLmCliSourceType(source) !== 'file') return null;
+  const extension = getContentExtension(content);
   const mimeTypes = {
+    '.csv': 'text/csv',
+    '.doc': 'application/msword',
+    '.docx': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    '.md': 'text/markdown',
+    '.markdown': 'text/markdown',
+    '.ods': 'application/vnd.oasis.opendocument.spreadsheet',
+    '.odp': 'application/vnd.oasis.opendocument.presentation',
+    '.odt': 'application/vnd.oasis.opendocument.text',
     '.pdf': 'application/pdf',
-    '.html': 'text/html',
-    '.htm': 'text/html',
-    '.csv': 'text/csv'
+    '.ppt': 'application/vnd.ms-powerpoint',
+    '.pptx': 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+    '.rst': 'text/plain',
+    '.rtf': 'application/rtf',
+    '.tsv': 'text/tab-separated-values',
+    '.txt': 'text/plain',
+    '.xls': 'application/vnd.ms-excel',
+    '.xlsx': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
   };
   return mimeTypes[extension] || null;
 }
@@ -909,25 +1006,30 @@ function buildQa(course, materials, sources) {
   const blocking = [];
   const counts = countBy(materials, 'media_type');
   const sourceCounts = countBy(sources, 'media_type');
-  const uploadableMaterials = materials
-    .filter(hasSourceContent)
-    .filter(material => !['archive', 'code'].includes(material.media_type));
-  const missingContent = materials.filter(material => !hasSourceContent(material)).length;
+  const uploadableMaterials = materials.filter(isNotebookLmAllowedSource);
+  const skippedNonDocuments = materials.filter(material => hasSourceContent(material) && !isNotebookLmAllowedSource(material)).length;
+  const missingContent = materials.filter(material => !material.source_url && !material.local_path && !material.content).length;
+  const missingLocalFiles = materials.filter(material =>
+    material.local_path && !isUsableLocalPath(material.local_path) && !material.source_url
+  ).length;
 
   if (!course.title || course.title === 'Unknown') blocking.push('Kurstitel fehlt.');
   if (materials.length === 0) blocking.push('Keine Materialien in library.db gefunden. Deep Screening ausfuehren.');
   if (sources.length === 0) blocking.push('Keine NotebookLM-tauglichen Quellen gefunden.');
-  if (!sourceCounts.pdf && !sourceCounts.youtube && !sourceCounts.video && !sourceCounts.html && !sourceCounts.external && !sourceCounts.slides) {
-    blocking.push('Quellenmix enthaelt keine PDFs, Videos oder Webseiten.');
+  if (!sources.some(isNotebookLmAllowedSource)) {
+    blocking.push('Quellenmix enthaelt keine PDFs, Videos, YouTube-Links oder direkten Dokumentdateien.');
   }
   if (sources.length < uploadableMaterials.length) {
     warnings.push(`${uploadableMaterials.length - sources.length} uploadbare Materialien wurden wegen Source-Limit nicht exportiert.`);
   }
+  if (skippedNonDocuments > 0) {
+    warnings.push(`${skippedNonDocuments} Nicht-Dokument-Links wurden nicht exportiert.`);
+  }
   if (missingContent > 0) {
     warnings.push(`${missingContent} Materialien haben weder source_url noch local_path und wurden nicht exportiert.`);
   }
-  if ((counts.external || 0) > (counts.pdf || 0) + (counts.html || 0)) {
-    warnings.push('Viele externe Quellen: vor Upload stichprobenartig pruefen.');
+  if (missingLocalFiles > 0) {
+    warnings.push(`${missingLocalFiles} lokale Dateien wurden nicht gefunden und deshalb nicht exportiert.`);
   }
 
   return {
@@ -937,6 +1039,12 @@ function buildQa(course, materials, sources) {
     material_counts: counts,
     source_counts: sourceCounts
   };
+}
+
+function preserveNotebookLmProgress(currentStatus, nextStatus) {
+  const currentRank = NOTEBOOKLM_STATUS_RANK[currentStatus] || 0;
+  const nextRank = NOTEBOOKLM_STATUS_RANK[nextStatus] || 0;
+  return currentRank > nextRank ? currentStatus : nextStatus;
 }
 
 function normalizeCourse(course, status) {

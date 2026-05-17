@@ -53,14 +53,18 @@ Jedes Material gehoert zu einem Kurs und optional zu einer Lecture. Wichtige Fel
 | Feld | Bedeutung |
 |------|-----------|
 | `material_type` / `type` | Fachliche Kategorie, z.B. Lecture Notes oder Problem Sets |
-| `media_type` | Technischer Typ, z.B. `pdf`, `youtube`, `video`, `html`, `archive`, `code` |
+| `media_type` | Technischer Typ, z.B. `pdf`, `youtube`, `video`, `markdown`, `html`, `archive`, `code` |
 | `source_kind` | Herkunft, z.B. OCW-Scrape oder `local_library` |
 | `source_url` | URL fuer NotebookLM-faehige Quellen |
 | `local_path` | Lokaler Pfad, falls Datei im Workspace liegt |
 | `extraction_status` | Zustand der Quelle, z.B. `linked` oder `downloaded` |
 | `metadata_json` | JSON-serialisierte Zusatzdaten |
 
-NotebookLM exportiert nur Materialien mit `source_url` und filtert `archive` sowie `code` aus.
+NotebookLM exportiert nur direkte Dokumentquellen sowie YouTube-/Video-Links.
+Dokumentquellen koennen ueber `source_url` oder `local_path` kommen und muessen
+eine Dokument-Endung wie `.pdf`, `.md`, `.txt`, `.docx`, `.pptx`, `.xlsx`,
+`.csv` oder `.tsv` haben. Normale Webseiten, externe Linklisten, Bilder,
+Archive und Code werden nicht exportiert.
 
 ## NotebookLM-Artefakte
 

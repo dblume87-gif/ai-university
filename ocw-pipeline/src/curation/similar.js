@@ -1,11 +1,16 @@
 import Database from 'better-sqlite3';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import { parseCliArgs } from '../lib/cli.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DB_PATH = join(__dirname, '../../library.db');
 
 const DEFAULT_LIMIT = 5;
+const SIMILAR_SCHEMA = {
+  intFlags: ['--limit'],
+  booleanFlags: ['--include-hold']
+};
 const BROAD_TOPICS = new Set([
   'business',
   'energy',
@@ -31,10 +36,11 @@ const TITLE_STOPWORDS = new Set([
 ]);
 
 export function getSimilarOptions(args = []) {
+  const parsed = parseCliArgs(args, SIMILAR_SCHEMA);
   return {
-    courseId: getSimilarCourseArg(args),
-    limit: getPositiveIntegerOption(args, '--limit', DEFAULT_LIMIT),
-    includeHold: args.includes('--include-hold')
+    courseId: parsed.positional[0],
+    limit: parsed.getPositiveInt('--limit', DEFAULT_LIMIT),
+    includeHold: parsed.has('--include-hold')
   };
 }
 
@@ -231,31 +237,6 @@ function truncate(value, maxLength) {
   const text = String(value || '');
   if (text.length <= maxLength) return text;
   return `${text.slice(0, maxLength - 1)}…`;
-}
-
-function getSimilarCourseArg(args) {
-  for (let i = 0; i < args.length; i++) {
-    const value = args[i];
-    if (value === '--limit') {
-      i++;
-      continue;
-    }
-    if (value.startsWith('--')) continue;
-    return value;
-  }
-
-  return undefined;
-}
-
-function getOptionValue(args, name) {
-  const index = args.indexOf(name);
-  const value = index >= 0 ? args[index + 1] : undefined;
-  return value && !value.startsWith('--') ? value : undefined;
-}
-
-function getPositiveIntegerOption(args, name, fallback) {
-  const value = Number.parseInt(getOptionValue(args, name), 10);
-  return Number.isInteger(value) && value > 0 ? value : fallback;
 }
 
 export default {

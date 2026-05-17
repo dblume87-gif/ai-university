@@ -179,11 +179,12 @@ Output:
 - `output/notebooklm/<course-id>/notebooklm_upload_log.json` nach `upload`
 - `output/notebooklm/assets/index.json` und `output/notebooklm/assets/INDEX.md` nach `notebooklm assets`
 
-Das Manifest priorisiert PDFs, danach Videos und Webseiten. Archive und Code
-werden nicht exportiert, weil sie für NotebookLM-Quellen meist erst normalisiert
-werden müssen. Quellen koennen aus `source_url` oder, bei lokal importierten
-Kursen, aus `local_path` kommen. `upload --dry-run` schreibt keine
-NotebookLM-Statusänderung in `library.db`.
+Das Manifest exportiert nur direkte Dokumentquellen sowie YouTube-/Video-Links:
+PDFs, Markdown/Text, Office-Dokumente, Praesentationen, Tabellen und CSV/TSV.
+Normale Webseiten, externe Linklisten, Bilder, Archive und Code werden nicht
+exportiert. Quellen koennen aus `source_url` oder, bei lokal importierten Kursen,
+aus `local_path` kommen. `upload --dry-run` schreibt keine NotebookLM-Statusänderung
+in `library.db`.
 
 ## Typische Fehlerquellen
 

@@ -1,0 +1,2635 @@
+{
+  "generated_at": "2026-05-16T21:22:58.497Z",
+  "course": {
+    "course_id": "mas-s60-how-to-ai-almost-anything-spring-2025",
+    "title": "How to AI (Almost) Anything",
+    "source_url": "https://ocw.mit.edu/courses/mas-s60-how-to-ai-almost-anything-spring-2025/",
+    "status": "uploaded_to_notebooklm",
+    "notebooklm_status": "uploaded_to_notebooklm",
+    "notebooklm_notebook_id": "d9648f39-95c4-4267-a636-3e62b4eed301"
+  },
+  "summary": {
+    "material_sources": 225,
+    "unit_count": 11,
+    "assigned_sources": 13,
+    "unassigned_sources": 212
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "[slides]",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1286,
+          "title": "[slides]",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec1.2%20-%20AI%20research.pdf",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 7591,
+          "title": "lec1.2 AI research",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MAS.S60-How2AI-Spring2025/Week_01_AI_Research/lec1.2 - AI research.pdf",
+          "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_01_AI_Research/lec1.2 - AI research.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 7600,
+          "title": "lec1 introduction",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Introduction/lec1 - introduction.pdf",
+          "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Introduction/lec1 - introduction.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "lec2 data",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7607,
+          "title": "lec2 data",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data_Structure_Information/lec2 - data.pdf",
+          "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data_Structure_Information/lec2 - data.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "lec3 models",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7623,
+          "title": "lec3 models",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/lec3 - models.pdf",
+          "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/lec3 - models.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "lec4 multimodal",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7630,
+          "title": "lec4 multimodal",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/lec4 - multimodal.pdf",
+          "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/lec4 - multimodal.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "lec5 fusion",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7635,
+          "title": "lec5 fusion",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MAS.S60-How2AI-Spring2025/Week_06_Multimodal_2/lec5 - fusion.pdf",
+          "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_06_Multimodal_2/lec5 - fusion.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "lec6 crossmodal",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7644,
+          "title": "lec6 crossmodal",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/lec6 - crossmodal.pdf",
+          "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/lec6 - crossmodal.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "lec7 large models",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7654,
+          "title": "lec7 large models",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/lec7 - large models.pdf",
+          "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/lec7 - large models.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "lec8 large multimodal models",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7664,
+          "title": "lec8 large multimodal models",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/lec8 - large multimodal models.pdf",
+          "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/lec8 - large multimodal models.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "lec9 generative AI",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7675,
+          "title": "lec9 generative AI",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/lec9 - generative AI.pdf",
+          "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/lec9 - generative AI.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "lec10 interaction",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7684,
+          "title": "lec10 interaction",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/lec10 - interaction.pdf",
+          "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/lec10 - interaction.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "lec11 human",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7694,
+          "title": "lec11 human",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/lec11 - human.pdf",
+          "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/lec11 - human.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 1278,
+      "title": "jurvetson",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.flickr.com/photos/jurvetson/52985047804/",
+      "local_path": null,
+      "resource_path": "/courses/mas-s60-how-to-ai-almost-anything-spring-2025/external-resources/jurvetson_142c8f91-9750-40da-94a4-a0f6cfb613e2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1279,
+      "title": "Course Website",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/",
+      "local_path": null,
+      "resource_path": "/courses/mas-s60-how-to-ai-almost-anything-spring-2025/external-resources/course-website/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1281,
+      "title": "[slides]",
+      "media_type": "pdf",
+      "material_type": "Lecture Slides",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec1%20-%20introduction.pdf",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1282,
+      "title": "[video]",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/0MYt0u3CW5I",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1283,
+      "title": "Foundations and Trends in Multimodal Machine Learning: Principles, Challenges, and Open Questions",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2209.03430",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1284,
+      "title": "Multimodal Machine Learning: A Survey and Taxonomy",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/1705.09406",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1285,
+      "title": "Representation Learning: A Review and New Perspectives",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/1206.5538",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1287,
+      "title": "[video]",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/104FX8MYKAM",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1288,
+      "title": "[slides]",
+      "media_type": "pdf",
+      "material_type": "Lecture Slides",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec2%20-%20data.pdf",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1289,
+      "title": "[video]",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/fLybbXyfN28",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1290,
+      "title": "Machine learning: Trends, Perspectives, and Prospects",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.science.org/doi/abs/10.1126/science.aaa8415",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1291,
+      "title": "Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2104.13478",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1292,
+      "title": "[slides]",
+      "media_type": "pdf",
+      "material_type": "Lecture Slides",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/Debugging%20Tips.pdf",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1293,
+      "title": "[video]",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/NOSuy0NOe9k",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1294,
+      "title": "A Recipe for Training Neural Networks",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://karpathy.github.io/2019/04/25/recipe/",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1295,
+      "title": "Fine-tuning a Code LLM on Custom Code on a single GPU",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://colab.research.google.com/drive/1EDsjYRrAiujUew0GRJ_hyVoNMsSDnlnx?usp=sharing",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1296,
+      "title": "MAS.S60 Pytorch Introduction",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://colab.research.google.com/drive/1SoTu6gvYcLNDqPwNPTWmsSYF-l-UfHPx?usp=sharing",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1297,
+      "title": "[slides]",
+      "media_type": "pdf",
+      "material_type": "Lecture Slides",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec3%20-%20models.pdf",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1298,
+      "title": "[video]",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/V0gRkmu4mFY",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1299,
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2010.11929",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1300,
+      "title": "Attention Is All You Need",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/1706.03762",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1301,
+      "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/1409.0473",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1302,
+      "title": "Deep Sets",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/1703.06114",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1303,
+      "title": "Graph Attention Networks",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/1710.10903",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1304,
+      "title": "Learning the Bitter Lesson",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2410.09649",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1305,
+      "title": "Unifying Grokking and Double Descent",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2303.06173",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1306,
+      "title": "Generalization in Neural Networks",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2209.01610",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1307,
+      "title": "Textbooks are all you Need",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2306.11644",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1308,
+      "title": "A Conceptual Pipeline for Machine Learning",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2207.07528",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1309,
+      "title": "[slides]",
+      "media_type": "pdf",
+      "material_type": "Lecture Slides",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec4%20-%20multimodal.pdf",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1310,
+      "title": "[video]",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/kixc1mh55yY",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1311,
+      "title": "What Makes for Good Views for Contrastive Learning?",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2005.10243",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1312,
+      "title": "Characterization and classification of semantic image-text relations",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://link.springer.com/article/10.1007/s13735-019-00187-6",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1313,
+      "title": "When and why vision-language models behave like bags-of-words, and what to do about it?",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2210.01936",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1314,
+      "title": "Scaling Laws for Generative Mixed-Modal Models",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2301.03728",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1315,
+      "title": "Not All Tokens Are What You Need for Pretraining",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2404.07965",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1316,
+      "title": "PaLI: A Jointly-Scaled Multilingual Language-Image Model",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2209.06794",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1317,
+      "title": "The Evolution of Multimodal Model Architectures",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2405.17927",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1318,
+      "title": "A ConvNet for the 2020s",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2201.03545",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1319,
+      "title": "Inductive Representation Learning on Large Graphs",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/1706.02216",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1320,
+      "title": "Janossy Pooling: Learning Deep Permutation-Invariant Functions for Variable-Size Inputs",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/1811.01900",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1321,
+      "title": "[slides]",
+      "media_type": "pdf",
+      "material_type": "Lecture Slides",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec5%20-%20fusion.pdf",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1322,
+      "title": "[video]",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/Hsv1mOIZ1Ag",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1323,
+      "title": "Ten Myths of Multimodal Interaction",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dl.acm.org/doi/pdf/10.1145/319382.319398",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1324,
+      "title": "Multimodal interaction: A review",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0167865513002584",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1325,
+      "title": "Quantifying & Modeling Multimodal Interactions: An Information Decomposition Framework",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2302.12247",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1326,
+      "title": "Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://aclanthology.org/2020.emnlp-main.62/",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1327,
+      "title": "The Platonic Representation Hypothesis",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2405.07987",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1328,
+      "title": "Understanding the Emergence of Multimodal Representation Alignment",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2502.16282",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1329,
+      "title": "Does equivariance matter at scale?",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2410.23179",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1330,
+      "title": "Learning Transferable Visual Models From Natural Language Supervision?",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2103.00020",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1331,
+      "title": "Emerging Properties in Self-Supervised Vision Transformers",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2104.14294",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1332,
+      "title": "Foundations & trends in multimodal machine learning - Principles, challenges, and open questions",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2209.03430",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1333,
+      "title": "[slides]",
+      "media_type": "pdf",
+      "material_type": "Lecture Slides",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec6%20-%20crossmodal.pdf",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1334,
+      "title": "[video]",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/k4kywHmr3AA",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1335,
+      "title": "LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2303.00915v3",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1336,
+      "title": "DreamLLM: Synergistic Multimodal Comprehension and Creation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2309.11499",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1337,
+      "title": "PaLM-E: An Embodied Multimodal Language Model",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2303.03378",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1338,
+      "title": "Kosmos-2: Grounding Multimodal Large Language Models to the World",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2306.14824",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1339,
+      "title": "Chameleon: Mixed-modal early-fusion foundation models",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2405.09818",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1340,
+      "title": "MM1: Methods, Analysis and Insights from Multimodal LLM Pre-training",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://link.springer.com/chapter/10.1007/978-3-031-73397-0_18",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1341,
+      "title": "MoMa: Efficient Early-Fusion Pre-training with Mixture of Modality-Aware Experts",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2407.21770",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1342,
+      "title": "[slides]",
+      "media_type": "pdf",
+      "material_type": "Lecture Slides",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec7%20-%20large%20models.pdf",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1343,
+      "title": "[video]",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/ZFLRDEUSX68",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1344,
+      "title": "Training Compute-Optimal Large Language Models",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2203.15556",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1345,
+      "title": "Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2204.07705",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1346,
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2106.09685",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1347,
+      "title": "A Visual Guide to Mixture of Experts (MoE)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1348,
+      "title": "A Visual Guide to Quantization",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1349,
+      "title": "Improved Baselines with Visual Instruction Tuning",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2310.03744",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1350,
+      "title": "[slides]",
+      "media_type": "pdf",
+      "material_type": "Lecture Slides",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec8%20-%20large%20multimodal%20models.pdf",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1351,
+      "title": "[video]",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/p_GGsKgGxSo",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1352,
+      "title": "Multimodal Transformer for Unaligned Multimodal Language Sequences",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/1906.00295",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1353,
+      "title": "Masked Autoencoders Are Scalable Vision Learners",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2111.06377",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1354,
+      "title": "Scaling Laws for Native Multimodal Models Scaling Laws for Native Multimodal Models",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2504.07951",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1355,
+      "title": "Transfer between Modalities with MetaQueries",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2504.06256",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1356,
+      "title": "Gated Linear Attention Transformers with Hardware-Efficient Training",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2312.06635",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1357,
+      "title": "Unintended Impacts of LLM Alignment on Global Representation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2402.15018",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1358,
+      "title": "Scaling Instruction-Finetuned Language Models",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2106.09685",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1359,
+      "title": "[slides]",
+      "media_type": "pdf",
+      "material_type": "Lecture Slides",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec9%20-%20generative%20AI.pdf",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1360,
+      "title": "[video]",
+      "media_type": "html",
+      "material_type": "Lecture Videos",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1361,
+      "title": "Scalable Diffusion Models with Transformers",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2212.09748",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1362,
+      "title": "Flow Matching in Latent Space",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2307.08698",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1363,
+      "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2403.03206",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1364,
+      "title": "Movie Gen: A Cast of Media Foundation Models",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2410.13720",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1365,
+      "title": "LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2303.16199",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1366,
+      "title": "Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2403.14520",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1367,
+      "title": "ModaVerse: Efficiently Transforming Modalities with LLMs",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2401.06395",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1368,
+      "title": "Spider: Any-to-Many Multimodal LLM",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2411.09439",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1369,
+      "title": "SPHINX-X: Scaling Data and Parameters for a Family of Multi-modal Large Language Models",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2402.05935",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1370,
+      "title": "How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2404.16821",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1371,
+      "title": "NExT-GPT: Any-to-Any Multimodal LLM",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2309.05519",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1372,
+      "title": "Learning to rebalance multi-modal optimization by adaptively masking subnetworks",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2404.08347",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1373,
+      "title": "Large Language Diffusion Models",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2502.09992",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1374,
+      "title": "Compositional Generative Modeling: A Single Model is Not All You Need",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/2402.01103",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1375,
+      "title": "Flow Matching for Generative Modeling",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2210.02747",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1376,
+      "title": "Flow Matching Guide and Code",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2412.06264",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1377,
+      "title": "FlowMotion: Target-Predictive Conditional Flow Matching for Jitter-Reduced Text-to-Motion Generation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2504.01338",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1378,
+      "title": "MusFlow: Multimodal Music Generation via Conditional Flow Matching",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2504.13535",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1379,
+      "title": "Unraveling the Connections Between Flow Matching and Diffusion Probabilistic Models",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2311.07625",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1380,
+      "title": "Exploring Diffusion and Flow Matching Under Generator Matching",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2412.11024",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1381,
+      "title": "[slides]",
+      "media_type": "pdf",
+      "material_type": "Lecture Slides",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec10%20-%20interaction.pdf",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1382,
+      "title": "[video]",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/3SOjOG2oL1w",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1383,
+      "title": "Deep reinforcement learning from human preferences",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/1706.03741",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1384,
+      "title": "Deepseek-r1: Incentivizing reasoning capability in LLMs via reinforcement learning",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2501.12948",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1385,
+      "title": "Faulty reward functions in the wild",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://openai.com/index/faulty-reward-functions/",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1386,
+      "title": "Direct preference optimization: Your language model is secretly a reward model",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2305.18290",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1387,
+      "title": "[slides]",
+      "media_type": "pdf",
+      "material_type": "Lecture Slides",
+      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec11%20-%20human.pdf",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1388,
+      "title": "[video]",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://youtu.be/NrmLjmXU66M",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1389,
+      "title": "Interactive Sketchpad: A Multimodal Tutoring System for Collaborative, Visual Problem-Solving",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2503.16434",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1390,
+      "title": "VideoWebArena: Evaluating Multimodal Agents on Video Understanding Web Tasks",
+      "media_type": "external",
+      "material_type": "Lecture Videos",
+      "source_url": "https://arxiv.org/abs/2410.19100",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1391,
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2406.09246",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1392,
+      "title": "ArtPrompt: ASCII Art-based Jailbreak Attacks against Aligned LLMs",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2402.11753",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1393,
+      "title": "Guidelines for Human-AI Interaction",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dl.acm.org/doi/abs/10.1145/3290605.3300233",
+      "local_path": null,
+      "resource_path": null,
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7585,
+      "title": "READINGS_OVERVIEW.md",
+      "media_type": "markdown",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/READINGS_OVERVIEW.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/READINGS_OVERVIEW.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7586,
+      "title": "RESOURCE.md",
+      "media_type": "markdown",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_00_Discussion_Papers/RESOURCE.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_00_Discussion_Papers/RESOURCE.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7587,
+      "title": "arxiv 2404 16821",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_00_Discussion_Papers/arxiv_2404_16821.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_00_Discussion_Papers/arxiv_2404_16821.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7588,
+      "title": "arxiv 2405 07987",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_00_Discussion_Papers/arxiv_2405_07987.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_00_Discussion_Papers/arxiv_2405_07987.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7589,
+      "title": "arxiv 2410 09649",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_00_Discussion_Papers/arxiv_2410_09649.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_00_Discussion_Papers/arxiv_2410_09649.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7590,
+      "title": "README.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_01_AI_Research/README.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_01_AI_Research/README.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7592,
+      "title": "RESOURCE.md",
+      "media_type": "markdown",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Foundations_and_Basics/RESOURCE.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Foundations_and_Basics/RESOURCE.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7593,
+      "title": "arxiv 1206 5538",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Foundations_and_Basics/arxiv_1206_5538.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Foundations_and_Basics/arxiv_1206_5538.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7594,
+      "title": "arxiv 1705 09406",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Foundations_and_Basics/arxiv_1705_09406.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Foundations_and_Basics/arxiv_1705_09406.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7595,
+      "title": "arxiv 2209 03430",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Foundations_and_Basics/arxiv_2209_03430.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Foundations_and_Basics/arxiv_2209_03430.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7596,
+      "title": "README.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Introduction/README.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Introduction/README.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7597,
+      "title": "arxiv 1206.5538",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Introduction/arxiv_1206.5538.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Introduction/arxiv_1206.5538.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7598,
+      "title": "arxiv 1705.09406",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Introduction/arxiv_1705.09406.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Introduction/arxiv_1705.09406.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7599,
+      "title": "arxiv 2209.03430",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Introduction/arxiv_2209.03430.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Introduction/arxiv_2209.03430.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7601,
+      "title": "RESOURCE.md",
+      "media_type": "markdown",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data/RESOURCE.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data/RESOURCE.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7602,
+      "title": "arxiv 2104 13478",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data/arxiv_2104_13478.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data/arxiv_2104_13478.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7603,
+      "title": "README.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data_Structure_Information/README.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data_Structure_Information/README.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7604,
+      "title": "arxiv 1206.5538",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data_Structure_Information/arxiv_1206.5538.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data_Structure_Information/arxiv_1206.5538.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7605,
+      "title": "arxiv 2104.13478",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data_Structure_Information/arxiv_2104.13478.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data_Structure_Information/arxiv_2104.13478.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7606,
+      "title": "arxiv 2209.03430",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data_Structure_Information/arxiv_2209.03430.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data_Structure_Information/arxiv_2209.03430.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7608,
+      "title": "Debugging Tips",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Practical_AI_Tools/Debugging Tips.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Practical_AI_Tools/Debugging Tips.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7609,
+      "title": "README.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Practical_AI_Tools/README.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Practical_AI_Tools/README.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7610,
+      "title": "README.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/README.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/README.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7611,
+      "title": "RESOURCE.md",
+      "media_type": "markdown",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/RESOURCE.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/RESOURCE.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7612,
+      "title": "arxiv 1409.0473",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1409.0473.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1409.0473.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7613,
+      "title": "arxiv 1409 0473",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1409_0473.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1409_0473.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7614,
+      "title": "arxiv 1703.06114",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1703.06114.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1703.06114.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7615,
+      "title": "arxiv 1703 06114",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1703_06114.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1703_06114.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7616,
+      "title": "arxiv 1706.03762",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1706.03762.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1706.03762.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7617,
+      "title": "arxiv 1706 03762",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1706_03762.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1706_03762.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7618,
+      "title": "arxiv 1710.10903",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1710.10903.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1710.10903.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7619,
+      "title": "arxiv 1710 10903",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1710_10903.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_1710_10903.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7620,
+      "title": "arxiv 2010.11929",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_2010.11929.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_2010.11929.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7621,
+      "title": "arxiv 2010 11929",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_2010_11929.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_2010_11929.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7622,
+      "title": "arxiv 2104.13478",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_2104.13478.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/arxiv_2104.13478.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7624,
+      "title": "README.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/README.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/README.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7625,
+      "title": "RESOURCE.md",
+      "media_type": "markdown",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/RESOURCE.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/RESOURCE.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7626,
+      "title": "arxiv 2005.10243",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/arxiv_2005.10243.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/arxiv_2005.10243.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7627,
+      "title": "arxiv 2005 10243",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/arxiv_2005_10243.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/arxiv_2005_10243.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7628,
+      "title": "arxiv 2210.01936",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/arxiv_2210.01936.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/arxiv_2210.01936.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7629,
+      "title": "arxiv 2210 01936",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/arxiv_2210_01936.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/arxiv_2210_01936.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7631,
+      "title": "README.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_06_Multimodal_2/README.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_06_Multimodal_2/README.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7632,
+      "title": "RESOURCE.md",
+      "media_type": "markdown",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_06_Multimodal_2/RESOURCE.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_06_Multimodal_2/RESOURCE.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7633,
+      "title": "arxiv 2302.12247",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_06_Multimodal_2/arxiv_2302.12247.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_06_Multimodal_2/arxiv_2302.12247.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7634,
+      "title": "arxiv 2302 12247",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_06_Multimodal_2/arxiv_2302_12247.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_06_Multimodal_2/arxiv_2302_12247.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7636,
+      "title": "README.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/README.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/README.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7637,
+      "title": "RESOURCE.md",
+      "media_type": "markdown",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/RESOURCE.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/RESOURCE.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7638,
+      "title": "arxiv 2303.00915v3",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/arxiv_2303.00915v3.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/arxiv_2303.00915v3.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7639,
+      "title": "arxiv 2303.03378",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/arxiv_2303.03378.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/arxiv_2303.03378.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7640,
+      "title": "arxiv 2303 00915v3",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/arxiv_2303_00915v3.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/arxiv_2303_00915v3.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7641,
+      "title": "arxiv 2303 03378",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/arxiv_2303_03378.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/arxiv_2303_03378.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7642,
+      "title": "arxiv 2309.11499",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/arxiv_2309.11499.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/arxiv_2309.11499.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7643,
+      "title": "arxiv 2309 11499",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/arxiv_2309_11499.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/arxiv_2309_11499.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7645,
+      "title": "README.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/README.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/README.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7646,
+      "title": "RESOURCE.md",
+      "media_type": "markdown",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/RESOURCE.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/RESOURCE.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7647,
+      "title": "arxiv 2106.09685",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2106.09685.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2106.09685.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7648,
+      "title": "arxiv 2106 09685",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2106_09685.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2106_09685.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7649,
+      "title": "arxiv 2203.15556",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2203.15556.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2203.15556.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7650,
+      "title": "arxiv 2203 15556",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2203_15556.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2203_15556.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7651,
+      "title": "arxiv 2204.07705",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2204.07705.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2204.07705.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7652,
+      "title": "arxiv 2310.03744",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2310.03744.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2310.03744.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7653,
+      "title": "arxiv 2310 03744",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2310_03744.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/arxiv_2310_03744.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7655,
+      "title": "README.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/README.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/README.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7656,
+      "title": "RESOURCE.md",
+      "media_type": "markdown",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/RESOURCE.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/RESOURCE.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7657,
+      "title": "arxiv 1906.00295",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_1906.00295.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_1906.00295.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7658,
+      "title": "arxiv 2111.06377",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_2111.06377.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_2111.06377.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7659,
+      "title": "arxiv 2111 06377",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_2111_06377.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_2111_06377.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7660,
+      "title": "arxiv 2504.06256",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_2504.06256.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_2504.06256.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7661,
+      "title": "arxiv 2504.07951",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_2504.07951.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_2504.07951.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7662,
+      "title": "arxiv 2504 06256",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_2504_06256.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_2504_06256.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7663,
+      "title": "arxiv 2504 07951",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_2504_07951.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/arxiv_2504_07951.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7665,
+      "title": "README.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/README.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/README.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7666,
+      "title": "RESOURCE.md",
+      "media_type": "markdown",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/RESOURCE.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/RESOURCE.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7667,
+      "title": "arxiv 2212.09748",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2212.09748.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2212.09748.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7668,
+      "title": "arxiv 2212 09748",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2212_09748.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2212_09748.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7669,
+      "title": "arxiv 2307.08698",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2307.08698.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2307.08698.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7670,
+      "title": "arxiv 2307 08698",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2307_08698.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2307_08698.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7671,
+      "title": "arxiv 2403.03206",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2403.03206.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2403.03206.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7672,
+      "title": "arxiv 2403 03206",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2403_03206.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2403_03206.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7673,
+      "title": "arxiv 2410.13720",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2410.13720.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2410.13720.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7674,
+      "title": "arxiv 2410 13720",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2410_13720.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/arxiv_2410_13720.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7676,
+      "title": "README.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/README.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/README.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7677,
+      "title": "RESOURCE.md",
+      "media_type": "markdown",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/RESOURCE.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/RESOURCE.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7678,
+      "title": "arxiv 1706.03741",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/arxiv_1706.03741.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/arxiv_1706.03741.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7679,
+      "title": "arxiv 1706 03741",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/arxiv_1706_03741.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/arxiv_1706_03741.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7680,
+      "title": "arxiv 2305.18290",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/arxiv_2305.18290.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/arxiv_2305.18290.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7681,
+      "title": "arxiv 2305 18290",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/arxiv_2305_18290.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/arxiv_2305_18290.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7682,
+      "title": "arxiv 2501.12948",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/arxiv_2501.12948.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/arxiv_2501.12948.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7683,
+      "title": "arxiv 2501 12948",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/arxiv_2501_12948.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/arxiv_2501_12948.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7685,
+      "title": "README.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/README.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/README.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7686,
+      "title": "RESOURCE.md",
+      "media_type": "markdown",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/RESOURCE.md",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/RESOURCE.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7687,
+      "title": "arxiv 2402.11753",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2402.11753.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2402.11753.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7688,
+      "title": "arxiv 2402 11753",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2402_11753.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2402_11753.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7689,
+      "title": "arxiv 2406.09246",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2406.09246.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2406.09246.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7690,
+      "title": "arxiv 2406 09246",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2406_09246.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2406_09246.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7691,
+      "title": "arxiv 2410.19100",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2410.19100.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2410.19100.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7692,
+      "title": "arxiv 2503.16434",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2503.16434.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2503.16434.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7693,
+      "title": "arxiv 2503 16434",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2503_16434.pdf",
+      "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/arxiv_2503_16434.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

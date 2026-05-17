@@ -1,0 +1,852 @@
+{
+  "generated_at": "2026-05-16T20:41:29.845Z",
+  "target": "notebooklm",
+  "upload_mode": "source_manifest",
+  "notebooklm_api_note": "Personal NotebookLM can use this as a manual upload queue. NotebookLM Enterprise can map these sources to its notebook/source API.",
+  "course": {
+    "course_id": "2-682-acoustical-oceanography-spring-2012",
+    "title": "Acoustical Oceanography",
+    "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/",
+    "term": "Spring",
+    "year": "2012",
+    "level": [
+      "Graduate"
+    ],
+    "topics": [
+      [
+        "Engineering",
+        "Ocean Engineering"
+      ],
+      [
+        "Science",
+        "Physics"
+      ],
+      [
+        "Science",
+        "Earth Science",
+        "Oceanography"
+      ]
+    ],
+    "instructors": [
+      {
+        "first_name": "James",
+        "last_name": "Lynch",
+        "middle_initial": "",
+        "salutation": "",
+        "title": "James Lynch",
+        "uid": "e26acb20-b5f6-c7ad-1eac-8502f94711ad",
+        "url": "/search/?q=James+Lynch"
+      }
+    ],
+    "status": "ready_for_notebooklm",
+    "tier": 2,
+    "tier_score": 28,
+    "screening_reason": "Braucht Normalisierung oder manuelle Prüfung",
+    "warnings": []
+  },
+  "qa": {
+    "status": "ready",
+    "blocking": [],
+    "warnings": [
+      "17 Nicht-Dokument-Links wurden nicht exportiert."
+    ],
+    "material_counts": {
+      "pdf": 34,
+      "html": 3,
+      "other": 2,
+      "external": 12
+    },
+    "source_counts": {
+      "pdf": 34
+    }
+  },
+  "source_limits": {
+    "max_sources": 300,
+    "exported_sources": 34,
+    "total_materials": 51
+  },
+  "sources": [
+    {
+      "order": 1,
+      "title": "Lecture 1 Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/3719d6726de02bbc57b61939f0cd14c5_MIT2_682S12_lec01.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/3719d6726de02bbc57b61939f0cd14c5_MIT2_682S12_lec01.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "3719d672-6de0-2bbc-57b6-1939f0cd14c5"
+      }
+    },
+    {
+      "order": 2,
+      "title": "Lecture 1 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/58aeef5d8bd077782924c431bad2f2db_MIT2_682S12_bglec01.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/58aeef5d8bd077782924c431bad2f2db_MIT2_682S12_bglec01.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "58aeef5d-8bd0-7778-2924-c431bad2f2db"
+      }
+    },
+    {
+      "order": 3,
+      "title": "Lecture 2 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/58540cfbbdd42be15697f7a1523f343b_MIT2_682S12_bglec02.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/58540cfbbdd42be15697f7a1523f343b_MIT2_682S12_bglec02.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "58540cfb-bdd4-2be1-5697-f7a1523f343b"
+      }
+    },
+    {
+      "order": 4,
+      "title": "Lecture 2 Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/842efb3f10cb24ec5ac67c17b2f5cd4f_MIT2_682S12_lec02.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/842efb3f10cb24ec5ac67c17b2f5cd4f_MIT2_682S12_lec02.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "842efb3f-10cb-24ec-5ac6-7c17b2f5cd4f"
+      }
+    },
+    {
+      "order": 5,
+      "title": "Lecture 3 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/c46cef6df0457b15a773c0c5f99c2cec_MIT2_682S12_bglec03.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/c46cef6df0457b15a773c0c5f99c2cec_MIT2_682S12_bglec03.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "c46cef6d-f045-7b15-a773-c0c5f99c2cec"
+      }
+    },
+    {
+      "order": 6,
+      "title": "Lecture 4 Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/912f81a910bbd70f22a2be6e25113d09_MIT2_682S12_lec04.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/912f81a910bbd70f22a2be6e25113d09_MIT2_682S12_lec04.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "912f81a9-10bb-d70f-22a2-be6e25113d09"
+      }
+    },
+    {
+      "order": 7,
+      "title": "Lecture 4-5 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/ce6d1a2e7555af32ad9b1ed9b48b7b7e_MIT2_682S12_bglec0405.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/ce6d1a2e7555af32ad9b1ed9b48b7b7e_MIT2_682S12_bglec0405.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "ce6d1a2e-7555-af32-ad9b-1ed9b48b7b7e"
+      }
+    },
+    {
+      "order": 8,
+      "title": "Lecture 6 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/25058a02940443d8cae6dde3271fdbb6_MIT2_682S12_bglec06.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/25058a02940443d8cae6dde3271fdbb6_MIT2_682S12_bglec06.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "25058a02-9404-43d8-cae6-dde3271fdbb6"
+      }
+    },
+    {
+      "order": 9,
+      "title": "Lecture 7 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/e8982711372f0d28ab1a86726089ed77_MIT2_682S12_bglec07.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/e8982711372f0d28ab1a86726089ed77_MIT2_682S12_bglec07.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "e8982711-372f-0d28-ab1a-86726089ed77"
+      }
+    },
+    {
+      "order": 10,
+      "title": "Lecture 7 Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/eabd55bfae8f6afcfa447284123667a9_MIT2_682S12_lec07.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/eabd55bfae8f6afcfa447284123667a9_MIT2_682S12_lec07.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "eabd55bf-ae8f-6afc-fa44-7284123667a9"
+      }
+    },
+    {
+      "order": 11,
+      "title": "Lecture 8 Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/1ddc25b18ac33a1a86d16f4b05726f44_MIT2_682S12_lec08.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/1ddc25b18ac33a1a86d16f4b05726f44_MIT2_682S12_lec08.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "1ddc25b1-8ac3-3a1a-86d1-6f4b05726f44"
+      }
+    },
+    {
+      "order": 12,
+      "title": "Lecture 8 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/dd5767e2b0bb489badbe5211c1ef7cf7_MIT2_682S12_bglec08.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/dd5767e2b0bb489badbe5211c1ef7cf7_MIT2_682S12_bglec08.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "dd5767e2-b0bb-489b-adbe-5211c1ef7cf7"
+      }
+    },
+    {
+      "order": 13,
+      "title": "Lecture 9 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/a2a2318a3203d55393f3859712d2039c_MIT2_682S12_bglec09.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/a2a2318a3203d55393f3859712d2039c_MIT2_682S12_bglec09.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "a2a2318a-3203-d553-93f3-859712d2039c"
+      }
+    },
+    {
+      "order": 14,
+      "title": "Lecture 9 Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/d8e6732f545f465583e990b5ae07964c_MIT2_682S12_lec09.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/d8e6732f545f465583e990b5ae07964c_MIT2_682S12_lec09.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "d8e6732f-545f-4655-83e9-90b5ae07964c"
+      }
+    },
+    {
+      "order": 15,
+      "title": "Lecture 10 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/886ead78325762a83434c151f70b0ee6_MIT2_682S12_bglec10.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/886ead78325762a83434c151f70b0ee6_MIT2_682S12_bglec10.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "886ead78-3257-62a8-3434-c151f70b0ee6"
+      }
+    },
+    {
+      "order": 16,
+      "title": "Lecture 10 Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/c6686ce9b18cabf5353456da3faea559_MIT2_682S12_lec10.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/c6686ce9b18cabf5353456da3faea559_MIT2_682S12_lec10.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "c6686ce9-b18c-abf5-3534-56da3faea559"
+      }
+    },
+    {
+      "order": 17,
+      "title": "Lecture 11 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/02e4289db5d222757e3927a24cdcc141_MIT2_682S12_bglec11.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/02e4289db5d222757e3927a24cdcc141_MIT2_682S12_bglec11.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "02e4289d-b5d2-2275-7e39-27a24cdcc141"
+      }
+    },
+    {
+      "order": 18,
+      "title": "Lecture 11 Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/520494b38732649598f85bf5bc722d9e_MIT2_682S12_lec11.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/520494b38732649598f85bf5bc722d9e_MIT2_682S12_lec11.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "520494b3-8732-6495-98f8-5bf5bc722d9e"
+      }
+    },
+    {
+      "order": 19,
+      "title": "Lecture 12 Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/81abfa54a934a8892501ef16dd126ede_MIT2_682S12_lec12.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/81abfa54a934a8892501ef16dd126ede_MIT2_682S12_lec12.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "81abfa54-a934-a889-2501-ef16dd126ede"
+      }
+    },
+    {
+      "order": 20,
+      "title": "Lecture 12 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/ffe5d9df0936a18e21aeebf80fb24a8e_MIT2_682S12_bglec12.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/ffe5d9df0936a18e21aeebf80fb24a8e_MIT2_682S12_bglec12.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "ffe5d9df-0936-a18e-21ae-ebf80fb24a8e"
+      }
+    },
+    {
+      "order": 21,
+      "title": "Lecture 13 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/27f301ca1e1e09e0479ec9cdc85b9da0_MIT2_682S12_bglec13.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/27f301ca1e1e09e0479ec9cdc85b9da0_MIT2_682S12_bglec13.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "27f301ca-1e1e-09e0-479e-c9cdc85b9da0"
+      }
+    },
+    {
+      "order": 22,
+      "title": "Lecture 13 Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/e663e0865ce7ec44cabfe9532963cd29_MIT2_682S12_lec13.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/e663e0865ce7ec44cabfe9532963cd29_MIT2_682S12_lec13.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "e663e086-5ce7-ec44-cabf-e9532963cd29"
+      }
+    },
+    {
+      "order": 23,
+      "title": "Lecture 14 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/229b6f773f451e4391fb21c20a981b13_MIT2_682S12_bglec14.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/229b6f773f451e4391fb21c20a981b13_MIT2_682S12_bglec14.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "229b6f77-3f45-1e43-91fb-21c20a981b13"
+      }
+    },
+    {
+      "order": 24,
+      "title": "Lecture 15 Background Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/294e57cf766a434b579e328ba55152e7_MIT2_682S12_bglec15.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/294e57cf766a434b579e328ba55152e7_MIT2_682S12_bglec15.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "294e57cf-766a-434b-579e-328ba55152e7"
+      }
+    },
+    {
+      "order": 25,
+      "title": "Lecture 15 Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/e9b53ba811f84183e7c3236239f93b3b_MIT2_682S12_lec15.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/e9b53ba811f84183e7c3236239f93b3b_MIT2_682S12_lec15.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "e9b53ba8-11f8-4183-e7c3-236239f93b3b"
+      }
+    },
+    {
+      "order": 26,
+      "title": "Lecture 16 Notes",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/1da781ae192c694ae6b5d71258358aee_MIT2_682S12_lec16.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/1da781ae192c694ae6b5d71258358aee_MIT2_682S12_lec16.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "1da781ae-192c-694a-e6b5-d71258358aee"
+      }
+    },
+    {
+      "order": 27,
+      "title": "2.682 Term Project Option 2",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/0c21782e7e67803613176d7fb8eef3d8_MIT2_682S12_termproject_02.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/0c21782e7e67803613176d7fb8eef3d8_MIT2_682S12_termproject_02.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "0c21782e-7e67-8036-1317-6d7fb8eef3d8"
+      }
+    },
+    {
+      "order": 28,
+      "title": "Problem Set #4",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/246e2f7b317207759e175215abcb8112_MIT2_682S12_Homework4.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/246e2f7b317207759e175215abcb8112_MIT2_682S12_Homework4.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "246e2f7b-3172-0775-9e17-5215abcb8112"
+      }
+    },
+    {
+      "order": 29,
+      "title": "2.682 Term Project Option 1",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/70c4c4bbfedb587f8bb55d1848986d94_MIT2_682S12_termproject_01.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/70c4c4bbfedb587f8bb55d1848986d94_MIT2_682S12_termproject_01.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "70c4c4bb-fedb-587f-8bb5-5d1848986d94"
+      }
+    },
+    {
+      "order": 30,
+      "title": "Problem Set #1",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/7906d22db4488e1baa7bb15196595bcc_MIT2_682S12_Homework1.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/7906d22db4488e1baa7bb15196595bcc_MIT2_682S12_Homework1.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "7906d22d-b448-8e1b-aa7b-b15196595bcc"
+      }
+    },
+    {
+      "order": 31,
+      "title": "Problem Set #3",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/8678cfa45f1c62427167f87bca6bae57_MIT2_682S12_Homework3.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/8678cfa45f1c62427167f87bca6bae57_MIT2_682S12_Homework3.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "8678cfa4-5f1c-6242-7167-f87bca6bae57"
+      }
+    },
+    {
+      "order": 32,
+      "title": "Problem Set #2",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/9fc34e5bccf7fac1489f660600f4df16_MIT2_682S12_Homework2.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/9fc34e5bccf7fac1489f660600f4df16_MIT2_682S12_Homework2.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "9fc34e5b-ccf7-fac1-489f-660600f4df16"
+      }
+    },
+    {
+      "order": 33,
+      "title": "2.682 Term Project Option 3",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/c47d14e3e0f4151bc0f6f9266aa7838d_MIT2_682S12_termproject_03.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/c47d14e3e0f4151bc0f6f9266aa7838d_MIT2_682S12_termproject_03.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "c47d14e3-e0f4-151b-c0f6-f9266aa7838d"
+      }
+    },
+    {
+      "order": 34,
+      "title": "Problem Set #5",
+      "source_url": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/fc090da737f1091dd983337ab9494383_MIT2_682S12_Homework5.pdf",
+      "content": "https://ocw.mit.edu/courses/2-682-acoustical-oceanography-spring-2012/fc090da737f1091dd983337ab9494383_MIT2_682S12_Homework5.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "fc090da7-37f1-091d-d983-337ab9494383"
+      }
+    }
+  ]
+}

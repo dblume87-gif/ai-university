@@ -11,6 +11,7 @@ import { discoverViaSearch, discoverAllDepartments } from './discovery/crawl.js'
 import { screenCourse, screenCourses, screenDiscovered } from './screening/screen.js';
 import { getShortlist, getShortlistOptions, printShortlist } from './curation/shortlist.js';
 import { getSimilarCourses, getSimilarOptions, printSimilarCourses } from './curation/similar.js';
+import { exportCourseUnits, getCourseUnitOptions, printCourseUnitResults } from './curation/units.js';
 import { getLocalImportOptions, importLocalLibrary, printLocalImportResults } from './local/import-library.js';
 import {
   approveCourseForNotebookLm,
@@ -26,10 +27,22 @@ import {
 } from './notebooklm/manifest.js';
 import { getDb, getCoursesByStatus } from './lib/db.js';
 import { SCREENING_STATUS } from './lib/schema.js';
+import { parseCliArgs } from './lib/cli.js';
 
 const args = process.argv.slice(2);
 const command = args[0];
 const arg = args[1];
+
+const DISCOVER_SCHEMA = {
+  stringFlags: ['--query'],
+  intFlags: ['--max'],
+  booleanFlags: ['--depts', '--headless', '--headed', '--dry-run', '--help', '-h']
+};
+
+const SCREEN_SCHEMA = {
+  stringFlags: ['--deep-tier'],
+  booleanFlags: ['--all', '--fast', '--deep', '--help', '-h']
+};
 
 function printUsage() {
   console.log(`
@@ -42,6 +55,7 @@ Usage:
   node src/scrape.js screen <course-id> [--fast|--deep] [--deep-tier 1,2]
   node src/scrape.js shortlist [--limit 5] [--topic "Economics"] [--department 18] [--material psets] [--min-videos 10] [--min-pdfs 5] [--include-hold] [--sort score|videos|pdfs|notes|psets|exams|title]
   node src/scrape.js similar <course-id> [--limit 5] [--include-hold]
+  node src/scrape.js units <course-id...> [--assigned-only] [--out-root output/notebooklm]
   node src/scrape.js local import [--root ../library] [--course-id id] [--rescreen] [--fast] [--dry-run]
   node src/scrape.js notebooklm ready [--limit 10] [--include-hold]
   node src/scrape.js notebooklm approve <course-id>
@@ -54,74 +68,44 @@ Usage:
       `);
 }
 
-function getOptionValue(name) {
-  const index = args.indexOf(name);
-  const value = index >= 0 ? args[index + 1] : undefined;
-  return value && !value.startsWith('--') ? value : undefined;
-}
-
-function hasOption(name) {
-  return args.includes(name);
-}
-
-function getDiscoverQueryArg() {
-  for (let i = 1; i < args.length; i++) {
-    const value = args[i];
-    if (value === '--query' || value === '--max') {
-      i++;
-      continue;
-    }
-    if (value.startsWith('--')) continue;
-    return value;
-  }
-
-  return undefined;
-}
+const topLevel = parseCliArgs(args, {
+  booleanFlags: ['--help', '-h'],
+  allowUnknownFlags: true
+});
 
 function getDiscoverOptions() {
-  const max = Number.parseInt(getOptionValue('--max'), 10);
-
+  // Discover-CLI: positional[0] = command, [1+] = optionale Query.
+  const parsed = parseCliArgs(args.slice(1), DISCOVER_SCHEMA);
   return {
-    maxCourses: Number.isInteger(max) && max > 0 ? max : undefined,
-    headless: hasOption('--headless') ? true : !hasOption('--headed'),
-    dryRun: hasOption('--dry-run')
+    maxCourses: parsed.getPositiveInt('--max', undefined),
+    headless: parsed.has('--headless') ? true : !parsed.has('--headed'),
+    dryRun: parsed.has('--dry-run'),
+    queryFromPositional: parsed.positional[0],
+    queryFlag: parsed.getString('--query'),
+    isDepts: parsed.has('--depts')
   };
 }
 
-function getScreenCourseArg() {
-  for (let i = 1; i < args.length; i++) {
-    const value = args[i];
-    if (value === '--deep-tier') {
-      i++;
-      continue;
-    }
-    if (value.startsWith('--')) continue;
-    return value;
-  }
-
-  return undefined;
-}
-
 function getScreenOptions() {
-  const deepTierValue = getOptionValue('--deep-tier');
-  const deepTiers = deepTierValue
-    ? deepTierValue
-        .split(',')
-        .map(value => Number.parseInt(value.trim(), 10))
-        .filter(value => Number.isInteger(value))
-    : null;
+  const parsed = parseCliArgs(args.slice(1), SCREEN_SCHEMA);
+  const deepTiers = parsed
+    .getList('--deep-tier')
+    ?.map(value => Number.parseInt(value, 10))
+    .filter(value => Number.isInteger(value));
 
-  const selectedDeepTiers = deepTiers?.length ? deepTiers : null;
-  const isFast = hasOption('--fast');
+  const selectedDeepTiers = deepTiers && deepTiers.length > 0 ? deepTiers : null;
+  const isFast = parsed.has('--fast');
 
   return {
     deep: !isFast || selectedDeepTiers !== null,
-    deepTiers: isFast ? selectedDeepTiers : null
+    deepTiers: isFast ? selectedDeepTiers : null,
+    courseIdFromPositional: parsed.positional[0],
+    isAll: parsed.has('--all')
   };
 }
 
 async function main() {
-  if (!command || hasOption('--help') || hasOption('-h')) {
+  if (!command || topLevel.has('--help') || topLevel.has('-h')) {
     printUsage();
     return;
   }
@@ -132,30 +116,36 @@ async function main() {
       // discover --depts
       const options = getDiscoverOptions();
 
-      if (hasOption('--depts')) {
+      if (options.isDepts) {
         console.log('[MAIN] Starte Department-Discovery...');
         await discoverAllDepartments(options);
       } else {
-        const query = getOptionValue('--query') || getDiscoverQueryArg() || 'computer science';
+        const query = options.queryFlag || options.queryFromPositional || 'computer science';
         console.log(`[MAIN] Starte Search-Discovery für: "${query}"...`);
         await discoverViaSearch(query, options);
       }
       break;
     }
-    
+
     case 'screen': {
       const options = getScreenOptions();
-      const courseId = getScreenCourseArg();
+      const courseId = options.courseIdFromPositional;
+      let results;
 
-      if (hasOption('--all')) {
+      if (options.isAll) {
         console.log('[MAIN] Screene alle discovered Kurse...');
-        await screenDiscovered(options);
+        results = await screenDiscovered(options);
       } else if (courseId) {
         console.log(`[MAIN] Screene Kurs: ${courseId}`);
-        await screenCourse(courseId, options);
+        results = [await screenCourse(courseId, options)];
       } else {
         console.log('[MAIN] Screene alle discovered Kurse...');
-        await screenDiscovered(options);
+        results = await screenDiscovered(options);
+      }
+
+      const failed = results.filter(result => result.error);
+      if (failed.length > 0) {
+        throw new Error(`Screening fehlgeschlagen: ${failed.length}/${results.length} Kurse mit Fehler.`);
       }
       break;
     }
@@ -197,6 +187,14 @@ async function main() {
       const options = getSimilarOptions(args.slice(1));
       const { seed, courses } = getSimilarCourses(options);
       printSimilarCourses(seed, courses, options);
+      break;
+    }
+
+    case 'units': {
+      const options = getCourseUnitOptions(args.slice(1));
+      if (options.courseIds.length === 0) throw new Error('Bitte mindestens eine course-id angeben: units <course-id...>');
+      const results = await exportCourseUnits(options.courseIds, options);
+      printCourseUnitResults(results);
       break;
     }
 
@@ -266,8 +264,6 @@ async function main() {
     default:
       printUsage();
   }
-  
-  process.exit(0);
 }
 
 main().catch(err => {

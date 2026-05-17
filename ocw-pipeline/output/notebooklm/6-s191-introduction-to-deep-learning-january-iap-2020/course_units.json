@@ -1,0 +1,388 @@
+{
+  "generated_at": "2026-05-16T21:22:58.494Z",
+  "course": {
+    "course_id": "6-s191-introduction-to-deep-learning-january-iap-2020",
+    "title": "Introduction to Deep Learning",
+    "source_url": "https://ocw.mit.edu/courses/6-s191-introduction-to-deep-learning-january-iap-2020/",
+    "status": "uploaded_to_notebooklm",
+    "notebooklm_status": "uploaded_to_notebooklm",
+    "notebooklm_notebook_id": "41265126-caaa-4378-affe-9cce5b6833d7"
+  },
+  "summary": {
+    "material_sources": 22,
+    "unit_count": 10,
+    "assigned_sources": 10,
+    "unassigned_sources": 12
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Intro to Deep Learning",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7975,
+          "title": "Lecture 1: Intro to Deep Learning",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec1.pdf",
+          "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec1.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Deep Sequence Modeling",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7977,
+          "title": "Lecture 2: Deep Sequence Modeling",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec2.pdf",
+          "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec2.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Deep Computer Vision",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7978,
+          "title": "Lecture 3: Deep Computer Vision",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec3.pdf",
+          "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec3.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Deep Generative Modeling",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7979,
+          "title": "Lecture 4: Deep Generative Modeling",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec4.pdf",
+          "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec4.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Deep Reinforcement Learning",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7980,
+          "title": "Lecture 5: Deep Reinforcement Learning",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec5.pdf",
+          "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec5.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Limitations and New Frontiers",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7981,
+          "title": "Lecture 6: Limitations and New Frontiers",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec6.pdf",
+          "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec6.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Neurosymbolic Hybrid AI",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7982,
+          "title": "Lecture 7: Neurosymbolic Hybrid AI",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec7.pdf",
+          "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec7.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Generalizable Autonomy in Robotics",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7983,
+          "title": "Lecture 8: Generalizable Autonomy in Robotics",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec8.pdf",
+          "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec8.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Neural Rendering",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7984,
+          "title": "Lecture 9: Neural Rendering",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec9.pdf",
+          "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec9.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "ML for Scent",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7976,
+          "title": "Lecture 10: ML for Scent",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec10.pdf",
+          "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/MIT6_S191IAP20_Lec10.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 7973,
+      "title": "FILELIST.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/FILELIST.md",
+      "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/FILELIST.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7974,
+      "title": "LECTURE_VIDEOS.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/LECTURE_VIDEOS.md",
+      "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7985,
+      "title": "https://www.youtube.com/watch?v=njKP3FqW3Sk",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=njKP3FqW3Sk",
+      "local_path": null,
+      "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7986,
+      "title": "https://www.youtube.com/watch?v=SEnXr6v2ifU",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=SEnXr6v2ifU",
+      "local_path": null,
+      "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7987,
+      "title": "https://www.youtube.com/watch?v=iaSUYvmCekI",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=iaSUYvmCekI",
+      "local_path": null,
+      "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7988,
+      "title": "https://www.youtube.com/watch?v=rZufA635dq4",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=rZufA635dq4",
+      "local_path": null,
+      "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7989,
+      "title": "https://www.youtube.com/watch?v=nZfaHIxDD5w",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=nZfaHIxDD5w",
+      "local_path": null,
+      "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7990,
+      "title": "https://www.youtube.com/watch?v=pqIcoskUuWs",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=pqIcoskUuWs",
+      "local_path": null,
+      "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7991,
+      "title": "https://www.youtube.com/watch?v=4PuuziOgSU4",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=4PuuziOgSU4",
+      "local_path": null,
+      "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7992,
+      "title": "https://www.youtube.com/watch?v=ZNodOsz94cc",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=ZNodOsz94cc",
+      "local_path": null,
+      "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7993,
+      "title": "https://www.youtube.com/watch?v=BCZ56MU-KhQ",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=BCZ56MU-KhQ",
+      "local_path": null,
+      "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7994,
+      "title": "https://www.youtube.com/watch?v=Z5Pw5eWItiw",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=Z5Pw5eWItiw",
+      "local_path": null,
+      "resource_path": "library/MIT-6.S191-Introduction-to-Deep-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

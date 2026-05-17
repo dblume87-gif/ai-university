@@ -1,0 +1,830 @@
+{
+  "generated_at": "2026-05-16T21:22:58.493Z",
+  "course": {
+    "course_id": "6-867-machine-learning-fall-2006",
+    "title": "Machine Learning",
+    "source_url": "https://ocw.mit.edu/courses/6-867-machine-learning-fall-2006/",
+    "status": "uploaded_to_notebooklm",
+    "notebooklm_status": "uploaded_to_notebooklm",
+    "notebooklm_notebook_id": "8e9259ed-8648-491b-8164-663a10e8f5ff"
+  },
+  "summary": {
+    "material_sources": 48,
+    "unit_count": 23,
+    "assigned_sources": 23,
+    "unassigned_sources": 25
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Introduction, linear classification, perceptron update rule",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7928,
+          "title": "Lecture 1: Introduction, linear classification, perceptron update rule",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec1.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec1.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Perceptron convergence, generalization",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7939,
+          "title": "Lecture 2: Perceptron convergence, generalization",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec2.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec2.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Maximum margin classification",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7944,
+          "title": "Lecture 3: Maximum margin classification",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec3.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec3.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Classification errors, regularization, logistic regression",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7945,
+          "title": "Lecture 4: Classification errors, regularization, logistic regression",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec4.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec4.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Linear regression, estimator bias and variance, active learning",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7946,
+          "title": "Lecture 5: Linear regression, estimator bias and variance, active learning",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec5.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec5.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Active learning (cont.), non-linear predictions, kernels",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7947,
+          "title": "Lecture 6: Active learning (cont.), non-linear predictions, kernels",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec6.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec6.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Kernel regression, kernels",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7948,
+          "title": "Lecture 7: Kernel regression, kernels",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec7.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec7.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Support vector machine (SVM) and kernels, kernel optimization",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7949,
+          "title": "Lecture 8: Support vector machine (SVM) and kernels, kernel optimization",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec8.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec8.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Model selection",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7950,
+          "title": "Lecture 9: Model selection",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec9.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec9.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Model selection criteria",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7929,
+          "title": "Lecture 10: Model selection criteria",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec10.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec10.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Description length, feature selection",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7930,
+          "title": "Lecture 11: Description length, feature selection",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec11.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec11.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Combining classifiers, boosting",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7931,
+          "title": "Lecture 12: Combining classifiers, boosting",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec12.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec12.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Boosting, margin, and complexity",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7932,
+          "title": "Lecture 13: Boosting, margin, and complexity",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec13.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec13.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Margin and generalization, mixture models",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7933,
+          "title": "Lecture 14: Margin and generalization, mixture models",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec14.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec14.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Mixtures and the expectation maximization (EM) algorithm",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7934,
+          "title": "Lecture 15: Mixtures and the expectation maximization (EM) algorithm",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec15.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec15.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "EM, regularization, clustering",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7935,
+          "title": "Lecture 16: EM, regularization, clustering",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec16.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec16.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "Clustering",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7936,
+          "title": "Lecture 17: Clustering",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec17.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec17.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Spectral clustering, Markov models",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7937,
+          "title": "Lecture 18: Spectral clustering, Markov models",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec18.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec18.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "Hidden Markov models (HMMs)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7938,
+          "title": "Lecture 19: Hidden Markov models (HMMs)",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec19.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec19.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "HMMs (cont.)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7940,
+          "title": "Lecture 20: HMMs (cont.)",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec20.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec20.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "Bayesian networks",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7941,
+          "title": "Lecture 21: Bayesian networks",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec21.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec21.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 22,
+      "title": "Learning Bayesian networks",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7942,
+          "title": "Lecture 22: Learning Bayesian networks",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec22.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec22.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "Probabilistic inference; Guest lecture on collaborative filtering",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 7943,
+          "title": "Lecture 23: Probabilistic inference; Guest lecture on collaborative filtering",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": null,
+          "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec23.pdf",
+          "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec23.pdf",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 7925,
+      "title": "EXTRAS.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/EXTRAS.md",
+      "resource_path": "library/MIT-6.867-Machine-Learning/EXTRAS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7926,
+      "title": "FILELIST.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/FILELIST.md",
+      "resource_path": "library/MIT-6.867-Machine-Learning/FILELIST.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7927,
+      "title": "LECTURE_VIDEOS.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/LECTURE_VIDEOS.md",
+      "resource_path": "library/MIT-6.867-Machine-Learning/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7951,
+      "title": "MIT6 867F06 final f01",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f01.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f01.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7952,
+      "title": "MIT6 867F06 final f01soln",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f01soln.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f01soln.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7953,
+      "title": "MIT6 867F06 final f02",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f02.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f02.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7954,
+      "title": "MIT6 867F06 final f02soln",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f02soln.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f02soln.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7955,
+      "title": "MIT6 867F06 final f03",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f03.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f03.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7956,
+      "title": "MIT6 867F06 final f03soln",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f03soln.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f03soln.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7957,
+      "title": "MIT6 867F06 final f04",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f04.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f04.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7958,
+      "title": "MIT6 867F06 final f04soln",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f04soln.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_final_f04soln.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7959,
+      "title": "MIT6 867F06 hw1",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_hw1.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_hw1.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7960,
+      "title": "MIT6 867F06 hw2",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_hw2.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_hw2.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7961,
+      "title": "MIT6 867F06 hw3",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_hw3.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_hw3.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7962,
+      "title": "MIT6 867F06 hw4",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_hw4.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_hw4.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7963,
+      "title": "MIT6 867F06 hw5",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_hw5.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_hw5.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7964,
+      "title": "MIT6 867F06 lagrange",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_lagrange.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_lagrange.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7965,
+      "title": "MIT6 867F06 midterm f01soln",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f01soln.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f01soln.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7966,
+      "title": "MIT6 867F06 midterm f02",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f02.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f02.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7967,
+      "title": "MIT6 867F06 midterm f02soln",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f02soln.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f02soln.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7968,
+      "title": "MIT6 867F06 midterm f03",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f03.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f03.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7969,
+      "title": "MIT6 867F06 midterm f03soln",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f03soln.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f03soln.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7970,
+      "title": "MIT6 867F06 midterm f04",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f04.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f04.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7971,
+      "title": "MIT6 867F06 midterm f04soln",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f04soln.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f04soln.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7972,
+      "title": "MIT6 867F06 midterm f06soln",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f06soln.pdf",
+      "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f06soln.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

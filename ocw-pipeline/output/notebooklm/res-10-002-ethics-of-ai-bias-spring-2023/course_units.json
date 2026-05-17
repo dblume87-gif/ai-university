@@ -1,0 +1,234 @@
+{
+  "generated_at": "2026-05-16T21:22:58.501Z",
+  "course": {
+    "course_id": "res-10-002-ethics-of-ai-bias-spring-2023",
+    "title": "Ethics of AI Bias",
+    "source_url": "https://ocw.mit.edu/courses/res-10-002-ethics-of-ai-bias-spring-2023/",
+    "status": "uploaded_to_notebooklm",
+    "notebooklm_status": "uploaded_to_notebooklm",
+    "notebooklm_notebook_id": "37a656de-dea4-44a1-8d04-7eda691dd15f"
+  },
+  "summary": {
+    "material_sources": 19,
+    "unit_count": 0,
+    "assigned_sources": 0,
+    "unassigned_sources": 19
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [],
+  "unassigned_sources": [
+    {
+      "id": 7995,
+      "title": "LECTURE_VIDEOS.md",
+      "media_type": "markdown",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/LECTURE_VIDEOS.md",
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7996,
+      "title": "content_map.json",
+      "media_type": "data",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/content_map.json",
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/content_map.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7997,
+      "title": "data.json",
+      "media_type": "data",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/data.json",
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7998,
+      "title": "index.html",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/download/index.html",
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/download/index.html",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 7999,
+      "title": "index.html",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": null,
+      "local_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/resources/other-video/index.html",
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/resources/other-video/index.html",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8000,
+      "title": "1Jv25FTNtzwKJmOPRBW0FmARV2i9765TG transcript",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": null,
+      "local_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/1Jv25FTNtzwKJmOPRBW0FmARV2i9765TG_transcript.pdf",
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/1Jv25FTNtzwKJmOPRBW0FmARV2i9765TG_transcript.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8001,
+      "title": "3631 ethics of ai bias finale 03 transcript",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": null,
+      "local_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/3631_ethics_of_ai_bias_finale_03_transcript.pdf",
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/3631_ethics_of_ai_bias_finale_03_transcript.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8002,
+      "title": "ethics of ai bias clip1 transcript",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": null,
+      "local_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/ethics_of_ai_bias_clip1_transcript.pdf",
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/ethics_of_ai_bias_clip1_transcript.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8003,
+      "title": "ethics of ai bias clip2 transcript",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": null,
+      "local_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/ethics_of_ai_bias_clip2_transcript.pdf",
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/ethics_of_ai_bias_clip2_transcript.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8004,
+      "title": "ethics of ai bias clip3 transcript",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": null,
+      "local_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/ethics_of_ai_bias_clip3_transcript.pdf",
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/ethics_of_ai_bias_clip3_transcript.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8005,
+      "title": "ethics of ai bias clip4 transcript",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": null,
+      "local_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/ethics_of_ai_bias_clip4_transcript.pdf",
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/ethics_of_ai_bias_clip4_transcript.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8006,
+      "title": "ethics of ai bias clip5 transcript",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": null,
+      "local_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/ethics_of_ai_bias_clip5_transcript.pdf",
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/static_resources/ethics_of_ai_bias_clip5_transcript.pdf",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8007,
+      "title": "https://www.youtube.com/watch?v=wmyVODy_WD8",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=wmyVODy_WD8",
+      "local_path": null,
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8008,
+      "title": "https://www.youtube.com/embed/NgaW_p7gsRc",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/NgaW_p7gsRc",
+      "local_path": null,
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8009,
+      "title": "https://www.youtube.com/embed/7ReT81XnaXU",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/7ReT81XnaXU",
+      "local_path": null,
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8010,
+      "title": "https://www.youtube.com/embed/LLsl7BA3xFE",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/LLsl7BA3xFE",
+      "local_path": null,
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8011,
+      "title": "https://www.youtube.com/embed/bROegWnKFRw",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/bROegWnKFRw",
+      "local_path": null,
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8012,
+      "title": "https://www.youtube.com/embed/lvaFISgua2o",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/lvaFISgua2o",
+      "local_path": null,
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8013,
+      "title": "https://www.youtube.com/embed/oI3RyTBVGho",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/embed/oI3RyTBVGho",
+      "local_path": null,
+      "resource_path": "library/MIT-RES.10-002-Ethics-of-AI-Bias/LECTURE_VIDEOS.md",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

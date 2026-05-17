@@ -1,0 +1,869 @@
+{
+  "generated_at": "2026-05-16T21:22:58.456Z",
+  "course": {
+    "course_id": "12-007-geobiology-spring-2013",
+    "title": "Geobiology",
+    "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/",
+    "status": "uploaded_to_notebooklm",
+    "notebooklm_status": "uploaded_to_notebooklm",
+    "notebooklm_notebook_id": "d1241c1d-0a10-4163-b3cb-a8619c2d0932"
+  },
+  "summary": {
+    "material_sources": 53,
+    "unit_count": 18,
+    "assigned_sources": 18,
+    "unassigned_sources": 35
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Geobiology, Lecture Notes 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8125,
+          "title": "Geobiology, Lecture Notes 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/5c38a944005bb69471183418d64d093a_MIT12_007S13_Lec1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec1/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Geobiology, Lecture Notes 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8139,
+          "title": "Geobiology, Lecture Notes 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/a4e219261d627e9316bc459ce1602641_MIT12_007S13_Lec2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec2/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Geobiology, Lecture Notes 3",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8151,
+          "title": "Geobiology, Lecture Notes 3",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/c267d13bd76328bf59cf586c109aaaad_MIT12_007S13_Lec3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec3/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Geobiology, Lecture Notes 4",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8140,
+          "title": "Geobiology, Lecture Notes 4",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/af2d46514ea54e9d06a8279f545c364a_MIT12_007S13_Lec4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec4/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Geobiology, Lecture Notes 5",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8153,
+          "title": "Geobiology, Lecture Notes 5",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/c5557f81b3efcd4874db40d78ad470e5_MIT12_007S13_Lec5.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec5/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Geobiology, Lecture Notes 6",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8113,
+          "title": "Geobiology, Lecture Notes 6",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/034da58e6fb56fe605b805a8b7be7ef1_MIT12_007S13_Lec6.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec6/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Geobiology, Lecture Notes 7",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8144,
+          "title": "Geobiology, Lecture Notes 7",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/b15e7651818cd91f2b659695e5e238da_MIT12_007S13_Lec7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec7/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Geobiology, Lecture Notes 8",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8124,
+          "title": "Geobiology, Lecture Notes 8",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/5a8a6e62c1776581910c02c9eb4817d0_MIT12_007S13_Lec8.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec8/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Geobiology, Lecture Notes 9",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8115,
+          "title": "Geobiology, Lecture Notes 9",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/05ce17a5d97177fc3c8ce653a045e92b_MIT12_007S13_Lec9.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec9/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Geobiology, Lecture Notes 10",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8152,
+          "title": "Geobiology, Lecture Notes 10",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/c2843117623610bf103261d3f7395189_MIT12_007S13_Lec10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec10/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Geobiology, Lecture Notes 11",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8114,
+          "title": "Geobiology, Lecture Notes 11",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/03c68c613c0baf0e550b68c554e2b734_MIT12_007S13_Lec11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec11/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Geobiology, Lecture Notes 12",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8131,
+          "title": "Geobiology, Lecture Notes 12",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/7dcf987693d82894e2d4f1da1184d4d6_MIT12_007S13_Lec12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec12/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Geobiology, Lecture Notes 13",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8112,
+          "title": "Geobiology, Lecture Notes 13",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/005cd5a5df05b2dc3cfb2b422967bf38_MIT12_007S13_Lec13.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec13/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Geobiology, Lecture Notes 14",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8134,
+          "title": "Geobiology, Lecture Notes 14",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/mit12_007s13_lec14.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec14_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Geobiology, Lecture Notes 15",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8164,
+          "title": "Geobiology, Lecture Notes 15",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/f4889fa109b979cf591cacb1abf651c4_MIT12_007S13_Lec15.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec15/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "Geobiology, Lecture Notes 16",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8155,
+          "title": "Geobiology, Lecture Notes 16",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/d0d860293166938013b87ce81c552e31_MIT12_007S13_Lec16.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec16/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Geobiology, Lecture Notes 18",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8116,
+          "title": "Geobiology, Lecture Notes 18",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/09406d184890efeac88a437cf80b5a76_MIT12_007S13_Lec18.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec18/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "Geobiology, Lecture Notes 19",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8166,
+          "title": "Geobiology, Lecture Notes 19",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/fb07007976207bb7a95b28e8d0713d70_MIT12_007S13_Lec19.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_lec19/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 8117,
+      "title": "Early Earth",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.2113/gselements.2.4.201",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/early-earth_0d7e5805-d6fb-4008-bca5-f0311b0a574d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8119,
+      "title": "The Paleocene-Eocene Thermal Maximum: A Perturbation of Carbon Cycle, Climate, and Biosphere with Implications for the Future",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1146/annurev-earth-040610-133431",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/the-paleocene-eocene-thermal-maximum-a-perturbation-of-carbon-cycle-climate-and-biosphere2b80dd54-5609-4949-a818-d72cc51d5732/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8120,
+      "title": "Tracing the Thread of Plastid Diversity through the Tapestry of Life",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1086/303291",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/tracing-the-thread-of-plastid-diversity-through-the-tapestry-of-life_2ba1e834-b19b-4426-9bac-45e5ae720321/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8121,
+      "title": "The Ediacara Biota: Neoproterozoic Origin of Animals and Their Ecosystems",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1146/annurev.earth.33.092203.122519",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/the-ediacara-biota-neoproterozoic-origin-of-animals-and-their-ecosystems_2c108045-bd78-47ce-aa3b-5d1b74b7f3e1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8122,
+      "title": "Mechanical basis of morphogenesis and convergent evolution of spiny seashells",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1073/pnas.1220443110",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/mechanical-basis-of-morphogenesis-and-convergent-evolution-of-spiny-seashells_2c5e3394-731b-4ff9-be9e-517e9bc1b200/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8123,
+      "title": "Fractionation of the Isotopes of Carbon and Hydrogen in Biosynthetic Processes.\" (PDF)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://www.whoi.edu/fileserver.do?id=73288&pt=2&p=74886",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/fractionation-of-the-isotopes-of-carbon-and-hydrogen-in-biosynthetic-processes-pdf_2d10fe72-18a6-43d1-a5fc-c6cacc1b91bd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8126,
+      "title": "Molecular Evidence for the Early Colonization of Land by Fungi and Plants",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1126/science.1061457",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/molecular-evidence-for-the-early-colonization-of-land-by-fungi-and-plants_63af35f0-c514-4d73-9e41-31ed74cd88cf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8127,
+      "title": "Life in extreme environments",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1038/35059215",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/life-in-extreme-environments_63dabce4-8b74-4e04-b050-5838e975a4e4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8128,
+      "title": "Phanerozoic Biodiversity Mass Extinctions",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1146/annurev.earth.33.092203.122654",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/phanerozoic-biodiversity-mass-extinctions_647c7f35-e36b-4e4e-8b08-02b5e2fe9dac/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8129,
+      "title": "Adaptations to energy stress dictate the ecology and evolution of the Archaea",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1038/nrmicro1619",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/adaptations-to-energy-stress-dictate-the-ecology-and-evolution-of-the-archaea_6cca5f41-bf14-496f-a43e-d55764f4c021/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8130,
+      "title": "Isotopic evolution of the biogeochemical carbon cycle during the Proterozoic Eon",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1016/S0146-6380(97)00061-2",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/isotopic-evolution-of-the-biogeochemical-carbon-cycle-during-the-proterozoic-eon_6ee56c54-c819-4434-823f-50d027138597/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8132,
+      "title": "Practice and Principles of Isotopic Measurements in Organic Geochemistry.\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "http://www.gps.caltech.edu/~als/research-articles/other_stuff/hayespnp.pdf",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/practice-and-principles-of-isotopic-measurements-in-organic-geochemistry-pdf_7fbc5a1a-a1d9-4cdb-b887-97f08edb0827/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8133,
+      "title": "Bacterial metabolism: Phosphite oxidation by sulphate reduction",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1038/35017644",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/bacterial-metabolism-phosphite-oxidation-by-sulphate-reduction_85e02e94-4f33-4661-bc44-dd267eb030cb/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8135,
+      "title": "Geobiology, Solutions 4",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/8e0de5b441c639e595ef1f7d7d369f74_MIT12_007S13_Solution_4.pdf",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_solution_4/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Assignments"
+      ]
+    },
+    {
+      "id": 8136,
+      "title": "A Whiff of Oxygen Before the Great Oxidation Event?",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1126/science.1140325",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/a-whiff-of-oxygen-before-the-great-oxidation-event_91dfffbc-261a-4889-a9d2-1b1f42cd5fbe/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8137,
+      "title": "Geobiology, Assignments 4",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/92a66ae080af302a29ce0cf5c2485c5a_MIT12_007S13_PSet_4.pdf",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_pset_4/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Assignments"
+      ]
+    },
+    {
+      "id": 8138,
+      "title": "Geobiology, Assignments 3",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/9e6ae269a2f3a88bc1c796922a1b4d1c_MIT12_007S13_PSet_3.pdf",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_pset_3/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Assignments"
+      ]
+    },
+    {
+      "id": 8141,
+      "title": "Unicellular cyanobacteria fix N<sub>2</sub> in the subtropical North Pacific Ocean",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1038/35088063",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/unicellular-cyanobacteria-fix-nsub2sub-in-the-subtropical-north-pacific-ocean_afb4f839-0584-416f-98e5-864696075f15/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8143,
+      "title": "The microbial ocean from genomes to biomes",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1038/nature08059",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/the-microbial-ocean-from-genomes-to-biomes_b0fbede3-17fc-4de4-81bb-31fd36829512/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8145,
+      "title": "Proterozoic Ocean Chemistry and Evolution: A Bioinorganic Bridge?",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1126/science.1069651",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/proterozoic-ocean-chemistry-and-evolution-a-bioinorganic-bridge_b20176c3-e429-4493-88c6-fe92d70db093/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8146,
+      "title": "Zero-valent sulphur is a key intermediate in marine methane oxidation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1038/nature11656",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/zero-valent-sulphur-is-a-key-intermediate-in-marine-methane-oxidation_b83faf83-7d1c-4efa-a179-c38c878aef8d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8147,
+      "title": "Consequences Of The Cretaceous/Paleogene Mass Extinction For Marine Ecosystema",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1146/annurev.ecolsys.35.021103.105715",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/consequences-of-the-cretaceouspaleogene-mass-extinction-for-marine-ecosystema_b98c005b-e401-4332-9d54-607926e37968/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8148,
+      "title": "Phylogenetic Structure of the Prokaryotic Domain: The Primary Kingdoms",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://www.jstor.org/discover/10.2307/67531?uid=3739696&uid=2&uid=4&uid=3739256&sid=21102534816903",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/phylogenetic-structure-of-the-prokaryotic-domain-the-primary-kingdoms_b9c6e3a3-2c9d-43d2-af72-82ed9e8fbf5d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8149,
+      "title": "End-Permian Mass Extinction in the Oceans: An Ancient Analog for the Twenty-First Century?",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1146/annurev-earth-042711-105329",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/end-permian-mass-extinction-in-the-oceans-an-ancient-analog-for-the-twenty-first-century_bc54a108-0cf9-4f11-96e2-9af40f3c7133/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8150,
+      "title": "Snowball Earth",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1038/scientificamerican0100-68",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/snowball-earth_bf56285e-b334-4897-9c25-8a90ec41f8fa/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8154,
+      "title": "The snowball Earth hypothesis: testing the limits of global change",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1046/j.1365-3121.2002.00408.x",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/the-snowball-earth-hypothesis-testing-the-limits-of-global-change_cca8ed79-0797-4ecd-a630-552c35c02d2e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8156,
+      "title": "Non-steady state carbonate recycling and implications for the evolution of atmospheric P<sub>CO2</sub>",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1016/S0012-821X(03)00510-7",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/non-steady-state-carbonate-recycling-and-implications-for-the-evolution-of-atmospheric-psd2931a78-6381-4d00-a1d5-4c6b5641b1b0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8157,
+      "title": "The tree of eukaryotes",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1016/j.tree.2005.09.005",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/the-tree-of-eukaryotes_d2a09e5d-44c3-467c-8f2e-df4ba424ba40/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8158,
+      "title": "The role of the global carbonate cycle in the regulation and evolution of the Earth system",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1016/j.epsl.2005.03.006",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/the-role-of-the-global-carbonate-cycle-in-the-regulation-and-evolution-of-the-earth-systed4b3ccd8-e705-4851-8998-c111b69d3bdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8159,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://books.google.com/books?id=MfAGpVq8gpQC&pg=PAfrontcover",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/google-books_d9fcfeb6-2757-46b7-bf50-8b107f56f0ca/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8160,
+      "title": "A common red algal origin of the apicomplexan, dinoflagellate, and heterokont plastids",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1073/pnas.1003335107",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/a-common-red-algal-origin-of-the-apicomplexan-dinoflagellate-and-heterokont-plastids_dc0d2b31-e72b-43ca-b591-7b9a9f0a09f1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8161,
+      "title": "Explaining The Cambrian \"Explosion\" Of Animals",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1146/annurev.earth.33.031504.103001",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/explaining-the-cambrian-explosion-of-animals_deabbae6-1f1a-45c6-8130-9a11de4c63dc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8162,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://books.google.com/books?id=wqXhqLl5J50C&pg=PAfrontcover",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/google-books_e7cb7097-e081-4e10-bb0b-7b63d43402e8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8163,
+      "title": "The Chicxulub Asteroid Impact and Mass Extinction at the Cretaceous-Paleogene Boundary",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://dx.doi.org/10.1126/science.1177265",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/external-resources/the-chicxulub-asteroid-impact-and-mass-extinction-at-the-cretaceous-paleogene-boundary_ecc191f0-28e1-4dc0-b9f1-ad2137bc970e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8165,
+      "title": "Geobiology, Assignments 3 Solution",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/f98ff5991180b66f5f2c02eae8b92563_MIT12_007S13_Solution_3.pdf",
+      "local_path": null,
+      "resource_path": "/courses/12-007-geobiology-spring-2013/resources/mit12_007s13_solution_3/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Assignments"
+      ]
+    }
+  ]
+}

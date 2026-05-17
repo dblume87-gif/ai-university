@@ -1,0 +1,591 @@
+{
+  "generated_at": "2026-05-16T20:27:11.198Z",
+  "target": "notebooklm",
+  "upload_mode": "source_manifest",
+  "notebooklm_api_note": "Personal NotebookLM can use this as a manual upload queue. NotebookLM Enterprise can map these sources to its notebook/source API.",
+  "course": {
+    "course_id": "12-007-geobiology-spring-2013",
+    "title": "Geobiology",
+    "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/",
+    "term": "Spring",
+    "year": "2013",
+    "level": [
+      "Undergraduate"
+    ],
+    "topics": [
+      [
+        "Science",
+        "Earth Science",
+        "Geobiology"
+      ]
+    ],
+    "instructors": [
+      {
+        "first_name": "Roger",
+        "last_name": "Summons",
+        "middle_initial": "",
+        "salutation": "Prof.",
+        "title": "Prof. Roger Summons",
+        "uid": "8168d826-1459-74d4-4a87-01601977df59",
+        "url": "/search/?q=Prof.+Roger+Summons"
+      },
+      {
+        "first_name": "Tanja",
+        "last_name": "Bosak",
+        "middle_initial": "",
+        "salutation": "Prof.",
+        "title": "Prof. Tanja Bosak",
+        "uid": "54903f7e-df1b-33b0-d5fa-860655223316",
+        "url": "/search/?q=Prof.+Tanja+Bosak"
+      }
+    ],
+    "status": "ready_for_notebooklm",
+    "tier": 2,
+    "tier_score": 30,
+    "screening_reason": "Braucht Normalisierung oder manuelle Prüfung",
+    "warnings": []
+  },
+  "qa": {
+    "status": "ready",
+    "blocking": [],
+    "warnings": [
+      "32 Nicht-Dokument-Links wurden nicht exportiert."
+    ],
+    "material_counts": {
+      "pdf": 23,
+      "external": 30,
+      "other": 2
+    },
+    "source_counts": {
+      "pdf": 23
+    }
+  },
+  "source_limits": {
+    "max_sources": 300,
+    "exported_sources": 23,
+    "total_materials": 55
+  },
+  "sources": [
+    {
+      "order": 1,
+      "title": "Geobiology, Lecture Notes 13",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/005cd5a5df05b2dc3cfb2b422967bf38_MIT12_007S13_Lec13.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/005cd5a5df05b2dc3cfb2b422967bf38_MIT12_007S13_Lec13.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "005cd5a5-df05-b2dc-3cfb-2b422967bf38"
+      }
+    },
+    {
+      "order": 2,
+      "title": "Geobiology, Lecture Notes 6",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/034da58e6fb56fe605b805a8b7be7ef1_MIT12_007S13_Lec6.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/034da58e6fb56fe605b805a8b7be7ef1_MIT12_007S13_Lec6.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "034da58e-6fb5-6fe6-05b8-05a8b7be7ef1"
+      }
+    },
+    {
+      "order": 3,
+      "title": "Geobiology, Lecture Notes 11",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/03c68c613c0baf0e550b68c554e2b734_MIT12_007S13_Lec11.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/03c68c613c0baf0e550b68c554e2b734_MIT12_007S13_Lec11.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "03c68c61-3c0b-af0e-550b-68c554e2b734"
+      }
+    },
+    {
+      "order": 4,
+      "title": "Geobiology, Lecture Notes 9",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/05ce17a5d97177fc3c8ce653a045e92b_MIT12_007S13_Lec9.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/05ce17a5d97177fc3c8ce653a045e92b_MIT12_007S13_Lec9.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "05ce17a5-d971-77fc-3c8c-e653a045e92b"
+      }
+    },
+    {
+      "order": 5,
+      "title": "Geobiology, Lecture Notes 18",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/09406d184890efeac88a437cf80b5a76_MIT12_007S13_Lec18.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/09406d184890efeac88a437cf80b5a76_MIT12_007S13_Lec18.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "09406d18-4890-efea-c88a-437cf80b5a76"
+      }
+    },
+    {
+      "order": 6,
+      "title": "Geobiology, Lecture Notes 8",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/5a8a6e62c1776581910c02c9eb4817d0_MIT12_007S13_Lec8.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/5a8a6e62c1776581910c02c9eb4817d0_MIT12_007S13_Lec8.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "5a8a6e62-c177-6581-910c-02c9eb4817d0"
+      }
+    },
+    {
+      "order": 7,
+      "title": "Geobiology, Lecture Notes 1",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/5c38a944005bb69471183418d64d093a_MIT12_007S13_Lec1.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/5c38a944005bb69471183418d64d093a_MIT12_007S13_Lec1.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "5c38a944-005b-b694-7118-3418d64d093a"
+      }
+    },
+    {
+      "order": 8,
+      "title": "Geobiology, Lecture Notes 12",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/7dcf987693d82894e2d4f1da1184d4d6_MIT12_007S13_Lec12.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/7dcf987693d82894e2d4f1da1184d4d6_MIT12_007S13_Lec12.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "7dcf9876-93d8-2894-e2d4-f1da1184d4d6"
+      }
+    },
+    {
+      "order": 9,
+      "title": "Geobiology, Lecture Notes 14",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/mit12_007s13_lec14.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/mit12_007s13_lec14.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "resourcetype": "Document",
+        "uid": "8a08a3a5-ac0d-4c9e-9203-c4cad42ee4fa"
+      }
+    },
+    {
+      "order": 10,
+      "title": "Geobiology, Lecture Notes 2",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/a4e219261d627e9316bc459ce1602641_MIT12_007S13_Lec2.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/a4e219261d627e9316bc459ce1602641_MIT12_007S13_Lec2.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "a4e21926-1d62-7e93-16bc-459ce1602641"
+      }
+    },
+    {
+      "order": 11,
+      "title": "Geobiology, Lecture Notes 4",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/af2d46514ea54e9d06a8279f545c364a_MIT12_007S13_Lec4.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/af2d46514ea54e9d06a8279f545c364a_MIT12_007S13_Lec4.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "af2d4651-4ea5-4e9d-06a8-279f545c364a"
+      }
+    },
+    {
+      "order": 12,
+      "title": "Geobiology, Lecture Notes 7",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/b15e7651818cd91f2b659695e5e238da_MIT12_007S13_Lec7.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/b15e7651818cd91f2b659695e5e238da_MIT12_007S13_Lec7.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "b15e7651-818c-d91f-2b65-9695e5e238da"
+      }
+    },
+    {
+      "order": 13,
+      "title": "Geobiology, Lecture Notes 3",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/c267d13bd76328bf59cf586c109aaaad_MIT12_007S13_Lec3.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/c267d13bd76328bf59cf586c109aaaad_MIT12_007S13_Lec3.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "c267d13b-d763-28bf-59cf-586c109aaaad"
+      }
+    },
+    {
+      "order": 14,
+      "title": "Geobiology, Lecture Notes 10",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/c2843117623610bf103261d3f7395189_MIT12_007S13_Lec10.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/c2843117623610bf103261d3f7395189_MIT12_007S13_Lec10.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "c2843117-6236-10bf-1032-61d3f7395189"
+      }
+    },
+    {
+      "order": 15,
+      "title": "Geobiology, Lecture Notes 5",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/c5557f81b3efcd4874db40d78ad470e5_MIT12_007S13_Lec5.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/c5557f81b3efcd4874db40d78ad470e5_MIT12_007S13_Lec5.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "c5557f81-b3ef-cd48-74db-40d78ad470e5"
+      }
+    },
+    {
+      "order": 16,
+      "title": "Geobiology, Lecture Notes 16",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/d0d860293166938013b87ce81c552e31_MIT12_007S13_Lec16.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/d0d860293166938013b87ce81c552e31_MIT12_007S13_Lec16.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "d0d86029-3166-9380-13b8-7ce81c552e31"
+      }
+    },
+    {
+      "order": 17,
+      "title": "Geobiology, Lecture Notes 15",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/f4889fa109b979cf591cacb1abf651c4_MIT12_007S13_Lec15.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/f4889fa109b979cf591cacb1abf651c4_MIT12_007S13_Lec15.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "f4889fa1-09b9-79cf-591c-acb1abf651c4"
+      }
+    },
+    {
+      "order": 18,
+      "title": "Geobiology, Lecture Notes 19",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/fb07007976207bb7a95b28e8d0713d70_MIT12_007S13_Lec19.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/fb07007976207bb7a95b28e8d0713d70_MIT12_007S13_Lec19.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Lecture Notes",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Lecture Notes"
+        ],
+        "parent_title": "Lecture Notes",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "fb070079-7620-7bb7-a95b-28e8d0713d70"
+      }
+    },
+    {
+      "order": 19,
+      "title": "Practice and Principles of Isotopic Measurements in Organic Geochemistry.\" (PDF)",
+      "source_url": "http://www.gps.caltech.edu/~als/research-articles/other_stuff/hayespnp.pdf",
+      "content": "http://www.gps.caltech.edu/~als/research-articles/other_stuff/hayespnp.pdf",
+      "source_kind": "ocw_external_resource_data",
+      "material_type": "Other",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "external-resource",
+        "learning_resource_types": [],
+        "uid": "7fbc5a1a-a1d9-4cdb-b887-97f08edb0827"
+      }
+    },
+    {
+      "order": 20,
+      "title": "Geobiology, Solutions 4",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/8e0de5b441c639e595ef1f7d7d369f74_MIT12_007S13_Solution_4.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/8e0de5b441c639e595ef1f7d7d369f74_MIT12_007S13_Solution_4.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "8e0de5b4-41c6-39e5-95ef-1f7d7d369f74"
+      }
+    },
+    {
+      "order": 21,
+      "title": "Geobiology, Assignments 4",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/92a66ae080af302a29ce0cf5c2485c5a_MIT12_007S13_PSet_4.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/92a66ae080af302a29ce0cf5c2485c5a_MIT12_007S13_PSet_4.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "92a66ae0-80af-302a-29ce-0cf5c2485c5a"
+      }
+    },
+    {
+      "order": 22,
+      "title": "Geobiology, Assignments 3",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/9e6ae269a2f3a88bc1c796922a1b4d1c_MIT12_007S13_PSet_3.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/9e6ae269a2f3a88bc1c796922a1b4d1c_MIT12_007S13_PSet_3.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "9e6ae269-a2f3-a88b-c1c7-96922a1b4d1c"
+      }
+    },
+    {
+      "order": 23,
+      "title": "Geobiology, Assignments 3 Solution",
+      "source_url": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/f98ff5991180b66f5f2c02eae8b92563_MIT12_007S13_Solution_3.pdf",
+      "content": "https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/f98ff5991180b66f5f2c02eae8b92563_MIT12_007S13_Solution_3.pdf",
+      "source_kind": "ocw_resource_data",
+      "material_type": "Problem Sets",
+      "media_type": "pdf",
+      "local_path": null,
+      "extraction_status": "linked",
+      "notebooklm_source_type": "file_or_url",
+      "metadata": {
+        "content_type": "resource",
+        "file_type": "application/pdf",
+        "learning_resource_types": [
+          "Assignments"
+        ],
+        "parent_title": "Assignments",
+        "parent_type": "CourseSection",
+        "resourcetype": "Document",
+        "uid": "f98ff599-1180-b66f-5f2c-02eae8b92563"
+      }
+    }
+  ]
+}
