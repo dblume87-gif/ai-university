@@ -162,7 +162,7 @@ function normalizeSource(material) {
   };
 }
 
-function inferUnitNumbers(material) {
+export function inferUnitNumbers(material) {
   const text = [
     material.title,
     material.resource_path,

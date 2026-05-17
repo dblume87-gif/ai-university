@@ -19,7 +19,8 @@
     "notebooklm:export": "node src/scrape.js notebooklm export",
     "notebooklm:upload": "node src/scrape.js notebooklm upload",
     "notebooklm:sync": "node src/scrape.js notebooklm sync",
-    "notebooklm:assets": "node src/scrape.js notebooklm assets"
+    "notebooklm:assets": "node src/scrape.js notebooklm assets",
+    "test": "node --test test/*.test.js"
   },
   "engines": {
     "node": ">=20"

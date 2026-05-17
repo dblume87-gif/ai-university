@@ -1,7 +1,5 @@
-import { spawnSync } from 'child_process';
-import { existsSync } from 'fs';
 import { mkdir, readdir, stat, writeFile } from 'fs/promises';
-import { dirname, extname, join, relative, resolve } from 'path';
+import { dirname, join, relative, resolve } from 'path';
 import { fileURLToPath } from 'url';
 import {
   getCourse,
@@ -14,6 +12,26 @@ import {
 } from '../lib/db.js';
 import { SCREENING_STATUS } from '../lib/schema.js';
 import { parseCliArgs } from '../lib/cli.js';
+import {
+  extractNotebookId,
+  extractSourceId,
+  formatNotebookLmCommand,
+  runNotebookLmJson
+} from './cli.js';
+import {
+  DOCUMENT_EXTENSIONS,
+  buildSourceAddArgs,
+  getSourceContent,
+  hasSourceContent,
+  isNotebookLmAllowedSource,
+  isUsableLocalPath,
+  selectNotebookLmSources
+} from './sources.js';
+import {
+  choosePrimaryMatches,
+  findDuplicateMatches,
+  matchNotebooksToCourses
+} from './match.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const SCRAPER_ROOT = join(__dirname, '../..');
@@ -39,41 +57,6 @@ const DEFAULT_ASSET_TYPES = [
   'quiz'
 ];
 
-const VIDEO_SOURCE_MEDIA_TYPES = new Set(['youtube', 'video']);
-const DOCUMENT_EXTENSIONS = new Set([
-  '.csv',
-  '.doc',
-  '.docx',
-  '.md',
-  '.markdown',
-  '.ods',
-  '.odp',
-  '.odt',
-  '.pdf',
-  '.ppt',
-  '.pptx',
-  '.rst',
-  '.rtf',
-  '.tsv',
-  '.txt',
-  '.xls',
-  '.xlsx'
-]);
-
-const SOURCE_PRIORITY = {
-  pdf: 1,
-  youtube: 2,
-  video: 3,
-  markdown: 4,
-  slides: 5,
-  data: 6,
-  captions: 7,
-  html: 8,
-  external: 9,
-  code: 9,
-  archive: 10,
-  other: 11
-};
 
 const NOTEBOOKLM_SCHEMA = {
   stringFlags: ['--out', '--notebook-id'],
@@ -622,189 +605,6 @@ async function listLocalFiles(rootDir) {
   return files.sort((a, b) => a.path.localeCompare(b.path));
 }
 
-function selectNotebookLmSources(materials, maxSources) {
-  return materials
-    .filter(isNotebookLmAllowedSource)
-    .sort((a, b) => {
-      const priorityA = getSourcePriority(a);
-      const priorityB = getSourcePriority(b);
-      if (priorityA !== priorityB) return priorityA - priorityB;
-      const lectureA = getLectureNumber(a);
-      const lectureB = getLectureNumber(b);
-      if (lectureA !== null && lectureB !== null && lectureA !== lectureB) return lectureA - lectureB;
-      return a.id - b.id;
-    })
-    .slice(0, maxSources)
-    .map((material, index) => ({
-      order: index + 1,
-      title: material.title,
-      source_url: material.source_url,
-      content: getSourceContent(material),
-      source_kind: material.source_kind,
-      material_type: material.material_type,
-      media_type: material.media_type,
-      local_path: material.local_path,
-      extraction_status: material.extraction_status,
-      notebooklm_source_type: mapNotebookLmSourceType(material),
-      metadata: parseJson(material.metadata_json)
-    }));
-}
-
-function getSourcePriority(material) {
-  let priority = SOURCE_PRIORITY[material.media_type] || SOURCE_PRIORITY.other;
-  const title = String(material.title || '').toLowerCase();
-  const materialType = String(material.material_type || '').toLowerCase();
-
-  if (material.media_type === 'pdf') {
-    if (materialType.includes('lecture slides') || title.includes('lecture ')) priority -= 0.4;
-    if (materialType.includes('lecture notes') || title.includes('notes')) priority -= 0.3;
-    if (title.includes('transcript') || title.includes('3play')) priority += 1.5;
-  }
-
-  return priority;
-}
-
-function getLectureNumber(material) {
-  const match = String(material.title || '').match(/\blecture\s+(\d+)\b/i);
-  return match ? Number.parseInt(match[1], 10) : null;
-}
-
-function mapNotebookLmSourceType(material) {
-  if (hasUsableLocalSource(material)) return 'file';
-  if (material.media_type === 'pdf') return 'file_or_url';
-  if (material.media_type === 'youtube') return 'youtube';
-  if (material.media_type === 'video') return 'video_url';
-  if (isDocumentSource(material)) return 'document';
-  return 'unsupported';
-}
-
-function buildSourceAddArgs(source, notebookId) {
-  const content = getSourceContent(source);
-  if (!content) throw new Error(`Quelle ohne content/source_url/local_path: ${source.title || '(untitled)'}`);
-
-  const args = ['source', 'add', content, '--json'];
-  if (notebookId) args.push('--notebook', notebookId);
-
-  const title = getSourceTitle(source);
-  if (title) args.push('--title', title);
-
-  const sourceType = getNotebookLmCliSourceType(source);
-  if (sourceType) args.push('--type', sourceType);
-
-  const mimeType = getSourceMimeType(source, content);
-  if (mimeType) args.push('--mime-type', mimeType);
-
-  return args;
-}
-
-function hasSourceContent(material) {
-  return Boolean(getSourceContent(material));
-}
-
-function isNotebookLmAllowedSource(material) {
-  if (!hasSourceContent(material)) return false;
-  if (['archive', 'code'].includes(material.media_type)) return false;
-  if (VIDEO_SOURCE_MEDIA_TYPES.has(material.media_type)) return true;
-  return isDocumentSource(material);
-}
-
-function isDocumentSource(source) {
-  if (source.media_type === 'pdf') return true;
-  const extension = getContentExtension(getSourceContent(source));
-  return DOCUMENT_EXTENSIONS.has(extension);
-}
-
-function getSourceContent(source) {
-  if (source.local_path && isUsableLocalPath(source.local_path)) {
-    return source.local_path;
-  }
-
-  if (source.source_url) return source.source_url;
-
-  if (source.content && source.content !== source.local_path) {
-    return source.content;
-  }
-
-  return null;
-}
-
-function isUsableLocalPath(localPath) {
-  if (!localPath) return false;
-  return existsSync(resolve(WORKSPACE_ROOT, localPath));
-}
-
-function hasUsableLocalSource(source) {
-  return Boolean(source.local_path && isUsableLocalPath(source.local_path));
-}
-
-function getContentExtension(content) {
-  const value = String(content || '');
-  if (!value) return '';
-
-  try {
-    return extname(new URL(value).pathname).toLowerCase();
-  } catch {
-    return extname(value).toLowerCase();
-  }
-}
-
-function getSourceTitle(source) {
-  return source.title || source.resource_path || source.local_path || source.source_url || null;
-}
-
-function getNotebookLmCliSourceType(source) {
-  if (source.media_type === 'youtube') return 'youtube';
-  if (hasUsableLocalSource(source)) return 'file';
-  if (isYoutubeUrl(source.source_url)) return 'youtube';
-  if (source.source_url?.startsWith('http')) return 'url';
-  return null;
-}
-
-function getSourceMimeType(source, content) {
-  if (!hasUsableLocalSource(source) || getNotebookLmCliSourceType(source) !== 'file') return null;
-  const extension = getContentExtension(content);
-  const mimeTypes = {
-    '.csv': 'text/csv',
-    '.doc': 'application/msword',
-    '.docx': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-    '.md': 'text/markdown',
-    '.markdown': 'text/markdown',
-    '.ods': 'application/vnd.oasis.opendocument.spreadsheet',
-    '.odp': 'application/vnd.oasis.opendocument.presentation',
-    '.odt': 'application/vnd.oasis.opendocument.text',
-    '.pdf': 'application/pdf',
-    '.ppt': 'application/vnd.ms-powerpoint',
-    '.pptx': 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
-    '.rst': 'text/plain',
-    '.rtf': 'application/rtf',
-    '.tsv': 'text/tab-separated-values',
-    '.txt': 'text/plain',
-    '.xls': 'application/vnd.ms-excel',
-    '.xlsx': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-  };
-  return mimeTypes[extension] || null;
-}
-
-function isYoutubeUrl(url) {
-  return Boolean(url && /(?:youtube\.com|youtu\.be)/i.test(url));
-}
-
-function matchNotebooksToCourses(notebooks, courses) {
-  return notebooks.map(notebook => {
-    const ranked = courses
-      .map(course => scoreNotebookCourseMatch(notebook, course))
-      .filter(match => match.confidence >= 0.55)
-      .sort((a, b) => b.confidence - a.confidence);
-
-    return ranked[0] || {
-      notebook,
-      course: null,
-      confidence: 0,
-      reasons: []
-    };
-  });
-}
-
 function enrichNotebooksWithMetadata(notebooks) {
   return notebooks.map(notebook => {
     try {
@@ -814,191 +614,6 @@ function enrichNotebooksWithMetadata(notebooks) {
       return { ...notebook, sources: [], metadata_error: err.message };
     }
   });
-}
-
-function scoreNotebookCourseMatch(notebook, course) {
-  const title = normalizeMatchText(notebook.title);
-  const courseTitle = normalizeMatchText(course.title);
-  const courseCode = getCourseCode(course.course_id);
-  const codeVariants = getCourseCodeVariants(courseCode);
-  const sourceText = normalizeMatchText((notebook.sources || []).map(source => source.title).join(' '));
-  const sourceCodeVariants = getSourceCodeVariants(courseCode);
-  let confidence = 0;
-  const reasons = [];
-
-  for (const variant of codeVariants) {
-    if (variant && title.includes(normalizeMatchText(variant))) {
-      confidence += 0.65;
-      reasons.push(`code:${variant}`);
-      break;
-    }
-  }
-
-  for (const variant of sourceCodeVariants) {
-    if (variant && hasNormalizedSourceCode(sourceText, variant)) {
-      confidence += 0.65;
-      reasons.push(`source-code:${variant}`);
-      break;
-    }
-  }
-
-  if (courseTitle && title.includes(courseTitle)) {
-    confidence += 0.45;
-    reasons.push('title:exact');
-  } else {
-    const overlap = wordOverlap(title, courseTitle);
-    if (overlap >= 0.8) {
-      confidence += 0.35;
-      reasons.push('title:strong');
-    } else if (overlap >= 0.55) {
-      confidence += 0.2;
-      reasons.push('title:partial');
-    }
-  }
-
-  if (title.includes('mit')) {
-    confidence += 0.05;
-    reasons.push('mit');
-  }
-
-  if (reasons.some(reason => reason.startsWith('source-code:')) &&
-      !reasons.some(reason => reason.startsWith('code:') || reason.startsWith('title:')) &&
-      (notebook.sources?.length || 0) < 2) {
-    confidence = Math.min(confidence, 0.5);
-    reasons.push('too-few-sources');
-  }
-
-  return {
-    notebook,
-    course,
-    confidence: Number(Math.min(confidence, 1).toFixed(2)),
-    reasons
-  };
-}
-
-function choosePrimaryMatches(matches) {
-  const byCourse = new Map();
-  for (const match of matches) {
-    const current = byCourse.get(match.course.course_id);
-    if (!current || compareMatch(match, current) < 0) {
-      byCourse.set(match.course.course_id, match);
-    }
-  }
-
-  return [...byCourse.values()].sort((a, b) => a.course.course_id.localeCompare(b.course.course_id));
-}
-
-function compareMatch(a, b) {
-  if (a.confidence !== b.confidence) return b.confidence - a.confidence;
-  const aHasCode = a.reasons.some(reason => reason.startsWith('code:'));
-  const bHasCode = b.reasons.some(reason => reason.startsWith('code:'));
-  if (aHasCode !== bHasCode) return aHasCode ? -1 : 1;
-  return String(a.notebook.created_at || '').localeCompare(String(b.notebook.created_at || ''));
-}
-
-function findDuplicateMatches(matches) {
-  const byCourse = new Map();
-  for (const match of matches.filter(item => item.course)) {
-    const id = match.course.course_id;
-    byCourse.set(id, [...(byCourse.get(id) || []), match]);
-  }
-
-  return [...byCourse.entries()]
-    .filter(([, courseMatches]) => courseMatches.length > 1)
-    .map(([courseId, courseMatches]) => ({
-      course_id: courseId,
-      matches: courseMatches.sort(compareMatch)
-    }));
-}
-
-function getCourseCode(courseId) {
-  const parts = String(courseId || '').split('-');
-  if (parts[0] === 'mas' && parts[1]) return `MAS.${parts[1].toUpperCase()}`;
-  if (parts[0] === 'res' && parts[1] && parts[2]) return `RES.${parts[1]}.${parts[2]}`;
-  if (/^\d+$/.test(parts[0]) && parts[1]) return `${parts[0]}.${parts[1].toUpperCase()}`;
-  return parts.slice(0, 2).join('-').toUpperCase();
-}
-
-function getCourseCodeVariants(code) {
-  if (!code) return [];
-  const variants = new Set([code, code.replace('.', '-'), code.replace('.', ' ')]);
-
-  if (/^\d+\.\d{4}$/.test(code)) {
-    variants.add(code.replace(/\.0+/, '.'));
-    variants.add(code.replace(/\.0+/, '-'));
-  }
-
-  return [...variants];
-}
-
-function getSourceCodeVariants(code) {
-  if (!code) return [];
-  const compact = code.replace('.', '_').replace('-', '_');
-  return [
-    `MIT${compact}`
-  ];
-}
-
-function hasNormalizedSourceCode(text, value) {
-  const normalizedValue = normalizeMatchText(value);
-  const escaped = normalizedValue.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  return new RegExp(`(^| )${escaped}[a-z0-9]*( |$)`).test(text);
-}
-
-function normalizeMatchText(value) {
-  return String(value || '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-function wordOverlap(a, b) {
-  const ignore = new Set(['mit', 'the', 'and', 'of', 'to', 'in', 'for', 'with', 'an', 'a']);
-  const wordsA = new Set(a.split(' ').filter(word => word && !ignore.has(word)));
-  const wordsB = b.split(' ').filter(word => word && !ignore.has(word));
-  if (wordsB.length === 0) return 0;
-  return wordsB.filter(word => wordsA.has(word)).length / wordsB.length;
-}
-
-function runNotebookLmJson(args) {
-  const result = spawnSync('notebooklm', args, {
-    cwd: WORKSPACE_ROOT,
-    encoding: 'utf8',
-    maxBuffer: 10 * 1024 * 1024
-  });
-
-  if (result.error) throw result.error;
-  if (result.status !== 0) {
-    throw new Error(`notebooklm ${args.join(' ')} fehlgeschlagen: ${result.stderr || result.stdout}`);
-  }
-
-  const output = result.stdout.trim();
-  if (!output) return {};
-
-  try {
-    return JSON.parse(output);
-  } catch {
-    throw new Error(`notebooklm ${args.join(' ')}: ungültige JSON-Ausgabe: ${output.slice(0, 200)}`);
-  }
-}
-
-function formatNotebookLmCommand(args) {
-  return ['notebooklm', ...args].map(shellQuote).join(' ');
-}
-
-function shellQuote(value) {
-  const text = String(value);
-  if (/^[A-Za-z0-9_@%+=:,./-]+$/.test(text)) return text;
-  return `'${text.replaceAll("'", "'\\''")}'`;
-}
-
-function extractNotebookId(result) {
-  return result.id || result.notebook_id || result.notebookId || result.notebook?.id;
-}
-
-function extractSourceId(result) {
-  return result.id || result.source_id || result.sourceId || result.source?.id;
 }
 
 function buildQa(course, materials, sources) {
