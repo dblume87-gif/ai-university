@@ -1,0 +1,1400 @@
+{
+  "generated_at": "2026-05-18T20:51:01.862Z",
+  "course": {
+    "course_id": "res-tll-008-social-and-ethical-responsibilities-of-computing-serc",
+    "title": "Social and Ethical Responsibilities of Computing (SERC)",
+    "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 114,
+    "unit_count": 1,
+    "assigned_sources": 1,
+    "unassigned_sources": 113
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 17.806 Problem Set 1 Questions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1626,
+          "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 17.806 Problem Set 1 Questions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mit_restll008_17-806_pset1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mit_restll008_17-806_pset12/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 1576,
+      "title": "**Who Collects the Data? A Tale of Three Maps**",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/tale-of-three-maps/release/1",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/who-collects-the-data-a-tale-of-three-maps_0220c1de-ae6e-4087-8e58-db6b374f10ee/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1577,
+      "title": "Datasheets for datasets (PDF - 2.1MB)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/pdf/1803.09010.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/datasheets-for-datasets-pdf-21mb_051ec71e-31b9-43ad-ab55-c580e0643b54/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1579,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.864 Assignment 2",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/0628251dc8fd54cfb9be078a314b367f_MITRES-TLL008F21-6864hw2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008f21-6864hw2-1/data.json",
+      "parent_title": "6.864 Quantitative Methods for Natural Language Processing ",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1580,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.864 Assignment 2 Task A",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/0ae39a79ffc5fe4b546f9fd4d37f7e36_MITRES-TLL008F21-6864taska.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008f21-6864taska/data.json",
+      "parent_title": "6.864 Quantitative Methods for Natural Language Processing ",
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 1581,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Assignment 3 Problem Statement",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/0b38b2eefc3ba405a6133100e261d912_MITRESTLL-008F21-6170hw3.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170hw3/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1583,
+      "title": "**AI’s Regimes of Representation: A Community-Centered Study of Text-to-Image Models in South Asia**",
+      "media_type": "external",
+      "material_type": "Readings",
+      "source_url": "https://mit-serc.pubpub.org/pub/bfw5tscj?readingCollection=65a1a268",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/ais-regimes-of-representation-a-community-centered-study-of-text-to-image-models-in-south0db7c5d8-0ca9-4c5e-bc41-0d8a26f534c1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1585,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Assignment 2 Rubric",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/1086809c29d1cd01c6bf554d4954a804_MITRESTLL-008F21-6170hw2rubric.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170hw2rubric/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1588,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), ALP Open Technologies",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/17714235e1c6424208f5db881ee8643e_RES-TLL008F21-ALP_Open_Technologies_Open_Communities.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/res-tll008f21-alp_open_technologies_open_communities-1/data.json",
+      "parent_title": "Ethical Computing and Practice",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1589,
+      "title": "RES.TLL-008 SERC Active Learning Project, 6.170 Prepatory Activity",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/18ba5d056822dfb7d3f63f7596d669b1_MITRESTLL-008F21-6170prep.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170prep-1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1590,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.031 Moral Lenses case study",
+      "media_type": "slides",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mit_restll008_6-031_moralslides.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mit_restll008_6-031_moralslides3/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 1592,
+      "title": "**Identity, Advertising, and Algorithmic Targeting: Or How (Not) to Target Your “Ideal User”**",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/identity-advertising-and-algorithmic-targeting/release/2",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/identity-advertising-and-algorithmic-targeting-or-how-not-to-target-your-ideal-user_1beca41d-f627-4d6c-9f18-accfb0753f3c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1593,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.390: Introduction to Machine Learning, Regression Lab",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mitres-tll008s23_6039_regression.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008s23_6039_regression/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Laboratory Assignments"
+      ]
+    },
+    {
+      "id": 1594,
+      "title": "**Emotional Attachment to AI Companions and European Law**",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/ai-companions-eu-law/",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/emotional-attachment-to-ai-companions-and-european-law_1dff6d44-813e-495b-8f35-cb0f9855be98/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1596,
+      "title": "Considered Design Card Submissions",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://docs.google.com/forms/d/e/1FAIpQLSducNnw7nUlcRqW_0sE8t5DfPcwzxt58WDfpsu2csm-Dtsqyg/viewform",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/considered-design-card-submissions_2180b2c5-b580-4c13-8ceb-05d06b31d047/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1597,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 User Test Template",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/23a3a891e6bafd1c513bfb3064f3a613_MITRESTLL-008F21-6170user.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170user-1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1598,
+      "title": "**The Dangers of Risk Prediction in the Criminal Justice System**",
+      "media_type": "external",
+      "material_type": "Readings",
+      "source_url": "https://mit-serc.pubpub.org/pub/risk-prediction-in-cj/release/2?readingCollection=40dca7f1",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/the-dangers-of-risk-prediction-in-the-criminal-justice-system_2496d5e5-b1bc-44a0-9237-24a114f160c8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1599,
+      "title": "Considered Design Cards (Printing and Assembly)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mitres_tll008_s25_cdc_print.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres_tll008_s25_cdc_print_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1600,
+      "title": "CC BY-NC-SA",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/cc-by-nc-sa_27cb4850-973e-4fca-9378-d4c89831aaa2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1601,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 A5 Rubric",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/28352a23f9fa2e0dfde44ea4de58c3d1_MITRESTLL-008F21-6170hw5rubric.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170hw5rubric/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1603,
+      "title": "**Public Debate on Facial Recognition Technologies in China**",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/public-debate-on-facial-recognition-technologies-in-china/release/1",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/public-debate-on-facial-recognition-technologies-in-china_2b55b431-4736-42bd-90a7-b684c4893105/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1604,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.864 Assignment 2 Part 1",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/2fe10577e85099da923766ef6a2677ae_MITRES-TLL008F21-6864pt1.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008f21-6864pt1/data.json",
+      "parent_title": "6.864 Quantitative Methods for Natural Language Processing ",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1605,
+      "title": "The Human Element in Machine Learning with Catherine D’Ignazio, Jacob Andreas & Harini Suresh transcript",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/MbzbbvTlL1Y_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mbzbbvtll1y_transcript/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1606,
+      "title": "The Human Element in Machine Learning with Catherine D’Ignazio, Jacob Andreas & Harini Suresh transcript",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=MbzbbvTlL1Y",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mbzbbvtll1y_transcript/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1607,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.864 Assignment 2 Task 2A",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/3a999f0c7f4ffc4de5e2a39cfdc3fff4_MITRES-TLL008F21-6864pt2a.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008f21-6864pt2a/data.json",
+      "parent_title": "6.864 Quantitative Methods for Natural Language Processing ",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1608,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 17.64 The Road to Crisis",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mitres_tll008_17-64_crisis2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres_tll008_17-64_crisis2/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 1609,
+      "title": "What Gets Counted Counts",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/what-gets-counted-counts_3eb06e71-5749-4aaa-be45-717c007bad5e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1612,
+      "title": "**Integrals and Integrity: Generative AI Tries to Learn Cosmology**",
+      "media_type": "external",
+      "material_type": "Readings",
+      "source_url": "https://mit-serc.pubpub.org/pub/o07xymoa?readingCollection=65a1a268",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/integrals-and-integrity-generative-ai-tries-to-learn-cosmology_4182874e-e405-4a82-a5b8-bf47c30d5223/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1613,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Usability & Heuristics",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/4308c7d65b1cf23f45f07d8bb492a2a6_MITRESTLL-008F21-6170usability-heuristics.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170usability-heuristics/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1614,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Deployment Guide",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/49e25498977ab345cd6a217613190fec_MITRESTLL-008F21-6170deployment.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170deployment-1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1615,
+      "title": "**Privacy and Paternalism: The Ethics of Student Data Collection**",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/privacy-and-paternalism/",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/privacy-and-paternalism-the-ethics-of-student-data-collection_4c022354-f9b8-4f59-8cc3-bab06fb0c51c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1616,
+      "title": "A.I. is Learning From Humans. Many Humans",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.nytimes.com/2019/08/16/technology/ai-humans.html",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/ai-is-learning-from-humans-many-humans_4eeb4391-3e32-410f-a84b-697dc4df2b0f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1617,
+      "title": "**Who Collects the Data? A Tale of Three Maps**",
+      "media_type": "external",
+      "material_type": "Readings",
+      "source_url": "https://mit-serc.pubpub.org/pub/bias-in-machine/release/1?readingCollection=40dca7f1",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/who-collects-the-data-a-tale-of-three-maps_52a00efd-a485-442f-84f5-41f3793f400c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1618,
+      "title": "Jack Maple: Betting on Intelligence: Former NYPD Map Master Puts His Money Where His Crimes Stats Are",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.govtech.com/magazines/gt/Jack-Maple-Betting-on-Intelligence.html",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/jack-maple-betting-on-intelligence-former-nypd-map-master-puts-his-money-where-his-crimes53fd63fb-f097-47be-b788-fd87e1dbb215/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1619,
+      "title": "**The Cloud Is Material: On the Environmental Impacts of Computation and Data Storage**",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/the-cloud-is-material/release/1",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/the-cloud-is-material-on-the-environmental-impacts-of-computation-and-data-storage_59420a2d-ee3c-4be7-ac01-60dbe1f62b09/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1620,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Heuristic Evaluation Template",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/59fd2afdceea9458d968584f28f42dd2_MITRES-TLL-008F21-6170Heuristic.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll-008f21-6170heuristic-1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1621,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.036 Lab 5.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/5ae324ceb0dffba0c6637b0c378c3e0e_RES-TLL008F21-6036_lab5.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/res-tll008f21-6036_lab5/data.json",
+      "parent_title": "6.036 Introduction to Machine Learning",
+      "learning_resource_types": [
+        "Laboratory Assignments"
+      ]
+    },
+    {
+      "id": 1622,
+      "title": "**The Puzzle of the Missing Robots**",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/puzzle-of-missing-robots/release/1",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/the-puzzle-of-the-missing-robots_5bcf7f5f-68a4-463a-bd85-518e57dc0740/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1624,
+      "title": "**From Mining to E-waste: The Environmental and Climate Justice Implications of the Electronics Hardware Life Cycle**",
+      "media_type": "external",
+      "material_type": "Readings",
+      "source_url": "https://mit-serc.pubpub.org/pub/w9ht6hue?readingCollection=ca73f7c0",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/from-mining-to-e-waste-the-environmental-and-climate-justice-implications-of-the-electron5cf14649-13f4-45e3-a26e-12ee8fce1a93/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1625,
+      "title": "These Companies Claim to Provide 'Fair-Trade' Data Work. Do They?",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.technologyreview.com/2019/08/07/133845/cloudfactory-ddd-samasource-imerit-impact-sourcing-companies-for-data-annotation/",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/these-companies-claim-to-provide-fair-trade-data-work-do-they_5ecf03d1-ff68-4347-8ed3-4bba1b101218/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1628,
+      "title": "Assignment Part 0",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/62162d4f97741c381b492697930242ed_MITRES-TLL008F21_6864pt0.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008f21_6864pt0/data.json",
+      "parent_title": "6.864 Quantitative Methods for Natural Language Processing ",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1629,
+      "title": "**Algorithmic Fairness in Chest X-ray Diagnosis: A Case Study**",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/algorithmic-chest/",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/algorithmic-fairness-in-chest-x-ray-diagnosis-a-case-study_65eeb2ad-d78a-4fc9-9dcc-1bf1f5beeedd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1630,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 A4 Rubric",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/6763ccc3acfcc7ce62eb82ac44ed9a45_MITRESTLL-008F21-6170hw4rubric.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170hw4rubric/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1632,
+      "title": "https://doi.org/10.21428/2c646de5.929a7db6",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.21428/2c646de5.929a7db6",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/httpsdoiorg10214282c646de5929a7db6_6837d152-f08d-4ba4-b8f1-416fda7cd36b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1634,
+      "title": "The Human Element in Machine Learning w Catherine D’Ignazio, Jacob Andreas & Harini Suresh",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=MbzbbvTlL1Y",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/the-human-element-in-machine-learning-w-catherine-dignazio-jacob-andreas-harini-suresh/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 1635,
+      "title": "The Human Element in Machine Learning w Catherine D’Ignazio, Jacob Andreas & Harini Suresh",
+      "media_type": "video",
+      "material_type": "Lecture Videos",
+      "source_url": "https://archive.org/download/chalk-radio/S03E05_Dignazio_Andreas_Suresh_360p.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/the-human-element-in-machine-learning-w-catherine-dignazio-jacob-andreas-harini-suresh/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 1637,
+      "title": "The Human Element in Machine Learning w Catherine D’Ignazio, Jacob Andreas & Harini Suresh (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/MbzbbvTlL1Y_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/the-human-element-in-machine-learning-w-catherine-dignazio-jacob-andreas-harini-suresh/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 1638,
+      "title": "**Complete Delete: In Practice, Clicking \"Delete\" Rarely Deletes. Should it?**",
+      "media_type": "external",
+      "material_type": "Readings",
+      "source_url": "https://mit-serc.pubpub.org/pub/fesqymtr?readingCollection=ca73f7c0",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/complete-delete-in-practice-clicking-delete-rarely-deletes-should-it_6cc13b5d-65a5-4f4e-be6a-cf1d0a5816f6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1640,
+      "title": "**To Search and Protect? Content Moderation and Platform Governance of Explicit Image Material**",
+      "media_type": "external",
+      "material_type": "Readings",
+      "source_url": "https://mit-serc.pubpub.org/pub/701yvdbh?readingCollection=e057132a",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/to-search-and-protect-content-moderation-and-platform-governance-of-explicit-image-materi7564a9f8-e0c3-491f-b98d-548a34ea1c52/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1641,
+      "title": "Making Ethical Decisions in Software Design with Prof. Daniel Jackson & Serena Booth DELETE",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=8IOr7KejV_I",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/making-ethical-decisions-in-software-design-with-prof-daniel-jackson-serena-booth2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1643,
+      "title": "Making Ethical Decisions in Software Design with Prof. Daniel Jackson & Serena Booth DELETE (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/8IOr7KejV_I_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/making-ethical-decisions-in-software-design-with-prof-daniel-jackson-serena-booth2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1644,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.036 Lab 9.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/7a3c3be8168d0e427cc41f74a9e1e72a_RES-TLL008F21-6036_lab9.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/res-tll008f21-6036_lab9/data.json",
+      "parent_title": "6.036 Introduction to Machine Learning",
+      "learning_resource_types": [
+        "Laboratory Assignments"
+      ]
+    },
+    {
+      "id": 1645,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Social/Ethical Reflection Template",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/7b8f6d9f0db6fce8f37261b70ce2aef4_MITRESTLL-008F21-6170social.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170social-1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1647,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Design Reflection Template",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/830700273e1fa5930a7cca43e28c5cfd_MITRESTLL-008F21-6170designReflection.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170designreflection-1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1648,
+      "title": "Considered Design Cards (Viewing Version)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mitres_tll008_s25_cdc.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres_tll008_s25_cdc_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1649,
+      "title": "Considered Design Card Resources",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://docs.google.com/document/d/1WyzZcDHXlu4wjf3FBtC6VuYnFhmORDEbTzJ7SL1YA8w/edit?usp=sharing",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/considered-design-card-resources_84c31993-070b-43d8-af37-788aef2847a7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1650,
+      "title": "**The Right to Be an Exception to a Data-Driven Rule**",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/right-to-be-exception/",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/the-right-to-be-an-exception-to-a-data-driven-rule_857a6bf0-3e3d-4558-81e0-4ae4c9030436/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1651,
+      "title": "The Human Element in Machine Learning with Catherine D’Ignazio, Jacob Andreas & Harini Suresh captions",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/MbzbbvTlL1Y_captions.webvtt",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mbzbbvtll1y_captions/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1652,
+      "title": "The Human Element in Machine Learning with Catherine D’Ignazio, Jacob Andreas & Harini Suresh captions",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=MbzbbvTlL1Y",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mbzbbvtll1y_captions/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1653,
+      "title": "**Twitter Gamifies the Conversation**",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/twitter-conversation/",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/twitter-gamifies-the-conversation_88ec7f6a-0f47-42d7-84d1-4dcc535b43b3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1654,
+      "title": "Data and Its (Dis) Contents: A Survey of Dataset Development and Use in Machine Learning Sesearch",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2012.05345",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/data-and-its-dis-contents-a-survey-of-dataset-development-and-use-in-machine-learning-ses8941cce0-df9b-4775-86e2-ee3752403185/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1657,
+      "title": "Making Ethical Decisions in Software Design with Prof. Daniel Jackson & Serena Booth transcript",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/8IOr7KejV_I_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/8ior7kejv_i_transcript/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1658,
+      "title": "Making Ethical Decisions in Software Design with Prof. Daniel Jackson & Serena Booth transcript",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=8IOr7KejV_I",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/8ior7kejv_i_transcript/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1659,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Ethics Protocol Lecture",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/9a221dbe4d169781cb4cd9df4fced3e8_MITRESTLL-008F21-6170lec.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170lec-1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 1660,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.390: Introduction to Machine Learning, Markov Lab",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mitres-tll008s23_6390_markov.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008s23_6390_markov/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1661,
+      "title": "**Protections for Human Subjects in Research: Old Models, New Needs?**",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/protections-for-human-subjects/release/1",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/protections-for-human-subjects-in-research-old-models-new-needs_9babb769-dc99-4747-8834-a726817966de/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1662,
+      "title": "**Patenting Bias: Algorithmic Race and Ethnicity Classifications, Proprietary Rights, and Public Data**",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/patenting-bias/",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/patenting-bias-algorithmic-race-and-ethnicity-classifications-proprietary-rights-and-publ9bdeeadb-9034-4eab-bc75-25f4d59d8544/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1663,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Assignment 3 Rubric",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/9bf49e0a47e42aab4670863c60db9b1e_MITRESTLL-008F21-6170hw3rubric.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170hw3rubric-1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1664,
+      "title": "**\"Porsche Girl\": When a Dead Body Becomes a Meme**",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/porsche-girl/",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/porsche-girl-when-a-dead-body-becomes-a-meme_9c94ae84-a4d7-4a2f-8afc-f30b6b0aac59/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1665,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), STS.047 Quantifying People: A History of Social Science Lecture",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/9fd9e6dd436baf1b7d0be9ff0011d48c_RES-TLL-008F21-STS047.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/res-tll-008f21-sts047-1/data.json",
+      "parent_title": "Privacy and Surveillance",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 1666,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.036 Lab 1.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/a1509590b6e7e45cac07a269b11b3d75_RES-TLL008F21-6036_lab1.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/res-tll008f21-6036_lab1/data.json",
+      "parent_title": "6.036 Introduction to Machine Learning",
+      "learning_resource_types": [
+        "Laboratory Assignments"
+      ]
+    },
+    {
+      "id": 1667,
+      "title": "MIT Case Studies Series in Social and Ethical Responsibilities of Computing",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/mit-case-studies-series-in-social-and-ethical-responsibilities-of-computing_a3d638e6-468c-4ede-bbac-9bfd8d9a0af2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1668,
+      "title": "**The Case of the Nosy Neighbors**",
+      "media_type": "external",
+      "material_type": "Readings",
+      "source_url": "https://mit-serc.pubpub.org/pub/nosy-neighbors/release/2?readingCollection=40dca7f1",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/the-case-of-the-nosy-neighbors_a8c6a17f-8f8d-47a6-b5f4-91f5fc423d0c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1669,
+      "title": "**Algorithmic Redistricting and Black Representation in US Elections**",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/algorithmic-redistricting-in-us-elections/release/1",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/algorithmic-redistricting-and-black-representation-in-us-elections_a8d5fd52-c837-46ac-8aa6-e6071bcec3be/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1670,
+      "title": "The Human Element in Machine Learning with Catherine D’Ignazio, Jacob Andreas & Harini Suresh",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=MbzbbvTlL1Y",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/the-human-element-in-machine-learning-with-catherine-dignazio-jacob-andreas-harini-suresh/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 1671,
+      "title": "The Human Element in Machine Learning with Catherine D’Ignazio, Jacob Andreas & Harini Suresh",
+      "media_type": "video",
+      "material_type": "Lecture Videos",
+      "source_url": "https://archive.org/download/chalk-radio/S03E05_Dignazio_Andreas_Suresh_360p.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/the-human-element-in-machine-learning-with-catherine-dignazio-jacob-andreas-harini-suresh/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 1673,
+      "title": "The Human Element in Machine Learning with Catherine D’Ignazio, Jacob Andreas & Harini Suresh (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/MbzbbvTlL1Y_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/the-human-element-in-machine-learning-with-catherine-dignazio-jacob-andreas-harini-suresh/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 1675,
+      "title": "The Dangers of Risk Prediction in the Criminal Justice System",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.21428/2c646de5.f5896f9f",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/the-dangers-of-risk-prediction-in-the-criminal-justice-system_ad5321a6-de80-4f37-8f93-3aa0bf96cbd4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1676,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.390: Introduction to Machine Learning, Markov Lab",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mitres-tll008s23_6039_markov.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008s23_6039_markov/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Laboratory Assignments"
+      ]
+    },
+    {
+      "id": 1677,
+      "title": "RES.TLL-008 SERC Active Learning Project, 6.170 Final Project Prompts",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/b0ca29c3d7a572f65927be6d8c9bbea8_MITRESTLL-008F21-6170final.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170final-1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1679,
+      "title": "Making Ethical Decisions in Software Design with Prof. Daniel Jackson & Serena Booth",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=8IOr7KejV_I",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/making-ethical-decisions-in-software-design-with-prof-daniel-jackson-serena-booth/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 1680,
+      "title": "Making Ethical Decisions in Software Design with Prof. Daniel Jackson & Serena Booth",
+      "media_type": "video",
+      "material_type": "Lecture Videos",
+      "source_url": "https://archive.org/download/chalk-radio/S03E06_Daniel_and_Serena_360p.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/making-ethical-decisions-in-software-design-with-prof-daniel-jackson-serena-booth/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 1682,
+      "title": "Making Ethical Decisions in Software Design with Prof. Daniel Jackson & Serena Booth (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/restll-008-social-and-ethical-responsibilities-of-computing-serc/8IOr7KejV_I_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/making-ethical-decisions-in-software-design-with-prof-daniel-jackson-serena-booth/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 1688,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Ethical Implication Template",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/bb0c708e54b0c8fb55270fd206c7eb4b_MITRESTLL-008F21-6170ethical.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170ethical-1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1689,
+      "title": "**Differential Privacy and the 2020 US Census**",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/differential-privacy-2020-us-census/release/1",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/differential-privacy-and-the-2020-us-census_be75fd22-8ee8-4f49-adda-e6e5fcde9f43/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1691,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), STS.012/STS.008 Discussion",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/c3648494c6466995748fc5235ac4ed7f_MITRES-TLL008F21-STS-012module.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008f21-sts-012module/data.json",
+      "parent_title": "STS.012/STS.008 Science in Action: Technologies and Controversies in Everyday Life",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1694,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Assignment 1 Rubric",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/c57c15060babd692980c3aac05951ca7_MITRESTLL-008F21-6170hw1rubric.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170hw1rubric-1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1695,
+      "title": "**Pretrial Risk Assessment on the Ground: Algorithms, Judgments, Meaning, and Policy**",
+      "media_type": "external",
+      "material_type": "Readings",
+      "source_url": "https://mit-serc.pubpub.org/pub/czviu6qc?readingCollection=e057132a",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/pretrial-risk-assessment-on-the-ground-algorithms-judgments-meaning-and-policy_c6b750ee-486b-4ccd-bf43-648484b23d14/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1696,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.031 Moral Lenses",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mit_restll008_6-031_moral.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mit_restll008_6-031_moral/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 1697,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.864 Assignment 2 Part 2 Task B",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/c9b875e04f639263df6757c586d1f9bc_MITRES-TLL008F21-6864pt2b.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008f21-6864pt2b/data.json",
+      "parent_title": "6.864 Quantitative Methods for Natural Language Processing ",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1698,
+      "title": "MIT Schwarzman College of Computing",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://computing.mit.edu/",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/mit-schwarzman-college-of-computing_cc788e81-f598-4e21-a4e9-667f9995ba2d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1699,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.390: Introduction to Machine Learning, Regression Lab",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mitres-tll008s23_6390_regression.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008s23_6390_regression/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1700,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 17.64 Cyber Crisis Implementation Instructions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mitres_tll008_17_46_cybercrisis.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres_tll008_17_46_cybercrisis/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1701,
+      "title": "Making Ethical Decisions in Software Design with Prof. Daniel Jackson & Serena Booth captions",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/8IOr7KejV_I_captions.webvtt",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/8ior7kejv_i_captions/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1702,
+      "title": "Making Ethical Decisions in Software Design with Prof. Daniel Jackson & Serena Booth captions",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=8IOr7KejV_I",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/8ior7kejv_i_captions/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1704,
+      "title": "**Wrestling with Killer Robots: The Benefits and Challenges of Artificial Intelligence for National Security**",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/wrestling-with-killer-robots/release/2",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/wrestling-with-killer-robots-the-benefits-and-challenges-of-artificial-intelligence-for-nd380c14f-504d-46ef-9a0f-5ec1e9b76329/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1706,
+      "title": "**Hacking Technology, Hacking Communities: Codes of Conduct and Community Standards in Open Source**",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/hacking-technology-hacking-communities/release/2",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/hacking-technology-hacking-communities-codes-of-conduct-and-community-standards-in-open-sd669ff38-419f-42ac-a29d-6b3f87b06665/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1708,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Assignment 2 Problem Statement",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/dabdbfc7d8816a8a0120a5ecbf5dc248_MITRESTLL-008F21-6170hw2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170hw2/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1710,
+      "title": "Social and Ethical Responsibilities of Computing (SERC)",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://computing.mit.edu/cross-cutting/social-and-ethical-responsibilities-of-computing/",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/social-and-ethical-responsibilities-of-computing-serc_dd13741f-4ef0-4d7b-87ee-194df1baaf53/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1711,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 A1 Problem Statement",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/df8095731195cd061ac83eafcc55a881_MITRESTLL-008F21-6170hw1.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170hw1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1712,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Assignment 4 Problem Statement",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/e32b7e603fd52d38120ffd274c508106_MITRES-TLL-008F21-6170hw4.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll-008f21-6170hw4-1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1714,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), ALP ELO",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/e64ac4d29c8ca46c929a4f9414fb071b_RES-TLL008F21-ALP-ELO_Practice_Lab.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/res-tll008f21-alp-elo_practice_lab/data.json",
+      "parent_title": "STS.047 Quantifying People: A History of Social Science",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1715,
+      "title": "https://doi.org/10.21428/2c646de5.07bc6308",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.21428/2c646de5.07bc6308",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/httpsdoiorg10214282c646de507bc6308_e66ab237-14cf-4f75-a16a-8838b9adc29e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1716,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.036 Lab 2.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/e9a2abd7df63d1896e4c692c5b250f07_RES-TLL008F21-6036_lab2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/res-tll008f21-6036_lab2/data.json",
+      "parent_title": "6.036 Introduction to Machine Learning",
+      "learning_resource_types": [
+        "Laboratory Assignments"
+      ]
+    },
+    {
+      "id": 1717,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.170 Assignment 5 Problem Statement",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/ea6846833515a40991b2940e3742aca1_MITRESTLL-008F21-6170hw5.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170hw5/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1719,
+      "title": "**Understanding Potential Sources of Harm throughout the Machine Learning Life Cycle**",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mit-serc.pubpub.org/pub/potential-sources-of-harm-throughout-the-machine-learning-life-cycle/release/2",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/understanding-potential-sources-of-harm-throughout-the-machine-learning-life-cycle_ee41dd24-ea77-4870-a98c-60dfec0c0ec5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1720,
+      "title": "Investigating Differences in Crowdsourced News Credibility Assessment: Raters, Tasks, and Expert Criteria (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://assets.ctfassets.net/tlowcqj4pb76/3TXIYQf54lxMF8ylLqyPuE/ad0222fd424eac7d1764a404a68f9212/Investigating_Differences_in_Crowdsourced_News_Credibility_Assessment_Raters_Tasks_and_Expert_Criteria.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/investigating-differences-in-crowdsourced-news-credibility-assessment-raters-tasks-and-exeeaf75c7-40d1-490d-9fcc-b0444f1103c9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1723,
+      "title": "RES.TLL-008 SERC Active Learning Project, 6.170 Prep Quiz",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/f5cdb57313a23badc1902f77a8f3d6ac_MITRESTLL-008F21-6170quiz.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitrestll-008f21-6170quiz-1/data.json",
+      "parent_title": "6.170 Software Studio",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    },
+    {
+      "id": 1725,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.390: Introduction to Machine Learning, Reinforcement Learning Lab",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mitres-tll008s23_6390_reinforcement.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008s23_6390_reinforcement/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1726,
+      "title": "Abolish Big Data",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=wR5i6qXJH4o",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/abolish-big-data_fabac5f0-8997-4ac7-bf57-6dad5be1dd50/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1727,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.390: Introduction to Machine Learning, Reinforcement Learning Lab",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mitres-tll008s23_6039_reinforcement.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008s23_6039_reinforcement/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Laboratory Assignments"
+      ]
+    },
+    {
+      "id": 1728,
+      "title": "**How Interpretable Is “Interpretable” Machine Learning?**",
+      "media_type": "external",
+      "material_type": "Readings",
+      "source_url": "https://mit-serc.pubpub.org/pub/5kduhf9d?readingCollection=65a1a268",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/external-resources/how-interpretable-is-interpretable-machine-learning_fd66e45d-9c68-45ad-b632-ce5a81b2ab9b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1729,
+      "title": "Moral Lenses Case Study",
+      "media_type": "slides",
+      "material_type": "Editable Files",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/mit_restll008_6-031_moralslides2.pptx",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mit_restll008_6-031_moralslides2/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Editable Files"
+      ]
+    },
+    {
+      "id": 1730,
+      "title": "RES.TLL-008 Social and Ethical Responsibilities of Computing (SERC), 6.864 Assignment 2 Task B",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/fe3bb439ec067d10ce2e371510e8c59d_MITRES-TLL008F21-6864taskb.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-tll-008-social-and-ethical-responsibilities-of-computing-serc/resources/mitres-tll008f21-6864taskb/data.json",
+      "parent_title": "6.864 Quantitative Methods for Natural Language Processing ",
+      "learning_resource_types": [
+        "Multiple Assignment Types"
+      ]
+    }
+  ]
+}

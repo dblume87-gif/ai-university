@@ -1,0 +1,2810 @@
+{
+  "generated_at": "2026-05-18T20:51:01.768Z",
+  "course": {
+    "course_id": "18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023",
+    "title": "Matrix Calculus for Machine Learning and Beyond",
+    "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 201,
+    "unit_count": 14,
+    "assigned_sources": 79,
+    "unassigned_sources": 122
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": ", Part 1: Introduction to Matrix Calculus",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6330,
+          "title": "Lecture 1, Part 1: Introduction to Matrix Calculus",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6394,
+          "title": "Lecture 1 Part 2: Derivatives as Linear Operators",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture01-part2_2023jan18_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture01-part2_2023jan18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6395,
+          "title": "Lecture 1 Part 2: Derivatives as Linear Operators",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=5DUQ3-Y_gX4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture01-part2_2023jan18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6397,
+          "title": "Lecture 1 Part 2: Derivatives as Linear Operators (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/1VwFjcMbHFwFssQo1Zt-V79u0RTzYctzq_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture01-part2_2023jan18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6458,
+          "title": "Lecture 1 Part 1: Introduction and Motivation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture01_part1_2023jan18_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture01_part1_2023jan18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6459,
+          "title": "Lecture 1 Part 1: Introduction and Motivation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=0YqjeqLhDDE",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture01_part1_2023jan18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6461,
+          "title": "Lecture 1 Part 1: Introduction and Motivation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/1MUqxaVn3vCENDoyF7G9Dby6e1__MoKed_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture01_part1_2023jan18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6465,
+          "title": "Lecture 1, Part 2: Derivatives as Linear Operators",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6470,
+          "title": "Lecture 1 Part 1: Introduction",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6446,
+          "title": "Problem Set 1 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_pset1sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_pset1sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 6447,
+          "title": "Problem Set 1",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_pset1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_pset1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 11,
+      "source_types": {
+        "pdf": 7,
+        "youtube": 4
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": ", Part 2: Derivatives as Linear Operators",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6465,
+          "title": "Lecture 1, Part 2: Derivatives as Linear Operators",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 6370,
+          "title": "Lecture 2 Part 1: Derivatives in Higher Dimensions: Jacobians and Matrix Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture02-part1_2023jan20_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture02-part1_2023jan20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6371,
+          "title": "Lecture 2 Part 1: Derivatives in Higher Dimensions: Jacobians and Matrix Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=v8EIBpBEC6A",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture02-part1_2023jan20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6373,
+          "title": "Lecture 2 Part 1: Derivatives in Higher Dimensions: Jacobians and Matrix Functions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/1Oqqwvuk1erjzkpYPF-Xvh94Jw2Xz1fQC_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture02-part1_2023jan20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6385,
+          "title": "Vector and Matrix Differentiation (PDF)",
+          "media_type": "pdf",
+          "material_type": "Other",
+          "source_url": "https://cdn-uploads.piazza.com/paste/j779e63owl53k6/04b2cb8c2f300212d723bea822a6b856085b28e28ca9debc75a05761a436499c/6.S087_Lecture_2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/vector-and-matrix-differentiation-pdf_89be5c39-9a2d-484d-b83a-09dbc2903c6c/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 6401,
+          "title": "Lecture 2, Part 2: Jacobians of Matrix Functions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec03_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6424,
+          "title": "Lecture 2 Part 2: Vectorization of Matrix Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture02-part2_2023jan20_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture02-part2_2023jan20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6425,
+          "title": "Lecture 2 Part 2: Vectorization of Matrix Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=DH118YqIgow",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture02-part2_2023jan20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6427,
+          "title": "Lecture 2 Part 2: Vectorization of Matrix Functions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/1MaSD7wRIORqNUBKpMSHiFc05ZoQJdz0d_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture02-part2_2023jan20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6265,
+          "title": "Problem Set 2",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_pset2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_pset2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 6369,
+          "title": "Problem Set 2 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_pset2sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_pset2sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 11,
+      "source_types": {
+        "pdf": 7,
+        "youtube": 4
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": ", Part 2: Jacobians of Matrix Functions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6401,
+          "title": "Lecture 2, Part 2: Jacobians of Matrix Functions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec03_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 6282,
+          "title": "Lecture 3 Part 2: Finite-Difference Approximations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture03-part2_2023jan23_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture03-part2_2023jan23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6283,
+          "title": "Lecture 3 Part 2: Finite-Difference Approximations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=gtG62xaelPE",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture03-part2_2023jan23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6285,
+          "title": "Lecture 3 Part 2: Finite-Difference Approximations (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/1_XDieLWJP4p5DE7UXiXwBipmXi0ACNg8_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture03-part2_2023jan23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6351,
+          "title": "Lecture 3, Part 2: Finite-Difference Approximations",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6419,
+          "title": "Lecture 3 Part 1: Kronecker Products and Jacobians",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture03-part1_2023jan23_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture03-part1_2023jan23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6420,
+          "title": "Lecture 3 Part 1: Kronecker Products and Jacobians",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=BKo57m-uU1k",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture03-part1_2023jan23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6422,
+          "title": "Lecture 3 Part 1: Kronecker Products and Jacobians (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/1BZPcIy3JwKPgDcOSM-zp_293D_eKdPn3_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture03-part1_2023jan23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 8,
+      "source_types": {
+        "pdf": 4,
+        "youtube": 4
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": ", Part 2: Finite-Difference Approximations",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6351,
+          "title": "Lecture 3, Part 2: Finite-Difference Approximations",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 6312,
+          "title": "Lecture 4 Part 2: Nonlinear Root Finding, Optimization, and Adjoint Gradient Methods",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture04-part2_2023jan26_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture04-part2_2023jan26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6313,
+          "title": "Lecture 4 Part 2: Nonlinear Root Finding, Optimization, and Adjoint Gradient Methods",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=lBfqvBJaFmc",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture04-part2_2023jan26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6315,
+          "title": "Lecture 4 Part 2: Nonlinear Root Finding, Optimization, and Adjoint Gradient Methods (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/1A065H99Yhsv0hU1C-wFftrck9xfhs31f_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture04-part2_2023jan26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6356,
+          "title": "Lecture 4, Part 2: Nonlinear Root-Finding, Optimization, and Adjoint Differentiation",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6365,
+          "title": "Lecture 4, Part 1: Derivatives in General Vector Spaces",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec05_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6484,
+          "title": "Lecture 4 Part 1: Gradients and Inner Products in Other Vector Spaces",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture04-part1_2023jan26_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture04-part1_2023jan26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6485,
+          "title": "Lecture 4 Part 1: Gradients and Inner Products in Other Vector Spaces",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=qWYtrT4TeIs",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture04-part1_2023jan26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6487,
+          "title": "Lecture 4 Part 1: Gradients and Inner Products in Other Vector Spaces (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/1m8U5Q3yI56uAUfpAwETeNaNlKVOJM8qp_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture04-part1_2023jan26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6489,
+          "title": "Lecture 4 Part 2: Nonlinear Root-Finding, Optimization, and Adjoint-Method Differentiation",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 10,
+      "source_types": {
+        "pdf": 6,
+        "youtube": 4
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": ", Part 1: Derivatives in General Vector Spaces",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6365,
+          "title": "Lecture 4, Part 1: Derivatives in General Vector Spaces",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec05_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 6267,
+          "title": "Lecture 5, Part 1: Derivative of Matrix Determinant and Inverse",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec07_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6275,
+          "title": "Lecture 5 Part 1: Derivative of Matrix Determinant and Inverse",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture05-part1-new_2023jan27_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture05-part1-new_2023jan27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6276,
+          "title": "Lecture 5 Part 1: Derivative of Matrix Determinant and Inverse",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=66Hc7vnDQ8o",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture05-part1-new_2023jan27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6278,
+          "title": "Lecture 5 Part 1: Derivative of Matrix Determinant and Inverse (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture05-part1-new_2023jan27_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture05-part1-new_2023jan27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6352,
+          "title": "Lecture 5 Part 3: Differentiation on Computational Graphs",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture05-part3-new_2023jan27_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture05-part3-new_2023jan27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6353,
+          "title": "Lecture 5 Part 3: Differentiation on Computational Graphs",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=r9_5dxtDTOk",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture05-part3-new_2023jan27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6355,
+          "title": "Lecture 5 Part 3: Differentiation on Computational Graphs (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture05-part3-new_2023jan27_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture05-part3-new_2023jan27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6376,
+          "title": "Lecture 5 Part 2: Forward Automatic Differentiation via Dual Numbers",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture05-part2-new_2023jan27_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture05-part2-new_2023jan27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6377,
+          "title": "Lecture 5 Part 2: Forward Automatic Differentiation via Dual Numbers",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=5F6roh4pmJU",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture05-part2-new_2023jan27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6379,
+          "title": "Lecture 5 Part 2: Forward Automatic Differentiation via Dual Numbers (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture05-part2-new_2023jan27_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture05-part2-new_2023jan27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6400,
+          "title": "Lecture 5 Part 2 transcript",
+          "media_type": "pdf",
+          "material_type": "Other",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture05-part2-new_2023jan27_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture05-part2-new_2023jan27_transcript_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6452,
+          "title": "Lecture 5 Part 1 transcript",
+          "media_type": "pdf",
+          "material_type": "Other",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture05-part1-new_2023jan27_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture05-part1-new_2023jan27_transcript_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6474,
+          "title": "Lecture 5, Part 3: Forward and Reverse-Mode Automatic Differentiation",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6492,
+          "title": "Lecture 5 Part 3 transcript",
+          "media_type": "pdf",
+          "material_type": "Other",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture05-part3-new_2023jan27_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture05-part3-new_2023jan27_transcript_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 15,
+      "source_types": {
+        "pdf": 9,
+        "youtube": 6
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": ", Part 2: Nonlinear Root-Finding, Optimization, and Adjoint Differentiation",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6356,
+          "title": "Lecture 4, Part 2: Nonlinear Root-Finding, Optimization, and Adjoint Differentiation",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 6290,
+          "title": "Lecture 6 Part 1: An Introduction to (Local) Sensitivity Analysis for (Ordinary) Differential Equations",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec6.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec6_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6294,
+          "title": "Lecture 6, Part 1a: Differentiating ODE solutions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec09_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6328,
+          "title": "Lecture 6, Part 1b: Calculus of Variations",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6343,
+          "title": "Lecture 6 Part 1: Adjoint Differentiation of ODE Solutions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture06-part1_2023jan30_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture06-part1_2023jan30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6344,
+          "title": "Lecture 6 Part 1: Adjoint Differentiation of ODE Solutions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=cvBHoCAUkD4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture06-part1_2023jan30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6346,
+          "title": "Lecture 6 Part 1: Adjoint Differentiation of ODE Solutions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/1htxMS__1IWJEd7adujbPgMCJIUkYUS3Q_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture06-part1_2023jan30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6440,
+          "title": "Lecture 6 Part 2: Calculus of Variations and Gradients of Functionals",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture06-part2_2023jan30_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture06-part2_2023jan30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6441,
+          "title": "Lecture 6 Part 2: Calculus of Variations and Gradients of Functionals",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=tTUT7YuSMoc",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture06-part2_2023jan30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6443,
+          "title": "Lecture 6 Part 2: Calculus of Variations and Gradients of Functionals (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/1N_XGswpraIiuxsUUuS3yx1Pt82iTV0Nm_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture06-part2_2023jan30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 10,
+      "source_types": {
+        "pdf": 6,
+        "youtube": 4
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": ", Part 1: Derivative of Matrix Determinant and Inverse",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6267,
+          "title": "Lecture 5, Part 1: Derivative of Matrix Determinant and Inverse",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec07_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 6302,
+          "title": "Lecture 7 Part 1: Derivatives of Random Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture07-part1_2023feb01_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture07-part1_2023feb01_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6303,
+          "title": "Lecture 7 Part 1: Derivatives of Random Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=feU1kISxPDM",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture07-part1_2023feb01_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6305,
+          "title": "Lecture 7 Part 1: Derivatives of Random Functions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/19_-b47PnGFbw50sEzpqpqBycmlTgPmpf_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture07-part1_2023feb01_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6361,
+          "title": "Lecture 7, Part 2: Second Derivatives, Bilinear Maps, and Hessian Matrices",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec12_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6438,
+          "title": "Lecture 7 Part 1: Derivatives of Random Functions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec7_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6450,
+          "title": "Optimization (PDF)",
+          "media_type": "slides",
+          "material_type": "Lecture Slides",
+          "source_url": "https://www.cs.toronto.edu/~rgrosse/courses/csc421_2019/slides/lec07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/optimization-pdf_d071ac9c-5adb-4a3e-b107-b718718763bb/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6477,
+          "title": "Lecture 7 Part 2: Second Derivatives, Bilinear Forms, and Hessian Matrices",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture07-part2_2023feb01_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture07-part2_2023feb01_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6478,
+          "title": "Lecture 7 Part 2: Second Derivatives, Bilinear Forms, and Hessian Matrices",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=PkpRIStmfrE",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture07-part2_2023feb01_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6480,
+          "title": "Lecture 7 Part 2: Second Derivatives, Bilinear Forms, and Hessian Matrices (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/19fn4Quy6Akz0fP5-RDIHQp0dqMAl8mrH_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture07-part2_2023feb01_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6498,
+          "title": "Lecture 7, Part 1: Derivatives of Random Functions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec11_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 11,
+      "source_types": {
+        "pdf": 6,
+        "youtube": 4,
+        "slides": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": ", Part 3: Forward and Reverse-Mode Automatic Differentiation",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6474,
+          "title": "Lecture 5, Part 3: Forward and Reverse-Mode Automatic Differentiation",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 6405,
+          "title": "Lecture 8 Part 1: Derivatives of Eigenproblems",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture08-part1_2023feb03_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture08-part1_2023feb03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6406,
+          "title": "Lecture 8 Part 1: Derivatives of Eigenproblems",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=v6w8hVZPt0o",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture08-part1_2023feb03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6408,
+          "title": "Lecture 8 Part 1: Derivatives of Eigenproblems (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/18LJMhScijuU1N2nd5TsidHiGolkmnHpA_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture08-part1_2023feb03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6412,
+          "title": "Lecture 8 Part 2: Automatic Differentiation on Computational Graphs",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture08-part2_2023feb03_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture08-part2_2023feb03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6413,
+          "title": "Lecture 8 Part 2: Automatic Differentiation on Computational Graphs",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=43kl6wi1H6k",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture08-part2_2023feb03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6415,
+          "title": "Lecture 8 Part 2: Automatic Differentiation on Computational Graphs (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/1BCmBU7TvgZ_F7ShXozkGA0p2m7MKzpyW_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/ocw_18s096_lecture08-part2_2023feb03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6434,
+          "title": "Lecture 8, Part 1: Derivatives of Eigenproblems",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec13.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec13_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6482,
+          "title": "Lecture 8, Part 3: Where We Go From Here",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec14.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec14_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 9,
+      "source_types": {
+        "pdf": 5,
+        "youtube": 4
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": ", Part 1a: Differentiating ODE solutions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6294,
+          "title": "Lecture 6, Part 1a: Differentiating ODE solutions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec09_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": ", Part 1b: Calculus of Variations",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6328,
+          "title": "Lecture 6, Part 1b: Calculus of Variations",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": ", Part 1: Derivatives of Random Functions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6498,
+          "title": "Lecture 7, Part 1: Derivatives of Random Functions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec11_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 6263,
+          "title": "Differentiable Programming and Neural Differential Equations",
+          "media_type": "html",
+          "material_type": "Other",
+          "source_url": "https://rawcdn.githack.com/mitmath/18337/7b0e890e1211bfa253782f7862389aeaa321e8d7/lecture11/adjoints.html",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/differentiable-programming-and-neural-differential-equations_01602600-e39b-4377-96a0-ca90ef8ddd4d/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 1,
+        "html": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": ", Part 2: Second Derivatives, Bilinear Maps, and Hessian Matrices",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6361,
+          "title": "Lecture 7, Part 2: Second Derivatives, Bilinear Maps, and Hessian Matrices",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec12_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": ", Part 1: Derivatives of Eigenproblems",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6434,
+          "title": "Lecture 8, Part 1: Derivatives of Eigenproblems",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec13.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec13_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": ", Part 3: Where We Go From Here",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6482,
+          "title": "Lecture 8, Part 3: Where We Go From Here",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec14.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec14_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 6262,
+      "title": "(Men et al. 2014)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://doi.org/10.1364/OE.22.022632",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/men-et-al-2014_0066f15a-391b-438c-925e-8fefce1192d5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6264,
+      "title": "Nesterov (2005)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.1007/s10107-005-0633-0",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/nesterov-2005_020a6a9f-3004-4083-a86c-71c61c6aae92/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6266,
+      "title": "Vectorization",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Vectorization_%28mathematics%29",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/vectorization_03d3b7fa-5b26-45bf-8c50-0ba9c1231745/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6268,
+      "title": "Frobenius inner product",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Frobenius_inner_product",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/frobenius-inner-product_0c8f39da-05db-4755-aed2-8f6e117703fa/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6269,
+      "title": "nonlinear eigenvalues",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Nonlinear_eigenproblem",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/nonlinear-eigenvalues_0cd77131-a938-40aa-a578-14475eb1db2b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6270,
+      "title": "Big *O* notation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Big_O_notation",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/big-o-notation_0d765115-d1e0-412b-af15-7b309231f8df/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6271,
+      "title": "Math & Computation conference",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://math.mit.edu/events/ase60celebration/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/math-computation-conference_0ffcfb57-4d3b-46f0-942c-adf5ed0d4e24/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6272,
+      "title": "tangent spaces",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Tangent_space",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/tangent-spaces_1133e690-5c41-4984-bcce-4214c7b856e4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6273,
+      "title": "Adjoint State Method for an ODE",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=k6s2G5MZv-I",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/adjoint-state-method-for-an-ode_11b6c278-c848-414e-8ba0-424492d09b1e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6274,
+      "title": "Course Notes on Computational Graphs, and Backpropagation (PDF)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "http://www.cs.columbia.edu/~mcollins/ff2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/course-notes-on-computational-graphs-and-backpropagation-pdf_127fdb29-6ce7-4a75-b8be-c5b24ce0570c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6279,
+      "title": "Monte-Carlo Gradient Estimation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/1906.10652",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/monte-carlo-gradient-estimation_164f9751-78eb-40c6-b8b2-86a724ea6023/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6280,
+      "title": "properties of the matrix trace",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Trace_%28linear_algebra%29#Properties",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/properties-of-the-matrix-trace_165106f1-ece7-4630-976a-aed80247a249/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6281,
+      "title": "*Convex Optimization*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/convex-optimization_1834070c-503f-4080-918d-b24e0394fce0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6286,
+      "title": "exterior derivative",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Exterior_derivative",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/exterior-derivative_18c1ac18-4115-4c89-8fe1-ab8d58fa247c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6287,
+      "title": "floating-point arithmetic",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Floating-point_arithmetic",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/floating-point-arithmetic_18df6d5a-338c-4deb-81f5-0bac3a71f71b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6288,
+      "title": "Stack Exchange answer",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://stats.stackexchange.com/a/226136",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/stack-exchange-answer_18e3015a-ef02-4e41-b3e7-2ccc4bc28981/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6289,
+      "title": "Auto-Encoding Variational Bayes",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/1312.6114",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/auto-encoding-variational-bayes_19a3817a-18aa-42ef-96c8-b0b3090f5b4b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6291,
+      "title": "DifferentialEquations.jl software suite",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://diffeq.sciml.ai/stable/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/differentialequationsjl-software-suite_1b40a98e-c8ae-4182-9b4f-1f79d404ca1c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6292,
+      "title": "The Complex Gradient Operator and the CR-Calculus",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/0906.4835",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/the-complex-gradient-operator-and-the-cr-calculus_1d15f762-01e3-40f1-90a6-66a21eb80fd8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6293,
+      "title": "Bilinear forms",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Bilinear_form",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/bilinear-forms_1f100f43-45a1-44de-83a7-65d377ef11cf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6295,
+      "title": "Two by Two Matrix Jacobians (HTML)",
+      "media_type": "html",
+      "material_type": "Lecture Notes",
+      "source_url": "https://rawcdn.githack.com/mitmath/matrixcalc/3f6758996e40c5c1070279f89f7f65e76e08003d/notes/2x2Jacobians.jl.html",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/two-by-two-matrix-jacobians-html_1fbeb362-72f6-480d-8d45-ab57f46e0eb1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6296,
+      "title": "Positive-definite",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Definite_matrix",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/positive-definite_203ca7e4-6f09-41b1-80a1-59115dc2dadd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6297,
+      "title": "automatic differentiation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Automatic_differentiation",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/automatic-differentiation_218fa5e0-05f1-436f-8505-98a0e872b60c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6298,
+      "title": "Forward-Mode Automatic Differentiation in Julia",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/1607.07892",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/forward-mode-automatic-differentiation-in-julia_21a0d952-30dd-416c-98a7-8f81dfc88d49/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6299,
+      "title": "Notes on Adjoint Methods (PDF)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/notes-on-adjoint-methods-pdf_2447c7ed-fbde-423a-bb31-caf7ec3f4544/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6301,
+      "title": "ill-conditioned",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://nhigham.com/2020/03/19/what-is-a-condition-number/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/ill-conditioned_258726ec-b73a-40af-a57b-ce14182ca694/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6306,
+      "title": "\"time-independent\" perturbation theory",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Perturbation_theory_%28quantum_mechanics%29#Time-independent_perturbation_theory",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/time-independent-perturbation-theory_2b7f47f0-afcb-45a6-aaf1-7375ed45aeb0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6307,
+      "title": "AD limitations",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://discourse.julialang.org/t/open-discussion-on-the-state-of-differentiable-physics-in-julia/72900/2",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/ad-limitations_32dca2bc-f57a-4bc6-9975-04eb3879cd6d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6308,
+      "title": "Hilbert space",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Hilbert_space",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/hilbert-space_33180c77-df1e-4061-b275-b2e9d371e019/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6309,
+      "title": "defective matrix",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Defective_matrix",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/defective-matrix_3a4720b5-7c26-44a1-bb43-0490a85d397e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6310,
+      "title": "Engineering Trade-Offs in Automatic Differentiation: from TensorFlow and PyTorch to Jax and Julia",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.stochasticlifestyle.com/engineering-trade-offs-in-automatic-differentiation-from-tensorflow-and-pytorch-to-jax-and-julia/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/engineering-trade-offs-in-automatic-differentiation-from-tensorflow-and-pytorch-to-jax-an3c411a4a-bc02-47ff-b3f7-b30b31e28b32/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6311,
+      "title": "derivative of log(det A)",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://statisticaloddsandends.wordpress.com/2018/05/24/derivative-of-log-det-x/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/derivative-of-logdet-a_3eb411dd-b798-4467-8589-fafc15f3fa6f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6316,
+      "title": "Cox (1995)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.1006/jfan.1995.1117",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/cox-1995_40fad61b-65eb-4cdd-b573-b0491d7e0098/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6319,
+      "title": "Richardson extrapolation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://github.com/JuliaDiff/FiniteDifferences.jl#richardson-extrapolation",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/richardson-extrapolation_479e1510-fbfe-4cb4-bbdc-daad5fd3dd92/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6320,
+      "title": "PDF",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.65.455&rep=rep1&type=pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/pdf_47e8bd17-4f47-4da0-b20e-263dcba9604f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6321,
+      "title": "degenerate perturbation theory (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/8-06-quantum-physics-iii-spring-2018/a0889c5ca8a479c3e56c544d646fb770_MIT8_06S18ch1.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/degenerate-perturbation-theory-pdf_47f8b256-9375-4c19-97fe-6829f47691cd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6322,
+      "title": "simple 2-variable version",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/optimizing-multivariable-functions/a/second-partial-derivative-test",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/simple-2-variable-version_48ae53b1-421c-4a5b-8b76-ff71d5141166/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6323,
+      "title": "adjugate",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Adjugate_matrix",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/adjugate_48c2e02c-5af1-4a66-8842-5e4a136c5dba/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6324,
+      "title": "calculus on computational graphs",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://colah.github.io/posts/2015-08-Backprop/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/calculus-on-computational-graphs_491eb2d5-22d3-4b48-b3be-33abc06207d5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6325,
+      "title": "Stack Exchange discussion",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://math.stackexchange.com/questions/2285282/relating-condition-number-of-hessian-to-the-rate-of-convergence",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/stack-exchange-discussion_49abe2e3-71d3-4605-80d6-8d562556264e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6326,
+      "title": "SDP",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Semidefinite_programming",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/sdp_4b2c64a4-d40d-47c3-b37e-489ac9891637/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6327,
+      "title": "arXiv.org",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2501.14787",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/arxivorg_4d553c64-fa56-416b-af1a-11a9428ccc10/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6329,
+      "title": "Quasi-Newton Optimization: Origin of the BFGS Update (PDF)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://github.com/mitmath/18335/blob/spring21/notes/BFGS.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/quasi-newton-optimization-origin-of-the-bfgs-update-pdf_52f9964b-5a82-4d0a-81dc-0f3b0751cce7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6331,
+      "title": "*18.01 Single Variable Calculus*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/1801-single-variable-calculus_54fb3d8f-10d8-493c-94d7-17d7859a8c87/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6332,
+      "title": "18.303 Notes on Finite Differences (PDF)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://github.com/mitmath/18303/blob/fall16/difference-approx.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/18303-notes-on-finite-differences-pdf_566b7642-ef92-4a68-b180-75a035e5bb81/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6334,
+      "title": "Stechlinski (2022)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.1016/j.laa.2022.04.019",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/stechlinski-2022_589575f2-23de-4956-9ccf-cb441f3a7e2b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6335,
+      "title": "implicit function",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Implicit_function",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/implicit-function_59f1a1d6-17a3-43c1-a1c6-a0b8ca824e16/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6336,
+      "title": "\"So You Think You Know How to Take Derivatives\" (YouTube)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=-l7JHalBubw",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/so-you-think-you-know-how-to-take-derivatives-youtube_5d152fec-f673-4f3b-9a59-a98b3edc5173/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6338,
+      "title": "Dr. Mohamed Tarek",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://github.com/mohamed82008",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/dr-mohamed-tarek_602f33fe-a0ce-4788-b683-ce922d29faa3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6339,
+      "title": "strong duality",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Strong_duality",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/strong-duality_6184bb4f-d34f-4407-af1c-0d8d4c419011/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6340,
+      "title": "finite difference",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Finite_difference",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/finite-difference_653290fb-b2c4-4eb2-aede-837a5063f607/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6341,
+      "title": "When Functions Have No Value(s): Delta Functions and Distributions (PDF)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://math.mit.edu/~stevenj/18.303/delta-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/when-functions-have-no-values-delta-functions-and-distributions-pdf_65db729e-8728-47e7-b9fe-7483e91cbbe4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6342,
+      "title": "Jacobian matrix",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/jacobian-matrix_660595ca-bc92-439b-a44b-7d4abbdb392b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6347,
+      "title": "Derivative of Matrix Determinant and Inverse (HTML)",
+      "media_type": "html",
+      "material_type": "Lecture Notes",
+      "source_url": "https://rawcdn.githack.com/mitmath/matrixcalc/b08435612045b17745707f03900e4e4187a6f489/notes/determinant_and_inverse.html",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/derivative-of-matrix-determinant-and-inverse-html_66ca215a-6d37-4514-b2a7-fa2fb3f5ca8d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6348,
+      "title": "Derivatives of Eigenproblems (HTML)",
+      "media_type": "html",
+      "material_type": "Lecture Notes",
+      "source_url": "https://rawcdn.githack.com/mitmath/matrixcalc/d11b747d70a5d9e1a3da8cdb68a7f8a220d3afae/notes/symeig.jl.html",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/derivatives-of-eigenproblems-html_66de3c3b-6ce1-463c-9a14-acf1a5ddc832/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6349,
+      "title": "matrixcalculus.org",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "http://www.matrixcalculus.org/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/matrixcalculusorg_6730a0bb-7fb7-4929-bbbc-991923c15c63/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6350,
+      "title": "Barton et al. (2017)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.1080/10556788.2017.1374385",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/barton-et-al-2017_6b9bbac4-5f9b-4b08-b76c-b2a39c8b9626/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6357,
+      "title": "*18.02 Multivariable Calculus*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/1802-multivariable-calculus_6fcb92d1-f2a8-467a-b462-14945ef4fca6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6358,
+      "title": "How to Differentiate with a Computer",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://www.ams.org/publicoutreach/feature-column/fc-2017-12",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/how-to-differentiate-with-a-computer_729035ca-45c7-456b-b43e-f9af4add0a67/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6359,
+      "title": "*Convex Optimization*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "http://web.stanford.edu/~boyd/cvxbook/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/convex-optimization_74f19e0a-880c-4700-b1af-e6cfec5c5c18/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6362,
+      "title": "Topology Optimization Approaches",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://link.springer.com/article/10.1007/s00158-013-0978-6",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/topology-optimization-approaches_77390d47-860e-4046-b3b7-389a6ec7b7f0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6363,
+      "title": "pullback",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Pullback_%28differential_geometry%29",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/pullback_7861ac45-7b5b-47eb-9fe9-26d3216620b0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6364,
+      "title": "Fréchet derivative",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Fr%C3%A9chet_derivative",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/fr%C3%A9chet-derivative_78a86a56-c2be-49e5-af53-39e626604e9f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6366,
+      "title": "more formal treatments (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "http://www.columbia.edu/~md3405/Unconstrained_Optimization.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/more-formal-treatments-pdf_7b35b146-3771-4223-877e-ffaa62d16de6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6367,
+      "title": "Euler–Lagrange equation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/eulerlagrange-equation_7ce0e380-0084-40dc-a2fe-693b686d20a2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6368,
+      "title": "pushforward",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Pushforward_%28differential%29",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/pushforward_7e1a1103-300e-4fc4-ab53-02e5f9f1283c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6374,
+      "title": "Hellmann–Feynmann theorem",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Hellmann%E2%80%93Feynman_theorem",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/hellmannfeynmann-theorem_8040ad2a-35b3-456e-b508-e78d90a6ed1e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6375,
+      "title": "Seyranian et al. (1994)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.1007/BF01742705",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/seyranian-et-al-1994_80b6407c-e1d9-41c2-b5ea-1e51a6b89ecd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6380,
+      "title": "IAP",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://elo.mit.edu/iap/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/iap_83c0426f-09bf-4f77-92d9-8ebfc4521046/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6383,
+      "title": "optimal control",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Optimal_control",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/optimal-control_856f5d86-6980-4a1f-9b62-c0cb4147c6c6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6384,
+      "title": "Lagrange multipliers",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Lagrange_multiplier",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/lagrange-multipliers_86a49d55-eb89-4f54-8781-42758ba67dc3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6386,
+      "title": "definite quadratic forms",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Definite_quadratic_form",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/definite-quadratic-forms_8b71e37f-8d3d-45c8-b2db-3dfcf19164d7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6387,
+      "title": "backpropagation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Backpropagation",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/backpropagation_8c607717-e1fb-4f10-af8a-50364e284d32/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6388,
+      "title": "Sequential Convex Programming (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://web.stanford.edu/class/ee364b/lectures/seq_notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/sequential-convex-programming-pdf_8db128b8-f1a4-4c7c-a064-9b9d56ca64ff/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6389,
+      "title": "Examples of Linear and Nonlinear Transformations of ℝ² via Images (try it online)",
+      "media_type": "external",
+      "material_type": "Exams",
+      "source_url": "https://github.com/mitmath/JuliaComputation/blob/Fall23/notebooks/1_hyperbolic_corgi.jl",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/examples-of-linear-and-nonlinear-transformations-of-r2-via-images-try-it-online_8e81a468-4f12-4990-a1c2-37c9ab7f045b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6390,
+      "title": "Backpropagation through Back Substitution with a Backslash (PDF)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://github.com/mitmath/matrixcalc/blob/main/notes/backprop_poster.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/backpropagation-through-back-substitution-with-a-backslash-pdf_8f10aee5-8143-4077-8883-0f4e44bf8edb/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6391,
+      "title": "Laplace expansion",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Laplace_expansion",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/laplace-expansion_909b7466-4e4d-4db5-b22e-87ce721c3d2b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6392,
+      "title": "quadratic form",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Quadratic_form",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/quadratic-form_9124c17f-7f20-4506-8942-4442dd0040a9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6393,
+      "title": "Dirac delta \"functions\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Dirac_delta_function",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/dirac-delta-functions_91c4f4fe-9587-470b-b5a1-e02b490d8e6b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6398,
+      "title": "overview of optimization problems (PDF)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://github.com/mitmath/18335/blob/spring21/notes/optimization.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/overview-of-optimization-problems-pdf_9201746a-274e-40fb-a07c-87c91ee317a6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6399,
+      "title": "Frobenius norm",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mathworld.wolfram.com/FrobeniusNorm.html",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/frobenius-norm_94d79947-29dd-4105-a4f3-306e30b9a559/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6402,
+      "title": "Hessian matrix",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Hessian_matrix",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/hessian-matrix_9af066af-b2bf-4f20-9202-614d2480973c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6403,
+      "title": "\"distributional\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Distributional_derivative",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/distributional_9ce6ff0a-42bc-457a-a747-dbc29f1f645b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6404,
+      "title": "Riesz representation theorem",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Riesz_representation_theorem",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/riesz-representation-theorem_9f30472c-a6f7-49bc-a282-32eb3a3eb28f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6410,
+      "title": "*Introduction to Derivative-Free Optimization*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "http://bookstore.siam.org/mp08/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/introduction-to-derivative-free-optimization_a6c7e7b3-92f8-4fb4-a1bf-6ba6d3c96a8c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6411,
+      "title": "\"calculus of variations\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/calculus-of-variations_a70bbf80-d1ea-4b1b-8a8f-3f40aa4d0a68/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6416,
+      "title": "Fourier frequency domain",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Frequency_domain",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/fourier-frequency-domain_a8df438f-7bce-409b-bab1-f432a064c805/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6417,
+      "title": "`jax.custom_vjp`",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://jax.readthedocs.io/en/latest/_autosummary/jax.custom_vjp.html",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/jaxcustom_vjp_a9e51adf-4cd2-4c86-855a-c0a8753a01c6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6418,
+      "title": "ChainRules package",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://github.com/JuliaDiff/ChainRules.jl/issues/117",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/chainrules-package_ab8bdda9-8a91-448b-aae6-dc1d1e7b0d59/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6428,
+      "title": "linear form",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Linear_form",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/linear-form_b226326e-9526-4b3b-bf90-8b9ba06e061e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6429,
+      "title": "Lagrangian mechanics",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Lagrangian_mechanics",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/lagrangian-mechanics_b28807b7-495b-4987-aaff-b49584d3d192/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6430,
+      "title": "Newton–Krylov methods",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Newton%E2%80%93Krylov_method",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/newtonkrylov-methods_b5274d14-1425-414f-9035-472a33af53cc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6431,
+      "title": "Full Lecture Notes: Matrix Calculus for Machine Learning and Beyond",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec_full.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/resources/mit18_s096iap23_lec_full_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6432,
+      "title": "Section 5.7 of Numerical Derivatives (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "http://www.it.uom.gr/teaching/linearalgebra/NumericalRecipiesInC/c5-7.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/section-57-of-numerical-derivatives-pdf_b780a8cd-c39b-4886-a22d-7bc82c3b366f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6433,
+      "title": "quadratic approximation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/quadratic-approximations/a/quadratic-approximation",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/quadratic-approximation_be4b5fd4-2dfb-46bb-9354-824179715bca/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6435,
+      "title": "interactive notebook (HTML)",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://simeonschaub.github.io/ReverseModePluto/notebook.html",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/interactive-notebook-html_c2147a79-eaa0-405d-9846-815950e52b97/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6436,
+      "title": "Kronecker products",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Kronecker_product",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/kronecker-products_c2aa5d14-dac1-4e1b-bdda-42d4afc354aa/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6437,
+      "title": "\"weak\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Weak_derivative",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/weak_c5cce052-ebd9-411b-8e47-dec5561d0017/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6445,
+      "title": "`jax.custom_jvp`",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://jax.readthedocs.io/en/latest/_autosummary/jax.custom_jvp.html",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/jaxcustom_jvp_ca334055-e678-4128-8230-53e59b21dc6d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6448,
+      "title": "Understanding Automatic Differentiation (in Julia) (YouTube)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=UqymrMG-Qi4",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/understanding-automatic-differentiation-in-julia-youtube_cc60b790-2dcd-4293-938b-b215b09d45dc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6449,
+      "title": "The Adjoint Method for Differentiating Complex Computations (PDF)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint-intro.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/the-adjoint-method-for-differentiating-complex-computations-pdf_cf631b7a-f939-405b-9594-92a2190d1b3c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6451,
+      "title": "linear operator",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Linear_map",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/linear-operator_d249a17e-8301-44d1-afa1-404d06a86d82/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6453,
+      "title": "symmetric bilinear forms",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Symmetric_bilinear_form",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/symmetric-bilinear-forms_d36c5b8e-96be-432c-819b-fcbc1aa7c0e4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6454,
+      "title": "catastrophic cancellation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Catastrophic_cancellation",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/catastrophic-cancellation_d4df8925-c7ca-4d2e-9e2c-d1d493a31c7d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6456,
+      "title": "*Calculus of Variations* by Gelfand and Fomin",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://store.doverpublications.com/0486414485.html",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/calculus-of-variations-by-gelfand-and-fomin_d6014707-d4f9-467f-99c7-6256461dfde6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6462,
+      "title": "steepest-ascent",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://math.stackexchange.com/questions/223252/why-is-gradient-the-direction-of-steepest-ascent",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/steepest-ascent_d6d506be-00b5-4d1b-85b5-be4269e51599/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6463,
+      "title": "dual number",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Dual_number",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/dual-number_d759d6b8-fea5-4d96-a939-ba216aab9c39/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6464,
+      "title": "StochasticAD.jl",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://gaurav-arya.github.io/StochasticAD.jl/dev/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/stochasticadjl_d7d669b3-53ee-44f7-8ed3-10563b6fd4c4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6466,
+      "title": "Automatic differentiation of programs with discrete randomness",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/2210.08572",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/automatic-differentiation-of-programs-with-discrete-randomness_d8bae17b-0816-4a72-9dfb-93acb610979c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6467,
+      "title": "Adjoint Sensitivity Analysis for Differential-Algebraic Equations: The Adjoint DAE System and Its Numerical Solution",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://epubs.siam.org/doi/10.1137/S1064827501380630",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/adjoint-sensitivity-analysis-for-differential-algebraic-equations-the-adjoint-dae-system-d9266814-25ee-43f7-82a9-aa4a182a894a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6469,
+      "title": "The frontier of simulation-based inference",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.pnas.org/doi/10.1073/pnas.1912789117",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/the-frontier-of-simulation-based-inference_da879c2d-1f2c-4b2f-9abe-8e6b594bc532/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6471,
+      "title": "*Nonlinear Programming*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "http://www.athenasc.com/nonlinbook.html",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/nonlinear-programming_dc0e6a87-7185-4764-a248-b6710b8c2b01/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6472,
+      "title": "SciMLSensitivity.jl package",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://docs.sciml.ai/SciMLSensitivity/stable/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/scimlsensitivityjl-package_dc8980c5-00d7-40fb-8c16-84344af7df93/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6473,
+      "title": "adjoint methods and sensitivity analysis for recurrence relations (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://math.mit.edu/~stevenj/18.336/recurrence2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/adjoint-methods-and-sensitivity-analysis-for-recurrence-relations-pdf_dd3e9d43-9f38-4652-bfa2-179d81aaab08/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6475,
+      "title": "ForwardDiff.jl",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://github.com/JuliaDiff/ForwardDiff.jl",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/forwarddiffjl_ddb355dc-72fc-4096-b2af-33d276bf624f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6476,
+      "title": "the ChainRules packages",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://github.com/JuliaDiff/ChainRulesCore.jl",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/the-chainrules-packages_de06eeb2-9c48-4f10-bddf-347c0640a895/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6481,
+      "title": "derivative of a determinant",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Jacobi%27s_formula",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/derivative-of-a-determinant_e4382175-e9c4-4975-951c-9f62a0a3c2d6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6483,
+      "title": "*18.06 Linear Algebra*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/1806-linear-algebra_ed0ab5e4-6bc3-4f78-915d-a7a346995938/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6488,
+      "title": "Brachistochrone problem",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Brachistochrone_curve",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/brachistochrone-problem_f1076395-6e6a-4773-8f3e-df0469d34059/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6491,
+      "title": "automatic Hessian computation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Hessian_automatic_differentiation",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/automatic-hessian-computation_f5dfbd32-b023-4740-b023-a70940ec085c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6493,
+      "title": "FiniteDifferences.jl",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://github.com/JuliaDiff/FiniteDifferences.jl",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/finitedifferencesjl_f913de77-151a-486f-92ef-cbda64836238/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6494,
+      "title": "*The Matrix Cookbook* (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/the-matrix-cookbook-pdf_fa1edb35-184a-410d-9d60-34488dbc72ee/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

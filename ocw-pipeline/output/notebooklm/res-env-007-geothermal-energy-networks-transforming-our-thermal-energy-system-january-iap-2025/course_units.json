@@ -1,0 +1,1791 @@
+{
+  "generated_at": "2026-05-18T20:51:01.857Z",
+  "course": {
+    "course_id": "res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025",
+    "title": "Geothermal Energy Networks: Transforming Our Thermal Energy System",
+    "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 132,
+    "unit_count": 8,
+    "assigned_sources": 23,
+    "unassigned_sources": 109
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Session 1-2: Carbon Reduction Pathways for Building Stocks (PDF)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1401,
+          "title": "Session 1-2: Carbon Reduction Pathways for Building Stocks (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec01_2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/carbon-reduction-pathways-for-building-stocks/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1407,
+          "title": "Session 1-3: Health Impacts of Methane (\"Natural\") Gas Systems",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec01_3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/health-impacts-of-methane-natural-gas-systems/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Session 2-1: An Ecological View of the Energy Transition (PDF)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1406,
+          "title": "Session 2-1: An Ecological View of the Energy Transition (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec02_1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec02_1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1428,
+          "title": "Session 2-2: How GENs Can Meet Environmental Justice Priorities (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec02_2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec02_2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1490,
+          "title": "Session 2-3: How GENs Arose out of Moms Organizing to Protect Their Children's Future (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec02_3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec02_3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Session 3-3: The (Geo) Thermal Energy Networks: U.S. Policy Landscape (PDF)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1397,
+          "title": "Session 3-3: The (Geo) Thermal Energy Networks: U.S. Policy Landscape (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec03_3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec03_3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1449,
+          "title": "Session 3-4: Potential Role for GENs in the Massachusetts Natural Gas Transition (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec03_4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec03_4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Session 4-2: Utility Perspective on Scaling GENs (PDF)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1417,
+          "title": "Session 4-2: Utility Perspective on Scaling GENs (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec04_2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec04_2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1483,
+          "title": "Session 4-4: Expanding GENs at a Global Scale (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec04_4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec04_4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1573,
+          "title": "Session 4-3: Business Models for Community Networked Geothermal Heating and Cooling (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec04_3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec04_3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1575,
+          "title": "Session 4-1: Networked Geothermal: The European Experience",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec04_1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec04_1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 4
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Session 5-3: Introduction to Design of GENs (PDF)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1468,
+          "title": "Session 5-3: Introduction to Design of GENs (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec05_3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec05_3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1494,
+          "title": "Session 5-2: Differences Between Geothermal Heat Pumps and GEN (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec05_2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec05_2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1530,
+          "title": "Session 5-1: Introduction to Geothermal Heat Pumps (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec05_1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec05_1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Session 6-4: Constructing and Commissioning of a GEN (PDF)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1395,
+          "title": "Session 6-4: Constructing and Commissioning of a GEN (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec06_4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec06_4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1431,
+          "title": "Session 6-3: Introduction to Drilling Geothermal Boreholes (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec06_3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec06_3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1440,
+          "title": "Session 6-2: Emerging Code & Standards for Ambient Temperature Loops (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec06_2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec06_2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Session 7-2: Learning from Geothermal Energy Networks (PDF)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1469,
+          "title": "Session 7-2: Learning from Geothermal Energy Networks (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec07_2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec07_2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1564,
+          "title": "Session 7-3: Techno-Economic Modeling of GENs with HEATNETS Model (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec07_3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec07_3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Session 8-3: Thermal Energy Network Evolution of the Penn South Community in Manhattan (PDF)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1433,
+          "title": "Session 8-3: Thermal Energy Network Evolution of the Penn South Community in Manhattan (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec08_3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec08_3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1450,
+          "title": "Session 8-2: Framingham, Massachusetts UTEN Pilot Project (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec08_2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec08_2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1484,
+          "title": "Session 8-1: ATL District Systems Overview (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec08_1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec08_1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1532,
+          "title": "Session 8-4: Introduction to the MIT Thermal Energy Networks (PDF)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec08_4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec08_4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 4
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 1396,
+      "title": "Connor Dacquay",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/connor-dacquay-19434797/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/connor-dacquay_066694f3-328b-43f5-9d6b-7f470731cc97/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1398,
+      "title": "Nick Fry",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/nicholas-a-fry/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/nick-fry_0fbb505a-3ba8-4a3c-8c71-7e2137381387/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1400,
+      "title": "Brock Yordy",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/brock-yordy-07081051/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/brock-yordy_15b6b55b-e17b-4b7b-9736-f49fe1583a26/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1402,
+      "title": "Session 7-3: Techno-Economic Modeling of GENs with HEATNETS Model",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-7-3_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-7-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1403,
+      "title": "Session 7-3: Techno-Economic Modeling of GENs with HEATNETS Model",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=NW7cfJwoFMk",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-7-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1405,
+      "title": "Session 7-3: Techno-Economic Modeling of GENs with HEATNETS Model (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/13t1TPZIIqnGiOXIfV66AeZUmwVV6KCD7_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-7-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1408,
+      "title": "Session 4-4: Expanding Geothermal Energy Networks at a Global Scale",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-4-4_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-4-4_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1409,
+      "title": "Session 4-4: Expanding Geothermal Energy Networks at a Global Scale",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=dzy6njXt0_M",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-4-4_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1411,
+      "title": "Session 4-4: Expanding Geothermal Energy Networks at a Global Scale (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/14D4nZK6oaw1ZNTsHlmat6tssqjDNG1Ti_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-4-4_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1412,
+      "title": "Session 3-1: Policy Case Study on the WARMTH Act",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-3-1_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-3-1_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1413,
+      "title": "Session 3-1: Policy Case Study on the WARMTH Act",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=hL2GwqBRJJA",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-3-1_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1415,
+      "title": "Session 3-1: Policy Case Study on the WARMTH Act (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1p8cBb-04gaiu_AmGIplGRJ04cP1KvnDU_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-3-1_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1416,
+      "title": "Jason Jay",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/jasonjay/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/jason-jay_23242e53-e2d2-45b7-8920-299cdc869842/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1418,
+      "title": "Session 5-2: Differences Between Geothermal Heat Pumps and GEN",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-5-2-v2_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-5-2-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1419,
+      "title": "Session 5-2: Differences Between Geothermal Heat Pumps and GEN",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=y6HMPLPZDb8",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-5-2-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1421,
+      "title": "Session 5-2: Differences Between Geothermal Heat Pumps and GEN (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1TQPCSDY8Hp6brWe3vF937PYnpmTHBOpv_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-5-2-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1422,
+      "title": "Session 6-2: Emerging Code & Standards for Ambient Temperature Loops",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-6-2_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-6-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1423,
+      "title": "Session 6-2: Emerging Code & Standards for Ambient Temperature Loops",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=cb_K_HphEJk",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-6-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1425,
+      "title": "Session 6-2: Emerging Code & Standards for Ambient Temperature Loops (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1l4HUnTPzhaE5GaQBenqpTDigTtItsNZ4_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-6-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1427,
+      "title": "Andrew Illif",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/andrew-iliff/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/andrew-illif_2cc1abe5-7bb2-4b2c-bf0e-6d75780f3a54/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1429,
+      "title": "Juliet Simpson",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/julietgsimpson/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/juliet-simpson_30cffe90-34c3-4803-bb26-8f745f9b5613/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1430,
+      "title": "Sanjeev Kumar",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/sanjeevkumarbrussels/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/sanjeev-kumar_31637a84-35a7-4b43-aabd-1c7d6acc92f0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1434,
+      "title": "Session 1-2: Carbon Reduction Pathways for Building Stocks",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-1-2_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-1-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1435,
+      "title": "Session 1-2: Carbon Reduction Pathways for Building Stocks",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=DXOixR53iJ0",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-1-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1437,
+      "title": "Session 1-2: Carbon Reduction Pathways for Building Stocks (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1-n7kYKZvTLJCjsvQg1LZWcPXNCAcO-pg_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-1-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1438,
+      "title": "James Van Nostrand",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/james-van-nostrand-91582410/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/james-van-nostrand_3c67764a-5a06-4c5d-a85f-d92cc21ed60c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1441,
+      "title": "Mark Metzner",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/mark-metzner-b55b4023b/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/mark-metzner_47e9711c-939e-477b-ac3e-eba6d48219e6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1442,
+      "title": "Nikki Bruno",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/nikki-bruno-56997a25/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/nikki-bruno_47fdb7ee-fae8-4474-aea7-de68c57efc13/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1443,
+      "title": "Session 5-3: Introduction to Design of GENs",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-5-3-v2_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-5-3-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1444,
+      "title": "Session 5-3: Introduction to Design of GENs",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=TxtNBnAXmh8",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-5-3-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1446,
+      "title": "Session 5-3: Introduction to Design of GENs (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1Kwyga-1oLLlWa_8oejp4ZYe91mZ5gqSM_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-5-3-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1447,
+      "title": "Susan Murcott",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/susan-murcott-3071537/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/susan-murcott_4978bc98-deec-4b45-b9b9-4abe74674179/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1451,
+      "title": "Session 8-3: Thermal Energy Network Evolution of the Penn South Community in Manhattan",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-8-3_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-8-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1452,
+      "title": "Session 8-3: Thermal Energy Network Evolution of the Penn South Community in Manhattan",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=h_LNDKRZ_EI",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-8-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1454,
+      "title": "Session 8-3: Thermal Energy Network Evolution of the Penn South Community in Manhattan (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1OjbcSkLasruOZjVPWMv7OY3RdUtWdiJD_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-8-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1455,
+      "title": "Session 6-4: Constructing and Commissioning of a GEN",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-6-4_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-6-4_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1456,
+      "title": "Session 6-4: Constructing and Commissioning of a GEN",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=AYper3fzw-s",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-6-4_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1458,
+      "title": "Session 6-4: Constructing and Commissioning of a GEN (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1r4NZkS4bu0Y4DlVQgh4E02hlq1o_K22__transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-6-4_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1460,
+      "title": "8-4: Intro to the MIT Thermal Energy Networks Plan for Rapid, Cost-Effective Campus Decarbonization",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-8-4_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-8-4_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1461,
+      "title": "8-4: Intro to the MIT Thermal Energy Networks Plan for Rapid, Cost-Effective Campus Decarbonization",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=5BvE_WSDt74",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-8-4_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1463,
+      "title": "8-4: Intro to the MIT Thermal Energy Networks Plan for Rapid, Cost-Effective Campus Decarbonization (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1pGaLyyZyeHc_wuFgiI4bQmCyeyEatLZZ_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-8-4_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1464,
+      "title": "Session 3-4: Geothermal Energy Networks: Transforming Our Thermal",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-3-4-v2_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-3-4-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1465,
+      "title": "Session 3-4: Geothermal Energy Networks: Transforming Our Thermal",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=R-qlPwP9hDE",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-3-4-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1467,
+      "title": "Session 3-4: Geothermal Energy Networks: Transforming Our Thermal (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1yQWVnrnlfQKBhZ1C3z6z8fsoSSVOsbFa_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-3-4-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1470,
+      "title": "Hela Cheikhrouhou",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/hela-cheikhrouhou-48639b/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/hela-cheikhrouhou_69d11ef3-41cf-419d-aa2c-0edba4c43331/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1471,
+      "title": "Zeyneb Magavi,",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/zeynebmagavi/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/zeyneb-magavi_6be93322-99f3-45d0-971e-38ffab55188e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1472,
+      "title": "Session 4-3: Business Models for Community Networked Geothermal Heating and Cooling",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-4-3_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-4-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1473,
+      "title": "Session 4-3: Business Models for Community Networked Geothermal Heating and Cooling",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=XaWCqLnjFZ8",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-4-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1475,
+      "title": "Session 4-3: Business Models for Community Networked Geothermal Heating and Cooling (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1SMbT5EaPJsmFNFwi7pcCaGk4-zvTR6iv_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-4-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1476,
+      "title": "Session 4-1: Networked Geothermal: The European Experience",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-4-1-v2_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-4-1-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1477,
+      "title": "Session 4-1: Networked Geothermal: The European Experience",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=j0Bhj4eCCws",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-4-1-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1479,
+      "title": "Session 4-1: Networked Geothermal: The European Experience (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1YeMMFjbGeahxdfJOhSR4y6Kivb4Yunt7_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-4-1-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1482,
+      "title": "Ryan Murphy",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/ryanmurphybc/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/ryan-murphy_7311b21c-d085-42de-a781-8dab029dc441/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1485,
+      "title": "Session 1-3: Health Impacts of Methane (\"Natural\") Gas Systems",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-1-3_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-1-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1486,
+      "title": "Session 1-3: Health Impacts of Methane (\"Natural\") Gas Systems",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=dgSFOyxFHW8",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-1-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1488,
+      "title": "Session 1-3: Health Impacts of Methane (\"Natural\") Gas Systems (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1kesfUFgXPQ0Xf5AZI9hcFcVxZqvVZIHs_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-1-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1489,
+      "title": "U.S. Department of Energy",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.energy.gov/eere/geothermal/geothermal-heat-pumps",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/us-department-of-energy_77a9f43b-d553-4e7c-aaf0-b5583effdd93/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1491,
+      "title": "Don Lessard",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/donald-lessard-0589b35/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/don-lessard_792f9013-c692-4511-83ce-bd6f4226a64b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1496,
+      "title": "Session 7-2: Learning from Geothermal Energy Networks",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-7-2_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-7-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1497,
+      "title": "Session 7-2: Learning from Geothermal Energy Networks",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=XTDuB9nXAEY",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-7-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1499,
+      "title": "Session 7-2: Learning from Geothermal Energy Networks (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/12DA4bpcUXc5egQ-IyMikyvgJAbaRjNNX_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-7-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1500,
+      "title": "Session 8-2: Framingham, Massachusetts UTEN Pilot Project Overview",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-8-2_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-8-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1501,
+      "title": "Session 8-2: Framingham, Massachusetts UTEN Pilot Project Overview",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=dK2pfZVen4E",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-8-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1503,
+      "title": "Session 8-2: Framingham, Massachusetts UTEN Pilot Project Overview (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1IS-xa8S9wMTqUlrf73r7DBZ9BIhpLBuX_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-8-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1506,
+      "title": "Kelsey Wirth",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/kelsey-wirth-71905759/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/kelsey-wirth_972f4829-3fd2-4d22-b64f-147dfc6d2fd4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1507,
+      "title": "Session 6-3: Introduction to Drilling Geothermal Boreholes",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-6-3-v2_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-6-3-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1508,
+      "title": "Session 6-3: Introduction to Drilling Geothermal Boreholes",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=Zuc7ApKTiO0",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-6-3-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1510,
+      "title": "Session 6-3: Introduction to Drilling Geothermal Boreholes (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/11cnB6rxJIt_9Oh97DO3ViMh998HKYfuP_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-6-3-v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1511,
+      "title": "HEET",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.heet.org/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/heet_98825b93-5687-4018-9c68-91c6235ab3d6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1512,
+      "title": "Eric Bosworth",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/ericbosworth/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/eric-bosworth_98a44559-0bbd-4926-86e4-dd536d3374b6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1514,
+      "title": "Session 8-1: ATL District Systems Overview",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-8-1_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-8-1_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1515,
+      "title": "Session 8-1: ATL District Systems Overview",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=wIiakebQo9A",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-8-1_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1517,
+      "title": "Session 8-1: ATL District Systems Overview (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1lrH6qQ6BMGibZ8hSjwGs1BmomDiFCNFd_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-8-1_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1518,
+      "title": "Jay Egg",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/egggeothermalairconditioning/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/jay-egg_acba9bb2-1390-47ef-8e02-90e241fbdfd0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1520,
+      "title": "Session Introduction: Geothermal Energy Networks: Opening Session (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/mitres_env_007_lec_intro.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/mitres_env_007_lec_intro_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1521,
+      "title": "Session 5-1: Introduction to Geothermal Heat Pumps",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-5-1-v3_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-5-1-v3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1522,
+      "title": "Session 5-1: Introduction to Geothermal Heat Pumps",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=jdboljUNQdM",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-5-1-v3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1524,
+      "title": "Session 5-1: Introduction to Geothermal Heat Pumps (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1DaSaxn5Gxm2VUlBwVgNRE4OpY1vZc6Th_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-5-1-v3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1525,
+      "title": "Lorig Charkoudian",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/lorig-charkoudian/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/lorig-charkoudian_bb21c849-f842-4ac9-8282-1e980a372fda/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1526,
+      "title": "Session 3-3: The (Geo) Thermal Energy Networks: U.S. Policy Landscape",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-3-3_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-3-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1527,
+      "title": "Session 3-3: The (Geo) Thermal Energy Networks: U.S. Policy Landscape",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=0WS0PBqTBrw",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-3-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1529,
+      "title": "Session 3-3: The (Geo) Thermal Energy Networks: U.S. Policy Landscape (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1vmNbaP6_90ESRUn9203x6pHRXaQyzy_J_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-3-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1531,
+      "title": "Christoph Reinhart",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/christoph-reinhart-b16b8ba/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/christoph-reinhart_c744a043-657c-432d-aedd-18fe6b189fec/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1533,
+      "title": "Brian Urlaub",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/brian-urlaub-88b94416/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/brian-urlaub_ce37f0df-3882-43bd-a578-80c8cfd8bb1f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1534,
+      "title": "Session 1-1: A Systems View of the Energy Transition and Role of Methane Emissions",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-1-1_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-1-1_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1535,
+      "title": "Session 1-1: A Systems View of the Energy Transition and Role of Methane Emissions",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=TdOuHUabbJs",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-1-1_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1537,
+      "title": "Session 1-1: A Systems View of the Energy Transition and Role of Methane Emissions (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1ViJefpsjn46Pk6PHXZPNjJi99D27wEii_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-1-1_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1538,
+      "title": "Isabel Varela",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/isabel-varela-g/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/isabel-varela_cfe81bd5-afff-45ea-808b-d0c3c77e5919/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1540,
+      "title": "Session 2-1: An Ecological View of the Energy Transition",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-2-1_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-2-1_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1541,
+      "title": "Session 2-1: An Ecological View of the Energy Transition",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=Dletk3FZUvI",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-2-1_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1543,
+      "title": "Session 2-1: An Ecological View of the Energy Transition (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1HhPgDXqw4E1bpPhSGlbJk4OUxG-NQGAR_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-2-1_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1544,
+      "title": "Garen Ewbank",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/garen-ewbank-436a0b11/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/garen-ewbank_d4843f24-967d-47bb-9d2b-ed74c59482c4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1545,
+      "title": "Jonathan Buonocore",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/jonathan-buonocore-89a8558/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/jonathan-buonocore_d970d02e-0634-41e0-9a21-a44b23958f7a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1546,
+      "title": "Nathan Phillips",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/nathan-phillips-24791746/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/nathan-phillips_df4f9b9e-1764-46ec-a5d0-b92261f84e6d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1547,
+      "title": "Cary Smith",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/cary-smith-cem-cea-cgd-cgi-aee-fellow-37b6a010/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/cary-smith_e2fe89f5-59a1-45d0-bb75-f7a8ae8bf7a8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1549,
+      "title": "Chris Rabe",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/chris-rabe-797a07203/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/chris-rabe_e5fabb03-b068-4e2e-8782-8d0ad37c9afe/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 1550,
+      "title": "Session Introduction: Geothermal Energy Networks: Transforming Our Thermal Energy System",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-introduction_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-introduction_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1551,
+      "title": "Session Introduction: Geothermal Energy Networks: Transforming Our Thermal Energy System",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=yL-ZljBRlWQ",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-introduction_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1553,
+      "title": "Session Introduction: Geothermal Energy Networks: Transforming Our Thermal Energy System (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1dGmgBT3asWigtPMxA5tBgEzOJ4Sczg0Q_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-introduction_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1555,
+      "title": "Session 2-2: How GENs Can Meet Environmental Justice Priorities",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-2-2_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-2-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1556,
+      "title": "Session 2-2: How GENs Can Meet Environmental Justice Priorities",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=iiSi03XlH8U",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-2-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1558,
+      "title": "Session 2-2: How GENs Can Meet Environmental Justice Priorities (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1wFV46eCoy70v0DuKYqghO-F0fYxFU5-b_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-2-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1560,
+      "title": "Session 2-3: How GENs Arose out of Moms Organizing to Protect Their Children's Future",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-2-3_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-2-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1561,
+      "title": "Session 2-3: How GENs Arose out of Moms Organizing to Protect Their Children's Future",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=L4TRwvoC8Ho",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-2-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1563,
+      "title": "Session 2-3: How GENs Arose out of Moms Organizing to Protect Their Children's Future (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/1cuaC3e-QaX_0Q1tqEnHVNS9HsiOfuHYM_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-2-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1566,
+      "title": "Session 4-2: Deploying Geothermal Networks At City and Country Scale: Utility Perspective on Scaling",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/geothermal-session-4-2_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-4-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1567,
+      "title": "Session 4-2: Deploying Geothermal Networks At City and Country Scale: Utility Perspective on Scaling",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=MaHkWlaqxsY",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-4-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1569,
+      "title": "Session 4-2: Deploying Geothermal Networks At City and Country Scale: Utility Perspective on Scaling (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/18ts7F8RayWA749Y9NjclDyATZYM20n1k_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/resources/geothermal-session-4-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 1574,
+      "title": "Ania Camargo",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.linkedin.com/in/aniacamargo/",
+      "local_path": null,
+      "resource_path": "/courses/res-env-007-geothermal-energy-networks-transforming-our-thermal-energy-system-january-iap-2025/external-resources/ania-camargo_fe284d57-a9d5-42de-b93c-a1034daefd63/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

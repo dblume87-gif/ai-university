@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T21:22:58.497Z",
+  "generated_at": "2026-05-18T20:51:01.847Z",
   "course": {
     "course_id": "mas-s60-how-to-ai-almost-anything-spring-2025",
     "title": "How to AI (Almost) Anything",
@@ -11,8 +11,8 @@
   "summary": {
     "material_sources": 225,
     "unit_count": 11,
-    "assigned_sources": 13,
-    "unassigned_sources": 212
+    "assigned_sources": 87,
+    "unassigned_sources": 138
   },
   "inference_rules": [
     "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
@@ -25,6 +25,18 @@
       "title": "[slides]",
       "confidence": "inferred",
       "sources": [
+        {
+          "id": 1281,
+          "title": "[slides]",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec1%20-%20introduction.pdf",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
         {
           "id": 1286,
           "title": "[slides]",
@@ -47,7 +59,7 @@
           "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_01_AI_Research/lec1.2 - AI research.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7600,
@@ -59,19 +71,93 @@
           "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_01_Introduction/lec1 - introduction.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 1282,
+          "title": "[video]",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://youtu.be/0MYt0u3CW5I",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1283,
+          "title": "Foundations and Trends in Multimodal Machine Learning: Principles, Challenges, and Open Questions",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2209.03430",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1284,
+          "title": "Multimodal Machine Learning: A Survey and Taxonomy",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/1705.09406",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1285,
+          "title": "Representation Learning: A Review and New Perspectives",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/1206.5538",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1287,
+          "title": "[video]",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://youtu.be/104FX8MYKAM",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 3,
+      "source_count": 9,
       "source_types": {
-        "pdf": 3
+        "pdf": 4,
+        "youtube": 2,
+        "external": 3
       }
     },
     {
       "unit_number": 2,
-      "title": "lec2 data",
+      "title": "[slides]",
       "confidence": "inferred",
       "sources": [
+        {
+          "id": 1288,
+          "title": "[slides]",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec2%20-%20data.pdf",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
         {
           "id": 7607,
           "title": "lec2 data",
@@ -82,19 +168,69 @@
           "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_02_Data_Structure_Information/lec2 - data.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 1289,
+          "title": "[video]",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://youtu.be/fLybbXyfN28",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1290,
+          "title": "Machine learning: Trends, Perspectives, and Prospects",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://www.science.org/doi/abs/10.1126/science.aaa8415",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1291,
+          "title": "Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2104.13478",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 1,
+      "source_count": 5,
       "source_types": {
-        "pdf": 1
+        "pdf": 2,
+        "youtube": 1,
+        "external": 2
       }
     },
     {
       "unit_number": 3,
-      "title": "lec3 models",
+      "title": "[slides]",
       "confidence": "inferred",
       "sources": [
+        {
+          "id": 1297,
+          "title": "[slides]",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec3%20-%20models.pdf",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
         {
           "id": 7623,
           "title": "lec3 models",
@@ -105,19 +241,105 @@
           "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_04_Model_Architectures/lec3 - models.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 1298,
+          "title": "[video]",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://youtu.be/V0gRkmu4mFY",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1299,
+          "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2010.11929",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1300,
+          "title": "Attention Is All You Need",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/1706.03762",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1301,
+          "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/1409.0473",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1302,
+          "title": "Deep Sets",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/1703.06114",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1303,
+          "title": "Graph Attention Networks",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/1710.10903",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 1,
+      "source_count": 8,
       "source_types": {
-        "pdf": 1
+        "pdf": 2,
+        "youtube": 1,
+        "external": 5
       }
     },
     {
       "unit_number": 4,
-      "title": "lec4 multimodal",
+      "title": "[slides]",
       "confidence": "inferred",
       "sources": [
+        {
+          "id": 1309,
+          "title": "[slides]",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec4%20-%20multimodal.pdf",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
         {
           "id": 7630,
           "title": "lec4 multimodal",
@@ -128,19 +350,81 @@
           "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_05_Multimodal_1/lec4 - multimodal.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 1310,
+          "title": "[video]",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://youtu.be/kixc1mh55yY",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1311,
+          "title": "What Makes for Good Views for Contrastive Learning?",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2005.10243",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1312,
+          "title": "Characterization and classification of semantic image-text relations",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://link.springer.com/article/10.1007/s13735-019-00187-6",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1313,
+          "title": "When and why vision-language models behave like bags-of-words, and what to do about it?",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2210.01936",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 1,
+      "source_count": 6,
       "source_types": {
-        "pdf": 1
+        "pdf": 2,
+        "youtube": 1,
+        "external": 3
       }
     },
     {
       "unit_number": 5,
-      "title": "lec5 fusion",
+      "title": "[slides]",
       "confidence": "inferred",
       "sources": [
+        {
+          "id": 1321,
+          "title": "[slides]",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec5%20-%20fusion.pdf",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
         {
           "id": 7635,
           "title": "lec5 fusion",
@@ -151,19 +435,94 @@
           "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_06_Multimodal_2/lec5 - fusion.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 1322,
+          "title": "[video]",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://youtu.be/Hsv1mOIZ1Ag",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1323,
+          "title": "Ten Myths of Multimodal Interaction",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://dl.acm.org/doi/pdf/10.1145/319382.319398",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1324,
+          "title": "Multimodal interaction: A review",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S0167865513002584",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1325,
+          "title": "Quantifying & Modeling Multimodal Interactions: An Information Decomposition Framework",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2302.12247",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1326,
+          "title": "Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!",
+          "media_type": "html",
+          "material_type": "Other",
+          "source_url": "https://aclanthology.org/2020.emnlp-main.62/",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 1,
+      "source_count": 7,
       "source_types": {
-        "pdf": 1
+        "pdf": 2,
+        "youtube": 1,
+        "external": 3,
+        "html": 1
       }
     },
     {
       "unit_number": 6,
-      "title": "lec6 crossmodal",
+      "title": "[slides]",
       "confidence": "inferred",
       "sources": [
+        {
+          "id": 1333,
+          "title": "[slides]",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec6%20-%20crossmodal.pdf",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
         {
           "id": 7644,
           "title": "lec6 crossmodal",
@@ -174,19 +533,81 @@
           "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_07_Multimodal_3/lec6 - crossmodal.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 1334,
+          "title": "[video]",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://youtu.be/k4kywHmr3AA",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1335,
+          "title": "LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2303.00915v3",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1336,
+          "title": "DreamLLM: Synergistic Multimodal Comprehension and Creation",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2309.11499",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1337,
+          "title": "PaLM-E: An Embodied Multimodal Language Model",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2303.03378",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 1,
+      "source_count": 6,
       "source_types": {
-        "pdf": 1
+        "pdf": 2,
+        "youtube": 1,
+        "external": 3
       }
     },
     {
       "unit_number": 7,
-      "title": "lec7 large models",
+      "title": "[slides]",
       "confidence": "inferred",
       "sources": [
+        {
+          "id": 1342,
+          "title": "[slides]",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec7%20-%20large%20models.pdf",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
         {
           "id": 7654,
           "title": "lec7 large models",
@@ -197,19 +618,117 @@
           "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_09_Large_Foundation_Models/lec7 - large models.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 1343,
+          "title": "[video]",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://youtu.be/ZFLRDEUSX68",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1344,
+          "title": "Training Compute-Optimal Large Language Models",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2203.15556",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1345,
+          "title": "Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2204.07705",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1346,
+          "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2106.09685",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1347,
+          "title": "A Visual Guide to Mixture of Experts (MoE)",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1348,
+          "title": "A Visual Guide to Quantization",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1349,
+          "title": "Improved Baselines with Visual Instruction Tuning",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2310.03744",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 1,
+      "source_count": 9,
       "source_types": {
-        "pdf": 1
+        "pdf": 2,
+        "youtube": 1,
+        "external": 6
       }
     },
     {
       "unit_number": 8,
-      "title": "lec8 large multimodal models",
+      "title": "[slides]",
       "confidence": "inferred",
       "sources": [
+        {
+          "id": 1350,
+          "title": "[slides]",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec8%20-%20large%20multimodal%20models.pdf",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
         {
           "id": 7664,
           "title": "lec8 large multimodal models",
@@ -220,19 +739,93 @@
           "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_11_Large_Multimodal_Models/lec8 - large multimodal models.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 1351,
+          "title": "[video]",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://youtu.be/p_GGsKgGxSo",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1352,
+          "title": "Multimodal Transformer for Unaligned Multimodal Language Sequences",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/1906.00295",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1353,
+          "title": "Masked Autoencoders Are Scalable Vision Learners",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2111.06377",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1354,
+          "title": "Scaling Laws for Native Multimodal Models Scaling Laws for Native Multimodal Models",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2504.07951",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1355,
+          "title": "Transfer between Modalities with MetaQueries",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2504.06256",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 1,
+      "source_count": 7,
       "source_types": {
-        "pdf": 1
+        "pdf": 2,
+        "youtube": 1,
+        "external": 4
       }
     },
     {
       "unit_number": 9,
-      "title": "lec9 generative AI",
+      "title": "[slides]",
       "confidence": "inferred",
       "sources": [
+        {
+          "id": 1359,
+          "title": "[slides]",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec9%20-%20generative%20AI.pdf",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
         {
           "id": 7675,
           "title": "lec9 generative AI",
@@ -243,19 +836,189 @@
           "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_12_Generative_AI/lec9 - generative AI.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 1360,
+          "title": "[video]",
+          "media_type": "html",
+          "material_type": "Lecture Videos",
+          "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1361,
+          "title": "Scalable Diffusion Models with Transformers",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2212.09748",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1362,
+          "title": "Flow Matching in Latent Space",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2307.08698",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1363,
+          "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2403.03206",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1364,
+          "title": "Movie Gen: A Cast of Media Foundation Models",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2410.13720",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1373,
+          "title": "Large Language Diffusion Models",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/pdf/2502.09992",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1374,
+          "title": "Compositional Generative Modeling: A Single Model is Not All You Need",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/pdf/2402.01103",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1375,
+          "title": "Flow Matching for Generative Modeling",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2210.02747",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1376,
+          "title": "Flow Matching Guide and Code",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2412.06264",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1377,
+          "title": "FlowMotion: Target-Predictive Conditional Flow Matching for Jitter-Reduced Text-to-Motion Generation",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2504.01338",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1378,
+          "title": "MusFlow: Multimodal Music Generation via Conditional Flow Matching",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2504.13535",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1379,
+          "title": "Unraveling the Connections Between Flow Matching and Diffusion Probabilistic Models",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2311.07625",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1380,
+          "title": "Exploring Diffusion and Flow Matching Under Generator Matching",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2412.11024",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 1,
+      "source_count": 15,
       "source_types": {
-        "pdf": 1
+        "pdf": 2,
+        "html": 1,
+        "external": 12
       }
     },
     {
       "unit_number": 10,
-      "title": "lec10 interaction",
+      "title": "[slides]",
       "confidence": "inferred",
       "sources": [
+        {
+          "id": 1381,
+          "title": "[slides]",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec10%20-%20interaction.pdf",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
         {
           "id": 7684,
           "title": "lec10 interaction",
@@ -266,19 +1029,94 @@
           "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_14_Interactive_Agents/lec10 - interaction.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 1382,
+          "title": "[video]",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://youtu.be/3SOjOG2oL1w",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1383,
+          "title": "Deep reinforcement learning from human preferences",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/1706.03741",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1384,
+          "title": "Deepseek-r1: Incentivizing reasoning capability in LLMs via reinforcement learning",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2501.12948",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1385,
+          "title": "Faulty reward functions in the wild",
+          "media_type": "html",
+          "material_type": "Other",
+          "source_url": "https://openai.com/index/faulty-reward-functions/",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1386,
+          "title": "Direct preference optimization: Your language model is secretly a reward model",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2305.18290",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 1,
+      "source_count": 7,
       "source_types": {
-        "pdf": 1
+        "pdf": 2,
+        "youtube": 1,
+        "external": 3,
+        "html": 1
       }
     },
     {
       "unit_number": 11,
-      "title": "lec11 human",
+      "title": "[slides]",
       "confidence": "inferred",
       "sources": [
+        {
+          "id": 1387,
+          "title": "[slides]",
+          "media_type": "pdf",
+          "material_type": "Lecture Slides",
+          "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec11%20-%20human.pdf",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
         {
           "id": 7694,
           "title": "lec11 human",
@@ -289,12 +1127,86 @@
           "resource_path": "library/MAS.S60-How2AI-Spring2025/Week_15_Human_AI_Interaction/lec11 - human.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 1388,
+          "title": "[video]",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://youtu.be/NrmLjmXU66M",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1389,
+          "title": "Interactive Sketchpad: A Multimodal Tutoring System for Collaborative, Visual Problem-Solving",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2503.16434",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1390,
+          "title": "VideoWebArena: Evaluating Multimodal Agents on Video Understanding Web Tasks",
+          "media_type": "external",
+          "material_type": "Lecture Videos",
+          "source_url": "https://arxiv.org/abs/2410.19100",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1391,
+          "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2406.09246",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1392,
+          "title": "ArtPrompt: ASCII Art-based Jailbreak Attacks against Aligned LLMs",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://arxiv.org/abs/2402.11753",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 1393,
+          "title": "Guidelines for Human-AI Interaction",
+          "media_type": "external",
+          "material_type": "Other",
+          "source_url": "https://dl.acm.org/doi/abs/10.1145/3290605.3300233",
+          "local_path": null,
+          "resource_path": null,
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 1,
+      "source_count": 8,
       "source_types": {
-        "pdf": 1
+        "pdf": 2,
+        "youtube": 1,
+        "external": 5
       }
     }
   ],
@@ -318,116 +1230,6 @@
       "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/",
       "local_path": null,
       "resource_path": "/courses/mas-s60-how-to-ai-almost-anything-spring-2025/external-resources/course-website/data.json",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1281,
-      "title": "[slides]",
-      "media_type": "pdf",
-      "material_type": "Lecture Slides",
-      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec1%20-%20introduction.pdf",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1282,
-      "title": "[video]",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://youtu.be/0MYt0u3CW5I",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1283,
-      "title": "Foundations and Trends in Multimodal Machine Learning: Principles, Challenges, and Open Questions",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2209.03430",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1284,
-      "title": "Multimodal Machine Learning: A Survey and Taxonomy",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/1705.09406",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1285,
-      "title": "Representation Learning: A Review and New Perspectives",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/1206.5538",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1287,
-      "title": "[video]",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://youtu.be/104FX8MYKAM",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1288,
-      "title": "[slides]",
-      "media_type": "pdf",
-      "material_type": "Lecture Slides",
-      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec2%20-%20data.pdf",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1289,
-      "title": "[video]",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://youtu.be/fLybbXyfN28",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1290,
-      "title": "Machine learning: Trends, Perspectives, and Prospects",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://www.science.org/doi/abs/10.1126/science.aaa8415",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1291,
-      "title": "Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2104.13478",
-      "local_path": null,
-      "resource_path": null,
       "parent_title": null,
       "learning_resource_types": []
     },
@@ -487,83 +1289,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 1297,
-      "title": "[slides]",
-      "media_type": "pdf",
-      "material_type": "Lecture Slides",
-      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec3%20-%20models.pdf",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1298,
-      "title": "[video]",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://youtu.be/V0gRkmu4mFY",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1299,
-      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2010.11929",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1300,
-      "title": "Attention Is All You Need",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/1706.03762",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1301,
-      "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/1409.0473",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1302,
-      "title": "Deep Sets",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/1703.06114",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1303,
-      "title": "Graph Attention Networks",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/1710.10903",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
       "id": 1304,
       "title": "Learning the Bitter Lesson",
       "media_type": "external",
@@ -613,61 +1338,6 @@
       "media_type": "external",
       "material_type": "Other",
       "source_url": "https://arxiv.org/pdf/2207.07528",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1309,
-      "title": "[slides]",
-      "media_type": "pdf",
-      "material_type": "Lecture Slides",
-      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec4%20-%20multimodal.pdf",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1310,
-      "title": "[video]",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://youtu.be/kixc1mh55yY",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1311,
-      "title": "What Makes for Good Views for Contrastive Learning?",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2005.10243",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1312,
-      "title": "Characterization and classification of semantic image-text relations",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://link.springer.com/article/10.1007/s13735-019-00187-6",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1313,
-      "title": "When and why vision-language models behave like bags-of-words, and what to do about it?",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2210.01936",
       "local_path": null,
       "resource_path": null,
       "parent_title": null,
@@ -751,72 +1421,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 1321,
-      "title": "[slides]",
-      "media_type": "pdf",
-      "material_type": "Lecture Slides",
-      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec5%20-%20fusion.pdf",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1322,
-      "title": "[video]",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://youtu.be/Hsv1mOIZ1Ag",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1323,
-      "title": "Ten Myths of Multimodal Interaction",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://dl.acm.org/doi/pdf/10.1145/319382.319398",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1324,
-      "title": "Multimodal interaction: A review",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://www.sciencedirect.com/science/article/pii/S0167865513002584",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1325,
-      "title": "Quantifying & Modeling Multimodal Interactions: An Information Decomposition Framework",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2302.12247",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1326,
-      "title": "Does my multimodal model learn cross-modal interactions? It’s harder to tell than you might think!",
-      "media_type": "html",
-      "material_type": "Other",
-      "source_url": "https://aclanthology.org/2020.emnlp-main.62/",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
       "id": 1327,
       "title": "The Platonic Representation Hypothesis",
       "media_type": "external",
@@ -883,61 +1487,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 1333,
-      "title": "[slides]",
-      "media_type": "pdf",
-      "material_type": "Lecture Slides",
-      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec6%20-%20crossmodal.pdf",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1334,
-      "title": "[video]",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://youtu.be/k4kywHmr3AA",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1335,
-      "title": "LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2303.00915v3",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1336,
-      "title": "DreamLLM: Synergistic Multimodal Comprehension and Creation",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2309.11499",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1337,
-      "title": "PaLM-E: An Embodied Multimodal Language Model",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2303.03378",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
       "id": 1338,
       "title": "Kosmos-2: Grounding Multimodal Large Language Models to the World",
       "media_type": "external",
@@ -982,160 +1531,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 1342,
-      "title": "[slides]",
-      "media_type": "pdf",
-      "material_type": "Lecture Slides",
-      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec7%20-%20large%20models.pdf",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1343,
-      "title": "[video]",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://youtu.be/ZFLRDEUSX68",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1344,
-      "title": "Training Compute-Optimal Large Language Models",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2203.15556",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1345,
-      "title": "Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2204.07705",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1346,
-      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2106.09685",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1347,
-      "title": "A Visual Guide to Mixture of Experts (MoE)",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1348,
-      "title": "A Visual Guide to Quantization",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1349,
-      "title": "Improved Baselines with Visual Instruction Tuning",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2310.03744",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1350,
-      "title": "[slides]",
-      "media_type": "pdf",
-      "material_type": "Lecture Slides",
-      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec8%20-%20large%20multimodal%20models.pdf",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1351,
-      "title": "[video]",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://youtu.be/p_GGsKgGxSo",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1352,
-      "title": "Multimodal Transformer for Unaligned Multimodal Language Sequences",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/1906.00295",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1353,
-      "title": "Masked Autoencoders Are Scalable Vision Learners",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2111.06377",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1354,
-      "title": "Scaling Laws for Native Multimodal Models Scaling Laws for Native Multimodal Models",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2504.07951",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1355,
-      "title": "Transfer between Modalities with MetaQueries",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2504.06256",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
       "id": 1356,
       "title": "Gated Linear Attention Transformers with Hardware-Efficient Training",
       "media_type": "external",
@@ -1163,72 +1558,6 @@
       "media_type": "external",
       "material_type": "Other",
       "source_url": "https://arxiv.org/abs/2106.09685",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1359,
-      "title": "[slides]",
-      "media_type": "pdf",
-      "material_type": "Lecture Slides",
-      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec9%20-%20generative%20AI.pdf",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1360,
-      "title": "[video]",
-      "media_type": "html",
-      "material_type": "Lecture Videos",
-      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1361,
-      "title": "Scalable Diffusion Models with Transformers",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2212.09748",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1362,
-      "title": "Flow Matching in Latent Space",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2307.08698",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1363,
-      "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2403.03206",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1364,
-      "title": "Movie Gen: A Cast of Media Foundation Models",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2410.13720",
       "local_path": null,
       "resource_path": null,
       "parent_title": null,
@@ -1317,237 +1646,6 @@
       "media_type": "external",
       "material_type": "Other",
       "source_url": "https://arxiv.org/pdf/2404.08347",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1373,
-      "title": "Large Language Diffusion Models",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/pdf/2502.09992",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1374,
-      "title": "Compositional Generative Modeling: A Single Model is Not All You Need",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/pdf/2402.01103",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1375,
-      "title": "Flow Matching for Generative Modeling",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2210.02747",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1376,
-      "title": "Flow Matching Guide and Code",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2412.06264",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1377,
-      "title": "FlowMotion: Target-Predictive Conditional Flow Matching for Jitter-Reduced Text-to-Motion Generation",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2504.01338",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1378,
-      "title": "MusFlow: Multimodal Music Generation via Conditional Flow Matching",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2504.13535",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1379,
-      "title": "Unraveling the Connections Between Flow Matching and Diffusion Probabilistic Models",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2311.07625",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1380,
-      "title": "Exploring Diffusion and Flow Matching Under Generator Matching",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2412.11024",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1381,
-      "title": "[slides]",
-      "media_type": "pdf",
-      "material_type": "Lecture Slides",
-      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec10%20-%20interaction.pdf",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1382,
-      "title": "[video]",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://youtu.be/3SOjOG2oL1w",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1383,
-      "title": "Deep reinforcement learning from human preferences",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/1706.03741",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1384,
-      "title": "Deepseek-r1: Incentivizing reasoning capability in LLMs via reinforcement learning",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2501.12948",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1385,
-      "title": "Faulty reward functions in the wild",
-      "media_type": "html",
-      "material_type": "Other",
-      "source_url": "https://openai.com/index/faulty-reward-functions/",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1386,
-      "title": "Direct preference optimization: Your language model is secretly a reward model",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2305.18290",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1387,
-      "title": "[slides]",
-      "media_type": "pdf",
-      "material_type": "Lecture Slides",
-      "source_url": "https://mit-mi.github.io/how2ai-course/spring2025/schedule/lec11%20-%20human.pdf",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1388,
-      "title": "[video]",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://youtu.be/NrmLjmXU66M",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1389,
-      "title": "Interactive Sketchpad: A Multimodal Tutoring System for Collaborative, Visual Problem-Solving",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2503.16434",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1390,
-      "title": "VideoWebArena: Evaluating Multimodal Agents on Video Understanding Web Tasks",
-      "media_type": "external",
-      "material_type": "Lecture Videos",
-      "source_url": "https://arxiv.org/abs/2410.19100",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1391,
-      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2406.09246",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1392,
-      "title": "ArtPrompt: ASCII Art-based Jailbreak Attacks against Aligned LLMs",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://arxiv.org/abs/2402.11753",
-      "local_path": null,
-      "resource_path": null,
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 1393,
-      "title": "Guidelines for Human-AI Interaction",
-      "media_type": "external",
-      "material_type": "Other",
-      "source_url": "https://dl.acm.org/doi/abs/10.1145/3290605.3300233",
       "local_path": null,
       "resource_path": null,
       "parent_title": null,

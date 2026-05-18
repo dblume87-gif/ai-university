@@ -82,4 +82,3 @@ Unassigned Sources: 2
 
 - [markdown] FILELIST.md — library/MIT-6.8300-Advances-in-Computer-Vision/FILELIST.md
 - [markdown] LECTURE_VIDEOS.md — library/MIT-6.8300-Advances-in-Computer-Vision/LECTURE_VIDEOS.md
-

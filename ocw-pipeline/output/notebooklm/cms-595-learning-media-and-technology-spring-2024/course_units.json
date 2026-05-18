@@ -1,0 +1,1661 @@
+{
+  "generated_at": "2026-05-18T20:51:01.833Z",
+  "course": {
+    "course_id": "cms-595-learning-media-and-technology-spring-2024",
+    "title": "Learning, Media, and Technology",
+    "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 142,
+    "unit_count": 0,
+    "assigned_sources": 0,
+    "unassigned_sources": 142
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [],
+  "unassigned_sources": [
+    {
+      "id": 3816,
+      "title": "Jonathon Cutrer",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://flic.kr/p/2pCV67C",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/jonathon-cutrer_01ec716c-b125-421b-95a1-fedf1dba53ed/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3817,
+      "title": "02. How People Learn: Cognitive Load Theory",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-2_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3818,
+      "title": "02. How People Learn: Cognitive Load Theory",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=P4RVO9aIIVA",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3820,
+      "title": "02. How People Learn: Cognitive Load Theory (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1V7-yalWONdVyzGJ270l45Qzfu_Ml6z-7_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3821,
+      "title": "\"Democratizing Ideologies and Inequality Regimes.\"",
+      "media_type": "html",
+      "material_type": "Lecture Notes",
+      "source_url": "https://tressiemc.com/uncategorized/round-up-of-berkman-center-notes-and-reflections/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/democratizing-ideologies-and-inequality-regimes_03760a9d-2625-4197-a9ad-542beae9ee50/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3823,
+      "title": "*EdTech Developers Guide*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://tech.ed.gov/developers-guide/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/edtech-developers-guide_04998c63-5370-4540-b802-9ff3e1f6e5c2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3824,
+      "title": "\"Calculating the Future of Writing in the Face of AI.\"",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://cmsw.mit.edu/advice-and-responses-from-faculty-on-chatgpt-and-a-i-assisted-writing/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/calculating-the-future-of-writing-in-the-face-of-ai_0841e7ee-2795-486b-8a32-a3d3f26f57b5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3825,
+      "title": "Driverless Ed-Tech.",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://hackeducation.com/2017/03/30/driverless",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/driverless-ed-tech_089a0c35-3435-48ba-ab42-f13447b0cfae/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3826,
+      "title": "Video & Multiple Choice: What Took Us So Long?",
+      "media_type": "html",
+      "material_type": "Lecture Videos",
+      "source_url": "https://blog.desmos.com/articles/video-multiple-choice-what-took-us-so-long/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/video-multiple-choice-what-took-us-so-long_0ab1ba38-8cbc-4c09-a0f7-60a19cb80c1d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3827,
+      "title": "\"A Domain of One’s Own.\"",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?t=34m37s&v=6m90BzVVPG4&feature=youtu.be",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/a-domain-of-ones-own_0d7ae4e6-0a7e-45d1-9366-a5fc22a1d008/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3828,
+      "title": "\"EdTech Decision Making in Higher Education Summary.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.academia.edu/33355802/EdTech_Decision_making_in_Higher_Education_Summary_pdf_2017_",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/edtech-decision-making-in-higher-education-summary_0f4415f3-9af7-4395-9613-ede927cd33bf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3829,
+      "title": "Minecraft Education",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://education.minecraft.net/en-us",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/minecraft-education_0fae0e1f-863e-456a-a361-d18686f0bdf9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3830,
+      "title": "\"TSL MOOCs in Review.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://osf.io/preprints/edarxiv/c3bhw",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/tsl-moocs-in-review_10c03f88-fdd5-4803-8ba9-12d6749234e9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3831,
+      "title": "\"Cognitive Tutors: Technology Bringing Learning Sciences to the Classroom\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://pact.cs.cmu.edu/pubs/koedingercorbett06.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/cognitive-tutors-technology-bringing-learning-sciences-to-the-classroom-pdf_10da2871-9c7d-40b5-b545-2d8c9a1752e4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3832,
+      "title": "\"'Connectivism' and Connective Knowledge.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.huffpost.com/entry/connectivism-and-connecti_b_804653",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/connectivism-and-connective-knowledge_11066a7f-8eb4-4144-97e8-210b561c2e26/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3833,
+      "title": "\"Give P’s a Chance: Projects, Peers, Passion, Play\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Projects",
+      "source_url": "https://web.media.mit.edu/~mres/papers/constructionism-2014.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/give-ps-a-chance-projects-peers-passion-play-pdf_1182ae03-3030-402e-a2bb-657fa6062b22/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3834,
+      "title": "\"How a New Actor Was Temporarily Enrolled into the Network of Game Playing\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://repository.isls.org/bitstream/1/2519/1/661-665.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/how-a-new-actor-was-temporarily-enrolled-into-the-network-of-game-playing-pdf_11ab8bbb-5db4-4539-bc6e-859f2200ae6f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3835,
+      "title": "18. Trap of Routine Assessment",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-18_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-18_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3836,
+      "title": "18. Trap of Routine Assessment",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=8hvDT6zKp98",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-18_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3838,
+      "title": "18. Trap of Routine Assessment (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/137d5P-gj0G3AVrZfxzlgWFaXa00JFQfQ_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-18_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3840,
+      "title": "*Family Creative Learning Guide*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.familycreativelearning.org/guide/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/family-creative-learning-guide_14d97d97-1ed9-4bf6-9125-a13745745200/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3841,
+      "title": "\"Skipping School: America’s Hidden Education Crisis.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.propublica.org/article/school-absenteeism-truancy-education-students",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/skipping-school-americas-hidden-education-crisis_15844b37-aaf5-49ed-850a-3dfba2f241df/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3842,
+      "title": "Daily Creates",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://daily.ds106.us/random",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/daily-creates_1c8b88a1-a322-4a77-a186-681ac6de440e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3843,
+      "title": "Anth101.com",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://anth101.com/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/anth101com_1fbd754e-01d3-4767-9b17-bcf2a7f87594/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3844,
+      "title": "07. EdTech Before the Internet",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-7_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-7_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3845,
+      "title": "07. EdTech Before the Internet",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=68XZ_P9MKM8",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-7_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3847,
+      "title": "07. EdTech Before the Internet (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1U9VupztX_yCeamRt02ASGvvLQzXGw30O_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-7_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3848,
+      "title": "Connected Learning Alliance",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://clalliance.org/publications/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/connected-learning-alliance_1ff77b17-f4e0-4a87-9085-bacd82b9bbca/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3849,
+      "title": "Failure to Disrupt Book Club with Neil and Cristina Heffernan.",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-cristina-and-neil-heffernan/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/failure-to-disrupt-book-club-with-neil-and-cristina-heffernan_218e2f3b-b2ec-4e5f-acac-7dd5b8c31e5c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3850,
+      "title": "\"Does an Algebra Course with Tutoring Software Improve Student Learning?\"",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.rand.org/pubs/research_briefs/RB9746.html",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/does-an-algebra-course-with-tutoring-software-improve-student-learning_22c50693-e4fc-4273-87a7-61919ff1196b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3851,
+      "title": "What’s Lost, What’s Left, What’s Next: Lessons Learns from Teachers and COVID 2020",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://osf.io/preprints/edarxiv/8exp9",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/whats-lost-whats-left-whats-next-lessons-learns-from-teachers-and-covid-2020_236e98d9-b07d-44e1-a4fd-cb9ca1829a73/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3852,
+      "title": "14. Learning Games",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-14_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-14_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3853,
+      "title": "14. Learning Games",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=x0RamxvyDe0",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-14_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3855,
+      "title": "14. Learning Games (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1GXNxFdzcrVmKfuff1-MtuK172VPoSEIl_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-14_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3856,
+      "title": "16. Start-Up and the Curse of the Familiar",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-16_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-16_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3857,
+      "title": "16. Start-Up and the Curse of the Familiar",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=LQ-WcLwrU6c",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-16_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3859,
+      "title": "16. Start-Up and the Curse of the Familiar (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1VH8tbN4mou6KmkDjiCAwp5iORShcdBTK_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-16_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3860,
+      "title": "DS106",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "http://ds106.us/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/ds106_2c894af6-f307-471c-95ce-a06be2e1bf3a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3861,
+      "title": "03. How People Learn: Situated Learning",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-3_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3862,
+      "title": "03. How People Learn: Situated Learning",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=MXTA8HlhnuM",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3864,
+      "title": "03. How People Learn: Situated Learning (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1D-7nvaObwWrpyzMEuYNwAlSNaZO8eQ7T_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-3_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3865,
+      "title": "Imagining September: Principles and Design Elements for Ambitious Schools in COVID-19",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://osf.io/preprints/edarxiv/gqa2w",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/imagining-september-principles-and-design-elements-for-ambitious-schools-in-covid-19_2fdc8c19-7442-47cf-b42b-4cea91224a33/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3866,
+      "title": "Failure to Disrupt Book Club with Scot Osterweil and Constance Steinkuehler",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-scot-osterweil-and-constance-steinkuehler/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/failure-to-disrupt-book-club-with-scot-osterweil-and-constance-steinkuehler_36468059-2db3-427b-b204-1ebbd8145804/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3867,
+      "title": "CMS.594",
+      "media_type": "html",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/cms-594-education-technology-studio-spring-2019/pages/readings/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/cms594_38b716f6-6851-4383-afac-9950d82ca8e9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3868,
+      "title": "\"Advice Concerning AI-Assisted Writing.\"",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://nickm.com/post/2023/01/advice-concerning-the-increase-in-ai-assisted-writing/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/advice-concerning-ai-assisted-writing_38cfb503-50e3-4fb8-9ad7-52ea8f4cfbfb/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3869,
+      "title": "\"CATCHing CS Equity: Counselors, Administrators, and Teachers Collaborating Holistically.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://osf.io/preprints/edarxiv/4wgm9",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/catching-cs-equity-counselors-administrators-and-teachers-collaborating-holistically_3cc27afd-4189-40e2-b383-5f303bdfdc6f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3870,
+      "title": "Failure to Disrupt Book Club with Natalie Rusk and Mitch Resnick",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-natalie-rusk-and-mitch-resnick/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/failure-to-disrupt-book-club-with-natalie-rusk-and-mitch-resnick_4152f26d-d9d7-46af-8b63-8ceb3d41a139/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3871,
+      "title": "\"The Legacy of InBloom\" (PDF).",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://datasociety.net/pubs/ecl/InBloom_feb_2017.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/the-legacy-of-inbloom-pdf_437ac4f0-daa3-4d91-a06f-62bc5b1b2f14/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3872,
+      "title": "COVID Research",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://tsl.mit.edu/covid-research/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/covid-research_48686bf7-2682-431f-842d-a7db4e15a120/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3874,
+      "title": "\"Can AI Write Authentic Poetry?\"",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://thereader.mitpress.mit.edu/can-ai-write-authentic-poetry/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/can-ai-write-authentic-poetry_4aff2532-e6dd-4227-9639-49ef72b1793a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3875,
+      "title": "\"What Is ChatGPT Doing … and Why Does It Work?\"",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/what-is-chatgpt-doing-and-why-does-it-work_4b0359b5-e0ac-48a0-a2b3-7045437452ce/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3876,
+      "title": "\"Connected Learning: An Agenda for Research and Design\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://clalliance.org/wp-content/uploads/2018/05/Connected_Learning_report.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/connected-learning-an-agenda-for-research-and-design-pdf_4c33afd5-a86a-4d10-8843-3a9e700ef6e4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3877,
+      "title": "Failure to Disrupt Book Club with Antero Garcia",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-antero-garcia/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/failure-to-disrupt-book-club-with-antero-garcia_56a0b79b-86da-4b76-9e61-94b5c7a9d618/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3878,
+      "title": "0.503x: Becoming a More Equitable Educator",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://openlearninglibrary.mit.edu/courses/course-v1:MITx+0.503x+T2020/about",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/0503x-becoming-a-more-equitable-educator_5a6d18df-b526-4de2-ac68-33746249a201/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3879,
+      "title": "Session 14: Learning Games",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses14.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mitcms_595_s24_ses14_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3880,
+      "title": "\"The Simple Technology That Ruined Baseball.\"",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.theatlantic.com/entertainment/archive/2014/09/baseball-offensive-drought-and-camera-technology/379443/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/the-simple-technology-that-ruined-baseball_5d4c79df-eaac-45ed-8bf7-e6aa9b9e8508/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3881,
+      "title": "\"From Computational Thinking to Computational Action.\"",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://cacm.acm.org/opinion/from-computational-thinking-to-computational-action/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/from-computational-thinking-to-computational-action_61593a3d-2f01-4c12-85ec-2dc21f96cb73/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3882,
+      "title": "Failure to Disrupt Book Club with Dan Meyer",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-dan-meyer/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/failure-to-disrupt-book-club-with-dan-meyer_617a456f-901c-4c46-8a5b-39faa0183f90/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3883,
+      "title": "\"Not a Theory of Everything: On Cognitive Load Theory and the Complexity of Learning.\"",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://cognitiveloadtheory.wordpress.com/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/not-a-theory-of-everything-on-cognitive-load-theory-and-the-complexity-of-learning_67b6486e-8aa1-41bc-80d0-1f9da21d7761/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3884,
+      "title": "Session 9: Massive Online Open Courses",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses9.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mitcms_595_s24_ses9_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3885,
+      "title": "Khan Academy",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.khanacademy.org/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/khan-academy_6b2cd939-9a4d-4ed6-aee1-bf1693fb2ef6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3886,
+      "title": "\"From Good Intentions to Real Outcomes: Equity by Design in Learning Technologies\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://clalliance.org/wp-content/uploads/2017/11/GIROreport_1031.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/from-good-intentions-to-real-outcomes-equity-by-design-in-learning-technologies-pdf_6cb5172d-2213-476b-b140-2c2a38e84820/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3888,
+      "title": "\"A Call to Action for Closing the Digital Access, Design, and Use Divides: 2024 National Education Technology Plan\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://portal.ct.gov/das/-/media/das/ctedtech/publications/2025/2025-used-oet-archive/netp24.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/a-call-to-action-for-closing-the-digital-access-design-and-use-divides-2024-national-educ6fb71a17-af89-4250-9371-16ca42ea8c3a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3889,
+      "title": "\"Disciplining Play: Digital Youth Culture as Capital at School.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/695766",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/disciplining-play-digital-youth-culture-as-capital-at-school_70223f33-943f-41cc-ba50-e44b3508b563/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3890,
+      "title": "\"Practical Learning at Scale.\"",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=JOPpgKsxUC0&feature=youtu.be&list=PLn0nrSd4xjjbBVXrdjJNjZLVkZTMHkgPg",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/practical-learning-at-scale_71bc98d7-e62d-463c-9c03-0292ddb3b972/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3891,
+      "title": "\"Democratizing Education? Examining Access and Usage Patterns in Massive Open Online Courses.\"",
+      "media_type": "external",
+      "material_type": "Exams",
+      "source_url": "https://www.science.org/doi/10.1126/science.aab3782",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/democratizing-education-examining-access-and-usage-patterns-in-massive-open-online-course79f8bffc-1bbd-403e-9698-b25163b4aafc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3892,
+      "title": "The Teachers Have Something to Say: Teachers and COVID in 2021",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://edarxiv.org/h8gac",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/the-teachers-have-something-to-say-teachers-and-covid-in-2021_7aa20ff7-5eac-43f8-9ac5-981f48a49524/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3893,
+      "title": "Failure to Disrupt Book Club with Courtney Bell",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-courtney-bell/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/failure-to-disrupt-book-club-with-courtney-bell_7cabbcda-43af-41b6-b2da-b6a01e60165d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3894,
+      "title": "\"Generative AI and K-12 Education: An MIT Perspective.\"",
+      "media_type": "external",
+      "material_type": "Readings",
+      "source_url": "https://mit-genai.pubpub.org/pub/4k9msp17/release/1?readingCollection=0e231e9c",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/generative-ai-and-k-12-education-an-mit-perspective_7d94178a-a764-4905-88fc-73ec5be53f13/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3895,
+      "title": "Ignite Talk on Epic Creative Writing Courses",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=p1tl7E6LX8M",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/ignite-talk-on-epic-creative-writing-courses_7e069763-ecf8-4839-92aa-bbb009fc9513/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3896,
+      "title": "\"Educational Technology Isn’t Leveling the Playing Field.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://hechingerreport.org/educational-technology-isnt-leveling-playing-field/#:~:text=While%20technology%20has%20often%20been,school%2Dready%20and%20the%20less%2D",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/educational-technology-isnt-leveling-the-playing-field_7ebf3a52-884a-4a17-aaf9-10d6dbac8546/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3897,
+      "title": "20. The Toxic Power of Data and Experiment",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-20_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-20_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3898,
+      "title": "20. The Toxic Power of Data and Experiment",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=tnnuIwgXAt8",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-20_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3900,
+      "title": "20. The Toxic Power of Data and Experiment (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1DhKSGUZNPSNOKZxi6aAOho5_820XkU3Z_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-20_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3901,
+      "title": "\"Learning Engineering: What We Know, What We Can Do.\"",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=VSrsOzzjV8I&list=PLI5g5RWpdCgdfwFpqpY9sQpnxKtatHoX4&index=4",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/learning-engineering-what-we-know-what-we-can-do_855bb3bc-2b73-4d8e-96eb-94704e799cf1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3902,
+      "title": "Healing, Community, and Humanity. How Students and Teachers Want to Reinvent Schools Post-COVID",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://edarxiv.org/nd52b",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/healing-community-and-humanity-how-students-and-teachers-want-to-reinvent-schools-post-co863315f6-39a1-4f97-827d-70debb101277/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3903,
+      "title": "\"The MOOC Phenomenon: Who Takes Massively Open Online Courses and Why?\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2350964",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/the-mooc-phenomenon-who-takes-massively-open-online-courses-and-why_8750e76a-4daf-4674-aca5-9a5750f89ac4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3904,
+      "title": "Playlab",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.playlab.ai/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/playlab_877c8b4e-4a04-4934-8d16-1b97151ef8b0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3905,
+      "title": "\"The Boy Genius of Ulan Bator.\"",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.nytimes.com/2013/09/15/magazine/the-boy-genius-of-ulan-bator.html",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/the-boy-genius-of-ulan-bator_89e0c94a-3c30-47e9-bdc3-9c5d776c1d44/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3906,
+      "title": "Failure to Disrupt Book Club with Candace Thille",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-candace-thille/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/failure-to-disrupt-book-club-with-candace-thille_8c185a15-0439-4a34-ab4b-f429b54eced6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3907,
+      "title": "Failure to Disrupt Book Club: Intro with Audrey Watters and Chris Gilliard.",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-chris-gilliard/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/failure-to-disrupt-book-club-intro-with-audrey-watters-and-chris-gilliard_9037d25f-84ce-4da4-9815-cfa26375d12a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3908,
+      "title": "\"Computer-Assisted Instruction\" (PDF).",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "http://www.rca.ucsd.edu/selected_papers/Computer%20Assisted%20Instruction_Science%20Vol%20162_October%201968.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/computer-assisted-instruction-pdf_906562dc-e597-40dd-ba49-7b94df799a2a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3909,
+      "title": "Session 12: Innovation and Access in Online Learning",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses12.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mitcms_595_s24_ses12_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3910,
+      "title": "*Hanging Out, Messing Around, Geeking Out: Kids Living and Learning with New Media.*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mitpress.mit.edu/9780262518543/hanging-out-messing-around-and-geeking-out/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/hanging-out-messing-around-geeking-out-kids-living-and-learning-with-new-media_9a31ed67-0ddb-42fc-be26-3957f298c6ac/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3913,
+      "title": "Math Blaster Plus!",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://playclassic.games/games/educational-dos-games-online/play-math-blaster-plus-online/play/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/math-blaster-plus_a3d101ca-0aa9-4278-8c81-e154377e35d5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3914,
+      "title": "Education Technology as the \"New Normal.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://hackeducation.com/2017/05/24/new-normal",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/education-technology-as-the-new-normal_a4c3dc35-a790-45fc-8ea0-529f7e1a442c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3915,
+      "title": "Session 1: Welcome to Learning, Media, and Technology",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses1.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mitcms_595_s24_ses1_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3916,
+      "title": "*How People Learn: Brain, Mind, Experience, and School*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://nap.nationalacademies.org/catalog/9853/how-people-learn-brain-mind-experience-and-school-expanded-edition",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/how-people-learn-brain-mind-experience-and-school_ae253404-0217-4141-8b67-755686d42ee8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3917,
+      "title": "videos to help get started",
+      "media_type": "external",
+      "material_type": "Lecture Videos",
+      "source_url": "https://playlabai.notion.site/Getting-Started-on-Playlab-7b9b79c5ea964c3b88b9229c7d012677",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/videos-to-help-get-started_ae372416-c9ee-4276-a248-804a5ea6b73b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3918,
+      "title": "The Myth and the Millennialism of \"Disruptive Innovation.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://hackeducation.com/2013/05/24/disruptive-innovation",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/the-myth-and-the-millennialism-of-disruptive-innovation_ae51e88f-123c-4256-a88d-1759d85e2a68/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3919,
+      "title": "summary (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.macfound.org/media/article_pdfs/dml_ethnog_whitepaper_1.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/summary-pdf_aef87305-089d-4ddd-aef0-c1ea4de026d8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3920,
+      "title": "\"Using Data to Kill Demons: Learning from World of Warcraft.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.edweek.org/education/opinion-using-data-to-kill-demons-learning-from-world-of-warcraft/2012/08",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/using-data-to-kill-demons-learning-from-world-of-warcraft_b0fac32b-9489-4ba2-9a9a-18468d29a60c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3921,
+      "title": "09. Massive Open Online Courses (MOOCs)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-9_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-9_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3922,
+      "title": "09. Massive Open Online Courses (MOOCs)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=pPbJGG1JtVw",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-9_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3924,
+      "title": "09. Massive Open Online Courses (MOOCs) (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1v0EVh2NEVov8yRGdX3Nf7suARgoRwE4M_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-9_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3926,
+      "title": "General Institute Requirement (GIR)",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://firstyear.mit.edu/academics-exploration/general-institute-requirements-girs/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/general-institute-requirement-gir_bb0f04e3-6916-49e1-a47e-02e0fd9d0c14/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3927,
+      "title": "\"The ASSISTments Ecosystem: Building a Platform that Brings Scientists and Teachers Together for Minimally Invasive Research on Human Learning and Teaching.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://link.springer.com/article/10.1007/s40593-014-0024-x",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/the-assistments-ecosystem-building-a-platform-that-brings-scientists-and-teachers-togethebbe1c6bf-0482-4ae5-944a-c0ec1830288f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3928,
+      "title": "Remote Learning Guidance from State Education Agency during COVID-19",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://osf.io/preprints/edarxiv/437e2",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/remote-learning-guidance-from-state-education-agency-during-covid-19_bc357065-75e1-4f92-999c-ebb3d0ccef04/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3929,
+      "title": "Logical Journey of the Zoombinis",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://playclassic.games/games/educational-windows-games-online/logical-journey-of-the-zoombinis/play/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/logical-journey-of-the-zoombinis_bd5be39d-7342-44eb-bf29-317d60aa05db/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3930,
+      "title": "Session 16: Start-Up and the Curse of the Familiar",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses16.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mitcms_595_s24_ses16_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3931,
+      "title": "*Introduction to TUTOR (PDF)*",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://files.eric.ed.gov/fulltext/ED124137.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/introduction-to-tutor-pdf_be2dc9b7-a4d8-40b9-a82d-c6b21d16c5f4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3932,
+      "title": "\"The Disruption Machine.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.newyorker.com/magazine/2014/06/23/the-disruption-machine",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/the-disruption-machine_be3a3295-33a1-4d5e-97c1-b5a8c884b1a8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3933,
+      "title": "Failure to Disrupt Book Club with George Siemens and Liz Losh",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-george-siemens-and-elizabeth-losh/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/failure-to-disrupt-book-club-with-george-siemens-and-liz-losh_be8a6a8a-9285-4700-a751-c56c9a13fff8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3934,
+      "title": "\"Instructional Complexity and the Science to Explain It\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://learnlab.org/wp-content/uploads/2025/07/Instructional-Complexity.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/instructional-complexity-and-the-science-to-explain-it-pdf_bed15a0e-600b-47b2-aa32-dd1c7b487d84/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3935,
+      "title": "\"Scratch: Programming for All.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dl.acm.org/doi/10.1145/1592761.1592779",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/scratch-programming-for-all_bf1674da-695c-4356-af52-39b19ef5b3a1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3936,
+      "title": "Session 3: Situated Learning",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses3.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mitcms_595_s24_ses3_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3937,
+      "title": "\"New Technology and Teacher Productivity\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://scholar.harvard.edu/files/erictaylor/files/technology-teachers-jan-18.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/new-technology-and-teacher-productivity-pdf_c1f79b67-4c53-4d0c-bf85-3b6078e95ae2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3938,
+      "title": "Duolingo",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.duolingo.com/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/duolingo_c36a63ae-96ad-4e0c-bda8-14df6b74b0e2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3939,
+      "title": "\"Almost Wikipedia: Eight Early Encyclopedia Projects and the Mechanisms of Collective Action\" (PDF).",
+      "media_type": "pdf",
+      "material_type": "Projects",
+      "source_url": "https://mako.cc/academic/hill-almost_wikipedia-DRAFT.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/almost-wikipedia-eight-early-encyclopedia-projects-and-the-mechanisms-of-collective-actioc36d106b-bcc4-43c0-ab65-cab24cd77477/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3940,
+      "title": "Session 2: Cognitive Load Theory",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mitcms_595_s24_ses2_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3941,
+      "title": "\"Personalized Learning, Backpacks Full of Cash, Rockstar Teachers, and MOOC Madness.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://cyber.harvard.edu/events/luncheon/2013/05/reich",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/personalized-learning-backpacks-full-of-cash-rockstar-teachers-and-mooc-madness_c44c2071-a622-444a-b3f5-4dddefce9ff1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3942,
+      "title": "\"EdTech Start-Ups and the Curse of the Familiar.\"",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://edtechresearcher.com/2013/11/edtech_start-ups_and_the_curse_of_the_familar/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/edtech-start-ups-and-the-curse-of-the-familiar_c5635d0f-0d33-4cfc-94f2-d0932bca55ac/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3943,
+      "title": "https://instructionalmoves.gse.harvard.edu/facilitating-discussions",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://instructionalmoves.gse.harvard.edu/facilitating-discussions",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/httpsinstructionalmovesgseharvardedufacilitating-discussions_c6336048-f0be-4af8-88e4-1716a57828ac/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3944,
+      "title": "Transforming Teacher Education White Paper (PDF)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://1818747.fs1.hubspotusercontent-na1.net/hubfs/1818747/2023_ISTEWhitePaper_TransformTeacherEd_web.pdf?__hstc=12275691.9e16a60a0c29059f31303eb696af9ab5.1695988619252.1695988619252.1695988619252.1&__hssc=12275691.1.1695988619252&__hsfp=1871964875&hsCtaTracking=2c605864-51e6-47a4-9154-820c66b6028e%7C17798335-47f7-4331-9fc8-2e40cf3c2304",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/transforming-teacher-education-white-paper-pdf_c6fce4eb-1e1c-470c-a8ed-ffb3fee240bc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3945,
+      "title": "\"Diverse Big Data and Randomized Experiments in Massive Open Online Courses\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.solaresearch.org/wp-content/uploads/2017/05/chapter18.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/diverse-big-data-and-randomized-experiments-in-massive-open-online-courses-pdf_cd4162a3-b170-498a-af07-388e1746d6eb/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3946,
+      "title": "\"Adaptability to Online Learning.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academiccommons.columbia.edu/doi/10.7916/D82N59NB?fbclid=IwAR3YLmSDJ8RORJaFbmNQWiM6SHK81ZNfmL7TCeMYRR_mya_8eEHcPT6E4WI",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/adaptability-to-online-learning_cd7a8a97-ba95-403f-9bea-fca1662ebe4e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3947,
+      "title": "Humanities and Social Sciences (HASS)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://registrar.mit.edu/registration-academics/academic-requirements/hass-requirement",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/humanities-and-social-sciences-hass_d7db2c45-4f94-4c8e-88a8-f453a12e64d7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3948,
+      "title": "The Histories of Personalized Learning",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://hackeducation.com/2017/06/09/personalization",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/the-histories-of-personalized-learning_d8d24928-4fa6-4c2a-92e9-f7e336c7cf74/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3949,
+      "title": "12. Interest-Driven Learning",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-12_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-12_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3950,
+      "title": "12. Interest-Driven Learning",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=QC8q4oYKwBI",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-12_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3952,
+      "title": "12. Interest-Driven Learning (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1Ebei2CikUA7glTtA35oZP7EN_dN7RHm6_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-12_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3953,
+      "title": "\"A Brief Overview of Actor-Network Theory.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://summit.sfu.ca/item/13593",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/a-brief-overview-of-actor-network-theory_dc198415-b4a1-4d1a-b9d9-f76ac132298a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3954,
+      "title": "10. Intelligent Tutors",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-10_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-10_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3955,
+      "title": "10. Intelligent Tutors",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=jY-kLDI8nBU",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-10_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3957,
+      "title": "10. Intelligent Tutors (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1za86ZNlocZTvHjMSbhtu8uMqWmUF7Ngj_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/resources/mit-cms595-s24-session-10_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 3958,
+      "title": "\"Where Are the Missing Masses? The Sociology of a Few Mundane Artifacts\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "http://www.bruno-latour.fr/sites/default/files/50-MISSING-MASSES-GB.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/where-are-the-missing-masses-the-sociology-of-a-few-mundane-artifacts-pdf_de811a8c-22e0-47ef-8bc8-9ac35111b42a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3959,
+      "title": "\"Opportunity for All? Technology and Learning for Lower-Income Families\" (PDF).",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://joanganzcooneycenter.org/wp-content/themes/jgcc/downloader.php?file=/wp-content/uploads/2016/01/jgcc_opportunityforall.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/opportunity-for-all-technology-and-learning-for-lower-income-families-pdf_dfe6c066-8fbf-4ce3-8b55-087439b45428/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3960,
+      "title": "\"A New Preface to the EdTech Developers Guide.\"",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://edtechresearcher.com/2015/04/preface-for-the-edtech-developers-guide/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/a-new-preface-to-the-edtech-developers-guide_e187189e-fe55-4306-be2c-9558ce8576ed/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3961,
+      "title": "A Short History of Education Technology",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://opentextbc.ca/teachinginadigitalage/chapter/section-8-1-a-short-history-of-educational-technology/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/a-short-history-of-education-technology_e4245e44-b247-489c-9155-611ab7588548/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3962,
+      "title": "CAPE: A Framework for Assessing Equity throughout the Computer Science Education Ecosystem",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://cacm.acm.org/opinion/cape/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/cape-a-framework-for-assessing-equity-throughout-the-computer-science-education-ecosysteme499e22a-e754-46bc-ac26-23daba6cd8ac/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3963,
+      "title": "*The Class: Living and Learning in the Digital Age*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://nyupress.org/9781479824243/the-class/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/the-class-living-and-learning-in-the-digital-age_e61a3fad-e126-4e35-af16-9e099349db6c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3964,
+      "title": "\"The Mismeasure of Students: Using Item Response Theory Instead of Traditional Grading to Assess Student Proficiency.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://medium.com/knerd/the-mismeasure-of-students-using-item-response-theory-instead-of-traditional-grading-to-assess-b55188707ee5",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/the-mismeasure-of-students-using-item-response-theory-instead-of-traditional-grading-to-ae7003ec0-8838-4048-a6b3-fe850ec513b7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3965,
+      "title": "*The Science of Learning* (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.deansforimpact.org/files/assets/thescienceoflearning.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/the-science-of-learning-pdf_e8cabeeb-4dd8-40c2-815d-ba3cf7170c6d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3966,
+      "title": "\"A Brief Introduction to Evidence‐Centered Design.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://onlinelibrary.wiley.com/doi/10.1002/j.2333-8504.2003.tb01908.x",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/a-brief-introduction-to-evidencecentered-design_eb5af208-7e09-4641-b60f-9d0a64fa28d7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3967,
+      "title": "\"Why School Reform Is Impossible (with Commentary on O'Shea's and Koschmann's Reviews of 'The Children's Machine').\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/1466781?seq=1",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/why-school-reform-is-impossible-with-commentary-on-osheas-and-koschmanns-reviews-of-the-cec538309-c7ee-4bd9-a538-a2c555b9e0f8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3968,
+      "title": "\"MOOCs: Expectations and Reality\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://files.eric.ed.gov/fulltext/ED547237.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/moocs-expectations-and-reality-pdf_ec8d8e86-941f-4278-b596-83163ee23107/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3969,
+      "title": "\"Is K-12 Blended Learning Disruptive?\"",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.christenseninstitute.org/publication/hybrids/",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/is-k-12-blended-learning-disruptive_eeccd2fa-33e8-47cf-8cd4-c39454749eb2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3970,
+      "title": "\"Online Mathematics Homework Increases Student Achievement\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://journals.sagepub.com/doi/full/10.1177/2332858416673968",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/online-mathematics-homework-increases-student-achievement_f0a15549-2d85-45f7-8fb7-3e5252602079/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3971,
+      "title": "*Resonant Games*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://direct.mit.edu/books/oa-monograph/4472/Resonant-GamesDesign-Principles-for-Learning-Games",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/resonant-games_f0f4c2e2-bbd3-4b65-ad3a-a217424a7749/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3972,
+      "title": "*Teaching Machines, or How the Automation of Education Became \"Personalized Learning.\"*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://hackeducation.com/2018/04/26/cuny-gc",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/teaching-machines-or-how-the-automation-of-education-became-personalized-learning_f6441578-6eed-4501-a7f5-a5e82f942762/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3973,
+      "title": "\"How AI Works: Chatbots and Large Language Models.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://code.org/ai/how-ai-works",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/how-ai-works-chatbots-and-large-language-models_f9fbfef9-e0f9-4d61-9efb-3cc81a35816b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3974,
+      "title": "Interpreting Effect Sizes of Educational Intervention (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://scholar.harvard.edu/files/mkraft/files/kraft_2019_effect_sizes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-595-learning-media-and-technology-spring-2024/external-resources/interpreting-effect-sizes-of-educational-intervention-pdf_fe35f5e9-1be6-4ad7-a343-befb58994fb9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

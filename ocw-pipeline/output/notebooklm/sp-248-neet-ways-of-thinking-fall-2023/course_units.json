@@ -1,0 +1,774 @@
+{
+  "generated_at": "2026-05-18T20:51:01.865Z",
+  "course": {
+    "course_id": "sp-248-neet-ways-of-thinking-fall-2023",
+    "title": "NEET Ways of Thinking",
+    "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 61,
+    "unit_count": 0,
+    "assigned_sources": 0,
+    "unassigned_sources": 61
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [],
+  "unassigned_sources": [
+    {
+      "id": 4821,
+      "title": "Reflection1: Ways of Thinking",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses01_ref01.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses01_ref01_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4822,
+      "title": "Session 2: Bug Fix Guide",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses02_bugfix.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses02_bugfix_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4823,
+      "title": "CSS thread overview",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://neet.mit.edu/threads/css",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/css-thread-overview_10db599b-b0b5-4e56-80fe-9a0aabfc3cd1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4824,
+      "title": "SP.248-Plaster-Mixing_transcript",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/sp248-plaster-mixing_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-plaster-mixing_transcript_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4825,
+      "title": "Creating Meaningful Analogies for Real-World Problems with the TCSA Method + ChatGPT.",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://medium.com/@realavi_58810/creating-meaningful-analogies-for-real-world-problems-target-criteria-source-analogy-tcsa-method-7fac089cb782",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/creating-meaningful-analogies-for-real-world-problems-with-the-tcsa-method-chatgpt_1c7d0fcc-c1b6-43a2-9e84-8188f4665e49/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4826,
+      "title": "Session 6: Case Description",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses06_case.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses06_case_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4827,
+      "title": "Presentation 4: Ill-Structured Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses05_pre04.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses05_pre04_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4828,
+      "title": "Session 6: Case Description Example",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses06_case_example.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses06_case_example_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4829,
+      "title": "Autonomous machines thread overview",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://neet.mit.edu/threads/am",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/autonomous-machines-thread-overview_2d6dce4b-7f80-46ff-b300-dde5e42c0f06/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4830,
+      "title": "Application 13a: Describe Your Systems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses06_app13a.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses06_app13a_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4831,
+      "title": "Hydrocal® White Gypsum Cement",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.usg.com/content/dam/USG_Marketing_Communications/united_states/sds/usg-hydrocal-white-gypsum-cement-sds-en-52000000092.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/hydrocal-white-gypsum-cement_2f3d6023-217d-45d7-871f-6b775903250d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4832,
+      "title": "Application 13: Describe Your Systems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses06_app13.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses06_app13_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4833,
+      "title": "Session 1 Lecture: Introduction",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses01.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses01_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4834,
+      "title": "Session 2: Challenge Presentation",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses02.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses02_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4836,
+      "title": "Application 5: Describe Alternative System Designs",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses04_app05.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses04_app05_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4837,
+      "title": "Application 3a: Design a Microfluidic Device for a Drug Delivery Experiment",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses03_app03a.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses03_app03a_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4838,
+      "title": "Reflection 3: Ways of Thinking",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses05_ref03.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses05_ref03_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4839,
+      "title": "Application 5a: Describe Alternative System Designs",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses04_app05a.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses04_app05a_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4840,
+      "title": "Preparation 3: Creative Thinking",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses05_pre03.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses05_pre03_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4841,
+      "title": "Application 14: Casting and Modeling a Figurine",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses07_app14.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses07_app14_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4842,
+      "title": "Session 5 Lecture: Creative Thinking in Digital Cities",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses05.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses05_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4843,
+      "title": "SP.248-Minibot-Functions_transcript",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/sp248-minibot-functions_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-minibot-functions_transcript_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4845,
+      "title": "Minibot Motor Functions Video",
+      "media_type": "youtube",
+      "material_type": "Demonstration Videos",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/sp248-minibot-functions_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-minibot-functions_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Demonstration Videos"
+      ]
+    },
+    {
+      "id": 4846,
+      "title": "Minibot Motor Functions Video",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=pCcntgGRQLQ",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-minibot-functions_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Demonstration Videos"
+      ]
+    },
+    {
+      "id": 4848,
+      "title": "Minibot Motor Functions Video (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/sp248-minibot-functions_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-minibot-functions_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Demonstration Videos"
+      ]
+    },
+    {
+      "id": 4849,
+      "title": "NEET program",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://neet.mit.edu/about/program",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/neet-program_66d83ad8-f01d-44ce-8d2b-93d466424986/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4850,
+      "title": "Making Challenge Tutorial Video: Molding and Casting",
+      "media_type": "youtube",
+      "material_type": "Demonstration Videos",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/sp248-molding-and-casting_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-molding-and-casting_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Demonstration Videos"
+      ]
+    },
+    {
+      "id": 4851,
+      "title": "Making Challenge Tutorial Video: Molding and Casting",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=3KG_stlWxGw",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-molding-and-casting_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Demonstration Videos"
+      ]
+    },
+    {
+      "id": 4853,
+      "title": "Making Challenge Tutorial Video: Molding and Casting (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/1giHbPQ__mOVASLSSEZxVKp337u7RhECd_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-molding-and-casting_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Demonstration Videos"
+      ]
+    },
+    {
+      "id": 4854,
+      "title": "Application 6: Suggest Improvements to System Design",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses04_app06.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses04_app06_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4855,
+      "title": "SP.248-Plaster-Mixing.mp4",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/sp248-plaster-mixing_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-plaster-mixing_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4856,
+      "title": "SP.248-Plaster-Mixing.mp4",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=GUSoCI-nnlw",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-plaster-mixing_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4858,
+      "title": "SP.248-Plaster-Mixing.mp4 (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/sp248-plaster-mixing_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-plaster-mixing_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4860,
+      "title": "Digital Cities thread overview",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://neet.mit.edu/threads/dc",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/digital-cities-thread-overview_87186b92-fbeb-49b4-88ef-e436a0497661/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4861,
+      "title": "Alja-Safe Crystalline Silica-Free Alginate",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.smooth-on.com/tb/files/Alja-Safe.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/alja-safe-crystalline-silica-free-alginate_8c23af0d-0a01-439b-b8a1-471298705348/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4862,
+      "title": "Application 7a: Formulate a Problem Statement",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses05_app07a.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses05_app07a_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4863,
+      "title": "Scratch",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://scratch.mit.edu/",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/scratch_922bbf78-c0e4-4401-bfb4-d0b51e88ef0c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4864,
+      "title": "Making Challenge Tutorial Video: Plaster Mixing",
+      "media_type": "youtube",
+      "material_type": "Demonstration Videos",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/sp248-plaster-mixing_v2_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-plaster-mixing_v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Demonstration Videos"
+      ]
+    },
+    {
+      "id": 4865,
+      "title": "Making Challenge Tutorial Video: Plaster Mixing",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=SdhZaeqIFKo",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-plaster-mixing_v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Demonstration Videos"
+      ]
+    },
+    {
+      "id": 4867,
+      "title": "Making Challenge Tutorial Video: Plaster Mixing (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/sp248-plaster-mixing_v2_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-plaster-mixing_v2_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Demonstration Videos"
+      ]
+    },
+    {
+      "id": 4868,
+      "title": "NEET Ways of Thinking",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://neet.mit.edu/about#waysofthinking",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/neet-ways-of-thinking_98e3d512-6d65-4a41-a406-935e34af90e2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4869,
+      "title": "Session 6: Case Description Example",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses06_caseexample.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses06_caseexample_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4870,
+      "title": "The Standard Definition of Creativity",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://psycnet.apa.org/record/2012-04002-011",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/the-standard-definition-of-creativity_9c5f055a-dc29-458e-a01e-ad0a99a4d178/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4871,
+      "title": "Creating Analogies for Design Problem-Solving: Initial Evaluation of An Engineering Faculty Workshop",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ieeexplore.ieee.org/document/10102860",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/creating-analogies-for-design-problem-solving-initial-evaluation-of-an-engineering-faculta02fd4e8-584d-4da8-bfd2-8717db0e73ef/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4872,
+      "title": "Application 3: Design a Microfluidic Device for a Drug Delivery Experiment",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses03_app03.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses03_app03_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4873,
+      "title": "Application 6a: Suggest Improvements to System Design",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses04_app06a.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses04_app06a_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4874,
+      "title": "Application 10: Formulate a problem Statement",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses06_app10.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses06_app10_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4875,
+      "title": "Preparation 2: Systems Thinking",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses03_pre02.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses03_pre02_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4876,
+      "title": "Sesssion 2 Scratch Project Instructor Instructions",
+      "media_type": "pdf",
+      "material_type": "Projects",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses02_scratch_instructions.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses02_scratch_instructions_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4877,
+      "title": "Session 2: Scratch Project Student Tutorial",
+      "media_type": "pdf",
+      "material_type": "Projects",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses02_proj_tutorial.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses02_proj_tutorial_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4878,
+      "title": "Application 9: Refine Your Ideas into Creative Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses05_app09.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses05_app09_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4880,
+      "title": "Application 4: Design a Microfluidic Device for a Drug Delivery Experiment",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses03_app04.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses03_app04_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4881,
+      "title": "Toward a Design Theory of Problem-Solving",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/30220285",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/toward-a-design-theory-of-problem-solving_e3ad1c88-df7f-4fb5-afd2-562ee3272d1f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4882,
+      "title": "Preparation 1: Algorithmic Thinking",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses02_pre01.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses02_pre01_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4883,
+      "title": "Application 4a: Ways of Thinking",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses07_ref04a.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses07_ref04a_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4884,
+      "title": "Application 12: Refine Your Ideas into Useful Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses06_app12.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses06_app12_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4885,
+      "title": "Sargent ART Non-Hardening Modeling Clay",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://images.schoolspecialty.com/images/110-0373_SDS_011023.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/sargent-art-non-hardening-modeling-clay_ed474da1-aff8-4271-bac3-9425f6a6b084/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4886,
+      "title": "SP.248-Plaster-Mixing_transcript",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/sp248-plaster-mixing_v2_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/sp248-plaster-mixing_v2_transcript_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4887,
+      "title": "he NEET Ways of Thinking: Implementing Them at MIT and Assessing Their Efficacy",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://advances.asee.org/wp-content/uploads/vol09/Issue3/Papers/AEE-Innovative-Lavi-3.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/external-resources/he-neet-ways-of-thinking-implementing-them-at-mit-and-assessing-their-efficacy_f9ce8f8f-7b79-4d04-9773-8a12462b5970/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4888,
+      "title": "Reflection 2: Ways of Thinking",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses03_ref02.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses03_ref02_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 4889,
+      "title": "Application 7: Formulate a Problem Statement",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/sp-248-neet-ways-of-thinking-fall-2023/mitsp_248_f23_ses05_app07.pdf",
+      "local_path": null,
+      "resource_path": "/courses/sp-248-neet-ways-of-thinking-fall-2023/resources/mitsp_248_f23_ses05_app07_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    }
+  ]
+}

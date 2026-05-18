@@ -1,0 +1,709 @@
+{
+  "generated_at": "2026-05-18T20:51:01.714Z",
+  "course": {
+    "course_id": "12-010-computational-methods-of-scientific-programming-fall-2024",
+    "title": "Computational Methods of Scientific Programming",
+    "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 32,
+    "unit_count": 23,
+    "assigned_sources": 26,
+    "unassigned_sources": 6
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "12.010 (F24): Lecture 01: Getting Started with Python and Programming Environment",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3082,
+          "title": "12.010 (F24): Lecture 01: Getting Started with Python and Programming Environment",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3105,
+          "title": "12.010 (F24): Problem Set 1",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_pset1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_pset1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "12.010 (F24): Lecture 02: Hardware, Boolean Algebra, and Loops",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3103,
+          "title": "12.010 (F24): Lecture 02: Hardware, Boolean Algebra, and Loops",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3055,
+          "title": "12.010 (F24): Problem Set 2",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_pset2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_pset2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "12.010 (F24): Lecture 03: Array Storage and Data Structures",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3053,
+          "title": "12.010 (F24): Lecture 03: Array Storage and Data Structures",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec03_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3089,
+          "title": "12.010 (F24): Problem Set 3",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_pset3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_pset3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "12.010 (F24): Lecture 04: Algorithms and Common Problems",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3140,
+          "title": "12.010 (F24): Lecture 04: Algorithms and Common Problems",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "12.010 (F24): Lecture 05: Input/Output and Program Design",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3135,
+          "title": "12.010 (F24): Lecture 05: Input/Output and Program Design",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec05_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "12.010 (F24): Lecture 06: Solving Problems Numerically",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3109,
+          "title": "12.010 (F24): Lecture 06: Solving Problems Numerically",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "12.010 (F24): Lecture 07: ODE Solutions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3029,
+          "title": "12.010 (F24): Lecture 07: ODE Solutions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec07_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "12.010 (F24): Lecture 08: Graphics",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3088,
+          "title": "12.010 (F24): Lecture 08: Graphics",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "12.010 (F24): Lecture 09: Graphics (cont.) and GUIs",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3129,
+          "title": "12.010 (F24): Lecture 09: Graphics (cont.) and GUIs",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec09_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "12.010 (F24): Lecture 10: Code Re-Visits",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3021,
+          "title": "12.010 (F24): Lecture 10: Code Re-Visits",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "12.010 (F24): Lecture 11: Data Analysis",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3098,
+          "title": "12.010 (F24): Lecture 11: Data Analysis",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec11_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "12.010 (F24): Lecture 12: Libraries, Geopandas, and Xarray",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3066,
+          "title": "12.010 (F24): Lecture 12: Libraries, Geopandas, and Xarray",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec12_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "12.010 (F24): Lecture 13: Outputting and Formatting Results",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3030,
+          "title": "12.010 (F24): Lecture 13: Outputting and Formatting Results",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec13.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec13_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "12.010 (F24): Lecture 14: Compiled Languages",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3016,
+          "title": "12.010 (F24): Lecture 14: Compiled Languages",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec14.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec14_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "12.010 (F24): Lecture 15: Fortran",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3152,
+          "title": "12.010 (F24): Lecture 15: Fortran",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec15.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec15_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "12.010 (F24): Lecture 16: C/C++",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3139,
+          "title": "12.010 (F24): Lecture 16: C/C++",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec16.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec16_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "12.010 (F24): Lecture 17: C/C++ (cont.)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3106,
+          "title": "12.010 (F24): Lecture 17: C/C++ (cont.)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec17.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec17_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "12.010 (F24): Lecture 18: Finish C++, Classes in Python",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3024,
+          "title": "12.010 (F24): Lecture 18: Finish C++, Classes in Python",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec18.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec18_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "12.010 (F24): Lecture 19: Julia",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3010,
+          "title": "12.010 (F24): Lecture 19: Julia",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec19.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec19_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "12.010 (F24): Lecture 20: Julia Objects, Multiple Dispatch",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3015,
+          "title": "12.010 (F24): Lecture 20: Julia Objects, Multiple Dispatch",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec20.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec20_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "12.010 (F24): Lecture 21: Parallel Programming; Algorithms and Scaling; MPI",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3025,
+          "title": "12.010 (F24): Lecture 21: Parallel Programming; Algorithms and Scaling; MPI",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec21.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec21_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 22,
+      "title": "12.010 (F24): Lecture 22: Version Control and Software Management Practices",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3115,
+          "title": "12.010 (F24): Lecture 22: Version Control and Software Management Practices",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec22.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec22_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "12.010 (F24): Lecture 23: Working with Large Data Files: NetCDF and Databases",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3022,
+          "title": "12.010 (F24): Lecture 23: Working with Large Data Files: NetCDF and Databases",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/12-010-computational-methods-of-scientific-programming-fall-2024/mit12_010_f24_lec23.pdf",
+          "local_path": null,
+          "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/resources/mit12_010_f24_lec23_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 3014,
+      "title": "*8.01L Physics I: Classical Mechanics*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/8-01l-physics-i-classical-mechanics-fall-2005/",
+      "local_path": null,
+      "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/external-resources/801l-physics-i-classical-mechanics_1135d502-c1c4-4846-9a04-a1ef47442403/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3035,
+      "title": "General Institute Requirement (GIR) in Mathematics",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/",
+      "local_path": null,
+      "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/external-resources/general-institute-requirement-gir-in-mathematics_30c3e492-ebbc-4607-9d18-4af66de7c223/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3039,
+      "title": "*8.01 Classical Mechanics*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/",
+      "local_path": null,
+      "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/external-resources/801-classical-mechanics_36f3c67d-7c53-4927-8f57-39f46be2988b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3047,
+      "title": "*8.012 Physics I: Classical Mechanics*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/8-012-physics-i-classical-mechanics-fall-2008/",
+      "local_path": null,
+      "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/external-resources/8012-physics-i-classical-mechanics_41a553e5-5873-42cb-9609-b8db32f3092f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3112,
+      "title": "*18.022 Calculus of Several Variables*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-022-calculus-of-several-variables-fall-2010/",
+      "local_path": null,
+      "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/external-resources/18022-calculus-of-several-variables_bca94bff-77cc-469c-8e9d-6df5ce839c9c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3127,
+      "title": "*18.02 Multivariable Calculus*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/",
+      "local_path": null,
+      "resource_path": "/courses/12-010-computational-methods-of-scientific-programming-fall-2024/external-resources/1802-multivariable-calculus_d1af6743-f9d8-4667-802c-31e4003c3599/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

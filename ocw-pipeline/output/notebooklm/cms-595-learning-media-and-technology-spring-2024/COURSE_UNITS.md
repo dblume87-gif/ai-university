@@ -1,0 +1,152 @@
+# Course Units: Learning, Media, and Technology
+
+Course ID: cms-595-learning-media-and-technology-spring-2024
+NotebookLM: -
+Units: 0
+Assigned Sources: 0
+Unassigned Sources: 142
+
+## Unassigned Sources
+
+- [external] Jonathon Cutrer — https://flic.kr/p/2pCV67C
+- [youtube] 02. How People Learn: Cognitive Load Theory — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-2_360p_16_9.mp4
+- [youtube] 02. How People Learn: Cognitive Load Theory — https://www.youtube.com/watch?v=P4RVO9aIIVA
+- [pdf] 02. How People Learn: Cognitive Load Theory (video transcript file) — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1V7-yalWONdVyzGJ270l45Qzfu_Ml6z-7_transcript.pdf
+- [html] "Democratizing Ideologies and Inequality Regimes." — https://tressiemc.com/uncategorized/round-up-of-berkman-center-notes-and-reflections/
+- [html] *EdTech Developers Guide* — https://tech.ed.gov/developers-guide/
+- [html] "Calculating the Future of Writing in the Face of AI." — https://cmsw.mit.edu/advice-and-responses-from-faculty-on-chatgpt-and-a-i-assisted-writing/
+- [external] Driverless Ed-Tech. — https://hackeducation.com/2017/03/30/driverless
+- [html] Video & Multiple Choice: What Took Us So Long? — https://blog.desmos.com/articles/video-multiple-choice-what-took-us-so-long/
+- [youtube] "A Domain of One’s Own." — https://www.youtube.com/watch?t=34m37s&v=6m90BzVVPG4&feature=youtu.be
+- [external] "EdTech Decision Making in Higher Education Summary." — https://www.academia.edu/33355802/EdTech_Decision_making_in_Higher_Education_Summary_pdf_2017_
+- [external] Minecraft Education — https://education.minecraft.net/en-us
+- [external] "TSL MOOCs in Review." — https://osf.io/preprints/edarxiv/c3bhw
+- [pdf] "Cognitive Tutors: Technology Bringing Learning Sciences to the Classroom" (PDF) — https://pact.cs.cmu.edu/pubs/koedingercorbett06.pdf
+- [external] "'Connectivism' and Connective Knowledge." — https://www.huffpost.com/entry/connectivism-and-connecti_b_804653
+- [pdf] "Give P’s a Chance: Projects, Peers, Passion, Play" (PDF) — https://web.media.mit.edu/~mres/papers/constructionism-2014.pdf
+- [pdf] "How a New Actor Was Temporarily Enrolled into the Network of Game Playing" (PDF) — https://repository.isls.org/bitstream/1/2519/1/661-665.pdf
+- [youtube] 18. Trap of Routine Assessment — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-18_360p_16_9.mp4
+- [youtube] 18. Trap of Routine Assessment — https://www.youtube.com/watch?v=8hvDT6zKp98
+- [pdf] 18. Trap of Routine Assessment (video transcript file) — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/137d5P-gj0G3AVrZfxzlgWFaXa00JFQfQ_transcript.pdf
+- [html] *Family Creative Learning Guide* — https://www.familycreativelearning.org/guide/
+- [external] "Skipping School: America’s Hidden Education Crisis." — https://www.propublica.org/article/school-absenteeism-truancy-education-students
+- [external] Daily Creates — https://daily.ds106.us/random
+- [html] Anth101.com — https://anth101.com/
+- [youtube] 07. EdTech Before the Internet — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-7_360p_16_9.mp4
+- [youtube] 07. EdTech Before the Internet — https://www.youtube.com/watch?v=68XZ_P9MKM8
+- [pdf] 07. EdTech Before the Internet (video transcript file) — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1U9VupztX_yCeamRt02ASGvvLQzXGw30O_transcript.pdf
+- [html] Connected Learning Alliance — https://clalliance.org/publications/
+- [html] Failure to Disrupt Book Club with Neil and Cristina Heffernan. — https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-cristina-and-neil-heffernan/
+- [html] "Does an Algebra Course with Tutoring Software Improve Student Learning?" — https://www.rand.org/pubs/research_briefs/RB9746.html
+- [external] What’s Lost, What’s Left, What’s Next: Lessons Learns from Teachers and COVID 2020 — https://osf.io/preprints/edarxiv/8exp9
+- [youtube] 14. Learning Games — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-14_360p_16_9.mp4
+- [youtube] 14. Learning Games — https://www.youtube.com/watch?v=x0RamxvyDe0
+- [pdf] 14. Learning Games (video transcript file) — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1GXNxFdzcrVmKfuff1-MtuK172VPoSEIl_transcript.pdf
+- [youtube] 16. Start-Up and the Curse of the Familiar — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-16_360p_16_9.mp4
+- [youtube] 16. Start-Up and the Curse of the Familiar — https://www.youtube.com/watch?v=LQ-WcLwrU6c
+- [pdf] 16. Start-Up and the Curse of the Familiar (video transcript file) — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1VH8tbN4mou6KmkDjiCAwp5iORShcdBTK_transcript.pdf
+- [html] DS106 — http://ds106.us/
+- [youtube] 03. How People Learn: Situated Learning — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-3_360p_16_9.mp4
+- [youtube] 03. How People Learn: Situated Learning — https://www.youtube.com/watch?v=MXTA8HlhnuM
+- [pdf] 03. How People Learn: Situated Learning (video transcript file) — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1D-7nvaObwWrpyzMEuYNwAlSNaZO8eQ7T_transcript.pdf
+- [external] Imagining September: Principles and Design Elements for Ambitious Schools in COVID-19 — https://osf.io/preprints/edarxiv/gqa2w
+- [html] Failure to Disrupt Book Club with Scot Osterweil and Constance Steinkuehler — https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-scot-osterweil-and-constance-steinkuehler/
+- [html] CMS.594 — https://ocw.mit.edu/courses/cms-594-education-technology-studio-spring-2019/pages/readings/
+- [html] "Advice Concerning AI-Assisted Writing." — https://nickm.com/post/2023/01/advice-concerning-the-increase-in-ai-assisted-writing/
+- [external] "CATCHing CS Equity: Counselors, Administrators, and Teachers Collaborating Holistically." — https://osf.io/preprints/edarxiv/4wgm9
+- [html] Failure to Disrupt Book Club with Natalie Rusk and Mitch Resnick — https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-natalie-rusk-and-mitch-resnick/
+- [pdf] "The Legacy of InBloom" (PDF). — https://datasociety.net/pubs/ecl/InBloom_feb_2017.pdf
+- [html] COVID Research — https://tsl.mit.edu/covid-research/
+- [html] "Can AI Write Authentic Poetry?" — https://thereader.mitpress.mit.edu/can-ai-write-authentic-poetry/
+- [html] "What Is ChatGPT Doing … and Why Does It Work?" — https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
+- [pdf] "Connected Learning: An Agenda for Research and Design" (PDF) — https://clalliance.org/wp-content/uploads/2018/05/Connected_Learning_report.pdf
+- [html] Failure to Disrupt Book Club with Antero Garcia — https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-antero-garcia/
+- [external] 0.503x: Becoming a More Equitable Educator — https://openlearninglibrary.mit.edu/courses/course-v1:MITx+0.503x+T2020/about
+- [pdf] Session 14: Learning Games — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses14.pdf
+- [html] "The Simple Technology That Ruined Baseball." — https://www.theatlantic.com/entertainment/archive/2014/09/baseball-offensive-drought-and-camera-technology/379443/
+- [html] "From Computational Thinking to Computational Action." — https://cacm.acm.org/opinion/from-computational-thinking-to-computational-action/
+- [html] Failure to Disrupt Book Club with Dan Meyer — https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-dan-meyer/
+- [html] "Not a Theory of Everything: On Cognitive Load Theory and the Complexity of Learning." — https://cognitiveloadtheory.wordpress.com/
+- [pdf] Session 9: Massive Online Open Courses — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses9.pdf
+- [html] Khan Academy — https://www.khanacademy.org/
+- [pdf] "From Good Intentions to Real Outcomes: Equity by Design in Learning Technologies" (PDF) — https://clalliance.org/wp-content/uploads/2017/11/GIROreport_1031.pdf
+- [pdf] "A Call to Action for Closing the Digital Access, Design, and Use Divides: 2024 National Education Technology Plan" (PDF) — https://portal.ct.gov/das/-/media/das/ctedtech/publications/2025/2025-used-oet-archive/netp24.pdf
+- [external] "Disciplining Play: Digital Youth Culture as Capital at School." — https://www.journals.uchicago.edu/doi/abs/10.1086/695766
+- [youtube] "Practical Learning at Scale." — https://www.youtube.com/watch?v=JOPpgKsxUC0&feature=youtu.be&list=PLn0nrSd4xjjbBVXrdjJNjZLVkZTMHkgPg
+- [external] "Democratizing Education? Examining Access and Usage Patterns in Massive Open Online Courses." — https://www.science.org/doi/10.1126/science.aab3782
+- [external] The Teachers Have Something to Say: Teachers and COVID in 2021 — https://edarxiv.org/h8gac
+- [html] Failure to Disrupt Book Club with Courtney Bell — https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-courtney-bell/
+- [external] "Generative AI and K-12 Education: An MIT Perspective." — https://mit-genai.pubpub.org/pub/4k9msp17/release/1?readingCollection=0e231e9c
+- [youtube] Ignite Talk on Epic Creative Writing Courses — https://www.youtube.com/watch?v=p1tl7E6LX8M
+- [external] "Educational Technology Isn’t Leveling the Playing Field." — https://hechingerreport.org/educational-technology-isnt-leveling-playing-field/#:~:text=While%20technology%20has%20often%20been,school%2Dready%20and%20the%20less%2D
+- [youtube] 20. The Toxic Power of Data and Experiment — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-20_360p_16_9.mp4
+- [youtube] 20. The Toxic Power of Data and Experiment — https://www.youtube.com/watch?v=tnnuIwgXAt8
+- [pdf] 20. The Toxic Power of Data and Experiment (video transcript file) — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1DhKSGUZNPSNOKZxi6aAOho5_820XkU3Z_transcript.pdf
+- [youtube] "Learning Engineering: What We Know, What We Can Do." — https://www.youtube.com/watch?v=VSrsOzzjV8I&list=PLI5g5RWpdCgdfwFpqpY9sQpnxKtatHoX4&index=4
+- [external] Healing, Community, and Humanity. How Students and Teachers Want to Reinvent Schools Post-COVID — https://edarxiv.org/nd52b
+- [external] "The MOOC Phenomenon: Who Takes Massively Open Online Courses and Why?" — https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2350964
+- [html] Playlab — https://www.playlab.ai/
+- [html] "The Boy Genius of Ulan Bator." — https://www.nytimes.com/2013/09/15/magazine/the-boy-genius-of-ulan-bator.html
+- [html] Failure to Disrupt Book Club with Candace Thille — https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-candace-thille/
+- [html] Failure to Disrupt Book Club: Intro with Audrey Watters and Chris Gilliard. — https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-chris-gilliard/
+- [pdf] "Computer-Assisted Instruction" (PDF). — http://www.rca.ucsd.edu/selected_papers/Computer%20Assisted%20Instruction_Science%20Vol%20162_October%201968.pdf
+- [pdf] Session 12: Innovation and Access in Online Learning — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses12.pdf
+- [html] *Hanging Out, Messing Around, Geeking Out: Kids Living and Learning with New Media.* — https://mitpress.mit.edu/9780262518543/hanging-out-messing-around-and-geeking-out/
+- [html] Math Blaster Plus! — https://playclassic.games/games/educational-dos-games-online/play-math-blaster-plus-online/play/
+- [external] Education Technology as the "New Normal." — https://hackeducation.com/2017/05/24/new-normal
+- [pdf] Session 1: Welcome to Learning, Media, and Technology — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses1.pdf
+- [external] *How People Learn: Brain, Mind, Experience, and School* — https://nap.nationalacademies.org/catalog/9853/how-people-learn-brain-mind-experience-and-school-expanded-edition
+- [external] videos to help get started — https://playlabai.notion.site/Getting-Started-on-Playlab-7b9b79c5ea964c3b88b9229c7d012677
+- [external] The Myth and the Millennialism of "Disruptive Innovation." — https://hackeducation.com/2013/05/24/disruptive-innovation
+- [pdf] summary (PDF) — https://www.macfound.org/media/article_pdfs/dml_ethnog_whitepaper_1.pdf
+- [external] "Using Data to Kill Demons: Learning from World of Warcraft." — https://www.edweek.org/education/opinion-using-data-to-kill-demons-learning-from-world-of-warcraft/2012/08
+- [youtube] 09. Massive Open Online Courses (MOOCs) — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-9_360p_16_9.mp4
+- [youtube] 09. Massive Open Online Courses (MOOCs) — https://www.youtube.com/watch?v=pPbJGG1JtVw
+- [pdf] 09. Massive Open Online Courses (MOOCs) (video transcript file) — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1v0EVh2NEVov8yRGdX3Nf7suARgoRwE4M_transcript.pdf
+- [html] General Institute Requirement (GIR) — https://firstyear.mit.edu/academics-exploration/general-institute-requirements-girs/
+- [external] "The ASSISTments Ecosystem: Building a Platform that Brings Scientists and Teachers Together for Minimally Invasive Research on Human Learning and Teaching." — https://link.springer.com/article/10.1007/s40593-014-0024-x
+- [external] Remote Learning Guidance from State Education Agency during COVID-19 — https://osf.io/preprints/edarxiv/437e2
+- [html] Logical Journey of the Zoombinis — https://playclassic.games/games/educational-windows-games-online/logical-journey-of-the-zoombinis/play/
+- [pdf] Session 16: Start-Up and the Curse of the Familiar — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses16.pdf
+- [pdf] *Introduction to TUTOR (PDF)* — https://files.eric.ed.gov/fulltext/ED124137.pdf
+- [external] "The Disruption Machine." — https://www.newyorker.com/magazine/2014/06/23/the-disruption-machine
+- [html] Failure to Disrupt Book Club with George Siemens and Liz Losh — https://www.teachlabpodcast.com/failure-to-disrupt-book-club-with-george-siemens-and-elizabeth-losh/
+- [pdf] "Instructional Complexity and the Science to Explain It" (PDF) — https://learnlab.org/wp-content/uploads/2025/07/Instructional-Complexity.pdf
+- [external] "Scratch: Programming for All." — https://dl.acm.org/doi/10.1145/1592761.1592779
+- [pdf] Session 3: Situated Learning — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses3.pdf
+- [pdf] "New Technology and Teacher Productivity" (PDF) — https://scholar.harvard.edu/files/erictaylor/files/technology-teachers-jan-18.pdf
+- [html] Duolingo — https://www.duolingo.com/
+- [pdf] "Almost Wikipedia: Eight Early Encyclopedia Projects and the Mechanisms of Collective Action" (PDF). — https://mako.cc/academic/hill-almost_wikipedia-DRAFT.pdf
+- [pdf] Session 2: Cognitive Load Theory — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mitcms_595_s24_ses2.pdf
+- [external] "Personalized Learning, Backpacks Full of Cash, Rockstar Teachers, and MOOC Madness." — https://cyber.harvard.edu/events/luncheon/2013/05/reich
+- [html] "EdTech Start-Ups and the Curse of the Familiar." — https://edtechresearcher.com/2013/11/edtech_start-ups_and_the_curse_of_the_familar/
+- [external] https://instructionalmoves.gse.harvard.edu/facilitating-discussions — https://instructionalmoves.gse.harvard.edu/facilitating-discussions
+- [external] Transforming Teacher Education White Paper (PDF) — https://1818747.fs1.hubspotusercontent-na1.net/hubfs/1818747/2023_ISTEWhitePaper_TransformTeacherEd_web.pdf?__hstc=12275691.9e16a60a0c29059f31303eb696af9ab5.1695988619252.1695988619252.1695988619252.1&__hssc=12275691.1.1695988619252&__hsfp=1871964875&hsCtaTracking=2c605864-51e6-47a4-9154-820c66b6028e%7C17798335-47f7-4331-9fc8-2e40cf3c2304
+- [pdf] "Diverse Big Data and Randomized Experiments in Massive Open Online Courses" (PDF) — https://www.solaresearch.org/wp-content/uploads/2017/05/chapter18.pdf
+- [external] "Adaptability to Online Learning." — https://academiccommons.columbia.edu/doi/10.7916/D82N59NB?fbclid=IwAR3YLmSDJ8RORJaFbmNQWiM6SHK81ZNfmL7TCeMYRR_mya_8eEHcPT6E4WI
+- [external] Humanities and Social Sciences (HASS) — https://registrar.mit.edu/registration-academics/academic-requirements/hass-requirement
+- [external] The Histories of Personalized Learning — https://hackeducation.com/2017/06/09/personalization
+- [youtube] 12. Interest-Driven Learning — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-12_360p_16_9.mp4
+- [youtube] 12. Interest-Driven Learning — https://www.youtube.com/watch?v=QC8q4oYKwBI
+- [pdf] 12. Interest-Driven Learning (video transcript file) — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1Ebei2CikUA7glTtA35oZP7EN_dN7RHm6_transcript.pdf
+- [external] "A Brief Overview of Actor-Network Theory." — https://summit.sfu.ca/item/13593
+- [youtube] 10. Intelligent Tutors — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/mit-cms595-s24-session-10_360p_16_9.mp4
+- [youtube] 10. Intelligent Tutors — https://www.youtube.com/watch?v=jY-kLDI8nBU
+- [pdf] 10. Intelligent Tutors (video transcript file) — https://ocw.mit.edu/courses/cms-595-learning-media-and-technology-spring-2024/1za86ZNlocZTvHjMSbhtu8uMqWmUF7Ngj_transcript.pdf
+- [pdf] "Where Are the Missing Masses? The Sociology of a Few Mundane Artifacts" (PDF) — http://www.bruno-latour.fr/sites/default/files/50-MISSING-MASSES-GB.pdf
+- [pdf] "Opportunity for All? Technology and Learning for Lower-Income Families" (PDF). — https://joanganzcooneycenter.org/wp-content/themes/jgcc/downloader.php?file=/wp-content/uploads/2016/01/jgcc_opportunityforall.pdf
+- [html] "A New Preface to the EdTech Developers Guide." — https://edtechresearcher.com/2015/04/preface-for-the-edtech-developers-guide/
+- [html] A Short History of Education Technology — https://opentextbc.ca/teachinginadigitalage/chapter/section-8-1-a-short-history-of-educational-technology/
+- [html] CAPE: A Framework for Assessing Equity throughout the Computer Science Education Ecosystem — https://cacm.acm.org/opinion/cape/
+- [html] *The Class: Living and Learning in the Digital Age* — https://nyupress.org/9781479824243/the-class/
+- [external] "The Mismeasure of Students: Using Item Response Theory Instead of Traditional Grading to Assess Student Proficiency." — https://medium.com/knerd/the-mismeasure-of-students-using-item-response-theory-instead-of-traditional-grading-to-assess-b55188707ee5
+- [pdf] *The Science of Learning* (PDF) — https://www.deansforimpact.org/files/assets/thescienceoflearning.pdf
+- [external] "A Brief Introduction to Evidence‐Centered Design." — https://onlinelibrary.wiley.com/doi/10.1002/j.2333-8504.2003.tb01908.x
+- [external] "Why School Reform Is Impossible (with Commentary on O'Shea's and Koschmann's Reviews of 'The Children's Machine')." — https://www.jstor.org/stable/1466781?seq=1
+- [pdf] "MOOCs: Expectations and Reality" (PDF) — https://files.eric.ed.gov/fulltext/ED547237.pdf
+- [html] "Is K-12 Blended Learning Disruptive?" — https://www.christenseninstitute.org/publication/hybrids/
+- [external] "Online Mathematics Homework Increases Student Achievement" — https://journals.sagepub.com/doi/full/10.1177/2332858416673968
+- [external] *Resonant Games* — https://direct.mit.edu/books/oa-monograph/4472/Resonant-GamesDesign-Principles-for-Learning-Games
+- [external] *Teaching Machines, or How the Automation of Education Became "Personalized Learning."* — https://hackeducation.com/2018/04/26/cuny-gc
+- [external] "How AI Works: Chatbots and Large Language Models." — https://code.org/ai/how-ai-works
+- [pdf] Interpreting Effect Sizes of Educational Intervention (PDF) — https://scholar.harvard.edu/files/mkraft/files/kraft_2019_effect_sizes.pdf

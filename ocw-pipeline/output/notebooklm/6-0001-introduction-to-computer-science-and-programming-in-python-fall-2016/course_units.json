@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T21:22:58.476Z",
+  "generated_at": "2026-05-18T20:51:01.794Z",
   "course": {
     "course_id": "6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016",
     "title": "Introduction to Computer Science and Programming in Python",
@@ -11,8 +11,8 @@
   "summary": {
     "material_sources": 257,
     "unit_count": 12,
-    "assigned_sources": 87,
-    "unassigned_sources": 170
+    "assigned_sources": 177,
+    "unassigned_sources": 80
   },
   "inference_rules": [
     "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
@@ -113,7 +113,7 @@
           "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/MIT6_0001F16_Lec1.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 869,
@@ -142,13 +142,133 @@
             "Programming Assignments"
           ],
           "unit_match": "assessment_number"
+        },
+        {
+          "id": 475,
+          "title": "Bindings",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=EFCdr_43qmU",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/bindings/data.json",
+          "parent_title": "Lecture 1",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 478,
+          "title": "Bindings (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/988d8f920e347265ec1acfa644155d03_EFCdr_43qmU.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/bindings/data.json",
+          "parent_title": "Lecture 1",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 503,
+          "title": "Python vs. Math",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=F-_PKUUM-qY",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/python-vs-1/data.json",
+          "parent_title": "Lecture 1 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 506,
+          "title": "Python vs. Math (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/3b3e814ffe2ef349fac15598b99ee8a1_F-_PKUUM-qY.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/python-vs-1/data.json",
+          "parent_title": "Lecture 1 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 601,
+          "title": "Bindings (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/81bd275feb131d9db3db395bb2798aa4_EFCdr_43qmU.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/bindings-1/data.json",
+          "parent_title": "Lecture 1 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 629,
+          "title": "Python vs. Math (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/90da1b44fd70a7140f877cac35106c9e_F-_PKUUM-qY.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/python-vs/data.json",
+          "parent_title": "Lecture 1",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 727,
+          "title": "Shell vs. Editor",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Y6J8I056Ffw",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/shell-vs-1/data.json",
+          "parent_title": "Lecture 1 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 730,
+          "title": "Shell vs. Editor (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/bc71a62eb8d54f6379e3a2d1a670c0a5_Y6J8I056Ffw.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/shell-vs-1/data.json",
+          "parent_title": "Lecture 1 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 750,
+          "title": "Shell vs. Editor (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/4b42a90262becb77fd1c2a3cc3cb6599_Y6J8I056Ffw.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/shell-vs/data.json",
+          "parent_title": "Lecture 1",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 7735,
+          "title": "What is Computation?",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=nykOeWgQcHM",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 9,
+      "source_count": 19,
       "source_types": {
         "video": 4,
-        "youtube": 1,
-        "pdf": 4
+        "youtube": 5,
+        "pdf": 10
       }
     },
     {
@@ -268,7 +388,7 @@
           "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/MIT6_0001F16_Lec2.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 808,
@@ -283,13 +403,205 @@
             "Lecture Notes"
           ],
           "unit_match": "lecture_token"
+        },
+        {
+          "id": 449,
+          "title": "While Loops",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=P-0w8xWcnDQ",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/while-loops-1/data.json",
+          "parent_title": "Lecture 2 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 452,
+          "title": "While Loops (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/13f7b896c7548549ae4d5e8f2c5c20b6_P-0w8xWcnDQ.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/while-loops-1/data.json",
+          "parent_title": "Lecture 2 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 459,
+          "title": "Strings",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=w4uxYDPsjbw",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/strings/data.json",
+          "parent_title": "Lecture 2",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 462,
+          "title": "Strings (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/af1b4fca67957762458dd60c41910a18_w4uxYDPsjbw.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/strings/data.json",
+          "parent_title": "Lecture 2",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 492,
+          "title": "For Loops",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=mrvBnZIEsZY",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/for-loops/data.json",
+          "parent_title": "Lecture 2",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 495,
+          "title": "For Loops (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/1bbe737a47db4c783c9029578fd82778_mrvBnZIEsZY.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/for-loops/data.json",
+          "parent_title": "Lecture 2",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 542,
+          "title": "Branching",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=jjbWNcIjmzc",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/branching/data.json",
+          "parent_title": "Lecture 2",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 545,
+          "title": "Branching (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/a640f2f5d6a754f8181ea77a01c60579_jjbWNcIjmzc.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/branching/data.json",
+          "parent_title": "Lecture 2",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 654,
+          "title": "Comparisons",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=lniF6ys2CIk",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/comparisons/data.json",
+          "parent_title": "Lecture 2",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 657,
+          "title": "Comparisons (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/ac677a6b04c164d2a7abb7adefa21838_lniF6ys2CIk.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/comparisons/data.json",
+          "parent_title": "Lecture 2",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 680,
+          "title": "Strings (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/13ce627607efa9982ae632cd68faed56_w4uxYDPsjbw.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/strings-1/data.json",
+          "parent_title": "Lecture 2 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 714,
+          "title": "Branching (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/94271c09ff12398b2c619103cbec8413_jjbWNcIjmzc.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/branching-1/data.json",
+          "parent_title": "Lecture 2 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 7736,
+          "title": "Branching and Iteration",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=0jljZRnHwOI",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 785,
+          "title": "Comparisons (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6b09eb77ff5c62be5450ae89c557a155_lniF6ys2CIk.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/comparisons-1/data.json",
+          "parent_title": "Lecture 2 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 868,
+          "title": "While Loops (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/1a4842e8b4a1b4ab1c2676ce20e6767b_P-0w8xWcnDQ.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/while-loops/data.json",
+          "parent_title": "Lecture 2",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 885,
+          "title": "For Loops (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/853fadcd3f0c611ef65d59226b737317_mrvBnZIEsZY.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/for-loops-1/data.json",
+          "parent_title": "Lecture 2 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 10,
+      "source_count": 26,
       "source_types": {
         "video": 6,
-        "youtube": 1,
-        "pdf": 3
+        "youtube": 7,
+        "pdf": 13
       }
     },
     {
@@ -331,7 +643,7 @@
           "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/MIT6_0001F16_Lec3.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 806,
@@ -388,13 +700,97 @@
             "Lecture Videos"
           ],
           "unit_match": "lecture_token"
+        },
+        {
+          "id": 508,
+          "title": "For Loops With Strings",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=4WtaFLayz_w",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/for-loops-with-strings/data.json",
+          "parent_title": "Lecture 3",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 511,
+          "title": "For Loops With Strings (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/04a7dce7569d2cb05144aab86c1165e7_4WtaFLayz_w.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/for-loops-with-strings/data.json",
+          "parent_title": "Lecture 3",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 674,
+          "title": "String Manipulations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=-jjUoTiaSHw",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/string-manipulations/data.json",
+          "parent_title": "Lecture 3",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 677,
+          "title": "String Manipulations (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/f882a878aec1b9fa77b7aa7502e7e215_-jjUoTiaSHw.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/string-manipulations/data.json",
+          "parent_title": "Lecture 3",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 743,
+          "title": "String Manipulations (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/7ff9a2472e419158191dab60691b41cf_-jjUoTiaSHw.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/string-manipulations-1/data.json",
+          "parent_title": "Lecture 3 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 7737,
+          "title": "String Manipulation, Guess and Check, Approximations, Bisection",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=SE4P7IVCunE",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 862,
+          "title": "For Loops With Strings (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/d8caeefaa4694f5ab53a01668d623f54_4WtaFLayz_w.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/for-loops-with-strings-1/data.json",
+          "parent_title": "Lecture 3 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 7,
+      "source_count": 14,
       "source_types": {
         "video": 3,
-        "pdf": 3,
-        "youtube": 1
+        "pdf": 7,
+        "youtube": 4
       }
     },
     {
@@ -492,14 +888,98 @@
           "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/MIT6_0001F16_Lec4.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 470,
+          "title": "Functions as Arguments",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=QaOHeMnpnmU",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/functions-as-arguments/data.json",
+          "parent_title": "Lecture 4",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 473,
+          "title": "Functions as Arguments (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/4857d741e66fd5ec411662b431b5f3fd_QaOHeMnpnmU.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/functions-as-arguments/data.json",
+          "parent_title": "Lecture 4",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 487,
+          "title": "Function Calls",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=4gPwo38MNss",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/function-calls-1/data.json",
+          "parent_title": "Lecture 4 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 490,
+          "title": "Function Calls (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/962169c396cd68bddaf15d0269f39eec_4gPwo38MNss.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/function-calls-1/data.json",
+          "parent_title": "Lecture 4 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 521,
+          "title": "Functions as Arguments (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/544153a410f93b27bd2654102d232e60_QaOHeMnpnmU.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/functions-as-arguments-1/data.json",
+          "parent_title": "Lecture 4 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 7738,
+          "title": "Decomposition, Abstraction, and Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=MjbuarJ7SE0",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 778,
+          "title": "Function Calls (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/7741b28fedbfcfca89e76e58a8b80ebe_4gPwo38MNss.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/function-calls/data.json",
+          "parent_title": "Lecture 4",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 7,
+      "source_count": 14,
       "source_types": {
         "video": 3,
-        "youtube": 1,
-        "pdf": 3
+        "youtube": 4,
+        "pdf": 7
       }
     },
     {
@@ -621,14 +1101,170 @@
           "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/MIT6_0001F16_Lec5.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 513,
+          "title": "List Aliasing / Mutation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=FKp-6sojt9A",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/list-aliasing-mutation/data.json",
+          "parent_title": "Lecture 5",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 516,
+          "title": "List Aliasing / Mutation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/a4a712663fab1d42f16f73bc5eb61a22_FKp-6sojt9A.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/list-aliasing-mutation/data.json",
+          "parent_title": "Lecture 5",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 548,
+          "title": "Simple Lists",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=zYVWQpCitKQ",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/simple-lists-1/data.json",
+          "parent_title": "Lecture 5 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 551,
+          "title": "Simple Lists (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6e5926f9e308c4269aaf2892cc304392_zYVWQpCitKQ.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/simple-lists-1/data.json",
+          "parent_title": "Lecture 5 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 596,
+          "title": "Tuples",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=ncpb4wIsQu8",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/tuples-1/data.json",
+          "parent_title": "Lecture 5 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 599,
+          "title": "Tuples (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/8d09eeff9d83a981d931fdfbd0e7e548_ncpb4wIsQu8.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/tuples-1/data.json",
+          "parent_title": "Lecture 5 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 632,
+          "title": "List Aliasing / Mutation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/cc354eb3c37197596b5dd9a89acecb75_FKp-6sojt9A.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/list-aliasing-mutation-1/data.json",
+          "parent_title": "Lecture 5 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 634,
+          "title": "List Operations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=SrkqbLOQcEo",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/list-operations/data.json",
+          "parent_title": "Lecture 5",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 637,
+          "title": "List Operations (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/d9f2a2653fb21577adb97c07fd3eae6f_SrkqbLOQcEo.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/list-operations/data.json",
+          "parent_title": "Lecture 5",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 766,
+          "title": "Simple Lists (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/29c347446971ec2035a3f0caeb85aa20_zYVWQpCitKQ.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/simple-lists/data.json",
+          "parent_title": "Lecture 5",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 7739,
+          "title": "Tuples, Lists, Aliasing, Mutability, and Cloning",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=RvRKT-jXvko",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 830,
+          "title": "Tuples (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/d3150e27dfe972e8349e65aa20d6d210_ncpb4wIsQu8.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/tuples/data.json",
+          "parent_title": "Lecture 5",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 872,
+          "title": "List Operations (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/fa4700cda2b934b3f58b0cd212a97e7f_SrkqbLOQcEo.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/list-operations-1/data.json",
+          "parent_title": "Lecture 5 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 9,
+      "source_count": 22,
       "source_types": {
-        "youtube": 1,
+        "youtube": 6,
         "video": 5,
-        "pdf": 3
+        "pdf": 11
       }
     },
     {
@@ -660,7 +1296,7 @@
           "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/MIT6_0001F16_Lec6.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 797,
@@ -703,12 +1339,24 @@
             "Lecture Videos"
           ],
           "unit_match": "lecture_token"
+        },
+        {
+          "id": 7740,
+          "title": "Recursion and Dictionaries",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=WPSeyjX1-4s",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 5,
+      "source_count": 6,
       "source_types": {
         "pdf": 3,
-        "youtube": 1,
+        "youtube": 2,
         "video": 1
       }
     },
@@ -819,14 +1467,134 @@
           "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/MIT6_0001F16_Lec7.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 536,
+          "title": "Black Box and Glass Box Testing",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=5McjE8e5gIg",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/black-box-and-glass-box-testing/data.json",
+          "parent_title": "Lecture 7",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 539,
+          "title": "Black Box and Glass Box Testing (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/48fd374fa4658f73ac6bc3839ea389ad_5McjE8e5gIg.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/black-box-and-glass-box-testing/data.json",
+          "parent_title": "Lecture 7",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 570,
+          "title": "Errors",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=-wz4iU2V-Yo",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/errors/data.json",
+          "parent_title": "Lecture 7",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 573,
+          "title": "Errors (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/ec99cb58aa1bcfd99ffd99ea011de854_-wz4iU2V-Yo.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/errors/data.json",
+          "parent_title": "Lecture 7",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 580,
+          "title": "Exceptions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=0Whyfs88TYE",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/exceptions/data.json",
+          "parent_title": "Lecture 7",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 583,
+          "title": "Exceptions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/91d2504ca8c093e5e608930ed5e46535_0Whyfs88TYE.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/exceptions/data.json",
+          "parent_title": "Lecture 7",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 697,
+          "title": "Black Box and Glass Box Testing (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/385141ae56a3bd0bbd5cdc1d3437069f_5McjE8e5gIg.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/black-box-and-glass-box-testing-1/data.json",
+          "parent_title": "Lecture 7 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 747,
+          "title": "Exceptions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/a498a7c00294f5302221a276a8e2de3d_0Whyfs88TYE.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/exceptions-1/data.json",
+          "parent_title": "Lecture 7 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 7741,
+          "title": "Testing, Debugging, Exceptions, and Assertions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=9H6muyZjms0",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 841,
+          "title": "Errors (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/2f4aca3461c3939be1a8adb62c0a9a0e_-wz4iU2V-Yo.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/errors-1/data.json",
+          "parent_title": "Lecture 7 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 8,
+      "source_count": 18,
       "source_types": {
-        "youtube": 1,
+        "youtube": 5,
         "video": 4,
-        "pdf": 3
+        "pdf": 9
       }
     },
     {
@@ -960,14 +1728,206 @@
           "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/MIT6_0001F16_Lec8.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 531,
+          "title": "Special Methods",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=qq7I2MQNrtU",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/special-methods-1/data.json",
+          "parent_title": "Lecture 8 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 534,
+          "title": "Special Methods (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/679522637ad602a92b3ca0802240224a_qq7I2MQNrtU.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/special-methods-1/data.json",
+          "parent_title": "Lecture 8 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 552,
+          "title": "Method Call",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=_ax4eNMI9Dw",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/method-call/data.json",
+          "parent_title": "Lecture 8",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 555,
+          "title": "Method Call (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/1c813f689d7cf8b52eb6eae66aab6e13_ax4eNMI9Dw.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/method-call/data.json",
+          "parent_title": "Lecture 8",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 566,
+          "title": "Class Instance",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=2__KumJsGXc",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/class-instance/data.json",
+          "parent_title": "Lecture 8",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 569,
+          "title": "Class Instance (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/4af66bdbb6c972292dbeeccb437d1738_2__KumJsGXc.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/class-instance/data.json",
+          "parent_title": "Lecture 8",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 615,
+          "title": "Methods",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=goalLDamePE",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/methods-1/data.json",
+          "parent_title": "Lecture 8 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 618,
+          "title": "Methods (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/5301e918891dce48fd370769aed6daa4_goalLDamePE.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/methods-1/data.json",
+          "parent_title": "Lecture 8 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 642,
+          "title": "Class Definition",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=vqn_yk5aFcI",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/class-definition-1/data.json",
+          "parent_title": "Lecture 8 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 645,
+          "title": "Class Definition (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/4ebdb49d2ede7d13d87e831e21576be8_vqn_yk5aFcI.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/class-definition-1/data.json",
+          "parent_title": "Lecture 8 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 648,
+          "title": "Class Definition (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/03c0992b7c0cf9d74884b45e19a5b5f7_vqn_yk5aFcI.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/class-definition/data.json",
+          "parent_title": "Lecture 8",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 709,
+          "title": "Method Call (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6e53e02a6872483e30753c34209e3edd_ax4eNMI9Dw.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/method-call-1/data.json",
+          "parent_title": "Lecture 8 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 757,
+          "title": "Class Instance (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/503fde59f31e708079c0fa53a1a4b260_2__KumJsGXc.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/class-instance-1/data.json",
+          "parent_title": "Lecture 8 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 762,
+          "title": "Special Methods (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/13a7a20e33d6cf30bedf5622c894fd17_qq7I2MQNrtU.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/special-methods/data.json",
+          "parent_title": "Lecture 8",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 7742,
+          "title": "Object Oriented Programming",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=-DP1i2ZU9gk",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 804,
+          "title": "Methods (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/48d373c339a235b32c5a547d3114efe5_goalLDamePE.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/methods/data.json",
+          "parent_title": "Lecture 8",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 10,
+      "source_count": 26,
       "source_types": {
         "video": 6,
-        "youtube": 1,
-        "pdf": 3
+        "youtube": 7,
+        "pdf": 13
       }
     },
     {
@@ -1053,7 +2013,7 @@
           "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/MIT6_0001F16_Lec9.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 824,
@@ -1066,13 +2026,97 @@
           "parent_title": "Lecture 9",
           "learning_resource_types": [],
           "unit_match": "inferred"
+        },
+        {
+          "id": 557,
+          "title": "Subclass",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=8s0d87sjy1A",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/subclass/data.json",
+          "parent_title": "Lecture 9",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 560,
+          "title": "Subclass (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/dc8365c3d4a2d7c921adaae8b7fb9f19_8s0d87sjy1A.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/subclass/data.json",
+          "parent_title": "Lecture 9",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 605,
+          "title": "Subclass (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6cb860523df7e08392ab4556b4ef651a_8s0d87sjy1A.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/subclass-1/data.json",
+          "parent_title": "Lecture 9 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 7743,
+          "title": "Python Classes and Inheritance",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=FlGjISF3l78",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 823,
+          "title": "Getters and Setters",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=C_pgH5QhIZ8",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/getters-and-setters/data.json",
+          "parent_title": "Lecture 9",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 826,
+          "title": "Getters and Setters (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6208f7b5a17dc17a4205347ea23457bd_C_pgH5QhIZ8.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/getters-and-setters/data.json",
+          "parent_title": "Lecture 9",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 883,
+          "title": "Getters and Setters (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/af786579cb33634aecc4dbc2c6cc4b86_C_pgH5QhIZ8.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/getters-and-setters-1/data.json",
+          "parent_title": "Lecture 9 Video Solutions",
+          "learning_resource_types": [],
+          "unit_match": "inferred"
         }
       ],
-      "source_count": 7,
+      "source_count": 14,
       "source_types": {
-        "youtube": 1,
+        "youtube": 4,
         "video": 3,
-        "pdf": 3
+        "pdf": 7
       }
     },
     {
@@ -1146,13 +2190,25 @@
           "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/MIT6_0001F16_Lec10.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7744,
+          "title": "Understanding Program Efficiency, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=o9nW0uBqvEo",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 5,
+      "source_count": 6,
       "source_types": {
         "pdf": 3,
-        "youtube": 1,
+        "youtube": 2,
         "video": 1
       }
     },
@@ -1213,7 +2269,7 @@
           "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/MIT6_0001F16_Lec11.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 811,
@@ -1228,11 +2284,23 @@
             "Lecture Notes"
           ],
           "unit_match": "lecture_token"
+        },
+        {
+          "id": 7745,
+          "title": "Understanding Program Efficiency, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=7lQXYl_L28w",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 5,
+      "source_count": 6,
       "source_types": {
-        "youtube": 1,
+        "youtube": 2,
         "video": 1,
         "pdf": 3
       }
@@ -1294,7 +2362,7 @@
           "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/MIT6_0001F16_Lec12.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 774,
@@ -1309,39 +2377,29 @@
             "Lecture Videos"
           ],
           "unit_match": "lecture_token"
+        },
+        {
+          "id": 7746,
+          "title": "Searching and Sorting",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=6LOwPhPDwVc",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 5,
+      "source_count": 6,
       "source_types": {
         "pdf": 3,
-        "youtube": 1,
+        "youtube": 2,
         "video": 1
       }
     }
   ],
   "unassigned_sources": [
-    {
-      "id": 449,
-      "title": "While Loops",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=P-0w8xWcnDQ",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/while-loops-1/data.json",
-      "parent_title": "Lecture 2 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 452,
-      "title": "While Loops (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/13f7b896c7548549ae4d5e8f2c5c20b6_P-0w8xWcnDQ.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/while-loops-1/data.json",
-      "parent_title": "Lecture 2 Video Solutions",
-      "learning_resource_types": []
-    },
     {
       "id": 453,
       "title": "3play pdf file",
@@ -1362,72 +2420,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/4wtaflayz_w-1/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 459,
-      "title": "Strings",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=w4uxYDPsjbw",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/strings/data.json",
-      "parent_title": "Lecture 2",
-      "learning_resource_types": []
-    },
-    {
-      "id": 462,
-      "title": "Strings (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/af1b4fca67957762458dd60c41910a18_w4uxYDPsjbw.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/strings/data.json",
-      "parent_title": "Lecture 2",
-      "learning_resource_types": []
-    },
-    {
-      "id": 470,
-      "title": "Functions as Arguments",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=QaOHeMnpnmU",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/functions-as-arguments/data.json",
-      "parent_title": "Lecture 4",
-      "learning_resource_types": []
-    },
-    {
-      "id": 473,
-      "title": "Functions as Arguments (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/4857d741e66fd5ec411662b431b5f3fd_QaOHeMnpnmU.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/functions-as-arguments/data.json",
-      "parent_title": "Lecture 4",
-      "learning_resource_types": []
-    },
-    {
-      "id": 475,
-      "title": "Bindings",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=EFCdr_43qmU",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/bindings/data.json",
-      "parent_title": "Lecture 1",
-      "learning_resource_types": []
-    },
-    {
-      "id": 478,
-      "title": "Bindings (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/988d8f920e347265ec1acfa644155d03_EFCdr_43qmU.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/bindings/data.json",
-      "parent_title": "Lecture 1",
       "learning_resource_types": []
     },
     {
@@ -1464,50 +2456,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 487,
-      "title": "Function Calls",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=4gPwo38MNss",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/function-calls-1/data.json",
-      "parent_title": "Lecture 4 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 490,
-      "title": "Function Calls (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/962169c396cd68bddaf15d0269f39eec_4gPwo38MNss.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/function-calls-1/data.json",
-      "parent_title": "Lecture 4 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 492,
-      "title": "For Loops",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=mrvBnZIEsZY",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/for-loops/data.json",
-      "parent_title": "Lecture 2",
-      "learning_resource_types": []
-    },
-    {
-      "id": 495,
-      "title": "For Loops (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/1bbe737a47db4c783c9029578fd82778_mrvBnZIEsZY.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/for-loops/data.json",
-      "parent_title": "Lecture 2",
-      "learning_resource_types": []
-    },
-    {
       "id": 499,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -1541,28 +2489,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 503,
-      "title": "Python vs. Math",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=F-_PKUUM-qY",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/python-vs-1/data.json",
-      "parent_title": "Lecture 1 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 506,
-      "title": "Python vs. Math (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/3b3e814ffe2ef349fac15598b99ee8a1_F-_PKUUM-qY.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/python-vs-1/data.json",
-      "parent_title": "Lecture 1 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
       "id": 507,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -1571,61 +2497,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/6lowphpdwvc-1/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 508,
-      "title": "For Loops With Strings",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=4WtaFLayz_w",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/for-loops-with-strings/data.json",
-      "parent_title": "Lecture 3",
-      "learning_resource_types": []
-    },
-    {
-      "id": 511,
-      "title": "For Loops With Strings (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/04a7dce7569d2cb05144aab86c1165e7_4WtaFLayz_w.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/for-loops-with-strings/data.json",
-      "parent_title": "Lecture 3",
-      "learning_resource_types": []
-    },
-    {
-      "id": 513,
-      "title": "List Aliasing / Mutation",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=FKp-6sojt9A",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/list-aliasing-mutation/data.json",
-      "parent_title": "Lecture 5",
-      "learning_resource_types": []
-    },
-    {
-      "id": 516,
-      "title": "List Aliasing / Mutation (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/a4a712663fab1d42f16f73bc5eb61a22_FKp-6sojt9A.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/list-aliasing-mutation/data.json",
-      "parent_title": "Lecture 5",
-      "learning_resource_types": []
-    },
-    {
-      "id": 521,
-      "title": "Functions as Arguments (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/544153a410f93b27bd2654102d232e60_QaOHeMnpnmU.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/functions-as-arguments-1/data.json",
-      "parent_title": "Lecture 4 Video Solutions",
       "learning_resource_types": []
     },
     {
@@ -1651,28 +2522,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 531,
-      "title": "Special Methods",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=qq7I2MQNrtU",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/special-methods-1/data.json",
-      "parent_title": "Lecture 8 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 534,
-      "title": "Special Methods (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/679522637ad602a92b3ca0802240224a_qq7I2MQNrtU.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/special-methods-1/data.json",
-      "parent_title": "Lecture 8 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
       "id": 535,
       "title": "Buy at MIT Press",
       "media_type": "external",
@@ -1681,28 +2530,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/external-resources/buy-at-mit-pressimagesmp_logogif_2b902eb3-68d5-4f20-b2f8-7107fb758e12/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 536,
-      "title": "Black Box and Glass Box Testing",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=5McjE8e5gIg",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/black-box-and-glass-box-testing/data.json",
-      "parent_title": "Lecture 7",
-      "learning_resource_types": []
-    },
-    {
-      "id": 539,
-      "title": "Black Box and Glass Box Testing (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/48fd374fa4658f73ac6bc3839ea389ad_5McjE8e5gIg.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/black-box-and-glass-box-testing/data.json",
-      "parent_title": "Lecture 7",
       "learning_resource_types": []
     },
     {
@@ -1717,28 +2544,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 542,
-      "title": "Branching",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=jjbWNcIjmzc",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/branching/data.json",
-      "parent_title": "Lecture 2",
-      "learning_resource_types": []
-    },
-    {
-      "id": 545,
-      "title": "Branching (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/a640f2f5d6a754f8181ea77a01c60579_jjbWNcIjmzc.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/branching/data.json",
-      "parent_title": "Lecture 2",
-      "learning_resource_types": []
-    },
-    {
       "id": 547,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -1747,116 +2552,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/-wz4iu2v-yo-3/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 548,
-      "title": "Simple Lists",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=zYVWQpCitKQ",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/simple-lists-1/data.json",
-      "parent_title": "Lecture 5 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 551,
-      "title": "Simple Lists (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6e5926f9e308c4269aaf2892cc304392_zYVWQpCitKQ.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/simple-lists-1/data.json",
-      "parent_title": "Lecture 5 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 552,
-      "title": "Method Call",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=_ax4eNMI9Dw",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/method-call/data.json",
-      "parent_title": "Lecture 8",
-      "learning_resource_types": []
-    },
-    {
-      "id": 555,
-      "title": "Method Call (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/1c813f689d7cf8b52eb6eae66aab6e13_ax4eNMI9Dw.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/method-call/data.json",
-      "parent_title": "Lecture 8",
-      "learning_resource_types": []
-    },
-    {
-      "id": 557,
-      "title": "Subclass",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=8s0d87sjy1A",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/subclass/data.json",
-      "parent_title": "Lecture 9",
-      "learning_resource_types": []
-    },
-    {
-      "id": 560,
-      "title": "Subclass (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/dc8365c3d4a2d7c921adaae8b7fb9f19_8s0d87sjy1A.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/subclass/data.json",
-      "parent_title": "Lecture 9",
-      "learning_resource_types": []
-    },
-    {
-      "id": 566,
-      "title": "Class Instance",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=2__KumJsGXc",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/class-instance/data.json",
-      "parent_title": "Lecture 8",
-      "learning_resource_types": []
-    },
-    {
-      "id": 569,
-      "title": "Class Instance (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/4af66bdbb6c972292dbeeccb437d1738_2__KumJsGXc.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/class-instance/data.json",
-      "parent_title": "Lecture 8",
-      "learning_resource_types": []
-    },
-    {
-      "id": 570,
-      "title": "Errors",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=-wz4iU2V-Yo",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/errors/data.json",
-      "parent_title": "Lecture 7",
-      "learning_resource_types": []
-    },
-    {
-      "id": 573,
-      "title": "Errors (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/ec99cb58aa1bcfd99ffd99ea011de854_-wz4iU2V-Yo.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/errors/data.json",
-      "parent_title": "Lecture 7",
       "learning_resource_types": []
     },
     {
@@ -1871,28 +2566,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 580,
-      "title": "Exceptions",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=0Whyfs88TYE",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/exceptions/data.json",
-      "parent_title": "Lecture 7",
-      "learning_resource_types": []
-    },
-    {
-      "id": 583,
-      "title": "Exceptions (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/91d2504ca8c093e5e608930ed5e46535_0Whyfs88TYE.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/exceptions/data.json",
-      "parent_title": "Lecture 7",
-      "learning_resource_types": []
-    },
-    {
       "id": 584,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -1904,39 +2577,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 596,
-      "title": "Tuples",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=ncpb4wIsQu8",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/tuples-1/data.json",
-      "parent_title": "Lecture 5 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 599,
-      "title": "Tuples (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/8d09eeff9d83a981d931fdfbd0e7e548_ncpb4wIsQu8.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/tuples-1/data.json",
-      "parent_title": "Lecture 5 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 601,
-      "title": "Bindings (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/81bd275feb131d9db3db395bb2798aa4_EFCdr_43qmU.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/bindings-1/data.json",
-      "parent_title": "Lecture 1 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
       "id": 603,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -1945,17 +2585,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/qaohemnpnmu-1/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 605,
-      "title": "Subclass (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6cb860523df7e08392ab4556b4ef651a_8s0d87sjy1A.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/subclass-1/data.json",
-      "parent_title": "Lecture 9 Video Solutions",
       "learning_resource_types": []
     },
     {
@@ -2003,28 +2632,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 615,
-      "title": "Methods",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=goalLDamePE",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/methods-1/data.json",
-      "parent_title": "Lecture 8 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 618,
-      "title": "Methods (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/5301e918891dce48fd370769aed6daa4_goalLDamePE.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/methods-1/data.json",
-      "parent_title": "Lecture 8 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
       "id": 619,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -2069,50 +2676,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 629,
-      "title": "Python vs. Math (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/90da1b44fd70a7140f877cac35106c9e_F-_PKUUM-qY.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/python-vs/data.json",
-      "parent_title": "Lecture 1",
-      "learning_resource_types": []
-    },
-    {
-      "id": 632,
-      "title": "List Aliasing / Mutation (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/cc354eb3c37197596b5dd9a89acecb75_FKp-6sojt9A.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/list-aliasing-mutation-1/data.json",
-      "parent_title": "Lecture 5 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 634,
-      "title": "List Operations",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=SrkqbLOQcEo",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/list-operations/data.json",
-      "parent_title": "Lecture 5",
-      "learning_resource_types": []
-    },
-    {
-      "id": 637,
-      "title": "List Operations (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/d9f2a2653fb21577adb97c07fd3eae6f_SrkqbLOQcEo.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/list-operations/data.json",
-      "parent_title": "Lecture 5",
-      "learning_resource_types": []
-    },
-    {
       "id": 638,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -2137,39 +2700,6 @@
       ]
     },
     {
-      "id": 642,
-      "title": "Class Definition",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=vqn_yk5aFcI",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/class-definition-1/data.json",
-      "parent_title": "Lecture 8 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 645,
-      "title": "Class Definition (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/4ebdb49d2ede7d13d87e831e21576be8_vqn_yk5aFcI.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/class-definition-1/data.json",
-      "parent_title": "Lecture 8 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 648,
-      "title": "Class Definition (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/03c0992b7c0cf9d74884b45e19a5b5f7_vqn_yk5aFcI.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/class-definition/data.json",
-      "parent_title": "Lecture 8",
-      "learning_resource_types": []
-    },
-    {
       "id": 650,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -2178,28 +2708,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/c_pgh5qhiz8-1/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 654,
-      "title": "Comparisons",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=lniF6ys2CIk",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/comparisons/data.json",
-      "parent_title": "Lecture 2",
-      "learning_resource_types": []
-    },
-    {
-      "id": 657,
-      "title": "Comparisons (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/ac677a6b04c164d2a7abb7adefa21838_lniF6ys2CIk.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/comparisons/data.json",
-      "parent_title": "Lecture 2",
       "learning_resource_types": []
     },
     {
@@ -2266,39 +2774,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/zyvwqpcitkq-3/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 674,
-      "title": "String Manipulations",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=-jjUoTiaSHw",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/string-manipulations/data.json",
-      "parent_title": "Lecture 3",
-      "learning_resource_types": []
-    },
-    {
-      "id": 677,
-      "title": "String Manipulations (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/f882a878aec1b9fa77b7aa7502e7e215_-jjUoTiaSHw.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/string-manipulations/data.json",
-      "parent_title": "Lecture 3",
-      "learning_resource_types": []
-    },
-    {
-      "id": 680,
-      "title": "Strings (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/13ce627607efa9982ae632cd68faed56_w4uxYDPsjbw.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/strings-1/data.json",
-      "parent_title": "Lecture 2 Video Solutions",
       "learning_resource_types": []
     },
     {
@@ -2379,28 +2854,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 697,
-      "title": "Black Box and Glass Box Testing (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/385141ae56a3bd0bbd5cdc1d3437069f_5McjE8e5gIg.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/black-box-and-glass-box-testing-1/data.json",
-      "parent_title": "Lecture 7 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 709,
-      "title": "Method Call (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6e53e02a6872483e30753c34209e3edd_ax4eNMI9Dw.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/method-call-1/data.json",
-      "parent_title": "Lecture 8 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
       "id": 712,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -2409,17 +2862,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ncpb4wisqu8-3/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 714,
-      "title": "Branching (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/94271c09ff12398b2c619103cbec8413_jjbWNcIjmzc.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/branching-1/data.json",
-      "parent_title": "Lecture 2 Video Solutions",
       "learning_resource_types": []
     },
     {
@@ -2467,28 +2909,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 727,
-      "title": "Shell vs. Editor",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=Y6J8I056Ffw",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/shell-vs-1/data.json",
-      "parent_title": "Lecture 1 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 730,
-      "title": "Shell vs. Editor (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/bc71a62eb8d54f6379e3a2d1a670c0a5_Y6J8I056Ffw.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/shell-vs-1/data.json",
-      "parent_title": "Lecture 1 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
       "id": 732,
       "title": "Dboybaker",
       "media_type": "external",
@@ -2519,39 +2939,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/efcdr_43qmu-1/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 743,
-      "title": "String Manipulations (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/7ff9a2472e419158191dab60691b41cf_-jjUoTiaSHw.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/string-manipulations-1/data.json",
-      "parent_title": "Lecture 3 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 747,
-      "title": "Exceptions (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/a498a7c00294f5302221a276a8e2de3d_0Whyfs88TYE.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/exceptions-1/data.json",
-      "parent_title": "Lecture 7 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 750,
-      "title": "Shell vs. Editor (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/4b42a90262becb77fd1c2a3cc3cb6599_Y6J8I056Ffw.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/shell-vs/data.json",
-      "parent_title": "Lecture 1",
       "learning_resource_types": []
     },
     {
@@ -2594,17 +2981,6 @@
       ]
     },
     {
-      "id": 757,
-      "title": "Class Instance (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/503fde59f31e708079c0fa53a1a4b260_2__KumJsGXc.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/class-instance-1/data.json",
-      "parent_title": "Lecture 8 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
       "id": 759,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -2627,17 +3003,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 762,
-      "title": "Special Methods (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/13a7a20e33d6cf30bedf5622c894fd17_qq7I2MQNrtU.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/special-methods/data.json",
-      "parent_title": "Lecture 8",
-      "learning_resource_types": []
-    },
-    {
       "id": 763,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -2646,17 +3011,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/jjbwncijmzc-1/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 766,
-      "title": "Simple Lists (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/29c347446971ec2035a3f0caeb85aa20_zYVWQpCitKQ.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/simple-lists/data.json",
-      "parent_title": "Lecture 5",
       "learning_resource_types": []
     },
     {
@@ -2693,138 +3047,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 7735,
-      "title": "What is Computation?",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=nykOeWgQcHM",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7736,
-      "title": "Branching and Iteration",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=0jljZRnHwOI",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7737,
-      "title": "String Manipulation, Guess and Check, Approximations, Bisection",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=SE4P7IVCunE",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7738,
-      "title": "Decomposition, Abstraction, and Functions",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=MjbuarJ7SE0",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7739,
-      "title": "Tuples, Lists, Aliasing, Mutability, and Cloning",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=RvRKT-jXvko",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7740,
-      "title": "Recursion and Dictionaries",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=WPSeyjX1-4s",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7741,
-      "title": "Testing, Debugging, Exceptions, and Assertions",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=9H6muyZjms0",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7742,
-      "title": "Object Oriented Programming",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=-DP1i2ZU9gk",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7743,
-      "title": "Python Classes and Inheritance",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=FlGjISF3l78",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7744,
-      "title": "Understanding Program Efficiency, Part 1",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=o9nW0uBqvEo",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7745,
-      "title": "Understanding Program Efficiency, Part 2",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=7lQXYl_L28w",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7746,
-      "title": "Searching and Sorting",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=6LOwPhPDwVc",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0001-Introduction-to-Computer-Science-and-Programming-in-Python/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
       "id": 775,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -2833,17 +3055,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/rvrkt-jxvko-1/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 778,
-      "title": "Function Calls (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/7741b28fedbfcfca89e76e58a8b80ebe_4gPwo38MNss.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/function-calls/data.json",
-      "parent_title": "Lecture 4",
       "learning_resource_types": []
     },
     {
@@ -2877,17 +3088,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/p8918biv01c_captions/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 785,
-      "title": "Comparisons (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6b09eb77ff5c62be5450ae89c557a155_lniF6ys2CIk.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/comparisons-1/data.json",
-      "parent_title": "Lecture 2 Video Solutions",
       "learning_resource_types": []
     },
     {
@@ -2935,17 +3135,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 804,
-      "title": "Methods (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/48d373c339a235b32c5a547d3114efe5_goalLDamePE.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/methods/data.json",
-      "parent_title": "Lecture 8",
-      "learning_resource_types": []
-    },
-    {
       "id": 813,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -2954,39 +3143,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/y6j8i056ffw-3/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 823,
-      "title": "Getters and Setters",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=C_pgH5QhIZ8",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/getters-and-setters/data.json",
-      "parent_title": "Lecture 9",
-      "learning_resource_types": []
-    },
-    {
-      "id": 826,
-      "title": "Getters and Setters (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6208f7b5a17dc17a4205347ea23457bd_C_pgH5QhIZ8.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/getters-and-setters/data.json",
-      "parent_title": "Lecture 9",
-      "learning_resource_types": []
-    },
-    {
-      "id": 830,
-      "title": "Tuples (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/d3150e27dfe972e8349e65aa20d6d210_ncpb4wIsQu8.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/tuples/data.json",
-      "parent_title": "Lecture 5",
       "learning_resource_types": []
     },
     {
@@ -3020,17 +3176,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ncpb4wisqu8-1/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 841,
-      "title": "Errors (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/2f4aca3461c3939be1a8adb62c0a9a0e_-wz4iU2V-Yo.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/errors-1/data.json",
-      "parent_title": "Lecture 7 Video Solutions",
       "learning_resource_types": []
     },
     {
@@ -3100,39 +3245,6 @@
       "learning_resource_types": []
     },
     {
-      "id": 862,
-      "title": "For Loops With Strings (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/d8caeefaa4694f5ab53a01668d623f54_4WtaFLayz_w.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/for-loops-with-strings-1/data.json",
-      "parent_title": "Lecture 3 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 868,
-      "title": "While Loops (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/1a4842e8b4a1b4ab1c2676ce20e6767b_P-0w8xWcnDQ.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/while-loops/data.json",
-      "parent_title": "Lecture 2",
-      "learning_resource_types": []
-    },
-    {
-      "id": 872,
-      "title": "List Operations (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/fa4700cda2b934b3f58b0cd212a97e7f_SrkqbLOQcEo.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/list-operations-1/data.json",
-      "parent_title": "Lecture 5 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
       "id": 873,
       "title": "3play pdf file",
       "media_type": "pdf",
@@ -3176,28 +3288,6 @@
       "local_path": null,
       "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/srkqbloqceo-3/data.json",
       "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 883,
-      "title": "Getters and Setters (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/af786579cb33634aecc4dbc2c6cc4b86_C_pgH5QhIZ8.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/getters-and-setters-1/data.json",
-      "parent_title": "Lecture 9 Video Solutions",
-      "learning_resource_types": []
-    },
-    {
-      "id": 885,
-      "title": "For Loops (video transcript file)",
-      "media_type": "pdf",
-      "material_type": "Lecture Videos",
-      "source_url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/853fadcd3f0c611ef65d59226b737317_mrvBnZIEsZY.pdf",
-      "local_path": null,
-      "resource_path": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/for-loops-1/data.json",
-      "parent_title": "Lecture 2 Video Solutions",
       "learning_resource_types": []
     }
   ]

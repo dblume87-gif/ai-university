@@ -1,0 +1,927 @@
+{
+  "generated_at": "2026-05-18T20:51:01.810Z",
+  "course": {
+    "course_id": "6-5630-advanced-topics-in-cryptography-fall-2023",
+    "title": "Advanced Topics in Cryptography",
+    "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 58,
+    "unit_count": 9,
+    "assigned_sources": 51,
+    "unassigned_sources": 7
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Interactive Proofs and the Sum-Check Protocol, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5268,
+          "title": "Lecture 1: Interactive Proofs and the Sum-Check Protocol, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-1-part-1_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-1-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5269,
+          "title": "Lecture 1: Interactive Proofs and the Sum-Check Protocol, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=iqSMRO78UD0",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-1-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5271,
+          "title": "Lecture 1: Interactive Proofs and the Sum-Check Protocol, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1QC4EFxXnP7e-ahgtlvfPxMkeXaNP58Ec_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-1-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5300,
+          "title": "Lecture 1: Interactive Proofs and the Sum-Check Protocol, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-1-part-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-1-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5301,
+          "title": "Lecture 1: Interactive Proofs and the Sum-Check Protocol, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=SRY3F9vtJHo",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-1-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5303,
+          "title": "Lecture 1: Interactive Proofs and the Sum-Check Protocol, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/18RE1bIQf2STSZldDhtdYh1-42SplBU8W_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-1-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 6,
+      "source_types": {
+        "youtube": 4,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Doubly Efficient Interactive Proofs, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5295,
+          "title": "Lecture 2: Doubly Efficient Interactive Proofs, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-2-part-1_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-2-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5296,
+          "title": "Lecture 2: Doubly Efficient Interactive Proofs, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=db1xAyO4YgM",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-2-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5298,
+          "title": "Lecture 2: Doubly Efficient Interactive Proofs, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1sI5XbOWUfLr-1_QbcWRfyyiHud-iEL0U_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-2-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5317,
+          "title": "Lecture 2: Doubly Efficient Interactive Proofs, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-2-part-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-2-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5318,
+          "title": "Lecture 2: Doubly Efficient Interactive Proofs, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Ob1fFHAXlJQ",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-2-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5320,
+          "title": "Lecture 2: Doubly Efficient Interactive Proofs, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1fweRKTq7I_K7vYLXbrPbkml1a7kIyUuS_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-2-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 6,
+      "source_types": {
+        "youtube": 4,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Continuation of the GKR Protocol and Corollaries",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5330,
+          "title": "Lecture 3: Continuation of the GKR Protocol and Corollaries",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-3_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5331,
+          "title": "Lecture 3: Continuation of the GKR Protocol and Corollaries",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=gp21TApWetE",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5333,
+          "title": "Lecture 3: Continuation of the GKR Protocol and Corollaries (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1jrc5t0mfqMjBG2qlnHwFPlWEmHp6qd0p_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "PCP via GKR and Interactive Arguments, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5273,
+          "title": "Lecture 4: PCP via GKR and Interactive Arguments, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-4-part-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-4-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5274,
+          "title": "Lecture 4: PCP via GKR and Interactive Arguments, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=rdFIIHIjb7A",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-4-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5276,
+          "title": "Lecture 4: PCP via GKR and Interactive Arguments, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1ar8aZfCgJfvU2KNdRmk9TRSPR81G2bka_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-4-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5326,
+          "title": "Lecture 4: PCP via GKR and Interactive Arguments, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-4-part-1_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-4-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5327,
+          "title": "Lecture 4: PCP via GKR and Interactive Arguments, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=L8PXcZ2ExiU",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-4-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5329,
+          "title": "Lecture 4: PCP via GKR and Interactive Arguments, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1G0iqQI5DIsrL2i3T1rAqSOcvqQx8Vy66_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-4-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 6,
+      "source_types": {
+        "youtube": 4,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "The Kilian-Micali Protocol, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5335,
+          "title": "Lecture 5: The Kilian-Micali Protocol, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-5-part-1_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-5-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5336,
+          "title": "Lecture 5: The Kilian-Micali Protocol, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=OO2qyzBAD14",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-5-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5338,
+          "title": "Lecture 5: The Kilian-Micali Protocol, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1d0S6mBQJYcRnII8d1AiRgZrvVj2mI1M3_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-5-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5339,
+          "title": "Lecture 5: The Kilian-Micali Protocol, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-5-part-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-5-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5340,
+          "title": "Lecture 5: The Kilian-Micali Protocol, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=iQBGzreBa0k",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-5-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5342,
+          "title": "Lecture 5: The Kilian-Micali Protocol, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1UvPxWvTsrlHPtJXMSTMDWrMw05Di_7SF_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-5-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 6,
+      "source_types": {
+        "youtube": 4,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Fiat-Shamir Paradigm and Zero-Knowledge Proofs, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5290,
+          "title": "Lecture 6: Fiat-Shamir Paradigm and Zero-Knowledge Proofs, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-6-part-1_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-6-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5291,
+          "title": "Lecture 6: Fiat-Shamir Paradigm and Zero-Knowledge Proofs, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=yBOmyxg0sVM",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-6-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5293,
+          "title": "Lecture 6: Fiat-Shamir Paradigm and Zero-Knowledge Proofs, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1S5PiuL9KjJVWWkvopiOpZiICX_zIUnP0_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-6-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5313,
+          "title": "Lecture 6: Fiat-Shamir Paradigm and Zero-Knowledge Proofs, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-6-part-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-6-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5314,
+          "title": "Lecture 6: Fiat-Shamir Paradigm and Zero-Knowledge Proofs, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=zEf_dECRUjY",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-6-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5316,
+          "title": "Lecture 6: Fiat-Shamir Paradigm and Zero-Knowledge Proofs, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1X4zMM8XjBZqEcoubtqZz31RDVl3h8AIc_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-6-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 6,
+      "source_types": {
+        "youtube": 4,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Soundness of the Fiat-Shamir Paradigm in the Standard Model, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5285,
+          "title": "Lecture 7: Soundness of the Fiat-Shamir Paradigm in the Standard Model, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-7-part-1_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-7-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5286,
+          "title": "Lecture 7: Soundness of the Fiat-Shamir Paradigm in the Standard Model, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=R2izY69q0m8",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-7-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5288,
+          "title": "Lecture 7: Soundness of the Fiat-Shamir Paradigm in the Standard Model, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1D-kos7C_9nq5gL5HqX2RSeNcWALIu_Er_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-7-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5309,
+          "title": "Lecture 7: Soundness of the Fiat-Shamir Paradigm in the Standard Model, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-7-part-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-7-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5310,
+          "title": "Lecture 7: Soundness of the Fiat-Shamir Paradigm in the Standard Model, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=GAF78dg8-nE",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-7-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5312,
+          "title": "Lecture 7: Soundness of the Fiat-Shamir Paradigm in the Standard Model, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/10W3rxUhZfaCs2kRX9i4erg2hLTiFKuJD_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-7-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 6,
+      "source_types": {
+        "youtube": 4,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Succinct Non-Interactive Arguments for Batch NP (BARGs) from LWE, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5281,
+          "title": "Lecture 8: Succinct Non-Interactive Arguments for Batch NP (BARGs) from LWE, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-8-part-1_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-8-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5282,
+          "title": "Lecture 8: Succinct Non-Interactive Arguments for Batch NP (BARGs) from LWE, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=t3C6cpQlSvA",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-8-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5284,
+          "title": "Lecture 8: Succinct Non-Interactive Arguments for Batch NP (BARGs) from LWE, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1OulMfgsVwuSMpAw6rd4ENyMPStdnj5eS_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-8-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5304,
+          "title": "Lecture 8: Succinct Non-Interactive Arguments for Batch NP (BARGs) from LWE, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-8-part-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-8-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5305,
+          "title": "Lecture 8: Succinct Non-Interactive Arguments for Batch NP (BARGs) from LWE, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=p60ShJrbrf8",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-8-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5307,
+          "title": "Lecture 8: Succinct Non-Interactive Arguments for Batch NP (BARGs) from LWE, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1fOb9sDaREdix1FqDYFIdjGwIQNGcbyuO_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-8-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 6,
+      "source_types": {
+        "youtube": 4,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "BARGs Implies SNARGs and Connection to Non-Signaling PCPs, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5277,
+          "title": "Lecture 9: BARGs Implies SNARGs and Connection to Non-Signaling PCPs, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-9-part-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-9-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5278,
+          "title": "Lecture 9: BARGs Implies SNARGs and Connection to Non-Signaling PCPs, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=csRRQOyl5kM",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-9-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5280,
+          "title": "Lecture 9: BARGs Implies SNARGs and Connection to Non-Signaling PCPs, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1-7Ekozk7L1UTHz-6gmSqxr7uuvd0cZyS_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-9-part-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5322,
+          "title": "Lecture 9: BARGs Implies SNARGs and Connection to Non-Signaling PCPs, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/65630-f23-lecture-9-part-1_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-9-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5323,
+          "title": "Lecture 9: BARGs Implies SNARGs and Connection to Non-Signaling PCPs, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=nmuXpvSIm3k",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-9-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5325,
+          "title": "Lecture 9: BARGs Implies SNARGs and Connection to Non-Signaling PCPs, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/1IIeDNafr94fG6QdLc-9_4M1ShMHENy5Q_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/65630-f23-lecture-9-part-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 6,
+      "source_types": {
+        "youtube": 4,
+        "pdf": 2
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 5272,
+      "title": "Proofs, Arguments, and Zero-Knowledge (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/external-resources/proofs-arguments-and-zero-knowledge-pdf_12af60d4-9d3d-447c-a987-0232e152dbda/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5289,
+      "title": "Fiat-Shamir: From Practice to Theory, Part II NIZK and Correlation Intractability from Circular-Secure FHE (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://eprint.iacr.org/2018/1248.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/external-resources/fiat-shamir-from-practice-to-theory-part-ii-nizk-and-correlation-intractability-from-circ365d86c2-21a2-41d7-b422-5da8a704f539/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5294,
+      "title": "Somewhere Statistical Soundness, Post-Quantum Security, and SNARGs (PDF)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://eprint.iacr.org/2021/788",
+      "local_path": null,
+      "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/external-resources/somewhere-statistical-soundness-post-quantum-security-and-snargs-pdf_39b0054d-a852-428a-afdc-a2869228f8f6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5299,
+      "title": "ECCC - TR17-108 (PDF).",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://eccc.weizmann.ac.il/report/2017/108/",
+      "local_path": null,
+      "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/external-resources/eccc-tr17-108-pdf_79717e54-b969-40f7-87c2-2f40c0e26720/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5308,
+      "title": "SNARGs for P from LWE (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://eprint.iacr.org/2021/808.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/external-resources/snargs-for-p-from-lwe-pdf_87a01736-ea1f-47c8-9cc7-a8c2b4d49e97/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5343,
+      "title": "Advanced Topics in Cryptography Problem Set",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/6-5630-advanced-topics-in-cryptography-fall-2023/mit6_5630_f23_pset.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/resources/mit6_5630_f23_pset_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 5344,
+      "title": "Computationally Sound Proofs (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Proof%20Systems/Computationally_Sound_Proofs.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-5630-advanced-topics-in-cryptography-fall-2023/external-resources/computationally-sound-proofs-pdf_f86ceaed-d630-444c-bceb-34753b12bba6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

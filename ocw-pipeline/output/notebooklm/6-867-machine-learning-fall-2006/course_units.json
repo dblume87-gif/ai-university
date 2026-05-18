@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T21:22:58.493Z",
+  "generated_at": "2026-05-18T20:51:01.822Z",
   "course": {
     "course_id": "6-867-machine-learning-fall-2006",
     "title": "Machine Learning",
@@ -35,7 +35,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec1.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -58,7 +58,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec2.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -81,7 +81,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec3.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -104,7 +104,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec4.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -127,7 +127,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec5.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -150,7 +150,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec6.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -173,7 +173,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec7.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -196,7 +196,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec8.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -219,7 +219,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec9.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -242,7 +242,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec10.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -265,7 +265,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec11.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -288,7 +288,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec12.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -311,7 +311,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec13.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -334,7 +334,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec14.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -357,7 +357,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec15.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -380,7 +380,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec16.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -403,7 +403,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec17.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -426,7 +426,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec18.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -449,7 +449,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec19.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -472,7 +472,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec20.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -495,7 +495,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec21.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -518,7 +518,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec22.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -541,7 +541,7 @@
           "resource_path": "library/MIT-6.867-Machine-Learning/MIT6_867F06_Lec23.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,

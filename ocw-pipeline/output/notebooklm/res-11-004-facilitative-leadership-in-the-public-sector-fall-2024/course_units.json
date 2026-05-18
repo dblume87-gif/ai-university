@@ -1,0 +1,265 @@
+{
+  "generated_at": "2026-05-18T20:51:01.852Z",
+  "course": {
+    "course_id": "res-11-004-facilitative-leadership-in-the-public-sector-fall-2024",
+    "title": "Facilitative Leadership in the Public Sector",
+    "source_url": "https://ocw.mit.edu/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 18,
+    "unit_count": 0,
+    "assigned_sources": 0,
+    "unassigned_sources": 18
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [],
+  "unassigned_sources": [
+    {
+      "id": 2874,
+      "title": "Session 1: Concepts and Theories of Facilitative Leadership in the Public Sector",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/01_concepts_and_theories_of_facilitative_leadership_in_the_public_sector_v7-1080p_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/01_concepts_and_theories_of_facilitative_leadership_in_the_public_sector_v7-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos",
+        "Workshop Videos"
+      ]
+    },
+    {
+      "id": 2875,
+      "title": "Session 1: Concepts and Theories of Facilitative Leadership in the Public Sector",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=idZoHI9dLsk",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/01_concepts_and_theories_of_facilitative_leadership_in_the_public_sector_v7-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos",
+        "Workshop Videos"
+      ]
+    },
+    {
+      "id": 2877,
+      "title": "Session 1: Concepts and Theories of Facilitative Leadership in the Public Sector (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/1myuOai2exjX2jkKYk6Y14ho16S1W6enb_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/01_concepts_and_theories_of_facilitative_leadership_in_the_public_sector_v7-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos",
+        "Workshop Videos"
+      ]
+    },
+    {
+      "id": 2878,
+      "title": "DUSP",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://dusp.mit.edu/",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/external-resources/dusp_14b70062-531d-48ec-9681-2501e9e90c7e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2879,
+      "title": "Session 3: Microskills for Facilitative Leaders",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/03_microskills_for_facilitative_leaders_v5-1080p_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/03_microskills_for_facilitative_leaders_v5-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos",
+        "Workshop Videos"
+      ]
+    },
+    {
+      "id": 2880,
+      "title": "Session 3: Microskills for Facilitative Leaders",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=9IaCINjMWrI",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/03_microskills_for_facilitative_leaders_v5-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos",
+        "Workshop Videos"
+      ]
+    },
+    {
+      "id": 2882,
+      "title": "Session 3: Microskills for Facilitative Leaders (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/1PjXOJPuwg-eYk3M5hwjlNZFG6JBKWBUy_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/03_microskills_for_facilitative_leaders_v5-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos",
+        "Workshop Videos"
+      ]
+    },
+    {
+      "id": 2883,
+      "title": "Session 2: Hypotheticals",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/02_hypotheticals_v3-1080p_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/02_hypotheticals_v3-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos",
+        "Workshop Videos"
+      ]
+    },
+    {
+      "id": 2884,
+      "title": "Session 2: Hypotheticals",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=3VQ8oSasaRQ",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/02_hypotheticals_v3-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos",
+        "Workshop Videos"
+      ]
+    },
+    {
+      "id": 2886,
+      "title": "Session 2: Hypotheticals (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/1F7Yrfy35w99iYaMxayqq9geb4W0JI0k8_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/02_hypotheticals_v3-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos",
+        "Workshop Videos"
+      ]
+    },
+    {
+      "id": 2887,
+      "title": "Creative Commons BY-NC-SA",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/external-resources/creative-commons-by-nc-sa_7a6cdfd8-64e2-47bb-971f-07d22bcd3457/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2888,
+      "title": "Session 4: Do You Really See Yourself as a Facilitative Leader?",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/04_do_you_really_see_yourself_as_a_facilitative_leader_v4-1080p_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/04_do_you_really_see_yourself_as_a_facilitative_leader_v4-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos",
+        "Workshop Videos"
+      ]
+    },
+    {
+      "id": 2889,
+      "title": "Session 4: Do You Really See Yourself as a Facilitative Leader?",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=cZW2A2z7zcI",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/04_do_you_really_see_yourself_as_a_facilitative_leader_v4-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos",
+        "Workshop Videos"
+      ]
+    },
+    {
+      "id": 2891,
+      "title": "Session 4: Do You Really See Yourself as a Facilitative Leader? (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/1yPVpannKRqD0h1q5FMU5AL1HQ0tvhhXL_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/04_do_you_really_see_yourself_as_a_facilitative_leader_v4-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos",
+        "Workshop Videos"
+      ]
+    },
+    {
+      "id": 2892,
+      "title": "worldwaterweek",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.flickr.com/photos/53569401@N04/9678933084",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/external-resources/worldwaterweek_c4ff1d69-e484-424c-b538-e24e8da42a52/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2894,
+      "title": "Facilitative Leadership in the Public Sector (Trailer)",
+      "media_type": "youtube",
+      "material_type": "Other Video",
+      "source_url": "https://ocw.mit.edu/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/facilitative_leadership_in_the_public_sector_trailer_v4-1080p_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/facilitative_leadership_in_the_public_sector_trailer_v4-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Other Video"
+      ]
+    },
+    {
+      "id": 2895,
+      "title": "Facilitative Leadership in the Public Sector (Trailer)",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=PtYI9lppyXc",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/facilitative_leadership_in_the_public_sector_trailer_v4-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Other Video"
+      ]
+    },
+    {
+      "id": 2897,
+      "title": "Facilitative Leadership in the Public Sector (Trailer) (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/1HWg-zg5zplGZcMgYK4O5DtI5TcvCzWfX_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/res-11-004-facilitative-leadership-in-the-public-sector-fall-2024/resources/facilitative_leadership_in_the_public_sector_trailer_v4-1080p_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Other Video"
+      ]
+    }
+  ]
+}

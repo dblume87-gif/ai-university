@@ -1,0 +1,946 @@
+{
+  "generated_at": "2026-05-18T20:51:01.781Z",
+  "course": {
+    "course_id": "21h-151-dynastic-china-fall-2024",
+    "title": "Dynastic China",
+    "source_url": "https://ocw.mit.edu/courses/21h-151-dynastic-china-fall-2024/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 76,
+    "unit_count": 4,
+    "assigned_sources": 12,
+    "unassigned_sources": 64
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Introduction to China's History",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2934,
+          "title": "Lecture 1: Introduction to China's History",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21h-151-dynastic-china-fall-2024/mit21h_151f24_lec01_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21h-151-dynastic-china-fall-2024/resources/mit21h_151f24_lec01_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2935,
+          "title": "Lecture 1: Introduction to China's History",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=3dT8Wm5oI_o",
+          "local_path": null,
+          "resource_path": "/courses/21h-151-dynastic-china-fall-2024/resources/mit21h_151f24_lec01_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2937,
+          "title": "Lecture 1: Introduction to China's History (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21h-151-dynastic-china-fall-2024/1uUoxZUH7AiEqeklQBwd_M3TfYdVWMN-r_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21h-151-dynastic-china-fall-2024/resources/mit21h_151f24_lec01_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "The Western Zhou",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2962,
+          "title": "Lecture 3: The Western Zhou",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21h-151-dynastic-china-fall-2024/mit21h_151f24_lec03_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21h-151-dynastic-china-fall-2024/resources/mit21h_151f24_lec03_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2963,
+          "title": "Lecture 3: The Western Zhou",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=QkHh6Y2vrHg",
+          "local_path": null,
+          "resource_path": "/courses/21h-151-dynastic-china-fall-2024/resources/mit21h_151f24_lec03_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2965,
+          "title": "Lecture 3: The Western Zhou (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21h-151-dynastic-china-fall-2024/1rEIY0eMKOPJUPGWir-fjNzIWS88A7Z_g_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21h-151-dynastic-china-fall-2024/resources/mit21h_151f24_lec03_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "Early Modern? The Ming in the 16th Century",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2944,
+          "title": "Lecture 21: Early Modern? The Ming in the 16th Century",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21h-151-dynastic-china-fall-2024/mit21h_151f24_lec21_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21h-151-dynastic-china-fall-2024/resources/mit21h_151f24_lec21_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2945,
+          "title": "Lecture 21: Early Modern? The Ming in the 16th Century",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=mzqKSewPmCM",
+          "local_path": null,
+          "resource_path": "/courses/21h-151-dynastic-china-fall-2024/resources/mit21h_151f24_lec21_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2947,
+          "title": "Lecture 21: Early Modern? The Ming in the 16th Century (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21h-151-dynastic-china-fall-2024/111DYuWyMq8XBWxGW3D8ri5Rw9QHTR0N9_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21h-151-dynastic-china-fall-2024/resources/mit21h_151f24_lec21_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "The Qing through Qianlong",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2987,
+          "title": "Lecture 23: The Qing through Qianlong",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21h-151-dynastic-china-fall-2024/mit21h_151f24_lec23_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21h-151-dynastic-china-fall-2024/resources/mit21h_151f24_lec23_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2988,
+          "title": "Lecture 23: The Qing through Qianlong",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=0pu1DjsDsLU",
+          "local_path": null,
+          "resource_path": "/courses/21h-151-dynastic-china-fall-2024/resources/mit21h_151f24_lec23_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2990,
+          "title": "Lecture 23: The Qing through Qianlong (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21h-151-dynastic-china-fall-2024/1Y938W5qqP3sgddpj9rykoT0HvI18wEko_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21h-151-dynastic-china-fall-2024/resources/mit21h_151f24_lec23_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 2927,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/The_Cambridge_Illustrated_History_of_Chi/sHGdq4rLSTEC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_0350ec12-0884-4617-9e4e-14b75644e688/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2928,
+      "title": "Romance of the Three Kingdoms",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/sanguozhi/zh",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/romance-of-the-three-kingdoms_100f045a-dda0-435a-a372-4ca435f15b67/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2929,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/The_Story_of_the_Stone_The_Warning_Voice/7zaX-G88DJMC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_16c38212-59e8-4d4e-ac5b-0c87e8954477/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2933,
+      "title": "The Mind Landscape of Xie Youyu (Youyu qiu he 幼輿丘壑 ), ca. 1287",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://static.artmuseum.princeton.edu/mirador3/?manifest=https://data.artmuseum.princeton.edu/iiif/objects/32688&canvas=https://data.artmuseum.princeton.edu/iiif/objects/32688/canvas/32688-canvas-105637",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/the-mind-landscape-of-xie-youyu-youyu-qiu-he-%E5%B9%BC%E8%BC%BF%E4%B8%98%E5%A3%91-ca-1287_18b21855-55fa-4267-a240-77d03a7e19e1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2938,
+      "title": "Zheng He Interactive Map",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://exploration.marinersmuseum.org/event/zheng-he-interactive-map/",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/zheng-he-interactive-map_1a8e0f30-a159-4703-84d0-e668a271a3b0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2939,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Hawai_i_Reader_in_Traditional_Chinese_Cu/yZYBEAAAQBAJ?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_23126e47-051e-4808-b0a6-a30200343fd0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2940,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/The_Story_of_the_Stone_The_Golden_Days_V/0U5ILHHIOZgC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_250fc4c7-3a12-467c-8d3e-ad906d3db918/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2941,
+      "title": "Chinese Oracle Bones (CUL.1,52,155)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://cudl.lib.cam.ac.uk/view/MS-CUL-00001-00155/1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/chinese-oracle-bones-cul152155_2f1798ce-c81a-4013-b8dc-cbc3afcdcde6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2942,
+      "title": "Scrolls of the Mongol Invasions of Japan",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://digital.princeton.edu/mongol-invasions/",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/scrolls-of-the-mongol-invasions-of-japan_2f409a7e-8a5b-4749-8b10-18fbfb72b64e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2943,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/The_Story_of_the_Stone_The_Debt_of_Tears/Id6qXqk2UOEC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_39bafeab-42a4-4eb7-8800-c8a19fb880f5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2948,
+      "title": "Peace Blossom Spring",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/wiki.pl?if=gb&chapter=945919",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/peace-blossom-spring_456969a6-3617-4ce9-9802-63d6d5aa752b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2949,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Emperor_Wu_Zhao_and_Her_Pantheon_of_Devi/mHmpBgAAQBAJ?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_4c0691b1-a062-442b-8acf-decf90e9f417/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2950,
+      "title": "The Lotus Sutra",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/wiki.pl?if=gb&chapter=608894",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/the-lotus-sutra_4c64ce79-2863-456c-abcf-10abd080fe4d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2951,
+      "title": "Zhuangzi",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/zhuangzi/zhs",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/zhuangzi_509622c1-9d77-46e4-bd7e-4da3a4c889b3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2952,
+      "title": "Mozi",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/mozi/zhs",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/mozi_581fc2b1-f068-4c57-b402-71ba1f72f498/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2953,
+      "title": "Timeline at knight lab",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://timeline.knightlab.com/",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/timeline-at-knight-lab_5888a17e-2e78-44a0-9fb1-450b57dcfca5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2954,
+      "title": "The *Analects*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/analects/zh",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/the-analects_5bacfadf-8860-41f3-ae57-3c9683772303/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2955,
+      "title": "Along the River During the Qingming Festival",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alongtheriver_QingMing.jpg",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/along-the-river-during-the-qingming-festival_5e4f0f88-7f2f-4074-ab7b-ec06d324c123/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2956,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Sources_of_Chinese_Tradition/TQN9nwkkXGsC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_5fdab096-ea29-4edc-a88d-c5dba3185dc9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2957,
+      "title": "Tao Te Ching",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.daodejing.org/",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/tao-te-ching_628ae585-b1e1-4309-922e-b5f1444baa6e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2958,
+      "title": "Annotated Qingming Scroll",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://afe.easia.columbia.edu/song-scroll/song.html",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/annotated-qingming-scroll_6ac800c8-af84-458f-a534-4434ca14f05b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2959,
+      "title": "Wade-Giles to Pinyin Conversion Table",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.lib.uchicago.edu/about/directory/departments/eastasia/find/wade-giles-pinyin-conversion-table/",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/wade-giles-to-pinyin-conversion-table_6b8312a8-1f8d-490e-be63-503e8ac3bafb/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2960,
+      "title": "The Book of Songs",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/book-of-poetry/zh",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/the-book-of-songs_6cc600f9-13dd-4ac6-b904-a98c874d805a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2961,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Chinese_Civilization/CUcdH6opOlcC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_6e1b18b7-161e-4cd8-a060-90226bf89905/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2966,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/_/Eu3QEAAAQBAJ?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_75753a3d-2c7d-4605-b9d8-1c7193a67549/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2967,
+      "title": "Hongloumeng 紅樓夢",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/hongloumeng/zh",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/hongloumeng-%E7%B4%85%E6%A8%93%E5%A4%A2_766e7120-2462-435d-9241-8b99879414aa/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2968,
+      "title": "\"The Ballad of Mulan (Ode of Mulan): Primary Source Document with Questions (DBQs)\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://afe.easia.columbia.edu/ps/china/mulan.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/the-ballad-of-mulan-ode-of-mulan-primary-source-document-with-questions-dbqs-pdf_79df564f-7f51-4f6f-a025-6f01970065a8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2969,
+      "title": "The Selden Map and the Archipelagos of East and Southeast Asia",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.asianstudies.org/publications/eaa/archives/the-selden-map-and-the-archipelagos-of-east-and-southeast-asia/",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/the-selden-map-and-the-archipelagos-of-east-and-southeast-asia_85a89d97-4421-484a-ba35-d5145f103fc4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2970,
+      "title": "Wikimedia Commons",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ming_Dynasty_Activities_of_Minister_of_War_Wang_Qiong.jpg",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/wikimedia-commons_86f37616-98b1-4aeb-b5b8-02a6e5909a3a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2971,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/The_Story_of_the_Stone_The_Dreamer_Wakes/OP4RZ89XNrgC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_8715c1aa-fc27-40cf-9cce-307d51a90eab/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2972,
+      "title": "Wade-Giles to Pinyin Conversion Table",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "http://www.chinaknowledge.de/Literature/Script/wadegilespinyin.html",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/wade-giles-to-pinyin-conversion-table/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2973,
+      "title": "\"Peace Blossom Spring by Tao Quan: Primary Source Document with Questions (DBQs)\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://afe.easia.columbia.edu/ps/china/taoqian_peachblossom.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/peace-blossom-spring-by-tao-quan-primary-source-document-with-questions-dbqs-pdf_8f3bdc7e-2f7f-43dc-9ca6-319459ebdf9c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2974,
+      "title": "Ten Years of Debate on the Origins of the Great Divergence between the Economies of Europe and China during the Era of Mercantilism and Industrialization",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://reviews.history.ac.uk/review/1008/",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/ten-years-of-debate-on-the-origins-of-the-great-divergence-between-the-economies-of-europ95483309-33f8-47f2-9b4a-19b4f2cf72f1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2975,
+      "title": "Avoiding Plagiarism",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://cmsw.mit.edu/writing-and-communication-center/avoiding-plagiarism/",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/avoiding-plagiarism_95fbfc8f-d638-4dd4-967f-74f8ca99f71a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2976,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/The_T_ang_Code_Volume_I/fjmNDwAAQBAJ?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_9666f769-c774-4d3c-a128-0aca12974908/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2977,
+      "title": "Shang Shu: The Book of Shang",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/shang-shu/zh",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/shang-shu-the-book-of-shang_98dd1955-48fc-45c8-8aec-a1e851a001d7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2978,
+      "title": "Cao Cao: Short Biography from the Sanguozhi 'Records of the Three Kingdoms' and other historical sources",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.arsinoelibrary.org/EPS/articles/cao-cao-short-biography-from-the-sanguozhi-records-of-the-three-kingdoms-and-other-historical-sources/",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/cao-cao-short-biography-from-the-sanguozhi-records-of-the-three-kingdoms-and-other-histor9c24e633-5153-4c36-9173-e2974dc6137a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2979,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/The_Lotus_Sutra/hKCorSddfYIC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_9c410472-cd54-4682-bfbc-cd3f295d4b6c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2980,
+      "title": "Taiping Guangji",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/taiping-guangji/zhs",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/taiping-guangji_9d4dccd9-d53c-489a-a90e-dc80e34ba2ff/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2981,
+      "title": "Historiography of Cao Cao",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1PMfU70tH0SMy_qDJx_IJyO3dvYnJ0t4Er50rGZUo0Xg&font=Default&lang=en&initial_zoom=2&height=750",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/historiography-of-cao-cao_9f2b1a5f-92cf-4e6c-bbd4-c2284d8bad84/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2982,
+      "title": "37\\. Former Red Cliff Rhapsody",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.silkqin.com/02qnpu/10tgyy/tg37qcbf.htm#reffn",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/37-former-red-cliff-rhapsody_a2e00ade-1d28-420c-9ba3-4a58670cb7a4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2983,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/The_Description_of_the_World/ErGgCwAAQBAJ?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_a3ebd663-7931-4567-b962-946942d0ab9c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2984,
+      "title": "The Ballad of Mulan",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.gushiwen.cn/shiwenv_2d6b0c83a500.aspx",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/the-ballad-of-mulan_a6b66922-abc6-450f-af54-0aed30dc7527/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2985,
+      "title": "The Song of Everlasting Regret",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.musicated.com/syh/TangPoems/EverlastingRegret.htm",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/the-song-of-everlasting-regret_a97064c8-e2fb-471f-a52f-995bf0e2a2e1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2986,
+      "title": "Mencius",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/mengzi/zhs",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/mencius_ad6192ad-ae22-4b45-876c-151767c7d598/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2991,
+      "title": "Han Feizi",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/hanfeizi/zh",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/han-feizi_b16222e6-dd67-429d-8588-384ec7919063/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2992,
+      "title": "Records of the Three Kingdoms",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://chinesenotes.com/sanguozhi.html",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/records-of-the-three-kingdoms/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2993,
+      "title": "Yunxin Li",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.simmons.edu/people/yunxin-li",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/yunxin-li_b702afd4-a787-4a6c-a91f-57b63ad5dd02/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2994,
+      "title": "Sun Quan: Short Biography from the Sanguozhi 'Records of the Three Kingdoms' and other historical sources",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.arsinoelibrary.org/EPS/articles/sun-quan-short-biography-from-the-sanguozhi-records-of-the-three-kingdoms-and-other-historical-sources/",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/sun-quan-short-biography-from-the-sanguozhi-records-of-the-three-kingdoms-and-other-histob753c98c-d747-4684-8e5d-a02f890268e2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2995,
+      "title": "Salt and Iron",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/yan-tie-lun/zhs",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/salt-and-iron_b8b141ef-f1ea-41d9-ae7b-83145b007f30/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2996,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/The_Cambridge_Illustrated_History_of_Chi/L5h-EAAAQBAJ?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_ba31be55-aad9-4c1f-b202-776c00670f93/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2997,
+      "title": "300 Tang Poems",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://cti.lib.virginia.edu/frame.htm",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/300-tang-poems_c28f74fd-8b99-45c7-b203-a4cb451eaec1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2998,
+      "title": "Kongming’s Archives – Romance of the Three Kingdoms Biographies",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://kongming.net/novel/bios/type.php#sgz",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/kongmings-archives-romance-of-the-three-kingdoms-biographies/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2999,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/A_Global_Enlightenment/d86kEAAAQBAJ?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_c7031d46-3260-469a-ac4d-17bb2c672565/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3000,
+      "title": "Xunzi",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/xunzi/zh",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/xunzi_e1e60eac-2787-497a-8e8e-39360c1ecb2f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3001,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Three_Thousand_Years_of_Chinese_Painting/ZjD_vhUo_GcC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_e4447cfb-6527-4268-b8ce-bcddf2a48e41/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3002,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Early_China/TQNaAQAAQBAJ?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_ed6e2422-183d-402a-be6d-6a7c6ab0315c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3003,
+      "title": "Tang Law Commentary",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/wiki.pl?if=gb&res=549614&remap=gb",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/tang-law-commentary_f035ac4d-f4d2-4b9b-a504-31a872993843/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3004,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/The_Story_of_the_Stone_The_Crab_Flower_C/mSu_SyOXvSIC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_f78a421e-fed9-4539-b5c5-30215c0dd1e7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3005,
+      "title": "ChatGPT",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://chatgpt.com/?utm_source=google&utm_medium=paidsearch_brand&utm_campaign=DEPT_SEM_Google_Brand_Acquisition_NAMER_US_Consumer_CPA_BAU_Mix&utm_term=chat%20gpt&gad_source=1&gclid=EAIaIQobChMIluSdyIbijAMVwm1HAR2ozCLpEAAYASAAEgJ50_D_BwE",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/chatgpt_f803cef6-144c-4cec-9be4-426837626404/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3006,
+      "title": "Zhouyi: The Book of Changes",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://ctext.org/book-of-changes/yi-jing/zhs",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/zhouyi-the-book-of-changes_f9dd2235-ed79-48a6-aae2-9d2355da8c1d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3007,
+      "title": "\"Yuan Drama.\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://chinaconnectu.com/wp-content/pdf/YuanDrama.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/yuan-drama-pdf_fa8e56c2-3be4-43ca-b1dc-4e9008a0ad35/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3008,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Tales_from_Tang_Dynasty_China/F34zDwAAQBAJ?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/google-books_fd4e1df0-0d73-455a-9cab-0398f4631109/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3009,
+      "title": "Liu Bei: Short Biography from the Sanguozhi 'Records of the Three Kingdoms' and other historical sources",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.arsinoelibrary.org/EPS/articles/liu-bei-short-biography-from-the-sanguozhi-records-of-the-three-kingdoms-and-other-historical-sources/",
+      "local_path": null,
+      "resource_path": "/courses/21h-151-dynastic-china-fall-2024/external-resources/liu-bei-short-biography-from-the-sanguozhi-records-of-the-three-kingdoms-and-other-historff0c24ed-51b8-49c7-a3cb-5c4c9578ca04/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

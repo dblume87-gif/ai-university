@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T21:22:58.468Z",
+  "generated_at": "2026-05-18T20:51:01.747Z",
   "course": {
     "course_id": "15-773-hands-on-deep-learning-spring-2024",
     "title": "Hands-on Deep Learning",
@@ -115,7 +115,7 @@
           "resource_path": "library/MIT-15.773-Hands-on-Deep-Learning/MIT15_773S24_Lec01.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 3593,
@@ -259,7 +259,7 @@
           "resource_path": "library/MIT-15.773-Hands-on-Deep-Learning/MIT15_773S24_Lec02.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 3636,
@@ -427,7 +427,7 @@
           "resource_path": "library/MIT-15.773-Hands-on-Deep-Learning/MIT15_773S24_Lec03a.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7700,
@@ -583,7 +583,7 @@
           "resource_path": "library/MIT-15.773-Hands-on-Deep-Learning/MIT15_773S24_Lec03b.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7701,
@@ -702,7 +702,7 @@
           "resource_path": "library/MIT-15.773-Hands-on-Deep-Learning/MIT15_773S24_Lec04.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7702,
@@ -820,7 +820,7 @@
           "resource_path": "library/MIT-15.773-Hands-on-Deep-Learning/MIT15_773S24_Lec05.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7703,
@@ -938,7 +938,7 @@
           "resource_path": "library/MIT-15.773-Hands-on-Deep-Learning/MIT15_773S24_Lec06.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7704,
@@ -1056,7 +1056,7 @@
           "resource_path": "library/MIT-15.773-Hands-on-Deep-Learning/MIT15_773S24_Lec07.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7705,
@@ -1162,7 +1162,7 @@
           "resource_path": "library/MIT-15.773-Hands-on-Deep-Learning/MIT15_773S24_Lec08.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7706,
@@ -1317,7 +1317,7 @@
           "resource_path": "library/MIT-15.773-Hands-on-Deep-Learning/MIT15_773S24_Lec09.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7707,
@@ -1459,7 +1459,7 @@
           "resource_path": "library/MIT-15.773-Hands-on-Deep-Learning/MIT15_773S24_Lec10.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7709,
@@ -1497,7 +1497,7 @@
           "resource_path": "library/MIT-15.773-Hands-on-Deep-Learning/MIT15_773S24_Lec105.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -1520,7 +1520,7 @@
           "resource_path": "library/MIT-15.773-Hands-on-Deep-Learning/MIT15_773S24_Lec11.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,

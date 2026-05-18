@@ -1,0 +1,4742 @@
+{
+  "generated_at": "2026-05-18T20:51:01.817Z",
+  "course": {
+    "course_id": "6-622-power-electronics-spring-2023",
+    "title": "Power Electronics",
+    "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 258,
+    "unit_count": 67,
+    "assigned_sources": 211,
+    "unassigned_sources": 47
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Introduction",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6065,
+          "title": "Lecture 1: Introduction",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6092,
+          "title": "Lecture 1: Introduction (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec01_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec01_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6101,
+          "title": "Lecture 1: Introduction to Power Electronics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_01_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_01_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6102,
+          "title": "Lecture 1: Introduction to Power Electronics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=f7oXhDatwtY",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_01_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6104,
+          "title": "Lecture 1: Introduction to Power Electronics (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/11e9izmK-ShJE2lV70FGHgiooH7On-jzP_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_01_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6117,
+          "title": "Problem Set 1 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps01_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps01_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 6254,
+          "title": "Problem Set 1",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "pdf": 5,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Analysis Methods and Rectifiers",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5971,
+          "title": "Lecture 2: Analysis Methods and Rectifiers",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_02_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5972,
+          "title": "Lecture 2: Analysis Methods and Rectifiers",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=bJ1nqEC3i0A",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5974,
+          "title": "Lecture 2: Analysis Methods and Rectifiers (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1_T2cNEjxRklOFdot5MgBWsWWWb4ulFn__transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6088,
+          "title": "Lecture 2: Analysis Methods and Rectifiers (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec02_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec02_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6169,
+          "title": "Lecture 2: Analysis Methods and Rectifiers",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6148,
+          "title": "Problem Set 2",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 6156,
+          "title": "Problem Set 2 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps02_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps02_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 5
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Load Regulation",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6110,
+          "title": "Lecture 3: Load Regulation",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec03_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6220,
+          "title": "Lecture 3: Load Regulation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_03_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6221,
+          "title": "Lecture 3: Load Regulation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Tpc39Bv3YJ8",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6223,
+          "title": "Lecture 3: Load Regulation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1w39rMEqqQmrV2Xj3K9bjoTt9vU1m4x1m_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6258,
+          "title": "Lecture 3: Load Regulation (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec03_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec03_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5967,
+          "title": "Problem Set 3 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps03_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps03_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 6007,
+          "title": "Problem Set 3",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps03_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "pdf": 5,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Power Factor (Handwritten Notes)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6044,
+          "title": "Lecture 4: Power Factor (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec04_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec04_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6106,
+          "title": "Lecture 4: Power Factor",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_04_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6107,
+          "title": "Lecture 4: Power Factor",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=-r0hWGcNLSI",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6109,
+          "title": "Lecture 4: Power Factor (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1vhAz5ZCgHm9AY3fmWjHN63ZCt2p3Nml__transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6229,
+          "title": "Lecture 4: Power Factor",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5966,
+          "title": "Problem Set 4 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps04_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps04_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 6166,
+          "title": "Problem Set 4",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "pdf": 5,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Intro to DC/DC, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6093,
+          "title": "Lecture 5: Intro to DC/DC, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec05_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6111,
+          "title": "Lecture 5: Intro to DC/DC, Part 1 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec05_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec05_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6170,
+          "title": "Lecture 5: Intro to DC/DC, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_05_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_05_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6171,
+          "title": "Lecture 5: Intro to DC/DC, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=6Bzq25m68BE",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_05_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6173,
+          "title": "Lecture 5: Intro to DC/DC, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1WDD_5wUThWltxnOciGhfJm8ACWvwZ4OA_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_05_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6009,
+          "title": "Problem Set 5 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps05_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps05_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 6185,
+          "title": "Problem Set 5",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps05_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "pdf": 5,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "DC/DC, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5984,
+          "title": "Lecture 6: DC/DC, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_06_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5985,
+          "title": "Lecture 6: DC/DC, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=UMTHJC22p7A",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5987,
+          "title": "Lecture 6: DC/DC, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1NMW-0j22Z5rJNXlJ45jCc2qvtIHJnPUk_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6150,
+          "title": "Lecture 6: DC/DC, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6212,
+          "title": "Lecture 6: DC/DC, Part 2 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec06_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec06_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6146,
+          "title": "Problem Set 6 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps06_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps06_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 6182,
+          "title": "Problem Set 6",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 5
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "DC/DC, Part 3",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6046,
+          "title": "Lecture 7: DC/DC, Part 3",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_07_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_07_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6047,
+          "title": "Lecture 7: DC/DC, Part 3",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=O91G3Likq3w",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_07_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6049,
+          "title": "Lecture 7: DC/DC, Part 3 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1WvJ2gNYp4iolVfvQKUHjUPY3Djt28VV1_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_07_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6215,
+          "title": "Lecture 7: DC/DC, Part 3 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec07_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec07_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6230,
+          "title": "Lecture 7: DC/DC, Part 3",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec07_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5989,
+          "title": "Problem Set 7",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps07_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 6259,
+          "title": "Problem Set 7 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps07_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps07_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 5
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "DC/DC, Part 4 (Handwritten Notes)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6091,
+          "title": "Lecture 8: DC/DC, Part 4 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec08_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec08_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6122,
+          "title": "Lecture 8: DC/DC, Part 4",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_08_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_08_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6123,
+          "title": "Lecture 8: DC/DC, Part 4",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=sB547f1ogWc",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_08_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6125,
+          "title": "Lecture 8: DC/DC, Part 4 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1A68WpTg5HKQb6ysT1n9RY8cLaFZF7NDE_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_08_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6260,
+          "title": "Lecture 8: DC/DC, Part 4",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6204,
+          "title": "Problem Set 8",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 6238,
+          "title": "Problem Set 8 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps08_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps08_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "pdf": 5,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Magnetics, Part 1 (Handwritten Notes)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6008,
+          "title": "Lecture 9: Magnetics, Part 1 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec09_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec09_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6027,
+          "title": "Lecture 9: Magnetics, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec09_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6186,
+          "title": "Lecture 9: Magnetics, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_09_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6187,
+          "title": "Lecture 9: Magnetics, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Z4iE3aaNeTM",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6189,
+          "title": "Lecture 9: Magnetics, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/16218Ekq-I5jXPMqKPdUnD-fHBh8kymIy_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6026,
+          "title": "Problem Set 9",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps09_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 6054,
+          "title": "Problem Set 9 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps09_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps09_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "pdf": 5,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Magnetics, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6055,
+          "title": "Lecture 10: Magnetics, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_10_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6056,
+          "title": "Lecture 10: Magnetics, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=7F0ZThtJfo8",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6058,
+          "title": "Lecture 10: Magnetics, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1XXk-SybO21q5OzxmGlFnmID5TDqbtiHJ_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6060,
+          "title": "Lecture 10: Magnetics, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec102.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec10_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6133,
+          "title": "Lecture 10: Magnetics, Part 2 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec10_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec10_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6081,
+          "title": "Problem Set 10 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps10_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps10_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 6190,
+          "title": "Problem Set 10",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 5
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Magnetics, Part 3",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6012,
+          "title": "Lecture 11: Magnetics, Part 3",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_11_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_11_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6013,
+          "title": "Lecture 11: Magnetics, Part 3",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=O0NRIVUG2d0",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_11_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6015,
+          "title": "Lecture 11: Magnetics, Part 3 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1QtlwRDPRHKuT0ZTJueSW6OD1Gmbrz63x_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_11_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6078,
+          "title": "Lecture 11: Magnetics, Part 3",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec112.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec11_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6252,
+          "title": "Lecture 11: Magnetics, Part 3 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec11_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec11_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5997,
+          "title": "Problem Set 11",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps11_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 6,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 4
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Magnetics, Part 4",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6002,
+          "title": "Lecture 12: Magnetics, Part 4",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_12_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6003,
+          "title": "Lecture 12: Magnetics, Part 4",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=cf7JLEqw8Os",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6005,
+          "title": "Lecture 12: Magnetics, Part 4 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1divxgFuaNvl71NYKoBoIJE1Qhgb50tWY_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6053,
+          "title": "Lecture 12: Magnetics, Part 4",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec122.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec12_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6214,
+          "title": "Lecture 12: Magnetics, Part 4 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec12_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec12_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Isolated DC/DC Converters, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5968,
+          "title": "Lecture 13: Isolated DC/DC Converters, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec132.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec13_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6129,
+          "title": "Lecture 13: Isolated DC/DC Converters, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_13_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6130,
+          "title": "Lecture 13: Isolated DC/DC Converters, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=I2PD_f5a9fA",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6132,
+          "title": "Lecture 13: Isolated DC/DC Converters, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1hfxRBBkMFfBws7Ma8z3d3Yr_AfItbLnm_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6144,
+          "title": "Lecture 13: Isolated DC/DC Converters, Part 1 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec13_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec13_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Isolated DC/DC Converters, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6035,
+          "title": "Lecture 14: Isolated DC/DC Converters, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_14_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6036,
+          "title": "Lecture 14: Isolated DC/DC Converters, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=K5tUbZzcOEc",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6038,
+          "title": "Lecture 14: Isolated DC/DC Converters, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1NtglIjeJVTXMKpHk5-wVwyod6-rP1pt3_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6145,
+          "title": "Lecture 14: Isolated DC/DC Converters, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec142.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec14_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6162,
+          "title": "Lecture 14: Isolated DC/DC Converters, Part 2 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec14_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec14_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Switching Losses and Snubbers (Handwritten Notes)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6075,
+          "title": "Lecture 15: Switching Losses and Snubbers (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec15_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec15_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6168,
+          "title": "Lecture 15: Switching Losses and Snubbers",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec152.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec15_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6224,
+          "title": "Lecture 15: Switching Losses and Snubbers",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_15_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6225,
+          "title": "Lecture 15: Switching Losses and Snubbers",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=nG47fQ-aiHw",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6227,
+          "title": "Lecture 15: Switching Losses and Snubbers (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1mse3G750j0GsIftgTg1Yp3eg9vIurS6A_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "Thermal Modeling and Heat Sinking",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5965,
+          "title": "Lecture 16: Thermal Modeling and Heat Sinking",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec162.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec16_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5991,
+          "title": "Lecture 16: Thermal Modeling and Heat Sinking",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_16_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5992,
+          "title": "Lecture 16: Thermal Modeling and Heat Sinking",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=w6R6V1Mpz7s",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5994,
+          "title": "Lecture 16: Thermal Modeling and Heat Sinking (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1BYB3SGJU-Oi1Vk910805d4bCCzBI3NWZ_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6257,
+          "title": "Lecture 16: Thermal Modeling and Heat Sinking (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec16_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec16_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "Inverters, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6134,
+          "title": "Lecture 17: Inverters, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec172.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec17_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6161,
+          "title": "Lecture 17: Inverters, Part 1 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec17_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec17_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6178,
+          "title": "Lecture 17: Inverters, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_17_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_17_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6179,
+          "title": "Lecture 17: Inverters, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=So_UGo4dSJs",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_17_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6181,
+          "title": "Lecture 17: Inverters, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1a_zvcYp8QCRz2CnkFFyvrhlyMdc43Usp_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_17_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Inverters, Part 2 (Handwritten Notes)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6059,
+          "title": "Lecture 18: Inverters, Part 2 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec18_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec18_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6121,
+          "title": "Lecture 18: Inverters, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec182.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec18_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6139,
+          "title": "Lecture 18: Inverters, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_18_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6140,
+          "title": "Lecture 18: Inverters, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=H8U0a9bwxqc",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6142,
+          "title": "Lecture 18: Inverters, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1WLAvEBvPWMhfwiDRRqqroqYOSfR0CaZu_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "Inverters, Part 3 (Handwritten Notes)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6050,
+          "title": "Lecture 19: Inverters, Part 3 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec19_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec19_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6076,
+          "title": "Lecture 19: Inverters, Part 3",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec192.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec19_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6247,
+          "title": "Lecture 19: Inverters, Part 3",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_19_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_19_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6248,
+          "title": "Lecture 19: Inverters, Part 3",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=uL8C9wQrk3g",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_19_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6250,
+          "title": "Lecture 19: Inverters, Part 3 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/100IMGJQWqBM2FN1fqD5Fzy2tczS3NEPR_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_19_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "Switched-Mode Rectifiers",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5983,
+          "title": "Lecture 20: Switched-Mode Rectifiers",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec202.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec20_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6011,
+          "title": "Lecture 20: Switched-Mode Rectifiers (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec20_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec20_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6192,
+          "title": "Lecture 20: Switched-Mode Rectifiers",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_20_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6193,
+          "title": "Lecture 20: Switched-Mode Rectifiers",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=EFONLmsmVFw",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6195,
+          "title": "Lecture 20: Switched-Mode Rectifiers (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/13opQsue7_eR5uFOdviAnrVuansrN_eAo_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "Three-Phase Systems, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5976,
+          "title": "Lecture 21: Three-Phase Systems, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec212.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec21_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6030,
+          "title": "Lecture 21: Three-Phase Systems, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_21_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6031,
+          "title": "Lecture 21: Three-Phase Systems, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Ih92AK1D-2M",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6033,
+          "title": "Lecture 21: Three-Phase Systems, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1Nj2YmtOLT_RHHvlc-Jfwe6GCOuVva4HN_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6155,
+          "title": "Lecture 21: Three-Phase Systems, Part 1 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec21_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec21_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 22,
+      "title": "Three-Phase Systems, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5981,
+          "title": "Lecture 22: Three-Phase Systems, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec222.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec22_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5998,
+          "title": "Lecture 22: Three-Phase Systems, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_22_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5999,
+          "title": "Lecture 22: Three-Phase Systems, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=AGj73UQN-K0",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6001,
+          "title": "Lecture 22: Three-Phase Systems, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1xkhgaQkj9GF9YBkoBeZebQGd4eXMkdXZ_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6094,
+          "title": "Lecture 22: Three-Phase Systems, Part 2 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec22_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec22_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "Three-Phase Inverters (Handwritten Notes)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6165,
+          "title": "Lecture 23: Three-Phase Inverters (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec23_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec23_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6196,
+          "title": "Lecture 23: Three-Phase Inverters",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_23_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6197,
+          "title": "Lecture 23: Three-Phase Inverters",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=nTq-OKy5kHs",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6199,
+          "title": "Lecture 23: Three-Phase Inverters (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1Qs09Vu5_EFov0jztlXAvysAA0NeubQY4_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6242,
+          "title": "Lecture 23: Three-Phase Inverters",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec232.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec23_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 24,
+      "title": "Control, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6061,
+          "title": "Lecture 24: Control, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_24_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_24_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6062,
+          "title": "Lecture 24: Control, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=ikaTTZEY5VE",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_24_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6064,
+          "title": "Lecture 24: Control, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/14NE_jLkKG1ViyIEP58aXf8d79zuS5uLN_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_24_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6183,
+          "title": "Lecture 24: Control, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec242.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec24_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6216,
+          "title": "Lecture 24: Control, Part 1 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec24_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec24_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 25,
+      "title": "Control, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6022,
+          "title": "Lecture 25: Control, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_25_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_25_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6023,
+          "title": "Lecture 25: Control, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=lRtTS1PNFik",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_25_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6025,
+          "title": "Lecture 25: Control, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1BSzo-ZcL495eDHdiCG5K04-_h2MfekQK_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_25_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6090,
+          "title": "Lecture 25: Control, Part 2 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec25_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec25_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6184,
+          "title": "Lecture 25: Control, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec252.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec25_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 26,
+      "title": "Control, Part 3 (Handwritten Notes)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5969,
+          "title": "Lecture 26: Control, Part 3 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec26_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec26_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6071,
+          "title": "Lecture 26: Control, Part 3",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_26_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6072,
+          "title": "Lecture 26: Control, Part 3",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=V-mbUZhovOo",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6074,
+          "title": "Lecture 26: Control, Part 3 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1jnDIb0W9RPiPdDxdsPIKPrIote-gdS1U_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6116,
+          "title": "Lecture 26: Control, Part 3",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec262.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec26_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 27,
+      "title": "Current-Mode Control",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6028,
+          "title": "Lecture 27: Current-Mode Control",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec272.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec27_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6202,
+          "title": "Lecture 27: Current-Mode Control (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec27_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec27_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6232,
+          "title": "Lecture 27: Current-Mode Control",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_27_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6233,
+          "title": "Lecture 27: Current-Mode Control",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=WJNPGXivqew",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6235,
+          "title": "Lecture 27: Current-Mode Control (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/123jNGP0lbJVrIsApzpsz3HQOcpQXsU4o_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 28,
+      "title": "EMI Filters, Part 1 (Handwritten Notes)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5990,
+          "title": "Lecture 28: EMI Filters, Part 1 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec28_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec28_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6120,
+          "title": "Lecture 28: EMI Filters, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec282.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec28_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6243,
+          "title": "Lecture 28: EMI Filters, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_28_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_28_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6244,
+          "title": "Lecture 28: EMI Filters, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=HWnEifmgAdU",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_28_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6246,
+          "title": "Lecture 28: EMI Filters, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1bdfOZG2NZV1IrLoTf2VneLJpQEn728Uv_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_28_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 29,
+      "title": "EMI Filters, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6097,
+          "title": "Lecture 29: EMI Filters, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_29_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_29_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6098,
+          "title": "Lecture 29: EMI Filters, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=OVZPEUzXbqM",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_29_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6100,
+          "title": "Lecture 29: EMI Filters, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1WM2-syMPuAItj988GRl-pBigGbzksqXI_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_29_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6217,
+          "title": "Lecture 29: EMI Filters, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec292.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec29_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6236,
+          "title": "Lecture 29: EMI Filters, Part 2 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec29_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec29_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 30,
+      "title": "EMI Filters, Part 3: CM + DM",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5970,
+          "title": "Lecture 30: EMI Filters, Part 3: CM + DM",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec302.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec30_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6112,
+          "title": "Lecture 30: EMI Filters, Part 3: CM + DM",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_30_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6113,
+          "title": "Lecture 30: EMI Filters, Part 3: CM + DM",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Zh4eqhcZjcg",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6115,
+          "title": "Lecture 30: EMI Filters, Part 3: CM + DM (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1hcw4UlUAkt-0-hmuPKO7I89WRQf323bd_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6219,
+          "title": "Lecture 30: EMI Filters, Part 3: CM + DM (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec30_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec30_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 31,
+      "title": "Switched-Capacitor Convertors, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6082,
+          "title": "Lecture 31: Switched-Capacitor Convertors, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec312.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec31_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6084,
+          "title": "Lecture 31: Switched-Capacitor Convertors, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_31_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_31_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6085,
+          "title": "Lecture 31: Switched-Capacitor Convertors, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=CKncVaiv_08",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_31_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6087,
+          "title": "Lecture 31: Switched-Capacitor Convertors, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/12nyfTaoAL0CoRiAAC4YjZ-H9c2hZ-t7E_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_31_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6239,
+          "title": "Lecture 31: Switched-Capacitor Convertors, Part 1 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec31_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec31_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 32,
+      "title": "Switched-Capacitor Convertors, Part 2 (Handwritten Notes)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6016,
+          "title": "Lecture 32: Switched-Capacitor Convertors, Part 2 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec32_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec32_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6066,
+          "title": "Lecture 32: Switched-Capacitor Convertors, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_32_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_32_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6067,
+          "title": "Lecture 32: Switched-Capacitor Convertors, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=jcE-Ue83P7U",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_32_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6069,
+          "title": "Lecture 32: Switched-Capacitor Convertors, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1JimzDcKHjTLgNN3Whan36afmCih5US9A_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_32_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6163,
+          "title": "Lecture 32: Switched-Capacitor Convertors, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec322.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec32_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 33,
+      "title": "Soft Switching, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6039,
+          "title": "Lecture 33: Soft Switching, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_33_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_33_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6040,
+          "title": "Lecture 33: Soft Switching, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=4VztgBcVH5Q",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_33_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6042,
+          "title": "Lecture 33: Soft Switching, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1B-EdPfWAdhfRVILtl-7GRVeJQGo3UgRP_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_33_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6167,
+          "title": "Lecture 33: Soft Switching, Part 1 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec33_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec33_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6237,
+          "title": "Lecture 33: Soft Switching, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec332.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec33_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 34,
+      "title": "Soft Switching, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5977,
+          "title": "Lecture 34: Soft Switching, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_34_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_34_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5978,
+          "title": "Lecture 34: Soft Switching, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=7FhXh4yXUao",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_34_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5980,
+          "title": "Lecture 34: Soft Switching, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1RGQ46ECvt84wGz4Mg5J31J3K890YM50B_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_34_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6079,
+          "title": "Lecture 34: Soft Switching, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec342.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec34_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6218,
+          "title": "Lecture 34: Soft Switching, Part 2 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec34_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec34_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 35,
+      "title": "Resonant Power Conversion, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6043,
+          "title": "Lecture 35: Resonant Power Conversion, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec352.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec35_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6135,
+          "title": "Lecture 35: Resonant Power Conversion, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_35_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_35_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6136,
+          "title": "Lecture 35: Resonant Power Conversion, Part 1",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=BryipFEiIiE",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_35_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6138,
+          "title": "Lecture 35: Resonant Power Conversion, Part 1 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1YOdoY_n8k6MLa0Htv4sSgzNisLig_d_X_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_35_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6251,
+          "title": "Lecture 35: Resonant Power Conversion, Part 1 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec35_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec35_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 36,
+      "title": "Resonant Power Conversion, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6018,
+          "title": "Lecture 36: Resonant Power Conversion, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_36_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_36_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6019,
+          "title": "Lecture 36: Resonant Power Conversion, Part 2",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=teW8gmpKQcI",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_36_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6021,
+          "title": "Lecture 36: Resonant Power Conversion, Part 2 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1YtOhx0q4OF3UYOU7PZczixk6h-Sg-mDi_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_36_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6105,
+          "title": "Lecture 36: Resonant Power Conversion, Part 2 (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec36_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec36_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6151,
+          "title": "Lecture 36: Resonant Power Conversion, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec362.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec36_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 37,
+      "title": "Resonant Converters: Matching Networks (Handwritten Notes)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6080,
+          "title": "Lecture 37: Resonant Converters: Matching Networks (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec37_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec37_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6177,
+          "title": "Lecture 37: Resonant Converters: Matching Networks",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec372.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec37_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6205,
+          "title": "Lecture 37: Resonant Converters: Matching Networks",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_37_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_37_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6206,
+          "title": "Lecture 37: Resonant Converters: Matching Networks",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=TDZVCli3bEs",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_37_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6208,
+          "title": "Lecture 37: Resonant Converters: Matching Networks (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1hMyfXxXC8MkS__taKirTa-ZT6h9eBWQv_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_37_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 38,
+      "title": "Gate Drive, Level Shift, Layout",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6006,
+          "title": "Lecture 38: Gate Drive, Level Shift, Layout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec382.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec38_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6143,
+          "title": "Lecture 38: Gate Drive, Level Shift, Layout (Handwritten Notes)",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec38_hand.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec38_hand_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6157,
+          "title": "Lecture 38: Gate Drive, Level Shift, Layout",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622s23_lecture_38_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_38_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6158,
+          "title": "Lecture 38: Gate Drive, Level Shift, Layout",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=TtItFQTNMA4",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_38_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6160,
+          "title": "Lecture 38: Gate Drive, Level Shift, Layout (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/1jBfQFMSIBooBX_iqPSIqrZuAvrbZu6F9_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622s23_lecture_38_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 102,
+      "title": "Magnetics, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6060,
+          "title": "Lecture 10: Magnetics, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec102.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec10_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 112,
+      "title": "Magnetics, Part 3",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6078,
+          "title": "Lecture 11: Magnetics, Part 3",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec112.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec11_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 122,
+      "title": "Magnetics, Part 4",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6053,
+          "title": "Lecture 12: Magnetics, Part 4",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec122.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec12_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 132,
+      "title": "Isolated DC/DC Converters, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5968,
+          "title": "Lecture 13: Isolated DC/DC Converters, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec132.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec13_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 142,
+      "title": "Isolated DC/DC Converters, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6145,
+          "title": "Lecture 14: Isolated DC/DC Converters, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec142.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec14_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 152,
+      "title": "Switching Losses and Snubbers",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6168,
+          "title": "Lecture 15: Switching Losses and Snubbers",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec152.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec15_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 162,
+      "title": "Thermal Modeling and Heat Sinking",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5965,
+          "title": "Lecture 16: Thermal Modeling and Heat Sinking",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec162.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec16_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 172,
+      "title": "Inverters, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6134,
+          "title": "Lecture 17: Inverters, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec172.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec17_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 182,
+      "title": "Inverters, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6121,
+          "title": "Lecture 18: Inverters, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec182.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec18_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 192,
+      "title": "Inverters, Part 3",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6076,
+          "title": "Lecture 19: Inverters, Part 3",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec192.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec19_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 202,
+      "title": "Switched-Mode Rectifiers",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5983,
+          "title": "Lecture 20: Switched-Mode Rectifiers",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec202.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec20_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 212,
+      "title": "Three-Phase Systems, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5976,
+          "title": "Lecture 21: Three-Phase Systems, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec212.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec21_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 222,
+      "title": "Three-Phase Systems, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5981,
+          "title": "Lecture 22: Three-Phase Systems, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec222.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec22_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 232,
+      "title": "Three-Phase Inverters",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6242,
+          "title": "Lecture 23: Three-Phase Inverters",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec232.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec23_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 242,
+      "title": "Control, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6183,
+          "title": "Lecture 24: Control, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec242.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec24_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 252,
+      "title": "Control, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6184,
+          "title": "Lecture 25: Control, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec252.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec25_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 262,
+      "title": "Control, Part 3",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6116,
+          "title": "Lecture 26: Control, Part 3",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec262.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec26_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 272,
+      "title": "Current-Mode Control",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6028,
+          "title": "Lecture 27: Current-Mode Control",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec272.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec27_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 282,
+      "title": "EMI Filters, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6120,
+          "title": "Lecture 28: EMI Filters, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec282.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec28_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 292,
+      "title": "EMI Filters, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6217,
+          "title": "Lecture 29: EMI Filters, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec292.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec29_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 302,
+      "title": "EMI Filters, Part 3: CM + DM",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5970,
+          "title": "Lecture 30: EMI Filters, Part 3: CM + DM",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec302.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec30_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 312,
+      "title": "Switched-Capacitor Convertors, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6082,
+          "title": "Lecture 31: Switched-Capacitor Convertors, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec312.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec31_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 322,
+      "title": "Switched-Capacitor Convertors, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6163,
+          "title": "Lecture 32: Switched-Capacitor Convertors, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec322.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec32_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 332,
+      "title": "Soft Switching, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6237,
+          "title": "Lecture 33: Soft Switching, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec332.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec33_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 342,
+      "title": "Soft Switching, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6079,
+          "title": "Lecture 34: Soft Switching, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec342.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec34_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 352,
+      "title": "Resonant Power Conversion, Part 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6043,
+          "title": "Lecture 35: Resonant Power Conversion, Part 1",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec352.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec35_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 362,
+      "title": "Resonant Power Conversion, Part 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6151,
+          "title": "Lecture 36: Resonant Power Conversion, Part 2",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec362.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec36_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 372,
+      "title": "Resonant Converters: Matching Networks",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6177,
+          "title": "Lecture 37: Resonant Converters: Matching Networks",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec372.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec37_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 382,
+      "title": "Gate Drive, Level Shift, Layout",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6006,
+          "title": "Lecture 38: Gate Drive, Level Shift, Layout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_lec382.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_lec38_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 6029,
+      "title": "Problem Set 0",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps00.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps00_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 6147,
+      "title": "Problem Set 0 Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_ps00_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_ps00_sol_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 5975,
+      "title": "Chemi-Con LXG Series Snap Mount (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://pdf.datasheet.live/34e770ccf03f5643b3860fa14e1d159d.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/chemi-con-lxg-series-snap-mount-pdf_07b3f045-4c17-4790-963a-3d19e914d724/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5982,
+      "title": "STPS40L45C Low Drop Power Schottky Rectifier (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.digikey.in/htmldatasheets/production/8006/0/0/1/stps40l45c.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/stps40l45c-low-drop-power-schottky-rectifier-pdf_0e086f32-4cfb-45cd-9816-4a46140ae9ee/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5988,
+      "title": "NVMFS5C628NL Power MOSFET (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.onsemi.com/pdf/datasheet/nvmfs5c628nl-d.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/nvmfs5c628nl-power-mosfet-pdf_0f4068bc-9af1-41a8-9df2-f12105eb1f39/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5995,
+      "title": "Chemi-Con U767D Series Large Tubulars (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.onlinecomponents.com/productfiles/mf-ucc/u767du767d1103.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/chemi-con-u767d-series-large-tubulars-pdf_12c5a642-f3b8-42a3-bce7-196fdda6b6f0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5996,
+      "title": "Assessment 8 Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assess08_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assess08_sol_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 6010,
+      "title": "Assessment 7",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assessment07.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assessment07_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 6017,
+      "title": "Bergquist Sil-Pad A2000 (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.mouser.com/datasheet/2/48/PDS-SP-A2000-HENKEL-0615-1479871.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/bergquist-sil-pad-a2000-pdf_26d3f2f7-f098-4751-89f0-578dbff91065/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6034,
+      "title": "Bergquist Sil-Pad 400 (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://pdf.icgoo.net/productinfo/allpdf/6efa6e4b-e599-3c12-9229-85793faffc88.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/bergquist-sil-pad-400-pdf_2e4162af-2374-45e5-96c9-01c9ef2a7d09/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6045,
+      "title": "Wakefield-Vette 517, 527, 518, and 528 Series Heatsinks (PDF)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.electronicsdatasheets.com/download/5347e79ee34e244e5d56b2c1.pdf?format=pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/wakefield-vette-517-527-518-and-528-series-heatsinks-pdf_31f61623-f832-4ad9-9303-1c52ab87f5ae/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6051,
+      "title": "Panasonic Conductive Polymer Aluminum Solid Capacitors Surface Mount Type (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C211.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/panasonic-conductive-polymer-aluminum-solid-capacitors-surface-mount-type-pdf_34a89788-c56e-4922-a778-34fb8511d776/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6052,
+      "title": "Paktron CS Capstick Series Capacitors (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://d2f6h2rm95zg9t.cloudfront.net/32376511/CS_Capstick_27515424.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/paktron-cs-capstick-series-capacitors-pdf_35825eae-1190-4a66-a396-5be8d3cbe7ab/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6070,
+      "title": "Assessment 2",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assessment02.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assessment02_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 6077,
+      "title": "Aavid Aluminum Heat Sink Extrusion Profiles (PDF)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://archive.org/details/Aavid-AluminumHeatSinkExtrusionProfilesOCR/page/n41/mode/2up",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/aavid-aluminum-heat-sink-extrusion-profiles-pdf_4d0f5216-2154-48b4-b9a2-b79f99c0c58a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6083,
+      "title": "CTS Forged Heat Sinks with Pin Fins (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.ctscorp.com/wp-content/uploads/Pin-Fin-Configuration-Oct2018.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/cts-forged-heat-sinks-with-pin-fins-pdf_528a417c-2900-4d73-a306-137378f928bb/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6089,
+      "title": "Assessment 4",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assessment04.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assessment04_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 6095,
+      "title": "Philips Components RM8/I RM Cores and Accessories (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.farnell.com/datasheets/17746.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/philips-components-rm8i-rm-cores-and-accessories-pdf_5c50ece6-7ada-427f-91fd-bd2eae27a876/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6096,
+      "title": "PMEG045V100EPD 45 V, 10 A Low VF MEGA Schottky Barrier Rectifier (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/PMEG045V100EPD.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/pmeg045v100epd-45-v-10-a-low-vf-mega-schottky-barrier-rectifier-pdf_5ea26495-d646-4c95-91dc-a495a19bdd04/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6118,
+      "title": "NVMFS5C670NL Power MOSFET (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.onsemi.com/pdf/datasheet/nvmfs5c670nl-d.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/nvmfs5c670nl-power-mosfet-pdf_71b88af2-b955-41b9-8c21-d7c188114cc5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6119,
+      "title": "Ferroxcube RM12/I RM, RM/I, RM/ILP Cores and Accessories (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ferroxcube.home.pl/prod/assets/rm12i.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/ferroxcube-rm12i-rm-rmi-rmilp-cores-and-accessories-pdf_72f6c392-c062-4cb0-b2d1-2791d47b0ad7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6126,
+      "title": "Assessment 5 Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assess05_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assess05_sol_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 6127,
+      "title": "Assessment 2 Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assess02_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assess02_sol_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 6128,
+      "title": "Nippon Chemi-Con Multilayer Ceramic Chip Capacitors (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://media.digikey.com/pdf/Data%20Sheets/United%20Chemi-Con%20PDFs/NTS,NTF_Series_Rev_E1002V.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/nippon-chemi-con-multilayer-ceramic-chip-capacitors-pdf_78d93736-444c-4923-bed2-804a5f83ec83/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6149,
+      "title": "Assessment 1 Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assess01_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assess01_sol_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 6152,
+      "title": "Assessment 9",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assessment09.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assessment09_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 6153,
+      "title": "Assessment 10",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assessment10.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assessment10_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 6154,
+      "title": "Philips Components RM7/I RM Cores and Accessories (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.farnell.com/datasheets/17755.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/philips-components-rm7i-rm-cores-and-accessories-pdf_9cc276bb-0ea2-485f-9302-7835e142c78c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6164,
+      "title": "Assessment 3",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assessment03.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assessment03_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 6174,
+      "title": "Assessment 3 Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assess03_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assess03_sol_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 6176,
+      "title": "PMEG045V050EPD 45 V, 5 A Low VF MEGA Schottky Barrier Rectifier (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/PMEG045V050EPD.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/pmeg045v050epd-45-v-5-a-low-vf-mega-schottky-barrier-rectifier-pdf_b2d8ec39-2d72-4dad-805e-14992ba50bcc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6191,
+      "title": "Assessment 1",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assessment01.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assessment01_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 6200,
+      "title": "Philips Components RM10/I RM Cores and Accessories (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.farnell.com/datasheets/17748.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/philips-components-rm10i-rm-cores-and-accessories-pdf_c0957a9c-2995-4b3a-aefd-cd2c14ec93d7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6201,
+      "title": "PMEG045V150EPD 45 V, 15 A Low VF MEGA Schottky Barrier Rectifier (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/PMEG045V150EPD.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/pmeg045v150epd-45-v-15-a-low-vf-mega-schottky-barrier-rectifier-pdf_c0f762e8-6124-4dc5-a197-b5e438b26f24/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6203,
+      "title": "Nichicon Aluminum Electrolytic Capacitors HD Series (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nichicon.co.jp/english/products/pdf/e-hd.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/nichicon-aluminum-electrolytic-capacitors-hd-series-pdf_c184b96a-f49f-40aa-bf2e-dcc3dc7b534f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6209,
+      "title": "Assessment 4 Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assess04_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assess04_sol_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 6210,
+      "title": "Assessment 5",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assessment05.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assessment05_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 6211,
+      "title": "Assessment 7 Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assess07_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assess07_sol_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 6213,
+      "title": "STPS3045DJF Power Schottky Rectifier (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://tz.micro-semiconductor.hk/datasheet/61-STPS3045DJF-TR.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/stps3045djf-power-schottky-rectifier-pdf_d0e459e2-b1a9-48df-ba7a-3421773169c2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6228,
+      "title": "NTMFS5844NL, NVMFS5844NL Power MOSFET (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.onsemi.com/pdf/datasheet/ntmfs5844nl-d.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/ntmfs5844nl-nvmfs5844nl-power-mosfet-pdf_e1732100-60f7-468a-81c8-ff3bcd13964f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6231,
+      "title": "Assessment 10 Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assess10_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assess10_sol_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 6240,
+      "title": "AN-2020 Thermal Design By Insight, Not Hindsight (PDF)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.ti.com/lit/an/snva419c/snva419c.pdf?ts=1704297165277&ref_url=https%253A%252F%252Fwww.google.com%252F",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/an-2020-thermal-design-by-insight-not-hindsight-pdf_ed611c62-2ead-4169-b13b-9a615f706d74/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6241,
+      "title": "Assessment 8",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assessment08.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assessment08_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 6253,
+      "title": "NVMFS5826NL Power MOSFET (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.onsemi.com/pdf/datasheet/nvmfs5826nl-d.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/external-resources/nvmfs5826nl-power-mosfet-pdf_f612acd3-fcb4-4ba7-8147-08a33e0876d2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6255,
+      "title": "Assessment 6 Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assess06_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assess06_sol_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 6256,
+      "title": "Assessment 6",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_assessment06.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_assessment06_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 6261,
+      "title": "Design Project Description",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/6-622-power-electronics-spring-2023/mit6_622_s23_designproj.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-622-power-electronics-spring-2023/resources/mit6_622_s23_designproj_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Design Assignments"
+      ]
+    }
+  ]
+}

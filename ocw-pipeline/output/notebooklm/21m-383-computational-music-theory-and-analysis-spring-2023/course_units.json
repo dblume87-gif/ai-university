@@ -1,0 +1,2441 @@
+{
+  "generated_at": "2026-05-18T20:51:01.785Z",
+  "course": {
+    "course_id": "21m-383-computational-music-theory-and-analysis-spring-2023",
+    "title": "Computational Music Theory and Analysis",
+    "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 182,
+    "unit_count": 14,
+    "assigned_sources": 43,
+    "unassigned_sources": 139
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Class 1 Video: How Do Computers \"Hear\" Music?",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6612,
+          "title": "Class 1 Video: How Do Computers \"Hear\" Music?",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-1-feb-8-version3_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-1-feb-8-version3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6613,
+          "title": "Class 1 Video: How Do Computers \"Hear\" Music?",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=e4L9pdUIDnc",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-1-feb-8-version3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6615,
+          "title": "Class 1 Video: How Do Computers \"Hear\" Music? (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/16f1iaFpH1vn1wIvW6Kn9Mo3jfoWxi9fT_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-1-feb-8-version3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Class 2 Video: Representation of Notes, Pitches, and Durations",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6686,
+          "title": "Class 2 Video: Representation of Notes, Pitches, and Durations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-2-feb-10_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-2-feb-10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6687,
+          "title": "Class 2 Video: Representation of Notes, Pitches, and Durations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=JneQrFoLq18",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-2-feb-10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6689,
+          "title": "Class 2 Video: Representation of Notes, Pitches, and Durations (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1GXWWF_k4wc9-28OOyr3J-AbvrRn1KGmc_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-2-feb-10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Class 4 Video: Intro to Scores and Music Representation",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6616,
+          "title": "Class 4 Video: Intro to Scores and Music Representation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-4-feb-15_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-4-feb-15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6617,
+          "title": "Class 4 Video: Intro to Scores and Music Representation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=sBM2jr-ul6o",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-4-feb-15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6619,
+          "title": "Class 4 Video: Intro to Scores and Music Representation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1mw4C9CXSMWYlg3Snc440zcMkecrg-a4c_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-4-feb-15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Class 5 Video: Music Representation (II)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6562,
+          "title": "Class 5 Video: Music Representation (II)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-5-feb-17-version3_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-5-feb-17-version3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6563,
+          "title": "Class 5 Video: Music Representation (II)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=gLWtkG2O_vs",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-5-feb-17-version3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6565,
+          "title": "Class 5 Video: Music Representation (II) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1ik7wsDaK1n-ZLAAipSc2VnJcQQsSNDw1_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-5-feb-17-version3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Class 7 Video: Music Representation (IV) & Hierarchies (I)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6639,
+          "title": "Class 7 Video: Music Representation (IV) & Hierarchies (I)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-7-feb-22-version3_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-7-feb-22-version3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6640,
+          "title": "Class 7 Video: Music Representation (IV) & Hierarchies (I)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=2UpHyGPVdgg",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-7-feb-22-version3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6642,
+          "title": "Class 7 Video: Music Representation (IV) & Hierarchies (I) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1Y6j8kimKDidXIaEXvqNX-9Wa7EyMcGqd_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-7-feb-22-version3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Class 11 Video: Equivalence and Intervals (II) and Filters in music21",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6557,
+          "title": "Class 11 Video: Equivalence and Intervals (II) and Filters in music21",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-11-mar-3_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-11-mar-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6558,
+          "title": "Class 11 Video: Equivalence and Intervals (II) and Filters in music21",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Kfe5XlHX64E",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-11-mar-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6560,
+          "title": "Class 11 Video: Equivalence and Intervals (II) and Filters in music21 (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1eBXvi3hOv1ViGzL3hY8DEAkSJNUaU0OS_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-11-mar-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Class 13 Video: Corpus Studies and Statistics",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6587,
+          "title": "Class 13 Video: Corpus Studies and Statistics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-13-mar-8_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-13-mar-8_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6588,
+          "title": "Class 13 Video: Corpus Studies and Statistics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=puGDVckzFK8",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-13-mar-8_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6590,
+          "title": "Class 13 Video: Corpus Studies and Statistics (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1KWgvS-9PGbBjVGmC_z44Y3U_lnJ6Tzwy_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-13-mar-8_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Class 15 Video: Encoding Corpora and Voice Leading",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6704,
+          "title": "Class 15 Video: Encoding Corpora and Voice Leading",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-15-mar-17_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-15-mar-17_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6705,
+          "title": "Class 15 Video: Encoding Corpora and Voice Leading",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=0h3ShhOQ6zI",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-15-mar-17_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6707,
+          "title": "Class 15 Video: Encoding Corpora and Voice Leading (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1y2CQm34Dwo0NqWV-pMD4h74khmZTvCIt_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-15-mar-17_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Classes 18-21 Video: Brief Synopsis of Guest Sessions on Music Cognition",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6675,
+          "title": "Classes 18-21 Video: Brief Synopsis of Guest Sessions on Music Cognition",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-18-21_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-18-21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6676,
+          "title": "Classes 18-21 Video: Brief Synopsis of Guest Sessions on Music Cognition",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Qs4G9ynralk",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-18-21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6678,
+          "title": "Classes 18-21 Video: Brief Synopsis of Guest Sessions on Music Cognition (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1R6q1w92L-9_sM82Vv21xpKCt0GzgDAcM_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-18-21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 24,
+      "title": "Class 24 Video: Algorithmic Composition (II)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6517,
+          "title": "Class 24 Video: Algorithmic Composition (II)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-24-apr-14_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-24-apr-14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6518,
+          "title": "Class 24 Video: Algorithmic Composition (II)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=yh6pjvu5tAM",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-24-apr-14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6520,
+          "title": "Class 24 Video: Algorithmic Composition (II) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1THUxeXDfWMnxidTMztNO6XWiyNI_haBq_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-24-apr-14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 25,
+      "title": "Class 25 Video: Algorithmic Composition (III)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6603,
+          "title": "Class 25 Video: Algorithmic Composition (III)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-25-apr-21_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-25-apr-21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6604,
+          "title": "Class 25 Video: Algorithmic Composition (III)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=AsRXbfCQ6hA",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-25-apr-21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6606,
+          "title": "Class 25 Video: Algorithmic Composition (III) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1ffeNrtMVkuEacJHHINop52ag5jSqRBpF_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-25-apr-21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 27,
+      "title": "Class 27 Video: Feature Extraction and Machine Learning",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6542,
+          "title": "Class 27 Video: Feature Extraction and Machine Learning",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-27-apr-26_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-27-apr-26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6543,
+          "title": "Class 27 Video: Feature Extraction and Machine Learning",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=ivvxfWR1azI",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-27-apr-26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6545,
+          "title": "Class 27 Video: Feature Extraction and Machine Learning (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1rTf_3JJ714mQ6DCNkGnstAWVxEFTrG2q_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-27-apr-26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 28,
+      "title": "21M.383 S23 Lecture 28 Apr 28-V3_transcript.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6654,
+          "title": "21M.383 S23 Lecture 28 Apr 28-V3_transcript.pdf",
+          "media_type": "pdf",
+          "material_type": "Other",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-28-apr-28-v3_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-28-apr-28-v3_transcript_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6669,
+          "title": "Class 28 Video: Feature Extraction and Machine Learning (II)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-28-apr-28-v3_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-28-apr-28-v3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6670,
+          "title": "Class 28 Video: Feature Extraction and Machine Learning (II)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=SC-K2GC2LQk",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-28-apr-28-v3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6672,
+          "title": "Class 28 Video: Feature Extraction and Machine Learning (II) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-28-apr-28-v3_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-28-apr-28-v3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 31,
+      "title": "Class 31 Video: Music Visualization and Optical Music Recognition",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 6582,
+          "title": "Class 31 Video: Music Visualization and Optical Music Recognition",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-lecture-31-may-5_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-31-may-5_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6583,
+          "title": "Class 31 Video: Music Visualization and Optical Music Recognition",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=s7TtenBwlYg",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-31-may-5_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 6585,
+          "title": "Class 31 Video: Music Visualization and Optical Music Recognition (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1gSZ2wB7EuCCaAS3LauaWaRKWq21YFnk-_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-lecture-31-may-5_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 6499,
+      "title": "Video 6a: Music Representation (III): Unlocking Pitch in music21",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_6a_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_6a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6500,
+      "title": "Video 6a: Music Representation (III): Unlocking Pitch in music21",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=JOZiPUdOU4M",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_6a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6502,
+      "title": "Video 6a: Music Representation (III): Unlocking Pitch in music21 (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1COh8X5BZzNPUTvzV3DJEyQRxonRlJZOM_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_6a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6503,
+      "title": "*A Geometry of Music: Harmony and Counterpoint in the Extended Common Practice*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://dmitri.mycpanel.princeton.edu/geometry-of-music.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/a-geometry-of-music-harmony-and-counterpoint-in-the-extended-common-practice_01b95ef8-7e5e-427f-a808-ddc1796b42d7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6504,
+      "title": "music21 Documentation",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "http://web.mit.edu/music21/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/music21-documentation_02b8dd53-b427-411e-a30c-2850c6502418/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6505,
+      "title": "*21M.301 Harmony and Counterpoint I*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/21m-301-harmony-and-counterpoint-i-spring-2005/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/21m301-harmony-and-counterpoint-i_055d182b-facc-455e-8c5d-1dff1e9cadb8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6506,
+      "title": "music21 Documentation",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/music21-documentation/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6507,
+      "title": "Chapter 4",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/book/40395/chapter/347203084",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-4_08050c51-1615-4273-b4e2-6ad133b640d1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6508,
+      "title": "*Cognitive Foundations of Musical Pitch*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://global.oup.com/academic/product/cognitive-foundations-of-musical-pitch-9780195148367?cc=us&lang=en&#",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/cognitive-foundations-of-musical-pitch_0b168427-30ed-419e-9e3d-c8fb4fc49e1a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6510,
+      "title": "Hidden Beyond MIDI’s Reach: Feature Extraction and Machine Learning with Rich Symbolic Formats in music21",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.trecento.com/research/Cuthbert_Ariza_Cabal-Ugaz_Hadley_Parikh-Hidden-NIPS2011.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/hidden-beyond-midis-reach-feature-extraction-and-machine-learning-with-rich-symbolic-form0d7046fd-25e5-41ce-bb58-85e27d4e6435/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6511,
+      "title": "Chapter 2",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/book/40395/chapter/347202819",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-2_0f71f3e5-b9b5-46a9-8fa9-8a79c818c650/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6512,
+      "title": "Chapter 16, TinyNotation",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_16_tinyNotation.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-16-tinynotation_107c9d53-6d9a-4f3b-a24c-d1c0ad4924d7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6513,
+      "title": "Video 4a: How to Read an Academic Article",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_4a_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_4a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6514,
+      "title": "Video 4a: How to Read an Academic Article",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=Xqn_u1O_q0s",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_4a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6516,
+      "title": "Video 4a: How to Read an Academic Article (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1PDSNrLpDJzY4Rask-_BchuM64FlPD7I2_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_4a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6521,
+      "title": "Read on Internet Archive",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://archive.org/details/experimentalmusi00hill/page/n5/mode/2up",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/read-on-internet-archive_128b0fb0-786b-4157-ae07-3c74f14c6119/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6522,
+      "title": "Review of Michael Cuthbert, Music21: a Toolkit for Computer-Aided Musicology",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mtosmt.org/issues/mto.13.19.3/mto.13.19.3.tymoczko.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/review-of-michael-cuthbert-music21-a-toolkit-for-computer-aided-musicology_12dccd6c-7640-4446-b8c2-89333a3f1664/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6523,
+      "title": "Video 10a: Review: Equivalence Classes and OPTIC",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_10a_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_10a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6524,
+      "title": "Video 10a: Review: Equivalence Classes and OPTIC",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=VvIPQBBKyzM",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_10a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6526,
+      "title": "Video 10a: Review: Equivalence Classes and OPTIC (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1cmziCrv-IayguRjzcY1tcWU0RmRy7Tpk_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_10a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6527,
+      "title": "Chapter 18, Intervals",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_18_intervals.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-18-intervals_17a1c353-deff-4cee-a3e0-b1b39fd7366e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6528,
+      "title": "Chapter 17, Derivations",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_17_derivations.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-17-derivations_1924dad7-6275-45e4-b90d-6a561e8f8303/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6529,
+      "title": "Video 7b: Streams as Hierarchies: Types of Containers in music21",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_7b_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_7b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6530,
+      "title": "Video 7b: Streams as Hierarchies: Types of Containers in music21",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=FgCxLh3Y7pI",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_7b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6532,
+      "title": "Video 7b: Streams as Hierarchies: Types of Containers in music21 (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1iSrmWiik6HPMpvAw306zyYDfN93X_-7I_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_7b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6533,
+      "title": "Chapter 13, More Music21Object Attributes and Properties",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_13_music21object2.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-13-more-music21object-attributes-and-properties_1b337145-a30c-47cf-8623-3b7549784e28/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6535,
+      "title": "Electronic Corpus of Lute Music (ECOLM)",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://igor.gold.ac.uk/isms/ecolm/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/electronic-corpus-of-lute-music-ecolm_1fb0b1e8-e90f-4b32-93e8-4447305bd37a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6536,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://books.google.com/books?id=jJg-IyOsvnYC&pg=PA103#v=onepage",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/google-books_2386c5e7-3e6e-41d6-a7c9-d3293b3b92bc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6537,
+      "title": "Video 3b: Pitch Representation: Pros, Cons, and Stakeholders",
+      "media_type": "html",
+      "material_type": "Lecture Videos",
+      "source_url": "https://draft.ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_3b_mp4/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/video-3b-pitch-representation-pros-cons-and-stakeholders_23a9b3f8-b16a-4700-a9b8-9767fb288891/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6539,
+      "title": "music21 User's Guide, Chapters 1–30",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/music21-users-guide-chapters-130_281e0772-de34-4064-a331-a2fc603c18b9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6540,
+      "title": "music21 corpus",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/about/referenceCorpus.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/music21-corpus_294af042-acfa-44ad-96b1-c12ad30da9ac/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6546,
+      "title": "Tipping the Iceberg: Missing Italian Polyphony from the Age of Schism",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/25750547",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/tipping-the-iceberg-missing-italian-polyphony-from-the-age-of-schism_2bb376a5-95a2-4a14-b75b-2a04782cfa2c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6547,
+      "title": "Video 7d: Partwise vs. Timewise Polyphonic Representations",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_7d_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_7d_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6548,
+      "title": "Video 7d: Partwise vs. Timewise Polyphonic Representations",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=4XfaGkNEE9g",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_7d_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6550,
+      "title": "Video 7d: Partwise vs. Timewise Polyphonic Representations (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/143yk_tKLSGzSldgSejrw-76InYV1anPh_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_7d_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6551,
+      "title": "Video 9a: Music Information Retrieval (MIR): Sound to Score and Music Theory",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_9a_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_9a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6552,
+      "title": "Video 9a: Music Information Retrieval (MIR): Sound to Score and Music Theory",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=gHT4d3Ep_M0",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_9a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6554,
+      "title": "Video 9a: Music Information Retrieval (MIR): Sound to Score and Music Theory (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1xiqDyy5R3WE-YK6sQ5PmzhtacgQCPtJw_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_9a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6555,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Cognitive_Foundations_of_Musical_Pitch/aJDEVqyArr4C?hl=en&gbpv=0",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/google-books_2d63bd64-e100-4528-be57-e326c4d5c179/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6556,
+      "title": "OpenScore lieder",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://musescore.com/OpenScore-Lieder-Corpus",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/openscore-lieder_2f81a13a-5dbf-4735-ae35-75e4ee7f6f93/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6561,
+      "title": "An Interesting Global Rule for Species Counterpoint,",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://name.umdl.umich.edu/0641601.0006.008",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/an-interesting-global-rule-for-species-counterpoint_30e90fe2-c6f9-4f58-9606-5f17c2b87107/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6566,
+      "title": "https://www.musicxml.com/music-in-musicxml/",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.musicxml.com/music-in-musicxml/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/httpswwwmusicxmlcommusic-in-musicxml_33c2ac0f-931e-4df4-9847-b742045fe3cb/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6567,
+      "title": "3.",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=cuq4smO_4Js",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/3_3446ecf5-fda8-4f6f-9c13-65f00b94ccbd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6568,
+      "title": "MuseScore.org",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://musescore.org/en",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/musescoreorg_35129d63-35d1-4672-87ba-41102943d129/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6569,
+      "title": "Chapter 5 [programming review, Lists of Lists]",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_05_listsOfLists.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-5-programming-review-lists-of-lists_35712e55-047d-436d-a4c5-8344bcfbe4cd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6570,
+      "title": "Video 32a: Tipping the Iceberg",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_32a_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_32a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6571,
+      "title": "Video 32a: Tipping the Iceberg",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=kEtov6pV_1Q",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_32a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6573,
+      "title": "Video 32a: Tipping the Iceberg (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1Tu-m4SUiW7plP59vDJUQu7dT-XAfIQb1_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_32a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6574,
+      "title": "The Annotated Beethoven Corpus (ABC): A Dataset of Harmonic Analyses of All Beethoven String Quartets",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.frontiersin.org/articles/10.3389/fdigh.2018.00016/full",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/the-annotated-beethoven-corpus-abc-a-dataset-of-harmonic-analyses-of-all-beethoven-string36564383-b384-46ac-8874-b74c4d36877f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6575,
+      "title": "Triple Sharps",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dictionary.onmusic.org/terms/3687-triple_sharp",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/triple-sharps_37934be5-a23b-408f-b601-93a46089d8f0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6576,
+      "title": "Chapter 9: Chordify",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_09_chordify.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-9-chordify_3ae834a5-63fb-4420-abbf-320345f78b9a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6577,
+      "title": "Video 22a: Chord Review and 13 Chords: Some Problems with Roots",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_22a_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_22a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6578,
+      "title": "Video 22a: Chord Review and 13 Chords: Some Problems with Roots",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=NnJ1vDNqlsk",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_22a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6580,
+      "title": "Video 22a: Chord Review and 13 Chords: Some Problems with Roots (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1iZmnl7whHxj7_GVHlUFuDDlnr2vN5UxP_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_22a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6581,
+      "title": "Video 3a: Introduction to Pitch Representation",
+      "media_type": "html",
+      "material_type": "Lecture Videos",
+      "source_url": "https://draft.ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_3a_mp4/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/video-3a-introduction-to-pitch-representation_3df3607a-f334-4a22-b685-689136d1c596/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6586,
+      "title": "Midterm 2 (2023) 21M.383 Computational Music Theory and Analysis (PDF)",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/mit21m383s23_quiz_2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/mit21m383s23_quiz_2_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 6591,
+      "title": "ILLIAC",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/ILLIAC",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/illiac_48f5ed15-d21a-4f64-9aec-3edefb9428f4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6592,
+      "title": "Chapter 12, Getting Back to Basics: The Music21Object",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_12_music21object.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-12-getting-back-to-basics-the-music21object_490bf37a-9621-4352-bd03-7de225b5642a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6593,
+      "title": "*21M.302 Harmony and Counterpoint II*,",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/21m-302-harmony-and-counterpoint-ii-spring-2005/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/21m302-harmony-and-counterpoint-ii_4adb7890-2b1b-4a34-a639-5d7089a067c1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6594,
+      "title": "Chapter 4 [Streams I]",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_04_stream1.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-4-streams-i_50198a78-6cad-449b-8d48-3838d411b6ae/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6595,
+      "title": "OpenScore",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://openscore.cc/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/openscore_53075591-e7d4-4e1b-b902-9fcaa2f84959/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6596,
+      "title": "Chapter 7, Chords",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_07_chords.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-7-chords_531e9158-4068-4b61-bfcc-14eb40748aef/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6597,
+      "title": "*Cognitive Foundations of Musical Pitch*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/book/40395",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/cognitive-foundations-of-musical-pitch_553c4f9f-5cb0-4c7e-9632-9d113ebeace7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6598,
+      "title": "Video 7a: Unlocking Duration and Note Objects in music21",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_7a_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_7a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6599,
+      "title": "Video 7a: Unlocking Duration and Note Objects in music21",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=nr0RErrOPKk",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_7a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6601,
+      "title": "Video 7a: Unlocking Duration and Note Objects in music21 (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1y9qGWO9nV25bAlC2xEORmN5ymn6HoghK_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_7a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6607,
+      "title": "Video 0: Overview of 21M.383 Computational Music Theory for OCW Learners",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m383-s23-video_0_intro_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-video_0_intro_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6608,
+      "title": "Video 0: Overview of 21M.383 Computational Music Theory for OCW Learners",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=0lS7yWCavKw",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-video_0_intro_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6610,
+      "title": "Video 0: Overview of 21M.383 Computational Music Theory for OCW Learners (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1b0SrpZgMKyVKyUKvpGrQtsBbU8mcB2Jx_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m383-s23-video_0_intro_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6611,
+      "title": "The Choir and Orchestra of the J. S. Bach Foundation, Rudolf Lutz, conducting.",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=qFlTRAhCav8&t=1700s",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/the-choir-and-orchestra-of-the-j-s-bach-foundation-rudolf-lutz-conducting_5a2af4ae-66d7-4aec-999d-1fc4cc6b3f28/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6620,
+      "title": "New York Times obituary",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nytimes.com/2003/06/28/arts/connections-a-seeker-of-music-s-poetry-in-the-mathematical-realm.html?pagewanted=all",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/new-york-times-obituary_610ace57-69e6-44a2-b8fb-235090802c0e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6621,
+      "title": "Extremes of Conventional Music Notation",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://web.archive.org/web/20220601062353/https://homes.luddy.indiana.edu/donbyrd/CMNExtremes.htm",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/extremes-of-conventional-music-notation_611c253c-6b9c-41ad-800d-cc28ab097366/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6623,
+      "title": "Video 22b: Problem Sets 7-8: Working and Composing with Scales, Chords, and Roman Numerals",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_22b_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_22b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6624,
+      "title": "Video 22b: Problem Sets 7-8: Working and Composing with Scales, Chords, and Roman Numerals",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=UzcecPqqQPY",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_22b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6626,
+      "title": "Video 22b: Problem Sets 7-8: Working and Composing with Scales, Chords, and Roman Numerals (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/18_p0ABnhAv1nMSYYHqk6KVrVGLdQEeTl_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_22b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6627,
+      "title": "Video 12a: Painting Emotions in Music and Text",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_12a_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_12a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6628,
+      "title": "Video 12a: Painting Emotions in Music and Text",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=SiKnNaJTdf0",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_12a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6630,
+      "title": "Video 12a: Painting Emotions in Music and Text (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1IoZIOEuPG9_FWtMIedKe74irZG_jRBNG_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_12a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6631,
+      "title": "Orange",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://orangedatamining.com/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/orange_639e1d1a-b523-4cab-a600-eecb68f910ff/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6632,
+      "title": "Annotated Beethoven Corpus",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://github.com/DCMLab/ABC",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/annotated-beethoven-corpus_6684e818-1152-4793-883c-3103927329d8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6633,
+      "title": "HASS-A course",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://registrar.mit.edu/registration-academics/academic-requirements/hass-requirement",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/hass-a-course_6b362f71-cc88-4e4c-9efb-20d74e2730d8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6634,
+      "title": "Songsterr",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.songsterr.com/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/songsterr_6b3f68e5-603e-4808-8ffe-5f05e7201203/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6635,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://books.google.com/books?id=uyI_Cb8olkMC&pg=PAfrontcover#v=onepage",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/google-books_6dbc8802-0e8b-4e4f-95bf-2de72a42982c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6636,
+      "title": "music21 User's Guide, Chapter 31",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_31_clefs.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/music21-users-guide-chapter-31_71174d8d-1693-4969-8757-bfde41194685/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6637,
+      "title": "Hooktheory",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.hooktheory.com/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/hooktheory_7262101f-d4f3-4b76-ba87-ed7c8ac351fa/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6638,
+      "title": "Single Interface for Musical Score Search and Analysis (SIMSSA)",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://simssa.ca/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/single-interface-for-musical-score-search-and-analysis-simssa_751d9f56-5fde-4454-948e-15999d972dba/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6643,
+      "title": "*Current Biology* 29(19), 2019,",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S096098221931036X",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/current-biology-2919-2019_77b2ae7c-7eec-49b6-8f1c-db1d439f0156/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6644,
+      "title": "*Music and Probability*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mitpress.mit.edu/9780262515191",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/music-and-probability_77da7921-5bf0-492e-ae9f-a787506157a5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6645,
+      "title": "JazzCats",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://jazzcats.cdhr.anu.edu.au/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/jazzcats_78e133af-0955-442a-bff2-778cf323abf2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6646,
+      "title": "Boston College Collection of Irish Tunes",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://connollymusiccollection.bc.edu/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/boston-college-collection-of-irish-tunes_7a9adb0c-de28-4a8d-bf0e-0bf8be7e33f9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6647,
+      "title": "Mapping European Folksong: Geographic Localization of Musical Features",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://direct.mit.edu/books/edited-volume/4736/chapter/216436/Mapping-European-Folksong-Geographical",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/mapping-european-folksong-geographic-localization-of-musical-features_7b3f56d1-4790-4593-84b9-16070781fa38/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6648,
+      "title": "Cory McKay, *Automatic Music Classification with jMIR* (Ph.D. Dissertation: McGill University, 2010) (PDF).",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "http://jmir.sourceforge.net/publications/PhD_Dissertation_2010.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/cory-mckay-automatic-music-classification-with-jmir-phd-dissertation-mcgill-university-207d8ab343-8457-4ee1-89f5-36e158713851/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6649,
+      "title": "Digital Du Chemin",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://digitalduchemin.org/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/digital-du-chemin_7e926d27-1888-4980-9ae7-bb9bc2f3b048/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6650,
+      "title": "Video 26a: Vocabulary Reduction",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_26a_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_26a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6651,
+      "title": "Video 26a: Vocabulary Reduction",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=5aSNyl7_PNU",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_26a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6653,
+      "title": "Video 26a: Vocabulary Reduction (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/14dfsxoGKQmIRuUFVKB0C2yT90jR78s7F_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_26a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6655,
+      "title": "Video 9b: Introduction to MusicXML",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_9b_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_9b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6656,
+      "title": "Video 9b: Introduction to MusicXML",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=YiAqJs1KSCg",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_9b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6658,
+      "title": "Video 9b: Introduction to MusicXML (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1tTgL8E-QQWIqZXTJEBEbjLW6HxJWdjq8_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_9b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6659,
+      "title": "Chapter 6 [Streams II]",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_06_stream2.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-6-streams-ii_833ab461-2bd7-4a45-96fd-48d9bebc2e27/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6661,
+      "title": "Midterm 1 (2023) 21M.383 Computational Music Theory and Analysis",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/mit21m383s23_quiz_1.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/mit21m383s23_quiz_1_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 6662,
+      "title": "Triple Flats",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dictionary.onmusic.org/terms/3683-triple_flat#:~:text=This%20term%20refers%20to%20an,%E2%99%AD%29%20symbols%20preceding%20the%20note.&text=Most%20musicians%20%28professional%20or%20amateur,in%20their%20entire%20musical%20career.",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/triple-flats_85f48e49-12bc-471b-8631-65a38a2de3ca/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6665,
+      "title": "Cantus Database",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://cantusdatabase.org/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/cantus-database_8bf7b743-160c-4aa9-b645-a1d707276a5c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6667,
+      "title": "The RomanText Format: A Flexible and Standard Method for Representing Roman Numeral Analyses,",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dspace.mit.edu/handle/1721.1/137847.2",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/the-romantext-format-a-flexible-and-standard-method-for-representing-roman-numeral-analys8e4e66a4-a67d-411c-9def-48ac2d579f27/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6668,
+      "title": "preview in Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Cognitive_Foundations_of_Musical_Pitch/aJDEVqyArr4C?hl=en",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/preview-in-google-books_8e7486be-000b-4522-ac76-c069d743b9ec/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6673,
+      "title": "User's Guide, Chapter 22",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_22_graphing.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/users-guide-chapter-22_9209cc32-141f-45da-8ebf-d39d833631b9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6674,
+      "title": "Vienna 4x22 Piano Corpus",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://github.com/CPJKU/vienna4x22",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/vienna-4x22-piano-corpus_92b2d457-5a9f-4fe1-b11b-7c1119a8339d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6679,
+      "title": "https://pypi.org/project/heap-class/",
+      "media_type": "html",
+      "material_type": "Projects",
+      "source_url": "https://pypi.org/project/heap-class/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/httpspypiorgprojectheap-class_94e7499e-432a-4dde-8ca3-676950002b01/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6680,
+      "title": "Chapter 15, Keys and KeySignatures",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_15_key.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-15-keys-and-keysignatures_95001a38-699e-429f-b7c1-8d291bfe4575/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6681,
+      "title": "1.",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=n0njBFLQSk8",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/1_9e20cee7-cad1-4784-8c9b-7b1aec3cb576/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6682,
+      "title": "Video 4b: Music Representation in General",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_4b_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_4b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6683,
+      "title": "Video 4b: Music Representation in General",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=f7Y0HMk86rw",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_4b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6685,
+      "title": "Video 4b: Music Representation in General (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1JU_RCCGLxsIk4albkwWIHoP34LTzOLjJ_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_4b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6690,
+      "title": "MuseScore.com",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://musescore.com/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/musescorecom_a21b1e0f-6086-4702-a997-15bf4004b570/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6691,
+      "title": "a little chart showing how these representations interrelate",
+      "media_type": "external",
+      "material_type": "Lecture Notes",
+      "source_url": "https://audiodev.blog/midi-note-chart/midi-note-chart.jpg",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/a-little-chart-showing-how-these-representations-interrelate_a29c04ac-13a3-49b7-983f-53a63d98f364/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6693,
+      "title": "2.",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=MrN0pOnA1x4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/2_a472c8fc-4d77-47f9-8c10-1d2fa6f1e7bd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6694,
+      "title": "Bach Chorale BWV 66.6",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.bach-chorales.com/BWV0066_6.htm",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/bach-chorale-bwv-666_a4fa9d25-e82a-4425-8b8c-a894da8c46ee/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6696,
+      "title": "Video 6b: Representations of Ontologies: Craig Sapp’s Rosetta Stone",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_6b_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_6b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6697,
+      "title": "Video 6b: Representations of Ontologies: Craig Sapp’s Rosetta Stone",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=VHjH6A9InR4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_6b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6699,
+      "title": "Video 6b: Representations of Ontologies: Craig Sapp’s Rosetta Stone (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1BXTyoUaq-3jFuCspqOg22XTiBrjrZyGf_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_6b_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6700,
+      "title": "VIdeo 22d: Why Do We Want Our Computers to Improvise?",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=wDP8FsjyCaA",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/video-22d-why-do-we-want-our-computers-to-improvise/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6702,
+      "title": "Josquin Research Project",
+      "media_type": "html",
+      "material_type": "Projects",
+      "source_url": "https://josquin.stanford.edu/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/josquin-research-project_ab242a5b-5bd5-4bbf-b5fe-acd93ccaac9a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6703,
+      "title": "*Generalized Musical Intervals and Transformations (GMIT)*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/book/4583",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/generalized-musical-intervals-and-transformations-gmit_ad16546f-dd89-4e71-9853-d10405211219/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6708,
+      "title": "Chapter 26 [Iterations, Filters, and getContextByClass]",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.music21.org/music21docs/usersGuide/usersGuide_26_iterators.html",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/chapter-26-iterations-filters-and-getcontextbyclass_afdb5883-7a2e-4b73-bd28-b798eed4118f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6709,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://books.google.com/books?id=ODSt58Yk2YYC&pg=PAfrontcover#v=onepage",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/google-books_b0041f0b-0bcd-40a3-94b9-a02b09408a6a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6710,
+      "title": "Video 7c: music21 Streams, Corpus, and Meter Features",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_7c_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_7c_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6711,
+      "title": "Video 7c: music21 Streams, Corpus, and Meter Features",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=RQsIwQbXRsA",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_7c_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6713,
+      "title": "Video 7c: music21 Streams, Corpus, and Meter Features (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1bBGd4KkSfIK2xcuZ5ivWT5R3ZdzGIadl_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_7c_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6714,
+      "title": "https://wiki.ccarh.org/wiki/Digital_Resources_for_Musicology",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://wiki.ccarh.org/wiki/Digital_Resources_for_Musicology",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/httpswikiccarhorgwikidigital_resources_for_musicology_b2c20966-2ea6-4627-9aa8-909bc153548f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6715,
+      "title": "Video 12c: Graphing and Plotting in music21",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_12c_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_12c_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6716,
+      "title": "Video 12c: Graphing and Plotting in music21",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=wbB_V78EcVA",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_12c_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6718,
+      "title": "Video 12c: Graphing and Plotting in music21 (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1VFqR7XeuVzLhcdETUeoUsT5UCJo1p-Ue_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_12c_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6719,
+      "title": "Scikit-Learn",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://scikit-learn.org/stable/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/scikit-learn_b487f83e-81fe-4ef8-978b-aa9acc1012f4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6720,
+      "title": "Artusi First Species Counterpoint",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.artusimusic.com/drills/11406/level-9-complete-long-first-species-counterpoint-above/",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/artusi-first-species-counterpoint_b4d52968-22c1-4d2e-8c2b-6f2dc625c17d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6721,
+      "title": "Video 3a: Introduction to Pitch Representation",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/21m283_video_3a_360p_16_9.mp4",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_3a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6722,
+      "title": "Video 3a: Introduction to Pitch Representation",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=vyShGGc2X38",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_3a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6724,
+      "title": "Video 3a: Introduction to Pitch Representation (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/21m-383-computational-music-theory-and-analysis-spring-2023/1TODmPsSkIEqLLjKveSNNsyiW4DDIpb8b_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/resources/21m283_video_3a_mp4/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ]
+    },
+    {
+      "id": 6725,
+      "title": "preparing you to write user-facing code",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://cdn.iwastesomuchtime.com/123201815082013751.jpg",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/preparing-you-to-write-user-facing-code_b9e165d5-f2f8-49e1-a952-fa0c344bbb0e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 6726,
+      "title": "Feature Extraction and Machine Learning on Symbolic Music using the music21 Toolkit,",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.trecento.com/research/Cuthbert_Ariza_Friedland_Feature-Extraction_ISMIR_2011.pdf",
+      "local_path": null,
+      "resource_path": "/courses/21m-383-computational-music-theory-and-analysis-spring-2023/external-resources/feature-extraction-and-machine-learning-on-symbolic-music-using-the-music21-toolkit_bbcee4aa-d9e4-4db3-bd6b-8c73d1f3053c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

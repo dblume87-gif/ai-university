@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T21:22:58.480Z",
+  "generated_at": "2026-05-18T20:51:01.797Z",
   "course": {
     "course_id": "6-0002-introduction-to-computational-thinking-and-data-science-fall-2016",
     "title": "Introduction to Computational Thinking and Data Science",
@@ -11,8 +11,8 @@
   "summary": {
     "material_sources": 32,
     "unit_count": 15,
-    "assigned_sources": 15,
-    "unassigned_sources": 17
+    "assigned_sources": 30,
+    "unassigned_sources": 2
   },
   "inference_rules": [
     "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
@@ -35,12 +35,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec1.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7764,
+          "title": "Introduction and Optimization Problems",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=C1lhuz6pZC0",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -58,12 +71,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec2.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7765,
+          "title": "Optimization Problems",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=uK5yvoXnkSk",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -81,12 +107,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec3.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7766,
+          "title": "Graph-theoretic Models",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=V_TulH374hw",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -104,12 +143,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec4.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7767,
+          "title": "Stochastic Thinking",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=-1BnXEwHUok",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -127,12 +179,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec5.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7768,
+          "title": "Random Walks",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=6wUD_gp5WeE",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -150,12 +215,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec6.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7769,
+          "title": "Monte Carlo Simulation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=OgO1gpXSUzU",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -173,12 +251,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec7.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7770,
+          "title": "Confidence Intervals",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=rUxP7TM8-wo",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -196,12 +287,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec8.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7771,
+          "title": "Sampling and Standard Error",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=soZv_KKax3E",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -219,12 +323,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec9.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7772,
+          "title": "Understanding Experimental Data",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=vIFKGFl1Cn8",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -242,12 +359,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec10.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7773,
+          "title": "Understanding Experimental Data (cont.)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=fQvg-hh9dUw",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -265,12 +395,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec11.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7774,
+          "title": "Introduction to Machine Learning",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=h0e2HAPTGF4",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -288,12 +431,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec12.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7775,
+          "title": "Clustering",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=esmzYhuFnds",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -311,12 +467,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec13.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7776,
+          "title": "Classification",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=eg8DJYwdMyg",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -334,12 +503,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec14.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7777,
+          "title": "Classification and Statistical Sins",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=K2SC-WPdT6k",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     },
     {
@@ -357,12 +539,25 @@
           "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/MIT6_0002F16_Lec15.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
+        },
+        {
+          "id": 7778,
+          "title": "Statistical Sins and Wrap Up",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=iOZVbILaIZc",
+          "local_path": null,
+          "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "metadata_signal"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_types": {
-        "pdf": 1
+        "pdf": 1,
+        "youtube": 1
       }
     }
   ],
@@ -385,171 +580,6 @@
       "material_type": "Other",
       "source_url": null,
       "local_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7764,
-      "title": "Introduction and Optimization Problems",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=C1lhuz6pZC0",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7765,
-      "title": "Optimization Problems",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=uK5yvoXnkSk",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7766,
-      "title": "Graph-theoretic Models",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=V_TulH374hw",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7767,
-      "title": "Stochastic Thinking",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=-1BnXEwHUok",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7768,
-      "title": "Random Walks",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=6wUD_gp5WeE",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7769,
-      "title": "Monte Carlo Simulation",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=OgO1gpXSUzU",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7770,
-      "title": "Confidence Intervals",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=rUxP7TM8-wo",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7771,
-      "title": "Sampling and Standard Error",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=soZv_KKax3E",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7772,
-      "title": "Understanding Experimental Data",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=vIFKGFl1Cn8",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7773,
-      "title": "Understanding Experimental Data (cont.)",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=fQvg-hh9dUw",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7774,
-      "title": "Introduction to Machine Learning",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=h0e2HAPTGF4",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7775,
-      "title": "Clustering",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=esmzYhuFnds",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7776,
-      "title": "Classification",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=eg8DJYwdMyg",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7777,
-      "title": "Classification and Statistical Sins",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=K2SC-WPdT6k",
-      "local_path": null,
-      "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
-      "parent_title": null,
-      "learning_resource_types": []
-    },
-    {
-      "id": 7778,
-      "title": "Statistical Sins and Wrap Up",
-      "media_type": "youtube",
-      "material_type": "Lecture Videos",
-      "source_url": "https://www.youtube.com/watch?v=iOZVbILaIZc",
-      "local_path": null,
       "resource_path": "library/MIT-6.0002-Introduction-to-Computational-Thinking-and-Data-Science/LECTURE_VIDEOS.md",
       "parent_title": null,
       "learning_resource_types": []

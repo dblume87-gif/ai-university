@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T21:22:58.488Z",
+  "generated_at": "2026-05-18T20:51:01.804Z",
   "course": {
     "course_id": "6-036-introduction-to-machine-learning-fall-2020",
     "title": "Introduction to Machine Learning",
@@ -35,7 +35,7 @@
           "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec01.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -58,7 +58,7 @@
           "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec02.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -81,7 +81,7 @@
           "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec03.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -104,7 +104,7 @@
           "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec04.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -127,7 +127,7 @@
           "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec05.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -150,7 +150,7 @@
           "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec06.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -173,7 +173,7 @@
           "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec08.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -208,7 +208,7 @@
           "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec09.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 2,
@@ -243,7 +243,7 @@
           "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec10.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 2,
@@ -278,7 +278,7 @@
           "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec11.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 2,
@@ -313,7 +313,7 @@
           "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec12.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 2,
@@ -348,7 +348,7 @@
           "resource_path": "library/MIT-6.036-Introduction-to-Machine-Learning/MIT6_036F20_Lec13.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 2,

@@ -1,0 +1,3422 @@
+{
+  "generated_at": "2026-05-18T20:51:01.736Z",
+  "course": {
+    "course_id": "14-661-labor-economics-i-fall-2024",
+    "title": "Labor Economics I",
+    "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 298,
+    "unit_count": 5,
+    "assigned_sources": 5,
+    "unassigned_sources": 293
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "14.661 Labor Economics I - Problem Set 1",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2411,
+          "title": "14.661 Labor Economics I - Problem Set 1",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_problem_set_1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_problem_set_1_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "14.661 Labor Economics I - Problem Set 2",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2288,
+          "title": "14.661 Labor Economics I - Problem Set 2",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_problem_set_2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_problem_set_2_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "14.661 Labor Economics I - Problem Set 3",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2243,
+          "title": "14.661 Labor Economics I - Problem Set 3",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_problem_set_3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_problem_set_3_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "14.661 Labor Economics I - Problem Set 4",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2384,
+          "title": "14.661 Labor Economics I - Problem Set 4",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_problem_set_4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_problem_set_4_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "14.661 Labor Economics I - Problem Set 5",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2466,
+          "title": "14.661 Labor Economics I - Problem Set 5",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_problem_set_5.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_problem_set_5_pdf2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 2271,
+      "title": "14.661 Labor Economics I - Problem Set 0",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_problem_set_0.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_problem_set_0_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 2205,
+      "title": "“Estimating the Payoff to Attending a More Selective College: An Application of Selection on Observables and Unobservables.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w7322",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/estimating-the-payoff-to-attending-a-more-selective-college-an-application-of-selection-o01338d54-2215-4131-882d-8da835c308ee/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2206,
+      "title": "“The Trend Is the Cycle: Job Polarization and Jobless Recoveries.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w18334/revisions/w18334.rev0.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-trend-is-the-cycle-job-polarization-and-jobless-recoveries-pdf_01779bd8-0823-47da-9273-1fc39a7bbfdd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2207,
+      "title": "“Do Better Schools Matter? Parental Evaluation of Elementary Education.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/research_papers/9729.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/do-better-schools-matter-parental-evaluation-of-elementary-education-pdf_0218c12b-858b-469e-b45b-18519938e148/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2208,
+      "title": "“Small Sample Bias in Synthetic Cohort Models of Labor Supply.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jae.938",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/small-sample-bias-in-synthetic-cohort-models-of-labor-supply_02b4f023-749c-4586-983e-6de93a4b045f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2209,
+      "title": "***Lectures in Labor Economics*****, Web notes**",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://economics.mit.edu/sites/default/files/inline-files/Lectures%20in%20Labor%20Economics.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/lectures-in-labor-economics-web-notes_02b8727f-059f-4727-aaff-bbd22c88c228/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2210,
+      "title": "14.661 Labor Economics I – Unit 5 – Schooling, Experience, and Earnings",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit05_schooling.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit05_schooling_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2211,
+      "title": "“Black-White Differences in Returns to Schooling.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dataspace.princeton.edu/handle/88435/dsp01mg74qm09j",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/black-white-differences-in-returns-to-schooling_0563cf94-397e-4afa-b452-391a9501b22b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2212,
+      "title": "“What Do Fisherman Tell Us that Taxi Drivers Don’t? An Empirical Investigation of Labor Supply.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2262677",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/what-do-fisherman-tell-us-that-taxi-drivers-dont-an-empirical-investigation-of-labor-supp05d7501c-9369-4d02-a031-d254be08152a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2213,
+      "title": "“Earning Losses of Displaced Workers.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.researchgate.net/publication/23695901_Earning_Losses_of_Displaced_Workers",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/earning-losses-of-displaced-workers_060ca74d-0b6c-4a95-bd2c-a1b087f16774/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2214,
+      "title": "“The Unemployment Volatility Puzzle: Is Wage Stickiness the Answer?” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://eprints.lse.ac.uk/4460/1/The_Unemployment_Volatility_Puzzle_Is_Wage_Stickiness_the_Answer.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-unemployment-volatility-puzzle-is-wage-stickiness-the-answer-pdf_06a31888-3c1b-4603-b56b-addfa74e751d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2215,
+      "title": "“Job Market Signaling.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/qje/article-abstract/87/3/355/1909092",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/job-market-signaling_06f2bc64-b8f6-4771-9019-3ca6fa34c45b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2216,
+      "title": "“Community Colleges and Upward Mobility.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20181756",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/community-colleges-and-upward-mobility_06f7fb29-5fa8-49b3-8d10-7010942572be/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2217,
+      "title": "“Moral Hazard and Observability.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://people.duke.edu/~qc2/BA532/1979%20Rand%20Holmstrom.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/moral-hazard-and-observability-pdf_078c398e-94a8-4d0e-8065-f22d0a636cc5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2218,
+      "title": "“Minimum Wages and On-the-Job Training.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dspace.mit.edu/handle/1721.1/63851",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/minimum-wages-and-on-the-job-training_07ab77b4-8fd3-401f-a38f-abd39ce40eb4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2219,
+      "title": "“The Reasons for Wage Rigidity: Evidence from a Survey of Firms.” (PDF)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://huskiecommons.lib.niu.edu/cgi/viewcontent.cgi?article=1837&context=allfaculty-peerpub",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-reasons-for-wage-rigidity-evidence-from-a-survey-of-firms-pdf_07f806eb-35a3-457d-bc41-e80b57d6cf51/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2220,
+      "title": "\"The Flow Approach to Labor Markets: New Data Sources and Micro-Macro Links.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/jep.20.3.3",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-flow-approach-to-labor-markets-new-data-sources-and-micro-macro-links_087973c8-27e3-4387-8dd9-6d61fd3fbaec/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2221,
+      "title": "“An Empirical Analysis of Welfare Dependence.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dataspace.princeton.edu/handle/88435/dsp019880vq98f",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/an-empirical-analysis-of-welfare-dependence_098151e0-58ef-48d4-b283-09e67db7fe8c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2222,
+      "title": "“How Much Do Immigrant and Trade Affect Labor Market Outcomes?”",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.brookings.edu/articles/how-much-do-immigration-and-trade-affect-labor-market-outcomes/",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/how-much-do-immigrant-and-trade-affect-labor-market-outcomes_09adac23-3b48-47d3-9906-b55c223411cd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2223,
+      "title": "“Lifetime Earnings and the Vietnam Era Draft Lottery: Evidence from Social Security Administrative Records.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/Angrist%201990%20-%20Lifetime%20Earnings%20and%20the%20Vietname%20.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/lifetime-earnings-and-the-vietnam-era-draft-lottery-evidence-from-social-security-adminis09bb4765-a493-4c80-9099-b2c708392bfb/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2224,
+      "title": "14.661 Labor Economics I - Unit 3 - Life Cycle Labor Supply",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit03_life_cycle.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit03_life_cycle_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2225,
+      "title": "“Merit Aid, College Quality, and College Completion: Massachusetts' Adams Scholarship as an In-Kind Subsidy.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://scholar.harvard.edu/files/joshuagoodman/files/paper_2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/merit-aid-college-quality-and-college-completion-massachusetts-adams-scholarship-as-an-in0a575be8-25e0-476e-a88c-c18c5ee27c28/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2226,
+      "title": "\"The Costs and Benefits of Ownership: A Theory of Vertical and Lateral Integration.\" (PDF)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dash.harvard.edu/server/api/core/bitstreams/7312037c-527a-6bd4-e053-0100007fdf3b/content",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-costs-and-benefits-of-ownership-a-theory-of-vertical-and-lateral-integration-pdf_0b68d0cf-41f7-46b4-9a32-3842132ca176/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2227,
+      "title": "“Does Aid Matter? Measuring the Effect of Student Aid on College Attendance and Completion.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w7422",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/does-aid-matter-measuring-the-effect-of-student-aid-on-college-attendance-and-completion_0b973377-2dff-4395-b182-f3093278e02a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2228,
+      "title": "“Protective or Counter-Productive? Labor Market Institutions and the Effect of Immigration on EU Natives.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/1468-0297.00136",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/protective-or-counter-productive-labor-market-institutions-and-the-effect-of-immigration-1006a08b-37c9-4ee6-9489-abb0022b61ac/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2229,
+      "title": "14.661 Labor Economics I - Unit 2 - Labor Supply Context",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit02_context.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit02_context_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2230,
+      "title": "14.661 Labor Economics I – Unit 9 - Efficiency Wages",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit09_efficiency.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit09_efficiency_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2231,
+      "title": "“Specific Capital, Mobility, and Wages: Wages Rise with Job Seniority.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w3294/w3294.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/specific-capital-mobility-and-wages-wages-rise-with-job-seniority-pdf_10da0302-0fc9-41ee-8b40-bf70e7c27140/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2232,
+      "title": "“New Evidence on the Causal Link between the Quantity and Quality of Children.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w11835",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/new-evidence-on-the-causal-link-between-the-quantity-and-quality-of-children_12c335e0-2de8-46fc-9a94-4bf0f5e4f0b0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2233,
+      "title": "“Labor Supply: A Review of Alternative Approaches.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S1573446399030084",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/labor-supply-a-review-of-alternative-approaches_13055ccf-9b36-4191-a36d-16a90bd7e3cb/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2234,
+      "title": "“Minimum Wages and Employment: A Case Study of the Fast Food Industry in New Jersey and Pennsylvania.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://davidcard.berkeley.edu/papers/njmin-aer.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/minimum-wages-and-employment-a-case-study-of-the-fast-food-industry-in-new-jersey-and-pen143b32dd-7dc7-44ab-ba6c-2bb7cadf6fc2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2235,
+      "title": "“Immigration and Inequality.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://davidcard.berkeley.edu/papers/immigration-and-inequality.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/immigration-and-inequality-pdf_14e7b2e7-5cfa-4b40-928a-4f9247faab54/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2236,
+      "title": "“State Capacity and Economic Development: A Network Approach.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/State%20Capacity%20and%20Economic%20Development%20-%20A%20Networ.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/state-capacity-and-economic-development-a-network-approach-pdf_14f6b7a9-6b5a-4507-8b6a-d6ebf722636a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2237,
+      "title": "“The Elite Illusion: Achievement Effects at Boston and New York Exam Schools.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://economics.mit.edu/sites/default/files/inline-files/The%20elite%20illusion.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-elite-illusion-achievement-effects-at-boston-and-new-york-exam-schools-pdf_166d1197-4a6c-4633-9895-13dd876d9ffd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2238,
+      "title": "“The Effects of Minimum Wages on Employment: Theory and Evidence from Britain.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/10.1086/209911",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-effects-of-minimum-wages-on-employment-theory-and-evidence-from-britain_18602430-3c57-4bb4-9d8f-b65046ad5f90/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2239,
+      "title": "“Gender Differences in Labor Supply: Experimental Evidence from the Gig Economy.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.semanticscholar.org/paper/Gender-Differences-in-Labor-Supply%3A-Experimental-Caldwell/f930a96788aa07ba26ad45218ed0398d508e979e",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/gender-differences-in-labor-supply-experimental-evidence-from-the-gig-economy_1ab8747e-9dcd-432c-98b5-b5e5f3d82dcb/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2240,
+      "title": "Bill Jacobus",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.flickr.com/photos/67513462@N00/122497423",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/bill-jacobus_1b133cf0-72e5-40f4-9417-100972b57703/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2241,
+      "title": "14.661 Labor Economics I – Unit 6 - Labor Market Externalities",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit06_externalities.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit06_externalities_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2242,
+      "title": "14.661 Labor Economics I – Unit 4 – Empirical Minimum Wage Effects",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit04_empirical.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit04_empirical_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2244,
+      "title": "“Is the EITC as Good as an NIT? Conditional Cash Transfers and Tax Incidence.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/pol.2.1.177",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/is-the-eitc-as-good-as-an-nit-conditional-cash-transfers-and-tax-incidence_2006619b-0e2d-4bf0-afd4-d51333597afe/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2245,
+      "title": "“Equalizing Superstars: The Internet and the Democratization of Education.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/Equalizing%20Superstars%20-%20The%20Internet%20and%20the%20Democ.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/equalizing-superstars-the-internet-and-the-democratization-of-education-pdf_20215b39-05af-4947-adb9-ad4ddae47741/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2246,
+      "title": "“Beyond Becker: Training in Imperfect Labor Markets.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/beyond-becker-training-in-imperfect-labor-markets..pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/beyond-becker-training-in-imperfect-labor-markets-pdf_209eb80a-32fe-4189-986a-733cf5358b54/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2247,
+      "title": "\"Did Henry Ford Pay Efficiency Wages?\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w2101/w2101.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/did-henry-ford-pay-efficiency-wages-pdf_20be4b44-3363-4ac0-91cf-3d88d5e8f292/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2248,
+      "title": "“Good Jobs versus Bad Jobs.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://web.mit.edu/daron/www/jole2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/good-jobs-versus-bad-jobs-pdf_216bbed2-1173-4601-b4ae-e47632ee45ad/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2249,
+      "title": "“Human Capital Externalities in Cities.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://eml.berkeley.edu/~moretti/cities4.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/human-capital-externalities-in-cities-pdf_2362a979-e007-4f78-b18b-cffe8db68ec0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2250,
+      "title": "“The Limited Influence of Unemployment on the Wage Bargain.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.98.4.1653",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-limited-influence-of-unemployment-on-the-wage-bargain_23b3df39-7a9f-4d2c-91b7-b212d2a237dc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2251,
+      "title": "“Wages, Rents, and the Quality of Life.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/261120",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/wages-rents-and-the-quality-of-life_241ff2d5-75c1-4d4d-8d49-12d416c8e0a8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2252,
+      "title": "“Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/jel.20191450",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/using-synthetic-controls-feasibility-data-requirements-and-methodological-aspects_242e92ee-60ac-4384-b3b4-4bc7ffbf806f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2253,
+      "title": "“Peer Effects and Multiple Equilibria in the Risky Behavior of Friends.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://davidcard.berkeley.edu/papers/RESTAT-2013.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/peer-effects-and-multiple-equilibria-in-the-risky-behavior-of-friends-pdf_249e8955-a590-4459-a94d-c3be59787e51/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2254,
+      "title": "“From Natural Variation to Optimal Policy? The Lucas Critique Meets Peer Effects.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w16865",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/from-natural-variation-to-optimal-policy-the-lucas-critique-meets-peer-effects_251fb2b6-f175-4077-a63e-829747c16706/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2255,
+      "title": "“Using Differences in Knowledge Across Neighborhoods to Uncover the Impacts of the EITC on Earnings.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.103.7.2683",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/using-differences-in-knowledge-across-neighborhoods-to-uncover-the-impacts-of-the-eitc-on26c83fa1-2f17-4ece-ba87-43e3e07a75e8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2256,
+      "title": "“The Changing Nature of U.S. Wage Inequality.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w13523",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-changing-nature-of-us-wage-inequality_273638b8-0af6-43d5-8c81-298b824fdc56/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2257,
+      "title": "“The Beveridge Curve.”",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.brookings.edu/articles/the-beveridge-curve/",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-beveridge-curve_29ae176b-608d-4bb2-8360-8e3e4d1f3c03/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2258,
+      "title": "“How Wages Change: Micro Evidence from the International Flexibility Project.”",
+      "media_type": "external",
+      "material_type": "Projects",
+      "source_url": "https://www.clevelandfed.org/publications/working-paper/2006/wp-0620-how-wages-change-micro-evidence-from-the-international-wage-flexibility-project",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/how-wages-change-micro-evidence-from-the-international-flexibility-project_29d4a645-debb-4c7b-8995-d15990b63e9b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2259,
+      "title": "“Estimating the Effect of Unearned Income on Labor Supply: Evidence from a Survey of Lottery Players.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w7001",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/estimating-the-effect-of-unearned-income-on-labor-supply-evidence-from-a-survey-of-lotter2a1eeba6-9114-49fb-ac3e-9ad4a1fcfb42/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2260,
+      "title": "“Contractual Mix in Southern Agriculture since the Civil War: Facts, Hypotheses, and Tests.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/contractual-mix-in-southern-agriculture-since-the-civil-war-facts-hypotheses-and-tests/7649D54A3353D41032A9C0ACA363561F",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/contractual-mix-in-southern-agriculture-since-the-civil-war-facts-hypotheses-and-tests_2b219bdb-a1cf-4318-b920-1dc093c79b73/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2261,
+      "title": "“Managerial Incentive Problems: A Dynamic Perspective.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/restud/article/66/1/169/1666374",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/managerial-incentive-problems-a-dynamic-perspective_2b5f7968-e10f-49f5-8b93-1be067c94f59/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2262,
+      "title": "“Does Education Raise Productivity, or Just Reflect It?” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.ucd.ie/geary/static/publications/workingpapers/isscwp2003prod.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/does-education-raise-productivity-or-just-reflect-it-pdf_2ceb3778-b3d8-4dc8-b798-d52c5379a47c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2263,
+      "title": "14.661 Labor Economics I – Unit 4 – Key Ideas",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit04_ideas.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit04_ideas_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2264,
+      "title": "\"Do Incentive Contracts Undermine Voluntary Cooperation?\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/146576/eth-25538-01.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/do-incentive-contracts-undermine-voluntary-cooperation-pdf_2dc3c502-17ee-4f59-8c13-00d357c6d6eb/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2265,
+      "title": "“Signaling and Employer Learning with Instruments.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w25885",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/signaling-and-employer-learning-with-instruments_2e0b8cdd-bc16-403c-bb5c-b975678040a2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2266,
+      "title": "*14.04 Intermediate Microeconomic Theory*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/14-04-intermediate-microeconomic-theory-fall-2020/",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/1404-intermediate-microeconomic-theory_2e81b892-a0dc-4cdb-b264-3d790bf7ecea/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2267,
+      "title": "“The Effect of Low-Skilled Immigration on US Prices: Evidence from CPI Data.”",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.economics.uci.edu/files/docs/colloqpapers/w06/Cortes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-effect-of-low-skilled-immigration-on-us-prices-evidence-from-cpi-data_2f2c9d58-af0b-4e9c-a750-d1316a76ae10/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2268,
+      "title": "“Do Labor Market Policies Have Displacement Effects? Evidence from a Clustered Randomized Experiment.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dspace.mit.edu/handle/1721.1/76718",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/do-labor-market-policies-have-displacement-effects-evidence-from-a-clustered-randomized-e304222c2-f0d9-4557-af3c-79bd4c8d865a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2269,
+      "title": "*Personnel Economics*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mitpress.mit.edu/9780262512947/personnel-economics/",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/personnel-economics_323d58c9-849b-4a6e-aa9b-9c0231bb2834/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2270,
+      "title": "14.661 Labor Economics I - Unit 3 - Key Ideas",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit03_ideas.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit03_ideas_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2272,
+      "title": "“Estimating the Returns to Schooling: Some Econometric Problems.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://imf.primo.exlibrisgroup.com/discovery/fulldisplay?docid=cdi_proquest_journals_214680746&context=PC&vid=01TIMF_INST:Shared&lang=en&search_scope=MyInst_and_CI&adaptor=Primo%20Central&query=null,,2009&facet=citing,exact,cdi_FETCH-LOGICAL-c6007-503f535136148ab8ee84ee51a1b90d2853ee534a8e2ad5d057ff9546a093840f3&offset=10",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/estimating-the-returns-to-schooling-some-econometric-problems_33d649bf-a815-4e49-aaaa-02a45d6ab4a4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2273,
+      "title": "\"Experimental Estimates of Education Production Functions.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/qje/article/114/2/497/1844226",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/experimental-estimates-of-education-production-functions_35e34034-e921-402f-bd48-7d5ce0ee6018/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2274,
+      "title": "“Equilibrium Unemployment as Worker Discipline Device.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/1804018?seq=1",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/equilibrium-unemployment-as-worker-discipline-device_381a2e81-e259-4451-a75e-e42db0b72465/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2275,
+      "title": "\"Using Regional Variation to Measure the Effect of the Federal Minimum Wage.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/2524736?seq=1",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/using-regional-variation-to-measure-the-effect-of-the-federal-minimum-wage_38d8cfe4-dcb7-42ac-8abc-b3f7a36b58ac/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2276,
+      "title": "“The Labor Market in the Great Recession.”",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.brookings.edu/articles/the-labor-market-in-the-great-recession/",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-labor-market-in-the-great-recession_3901a65f-dd95-43fd-8b61-ca48389ae2fa/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2277,
+      "title": "“Identification of Peer Effects through Social Networks.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0304407609000335",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/identification-of-peer-effects-through-social-networks_3998b19a-6b35-4eae-a6ab-ddcb77d28067/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2278,
+      "title": "\"Outside Options, Bargaining, and Wages: Evidence from Coworker Networks.\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://sydneec.github.io/Website/Caldwell_Harmon.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/outside-options-bargaining-and-wages-evidence-from-coworker-networks-pdf_39e529ec-99b5-49cb-afbc-bb7f6f4b4eb9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2279,
+      "title": "“Wayward Sons: The Emerging Gender Gap in Labor Markets and Education.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/wayward%20sons%202013.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/wayward-sons-the-emerging-gender-gap-in-labor-markets-and-education-pdf_3bd3c00d-5042-4768-8deb-343f47876950/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2280,
+      "title": "“Productivity Gains from Geographic Concentration of Human Capital: Evidence from the Cities.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0094119083710429",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/productivity-gains-from-geographic-concentration-of-human-capital-evidence-from-the-citie3be316d8-cb1b-4be4-b4ac-fe8339be5a8f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2281,
+      "title": "“The Effects of Collective Bargaining Rights on Public Employee Compensation: Evidence from Teachers, Fire Fighters, and Police.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.semanticscholar.org/paper/The-Effects-of-Collective-Bargaining-Rights-on-Frandsen/3faf4b375b96bc3e71fe45ee9cbf96dec7238d29?p2df",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-effects-of-collective-bargaining-rights-on-public-employee-compensation-evidence-from3ced167d-adfe-4123-9847-4368739b7b9f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2282,
+      "title": "“Do Workers Work More if Wages are High? Evidence from a Randomized Field Experiment.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.97.1.298",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/do-workers-work-more-if-wages-are-high-evidence-from-a-randomized-field-experiment_3dbfa897-25d6-44d9-9874-52f99fc3233c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2283,
+      "title": "“Income Distribution, Communities and the Quality of Public Education.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/qje/article/111/1/135/1862177",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/income-distribution-communities-and-the-quality-of-public-education_3dd0819b-5522-4d1d-9c3a-f3092d4b4497/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2284,
+      "title": "“Efficiency Wages and the Inter-Industry Wage Structure.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w1952",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/efficiency-wages-and-the-inter-industry-wage-structure_3dd8563a-c13e-446b-9a4b-9971f4f1506c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2285,
+      "title": "“Human Capital Versus Signaling Models: University Access and High School Dropouts.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/full/10.1086/322089",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/human-capital-versus-signaling-models-university-access-and-high-school-dropouts_3e42776f-b896-4e5c-bb6f-faab85804e52/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2286,
+      "title": "“Non-Parametric Estimates of the Labor Supply Effects of Negative Income Tax Programs.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dataspace.princeton.edu/handle/88435/dsp01rv042t06t",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/non-parametric-estimates-of-the-labor-supply-effects-of-negative-income-tax-programs_3fb826e6-26b4-4012-874e-5c404dd610b4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2287,
+      "title": "“Empirical Age-Earnings Profiles.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/298220",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/empirical-age-earnings-profiles_3ffa5736-f885-440a-adf2-42217552e1ba/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2289,
+      "title": "“Educational Production.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w7349/w7349.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/educational-production-pdf_4254b161-8bdd-4378-9724-1baf4b41e6aa/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2290,
+      "title": "“Uber versus Taxi: A Driver’s Eye View.”",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/AEJApp-2019-0655%20%281%29.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/uber-versus-taxi-a-drivers-eye-view_462c1699-97c3-491d-a794-0ea77691212c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2291,
+      "title": "“Income Distribution and Macroeconomics.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.brown.edu/sites/default/files/papers/2013-12_paper.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/income-distribution-and-macroeconomics-pdf_4822b14e-ff83-45cf-b5b1-3769e96be6f8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2292,
+      "title": "“Firm-Specific Capital and Promotion Ladders.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/088915839290021U",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/firm-specific-capital-and-promotion-ladders_4881365b-408e-4232-9f2e-f38639bdb8d2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2293,
+      "title": "“Schools, Job Flexibility, and Married Women's Labor Supply.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w29660",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/schools-job-flexibility-and-married-womens-labor-supply_49086da0-4daa-4a92-a5d2-b643a675765b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2294,
+      "title": "“Who Pays for the Minimum Wage?”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20171445",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/who-pays-for-the-minimum-wage_49f6037f-6732-4034-b934-f04b3ba1c71b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2295,
+      "title": "“Workings of a City: Location, Education and Production.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.princeton.edu/~rbenabou/papers/QJE1993.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/workings-of-a-city-location-education-and-production-pdf_4a010f65-47a9-4995-858e-3091bbe8233d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2296,
+      "title": "“Vouchers for Private Schooling in Colombia: Evidence from a Randomized Natural Experiment.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/000282802762024629",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/vouchers-for-private-schooling-in-colombia-evidence-from-a-randomized-natural-experiment_4a03fcf5-9f9c-405b-adb0-8135bfd053bd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2297,
+      "title": "“Job Creation and Job Destruction in the Theory of Unemployment.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/restud/article-abstract/61/3/397/1589192?redirectedFrom=fulltext",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/job-creation-and-job-destruction-in-the-theory-of-unemployment_4a248935-e603-40e2-afe1-e6d121b2b5bc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2298,
+      "title": "“Reference-Dependent Preferences and Labor Supply: The Case of New York City Taxi Drivers.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.98.3.1069",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/reference-dependent-preferences-and-labor-supply-the-case-of-new-york-city-taxi-drivers_4b15e8a6-0ab1-47f3-bd63-d222c2431822/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2299,
+      "title": "“Why Is the U.S. Unemployment Rate So Much Lower?” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://home.uchicago.edu/~shimer/wp/published/US_unemployment.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/why-is-the-us-unemployment-rate-so-much-lower-pdf_4bbfa280-a929-4596-82ec-cba0f6c007a7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2300,
+      "title": "“Does Compulsory School Attendance Affect Schooling and Earnings?” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w3572/w3572.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/does-compulsory-school-attendance-affect-schooling-and-earnings-pdf_4c0dd1d8-ca56-401e-891a-248ffc19031f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2301,
+      "title": "“Are Efficiency and Equity in School Finance Substitutes or Complements?”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/jep.10.4.51",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/are-efficiency-and-equity-in-school-finance-substitutes-or-complements_4c1dfdc7-ed3f-4761-988e-34a6a67ecfcd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2302,
+      "title": "\"The Effect of Minimum Wages on Low-Wage Jobs.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w25434/w25434.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-effect-of-minimum-wages-on-low-wage-jobs-pdf_4cf58c4d-47f3-4c9f-8307-a7fc99ea2e13/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2303,
+      "title": "“The Estimation of Income and Substitution Effects in a Model of Family Labor Supply.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dataspace.princeton.edu/handle/88435/dsp01r781wg015",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-estimation-of-income-and-substitution-effects-in-a-model-of-family-labor-supply_4cfef29d-550c-4aa5-ae22-159c5fc71281/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2304,
+      "title": "\"Job Duration, Seniority, and Earnings.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dspace.mit.edu/bitstream/handle/1721.1/48282/jobdurationsenio00abra.pdf?sequence=1",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/job-duration-seniority-and-earnings_505b9f79-06b9-4e6c-a132-57fb6fc66998/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2305,
+      "title": "“Long-Run Impacts of Unions on Firms: New Evidence from Financial Markets, 1961–1999.\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.princeton.edu/~davidlee/wp/w14709.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/long-run-impacts-of-unions-on-firms-new-evidence-from-financial-markets-19611999-pdf_5078f7c6-f8f6-46cd-adef-cdcb80cea90d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2306,
+      "title": "14.661 Labor Economics I - Unit 2 - Key Ideas 2",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit02_ideas.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit02_ideas_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2307,
+      "title": "“Identifying Human Capital Externalities: Theory with Applications.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://bse.eu/research/working-papers/identifying-human-capital-externalities-theory-applications",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/identifying-human-capital-externalities-theory-with-applications_5364af26-339e-45fb-ac55-a55de87cc68b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2308,
+      "title": "“The Cyclical Behavior of Equilibrium Unemployment and Vacancies.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/0002828053828572",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-cyclical-behavior-of-equilibrium-unemployment-and-vacancies_544006a8-13ae-46f1-b60b-e9dd2c0f6b89/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2309,
+      "title": "“Estimating the Return to Schooling: Progress on Some Persistent Econometric Problems.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://davidcard.berkeley.edu/papers/return-to-schooling.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/estimating-the-return-to-schooling-progress-on-some-persistent-econometric-problems-pdf_55022c4f-c668-4813-af14-a34d6ffb5eba/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2310,
+      "title": "“Education and Self-Selection.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/260821",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/education-and-self-selection_5522012b-9a18-40e0-bd2e-6b3d7d4433b4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2311,
+      "title": "14.661 Labor Economics I – Unit 4 – Labor Demand",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit04_labor_demand.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit04_labor_demand_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2312,
+      "title": "“Public Schooling for Young Children and Maternal Labor Supply.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/000282802760015748",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/public-schooling-for-young-children-and-maternal-labor-supply_567121f9-2ea4-462d-84bc-67c42e8fe07a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2313,
+      "title": "“Job Mobility and the Careers of Young Men.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w2649",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/job-mobility-and-the-careers-of-young-men_57218c9c-8d1e-47f9-a5bf-65930327c653/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2314,
+      "title": "“Work of the Past, Work of the Future.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/pandp.20191110",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/work-of-the-past-work-of-the-future_5737ee39-45f7-4b1f-902b-2b5dd15e8747/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2315,
+      "title": "“Estimating and Interpreting Peer and Role Model Effects from Randomly Assign Social Groups at West Point.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://direct.mit.edu/rest/article/89/2/289/57685/Estimating-and-Interpreting-Peer-and-Role-Model",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/estimating-and-interpreting-peer-and-role-model-effects-from-randomly-assign-social-group576ea40c-2120-4ce3-bce2-118cd76d5697/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2316,
+      "title": "“Is Tomorrow Another Day? The Labor Supply of New York City Cab Drivers.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dataspace.princeton.edu/handle/88435/dsp01wd375w30d",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/is-tomorrow-another-day-the-labor-supply-of-new-york-city-cab-drivers_584ecd5a-af15-4c9c-847f-737ee4511e24/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2317,
+      "title": "\"Labor Markets in the 20<sup>th</sup> Century.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/h0058",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/labor-markets-in-the-20supthsup-century_59571fd4-549d-4093-a49e-6932a754729c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2318,
+      "title": "“Monopsony in the Labor Market.",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://econpapers.repec.org/article/aeajeclit/v_3a35_3ay_3a1997_3ai_3a1_3ap_3a86-112.htm",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/monopsony-in-the-labor-market_59e190d4-c9a3-42d9-95a3-ee7f1d2f727f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2319,
+      "title": "“Identification of Endogenous Social Effects: The Reflection Problem.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/restud/article-abstract/60/3/531/1570385?redirectedFrom=fulltext",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/identification-of-endogenous-social-effects-the-reflection-problem_5cf04955-da03-48a6-bc7b-ff370bf2b073/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2320,
+      "title": "“Minimum Wages, Wages, and Price Pass-Through: The Case of McDonald's.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w28506",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/minimum-wages-wages-and-price-pass-through-the-case-of-mcdonalds_5cf41497-bd0d-46a5-b602-90b4f7267130/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2321,
+      "title": "“Real Wages, Employment, and Inflation.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/259559?journalCode=jpe",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/real-wages-employment-and-inflation_5d477c92-fa5a-4044-9938-86a5298b0f5e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2322,
+      "title": "“Why Do Temporary Help Firms Provide Free General Skills Training?” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/why%20do%20temporary%20jobs%202001.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/why-do-temporary-help-firms-provide-free-general-skills-training-pdf_5ef906db-4570-4bd9-8f8d-b7099707a262/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2323,
+      "title": "“The Demand for Labor in the Long Run.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w1297",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-demand-for-labor-in-the-long-run_5f51c590-0360-4dc9-83d1-fe148c7df658/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2324,
+      "title": "“The Surprising Impacts of Unionization: Evidence from Matched Employer-Employee Data.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/10.1086/711852",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-surprising-impacts-of-unionization-evidence-from-matched-employer-employee-data_60cbfc4a-b46f-433c-882c-ae32ede61835/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2325,
+      "title": "“Regression Toward Mediocrity in Economic Stature.”",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ideas.repec.org/a/aea/aecrev/v82y1992i3p409-29.html",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/regression-toward-mediocrity-in-economic-stature_61d17856-7d65-4ac8-ba29-7f95d81964ee/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2326,
+      "title": "“The Perils of Peer Effects.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dspace.mit.edu/handle/1721.1/113693",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-perils-of-peer-effects_61e93b47-bc4b-4cd4-baf6-bc6edeba3461/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2327,
+      "title": "“Determining Participation in Income-Tested Social Programs.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.1983.10478004",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/determining-participation-in-income-tested-social-programs_62eebb5c-39ac-417d-88f5-ab7b242364a7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2328,
+      "title": "“Welfare, the Earned Income Tax Credit, and the Labor Supply of Single Mothers.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "http://piketty.pse.ens.fr/files/MeyerRosenbaum2001.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/welfare-the-earned-income-tax-credit-and-the-labor-supply-of-single-mothers-pdf_64162e04-6004-4f25-8fa0-1d4dc0bd10bd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2329,
+      "title": "14.661 Labor Economics I – Unit 7 - Social Mobility, Peer Effects, and Human Capital",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit07_social_peer_capital.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit07_social_peer_capital_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2331,
+      "title": "14.661 Labor Economics I - Unit 3 - Uber vs. Taxi",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit03_uber_taxi.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit03_uber_taxi_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2332,
+      "title": "“Schooling and the Vietnam-Era GI Bill: Evidence from the Draft Lottery.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/04_APP20090251_32corrected_mar8JA.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/schooling-and-the-vietnam-era-gi-bill-evidence-from-the-draft-lottery-pdf_65dc8f05-f24d-4707-96e6-556bf8fb8410/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2333,
+      "title": "“The Effect of Fertility on Mothers’ Labour Supply Over the Last Two Centuries.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://cepr.org/voxeu/columns/effect-fertility-mothers-labour-supply-over-last-two-centuries#:~:text=The%20key%20finding%20is%20that,negligible%20one%20in%20developing%20countries.",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-effect-of-fertility-on-mothers-labour-supply-over-the-last-two-centuries_68395829-3ae5-42d9-8d7c-83286218286c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2334,
+      "title": "“An Interplant Test of the Efficiency Wage Hypothesis.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://kuscholarworks.ku.edu/entities/publication/544e7766-07dd-4c65-b6a6-c606e9f3924c",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/an-interplant-test-of-the-efficiency-wage-hypothesis_684636c6-ab84-464e-827c-f1088a46ab52/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2335,
+      "title": "“Multitask Principal-Agent Analyses: Incentive Contracts, Asset Ownership, and Job Design.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://people.duke.edu/~qc2/BA532/1991%20JLEO%20Holmstrom%20Milgrom.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/multitask-principal-agent-analyses-incentive-contracts-asset-ownership-and-job-design-pdf6a169a89-174d-4c60-b369-2487bfa5cb78/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2336,
+      "title": "14.661 Labor Economics I – Unit 11 - Search and Unemployment",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit11_search.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit11_search_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2337,
+      "title": "14.661 Labor Economics I - Unit 1 - Labor Market Trends",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit01_trends.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit01_trends_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2338,
+      "title": "“Leisure, Home Production, and Work—The Theory of the Allocation of Time Revisited.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w0137",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/leisure-home-production-and-workthe-theory-of-the-allocation-of-time-revisited_6c48b59c-5a3f-49b1-ac37-922cc0a26dfa/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2339,
+      "title": "“Interpreting Instrumental Variables Estimates of the Returns to Schooling.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://irs.princeton.edu/publications/working-papers/interpreting-instrumental-variables-estimates-returns-schooling",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/interpreting-instrumental-variables-estimates-of-the-returns-to-schooling_6c546c11-a30a-46bd-869d-e4eda99bed0c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2340,
+      "title": "“Intertemporal Labor Supply: An Assessment”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w3602",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/intertemporal-labor-supply-an-assessment_6d9f5bad-0394-48db-9017-624131234d12/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2341,
+      "title": "“Why Has CEO Pay Increased so Much?”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://xgabaix.scholars.harvard.edu/publications/why-has-ceo-pay-increased-so-much",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/why-has-ceo-pay-increased-so-much_6df49caf-44d9-4f14-950a-ab7e9a7337e1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2342,
+      "title": "“Grouped-Data Estimation and Testing in Simple Labor Supply Models.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dataspace.princeton.edu/handle/88435/dsp01v405s9384",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/grouped-data-estimation-and-testing-in-simple-labor-supply-models_6fa6c64d-cc33-4fe1-a6e1-659c064e7199/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2343,
+      "title": "“The Economics of Superstars.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/41210977",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-economics-of-superstars_700159ac-b77f-4f01-a147-fe192b5094d9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2344,
+      "title": "“Human Capital Versus Sorting: The Effects of Compulsory Attendance Laws.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/qje/article-abstract/101/3/609/1899676",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/human-capital-versus-sorting-the-effects-of-compulsory-attendance-laws_7049f0ff-bf0c-4d1c-b496-8a1d1be7aef7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2345,
+      "title": "“Wage Rigidities and Jobless Recoveries.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.atlantafed.org/-/media/documents/news/conferences/2010/chcs/shimer.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/wage-rigidities-and-jobless-recoveries-pdf_70744d26-0e3d-4918-a482-6d60b0bde7ac/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2346,
+      "title": "“The Economics of Career Concerns, Part I: Comparing Information Structures.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/restud/article/66/1/183/1666377",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-economics-of-career-concerns-part-i-comparing-information-structures_70777fa8-ba6d-4e1c-bd65-554eb8f60f41/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2347,
+      "title": "“The Wage Policy of a Firm.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/qje/article-abstract/109/4/921/1866492",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-wage-policy-of-a-firm_70fb2b9c-d088-4038-9a97-d97397480dc8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2348,
+      "title": "“The Transformation of Manufacturing and the Decline in US Employment.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w24468",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-transformation-of-manufacturing-and-the-decline-in-us-employment_74df2991-8afa-4da2-ad85-b885f36f0e3c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2349,
+      "title": "“Specialization in Same-Sex and Different-Sex Couples.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0927537121000300#:~:text=We%20find%20that%20both%20same,most%20traditional%20different%2Dsex%20couples.",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/specialization-in-same-sex-and-different-sex-couples_7593a700-ac74-43c4-99bc-161df33ed327/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2350,
+      "title": "“The Structure of Wages and Investment in General Training.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/structure-of-wages-and-investment-in-general-train.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-structure-of-wages-and-investment-in-general-training-pdf_77ba1480-d2e8-48e0-ac5e-3737a02f964f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2351,
+      "title": "“Accountability and Flexibility in Public Schools: Evidence from Boston's Charters and Pilots.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/The%20Quarterly%20Journal%20of%20Economics-2011-Abdulkadir.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/accountability-and-flexibility-in-public-schools-evidence-from-bostons-charters-and-pilot787913fc-db33-4133-af57-d3a6e4c7e3a5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2352,
+      "title": "“Social and Cognitive Peer Effects: Experimental Evidence from Selective High Schools in Peru.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://conference.iza.org/conference_files/behavioral_2019/zarate_r8378.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/social-and-cognitive-peer-effects-experimental-evidence-from-selective-high-schools-in-pe792f5fc1-4fcf-4bf8-a691-2afdb08f2c5b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2353,
+      "title": "\"The Great Compression: The Wage Structure in the United States at Mid-century.\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w3817/w3817.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-great-compression-the-wage-structure-in-the-united-states-at-mid-century-pdf_795449e5-19fd-4c98-9f2a-0f52bda9feaa/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2354,
+      "title": "“Fiscal Year Ends and Nonlinear Incentive Contracts: The Effect on Business Seasonality.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/qje/article/113/1/149/1891996",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/fiscal-year-ends-and-nonlinear-incentive-contracts-the-effect-on-business-seasonality_79d04083-85d8-4a54-b4ae-e61244543586/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2355,
+      "title": "“Bargaining Theory, Trade Unions, and Industrial Strike Activity.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.semanticscholar.org/paper/Bargaining-Theory%2C-Trade-Unions%2C-and-Industrial-Ashenfelter-Johnson/ce528cc4e7af1d11f7d0c6c220f5e364a2503c85",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/bargaining-theory-trade-unions-and-industrial-strike-activity_7a94ab27-c8ab-4290-8785-6e0228b97b90/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2356,
+      "title": "“Estimation and Testing of the Union Wage Effect Using Panel Data.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/restud/article-abstract/58/5/971/1599244?redirectedFrom=fulltext",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/estimation-and-testing-of-the-union-wage-effect-using-panel-data_7b0ff684-9290-43f0-b023-865dc663dbff/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2357,
+      "title": "“Revisiting the Minimum Wage-Employment Debate: Throwing Out the Baby with the Bathwater?”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w18681",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/revisiting-the-minimum-wage-employment-debate-throwing-out-the-baby-with-the-bathwater_7b1eaab1-8387-43b8-9a60-a3f40670dc76/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2358,
+      "title": "14.661 Labor Economics I – Unit 5 – Key Ideas",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit05_ideas.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit05_ideas_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2359,
+      "title": "“Peer Effects with Random Assignment: Results for Dartmouth Roommates.”",
+      "media_type": "external",
+      "material_type": "Problem Sets",
+      "source_url": "https://academic.oup.com/qje/article/116/2/681/1904199",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/peer-effects-with-random-assignment-results-for-dartmouth-roommates_7c5ace12-7876-4375-8151-44d5b16fa46d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2360,
+      "title": "\"Training and Innovation in an Imperfect Labour Market.\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/training-innovation-imperfect-labor-market.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/training-and-innovation-in-an-imperfect-labour-market-pdf_7cc2f8c2-8c90-4f1e-90a6-426e53fdf077/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2361,
+      "title": "“Unexpected Inflation, Real Wages, and Employment Determination in Union Contracts.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dataspace.princeton.edu/handle/88435/dsp01cv43nw81x",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/unexpected-inflation-real-wages-and-employment-determination-in-union-contracts_7d2bb981-9912-4e13-89cc-87dceb37bf14/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2362,
+      "title": "“Empirical Strategies in Labor Economics.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S1573446399030047",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/empirical-strategies-in-labor-economics_7fe9346a-21c9-4809-88b0-bfebf306b49d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2363,
+      "title": "“The Labor Market Effects of Refugee Waves: Reconciling Conflicting Results.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w23433/w23433.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-labor-market-effects-of-refugee-waves-reconciling-conflicting-results-pdf_80b7a9c4-cc12-4997-ad70-fc9d38a5d12d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2364,
+      "title": "\"A Theory of Dual Labor Markets with Application to Industrial Policy, Discrimination and Keynesian Unemployment.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/298116",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/a-theory-of-dual-labor-markets-with-application-to-industrial-policy-discrimination-and-k80da0e23-c80f-4a68-a118-1eb111cbe6f5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2365,
+      "title": "“Estimating the Labor Market Signaling value of the GED.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://files.eric.ed.gov/fulltext/ED508594.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/estimating-the-labor-market-signaling-value-of-the-ged-pdf_81198f21-ef89-4f1a-bf19-70943ffb75fc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2366,
+      "title": "“Methods for Measuring School Effectiveness.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/2023-08/Methods%20for%20Measuring%20School%20Effectiveness_0.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/methods-for-measuring-school-effectiveness-pdf_81bd768f-f05c-4120-ac0d-867f09049c21/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2367,
+      "title": "“Learning and Wage Dynamics.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dataspace.princeton.edu/handle/88435/dsp01mc87pq252",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/learning-and-wage-dynamics_827bc3b3-9e50-48f1-8482-354b54d6e801/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2368,
+      "title": "“Changes in Relative Wages, 1963–87: Supply and Demand Factors.\"",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://scholar.harvard.edu/files/lkatz/files/changes_in_relative_wages_1963-1987_supply_and_demand_factors.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/changes-in-relative-wages-196387-supply-and-demand-factors_863761ca-df7c-4055-974b-c6f38d9b0c0e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2369,
+      "title": "“The Wage Distribution in a Model of the Assignment of Skills to Jobs.”",
+      "media_type": "external",
+      "material_type": "Problem Sets",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/261984",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-wage-distribution-in-a-model-of-the-assignment-of-skills-to-jobs_8660c050-0480-4ca1-81d2-3cdb433fa336/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2370,
+      "title": "“The Medium-Term Impacts of High-Achieving Charter Schools.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w19581",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-medium-term-impacts-of-high-achieving-charter-schools_86780ad5-42af-4d00-96f4-081e7211afb6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2371,
+      "title": "“The Labor Demand Curve is Downward Sloping: Reexamining the Impact of Immigration on the Labor Market.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://www.nber.org/system/files/working_papers/w9755/w9755.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-labor-demand-curve-is-downward-sloping-reexamining-the-impact-of-immigration-on-the-l88b1616c-7142-421f-a43c-c66f5c1f1486/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2372,
+      "title": "“Income Inequality in the United States: 1913–1998.”",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://eml.berkeley.edu/~saez/pikettyqje.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/income-inequality-in-the-united-states-19131998_88d110f6-6dc6-44e6-94bf-ca438b18d3ee/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2373,
+      "title": "“Free to Choose: Can School Choice Reduce Achievement?”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/app.20160634",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/free-to-choose-can-school-choice-reduce-achievement_89b787ba-f1af-420f-8191-32e94bb119f9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2374,
+      "title": "“An Empirical Analysis of the Daily Labor Supply of Stadium Vendors.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/250063",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/an-empirical-analysis-of-the-daily-labor-supply-of-stadium-vendors_8a1b2bde-0c1e-4a18-af8b-bc524b37e3ee/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2375,
+      "title": "“A Microfoundation for Social Increasing Returns in Human Capital Accumulation.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/microfoundation-for-social-increasing-returns.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/a-microfoundation-for-social-increasing-returns-in-human-capital-accumulation-pdf_8b187322-6c63-4251-86d6-fe626fe6f514/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2376,
+      "title": "“Short-Run Demand for Palestinian Labor.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/209817",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/short-run-demand-for-palestinian-labor_8bdd3cb7-3424-471c-9152-7b700a128a15/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2377,
+      "title": "“Is the United States Still a Land of Opportunity? Recent Trends in Intergenerational Mobility.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://eml.berkeley.edu/~saez/chettyetalAERPP2014.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/is-the-united-states-still-a-land-of-opportunity-recent-trends-in-intergenerational-mobil8c4d95ea-b07e-4e84-a7f4-46789ee2ffdd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2378,
+      "title": "“Employment, Hours, and Earnings Consequences of Job Loss; US Evidence from the Displaced Workers Survey.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/10.1086/692353",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/employment-hours-and-earnings-consequences-of-job-loss-us-evidence-from-the-displaced-wor8c6edf76-68a5-4176-b009-dd40739d341b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2379,
+      "title": "“A Unified Framework for Measuring Preferences for Schools and Neighborhoods.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/full/10.1086/522381",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/a-unified-framework-for-measuring-preferences-for-schools-and-neighborhoods_8d9d0453-10ca-4f37-80b6-07c6e5c3b329/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2380,
+      "title": "“Welfare Programs and Labor Supply.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w9168/w9168.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/welfare-programs-and-labor-supply-pdf_8e114cda-f2db-4589-aba6-15a7c30f3f69/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2381,
+      "title": "“How Large Are the External Returns to Education: Evidence from Compulsory Schooling Laws.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/654403",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/how-large-are-the-external-returns-to-education-evidence-from-compulsory-schooling-laws_8eb788ee-3844-45be-b1a4-f53bf44fdb14/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2382,
+      "title": "“Economic Impacts of New Unionization on US Private Sector Employers: 1984–2001.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w10598",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/economic-impacts-of-new-unionization-on-us-private-sector-employers-19842001_8ee2858b-d238-4baf-b01d-544c97b791b3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2383,
+      "title": "“Labor Supply Response to the Earned Income Tax Credit.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/qje/article/111/2/605/1938452",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/labor-supply-response-to-the-earned-income-tax-credit_8f52dd34-f8a8-4b56-b397-306a56ca4bc0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2385,
+      "title": "14.661 Labor Economics I - Unit 1 - Key Ideas",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit01_ideas.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit01_ideas_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2386,
+      "title": "14.661 Labor Economics I – Unit 8 - Career Concerns and Multitasking",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit08_career_concerns.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit08_career_concerns_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2387,
+      "title": "“Why Do Firms Train?” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w5605/w5605.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/why-do-firms-train-pdf_93cceb6a-a0c6-4a5a-a88f-0dfb11dbbeb2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2388,
+      "title": "“Why Has the Natural Rate of Unemployment Increased over Time?\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://uh.edu/~cjuhn/Papers/docs/2534590.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/why-has-the-natural-rate-of-unemployment-increased-over-time-pdf_93ecd9f4-e6e5-412b-a92d-328a8efe7aba/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2389,
+      "title": "“Labor Market Monopsony.” (PDF)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/pdf/10.1086%2F653654",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/labor-market-monopsony-pdf_9424fef7-df1e-4bf2-82bf-eac024bf7417/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2390,
+      "title": "“Intertemporal Substitution in Labor Supply: Evidence from Micro Data.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/261403",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/intertemporal-substitution-in-labor-supply-evidence-from-micro-data_9582ab39-02d2-4b90-a247-20d2508e8c2d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2391,
+      "title": "“School Quality and Black-White Relative Earnings: A Direct Assessment.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://davidcard.berkeley.edu/papers/school-quality-bw.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/school-quality-and-black-white-relative-earnings-a-direct-assessment-pdf_98baf017-cd9a-48d5-8072-3e45de8bd00d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2392,
+      "title": "“Specific Capital, Mobility, and Wages: Wages Rise with Job Seniority.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/261744?journalCode=jpe",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/specific-capital-mobility-and-wages-wages-rise-with-job-seniority_98f6a390-5d43-47d6-800d-5f56dacf5e30/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2393,
+      "title": "“Using Maimonides' Rule to Estimate the Effects of Class Size on Academic Achievement.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "http://piketty.pse.ens.fr/files/AngristLavy1999.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/using-maimonides-rule-to-estimate-the-effects-of-class-size-on-academic-achievement-pdf_99c0fb43-4a5c-45a2-a255-c92b925794a1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2394,
+      "title": "“The Role of Promotion in Inducing Specific Human Capital Acquisition.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/qje/article-abstract/108/2/523/1917584?redirectedFrom=fulltext",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-role-of-promotion-in-inducing-specific-human-capital-acquisition_99c60d71-9011-46a3-b21a-2be36dcd1cc7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2395,
+      "title": "“Consumption and Income Inequality in the U.S. Since the 1960s.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w23655/w23655.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/consumption-and-income-inequality-in-the-us-since-the-1960s-pdf_9a85dcc6-c2c1-450d-9ae9-f1398a54c399/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2396,
+      "title": "“Peers at Work.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://eml.berkeley.edu/~moretti/text20.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/peers-at-work-pdf_9ad13674-e2ec-4ba8-9cd8-92df49e9aa38/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2397,
+      "title": "“The Wage Impact of the Marielitos: A Reappraisal.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w21588/revisions/w21588.rev0.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-wage-impact-of-the-marielitos-a-reappraisal-pdf_9bc7576f-6942-40de-9d0c-98052a1e78d4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2398,
+      "title": "“Can Pay Regulation Kill? Panel Data Evidence on the Effect of Labor Markets on Hospital Performance.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/full/10.1086/653137",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/can-pay-regulation-kill-panel-data-evidence-on-the-effect-of-labor-markets-on-hospital-pe9bf212d4-b97f-4f95-a3f5-98addad58502/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2399,
+      "title": "“Testing the Efficiency of Employment Contracts.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://irs.princeton.edu/publications/working-papers/testing-efficiency-employment-contracts",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/testing-the-efficiency-of-employment-contracts_9cb5e273-9f43-445e-a10d-48544c5ec4f6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2400,
+      "title": "“Maimonides' Rule Redux.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aeri.20180120",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/maimonides-rule-redux_9d632928-9265-4020-a48d-0c33b7759f95/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2401,
+      "title": "“The Difference that CEOs Make: An Assignment Model Approach.”",
+      "media_type": "external",
+      "material_type": "Problem Sets",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.98.3.642",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-difference-that-ceos-make-an-assignment-model-approach_9e1ea4f9-8068-4c2a-81a4-337dfc88f5b1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2402,
+      "title": "“Career Concerns of Mutual Fund Managers.\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w6394/w6394.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/career-concerns-of-mutual-fund-managers-pdf_a0ae6a8f-e7ec-4fc7-bc49-edd94e0794b4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2403,
+      "title": "“Robustness and Real Consequences of Nominal Wage Rigidity.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0304393205000462",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/robustness-and-real-consequences-of-nominal-wage-rigidity_a1472a2d-2540-422a-8dfd-06d6519501e8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2404,
+      "title": "“Search Models of the Labor Market: A Survey.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/002205105775362014",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/search-models-of-the-labor-market-a-survey_a22389cb-4d63-49e4-a9b0-71e7005a1af6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2405,
+      "title": "14.661 Labor Economics I – Unit 5 – Human Capitalism",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit05_human.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit05_human_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2406,
+      "title": "“The Impact of Low-skilled Immigration on the Youth Labor Market.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.federalreserve.gov/pubs/feds/2010/201003/201003pap.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-impact-of-low-skilled-immigration-on-the-youth-labor-market-pdf_a53c39d1-ff6c-437f-90ee-fde83c05d4f6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2407,
+      "title": "14.661 Labor Economics I - Unit 2 - Static Labor Supply",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit02_static.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit02_static_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2408,
+      "title": "“Can Falling Supply Explain the Rising Return to College for Younger Men? A Cohort-Based Analysis.",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://davidcard.berkeley.edu/papers/men-return-college.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/can-falling-supply-explain-the-rising-return-to-college-for-younger-men-a-cohort-based-ana759f2b7-7a8a-452a-9510-e95cdda8b0b0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2409,
+      "title": "“Evaluating Public Programs with Close Substitutes: The Case of Head Start.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w21658",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/evaluating-public-programs-with-close-substitutes-the-case-of-head-start_a9022ed3-92df-4eb3-997b-7110fab4efa7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2410,
+      "title": "“Nominal Wage Rigidity and the Rate of Inflation.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://eprints.lse.ac.uk/20131/1/Nominal_Wage_Rigidity_and_the_Rate_of_Inflation.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/nominal-wage-rigidity-and-the-rate-of-inflation-pdf_a9051d6a-c743-4ac6-9b18-df99016d93b2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2412,
+      "title": "“Is There an Effect of Incremental Welfare Benefits on Fertility Behavior? A Look at the Family Cap.",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.brookings.edu/articles/is-there-an-effect-of-incremental-welfare-benefits-on-fertility-behavior-a-look-at-the-family-cap/",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/is-there-an-effect-of-incremental-welfare-benefits-on-fertility-behavior-a-look-at-the-faa9f71cd6-b5f3-433c-aa40-11c8a6fe8295/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2413,
+      "title": "14.661 Labor Economics I – Unit 10 - Investment in Skills",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit10_investment.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit10_investment_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2414,
+      "title": "“Selection, Investment, and Women’s Relative Wages over Time.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/qje/article/123/3/1061/1928142",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/selection-investment-and-womens-relative-wages-over-time_ace69184-92db-4ba1-9921-fd03596d64e1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2415,
+      "title": "“The Production of Human Capital and the Life Cycle of Earnings.\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.ntaccounts.org/doc/repository/Ben-Porath_paper.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-production-of-human-capital-and-the-life-cycle-of-earnings-pdf_ad9eb472-d5d6-48cc-97c8-24beac8b420e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2416,
+      "title": "“Valuing Alternative Work Arrangements.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20161500",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/valuing-alternative-work-arrangements_ae4c02c4-bab1-496a-915f-5e545b1667f5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2417,
+      "title": "“Performance Pay and Productivity.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w5672",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/performance-pay-and-productivity_af983cb1-7658-4207-9b6c-7cd08091128c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2418,
+      "title": "“Systematic Misreporting and Effects of Income Maintenance Experiments on Work Effort: Evidence from the SIME-DIME.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/298019?journalCode=jole",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/systematic-misreporting-and-effects-of-income-maintenance-experiments-on-work-effort-evidb029db3f-828a-4f89-9763-9022a3fabf3a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2419,
+      "title": "“Changes in Unemployment and Wage Inequality: An Alternative Theory and Some Evidence.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/changes-in-unemployment-and-wage-inequality.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/changes-in-unemployment-and-wage-inequality-an-alternative-theory-and-some-evidence-pdf_b15610d5-35c1-482f-b3ea-43d31411fc03/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2420,
+      "title": "“Machine Labor.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/2022-11/Machine%20Labor.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/machine-labor-pdf_b1d73a30-4dba-4430-b2e8-f4dfd8c742b4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2421,
+      "title": "“The Theory of Screening, Education, and the Distribution of Income.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academiccommons.columbia.edu/doi/10.7916/D8PG22PM",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-theory-of-screening-education-and-the-distribution-of-income_b31385c5-6802-4149-82bf-9e60f3775e48/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2422,
+      "title": "14.661 Labor Economics I - Unit 2 - Home Production and Labor Supply",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit02_home_prod.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit02_home_prod_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2423,
+      "title": "\"Investment and Wages in the Absence of Binding Contracts: A Nash Bargaining Approach.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.econometricsociety.org/publications/econometrica/1984/03/01/investment-and-wages-absence-binding-contracts-nash-bargaining",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/investment-and-wages-in-the-absence-of-binding-contracts-a-nash-bargaining-approach_b6503240-111f-484e-8000-0a9c701e16f3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2424,
+      "title": "“The Economic Benefits from Immigration.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://gborjas.scholars.harvard.edu/sites/g/files/omnuum4696/files/gborjas/files/jep1995.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-economic-benefits-from-immigration-pdf_b72fdf50-bec9-475b-a35f-f88eca6277f5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2425,
+      "title": "“School Segregation, Educational Attainment, and Crime: Evidence from the End of Busing in Charlotte-Mecklenburg.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w18487",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/school-segregation-educational-attainment-and-crime-evidence-from-the-end-of-busing-in-chb799c6d2-8953-40cb-9513-144f808283b7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2426,
+      "title": "“Unemployment and Labor Market Rigidities: Europe versus North America.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/jep.11.3.55",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/unemployment-and-labor-market-rigidities-europe-versus-north-america_b938e93a-7642-484e-b306-81314d2e1bd5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2427,
+      "title": "“How Hybrid Work From Home Works Out.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://cesi.econ.cuhk.edu.hk/wp-content/uploads/PPT_Han-Ruobing_How-Hybrid-Work-From-Home-Works-Out.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/how-hybrid-work-from-home-works-out-pdf_b984fd1d-8015-4a4d-8488-27537b291072/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2428,
+      "title": "“Earnings Inequality and Mobility in the United States: Evidence from Social Security Data Since 1937.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://eml.berkeley.edu/~saez/kopczuk-saez-songQJE10mobility.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/earnings-inequality-and-mobility-in-the-united-states-evidence-from-social-security-data-baec5a97-f868-46fe-b871-44865bfc4944/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2429,
+      "title": "“Revising Our Thinking about the Relationship Between Maternal Labor Supply and Preschool.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://jhr.uwpress.org/content/47/3/583.abstract",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/revising-our-thinking-about-the-relationship-between-maternal-labor-supply-and-preschool_bb3ca406-35aa-4a30-915a-d91cfd4a9331/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2430,
+      "title": "“Equilibrium Wage Dispersion with Worker and Employer Heterogeneity.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://discovery.ucl.ac.uk/id/eprint/17132/1/17132.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/equilibrium-wage-dispersion-with-worker-and-employer-heterogeneity-pdf_bb420a90-6fcb-4517-859c-320b97e2ba6a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2431,
+      "title": "*Mostly Harmless Econometrics*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.mostlyharmlesseconometrics.com/",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/mostly-harmless-econometrics_bc0c182d-f119-4a15-b571-be93e8986c60/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2432,
+      "title": "\"Spurious Volatility in Historical Unemployment Data.\"",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://eml.berkeley.edu/~cromer/Reprints/Spurious%20Volatility.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/spurious-volatility-in-historical-unemployment-data_bc42c51e-ba54-45a8-9a41-99df8be17545/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2433,
+      "title": "*Equilibrium Unemployment Theory.*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://archive.org/details/equilibriumunemp0000piss/page/n5/mode/2up",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/equilibrium-unemployment-theory_bca746b8-8919-4d1b-98c2-3d7fcd0343aa/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2434,
+      "title": "“Wage Determinants.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S1573446386010131",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/wage-determinants_be179329-c5e0-4648-aa0f-f045a027bb70/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2435,
+      "title": "“Labor Supply of New York City Cabdrivers: One Day at a Time.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/qje/article/112/2/407/1870919",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/labor-supply-of-new-york-city-cabdrivers-one-day-at-a-time_c0381c0d-4f74-498d-a51a-3f249cdae3af/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2436,
+      "title": "\"Property Rights and the Nature of the Firm.\" (PDF)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://dash.harvard.edu/server/api/core/bitstreams/7312037c-4b76-6bd4-e053-0100007fdf3b/content",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/property-rights-and-the-nature-of-the-firm-pdf_c17e3ad6-92e7-4cd0-8f55-126617d33433/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2437,
+      "title": "“Spillover Effects from Voluntary Employer Minimum Wages.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w29425",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/spillover-effects-from-voluntary-employer-minimum-wages_c37f6228-fb1d-4028-abeb-6561e15dbfa9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2438,
+      "title": "“Rethinking the Effects of Immigration on Wages.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w12497",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/rethinking-the-effects-of-immigration-on-wages_c3b63a46-d1fb-49f1-9460-2a03323aad97/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2439,
+      "title": "“Firm-Specific Capital and Turnover.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/260834?journalCode=jpe",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/firm-specific-capital-and-turnover_c68de23b-02d6-4fbc-8427-5fddd051c481/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2440,
+      "title": "“Incentives and Services for College Achievement: Evidence from a Randomized Trial.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/AEJ508.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/incentives-and-services-for-college-achievement-evidence-from-a-randomized-trial-pdf_c6faaa63-6f43-485f-8a77-53e4d8034a9b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2442,
+      "title": "“Closing the Gap: The Effect of Reducing Complexity and Uncertainty in College Pricing on the Choices of Low-Income Students.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://stephanieowen.github.io/Dynarski_Libassi_Michelmore_Owen_HAIL.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/closing-the-gap-the-effect-of-reducing-complexity-and-uncertainty-in-college-pricing-on-tc7deefeb-b4e3-4c8c-8141-0dcb6b22b450/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2443,
+      "title": "*Mastering ‘Metrics.* Princeton University Press",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://press.princeton.edu/books/paperback/9780691152844/mastering-metrics?srsltid=AfmBOooB-SIC10f_t9Ovsf1h4qDjaUmmQ180D5ogn6mPBsdjSl0hm3MS",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/mastering-metrics-princeton-university-press_c8c9d1ba-59f5-4a93-bbc2-5cf2474b1e70/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2444,
+      "title": "“Demand for Education.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S157344638601009X",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/demand-for-education_c94012f4-010d-4ad2-a0d2-5e0652f86fad/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2445,
+      "title": "“Does Inflation 'Grease the Wheels of the Labor Market'?” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/chapters/c8882/c8882.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/does-inflation-grease-the-wheels-of-the-labor-market-pdf_ca304b91-d75c-4481-ac45-168a908e37eb/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2446,
+      "title": "“An Empirical Model of Labor Supply in a Life-Cycle Setting.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/261023",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/an-empirical-model-of-labor-supply-in-a-life-cycle-setting_ca669ba8-5114-49bf-b8a2-0c9846262162/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2447,
+      "title": "“Employment Effects of Immigration to Germany: An Analysis Based on Local Labor Markets.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://direct.mit.edu/rest/article/79/4/594/57025/Employment-Effects-of-Immigration-to-Germany-An",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/employment-effects-of-immigration-to-germany-an-analysis-based-on-local-labor-markets_cadd45d5-7a56-4f3b-8b6c-d92ac331ab3d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2448,
+      "title": "“Stochastic Implications of the Life Cycle–Permanent Income Hypothesis.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://web.stanford.edu/~rehall/Stochastic-JPE-Dec-1978.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/stochastic-implications-of-the-life-cyclepermanent-income-hypothesis-pdf_cb604283-6f26-45e1-816a-725be879ba15/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2449,
+      "title": "“Credible School Value-Added with Undersubscribed School Lotteries.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/2022-08/Credible%20School%20Value-Added%20with%20Undersubscribed%20School%20Lotteries.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/credible-school-value-added-with-undersubscribed-school-lotteries-pdf_cbeb1164-b445-44dd-ab8e-dec466ca75ad/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2450,
+      "title": "\"Human Capital and the Rise and Fall of Families.\"",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/12146356/",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/human-capital-and-the-rise-and-fall-of-families_cd7a9a81-0e25-496f-b136-9009a1294e23/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2451,
+      "title": "“Intergenerational Income Mobility in the United States.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/2117312?seq=1",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/intergenerational-income-mobility-in-the-united-states_cdf32a06-ee8c-4eb4-b043-35dc83324628/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2452,
+      "title": "\"Nominal Wage Rigidity in Village Labor Markets.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20141625",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/nominal-wage-rigidity-in-village-labor-markets_cfd61f1a-cd9a-48c9-8343-7c2296aad304/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2453,
+      "title": "“Incentives and Organizations in the Public Sector: An Interpretative Review.”",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ideas.repec.org/a/uwp/jhriss/v37y2002i4p696-727.html",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/incentives-and-organizations-in-the-public-sector-an-interpretative-review_d023d10b-918d-4fd7-aef4-e56c23b2ddcd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2454,
+      "title": "“Incentives in Markets, Firms and Governments.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.princeton.edu/~atif/MFG.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/incentives-in-markets-firms-and-governments-pdf_d0cae43d-2524-448f-9832-1e0d447d6088/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2455,
+      "title": "“Estimating Average and Local Average Treatment Effects of Education when Compulsory Schooling Laws Really Matter.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://oreopoulos.faculty.economics.utoronto.ca/wp-content/uploads/2014/03/Estimating-Average-and-Local-Average-Treatment-Effects-of-Education-When-Compulsory-Schooling-Laws-Really-Matter.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/estimating-average-and-local-average-treatment-effects-of-education-when-compulsory-schood0ebd142-5394-4e7e-8b5b-8135d6f9731c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2456,
+      "title": "“Incentive Contracts and Performance Measurement.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://people.duke.edu/~qc2/BA532/1992%20JPE%20Baker.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/incentive-contracts-and-performance-measurement-pdf_d230eda4-db62-4446-b245-a33adfc5d4c3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2457,
+      "title": "“The Analysis of Union Behavior.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S1573446386020084",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-analysis-of-union-behavior_d23f5287-2c53-4041-b437-71cffd2c396e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2458,
+      "title": "“The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://scholar.harvard.edu/files/lkatz/files/chk_aer_mto_0416.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-effects-of-exposure-to-better-neighborhoods-on-children-new-evidence-from-the-moving-d3658cc5-9b59-4a27-a9cc-aa3ed5588117/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2459,
+      "title": "“The Signaling Value of a High School Diploma.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/full/10.1086/675238",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-signaling-value-of-a-high-school-diploma_d3f464ec-9749-4e93-bd63-035a302244d0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2460,
+      "title": "“The Consequences of Rigid Wages in Search Models.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=509857",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-consequences-of-rigid-wages-in-search-models_d47713be-91d7-4752-9924-b2588ed85ec6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2461,
+      "title": "“An Empirical Investigation of Gaming Responses to Explicit Performance Incentives.” (PDF)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/380402",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/an-empirical-investigation-of-gaming-responses-to-explicit-performance-incentives-pdf_d490a2fb-b907-44cc-b463-53914685eab7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2462,
+      "title": "“Children and Their Parents' Labor Supply: Evidence from Exogenous Variation in Family Size.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w5778",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/children-and-their-parents-labor-supply-evidence-from-exogenous-variation-in-family-size_d5a576b6-b9cd-4092-b1db-cd1a9edb0184/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2463,
+      "title": "“On the Efficiency of Matching and Related Models of Search and Unemployment.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/restud/article-abstract/57/2/279/1551634",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/on-the-efficiency-of-matching-and-related-models-of-search-and-unemployment_d7485cc4-485b-4571-8246-d6ca7d89c608/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2464,
+      "title": "“Do Wages Rise with Job Seniority?”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/restud/article-abstract/54/3/437/1558385?redirectedFrom=PDF",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/do-wages-rise-with-job-seniority_d7f77e8f-4965-4196-8fe0-206609d03718/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2465,
+      "title": "“Why Are There Still So Many Jobs? The History and Future of Workplace Automation.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/jep.29.3.3",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/why-are-there-still-so-many-jobs-the-history-and-future-of-workplace-automation_d9091167-96ea-4dee-a283-ddb078e78831/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2467,
+      "title": "“Comparative Advantage and the Distribution of Earnings and Abilities.” (PDF)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.researchgate.net/profile/Michael-Sattinger-2/publication/4813429_Comparative_Advantage_and_the_Distribution_of_Earnings_and_Abilities/links/5ba0fc93299bf13e6039c700/Comparative-Advantage-and-the-Distribution-of-Earnings-and-Abilities.pdf?origin=journalDetail&_tp=eyJwYWdlIjoiam91cm5hbERldGFpbCJ9",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/comparative-advantage-and-the-distribution-of-earnings-and-abilities-pdf_da53af18-9e87-44c6-a09e-94987ce86445/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2468,
+      "title": "“Desegregation and Black Dropout Rates.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w8345/w8345.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/desegregation-and-black-dropout-rates-pdf_db2ec0f3-2d3b-429f-b36c-bfd14eec605e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2469,
+      "title": "14.661 Labor Economics I - Practice Final Exam",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_practice_final.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_practice_final_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 2470,
+      "title": "“Race and the Mismeasure of School Quality.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/2025-02/angrist-et-al-2024-race-and-the-mismeasure-of-school-quality.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/race-and-the-mismeasure-of-school-quality-pdf_dce357f8-7ea5-498d-a6fb-0d5738c98968/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2471,
+      "title": "“Labor Supply and the Value of Non-Work Time: Experimental Estimates from the Field.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aeri.20180070",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/labor-supply-and-the-value-of-non-work-time-experimental-estimates-from-the-field_de82b4ca-ff51-48d7-be1d-25ab10b38f80/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2472,
+      "title": "\"The Labor Market and Corporate Structure.\" (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/labor-market-and-corporate-structure.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-labor-market-and-corporate-structure-pdf_ded87f3c-ce23-4f0f-85f9-c1deba039529/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2473,
+      "title": "“Extrapolating: External Validity and Overidentification in the LATE Framework.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2679701",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/extrapolating-external-validity-and-overidentification-in-the-late-framework_df7673ae-bc34-4e91-9a6f-2b2bde4a6dfe/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2474,
+      "title": "“Schooling and Parental Labor Supply: Evidence from COVID-19 School Closures in the United States.”",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9702976/",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/schooling-and-parental-labor-supply-evidence-from-covid-19-school-closures-in-the-united-e12a2767-38d5-4cb7-8045-b9d287f32ec7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2475,
+      "title": "“Where Is the Land of Opportunity? The Geography of Intergenerational Mobility in the United States.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://scholar.harvard.edu/files/hendren/files/mobility_geo.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/where-is-the-land-of-opportunity-the-geography-of-intergenerational-mobility-in-the-unitee2616760-e807-4518-b173-f05f3bb777a2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2476,
+      "title": "“A Profitable Approach to Labor Supply and Commodity Demand Over the Life-Cycle.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/1911653?seq=1#page_scan_tab_contents",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/a-profitable-approach-to-labor-supply-and-commodity-demand-over-the-life-cycle_e41caca3-fe29-4cdc-83fe-809d745accca/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2477,
+      "title": "“Heterogeneity, Stratification and Growth: Macroeconomic Implications of Community Structure in School Finance.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.princeton.edu/~rbenabou/papers/AER_1996.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/heterogeneity-stratification-and-growth-macroeconomic-implications-of-community-structuree4f4c870-e7b5-41ca-a1e3-4263c4124233/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2478,
+      "title": "\"The Impact of the Mariel Boatlift on the Miami Labor Market.\"",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://davidcard.berkeley.edu/papers/mariel-impact.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-impact-of-the-mariel-boatlift-on-the-miami-labor-market_e66cc3dd-6784-4eb9-af66-fd7b8b9419a3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2479,
+      "title": "“Estimating the Effects of a Time-Limited Earnings Subsidy for Welfare-Leavers.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://davidcard.berkeley.edu/papers/time-lim-earning-sub.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/estimating-the-effects-of-a-time-limited-earnings-subsidy-for-welfare-leavers-pdf_e75766d5-ebf0-46db-a468-b5f27b4f0828/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2480,
+      "title": "“Marginal Effects of Merit Aid for Low-Income Students.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/2022-08/Marginal%20Effects%20of%20Merit%20Aid%20for%20Low-Income%20Students.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/marginal-effects-of-merit-aid-for-low-income-students-pdf_e7933862-55bd-4a7b-b7f8-8ca945a66357/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2481,
+      "title": "“Labor Market Polarization over the Business Cycle.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/full/10.1086/680656",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/labor-market-polarization-over-the-business-cycle_e89a55b9-a571-443a-98a7-8e6afa5b04e8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2482,
+      "title": "“Changes in the Distribution of Economic Well-Being During the COVID-19 Pandemic.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/system/files/working_papers/w29878/w29878.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/changes-in-the-distribution-of-economic-well-being-during-the-covid-19-pandemic-pdf_e9591b2e-9210-4891-a194-790a3f3658cc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2483,
+      "title": "“Oligopsony and Monopsonistic Competition in Labor Markets.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://discovery.ucl.ac.uk/id/eprint/15468/1/15468.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/oligopsony-and-monopsonistic-competition-in-labor-markets-pdf_ea399e83-27f7-4f22-bd83-10d110ff0514/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2484,
+      "title": "“The Growth of Low-Skill Service Jobs and the Polarization of the US Labor Market.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.ddorn.net/papers/Autor-Dorn-LowSkillServices-Polarization.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-growth-of-low-skill-service-jobs-and-the-polarization-of-the-us-labor-market-pdf_eab70f2d-6d16-4dd6-912e-c78208a5c07b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2485,
+      "title": "”The Role of Application Assistance and Information in College Decisions.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/qje/article/127/3/1205/1921970",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-role-of-application-assistance-and-information-in-college-decisions_eae6e802-b33a-4855-8a41-20d056f60fe3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2486,
+      "title": "“Estimating Labor Supply Responses Using Tax Reforms.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/2999575?seq=1",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/estimating-labor-supply-responses-using-tax-reforms_ef232a89-ff3f-40ed-b9da-a3bbd52f118d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2487,
+      "title": "“Choice and Consequence: Assessing Mismatch at Chicago Exam Schools.”",
+      "media_type": "external",
+      "material_type": "Exams",
+      "source_url": "https://www.nber.org/papers/w26137",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/choice-and-consequence-assessing-mismatch-at-chicago-exam-schools_ef2ce680-e0be-407d-b240-8b8850434145/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2488,
+      "title": "“Trends in U.S. Wage Inequality: Revising the Revisionists.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/trends%20in%20us%20wage%202008.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/trends-in-us-wage-inequality-revising-the-revisionists-pdf_f2459214-a57b-4082-bb68-b90a0652b0fe/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2489,
+      "title": "“Peer Effects in Academic Outcomes: Evidence from a Natural Experiment.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://direct.mit.edu/rest/article/85/1/9/57368/Peer-Effects-in-Academic-Outcomes-Evidence-from-a",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/peer-effects-in-academic-outcomes-evidence-from-a-natural-experiment_f2b550bc-e871-4abc-970e-b0dd77aacc10/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2490,
+      "title": "“Shadow Prices, Market Wages and Labor Supply.”",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://cehd.uchicago.edu/wp-content/uploads/2022/04/Heckman_1974_Shadow-Prices-HO_2022-04-29a_jbb.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/shadow-prices-market-wages-and-labor-supply_f43ac047-94c1-4fed-8175-c45ccc4fdc0a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2491,
+      "title": "14.661 Labor Economics I – Unit 4 – DO Immigrants Take American Jobs?",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit04_immigrants.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/resources/mit14_661_f24_unit04_immigrants_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2492,
+      "title": "“How Teachers' Unions Affect Education Production.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://academic.oup.com/qje/article/111/3/671/1839935",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/how-teachers-unions-affect-education-production_f510a68b-c359-44d0-b7bf-dccc2a86f477/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2493,
+      "title": "\"Job Matching and the Theory of Turnover.\"",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/260808",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/job-matching-and-the-theory-of-turnover_f5be2328-37cb-446c-a0ae-6f33c9ba5067/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2494,
+      "title": "“Supervision and Wages Across Industries.”",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ideas.repec.org/a/tpr/restat/v75y1993i3p409-17.html",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/supervision-and-wages-across-industries_f6f7690e-9253-4af3-803d-f55333746d77/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2495,
+      "title": "“Wage Differentials, Employer Size, and Unemployment.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://econpapers.repec.org/article/ieriecrev/v_3a39_3ay_3a1998_3ai_3a2_3ap_3a257-73.htm",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/wage-differentials-employer-size-and-unemployment_f74ea9cb-8a9c-40f6-9f7a-4d38f0646239/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2496,
+      "title": "“Firm-Specific Human Capital: A Skill Weights Approach.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w9679",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/firm-specific-human-capital-a-skill-weights-approach_f899779c-ddde-4251-99b5-1317cfe28af7/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2497,
+      "title": "“The Effect of Wealth on Individual and Household Labor Supply: Evidence from Swedish Lotteries.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20151589",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-effect-of-wealth-on-individual-and-household-labor-supply-evidence-from-swedish-lottef96c95a2-a490-43af-95a3-ab77ebfed0db/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2498,
+      "title": "“Ownership, Agency, and Wages: An Examination of Franchising in the Fast Food Industry.”",
+      "media_type": "external",
+      "material_type": "Exams",
+      "source_url": "https://academic.oup.com/qje/article-abstract/106/1/75/1928571",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/ownership-agency-and-wages-an-examination-of-franchising-in-the-fast-food-industry_f99fe54b-03d0-4347-8e79-8fbb4ca64525/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2499,
+      "title": "“The Labor Market Effects of Immigration.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://journals.sagepub.com/doi/abs/10.1177/001979398003300304",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-labor-market-effects-of-immigration_f9f1a687-7fae-4055-8f0d-ae5aef3ff3af/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2500,
+      "title": "“Industry-Specific Human Capital: Evidence From Displaced Workers.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.journals.uchicago.edu/doi/abs/10.1086/298388?mobileUi=0&",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/industry-specific-human-capital-evidence-from-displaced-workers_fd7907dd-2839-47f6-a3ea-5128d67f578c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2501,
+      "title": "“Evaluating Welfare Reform in the United States.”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/002205102762203576",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/evaluating-welfare-reform-in-the-united-states_fd920c6b-9079-4f9c-9983-2c884dfe3e9e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2502,
+      "title": "“The Effects of Immigration on the Labor Market Outcomes of Less-Skilled Natives”",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.nber.org/papers/w3123",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/the-effects-of-immigration-on-the-labor-market-outcomes-of-less-skilled-natives_fdb80e31-87a9-478c-b79a-71189acab58e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2503,
+      "title": "“Still Worth the Trip? School Busing Effects in Boston and New York.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/2024-07/Busing_Working_Paper.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/still-worth-the-trip-school-busing-effects-in-boston-and-new-york-pdf_fe3b09f0-60dc-4d25-9d2e-3cc7c420df65/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2504,
+      "title": "“Does School Integration Generate Peer Effects? Evidence from Boston’s Metco Program.” (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/sites/default/files/publications/metco.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-661-labor-economics-i-fall-2024/external-resources/does-school-integration-generate-peer-effects-evidence-from-bostons-metco-program-pdf_ffa3f28e-df5b-4d00-b5f1-741a7bd54816/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

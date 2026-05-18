@@ -1,0 +1,773 @@
+{
+  "generated_at": "2026-05-18T20:51:01.751Z",
+  "course": {
+    "course_id": "17-41-introduction-to-international-relations-spring-2023",
+    "title": "Introduction to International Relations",
+    "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 44,
+    "unit_count": 18,
+    "assigned_sources": 17,
+    "unassigned_sources": 27
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Introduction to International Relations, Lecture 1: Welcome: Making Sense of a Global Pandemic",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5614,
+          "title": "Introduction to International Relations, Lecture 1: Welcome: Making Sense of a Global Pandemic",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Introduction to International Relations, Lecture 2: Foundations: Frameworks for Understanding International Relations",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5622,
+          "title": "Introduction to International Relations, Lecture 2: Foundations: Frameworks for Understanding International Relations",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Introduction to International Relations, Lecture 3: Foundations: Forgotten History of the International Relations Discipline",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5637,
+          "title": "Introduction to International Relations, Lecture 3: Foundations: Forgotten History of the International Relations Discipline",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec03_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Introduction to International Relations, Lecture 4: Foundations: Interests, Interactions, and Institutions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5632,
+          "title": "Introduction to International Relations, Lecture 4: Foundations: Interests, Interactions, and Institutions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Introduction to International Relations, Lecture 5: Foundations: Institutions and Cooperation",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5608,
+          "title": "Introduction to International Relations, Lecture 5: Foundations: Institutions and Cooperation",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec05_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Introduction to International Relations, Lecture 6: Foundations: International Institutions, Law, and Norms",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5648,
+          "title": "Introduction to International Relations, Lecture 6: Foundations: International Institutions, Law, and Norms",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Introduction to International Relations, Lecture 7: Foundations: History of the International System",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5619,
+          "title": "Introduction to International Relations, Lecture 7: Foundations: History of the International System",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec07_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Introduction to International Relations, Lecture 8: Applications: Bargaining Model of War",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5625,
+          "title": "Introduction to International Relations, Lecture 8: Applications: Bargaining Model of War",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Introduction to International Relations, Lecture 9: Applications: Domestic Interests and War",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5623,
+          "title": "Introduction to International Relations, Lecture 9: Applications: Domestic Interests and War",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec09_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Introduction to International Relations, Lecture 10: Applications: Regime Type and War",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5615,
+          "title": "Introduction to International Relations, Lecture 10: Applications: Regime Type and War",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Introduction to International Relations, Lecture 11: Applications: Psychology and War",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5621,
+          "title": "Introduction to International Relations, Lecture 11: Applications: Psychology and War",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec11_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Introduction to International Relations, Lecture 12: Applications: Civil War and Terrorism",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5613,
+          "title": "Introduction to International Relations, Lecture 12: Applications: Civil War and Terrorism",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec12_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Introduction to International Relations, Lectures 14 and 15: Applications: Trade",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5636,
+          "title": "Introduction to International Relations, Lectures 14 and 15: Applications: Trade",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec14_lec15.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec14_lec15_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Introduction to International Relations, Lectures 14 and 15: Applications: Trade",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5636,
+          "title": "Introduction to International Relations, Lectures 14 and 15: Applications: Trade",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec14_lec15.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec14_lec15_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "Introduction to International Relations, Lecture 16: Applications: Development",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5607,
+          "title": "Introduction to International Relations, Lecture 16: Applications: Development",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec16.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec16_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Introduction to International Relations, Lecture 18: Applications: The Environment",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5645,
+          "title": "Introduction to International Relations, Lecture 18: Applications: The Environment",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec18.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec18_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "Introduction to International Relations, Lecture 20: Applications: Human Rights",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5650,
+          "title": "Introduction to International Relations, Lecture 20: Applications: Human Rights",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec20.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec20_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "Introduction to International Relations, Lecture 21: Applications: Nuclear Weapons",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5628,
+          "title": "Introduction to International Relations, Lecture 21: Applications: Nuclear Weapons",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/17-41-introduction-to-international-relations-spring-2023/mit17_41_s23_lec21.pdf",
+          "local_path": null,
+          "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/resources/mit17_41_s23_lec21_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 5609,
+      "title": "Goldsboro Revisited or How I Learned to Mistrust the H-Bomb or To Set the Record Straight",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.theguardian.com/world/interactive/2013/sep/20/goldsboro-revisited-declassified-document",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/goldsboro-revisited-or-how-i-learned-to-mistrust-the-h-bomb-or-to-set-the-record-straight1b41b00f-0a2d-4d21-b9c2-ba487ef750e2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5610,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Writing_Your_Dissertation_in_Fifteen_Min/q5bGvErV1lgC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/google-books_1ba3166e-b3d7-4161-a81e-e31a2a4823e6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5611,
+      "title": "The Sanctions Sieve",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.thewirechina.com/2023/04/02/the-sanctions-sieve-winninc-aook/",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/the-sanctions-sieve_22266bbb-72a6-463e-a4cf-d77c00a6b8d2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5612,
+      "title": "China’s spy balloon drifted for 7 days across the U.S.: A timeline",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.nytimes.com/2023/02/04/us/china-spy-balloon-time.html",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/chinas-spy-balloon-drifted-for-7-days-across-the-us-a-timeline_2597eba2-f22f-4c47-8043-d7453397666d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5616,
+      "title": "Cooperation Under the Security Dilemma",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/2009958?typeAccessWorkflow=login",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/cooperation-under-the-security-dilemma_2f099153-496b-47ce-9fa7-fd933d05f21f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5617,
+      "title": "Biden Needs to Broaden Semiconductor Sanctions on China",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://foreignpolicy.com/2023/04/03/chips-biden-xi-china-sanctions-semiconductors/",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/biden-needs-to-broaden-semiconductor-sanctions-on-china_35d44c4a-0c26-4eca-a7df-70d4b6dff799/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5618,
+      "title": "Chinese Coercion in the South China Sea: Resolve and Costs",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.belfercenter.org/publication/chinese-coercion-south-china-sea-resolve-and-costs-0",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/chinese-coercion-in-the-south-china-sea-resolve-and-costs_386e868a-9f47-485a-8031-c8670ee1b4a3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5620,
+      "title": "The Development Challenge",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/20034277",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/the-development-challenge_408b6594-51ac-4e74-932f-e79c36e14251/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5624,
+      "title": "China has a $143bn semiconductor plan to beat US chip sanctions",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://techmonitor.ai/technology/silicon/china-semiconductor-manufacturing-us",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/china-has-a-143bn-semiconductor-plan-to-beat-us-chip-sanctions_5f3d0777-f038-4180-b1ff-cd5973323319/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5626,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/White_World_Order_Black_Power_Politics/mBTRCgAAQBAJ?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/google-books_708d0b53-ae9f-4f14-acad-3c9342da7df8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5627,
+      "title": "Giorgio Galeotti",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://commons.wikimedia.org/wiki/File:United_Nations_-_New_York,_NY,_USA_-_August_18,_2015_02.jpg",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/giorgio-galeotti_75a9c1ba-162a-4c82-aed1-d9efaf29d0cb/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5630,
+      "title": "Fox News",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.foxnews.com/",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/fox-news_81a39b53-9a4c-494d-982f-6394b0493ee0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5631,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Dead_Aid/2T_RbtTslzEC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/google-books_8429975a-4f1c-4d3f-ab0b-0697af432102/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5633,
+      "title": "International Relations: One World, Many Theories",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/1149275?typeAccessWorkflow=login",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/international-relations-one-world-many-theories_8b14d684-0553-4e65-95b7-50f2f528dacf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5634,
+      "title": "Why Foreign Aid Is Hurting Africa",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.wsj.com/articles/SB123758895999200083",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/why-foreign-aid-is-hurting-africa_8baea726-d885-415f-a0bc-ef491a393fa6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5635,
+      "title": "Why Hawks Win",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://foreignpolicy.com/2009/10/13/why-hawks-win/",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/why-hawks-win_8ce08e4b-537b-4f7e-af15-3f8c7df7b3d9/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5638,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Tales_of_the_Field/V9hi269OD9cC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/google-books_a793477a-f95f-4bac-b836-a3398325bcc2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5639,
+      "title": "Global Warming: Who Loses—and Who Wins?",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.brookings.edu/articles/global-warming-who-loses-and-who-wins/",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/global-warming-who-losesand-who-wins_aa318d13-f9ed-4795-9399-c3667760978c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5640,
+      "title": "*The New York Times*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.nytimes.com/",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/the-new-york-times_accd47b5-9111-48ab-8925-fae2be1161d3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5641,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/The_Dictator_s_Handbook/K6Lk8IgACXMC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/google-books_ad7a9c96-0dad-4a8c-9210-0ace93e36515/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5642,
+      "title": "In Praise of Cheap Labor: Bad Jobs at Bad Wages Are Better Than No Jobs at All",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.studymode.com/essays/Paul-Krugman-In-Praise-Of-Cheap-900471.html",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/in-praise-of-cheap-labor-bad-jobs-at-bad-wages-are-better-than-no-jobs-at-all_babeaa5f-4cae-4224-8bc1-f38a293fb0fe/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5643,
+      "title": "Effects of Nuclear Explosions on Pacific Islanders",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/3636039?typeAccessWorkflow=login",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/effects-of-nuclear-explosions-on-pacific-islanders_bd015575-6cbb-4513-a0d3-f6c54c024ff5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5644,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Several_Short_Sentences_About_Writing/OsPxrXU9P5gC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/google-books_bf0adcfb-0eeb-4623-ac73-a32ed1d82027/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5646,
+      "title": "*Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.imdb.com/title/tt0057012/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_dr.%2520strangelove",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb_d58d4412-fcac-4967-a0c9-57794cbf66ed/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5647,
+      "title": "Trading in Illusions",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstor.org/stable/3183155?typeAccessWorkflow=login",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/trading-in-illusions_d85fc5be-b889-439a-869a-989e6b8e7472/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5649,
+      "title": "United States–China semiconductor standoff: A supply chain under stress",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/united-states-china-semiconductor-standoff-a-supply-chain-under-stress/",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/united-stateschina-semiconductor-standoff-a-supply-chain-under-stress_e51a620c-549d-4832-8678-533c069801f5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5652,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Stylish_Academic_Writing/nN51E2nxQfgC?hl=en&gbpv=1",
+      "local_path": null,
+      "resource_path": "/courses/17-41-introduction-to-international-relations-spring-2023/external-resources/google-books_ff0c3012-8549-4714-a401-9da01d1b4126/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

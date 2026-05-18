@@ -1,0 +1,1249 @@
+{
+  "generated_at": "2026-05-18T20:51:01.772Z",
+  "course": {
+    "course_id": "2-008-design-and-manufacturing-ii-spring-2025",
+    "title": "Design and Manufacturing II",
+    "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 69,
+    "unit_count": 23,
+    "assigned_sources": 63,
+    "unassigned_sources": 6
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "2.008 (S25): Lecture 01: Course Introduction",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2002,
+          "title": "2.008 (S25): Lecture 01: Course Introduction",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 1975,
+          "title": "2.008 (S25): Practice Quiz 1 2024 Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz1_prac24_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz1_prac24_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 1981,
+          "title": "2.008 (S25): Quiz 1 Review",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz1_review.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz1_review_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2014,
+          "title": "2.008 (S25): Practice Quiz 1 2021 Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz1_prac21_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz1_prac21_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2023,
+          "title": "2.008 (S25): Practice Quiz 1 2022",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz1_prac22.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz1_prac22_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2026,
+          "title": "2.008 (S25): Quiz 1 Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz1_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz1_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2029,
+          "title": "2.008 (S25): Practice Quiz 1 2023 Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz1_prac23_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz1_prac23_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2066,
+          "title": "2.008 (S25): Practice Quiz 1 2024",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz1_prac24.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz1_prac24_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2085,
+          "title": "2.008 (S25): Practice Quiz 1 2022 Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz1_prac22_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz1_prac22_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2088,
+          "title": "2.008 (S25): Practice Quiz 1 2021",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz1_prac21.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz1_prac21_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2091,
+          "title": "2.008 (S25): Homework 1",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_hw1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_hw1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2103,
+          "title": "2.008 (S25): Practice Quiz 1 2023",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz1_prac23.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz1_prac23_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2151,
+          "title": "2.008 (S25): Quiz 1",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 13,
+      "source_types": {
+        "pdf": 13
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "2.008 (S25): Lecture 02: Injection Molding I",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2063,
+          "title": "2.008 (S25): Lecture 02: Injection Molding I",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2079,
+          "title": "2.008 (S25): Lecture 24: Quiz 2 Review",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec24.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec24_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 1963,
+          "title": "2.008 (S25): Practice Quiz 2 2021",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_prac21.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_prac21_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 1990,
+          "title": "2.008 (S25): Practice Quiz 2 2023 Part A",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_prac23_part_a.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_prac23_part_a_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 1996,
+          "title": "2.008 (S25): Quiz 2 Review",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_review.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_review_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2011,
+          "title": "2.008 (S25): Quiz 2 Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2020,
+          "title": "2.008 (S25): Practice Quiz 2 2024 Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_prac24_soln.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_prac24_soln_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2044,
+          "title": "2.008 (S25): Practice Quiz 2 2023 Part B Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_prac23_part_b_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_prac23_part_b_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2094,
+          "title": "2.008 (S25): Practice Quiz 2 2023 Part B",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_prac23_part_b.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_prac23_part_b_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2097,
+          "title": "2.008 (S25): Practice Quiz 2 2024 Part B",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_prac24_part_b.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_prac24_part_b_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2106,
+          "title": "2.008 (S25): Practice Quiz 2 2022 Part A",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_prac22_part_a.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_prac22_part_a_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2112,
+          "title": "2.008 (S25): Practice Quiz 2 2022 Part A Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_prac22_part_a_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_prac22_part_a_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2118,
+          "title": "2.008 (S25): Homework 2",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_hw2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_hw2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2121,
+          "title": "2.008 (S25): Practice Quiz 2 2022 Part B Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_prac22_part_b_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_prac22_part_b_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2130,
+          "title": "2.008 (S25): Practice Quiz 2 2021 Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_prac21_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_prac21_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2133,
+          "title": "2.008 (S25): Quiz 2 Part A",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_part_a.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_part_a_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2136,
+          "title": "2.008 (S25): Practice Quiz 2 2024 Part A",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_prac24_part_a.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_prac24_part_a_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2145,
+          "title": "2.008 (S25): Practice Quiz 2 2023 Part A Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_prac23_part_a_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_prac23_part_a_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2154,
+          "title": "2.008 (S25): Practice Quiz 2 2022 Part B",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_prac22_part_b.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_prac22_part_b_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 2161,
+          "title": "2.008 (S25): Quiz 2 Part B",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_quiz2_part_b.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_quiz2_part_b_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 20,
+      "source_types": {
+        "pdf": 20
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "2.008 (S25): Lecture 03: Injection Molding II",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2127,
+          "title": "2.008 (S25): Lecture 03: Injection Molding II",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec03_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 1984,
+          "title": "2.008 (S25): Homework 3",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_hw3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_hw3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "2.008 (S25): Lecture 04: Thermoforming Process",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2059,
+          "title": "2.008 (S25): Lecture 04: Thermoforming Process",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 1969,
+          "title": "2.008 (S25): Homework 4",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_hw4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_hw4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "2.008 (S25): Lecture 05: Metal Cutting I: Cutting Analysis: Mechanics, Forces, and Power",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2075,
+          "title": "2.008 (S25): Lecture 05: Metal Cutting I: Cutting Analysis: Mechanics, Forces, and Power",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec05_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2038,
+          "title": "2.008 (S25): Homework 5",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_hw5.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_hw5_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "2.008 (S25): Lecture 06: Metal Cutting II: Forces and Power Demos",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1993,
+          "title": "2.008 (S25): Lecture 06: Metal Cutting II: Forces and Power Demos",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2050,
+          "title": "2.008 (S25): Homework 6",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_hw6.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_hw6_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "2.008 (S25): Lecture 07: Metal Cutting III: Machining in Practice",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2158,
+          "title": "2.008 (S25): Lecture 07: Metal Cutting III: Machining in Practice",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec07_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2053,
+          "title": "2.008 (S25): Homework 7",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_hw7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_hw7_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "2.008 (S25): Lecture 08: Assembly/Disassembly",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2056,
+          "title": "2.008 (S25): Lecture 08: Assembly/Disassembly",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "2.008 (S25): Lecture 09: Joining I: Manufacturing Assemblies",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2035,
+          "title": "2.008 (S25): Lecture 09: Joining I: Manufacturing Assemblies",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec09_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "2.008 (S25): Lecture 10: Joining II: Processes and Types",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2047,
+          "title": "2.008 (S25): Lecture 10: Joining II: Processes and Types",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "2.008 (S25): Lecture 11a: Notes on Variation and Quality",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2139,
+          "title": "2.008 (S25): Lecture 11a: Notes on Variation and Quality",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec11a.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec11a_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 2148,
+          "title": "2.008 (S25): Lecture 11: Variation and Quality I: Defining, Measuring, and Controlling Quality in Manufacturing",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec11_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "2.008 (S25): Lecture 12: Variation and Quality II: Statistical Process Control",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1999,
+          "title": "2.008 (S25): Lecture 12: Variation and Quality II: Statistical Process Control",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec12_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2082,
+          "title": "2.008 (S25): Lecture 12a: Process Control",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec12a.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec12a_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "2.008 (S25): Lecture 13: Quiz I Review",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2115,
+          "title": "2.008 (S25): Lecture 13: Quiz I Review",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec13.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec13_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "2.008 (S25): Lecture 15: Manufacturing System I: Beer Game Activity",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2041,
+          "title": "2.008 (S25): Lecture 15: Manufacturing System I: Beer Game Activity",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec15.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec15_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "2.008 (S25): Lecture 16: Manufacturing System IIa: Manufacturing Planning",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2017,
+          "title": "2.008 (S25): Lecture 16: Manufacturing System IIa: Manufacturing Planning",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec16.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec16_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "2.008 (S25): Lecture 17: Manufacturing System IIb: Manufacturing Cost",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2142,
+          "title": "2.008 (S25): Lecture 17: Manufacturing System IIb: Manufacturing Cost",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec17.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec17_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "2.008 (S25): Lecture 18a: Manufacturing System III: Lean Game Solution",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1966,
+          "title": "2.008 (S25): Lecture 18a: Manufacturing System III: Lean Game Solution",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec18a.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec18a_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 2069,
+          "title": "2.008 (S25): Lecture 18: Manufacturing System III: Lean Game",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec18.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec18_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "2.008 (S25): Lecture 19: Manufacturing System IV: Modeling Transfer Lines in MATLAB",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2072,
+          "title": "2.008 (S25): Lecture 19: Manufacturing System IV: Modeling Transfer Lines in MATLAB",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec19.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec19_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "2.008 (S25): Lecture 20: Metal Deforming: Forging, Extrusion, Sheet Metal: Processes and Equipment",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2032,
+          "title": "2.008 (S25): Lecture 20: Metal Deforming: Forging, Extrusion, Sheet Metal: Processes and Equipment",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec20.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec20_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2124,
+          "title": "2.008 (S25): Lecture 20a: Deforming",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec20a.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec20a_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "2.008 (S25): Lecture 21: Metal Casting: Process, Analysis, and Equipment",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 1987,
+          "title": "2.008 (S25): Lecture 21: Metal Casting: Process, Analysis, and Equipment",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec21.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec21_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 2109,
+          "title": "2.008 (S25): Lecture 21a: Solidification and Cooling: Casting",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec21a.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec21a_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 22,
+      "title": "2.008 (S25): Lecture 22: Layered Manufacturing I: Thin Film Processes: MEMS and Microelectronics",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2100,
+          "title": "2.008 (S25): Lecture 22: Layered Manufacturing I: Thin Film Processes: MEMS and Microelectronics",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec22.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec22_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "2.008 (S25): Lecture 23: Layered Manufacturing II: Additive Manufacturing",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2008,
+          "title": "2.008 (S25): Lecture 23: Layered Manufacturing II: Additive Manufacturing",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec23.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec23_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 24,
+      "title": "2.008 (S25): Lecture 24: Quiz 2 Review",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 2079,
+          "title": "2.008 (S25): Lecture 24: Quiz 2 Review",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/mit2_008_s25_lec24.pdf",
+          "local_path": null,
+          "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/resources/mit2_008_s25_lec24_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 2005,
+      "title": "Flickr",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.flickr.com/photos/jereandreagan/428159861/in/photolist-DQqjX-DQqHN-DQqTU-DQqMe-DQqdQ-726BTU-DQr1z-QuCT4-QufUU-QuBc3-rrPNU-DQqoe-dvLpCb-DQqA9-DQq71-DQqsc-DQqvP-2kcGG1k-3JDs7M-2jHBRYu-hL5g9y-hL4Qmg-8qJyKx-9ybCx3-avXq3",
+      "local_path": null,
+      "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/external-resources/flickr_3388b4b5-4810-4f5a-b125-bca729da825f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2006,
+      "title": "*2.007 Design and Manufacturing I*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/2-007-design-and-manufacturing-i-spring-2009/",
+      "local_path": null,
+      "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/external-resources/2007-design-and-manufacturing-i_361a8c58-ae0f-4260-9173-2e43e4890d2e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2007,
+      "title": "Wikimedia Commons",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://commons.wikimedia.org/wiki/File:US_Army_soldier_welding_two_metal_pieces,_Fort_Gregg-Adams,_Virginia,_March_2025.jpg",
+      "local_path": null,
+      "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/external-resources/wikimedia-commons_379e97ab-8a83-41c5-9e06-b62cd51b9716/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2062,
+      "title": "*2.017 Design of Electromechanical Robotic Systems*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/2-017j-design-of-electromechanical-robotic-systems-fall-2009/",
+      "local_path": null,
+      "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/external-resources/2017-design-of-electromechanical-robotic-systems_786d13c2-0e4e-4610-bded-bb3e7b6cafc2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2078,
+      "title": "Jeremiah and Reagan Kemper",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.flickr.com/photos/jereandreagan/",
+      "local_path": null,
+      "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/external-resources/jeremiah-and-reagan-kemper_8ebf889e-dc2e-404d-858c-7c5a6b577750/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2157,
+      "title": "*2.051 Introduction to Heat Transfer*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/2-051-introduction-to-heat-transfer-fall-2015/",
+      "local_path": null,
+      "resource_path": "/courses/2-008-design-and-manufacturing-ii-spring-2025/external-resources/2051-introduction-to-heat-transfer_edcc6f00-2539-418b-94bc-bb1bb87e1e86/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

@@ -1,0 +1,1956 @@
+{
+  "generated_at": "2026-05-18T20:51:01.729Z",
+  "course": {
+    "course_id": "14-310x-data-analysis-for-social-scientists-spring-2023",
+    "title": "Data Analysis for Social Scientists",
+    "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 122,
+    "unit_count": 23,
+    "assigned_sources": 102,
+    "unassigned_sources": 20
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Introduction",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5555,
+          "title": "Lecture 01: Introduction",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week01_lec01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week01_lec01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5582,
+          "title": "Lecture 01: Introduction to 14.310x Data Analysis for Social Scientists",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-1_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5583,
+          "title": "Lecture 01: Introduction to 14.310x Data Analysis for Social Scientists",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=YzdxbWqtiYg",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5585,
+          "title": "Lecture 01: Introduction to 14.310x Data Analysis for Social Scientists (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1ssraL2tY8lXkcOElwGxnePvf-ZTGpEZ-_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-1_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5557,
+          "title": "Homework 01",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_homework01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_homework01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Fundamentals of Probability",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5549,
+          "title": "Lecture 02: Fundamentals of Probability",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5550,
+          "title": "Lecture 02: Fundamentals of Probability",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=ZyDktXm6v-s",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5552,
+          "title": "Lecture 02: Fundamentals of Probability (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/16et2U8JtPicWPVCIC_M4NtkBfMwlFHNe_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5567,
+          "title": "Lecture 02: Fundamentals of Probability",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week02_lec02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week02_lec02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5512,
+          "title": "Homework 02",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_homework02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_homework02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Random Variables, Distributions, and Joint Distributions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5473,
+          "title": "Lecture 03: Random Variables, Distributions, and Joint Distributions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week02_lec03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week02_lec03_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5482,
+          "title": "Lecture 03: Random Variables, Distributions, and Joint Distributions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-3_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5483,
+          "title": "Lecture 03: Random Variables, Distributions, and Joint Distributions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=QuWEUrIzZNs",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5485,
+          "title": "Lecture 03: Random Variables, Distributions, and Joint Distributions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1XOWEoe5f4ltgx97vK4ahOSgqvqwi2O7C_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5469,
+          "title": "Homework 03 Part 02",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_homework03_part02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_homework03_part02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5529,
+          "title": "Homework 03 Part 01",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_homework03_part01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_homework03_part01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 6,
+      "source_types": {
+        "pdf": 4,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Gathering and Collecting Data",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5497,
+          "title": "Lecture 04: Gathering and Collecting Data",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-4_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-4_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5498,
+          "title": "Lecture 04: Gathering and Collecting Data",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=msAXs6o-9Ko",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-4_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5500,
+          "title": "Lecture 04: Gathering and Collecting Data (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1bUOl4GxMYRDMIJM2iKIPW5nZOIr2hSPR_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-4_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5528,
+          "title": "Lecture 04: Gathering and Collecting Data",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week02_lec04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week02_lec04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5502,
+          "title": "Homework 04",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_homework04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_homework04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Summarizing and Describing Data",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5522,
+          "title": "Lecture 05: Summarizing and Describing Data",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-5_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-5_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5523,
+          "title": "Lecture 05: Summarizing and Describing Data",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=yiQTHtvszJ8",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-5_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5525,
+          "title": "Lecture 05: Summarizing and Describing Data (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1lJKmYbk05SgDmsVAi6H4lh2TW3DZYrUv_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-5_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5558,
+          "title": "Lecture 05: Summarizing and Describing Data",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week03_lec05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week03_lec05_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5578,
+          "title": "Homework 05",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_homework05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_homework05_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Joint, Marginal, and Conditional Distributions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5535,
+          "title": "Lecture 06: Joint, Marginal, and Conditional Distributions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-6_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-6_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5536,
+          "title": "Lecture 06: Joint, Marginal, and Conditional Distributions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=EqqUfIQ8948",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-6_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5538,
+          "title": "Lecture 06: Joint, Marginal, and Conditional Distributions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1pBw6Y3O7_Y19n4fJ76a8Wniwg8eiOcqa_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-6_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5604,
+          "title": "Lecture 06: Joint, Marginal, and Conditional Distributions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week03_lec06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week03_lec06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5577,
+          "title": "Homework 06",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_homework06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_homework06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Functions of Random Variables",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5474,
+          "title": "Lecture 07: Functions of Random Variables",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-7_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-7_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5475,
+          "title": "Lecture 07: Functions of Random Variables",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=VBasf8IiCh4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-7_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5477,
+          "title": "Lecture 07: Functions of Random Variables (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/13c3sUohnYxGim4BilCZnPIQPiN8cHu-V_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-7_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5554,
+          "title": "Lecture 07: Functions of Random Variables",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week04_lec07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week04_lec07_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5594,
+          "title": "Homework 07",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_homework07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_homework07_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Moments of Distribution",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5464,
+          "title": "Lecture 08: Moments of Distribution",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-8_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-8_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5465,
+          "title": "Lecture 08: Moments of Distribution",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=4A9bGL-_ilA",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-8_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5467,
+          "title": "Lecture 08: Moments of Distribution (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1dNQkJKrdXt9evJyWJWGeG4QDIzfXOZ4C_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-8_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5574,
+          "title": "Lecture 08: Moments of Distribution",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week04_lec08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week04_lec08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5579,
+          "title": "Homework 08",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_homework08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_homework08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Expectation, Variance, and Introduction to Regression",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5539,
+          "title": "Lecture 09: Expectation, Variance, and Introduction to Regression",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-9_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-9_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5540,
+          "title": "Lecture 09: Expectation, Variance, and Introduction to Regression",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=jZdTVL5Ty-U",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-9_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5542,
+          "title": "Lecture 09: Expectation, Variance, and Introduction to Regression (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1RL25-tzl8PGADAQzvWiM5VNL-WDKCZVT_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-9_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5568,
+          "title": "Lecture 09: Expectation, Variance, and Introduction to Regression",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week04_lec09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week04_lec09_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5527,
+          "title": "Homework 09",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_homework09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_homework09_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Special Distribution",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5471,
+          "title": "Lecture 10: Special Distribution",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week05_lec10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week05_lec10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5590,
+          "title": "Lecture 10: Special Distributions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-10_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5591,
+          "title": "Lecture 10: Special Distributions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=PwBO6pn5mkM",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5593,
+          "title": "Lecture 10: Special Distributions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1ckJJgMdgW9wbLjC6sX7qRGdih6LA8m_x_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5496,
+          "title": "Homework 10",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_homework10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_homework10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Special Distributions, continued. The Sample Mean, Central Limit Theorem, and Estimation",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5530,
+          "title": "Lecture 11: Special Distributions, continued. The Sample Mean, Central Limit Theorem, and Estimation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-11_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-11_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5531,
+          "title": "Lecture 11: Special Distributions, continued. The Sample Mean, Central Limit Theorem, and Estimation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=m2gRXPmtU0Q",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-11_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5533,
+          "title": "Lecture 11: Special Distributions, continued. The Sample Mean, Central Limit Theorem, and Estimation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1iQi6MTIA-SEZIQUAWziuclZzHpzXgX1Q_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-11_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5606,
+          "title": "Lecture 11: Special Distributions, continued. The Sample Mean, Central Limit Theorem, and Estimation",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week05_lec11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week05_lec11_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Assessing and Deriving Estimators",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5553,
+          "title": "Lecture 12: Assessing and Deriving Estimators",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week06_lec12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week06_lec12_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5595,
+          "title": "Lecture 12: Assessing and Deriving Estimators",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-12_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5596,
+          "title": "Lecture 12: Assessing and Deriving Estimators",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=1eXWDepLpNU",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5598,
+          "title": "Lecture 12: Assessing and Deriving Estimators (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1PojOjDPcm1F7LClHqbLBH8ziL8VvWyeY_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": ". Confidence Intervals, Hypothesis Testing, and Power Calculations",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5472,
+          "title": "Lecture 13. Confidence Intervals, Hypothesis Testing, and Power Calculations",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week06_lec13.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week06_lec13_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5508,
+          "title": "Lecture 13. Confidence Intervals, Hypothesis Testing, and Power Calculations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-13_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5509,
+          "title": "Lecture 13. Confidence Intervals, Hypothesis Testing, and Power Calculations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=uHUOwZmfUzY",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5511,
+          "title": "Lecture 13. Confidence Intervals, Hypothesis Testing, and Power Calculations (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1flsEG3OZ479jkG9kRf1siIKNLTKIXa4x_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Causality",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5518,
+          "title": "Lecture 14: Causality",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-14_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5519,
+          "title": "Lecture 14: Causality",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=lWPNhP7ih-M",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5521,
+          "title": "Lecture 14: Causality (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1sRinlzzEkHXpQpWcDHY5MdxdJcy6TxTG_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5580,
+          "title": "Lecture 14: Causality",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week07_lec14.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week07_lec14_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Analyzing Randomized Experiments",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5492,
+          "title": "Lecture 15: Analyzing Randomized Experiments",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-15_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5493,
+          "title": "Lecture 15: Analyzing Randomized Experiments",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=vSKy9aPdd8I",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5495,
+          "title": "Lecture 15: Analyzing Randomized Experiments (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1dQJMq_v5P-CU1UDnu_3IgZ5W1i7zyZUU_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5513,
+          "title": "Lecture 15: Analyzing Randomized Experiments",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week07_lec15.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week07_lec15_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "(More) Explanatory Data Analysis: Nonparametric Comparisons and Regressions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5460,
+          "title": "Lecture 16: (More) Explanatory Data Analysis: Nonparametric Comparisons and Regressions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-16_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5461,
+          "title": "Lecture 16: (More) Explanatory Data Analysis: Nonparametric Comparisons and Regressions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=ebKtv-S2S38",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5463,
+          "title": "Lecture 16: (More) Explanatory Data Analysis: Nonparametric Comparisons and Regressions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1aGP7NOrkWpiJB7genEwDDGsyc6tyh-qc_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5486,
+          "title": "Lecture 16: (More) Explanatory Data Analysis: Nonparametric Comparisons and Regressions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week07_lec16.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week07_lec16_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "The Linear Model",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5479,
+          "title": "Lecture 17: The Linear Model",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week08_lec17.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week08_lec17_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5569,
+          "title": "Lecture 17: The Linear Model",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-17_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-17_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5570,
+          "title": "Lecture 17: The Linear Model",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=r3YSpzhq72A",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-17_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5572,
+          "title": "Lecture 17: The Linear Model (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1Pb8a-n5AGjdVgRFTlURrBI95Kc5yR2YT_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-17_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "The Multivariate Model",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5504,
+          "title": "Lecture 18: The Multivariate Model",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-18_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5505,
+          "title": "Lecture 18: The Multivariate Model",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Y9Awwqqc288",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5507,
+          "title": "Lecture 18: The Multivariate Model (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1RvzT6-ZbcrzMrZ7SQO_y36jvRHVVvtOC_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5589,
+          "title": "Lecture 18: The Multivariate Linear Model",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week08_lec18.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week08_lec18_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "Practical Issues in Running Regressions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5455,
+          "title": "Lecture 19: Practical Issues in Running Regressions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week09_lec19.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week09_lec19_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5543,
+          "title": "Lecture 19: Practical Issues in Running Regressions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-19_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-19_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5544,
+          "title": "Lecture 19: Practical Issues in Running Regressions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Hsxq7L0HTZw",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-19_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5546,
+          "title": "Lecture 19: Practical Issues in Running Regressions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1_kGDWXHT_HDEtQKZoxdktyuWfJGQhnAz_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-19_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "Omitted Variable Bias",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5456,
+          "title": "Lecture 20: Omitted Variable Bias",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-20_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5457,
+          "title": "Lecture 20: Omitted Variable Bias",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=B1Qc8pDxkoo",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5459,
+          "title": "Lecture 20: Omitted Variable Bias (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1kEaFWwmmQZOwDrpM-xm1QxS7ubit2Fb__transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5470,
+          "title": "Lecture 20: Omitted Variable Bias",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week09_lec20.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week09_lec20_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "Endogeneity and Instrument Variables",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5480,
+          "title": "Lecture 21: Endogeneity and Instrument Variables",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week10_lec21.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week10_lec21_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5599,
+          "title": "Lecture 21: Endogeneity and Instrument Variables",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-21_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5600,
+          "title": "Lecture 21: Endogeneity and Instrument Variables",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=OrK_pnmh_pQ",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5602,
+          "title": "Lecture 21: Endogeneity and Instrument Variables (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1hS_CMHihrtBr_c0aY1WUUHKiv0Vkp66r_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 22,
+      "title": "Experimental Design",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5562,
+          "title": "Lecture 22: Experimental Design",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-22_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5563,
+          "title": "Lecture 22: Experimental Design",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Y7GyEUj88PI",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5565,
+          "title": "Lecture 22: Experimental Design (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1go0TK95EP8iDSJ8EKVNbcUp5-UY3r96-_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5587,
+          "title": "Lecture 22: Experimental Design",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/mit14_310x_s23_week10_lec22.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/mit14_310x_s23_week10_lec22_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "Visualizing Data",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5487,
+          "title": "Lecture 23: Visualizing Data",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/14310x-lecture-23_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5488,
+          "title": "Lecture 23: Visualizing Data",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=C5JjMP8m-4E",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5490,
+          "title": "Lecture 23: Visualizing Data (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/1IfJUnbW0D5bv48A--hy_wB5f39ubxDGi_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/14310x-lecture-23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 5478,
+      "title": "*Probability and Statistics*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.worldcat.org/title/1020304276",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/external-resources/probability-and-statistics_2d9bc346-2be6-4b35-951d-d839e18034b4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5481,
+      "title": "![](file:///C:/Users/CHERYL~1/AppData/Local/Temp/msohtmlclip1/01/clip_image014.gif)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.codecogs.com/eqnedit.php?latex=%7B%5Ccal%20N%7D(20%2C9)#0",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/external-resources/filecuserscheryl1appdatalocaltempmsohtmlclip101clip_image014gif_2f9719c2-a355-4b68-9d78-967c22eb6b12/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5514,
+      "title": "Economics and Real World Impact with Dr. Sara Ellison & Prof. Esther Duflo",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=b87E-wbR-nI",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/economics-and-real-world-impact-with-dr-sara-ellison-prof-esther-duflo/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 5515,
+      "title": "Economics and Real World Impact with Dr. Sara Ellison & Prof. Esther Duflo",
+      "media_type": "video",
+      "material_type": "Lecture Videos",
+      "source_url": "https://archive.org/download/chalk-radio/S05E04_Esther_Duflo_and_Sara_Ellison_360p.mp4",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/economics-and-real-world-impact-with-dr-sara-ellison-prof-esther-duflo/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 5517,
+      "title": "Economics and Real World Impact with Dr. Sara Ellison & Prof. Esther Duflo (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/b87E-wbR-nI_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/economics-and-real-world-impact-with-dr-sara-ellison-prof-esther-duflo/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 5526,
+      "title": "*Statistical Theory*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.worldcat.org/title/1004350727",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/external-resources/statistical-theory_6a5c4da1-ece4-41a7-83fe-5287c09490fe/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5534,
+      "title": "*Introduction to Mathematical Statistics and Its Applications*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.worldcat.org/title/502674159",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/external-resources/introduction-to-mathematical-statistics-and-its-applications_81b33ce5-1c84-4d4d-9ece-6a28255340d0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5548,
+      "title": "![](file:///C:/Users/CHERYL~1/AppData/Local/Temp/msohtmlclip1/01/clip_image016.gif)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.codecogs.com/eqnedit.php?latex=%7B%5Ccal%20N%7D(12%2C4)#0",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/external-resources/filecuserscheryl1appdatalocaltempmsohtmlclip101clip_image016gif_87b291bc-0f62-4b91-9a0e-e982d8007f43/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5556,
+      "title": "*Data Analysis for Social Scientists: A Foundational Crash Course*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.amazon.com/Data-Analysis-Social-Scientists-Foundational/dp/B0B28N722F/ref=sr_1_1?crid=YU6JZWRPXIFQ&keywords=sara+fisher+ellison&qid=1684332789&sprefix=sara+fisher+ellison%2Caps%2C79&sr=8-1",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/external-resources/data-analysis-for-social-scientists-a-foundational-crash-course_923cfa50-5fe9-4356-8ae4-14f6ba5f6719/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5559,
+      "title": "Economics and Real World Impact with Dr. Sara Ellison & Prof. Esther Duflo captions",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/b87E-wbR-nI_captions.webvtt",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/b87e-wbr-ni_captions/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5560,
+      "title": "Economics and Real World Impact with Dr. Sara Ellison & Prof. Esther Duflo captions",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=b87E-wbR-nI",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/b87e-wbr-ni_captions/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5566,
+      "title": "![](file:///C:/Users/CHERYL~1/AppData/Local/Temp/msohtmlclip1/01/clip_image034.gif)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.codecogs.com/eqnedit.php?latex=Y_%7Bit%7D%3D%5Cbeta%20_0%2B%5Cbeta%20_1%20TEA_%20i%20%2B%5Cbeta%20_2%20POST_%20t%20%2B%5Cbeta%20_3%20POST_%20t*TEA_%20i%2B%5Cepsilon%20_%7Bit%7D#0",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/external-resources/filecuserscheryl1appdatalocaltempmsohtmlclip101clip_image034gif_a2552d88-8cd7-4d86-b93d-6b443c76d72a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5573,
+      "title": "14.310x Data Analysis for Social Scientists",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mitxonline.mit.edu/courses/course-v1:MITxT+14.310x/?utm_medium=ocw-website&utm_source=ocw-website&utm_campaign=dedp&utm_content=ocw-page-data-analysis-for-social-scientists",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/external-resources/14310x-data-analysis-for-social-scientists_b53a3134-e707-4662-aa42-a67207bd598f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5575,
+      "title": "Economics and Real World Impact with Dr. Sara Ellison & Prof. Esther Duflo transcript",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/b87E-wbR-nI_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/b87e-wbr-ni_transcript/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5576,
+      "title": "Economics and Real World Impact with Dr. Sara Ellison & Prof. Esther Duflo transcript",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=b87E-wbR-nI",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/resources/b87e-wbr-ni_transcript/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5581,
+      "title": "Download the data set",
+      "media_type": "data",
+      "material_type": "Other",
+      "source_url": "https://studio.mitxonline.mit.edu/assets/courseware/v1/bbf68069ed2763d0bf83506acd468a88/asset-v1:MITxT+14.310x+3T2021+type@asset+block/qian.csv",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/external-resources/download-the-data-set_c655b939-fb6a-4916-af76-202db2782616/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5586,
+      "title": "*Introductory Econometric*s",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.worldcat.org/title/1030403996",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/external-resources/introductory-econometrics_ca57d5d1-8021-4c4f-acdb-f2a32a5e7038/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5588,
+      "title": "*Introduction to Econometrics*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.worldcat.org/title/1048659442",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/external-resources/introduction-to-econometrics_ce5659ef-ae19-4411-80ee-ebbd15671169/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5603,
+      "title": "![](file:///C:/Users/CHERYL~1/AppData/Local/Temp/msohtmlclip1/01/clip_image032.gif)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.codecogs.com/eqnedit.php?latex=%5Csigma_C%5E2%3D2.3%5E2#0",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/external-resources/filecuserscheryl1appdatalocaltempmsohtmlclip101clip_image032gif_f42115c7-1149-4b91-a0ab-918fc05115d3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5605,
+      "title": "![](file:///C:/Users/CHERYL~1/AppData/Local/Temp/msohtmlclip1/01/clip_image008.gif)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.codecogs.com/eqnedit.php?latex=S%2F32%20%2B%20D%2F40%20%2B%200.1M.#0",
+      "local_path": null,
+      "resource_path": "/courses/14-310x-data-analysis-for-social-scientists-spring-2023/external-resources/filecuserscheryl1appdatalocaltempmsohtmlclip101clip_image008gif_f5cefd3e-41e8-4ff4-8657-37f81f44f6a5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-05-18T20:51:01.797Z",
+  "course": {
+    "course_id": "6-006-introduction-to-algorithms-spring-2020",
+    "title": "Introduction to Algorithms",
+    "source_url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 0,
+    "unit_count": 0,
+    "assigned_sources": 0,
+    "unassigned_sources": 0
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [],
+  "unassigned_sources": []
+}

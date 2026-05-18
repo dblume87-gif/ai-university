@@ -1,0 +1,347 @@
+{
+  "generated_at": "2026-05-18T20:51:01.836Z",
+  "course": {
+    "course_id": "cms-621-fans-and-fan-cultures-fall-2024",
+    "title": "Fans and Fan Cultures",
+    "source_url": "https://ocw.mit.edu/courses/cms-621-fans-and-fan-cultures-fall-2024/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 28,
+    "unit_count": 0,
+    "assigned_sources": 0,
+    "unassigned_sources": 28
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [],
+  "unassigned_sources": [
+    {
+      "id": 2898,
+      "title": "second presentation",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=PYiu_796CbI",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/second-presentation_02d1afc6-78ea-489f-a1ed-afe3f5f39465/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2899,
+      "title": "Normative Assessment Slides, Part 1",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-621-fans-and-fan-cultures-fall-2024/mitcms_621_f24_normative01.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/resources/mitcms_621_f24_normative01_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2901,
+      "title": "Oral and Personal Histories Slides",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-621-fans-and-fan-cultures-fall-2024/mitcms_621_f24_oralhist.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/resources/mitcms_621_f24_oralhist_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2902,
+      "title": "Normative Assessment Slides, Part 2",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-621-fans-and-fan-cultures-fall-2024/mitcms_621_f24_normative02.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/resources/mitcms_621_f24_normative02_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2903,
+      "title": "Presentation Tips Slides",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-621-fans-and-fan-cultures-fall-2024/mitcms_621_f24_presentation.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/resources/mitcms_621_f24_presentation_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2904,
+      "title": "third presentation",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=gqNJAoepCg0",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/third-presentation_42daf12c-49d3-49e9-a26b-7f761dda6e55/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2905,
+      "title": "Sample Presentation",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=zYJsTThsh88%C2%A0%20%20%C2%A0%C2%A0%C2%A0",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/sample-presentation_4ba567de-ce45-46cd-96e6-730c89949b14/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2906,
+      "title": "General Institute Requirement (GIR): Communication Intensive in the Major (CI-M)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://registrar.mit.edu/registration-academics/academic-requirements/communication-requirement/ci-m-subjects",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/general-institute-requirement-gir-communication-intensive-in-the-major-ci-m_545a19d2-adc2-4602-b66a-ac7d1189ef5a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2907,
+      "title": "*Fan Culture*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://sociology.iresearchnet.com/sociology-of-culture/fan-culture",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/fan-culture_5fbbb1ed-55f7-42bc-a2fb-1379164f0515/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2908,
+      "title": "*CMS.100 Introduction to Media Studies*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/cms-100-introduction-to-media-studies-fall-2014/",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/cms100-introduction-to-media-studies_62efa843-2347-44c9-a583-1d0d672e4aa3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2909,
+      "title": "Better together: Social connections mediate the relationship between fandom and well-being",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.researchgate.net/publication/321671742_Better_Together_Social_Connections_Mediate_the_Relationship_Between_Fandom_and_Well-Being?enrichId=rgreq-92cb1b0699ff790d604d11ebf19c286f-XXX&enrichSource=Y292ZXJQYWdlOzMyMTY3MTc0MjtBUzo1NjkyNTcyMTg4NTQ5MTJAMTUxMjczMjkwNTYyMw%3D%3D&el=1_x_3&_esc=publicationCoverPdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/better-together-social-connections-mediate-the-relationship-between-fandom-and-well-being6d66ce58-7a23-45e4-ace5-62a674826633/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2910,
+      "title": "blog post",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://henryjenkins.org/blog/2021/8/12/back-to-school-special-fandom-participatory-culture-and-web-20-2021-version",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/blog-post_83fbc77d-10e1-405a-a29d-799e61bf45a5/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2911,
+      "title": "*Bronies: The Extremely Unexpected Adult Fans of My Little Pony.*",
+      "media_type": "youtube",
+      "material_type": "Other",
+      "source_url": "https://youtu.be/9k4WjwNrits?feature=shared",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/bronies-the-extremely-unexpected-adult-fans-of-my-little-pony_84b3cad3-19cb-4e74-9bbf-243a872914dc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2912,
+      "title": "major or minor in Comparative Media Studies",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://cmsw.mit.edu/academics/comparative-media-studies/undergraduate/",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/major-or-minor-in-comparative-media-studies_8d8bfd8f-8e72-41b0-8645-e18913888aed/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2913,
+      "title": "Motivations, Needs, & Media Use Slides",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-621-fans-and-fan-cultures-fall-2024/mitcms_621_f24_motivation.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/resources/mitcms_621_f24_motivation_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2914,
+      "title": "Comic Books Slides",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-621-fans-and-fan-cultures-fall-2024/mitcms_621_f24_comicbooks.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/resources/mitcms_621_f24_comicbooks_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2915,
+      "title": "Media Effects and Theories Slides",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/cms-621-fans-and-fan-cultures-fall-2024/mitcms_621_f24_media.pdf",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/resources/mitcms_621_f24_media_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 2916,
+      "title": "blogged about her participation",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mitadmissions.org/blogs/entry/cms-621-fans-fan-culture/",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/blogged-about-her-participation_9f307209-f789-4148-845f-bdd543968556/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2917,
+      "title": "interview with Franzeska Dickson",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://digital.lib.uiowa.edu/node/32543",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/interview-with-franzeska-dickson_a05d503d-6a00-4ffa-9f35-dcf714d7ba2e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2918,
+      "title": "Part 1 of *Trekkies* (1997)",
+      "media_type": "external",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.dailymotion.com/video/xmah25",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/part-1-of-trekkies-1997_a5d1ae6a-e637-4665-9a9b-33f110e8b32b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2919,
+      "title": "Communications Intensive",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://registrar.mit.edu/registration-academics/academic-requirements/communication-requirement/ci-hhw-subjects",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/communications-intensive_b76d5555-ce97-40e7-b6d4-28c5515b243d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2920,
+      "title": "Disney+, the Fan Industrial Complex, and Star Wars.",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://playingwithresearch.com/2021/02/20/disney-the-fan-industrial-complex-and-star-wars/",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/disney-the-fan-industrial-complex-and-star-wars_bde8bd14-4b2b-4013-9959-86757b8948de/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2921,
+      "title": "Hayao Miyazaki and the Art of Being a Woman",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.theatlantic.com/entertainment/archive/2016/10/hayao-miyazaki-and-the-art-of-being-a-woman/503978/",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/hayao-miyazaki-and-the-art-of-being-a-woman_c50ed4da-2ebe-4e62-885b-b80e3e377445/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2922,
+      "title": "first presentation",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=zYJsTThsh88",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/first-presentation_d0a3c020-8409-4b63-ab64-0f43acd3d30e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2923,
+      "title": "Using *Avatar: The Last Airbender* to talk about my feelings",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mitadmissions.org/blogs/entry/taking-a-step-back/",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/using-avatar-the-last-airbender-to-talk-about-my-feelings_d59a6d4c-0aed-4e6d-896a-4e4b6fe87613/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2924,
+      "title": "PatLoika",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.flickr.com/photos/patloika/9369144489/",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/patloika_e5b4259a-c4d4-4e62-b465-41ca03ae846f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2925,
+      "title": "General Institute Requirement (GIR): Humanities (HASS-H)",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://registrar.mit.edu/registration-academics/academic-requirements/hass-requirement",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/general-institute-requirement-gir-humanities-hass-h_ee9ce297-7d8f-498a-95de-2e0f3e35a4cc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 2926,
+      "title": "How Pez evolved from an anti-smoking tool to a beloved collector’s item",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.smithsonianmag.com/innovation/how-pez-evolved-from-anti-smoking-tool-to-beloved-collectors-item-180976545/",
+      "local_path": null,
+      "resource_path": "/courses/cms-621-fans-and-fan-cultures-fall-2024/external-resources/how-pez-evolved-from-an-anti-smoking-tool-to-a-beloved-collectors-item_f8ae86f7-30dd-44fb-8ea0-0ee8ba44bfcd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

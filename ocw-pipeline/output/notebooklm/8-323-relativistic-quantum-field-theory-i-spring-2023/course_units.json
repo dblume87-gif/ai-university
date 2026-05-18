@@ -1,0 +1,1927 @@
+{
+  "generated_at": "2026-05-18T20:51:01.828Z",
+  "course": {
+    "course_id": "8-323-relativistic-quantum-field-theory-i-spring-2023",
+    "title": "Relativistic Quantum Field Theory I",
+    "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 115,
+    "unit_count": 26,
+    "assigned_sources": 102,
+    "unassigned_sources": 13
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Classical Field Theories and Principle of Locality",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5676,
+          "title": "Lecture 1: Classical Field Theories and Principle of Locality",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture01_2023feb06_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture01_2023feb06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5677,
+          "title": "Lecture 1: Classical Field Theories and Principle of Locality",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=xQFgk-nEihg",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture01_2023feb06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5679,
+          "title": "Lecture 1: Classical Field Theories and Principle of Locality (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1VxxgMnLasftjz7MnQCtxVMK3hiZZAlfK_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture01_2023feb06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5697,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 1 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset_01sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset_01sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5709,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 1",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Symmetries and Conservation Laws",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5796,
+          "title": "Lecture 2: Symmetries and Conservation Laws",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture02_2023feb08_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture02_2023feb08_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5797,
+          "title": "Lecture 2: Symmetries and Conservation Laws",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=a2mMA4M-V9M",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture02_2023feb08_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5799,
+          "title": "Lecture 2: Symmetries and Conservation Laws (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1JJCeeqqOswjWCNy_08ITgFhsfEHkFRcC_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture02_2023feb08_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5664,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 2 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset_02sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset_02sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5723,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 2",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Why Quantum Field Theory",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5681,
+          "title": "Lecture 3: Why Quantum Field Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture03_2023feb13_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture03_2023feb13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5682,
+          "title": "Lecture 3: Why Quantum Field Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=-P2opzekpX8",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture03_2023feb13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5684,
+          "title": "Lecture 3: Why Quantum Field Theory (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1EZeWszvMJt99W0gBXCTWpWAc0rXvAsBU_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture03_2023feb13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5658,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 3",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset03_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5694,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 3 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset_03sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset_03sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Canonical Quantization of a Free Scalar Field Theory",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5668,
+          "title": "Lecture 4: Canonical Quantization of a Free Scalar Field Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture04_2023feb15_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture04_2023feb15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5669,
+          "title": "Lecture 4: Canonical Quantization of a Free Scalar Field Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=ryATZC_2ytw",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture04_2023feb15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5671,
+          "title": "Lecture 4: Canonical Quantization of a Free Scalar Field Theory (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/11UUrQiygKUqRPHsGv-oPVsPn8bfzQ7YC_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture04_2023feb15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5772,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 4 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset_04sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset_04sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5804,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 4",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Complex Scalar Field Theory and Anti-Particle",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5768,
+          "title": "Lecture 5: Complex Scalar Field Theory and Anti-Particle",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture05_2023feb21_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture05_2023feb21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5769,
+          "title": "Lecture 5: Complex Scalar Field Theory and Anti-Particle",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=wRHJjg9jBjA",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture05_2023feb21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5771,
+          "title": "Lecture 5: Complex Scalar Field Theory and Anti-Particle (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1oizM2WmmSHhQce3xlU6Bw1o0YTIXiZyF_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture05_2023feb21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5653,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 5 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset_05sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset_05sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5701,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 5",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset05_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Propagators and Green Functions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5705,
+          "title": "Lecture 6: Propagators and Green Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture06_2023feb22_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture06_2023feb22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5706,
+          "title": "Lecture 6: Propagators and Green Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=L2vNqnov1rs",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture06_2023feb22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5708,
+          "title": "Lecture 6: Propagators and Green Functions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1u-2G0YlJ_pb6t1P9ztmiaJlmPRkfVkXh_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture06_2023feb22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5702,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 6 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset_06sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset_06sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5767,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 6",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Interacting Theories and S-Matrix",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5775,
+          "title": "Lecture 7: Interacting Theories and S-Matrix",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture07_2023feb27_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture07_2023feb27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5776,
+          "title": "Lecture 7: Interacting Theories and S-Matrix",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=wVSd_8EJABQ",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture07_2023feb27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5778,
+          "title": "Lecture 7: Interacting Theories and S-Matrix (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1CIgVssTam7nLHjNiNhJ6QoW1VYmGXJZf_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture07_2023feb27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5780,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 7",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset07_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5817,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 7 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset_07sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset_07sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Path Integral Formalism for Non-Relativistic Quantum Mechanics",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5710,
+          "title": "Lecture 8: Path Integral Formalism for Non-Relativistic Quantum Mechanics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture08_2023mar03_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture08_2023mar03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5711,
+          "title": "Lecture 8: Path Integral Formalism for Non-Relativistic Quantum Mechanics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=qwIoCu7vwLQ",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture08_2023mar03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5713,
+          "title": "Lecture 8: Path Integral Formalism for Non-Relativistic Quantum Mechanics (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1bZLOlIGDdp9ayOzQNumd52IdjYLjbWk6_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture08_2023mar03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5672,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 8 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset_08sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset_08sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5680,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 8",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Path Integral Formalism for QFT; Computation of Time-Ordered Correlation Functions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5813,
+          "title": "Lecture 9: Path Integral Formalism for QFT; Computation of Time-Ordered Correlation Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture09_2023mar06_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture09_2023mar06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5814,
+          "title": "Lecture 9: Path Integral Formalism for QFT; Computation of Time-Ordered Correlation Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=GZQ-8pg7bgk",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture09_2023mar06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5816,
+          "title": "Lecture 9: Path Integral Formalism for QFT; Computation of Time-Ordered Correlation Functions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/11j1PLa7do1oWsYBoxH_VLn3chm7PQoty_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture09_2023mar06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5724,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 9",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset09_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5755,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 9 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset_09sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset_09sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Time-Ordered Correlation Functions in Field Theory",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5785,
+          "title": "Lecture 10: Time-Ordered Correlation Functions in Field Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture10_2023mar08_v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture10_2023mar08_v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5786,
+          "title": "Lecture 10: Time-Ordered Correlation Functions in Field Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=PjOoLqEy1Vs",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture10_2023mar08_v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5788,
+          "title": "Lecture 10: Time-Ordered Correlation Functions in Field Theory (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1eFiNPCwKJpJvsiTYK-ngGn43GYi0KLD7_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture10_2023mar08_v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5741,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 10",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5800,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 10 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset_10sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset_10sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Computation of Correlation Functions in Perturbation Theory and Feynman Diagrams",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5731,
+          "title": "Lecture 11: Computation of Correlation Functions in Perturbation Theory and Feynman Diagrams",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture11_2023mar13_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture11_2023mar13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5732,
+          "title": "Lecture 11: Computation of Correlation Functions in Perturbation Theory and Feynman Diagrams",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=pWHUGzxzPNk",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture11_2023mar13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5734,
+          "title": "Lecture 11: Computation of Correlation Functions in Perturbation Theory and Feynman Diagrams (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1fX48r0-11OmbMe8bqknSoTKZrJtKJ2b4_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture11_2023mar13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5714,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 11",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset11_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5764,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 11 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset_11sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset_11sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "More on Perturbation Theory and Feynman Diagrams",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5805,
+          "title": "Lecture 12: More on Perturbation Theory and Feynman Diagrams",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture12_2023mar15_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture12_2023mar15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5806,
+          "title": "Lecture 12: More on Perturbation Theory and Feynman Diagrams",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=m4salGLUIBg",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture12_2023mar15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5808,
+          "title": "Lecture 12: More on Perturbation Theory and Feynman Diagrams (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1WB6HTPF7BWKu40TThcbcqPxBDRdEwd5N_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture12_2023mar15_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5657,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 12",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset12_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5789,
+          "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Problem Set 12 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_pset_12sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_pset_12sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Introducing the Dirac Equation",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5747,
+          "title": "Lecture 13: Introducing the Dirac Equation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture13_2023mar20_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture13_2023mar20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5748,
+          "title": "Lecture 13: Introducing the Dirac Equation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=dTrZaojMiy4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture13_2023mar20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5750,
+          "title": "Lecture 13: Introducing the Dirac Equation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1nSoJZ53QbiBc_WoKmgtBCEUBEBzIb2B4_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture13_2023mar20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Lorentz Covariance of the Dirac Equation",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5690,
+          "title": "Lecture 14: Lorentz Covariance of the Dirac Equation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture14_2023mar22_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture14_2023mar22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5691,
+          "title": "Lecture 14: Lorentz Covariance of the Dirac Equation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=YgyshX9T3S4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture14_2023mar22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5693,
+          "title": "Lecture 14: Lorentz Covariance of the Dirac Equation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1romVzn64uW3bSntc8o59ZjQ6nvb5jC9z_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture14_2023mar22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Classical Solutions of Dirac Equations",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5737,
+          "title": "Lecture 15: Classical Solutions of Dirac Equations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture15_2023apr03_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture15_2023apr03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5738,
+          "title": "Lecture 15: Classical Solutions of Dirac Equations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=RAyFaeJCYWA",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture15_2023apr03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5740,
+          "title": "Lecture 15: Classical Solutions of Dirac Equations (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1hdMv_QPfPys1IAoPag5eyQ33AAoai1qD_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture15_2023apr03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "Quantization of the Dirac Theory",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5792,
+          "title": "Lecture 16: Quantization of the Dirac Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture16_2023apr05_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture16_2023apr05_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5793,
+          "title": "Lecture 16: Quantization of the Dirac Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=2tq6-8OGNOA",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture16_2023apr05_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5795,
+          "title": "Lecture 16: Quantization of the Dirac Theory (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/17HsUZ6df7MA2XOWhllIL4C7lhgXD9yxI_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture16_2023apr05_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "Chiral and Majorana Spinors",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5686,
+          "title": "Lecture 17: Chiral and Majorana Spinors",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture17_2023apr10_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture17_2023apr10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5687,
+          "title": "Lecture 17: Chiral and Majorana Spinors",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=pWq8blw9Nhc",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture17_2023apr10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5689,
+          "title": "Lecture 17: Chiral and Majorana Spinors (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1m6mUJ8oNDFqVYLflNmS2BZ6XwoNkUGaO_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture17_2023apr10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Discrete Symmetries",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5719,
+          "title": "Lecture 18: Discrete Symmetries",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture18_2023apr12_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture18_2023apr12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5720,
+          "title": "Lecture 18: Discrete Symmetries",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=pRmAa-UyVg8",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture18_2023apr12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5722,
+          "title": "Lecture 18: Discrete Symmetries (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/14RIa0wYlTvmeHiVmJhH9icMXr3AOl73O_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture18_2023apr12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "Path Integrals of Fermions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5742,
+          "title": "Lecture 19: Path Integrals of Fermions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture19_2023apr19_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture19_2023apr19_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5743,
+          "title": "Lecture 19: Path Integrals of Fermions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=guQxqv6dhMU",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture19_2023apr19_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5745,
+          "title": "Lecture 19: Path Integrals of Fermions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1xKpgn4UOiwO__eM6gIghZ5-cY6MQvsXT_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture19_2023apr19_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "Maxwell Theory and its Canonical Quantization",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5659,
+          "title": "Lecture 20: Maxwell Theory and its Canonical Quantization",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture20_2023apr24_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture20_2023apr24_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5660,
+          "title": "Lecture 20: Maxwell Theory and its Canonical Quantization",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=TnEf7LR1unM",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture20_2023apr24_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5662,
+          "title": "Lecture 20: Maxwell Theory and its Canonical Quantization (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/199MyPppKOXSJRNb60fNxqvVEkW7tuCvy_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture20_2023apr24_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "Quantum Maxwell Theory (continued)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5781,
+          "title": "Lecture 21: Quantum Maxwell Theory (continued)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture21_2023apr26_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture21_2023apr26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5782,
+          "title": "Lecture 21: Quantum Maxwell Theory (continued)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=lpR4my-qfQA",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture21_2023apr26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5784,
+          "title": "Lecture 21: Quantum Maxwell Theory (continued) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1IO2RxxloN1wFOVEWFw_KjMqBP4PkmYk9_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture21_2023apr26_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 22,
+      "title": "Quantum Electrodynamics",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5758,
+          "title": "Lecture 22: Quantum Electrodynamics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture22_2023may01_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture22_2023may01_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5759,
+          "title": "Lecture 22: Quantum Electrodynamics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=NfmgFECXqZY",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture22_2023may01_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5761,
+          "title": "Lecture 22: Quantum Electrodynamics (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1VA2jl7dLCT5r97M35kV1CRNhevmhXimh_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture22_2023may01_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "Cross Section and Decay Rate",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5809,
+          "title": "Lecture 23: Cross Section and Decay Rate",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture23_2023may03_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture23_2023may03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5810,
+          "title": "Lecture 23: Cross Section and Decay Rate",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=BOf_ZcJk-GU",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture23_2023may03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5812,
+          "title": "Lecture 23: Cross Section and Decay Rate (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1nZ9QYc61ztoaGPIEgpRbl95CLcE0sqAg_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture23_2023may03_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 24,
+      "title": "Elementary Processes in QED (I)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5715,
+          "title": "Lecture 24: Elementary Processes in QED (I)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture24_2023may08_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture24_2023may08_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5716,
+          "title": "Lecture 24: Elementary Processes in QED (I)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=tkglOK3ZEsI",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture24_2023may08_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5718,
+          "title": "Lecture 24: Elementary Processes in QED (I) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1xqTmG7qj6qZ4UtrLxG9EABBXtqpnbwvr_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture24_2023may08_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 25,
+      "title": "Elementary Processes in QED (II)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5725,
+          "title": "Lecture 25: Elementary Processes in QED (II)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture25_2023may10_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture25_2023may10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5726,
+          "title": "Lecture 25: Elementary Processes in QED (II)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=I2vEKf7L0Y4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture25_2023may10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5728,
+          "title": "Lecture 25: Elementary Processes in QED (II) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/11TfWQk_7FmWdTR9fh37exRSTp7spd3Vz_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture25_2023may10_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 26,
+      "title": "Quantum Fluctuations and Renormalization",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5751,
+          "title": "Lecture 26: Quantum Fluctuations and Renormalization",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/ocw_8323_lecture26_2023may12_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture26_2023may12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5752,
+          "title": "Lecture 26: Quantum Fluctuations and Renormalization",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=5sQRaJTogZw",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture26_2023may12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5754,
+          "title": "Lecture 26: Quantum Fluctuations and Renormalization (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/1dh7cSxM70A9RhF2E5B1Xt-ZRhCacwOjx_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/ocw_8323_lecture26_2023may12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 5656,
+      "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Recitation 4",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_rec04.pdf",
+      "local_path": null,
+      "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_rec04_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 5663,
+      "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Recitation 5",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_rec05.pdf",
+      "local_path": null,
+      "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_rec05_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 5675,
+      "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Recitation 1",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_rec01.pdf",
+      "local_path": null,
+      "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_rec01_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 5685,
+      "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Recitation 8",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_rec08.pdf",
+      "local_path": null,
+      "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_rec08_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 5700,
+      "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Recitation 2",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_rec02.pdf",
+      "local_path": null,
+      "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_rec02_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 5729,
+      "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Recitation 10",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_rec10.pdf",
+      "local_path": null,
+      "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_rec10_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 5730,
+      "title": "*8.321 Quantum Theory I*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/8-321-quantum-theory-i-fall-2017/",
+      "local_path": null,
+      "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/external-resources/8321-quantum-theory-i_87c59187-bbc4-49a2-83f6-b583cbd99586/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5735,
+      "title": "Wikimedia Commons",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Feynmann_Diagram_Gluon_Radiation.svg",
+      "local_path": null,
+      "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/external-resources/wikimedia-commons_8e08d316-4979-4b0e-a1a6-e2d2f5bf0735/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5736,
+      "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Recitation 6",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_rec06.pdf",
+      "local_path": null,
+      "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_rec06_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 5762,
+      "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Recitation 7",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_rec07.pdf",
+      "local_path": null,
+      "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_rec07_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 5763,
+      "title": "Quantum Field Theory: Spin Zero",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/hep-th/0409035",
+      "local_path": null,
+      "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/external-resources/quantum-field-theory-spin-zero_baaa2add-9a73-4d50-907a-9cbfbbcdac73/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5779,
+      "title": "Quantum Field Theory: Spin One Half",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://arxiv.org/abs/hep-th/0409036",
+      "local_path": null,
+      "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/external-resources/quantum-field-theory-spin-one-half_c85fb886-8284-411e-baa0-86d28c8034ba/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5803,
+      "title": "8.323 Relativistic Quantum Field Theory I (Spring 2023), Recitation 3",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/mit8_323_s23_rec03.pdf",
+      "local_path": null,
+      "resource_path": "/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/resources/mit8_323_s23_rec03_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    }
+  ]
+}

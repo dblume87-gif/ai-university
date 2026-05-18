@@ -1,0 +1,4083 @@
+{
+  "generated_at": "2026-05-18T20:51:01.840Z",
+  "course": {
+    "course_id": "es-1803-differential-equations-spring-2024",
+    "title": "Differential Equations",
+    "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 293,
+    "unit_count": 9,
+    "assigned_sources": 78,
+    "unassigned_sources": 215
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "ES.1803 S24: Pset 1: Solutions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4397,
+          "title": "ES.1803 S24: Pset 1: Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps1-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps1-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4400,
+          "title": "ES.1803 S24: Recitation for Quiz 1: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz1-recit-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz1-recit-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4402,
+          "title": "ES.1803 S24: Recitation for Quiz 1: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz1-recit.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz1-recit_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4425,
+          "title": "ES.1803 S24: Quiz 1: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz1-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz1-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4454,
+          "title": "Problem Set 1 Checker",
+          "media_type": "external",
+          "material_type": "Problem Sets",
+          "source_url": "https://openlearninglibrary.mit.edu/courses/course-v1:MITx+ES.1803+2023_Fall/courseware/pset_checkers/ps1/?activate_block_id=block-v1%3AMITx%2BES.1803%2B2023_Fall%2Btype%40sequential%2Bblock%40ps1",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/external-resources/problem-set-1-checker_5981e20a-a40a-45c6-aff2-0e3ada48542f/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4465,
+          "title": "ES.1803 S24: Review Problems Quiz 1: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz1-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz1-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4480,
+          "title": "ES.1803 S24: Quiz 1: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4591,
+          "title": "ES.1803 S24: Review Sheet: Quiz 1",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_review-q1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_review-q1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4631,
+          "title": "ES.1803 S24: Pset 1: Problems",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4655,
+          "title": "ES.1803 S24: Review Problems Quiz 1: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 10,
+      "source_types": {
+        "pdf": 9,
+        "external": 1
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Problem Set 2 Checker",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4365,
+          "title": "Problem Set 2 Checker",
+          "media_type": "external",
+          "material_type": "Problem Sets",
+          "source_url": "https://openlearninglibrary.mit.edu/courses/course-v1:MITx+ES.1803+2023_Fall/courseware/pset_checkers/ps2/?activate_block_id=block-v1%3AMITx%2BES.1803%2B2023_Fall%2Btype%40sequential%2Bblock%40ps2",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/external-resources/problem-set-2-checker_0373ffda-247e-4da5-938a-ef31de679ec8/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4418,
+          "title": "ES.1803 S24: Review Problems Quiz 2: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4421,
+          "title": "ES.1803 S24: Pset 2: Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps2-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps2-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4438,
+          "title": "ES.1803 S24: Review Sheet: Quiz 2",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_review-q2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_review-q2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4530,
+          "title": "ES.1803 S24: Review Problems Quiz 2: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz2-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz2-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4536,
+          "title": "ES.1803 S24: Quiz 2: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4551,
+          "title": "ES.1803 S24: Recitation for Quiz 2: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz2-recit.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz2-recit_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4563,
+          "title": "ES.1803 S24: Pset 2: Problems",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4599,
+          "title": "ES.1803 S24: Recitation for Quiz 2: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz2-recit-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz2-recit-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4647,
+          "title": "ES.1803 S24: Quiz 2: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz2-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz2-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 10,
+      "source_types": {
+        "external": 1,
+        "pdf": 9
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "ES.1803 S24: Quiz 3: Solutions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4417,
+          "title": "ES.1803 S24: Quiz 3: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz3-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz3-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4468,
+          "title": "ES.1803 S24: Review Sheet: Quiz 3",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_review-q3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_review-q3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4474,
+          "title": "Problem Set 3 Checker",
+          "media_type": "external",
+          "material_type": "Problem Sets",
+          "source_url": "https://openlearninglibrary.mit.edu/courses/course-v1:MITx+ES.1803+2023_Fall/courseware/pset_checkers/ps3/?activate_block_id=block-v1%3AMITx%2BES.1803%2B2023_Fall%2Btype%40sequential%2Bblock%40ps3",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/external-resources/problem-set-3-checker_6cdbbf9b-28dd-4585-9bb5-c674fb198a88/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4494,
+          "title": "ES.1803 S24: Recitation for Quiz 3: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz3-recit.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz3-recit_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4526,
+          "title": "ES.1803 S24: Quiz 3: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4552,
+          "title": "ES.1803 S24: Review Problems Quiz 3: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4587,
+          "title": "ES.1803 S24: Review Problems Quiz 3: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz3-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz3-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4625,
+          "title": "ES.1803 S24: Pset 3: Problems",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4651,
+          "title": "ES.1803 S24: Pset 3: Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps3-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps3-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4652,
+          "title": "ES.1803 S24: Recitation for Quiz 3: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz3-recit-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz3-recit-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 10,
+      "source_types": {
+        "pdf": 9,
+        "external": 1
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "ES.1803 S24: Recitation for Quiz 4: Solutions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4392,
+          "title": "ES.1803 S24: Recitation for Quiz 4: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz4-recit-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz4-recit-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4437,
+          "title": "ES.1803 S24: Quiz 4: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz4-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz4-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4475,
+          "title": "ES.1803 S24: Quiz 4: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4505,
+          "title": "ES.1803 S24: Recitation for Quiz 4: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz4-recit.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz4-recit_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4597,
+          "title": "Problem Set 4 Checker",
+          "media_type": "external",
+          "material_type": "Problem Sets",
+          "source_url": "https://openlearninglibrary.mit.edu/courses/course-v1:MITx+ES.1803+2023_Fall/courseware/pset_checkers/ps4/?activate_block_id=block-v1%3AMITx%2BES.1803%2B2023_Fall%2Btype%40sequential%2Bblock%40ps4",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/external-resources/problem-set-4-checker_cb0994c7-0d1f-4951-b092-88ae9acce992/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4602,
+          "title": "ES.1803 S24: Pset 4: Problems",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4621,
+          "title": "ES.1803 S24: Review Sheet: Quiz 4",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_review-q4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_review-q4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4649,
+          "title": "ES.1803 S24: Pset 4: Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps4-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps4-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 8,
+      "source_types": {
+        "pdf": 7,
+        "external": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "ES.1803 S24: Quiz 5: Problems",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4390,
+          "title": "ES.1803 S24: Quiz 5: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz5.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz5_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4403,
+          "title": "ES.1803 S24: Review Problems Quiz 5: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz5-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz5-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4462,
+          "title": "ES.1803 S24: Pset 5: Problems",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps5.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps5_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4467,
+          "title": "ES.1803 S24: Recitation for Quiz 5: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz5-recit-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz5-recit-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4478,
+          "title": "Problem Set 5 Checker",
+          "media_type": "external",
+          "material_type": "Problem Sets",
+          "source_url": "https://openlearninglibrary.mit.edu/courses/course-v1:MITx+ES.1803+2023_Fall/courseware/pset_checkers/ps5/?activate_block_id=block-v1%3AMITx%2BES.1803%2B2023_Fall%2Btype%40sequential%2Bblock%40ps5",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/external-resources/problem-set-5-checker_71005a80-1b6c-47a6-ad32-f478fa6ec47d/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4517,
+          "title": "ES.1803 S24: Pset 5: Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps5-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps5-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4555,
+          "title": "ES.1803 S24: Recitation for Quiz 5: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz5-recit.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz5-recit_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4583,
+          "title": "ES.1803 S24: Review Sheet: Quiz 5",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_review-q5.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_review-q5_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4593,
+          "title": "ES.1803 S24: Review Problems Quiz 5: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz5.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz5_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4600,
+          "title": "ES.1803 S24: Quiz 5: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz5-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz5-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 10,
+      "source_types": {
+        "pdf": 9,
+        "external": 1
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "ES.1803 S24: Quiz 6: Problems",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4391,
+          "title": "ES.1803 S24: Quiz 6: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz6.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz6_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4410,
+          "title": "ES.1803 S24: Recitation for Quiz 6: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz6-recit-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz6-recit-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4484,
+          "title": "ES.1803 S24: Review Sheet: Quiz 6",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_review-q6.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_review-q6_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4506,
+          "title": "ES.1803 S24: Review Problems Quiz 6: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz6-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz6-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4508,
+          "title": "ES.1803 S24: Recitation for Quiz 6: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz6-recit.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz6-recit_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4543,
+          "title": "ES.1803 S24: More Practice for Quiz 6: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topics24-26-prac-pset-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topics24-26-prac-pset-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4562,
+          "title": "ES.1803 S24: More Practice for Quiz 6: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topics24-26-prac-pset.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topics24-26-prac-pset_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4571,
+          "title": "ES.1803 S24: Quiz 6: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz6-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz6-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4606,
+          "title": "ES.1803 S24: Pset 6: Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps6-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps6-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4607,
+          "title": "ES.1803 S24: Review Problems Quiz 6: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz6.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz6_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4619,
+          "title": "ES.1803 S24: Pset 6: Problems",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps6.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps6_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4624,
+          "title": "Problem Set 6 Checker",
+          "media_type": "external",
+          "material_type": "Problem Sets",
+          "source_url": "https://openlearninglibrary.mit.edu/courses/course-v1:MITx+ES.1803+2023_Fall/courseware/pset_checkers/ps6/?activate_block_id=block-v1%3AMITx%2BES.1803%2B2023_Fall%2Btype%40sequential%2Bblock%40ps6",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/external-resources/problem-set-6-checker_e3800fe8-99dc-4a22-a765-da4cbc2dca92/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 12,
+      "source_types": {
+        "pdf": 11,
+        "external": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "ES.1803 S24: Review Problems Quiz 7: Problems",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4366,
+          "title": "ES.1803 S24: Review Problems Quiz 7: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz7_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4381,
+          "title": "ES.1803 S24: Pset 7: Problems",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps7_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4413,
+          "title": "ES.1803 S24: Review Problems Quiz 7: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz7-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz7-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4427,
+          "title": "ES.1803 S24: Quiz 7: Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz7-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz7-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4445,
+          "title": "ES.1803 S24: Recitation for Quiz 7 (Topics 10–12): Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topics10-12-recit-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topics10-12-recit-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4457,
+          "title": "ES.1803 S24: Recitation for Quiz 7 (Topics 10–12): Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topics10-12-recit.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topics10-12-recit_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4496,
+          "title": "Problem Set 7 Checker",
+          "media_type": "external",
+          "material_type": "Problem Sets",
+          "source_url": "https://openlearninglibrary.mit.edu/courses/course-v1:MITx+ES.1803+2023_Fall/courseware/pset_checkers/ps7/?activate_block_id=block-v1%3AMITx%2BES.1803%2B2023_Fall%2Btype%40sequential%2Bblock%40ps7",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/external-resources/problem-set-7-checker_7d56849c-3904-4881-bef1-f0a6d84aeb0a/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4544,
+          "title": "ES.1803 S24: Quiz 7: Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz7_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4585,
+          "title": "ES.1803 S24: Pset 7: Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps7-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps7-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4592,
+          "title": "ES.1803 S24: Recitation for Quiz 7 (Topics 27–30): Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz7-recit-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz7-recit-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4641,
+          "title": "ES.1803 S24: Recitation for Quiz 7 (Topics 27–30): Problems",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_quiz7-recit.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_quiz7-recit_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4650,
+          "title": "ES.1803 S24: Review Sheet: Quiz 7",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_review-q7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_review-q7_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 12,
+      "source_types": {
+        "pdf": 11,
+        "external": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Problem Set 8 Checker",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4406,
+          "title": "Problem Set 8 Checker",
+          "media_type": "external",
+          "material_type": "Problem Sets",
+          "source_url": "https://openlearninglibrary.mit.edu/courses/course-v1:MITx+ES.1803+2023_Fall/courseware/pset_checkers/ps8/?activate_block_id=block-v1%3AMITx%2BES.1803%2B2023_Fall%2Btype%40sequential%2Bblock%40ps8",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/external-resources/problem-set-8-checker_2368b6a2-e279-40db-9b7f-4d595a7bae97/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4433,
+          "title": "ES.1803 S24: Pset 8: Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps8-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps8-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4643,
+          "title": "ES.1803 S24: Pset 8: Problems",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps8.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps8_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "external": 1,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Problem Set 9 Checker",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4431,
+          "title": "Problem Set 9 Checker",
+          "media_type": "external",
+          "material_type": "Problem Sets",
+          "source_url": "https://openlearninglibrary.mit.edu/courses/course-v1:MITx+ES.1803+2023_Fall/courseware/pset_checkers/ps9/?activate_block_id=block-v1%3AMITx%2BES.1803%2B2023_Fall%2Btype%40sequential%2Bblock%40ps9",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/external-resources/problem-set-9-checker_412394fc-6ca3-4091-94f8-8b14f14be344/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4503,
+          "title": "ES.1803 S24: Pset 9: Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps9-qa.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps9-qa_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4590,
+          "title": "ES.1803 S24: Pset 9: Problems",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_ps9.pdf",
+          "local_path": null,
+          "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_ps9_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "external": 1,
+        "pdf": 2
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 4472,
+      "title": "ES.1803 S24: Review Problems Quiz 4a: Problems",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz4.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz4_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4573,
+      "title": "ES.1803 S24: Review Problems Quiz 4a: Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz4-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz4-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 4361,
+      "title": "*18.03 Differential Equations*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/external-resources/1803-differential-equations_00b12447-b9f1-4cb1-bd91-91e3d42a915d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4362,
+      "title": "ES.1803 S24: Reading: Topic Enrichment: Complex Impedance",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_complex_impedance.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_complex_impedance_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4363,
+      "title": "ES.1803 S24: Recitation 13: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week13-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week13-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4364,
+      "title": "ES.1803 S24: Review Checklist",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_review-alltopics.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_review-alltopics_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4367,
+      "title": "ES.1803 S24: Reading: Topic 20: Step and Delta Functions",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic20.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic20_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4368,
+      "title": "ES.1803 S24: Class 13: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day13-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day13-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4369,
+      "title": "ES.1803 S24: Recitation 03: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week3.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week3_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4370,
+      "title": "ES.1803 S24: Class 05: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day5-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day5-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4371,
+      "title": "ES.1803 S24: Recitation 09: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week9.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week9_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4372,
+      "title": "ES.1803 S24: Class 15: Polynomial Input",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day15-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day15-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4373,
+      "title": "ES.1803 S24: Reading: Topic 23: Fourier Sine and Cosine Series, Calculation Tricks",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic23.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic23_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4374,
+      "title": "ES.1803 S24: Class 53: PDEs (cont.)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day53-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day53-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4375,
+      "title": "ES.1803 S24: Reading: Topic 29: Structural Stability",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic29.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic29_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4376,
+      "title": "ES.1803 S24: Reading: Topic 12: Autonomous Equations and Bifurcation Diagrams",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic12.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic12_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4377,
+      "title": "ES.1803 S24: Review Problems Quiz 4c: Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz4c-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz4c-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 4378,
+      "title": "ES.1803 S24: Final Quiz Review Questions Set A: Problems",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-final.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-final_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4380,
+      "title": "ES.1803 S24: Class 34: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day34-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day34-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4382,
+      "title": "ES.1803 S24: Reading: Topic Enrichment: Substitution Methods",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_substitution_methods.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_substitution_methods_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4383,
+      "title": "ES.1803 S24: Class 41: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day41-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day41-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4384,
+      "title": "ES.1803 S24: Reading: Topic 01: Introduction to Differential Equations",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic1.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic1_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4385,
+      "title": "ES.1803 S24: Class 05: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day5-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day5-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4386,
+      "title": "ES.1803 S24: Class 43: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day43-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day43-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4387,
+      "title": "ES.1803 S24: Open Textbook",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic_full.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic_full_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Open Textbooks"
+      ]
+    },
+    {
+      "id": 4393,
+      "title": "ES.1803 S24: Class 31: Row Reduction (cont.)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day31-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day31-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4394,
+      "title": "ES.1803 S24: Recitation 11: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week11-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week11-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4395,
+      "title": "ES.1803 S24: Recitation 09: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week9-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week9-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4396,
+      "title": "ES.1803 S24: Review Problems Quiz 4b: Problems",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz4b.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz4b_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4398,
+      "title": "ES.1803 S24: Recitation 02: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week2_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4399,
+      "title": "ES.1803 S24: Class 30: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day30-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day30-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4401,
+      "title": "ES.1803 S24: Reading: Topic 22: Fourier Series Introduction Continued",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic22.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic22_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4404,
+      "title": "ES.1803 S24: Recitation 04: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week4.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week4_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4405,
+      "title": "ES.1803 S24: Reading: Topic 19: Enrichment: Fundamental Matrix, Variation of Parameters",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic19.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic19_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4407,
+      "title": "ES.1803 S24: Class 30: Row Reduction",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day30-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day30-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4408,
+      "title": "ES.1803 S24: Recitation 07: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week7-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week7-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4409,
+      "title": "ES.1803 S24: Reading: Topic 13: Linear Algebra: Vector Spaces, Matrices and Linearity",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic13.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic13_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4411,
+      "title": "ES.1803 S24: Final Quiz Review Questions Set B: Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-finalb-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-finalb-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 4412,
+      "title": "ES.1803 S24: Class 06: Complex Numbers",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day6-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day6-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4414,
+      "title": "ES.1803 S24: Class 25: Autonomous Systems",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day25-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day25-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4415,
+      "title": "ES.1803 S24: Class 07: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day7-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day7-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4416,
+      "title": "ES.1803 S24: Class 53: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day53-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day53-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4419,
+      "title": "ES.1803 S24: Class 45: Fourier Series (cont.)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day45-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day45-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4420,
+      "title": "ES.1803 S24: Class 54: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day54-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day54-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4422,
+      "title": "*18.02 Multivariable Calculus*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/external-resources/1802-multivariable-calculus_37e5039d-d3d8-4105-924d-d06dcc373288/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4423,
+      "title": "ES.1803 S24: Reading: Topic Enrichment: Gibbs Phenomenon",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_gibbs_phenom.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_gibbs_phenom_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4424,
+      "title": "ES.1803 S24: Recitation 11: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week11.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week11_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4426,
+      "title": "ES.1803 S24: Class 07: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day7-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day7-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4428,
+      "title": "ES.1803 S24: Class 35: Eigenstuff (cont.)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day35-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day35-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4429,
+      "title": "ES.1803 S24: Reading: Topic Enrichment: Completeness of Fourier Series",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_fourier_complete.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_fourier_complete_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4430,
+      "title": "ES.1803 S24: Reading: Topic 17: Matrix Methods for Solving Systems of DEs",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic17.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic17_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4432,
+      "title": "ES.1803 S24: Reading: Topic 18: Enrichment: Matrix Exponential, Exponential and Sinusoidal Input",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic18.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic18_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4434,
+      "title": "ES.1803 S24: Final Quiz Review of Entire Course: Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-final-fullreview-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-final-fullreview-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 4435,
+      "title": "ES.1803 S24: Class 19: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day19-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day19-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4436,
+      "title": "ES.1803 S24: Class 30: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day30-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day30-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4439,
+      "title": "ES.1803 S24: Final Formula Sheet",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_final-formula.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_final-formula_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4440,
+      "title": "ES.1803 S24: Review Sheet: First-Order Nonlinear",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_review-1stordernonlinear.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_review-1stordernonlinear_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4441,
+      "title": "ES.1803 S24: Reading: Topic 06: Operators, Inhomogeneous DEs, ERF and SRF",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic6.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic6_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4442,
+      "title": "ES.1803 S24: Fourier Sound Lab: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_fouriersound.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_fouriersound_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4443,
+      "title": "ES.1803 S24: Reading: Topic 15: Transpose, Inverse, and Determinant",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic15.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic15_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4444,
+      "title": "ES.1803 S24: Class 09: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day9-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day9-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4446,
+      "title": "ES.1803 S24: Class 19: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day19-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day19-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4447,
+      "title": "ES.1803 S24: Reading: Topic 07: Solving Linear DEs: Method of Undetermined Coefficients",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic7.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic7_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4448,
+      "title": "ES.1803 S24: Class 04: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day4-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day4-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4449,
+      "title": "ES.1803 S24: Class 14: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day14-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day14-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4450,
+      "title": "ES.1803 S24: Class 29: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day29-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day29-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4451,
+      "title": "ES.1803 S24: Reading: Topic 31: Applications to Physics: Mechanical Systems",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic31.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic31_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4452,
+      "title": "ES.1803 S24: Class 34: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day34-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day34-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4453,
+      "title": "ES.1803 S24: Reading: Topic 10: Direction Fields, Integral Curves, Existence of Solutions",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic10.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic10_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4455,
+      "title": "ES.1803 S24: Class 34: Eigenstuff",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day34-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day34-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4456,
+      "title": "ES.1803 S24: Class 39: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day39-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day39-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4458,
+      "title": "ES.1803 S24: Class 10: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day10-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day10-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4459,
+      "title": "ES.1803 S24: Class 44: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day44-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day44-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4460,
+      "title": "ES.1803 S24: Matlab Tutorial 1: Basics",
+      "media_type": "pdf",
+      "material_type": "Tools",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/matlab-tut1-intro.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/matlab-tut1-intro_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Tools"
+      ]
+    },
+    {
+      "id": 4461,
+      "title": "ES.1803 S24: Class 06: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day6-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day6-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4463,
+      "title": "ES.1803 S24: Reading: Topic Enrichment: Heat Equation: Discrete and Continuous",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_heat_equation.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_heat_equation_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4464,
+      "title": "ES.1803 S24: Class 05: Input Response",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day5-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day5-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4466,
+      "title": "ES.1803 S24: Class 18: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day18-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day18-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4469,
+      "title": "ES.1803 S24: Class 39: Step and Delta Functions",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day39-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day39-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4470,
+      "title": "ES.1803 S24: Fourier Sound Lab: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_fouriersound-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_fouriersound-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4471,
+      "title": "ES.1803 S24: Class 24: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day24-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day24-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4473,
+      "title": "ES.1803 S24: Class 02: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day2-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day2-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4476,
+      "title": "ES.1803 S24: Class 45: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day45-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day45-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4477,
+      "title": "ES.1803 S24: Reading: Topic 27: Qualitative Behavior of Linear Systems",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic27.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic27_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4479,
+      "title": "ES.1803 S24: Recitation 02: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week2-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week2-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4481,
+      "title": "ES.1803 S24: Recitation 10: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week10.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week10_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4482,
+      "title": "ES.1803 S24: Class 04: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day4-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day4-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4483,
+      "title": "ES.1803 S24: Reading: Topic Enrichment: Complexification and Eulers Formula",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_on_complexification.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_on_complexification_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4485,
+      "title": "ES.1803 S24: Class 35: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day35-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day35-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4486,
+      "title": "ES.1803 S24: Class 31: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day31-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day31-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4487,
+      "title": "ES.1803 S24: Class 14: Operators, Inhomogeneous DEs, ERF, and SRF (cont.)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day14-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day14-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4488,
+      "title": "ES.1803 S24: Class 44: Fourier Series (cont.)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day44-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day44-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4489,
+      "title": "ES.1803 S24: Reading: Topic 14: Row Reduction and Subspaces",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic14.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic14_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4490,
+      "title": "ES.1803 S24: Class 19: Engineering Language: Input, Gain, and Phase Lag (cont.)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day19-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day19-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4491,
+      "title": "ES.1803 S24: Class 09: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day9-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day9-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4492,
+      "title": "ES.1803 S24: Recitation 13: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week13.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week13_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4493,
+      "title": "ES.1803 S24: Class 06: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day6-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day6-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4495,
+      "title": "ES.1803 S24: Class 47: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day47-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day47-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4497,
+      "title": "ES.1803 S24: Class 47: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day47-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day47-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4498,
+      "title": "ES.1803 S24: Class 07: Complex Numbers (cont.)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day7-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day7-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4499,
+      "title": "ES.1803 S24: Recitation 07: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week7.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week7_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4500,
+      "title": "ES.1803 S24: Reading: Topic 30: Applications to Population Biology",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic30.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic30_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4501,
+      "title": "ES.1803 S24: 1803 Calendar and Syllabus",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_syllabus.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_syllabus_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4502,
+      "title": "ES.1803 S24: Class 57: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day57-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day57-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4504,
+      "title": "ES.1803 S24: Class 44: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day44-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day44-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4507,
+      "title": "ES.1803 S24: Recitation 05: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week5-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week5-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4509,
+      "title": "ES.1803 S24: Class 01: Introduction to Differential Equations",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day1-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day1-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4510,
+      "title": "ES.1803 S24: Class 47: Computation Tricks, Sine and Cosine Series",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day47-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day47-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4511,
+      "title": "ES.1803 S24: Class 33: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day33-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day33-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4512,
+      "title": "ES.1803 S24: Recitation 05: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week5.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week5_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4513,
+      "title": "ES.1803 S24: Class 10: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day10-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day10-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4514,
+      "title": "ES.1803 S24: Recitation 06: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week6-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week6-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4515,
+      "title": "ES.1803 S24: Final Quiz Review of Entire Course: Problems",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-final-fullreview.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-final-fullreview_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4516,
+      "title": "ES.1803 S24: Final Quiz Review Questions Set B: Problems",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-finalb.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-finalb_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4518,
+      "title": "ES.1803 S24: Class 02: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day2-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day2-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4519,
+      "title": "ES.1803 S24: Class 50: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day50-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day50-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4520,
+      "title": "ES.1803 S24: Matlab Tutorial 2: Basic Plotting",
+      "media_type": "pdf",
+      "material_type": "Tools",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/matlab-tut2-plot.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/matlab-tut2-plot_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Tools"
+      ]
+    },
+    {
+      "id": 4521,
+      "title": "ES.1803 S24: Class 13: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day13-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day13-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4522,
+      "title": "ES.1803 S24: Recitation 12: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week12.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week12_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4523,
+      "title": "ES.1803 S24: Class 55: Linear Phase Portraits (cont.)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day55-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day55-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4524,
+      "title": "ES.1803 S24: Class 60: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day60-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day60-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4525,
+      "title": "ES.1803 S24: Class 29: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day29-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day29-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4527,
+      "title": "ES.1803 S24: Class 15: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day15-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day15-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4528,
+      "title": "ES.1803 S24: Class 60: Population Models",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day60-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day60-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4529,
+      "title": "ES.1803 S24: Class 49: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day49-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day49-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4531,
+      "title": "ES.1803 S24: Reading: Topic 02: Linear Systems: Input-Response Models",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic2_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4532,
+      "title": "ES.1803 S24: Class 49: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day49-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day49-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4533,
+      "title": "ES.1803 S24: Class 39: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day39-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day39-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4534,
+      "title": "ES.1803 S24: Class 41: Delta Functions (cont.)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day41-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day41-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4535,
+      "title": "ES.1803 S24: Recitation 06: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week6.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week6_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4537,
+      "title": "ES.1803 S24: Class 13: Operators, Inhomogeneous DEs, ERF, and SRF",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day13-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day13-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4538,
+      "title": "ES.1803 S24: Class 57: Nonlinear Systems",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day57-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day57-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4539,
+      "title": "ES.1803 S24: Class 24: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day24-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day24-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4540,
+      "title": "ES.1803 S24: Class 04: Linear Systems",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day4-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day4-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4541,
+      "title": "ES.1803 S24: Recitation 12: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week12-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week12-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4542,
+      "title": "ES.1803 S24: Part I Problems for All of the Problem Sets",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_parti-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_parti-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4545,
+      "title": "ES.1803 S24: Class 25: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day25-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day25-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4546,
+      "title": "ES.1803 S24: Reading: Topic 03: Input-Response Models Continued",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic3.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic3_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4547,
+      "title": "ES.1803 S24: Class 43: Fourier Series",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day43-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day43-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4548,
+      "title": "ES.1803 S24: Reading: Topic 24: Linear ODEs with Periodic Input",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic24.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic24_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4549,
+      "title": "ES.1803 S24: Class 55: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day55-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day55-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4550,
+      "title": "ES.1803 S24: Reading: Topic Enrichment: Fourier Series Using Complex Exponentials",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_fourier_complex.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_fourier_complex_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4553,
+      "title": "ES.1803 S24: Reading: Topic 28: Qualitative Behavior of Nonlinear Systems",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic28.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic28_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4554,
+      "title": "ES.1803 S24: Reading: Topic Enrichment: Brief Note on Power Series Techniques",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_power_series.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_power_series_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4556,
+      "title": "ES.1803 S24: Class 23: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day23-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day23-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4557,
+      "title": "ES.1803 S24: Enrichment: Complex Impedance",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_compleximpedance.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_compleximpedance_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4558,
+      "title": "ES.1803 S24: Class 45: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day45-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day45-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4559,
+      "title": "ES.1803 S24: Class 15: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day15-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day15-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4560,
+      "title": "ES.1803 S24: Class 09: Homogeneous, Linear, and Constant Coefficient DEs",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day9-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day9-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4561,
+      "title": "ES.1803 S24: Class 16: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day16-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day16-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4564,
+      "title": "ES.1803 S24: Review Problems Quiz 4c: Problems",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz4c.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz4c_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4565,
+      "title": "ES.1803 S24: Recitation 03: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week3-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week3-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4566,
+      "title": "ES.1803 S24: Class 10: Homogeneous, Linear, and Constant Coefficient DEs (cont.)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day10-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day10-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4567,
+      "title": "ES.1803 S24: Recitation 14: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week14.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week14_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4568,
+      "title": "ES.1803 S24: Recitation 01: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week1-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week1-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4569,
+      "title": "ES.1803 S24: Recitation 04: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week4-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week4-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4570,
+      "title": "ES.1803 S24: Class 18: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day18-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day18-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4572,
+      "title": "ES.1803 S24: Class 41: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day41-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day41-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4574,
+      "title": "ES.1803 S24: Class 53: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day53-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day53-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4575,
+      "title": "ES.1803 S24: Reading: Topic 11: Numerical Methods for First-Order Differential Equations",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic11.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic11_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4576,
+      "title": "Experimental Study Group",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://esg.mit.edu/",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/external-resources/experimental-study-group_bd33c8ac-eda1-410d-956f-9cc763d77b6b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4577,
+      "title": "ES.1803 S24: Class 18: Engineering Language: Input, Gain, and Phase Lag",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day18-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day18-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4578,
+      "title": "ES.1803 S24: Recitation 14: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week14-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week14-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4579,
+      "title": "ES.1803 S24: Matlab Tutorial 3: Eigenvalues and Eigenvectors",
+      "media_type": "pdf",
+      "material_type": "Tools",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/matlab-tut3-eig.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/matlab-tut3-eig_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Tools"
+      ]
+    },
+    {
+      "id": 4580,
+      "title": "ES.1803 S24: Class 60: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day60-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day60-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4581,
+      "title": "ES.1803 S24: Class 01: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day1-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day1-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4582,
+      "title": "ES.1803 S24: Final Quiz Review Questions: Linear Algebra: Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-final-linearalg-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-final-linearalg-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 4584,
+      "title": "ES.1803 S24: Class 16: Stability",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day16-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day16-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4586,
+      "title": "ES.1803 S24: Class 01: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day1-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day1-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4588,
+      "title": "ES.1803 S24: Reading: Topic 25: PDEs: Separation of Variables",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic25.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic25_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4589,
+      "title": "ES.1803 S24: Class 36: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day36-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day36-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4594,
+      "title": "ES.1803 S24: Final Quiz Review Questions: Linear Algebra: Problems",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-final-linearalg.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-final-linearalg_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4595,
+      "title": "ES.1803 S24: Class 31: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day31-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day31-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4596,
+      "title": "ES.1803 S24: Class 36: Matrix Methods for DEs",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day36-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day36-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4598,
+      "title": "ES.1803 S24: Reading: Topic Enrichment: Proof of Existence and Uniqueness Theorem",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_exist_uniq.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_exist_uniq_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4601,
+      "title": "ES.1803 S24: Recitation 10: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week10-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week10-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4603,
+      "title": "ES.1803 S24: Reading: Topic 05: Homogeneous, Linear, Constant Coefficient Differential Equations",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic5.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic5_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4604,
+      "title": "ES.1803 S24: Recitation 08: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week8.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week8_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4605,
+      "title": "ES.1803 S24: Class 59: Structural Stability",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day59-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day59-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4608,
+      "title": "ES.1803 S24: Reading: Topic 16: Eigenvalues, Diagonalization, and Decoupling",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic16.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic16_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4609,
+      "title": "ES.1803 S24: Class 24: Numerical Methods for y'=f(x,y)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day24-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day24-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4610,
+      "title": "ES.1803 S24: Final Quiz Review Questions Set A: Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-final-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-final-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 4611,
+      "title": "ES.1803 S24: Class 33: Inverse, Determinant, and Transpose",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day33-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day33-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4612,
+      "title": "ES.1803 S24: Class 43: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day43-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day43-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4613,
+      "title": "ES.1803 S24: Class 26: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day26-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day26-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4614,
+      "title": "ES.1803 S24: Class 23: Graphical Methods: Direction Fields and Integral Curves",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day23-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day23-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4615,
+      "title": "ES.1803 S24: Reading: Topic 08: Applications: Stability",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic8.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic8_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4616,
+      "title": "ES.1803 S24: Class 55: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day55-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day55-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4617,
+      "title": "ES.1803 S24: Class 26: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day26-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day26-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4618,
+      "title": "ES.1803 S24: Class 50: PDEs",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day50-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day50-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4620,
+      "title": "ES.1803 S24: Class 26: Autonomous Systems (cont.)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day26-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day26-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4622,
+      "title": "ES.1803 S24: Class 16: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day16-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day16-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4623,
+      "title": "ES.1803 S24: Review Problems Quiz 4b: Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_practice-quiz4b-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_practice-quiz4b-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 4626,
+      "title": "ES.1803 S24: Class 50: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day50-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day50-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4627,
+      "title": "ES.1803 S24: Class 36: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day36-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day36-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4628,
+      "title": "ES.1803 S24: Class 14: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day14-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day14-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4629,
+      "title": "ES.1803 S24: Recitation 01: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week1.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week1_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4630,
+      "title": "ES.1803 S24: Reading: Topic 21: Fourier Series Introduction",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic21.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic21_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4632,
+      "title": "ES.1803 S24: Reading: Topic 26: PDEs Continued",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic26.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic26_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4633,
+      "title": "ES.1803 S24: Class 35: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day35-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day35-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4634,
+      "title": "ES.1803 S24: Reading: Topic 04: Complex Numbers and Exponentials",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic4.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic4_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4635,
+      "title": "ES.1803 S24: Class 23: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day23-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day23-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4636,
+      "title": "ES.1803 S24: Class 29: Linear Algebra",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day29-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day29-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4637,
+      "title": "ES.1803 S24: Class 49: P(D)x = periodic",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day49-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day49-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4638,
+      "title": "ES.1803 S24: Recitation 08: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_probsect-week8-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_probsect-week8-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4639,
+      "title": "ES.1803 S24: Reading: Topic Enrichment: Symmetric Matrices",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_symmetric_matrices.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_symmetric_matrices_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4640,
+      "title": "ES.1803 S24: Class 57: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day57-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day57-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4642,
+      "title": "ES.1803 S24: Class 25: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day25-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day25-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 4644,
+      "title": "ES.1803 S24: Reading: Topic 09: Applications: Frequency Response",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_topic9.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_topic9_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 4645,
+      "title": "ES.1803 S24: Class 02: Introduction to Differential Equations (cont.)",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day2-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day2-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4646,
+      "title": "ES.1803 S24: Class 54: Linear Phase Portraits",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day54-notes.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day54-notes_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 4648,
+      "title": "ES.1803 S24: Part I Solutions for All of the Problem Sets",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_parti-problems-solutions.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_parti-problems-solutions_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4653,
+      "title": "MIT Open Learning Library",
+      "media_type": "external",
+      "material_type": "Problem Sets",
+      "source_url": "https://openlearninglibrary.mit.edu/courses/course-v1:MITx+ES.1803+2023_Fall/course/#block-v1:MITx+ES.1803+2023_Fall+type@chapter+block@pset_checkers",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/external-resources/mit-open-learning-library_fc650d69-df58-4ee8-a64b-920c90bc064e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4654,
+      "title": "ES.1803 S24: Class 33: Solutions",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day33-problems-qa.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day33-problems-qa_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets",
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 4656,
+      "title": "ES.1803 S24: Class 54: Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/es-1803-differential-equations-spring-2024/mites_1803_s24_day54-problems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/es-1803-differential-equations-spring-2024/resources/mites_1803_s24_day54-problems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1647 @@
+{
+  "generated_at": "2026-05-18T20:51:01.762Z",
+  "course": {
+    "course_id": "18-200-principles-of-discrete-applied-mathematics-spring-2024",
+    "title": "Principles of Discrete Applied Mathematics",
+    "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 101,
+    "unit_count": 22,
+    "assigned_sources": 82,
+    "unassigned_sources": 19
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Pigeonhole Principle",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4276,
+          "title": "Lecture 1: Pigeonhole Principle",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-1-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-1-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4277,
+          "title": "Lecture 1: Pigeonhole Principle",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Z1zgrgstVAw",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-1-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4279,
+          "title": "Lecture 1: Pigeonhole Principle (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1wJbDaffXrqSAcJnWeL25Ovlw4sLVLqDV_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-1-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4322,
+          "title": "18.200 (S24), Lecture 01: Pigeonhole Principle",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4269,
+          "title": "18.200 (S24), Homework 1",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_pset01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_pset01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Independence and Conditioning",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4299,
+          "title": "Lecture 2: Independence and Conditioning",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-2-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-2-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4300,
+          "title": "Lecture 2: Independence and Conditioning",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=DxpSDeG7lL4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-2-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4302,
+          "title": "Lecture 2: Independence and Conditioning (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1RxLBA-jY6yCNniZvJzqI8UfhKImUFQFF_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-2-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4335,
+          "title": "18.200 (S24), Lecture 02–04: Probability Theory",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec02-04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec02-04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4238,
+          "title": "18.200 (S24), Homework 2",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_pset02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_pset02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Inclusion-Exclusion",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4290,
+          "title": "Lecture 3: Inclusion-Exclusion",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-3-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-3-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4291,
+          "title": "Lecture 3: Inclusion-Exclusion",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=cqPcQ3QqYnE",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-3-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4293,
+          "title": "Lecture 3: Inclusion-Exclusion (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1VJI4DRGJksVN5jjxlzGXPUVIvoepLXUv_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-3-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4275,
+          "title": "18.200 (S24), Homework 3",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_pset03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_pset03_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Counting",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4223,
+          "title": "Lecture 4: Counting",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-4-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-4-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4224,
+          "title": "Lecture 4: Counting",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=H-Ix7gIt9i4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-4-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4226,
+          "title": "Lecture 4: Counting (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/17mWr43qL7fi9XdxPPP5_KkQXnZKybCEx_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-4-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4244,
+          "title": "18.200 (S24), Homework 4",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_pset04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_pset04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "More Counting and Generating Functions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4254,
+          "title": "Lecture 5: More Counting and Generating Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-5-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-5-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4255,
+          "title": "Lecture 5: More Counting and Generating Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=HpQUVd1MGso",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-5-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4257,
+          "title": "Lecture 5: More Counting and Generating Functions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1Y2mBD1lM1Nm11X0Fjvsz9v5pKxCezuuU_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-5-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4263,
+          "title": "18.200 (S24), Lecture 05–06: Counting",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec05-06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec05-06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4311,
+          "title": "18.200 (S24), Homework 5",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_pset05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_pset05_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "More on Generating Functions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4323,
+          "title": "Lecture 6: More on Generating Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-6-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-6-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4324,
+          "title": "Lecture 6: More on Generating Functions",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=XfRe9i3FR1U",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-6-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4326,
+          "title": "Lecture 6: More on Generating Functions (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1rC95_ryTDZCZAYW0SQHukNRoSOSSAUn2_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-6-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4227,
+          "title": "18.200 (S24), Homework 6",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_pset06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_pset06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "18.200 (S24), Lecture 07–08: Generating Functions",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4248,
+          "title": "18.200 (S24), Lecture 07–08: Generating Functions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec07-08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec07-08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4343,
+          "title": "Lecture 7: Generating Functions for Catalan Numbers",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-7-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-7-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4344,
+          "title": "Lecture 7: Generating Functions for Catalan Numbers",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=JNSyyOAeMOc",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-7-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4346,
+          "title": "Lecture 7: Generating Functions for Catalan Numbers (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1k-_azuxZnODDuR1XnEExafW0Rdn4_4kQ_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-7-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4271,
+          "title": "18.200 (S24), Homework 7",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_pset07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_pset07_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Tail Bounds",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4233,
+          "title": "Lecture 8: Tail Bounds",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-8-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-8-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4234,
+          "title": "Lecture 8: Tail Bounds",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=HC54KcgvReg",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-8-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4236,
+          "title": "Lecture 8: Tail Bounds (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1wf_H1GgXi6-jhO07eTwU7BBm8lauh17l_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-8-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4337,
+          "title": "18.200 (S24), Homework 8",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_pset08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_pset08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Chernoff Bounds",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4303,
+          "title": "Lecture 9: Chernoff Bounds",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-9-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-9-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4304,
+          "title": "Lecture 9: Chernoff Bounds",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=FPj3OOM6DEc",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-9-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4306,
+          "title": "Lecture 9: Chernoff Bounds (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1Nv6CBS3B3E-xo0M4P8q5FAqZY9p75_oq_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-9-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4327,
+          "title": "18.200 (S24), Lecture 09–10: Tail Bounds: Chebyshev, WLLN and Cherno",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec09-10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec09-10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4321,
+          "title": "18.200 (S24), Homework 9",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_pset09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_pset09_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Modular Arithmetic",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4312,
+          "title": "Lecture 10: Modular Arithmetic",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-10-version-3_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-10-version-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4313,
+          "title": "Lecture 10: Modular Arithmetic",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=wkmDtvO222A",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-10-version-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4315,
+          "title": "Lecture 10: Modular Arithmetic (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1M3rR333kB1P3nCanKdLedLtTfYlBVXNE_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-10-version-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "18.200 (S24), Lecture 11–12: Network Flows and Matching",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4239,
+          "title": "18.200 (S24), Lecture 11–12: Network Flows and Matching",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec11-12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec11-12_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4280,
+          "title": "Lecture 11: Basic Group Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-11-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-11-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4281,
+          "title": "Lecture 11: Basic Group Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=hUtdHAeyY6Y",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-11-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4283,
+          "title": "Lecture 11: Basic Group Theory (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1oY3lG2fEgGhy9fZO_RboRWJpF1VoQ2BP_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-11-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Introduction to Linear Programming",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4285,
+          "title": "Lecture 12: Introduction to Linear Programming",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-12-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-12-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4286,
+          "title": "Lecture 12: Introduction to Linear Programming",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=qKNkP6IfjvY",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-12-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4288,
+          "title": "Lecture 12: Introduction to Linear Programming (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18WvslvORRJ_lPiFBn21JM2P-kwpzgNPD_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-12-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Duality in Linear Programming",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4350,
+          "title": "Lecture 13: Duality in Linear Programming",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-13-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-13-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4351,
+          "title": "Lecture 13: Duality in Linear Programming",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=oyVZ3rao6M4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-13-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4353,
+          "title": "Lecture 13: Duality in Linear Programming (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1if5iG84mz4GBrqxOHWxvIHVLXug8A2kU_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-13-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Zero-Sum Games",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4229,
+          "title": "Lecture 14: Zero-Sum Games",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-14-version-3_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-14-version-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4230,
+          "title": "Lecture 14: Zero-Sum Games",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=o6blhvYXfq4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-14-version-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4232,
+          "title": "Lecture 14: Zero-Sum Games (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1Z3oBm8HWdjqgtAkKetHVpoUz2Sn25ChE_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-14-version-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "18.200 (S24), Lecture 15: Modular Arithmetic and Elementary Algebra",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4237,
+          "title": "18.200 (S24), Lecture 15: Modular Arithmetic and Elementary Algebra",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec15.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec15_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4294,
+          "title": "Lecture 15: Max-Flow Min-Cut Theorem",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-15-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-15-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4295,
+          "title": "Lecture 15: Max-Flow Min-Cut Theorem",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=pX-HnYwO454",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-15-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4297,
+          "title": "Lecture 15: Max-Flow Min-Cut Theorem (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1jlRdE6YI2xGclQebzJBJNqLD3hZ5Tpcs_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-15-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "Data Compression and Shannon’s Noiseless Coding Theorem",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4250,
+          "title": "Lecture 16: Data Compression and Shannon’s Noiseless Coding Theorem",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-16-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-16-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4251,
+          "title": "Lecture 16: Data Compression and Shannon’s Noiseless Coding Theorem",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=4OpiI5NLjIE",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-16-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4253,
+          "title": "Lecture 16: Data Compression and Shannon’s Noiseless Coding Theorem (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1Atu80uTHy2yFsckYHD-302x--ueOQM7q_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-16-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "18.200 (S24), Lecture 17: Linear Programming: Basics",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4228,
+          "title": "18.200 (S24), Lecture 17: Linear Programming: Basics",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec17.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec17_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4307,
+          "title": "Lecture 17: Huffman Coding",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-17-version-4_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-17-version-4_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4308,
+          "title": "Lecture 17: Huffman Coding",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=zZN1A0Ufb8E",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-17-version-4_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4310,
+          "title": "Lecture 17: Huffman Coding (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1xvlkiEsNPaELdIe8sfQR3CCSt0kfi455_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-17-version-4_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Transmitting Information Reliably over a Noisy Channel & Shannon’s Noisy Coding Theorem",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4328,
+          "title": "Lecture 18: Transmitting Information Reliably over a Noisy Channel & Shannon’s Noisy Coding Theorem",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-18-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-18-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4329,
+          "title": "Lecture 18: Transmitting Information Reliably over a Noisy Channel & Shannon’s Noisy Coding Theorem",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=kWsJ_JDuFaI",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-18-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4331,
+          "title": "Lecture 18: Transmitting Information Reliably over a Noisy Channel & Shannon’s Noisy Coding Theorem (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/162Kg6KxXkKjTsu27kUKYXPyN86Sqc14s_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-18-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4358,
+          "title": "18.200 (S24), Lecture 18: Data Compression & Shannon’s Entropy Theorem",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec18.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec18_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "18.200 (S24), Lecture 19: Huffman Codes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4270,
+          "title": "18.200 (S24), Lecture 19: Huffman Codes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec19.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec19_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4317,
+          "title": "Lecture 19: Error-Correcting Codes—Hamming Codes",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-19-version-3_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-19-version-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4318,
+          "title": "Lecture 19: Error-Correcting Codes—Hamming Codes",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=N81pBt3KUWI",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-19-version-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4320,
+          "title": "Lecture 19: Error-Correcting Codes—Hamming Codes (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1RGYoEHdqKSzlvxN52fKCmlKsFLa4yqaK_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-19-version-3_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "18.200 (S24), Lecture 20: Error Correction and Shannon’s Noisy Coding Theorem",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4261,
+          "title": "18.200 (S24), Lecture 20: Error Correction and Shannon’s Noisy Coding Theorem",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec20.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec20_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4354,
+          "title": "Lecture 20: Reed-Solomon Codes",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/18200-lecture-20-version-2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-20-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4355,
+          "title": "Lecture 20: Reed-Solomon Codes",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=OapnQzIDBM0",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-20-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4357,
+          "title": "Lecture 20: Reed-Solomon Codes (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/1aNkAeN1IETuGMFZtgBWANGHRgO76HrL4_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/18200-lecture-20-version-2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "18.200 (S24), Lecture 21–22: Linear Error-Correcting Codes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4289,
+          "title": "18.200 (S24), Lecture 21–22: Linear Error-Correcting Codes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec21-22.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec21-22_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "18.200 (S24), Lecture 23–24: Cryptography, RSA and Secret Sharing",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4333,
+          "title": "18.200 (S24), Lecture 23–24: Cryptography, RSA and Secret Sharing",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec23-24.pdf",
+          "local_path": null,
+          "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec23-24_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 4240,
+      "title": "Term Paper Template",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.overleaf.com/read/nbxhzvqtmcgj#c57265",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/external-resources/term-paper-template_23e0aa3f-a44e-4db1-aba7-37ad793661aa/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4241,
+      "title": "Proof-Based Mathematics Reasoning Diagram",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_rec01_reasdiag.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_rec01_reasdiag_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4242,
+      "title": "More Wrong Proofs",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_rec02_morewrongproofs.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_rec02_morewrongproofs_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4243,
+      "title": "LaTeX",
+      "media_type": "html",
+      "material_type": "Projects",
+      "source_url": "http://www.latex-project.org/",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/external-resources/latex_24d0aa99-ca02-49c4-a7fb-71a09120415a/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4249,
+      "title": "TeXworks",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.tug.org/texworks/",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/external-resources/texworks_34111770-0b5a-4ba9-87c7-cc8358fcfb54/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4258,
+      "title": "18.200 (S24), Homework Template",
+      "media_type": "pdf",
+      "material_type": "Tools",
+      "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_hw_template.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_hw_template_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Tools"
+      ]
+    },
+    {
+      "id": 4262,
+      "title": "placeholder",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/placeholder.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/placeholder_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4264,
+      "title": "GIRs",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://catalog.mit.edu/mit/undergraduate-education/general-institute-requirements/",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/external-resources/girs_592ccef3-deb5-4e93-b775-d74a25c48485/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4268,
+      "title": "LyX",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.lyx.org/",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/external-resources/lyx_5c5898c6-39fc-49c1-848a-06cc1d96f61d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4284,
+      "title": "comparing them",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.dropbox.com/scl/fi/ajt4d0fxg7c81bjq744ss/Genre_Rhetoric-Sp24-Google-Docs.pdf?rlkey=mfiei0or8tn4nzyohk7ak1vxt&e=1&st=wh8vst8e&dl=0",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/external-resources/comparing-them_7ebd8218-fa24-402b-afdb-0412be568b94/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4298,
+      "title": "CI-M",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://registrar.mit.edu/registration-academics/academic-requirements/communication-requirement/ci-m-subjects",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/external-resources/ci-m_8d257f11-e2b0-4925-8422-764c0519d33d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4316,
+      "title": "Proving Theorems",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_proving_theorems.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_proving_theorems_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4332,
+      "title": "Introduction to LaTeX",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_intro_latex.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_intro_latex_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4334,
+      "title": "18.062J/6.042J *Mathematics for Computer Science*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/about",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/external-resources/18062j6042j-mathematics-for-computer-science_c7de1e76-e3c6-4827-965f-30ccc0f9d741/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4336,
+      "title": "*18.06 Linear Algebra*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/external-resources/1806-linear-algebra_cb533086-4752-4daf-a8ea-8ba12326b9f3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4342,
+      "title": "An Example of a Proof with Guiding Text",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_example.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_example_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4347,
+      "title": "Math Learning Center",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://math.mit.edu/learningcenter/",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/external-resources/math-learning-center_e64acc81-4b63-49c0-ab32-4844b0f996e1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4348,
+      "title": "Tetris is NP-hard even with *O*(1) Rows or Columns",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.jstage.jst.go.jp/article/ipsjjip/28/0/28_942/_article",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/external-resources/tetris-is-np-hard-even-with-o1-rows-or-columns_ede4ceb3-1110-466d-a05c-e06d4c707a7b/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4349,
+      "title": "18.200 (S24), Lecture Notes: Chernoff Bounds and Some Applications",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec_chernoff.pdf",
+      "local_path": null,
+      "resource_path": "/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/resources/mit18_200_s24_lec_chernoff_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

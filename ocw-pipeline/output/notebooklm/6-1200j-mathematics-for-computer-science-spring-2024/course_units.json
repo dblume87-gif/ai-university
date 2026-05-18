@@ -1,0 +1,1932 @@
+{
+  "generated_at": "2026-05-18T20:51:01.808Z",
+  "course": {
+    "course_id": "6-1200j-mathematics-for-computer-science-spring-2024",
+    "title": "Mathematics for Computer Science",
+    "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 117,
+    "unit_count": 24,
+    "assigned_sources": 107,
+    "unassigned_sources": 10
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Proofs, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3417,
+          "title": "Lecture 01: Proofs, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3531,
+          "title": "Lecture 1: Predicates, Sets, and Proofs",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture01-2024feb06_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture01-2024feb06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3532,
+          "title": "Lecture 1: Predicates, Sets, and Proofs",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=sbpCTjmw85g",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture01-2024feb06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3534,
+          "title": "Lecture 1: Predicates, Sets, and Proofs (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1vpGrgEz7_DNTypSUjWnJqLRj4rCjV46v_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture01-2024feb06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3463,
+          "title": "Problem Set 01",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_pset01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_pset01_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Contradiction and Induction, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3445,
+          "title": "Lecture 02: Contradiction and Induction, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3512,
+          "title": "Lecture 2: Contradiction and Induction",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture02-2024feb09_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture02-2024feb09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3513,
+          "title": "Lecture 2: Contradiction and Induction",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=_NYsYuzMLs0",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture02-2024feb09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3515,
+          "title": "Lecture 2: Contradiction and Induction (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1UohiEoW6AqDeGROT0gg3j1oIvrjWYDb2_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture02-2024feb09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3440,
+          "title": "Problem Set 02",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_pset02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_pset02_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Casework and Strong Induction, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3449,
+          "title": "Lecture 03: Casework and Strong Induction, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec03_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3493,
+          "title": "Lecture 3: Casework and Strong Induction",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture03-2024feb20_v4_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture03-2024feb20_v4_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3494,
+          "title": "Lecture 3: Casework and Strong Induction",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=GOgA8JGUiwI",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture03-2024feb20_v4_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3496,
+          "title": "Lecture 3: Casework and Strong Induction (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture03-2024feb20_v4_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture03-2024feb20_v4_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3520,
+          "title": "6.1200-SP24-Lecture03-2024feb20_V4_transcript.pdf",
+          "media_type": "pdf",
+          "material_type": "Other",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture03-2024feb20_v4_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture03-2024feb20_v4_transcript_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3446,
+          "title": "Problem Set 03",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_pset03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_pset03_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 6,
+      "source_types": {
+        "pdf": 4,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "State Machines",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3424,
+          "title": "Lecture 4: State Machines",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture04-2024feb15_v4_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture04-2024feb15_v4_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3425,
+          "title": "Lecture 4: State Machines",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=gVdrFsnOo_s",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture04-2024feb15_v4_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3427,
+          "title": "Lecture 4: State Machines (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture04-2024feb15_v4_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture04-2024feb15_v4_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3428,
+          "title": "Lecture 04: State Machines, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3447,
+          "title": "6.1200-SP24-Lecture04-2024feb15_V4_transcript.pdf",
+          "media_type": "pdf",
+          "material_type": "Other",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture04-2024feb15_v4_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture04-2024feb15_v4_transcript_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3460,
+          "title": "Problem Set 04",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_pset04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_pset04_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 6,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 4
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Sums",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3411,
+          "title": "Lecture 5: Sums",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture05-2024feb22_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture05-2024feb22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3412,
+          "title": "Lecture 5: Sums",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=nqOPy2d6ihY",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture05-2024feb22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3414,
+          "title": "Lecture 5: Sums (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1z7Tk3l7Rh0fjFeXcZ5JIxHC1yvwZLKMs_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture05-2024feb22_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3472,
+          "title": "Lecture 05: Sums, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec05_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3549,
+          "title": "Problem Set 05",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_pset05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_pset05_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Asymptotics",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3435,
+          "title": "Lecture 6: Asymptotics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture06-2024feb27_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture06-2024feb27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3436,
+          "title": "Lecture 6: Asymptotics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=6dQQAn4L24s",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture06-2024feb27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3438,
+          "title": "Lecture 6: Asymptotics (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/16Q84nM01XIjR0eAsvp3bLzTMH3KnSjR__transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture06-2024feb27_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3462,
+          "title": "Lecture 06: Asymptotics, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3467,
+          "title": "Problem Set 06",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_pset06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_pset06_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Recurrences, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3481,
+          "title": "Lecture 07: Recurrences, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec07_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3516,
+          "title": "Lecture 7: Recurrences",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture07-2024feb29_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture07-2024feb29_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3517,
+          "title": "Lecture 7: Recurrences",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=PvuwfciiH2U",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture07-2024feb29_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3519,
+          "title": "Lecture 7: Recurrences (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1FNT1pqfHkqCM0hCRYhxyTdft3NSBvoU-_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture07-2024feb29_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3423,
+          "title": "Problem Set 07",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_pset07.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_pset07_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Divisibility",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3488,
+          "title": "Lecture 8: Divisibility",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture08-2024mar05_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture08-2024mar05_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3489,
+          "title": "Lecture 8: Divisibility",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=XW9xERSeenI",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture08-2024mar05_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3491,
+          "title": "Lecture 8: Divisibility (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1nbxrnTlb8xzIffjCnaTesZ8bEgKO592i_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture08-2024mar05_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3544,
+          "title": "Lecture 08: Divisibility, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3461,
+          "title": "Problem Set 08",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_pset08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_pset08_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Modular Arithmetic, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3482,
+          "title": "Lecture 09: Modular Arithmetic, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec09_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3498,
+          "title": "Lecture 9: Modular Arithmetic",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture09-2024mar12_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture09-2024mar12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3499,
+          "title": "Lecture 9: Modular Arithmetic",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Nn8nBPyzzQ0",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture09-2024mar12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3501,
+          "title": "Lecture 9: Modular Arithmetic (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1NHM4nw_gPGJtdO-iKwaUX-zR108UJFyQ_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture09-2024mar12_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3492,
+          "title": "Problem Set 09",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_pset09.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_pset09_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Cryptography",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3451,
+          "title": "Lecture 10: Cryptography",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture10-2024mar14_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture10-2024mar14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3452,
+          "title": "Lecture 10: Cryptography",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=hRDOmMEZtPo",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture10-2024mar14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3454,
+          "title": "Lecture 10: Cryptography (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/12B1TLDPm5q1wCr4sjlY9EXbdty6zFBIO_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture10-2024mar14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3507,
+          "title": "Lecture 10: Cryptography, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3418,
+          "title": "Problem Set 10",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_pset10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_pset10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Graphs and Coloring",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3441,
+          "title": "Lecture 11: Graphs and Coloring",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture11-2024mar19_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture11-2024mar19_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3442,
+          "title": "Lecture 11: Graphs and Coloring",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=cB0UijRfOCQ",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture11-2024mar19_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3444,
+          "title": "Lecture 11: Graphs and Coloring (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1ABpYp_SZC5iBfmzB-m_dtdEtIIbeKaUz_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture11-2024mar19_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3535,
+          "title": "Lecture 11: Graphs and Coloring, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec11_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Matching, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3415,
+          "title": "Lecture 12: Matching, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec12_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3468,
+          "title": "Lecture 12: Matching",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture12-2024mar21_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture12-2024mar21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3469,
+          "title": "Lecture 12: Matching",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=CEd313PPKXQ",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture12-2024mar21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3471,
+          "title": "Lecture 12: Matching (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1VrQHI7VLyB2Pwfa84Rb8XZrQbqLLbnyT_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture12-2024mar21_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Connectivity Trees, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3502,
+          "title": "Lecture 13: Connectivity Trees, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec13.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec13_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3503,
+          "title": "Lecture 13: Connectivity and Trees",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture13-2024apr02_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture13-2024apr02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3504,
+          "title": "Lecture 13: Connectivity and Trees",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=BVpOkj7W_xE",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture13-2024apr02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3506,
+          "title": "Lecture 13: Connectivity and Trees (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1YrxtSD7CJ_o11OTHW-QocVXWPboawdtQ_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture13-2024apr02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Diagraphs, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3434,
+          "title": "Lecture 14: Diagraphs, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec14.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec14_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3521,
+          "title": "Lecture 14: Digraphs and DAGs",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture14-2024apr04_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture14-2024apr04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3522,
+          "title": "Lecture 14: Digraphs and DAGs",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=E33i67e_X9Q",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture14-2024apr04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3524,
+          "title": "Lecture 14: Digraphs and DAGs (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1whND35UmcHQ8LlVHLM7x0GsLgkPV6O_U_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture14-2024apr04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Relations and Counting",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3419,
+          "title": "Lecture 15: Relations and Counting",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture15-2024apr09_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture15-2024apr09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3420,
+          "title": "Lecture 15: Relations and Counting",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=gwOxD51n3nc",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture15-2024apr09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3422,
+          "title": "Lecture 15: Relations and Counting (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1KTBvL71mLWW-okRhvkqYyXcwjn2RYXtc_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture15-2024apr09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3456,
+          "title": "Lecture 15: Relations and Counting, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec15.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec15_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "Counting, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3478,
+          "title": "Lecture 16: Counting, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec16.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec16_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3551,
+          "title": "Lecture 16: Counting Techniques",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture16-2024apr11_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture16-2024apr11_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3552,
+          "title": "Lecture 16: Counting Techniques",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=9X6HtUsxnDc",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture16-2024apr11_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3554,
+          "title": "Lecture 16: Counting Techniques (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/19uTkBw0MEhf6lK0EX66yUdwO7RXvC-fd_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture16-2024apr11_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "More Counting, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3487,
+          "title": "Lecture 17: More Counting, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec17.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec17_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3536,
+          "title": "Lecture 17: More Counting Techniques",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture17-2024apr16_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture17-2024apr16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3537,
+          "title": "Lecture 17: More Counting Techniques",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=sF5_cyLyyw0",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture17-2024apr16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3539,
+          "title": "Lecture 17: More Counting Techniques (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1zAhZ2hPL-lYs143_UknBiCrC25DH_Eza_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture17-2024apr16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Introduction to Probability, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3497,
+          "title": "Lecture 18: Introduction to Probability, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec18.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec18_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3540,
+          "title": "Lecture 18: Probability",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture18-2024apr23_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture18-2024apr23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3541,
+          "title": "Lecture 18: Probability",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Hjvy1w4ocQU",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture18-2024apr23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3543,
+          "title": "Lecture 18: Probability (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1jvYA19-vM8QsfXznQqf4-kpx9FIPdu-q_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture18-2024apr23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "Conditional Probability",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3430,
+          "title": "Lecture 19: Conditional Probability",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture19-2024apr25_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture19-2024apr25_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3431,
+          "title": "Lecture 19: Conditional Probability",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=wQBSalAFFC4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture19-2024apr25_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3433,
+          "title": "Lecture 19: Conditional Probability (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1kzC_939dhliMGiTr1vVetjIqSk3pML99_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture19-2024apr25_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3466,
+          "title": "Lecture 19: Conditional Probability, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec19.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec19_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "Independence, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3465,
+          "title": "Lecture 20: Independence, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec20.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec20_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3483,
+          "title": "Lecture 20: Independence",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture20-2024apr30_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture20-2024apr30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3484,
+          "title": "Lecture 20: Independence",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=qYia9FXN7Po",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture20-2024apr30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3486,
+          "title": "Lecture 20: Independence (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1cifvO0-ypB9gxzB2M4L1gBdaVqCLN_Zq_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture20-2024apr30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "Random Variables, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3450,
+          "title": "Lecture 21: Random Variables, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec21.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec21_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3545,
+          "title": "Lecture 21: Random Variables",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture21-2024may02_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture21-2024may02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3546,
+          "title": "Lecture 21: Random Variables",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=WXIOdgaLCNM",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture21-2024may02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3548,
+          "title": "Lecture 21: Random Variables (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1cwnPDg2NBly5YR3XasB910mSoceZd5VN_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture21-2024may02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 22,
+      "title": "Expectation, Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3439,
+          "title": "Lecture 22: Expectation, Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec22.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec22_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3474,
+          "title": "Lecture 22: Expectation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture22-2024may07_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture22-2024may07_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3475,
+          "title": "Lecture 22: Expectation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=h6fbQD8NKKo",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture22-2024may07_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3477,
+          "title": "Lecture 22: Expectation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1x1enjuxZGCfo3YrNiBUxRRrdAq_EY55Y_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture22-2024may07_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "Expectation and Variance",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3508,
+          "title": "Lecture 23: Expectation and Variance",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture23-2024may09_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture23-2024may09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3509,
+          "title": "Lecture 23: Expectation and Variance",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=047B4UrEaNw",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture23-2024may09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3511,
+          "title": "Lecture 23: Expectation and Variance (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1y0NsvTYls-BIFQjpbfKMAD28dP2brKXY_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture23-2024may09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 24,
+      "title": "Large Deviations, Chebyschev and Chernoff Bound, Wrap Up Lecture Notes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3525,
+          "title": "Lecture 24: Large Deviations, Chebyschev and Chernoff Bound, Wrap Up Lecture Notes",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec24.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_lec24_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3526,
+          "title": "Lecture 24: Large Deviations: Chebyshev and Chernov Bound, Wrap Up",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture24-2024may14_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture24-2024may14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3527,
+          "title": "Lecture 24: Large Deviations: Chebyshev and Chernov Bound, Wrap Up",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=7FOFBqw1gMs",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture24-2024may14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3529,
+          "title": "Lecture 24: Large Deviations: Chebyshev and Chernov Bound, Wrap Up (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/1bwye_z5tzn8HswB_AidRs-RPvG2Am-MH_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture24-2024may14_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 3410,
+      "title": "Warm Up 05 Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_wu05-probs.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_wu05-probs_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 3416,
+      "title": "*18.01 Single Variable Calculus*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+      "local_path": null,
+      "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/external-resources/1801-single-variable-calculus_109a119b-9f55-4586-9243-89d6843b249f/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3429,
+      "title": "Warm Up 06 Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_wu06-probs.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_wu06-probs_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 3448,
+      "title": "Warm Up 04 Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_wu04-probs.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_wu04-probs_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 3457,
+      "title": "Warm Up 01 Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_wu01-probs.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_wu01-probs_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 3458,
+      "title": "Warm Up 03 Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_wu03-probs.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_wu03-probs_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 3459,
+      "title": "*6.1220 Design and Analysis of Algorithms*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/",
+      "local_path": null,
+      "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/external-resources/61220-design-and-analysis-of-algorithms_65bc4004-e3b5-424b-b5b1-c4cacea67ea1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3479,
+      "title": "Warm Up 02 Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_wu02-probs.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_wu02-probs_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    },
+    {
+      "id": 3480,
+      "title": "*Mathematics for Computer Science* (PDF)",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/external-resources/mathematics-for-computer-science-pdf_89fd416a-2bc6-483a-af85-02cfc7b35e44/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3550,
+      "title": "Warm Up 07 Problems",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_wu07-probs.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/mit6_1200j_s24_wu07-probs_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Activity Assignments"
+      ]
+    }
+  ]
+}

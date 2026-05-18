@@ -1,0 +1,1876 @@
+{
+  "generated_at": "2026-05-18T20:51:01.724Z",
+  "course": {
+    "course_id": "14-02-principles-of-macroeconomics-spring-2023",
+    "title": "Principles of Macroeconomics",
+    "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 103,
+    "unit_count": 25,
+    "assigned_sources": 96,
+    "unassigned_sources": 7
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Introduction to 14.02 Principles of Macroeconomics",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5867,
+          "title": "Lecture 1: Introduction to 14.02 Principles of Macroeconomics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-1-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-1-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5868,
+          "title": "Lecture 1: Introduction to 14.02 Principles of Macroeconomics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=heBErnN3ZPk",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-1-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5870,
+          "title": "Lecture 1: Introduction to 14.02 Principles of Macroeconomics (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1zBfWYDTb6TlxnUezDwGOJ1I9mpt6z6y7_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-1-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5892,
+          "title": "Lecture 10: Quiz 1 Review",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-10-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-10-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5893,
+          "title": "Lecture 10: Quiz 1 Review",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=XEETOp5jo9w",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-10-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5895,
+          "title": "Lecture 10: Quiz 1 Review (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1WW_8ClbjEYposUP-nfFvJVSEncP9KtCG_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-10-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5878,
+          "title": "Problem Set 01 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset1_solutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset1_solutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5886,
+          "title": "Problem Set 01",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5896,
+          "title": "Quiz 01",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_quiz1_no_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_quiz1_no_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5930,
+          "title": "Quiz 01 Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_quiz1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_quiz1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 10,
+      "source_types": {
+        "youtube": 4,
+        "pdf": 6
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Basic Macroeconomic Concepts",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5882,
+          "title": "Lecture 2: Basic Macroeconomic Concepts",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-2-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-2-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5883,
+          "title": "Lecture 2: Basic Macroeconomic Concepts",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=kmUPK9AIE64",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-2-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5885,
+          "title": "Lecture 2: Basic Macroeconomic Concepts (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1ZRRH8llNnTk8mEukMki3MjGlO8kgvbfJ_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-2-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5957,
+          "title": "Lecture 18: Quiz 2 Review",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-18-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-18-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5958,
+          "title": "Lecture 18: Quiz 2 Review",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=yv0KsBKJzKY",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-18-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5960,
+          "title": "Lecture 18: Quiz 2 Review (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1yfJ6Hkt7twlJCN2jkmRIDRqD6gCqB1W4_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-18-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5839,
+          "title": "Quiz 02 with solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_quiz2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_quiz2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5904,
+          "title": "Problem Set 02 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset2_solutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset2_solutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5935,
+          "title": "Problem Set 02",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 9,
+      "source_types": {
+        "youtube": 4,
+        "pdf": 5
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "The Goods Market",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5897,
+          "title": "Lecture 3: The Goods Market",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-3-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-3-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5898,
+          "title": "Lecture 3: The Goods Market",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=fxrwTj2i_S4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-3-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5900,
+          "title": "Lecture 3: The Goods Market (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1tp3CC8rZZ5_t-Y5N1YThan1M2G-TVpLW_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-3-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5871,
+          "title": "Lecture 25: Quiz 3 Review",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-25-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-25-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5872,
+          "title": "Lecture 25: Quiz 3 Review",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=spY5kl_EYDU",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-25-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5874,
+          "title": "Lecture 25: Quiz 3 Review (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1QbzhY9YfW0yLAFv2SXkwFK3hqg-eh7oX_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-25-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5887,
+          "title": "Quiz 03 Solutions",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_quiz3_solutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_quiz3_solutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams",
+            "Exam Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5908,
+          "title": "Problem Set 03",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5919,
+          "title": "Problem Set 03 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset3_solutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset3_solutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5950,
+          "title": "Quiz 03",
+          "media_type": "pdf",
+          "material_type": "Exams",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_quiz3_no_sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_quiz3_no_sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Exams"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 10,
+      "source_types": {
+        "youtube": 4,
+        "pdf": 6
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "The Financial Market",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5888,
+          "title": "Lecture 4: The Financial Market",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-4-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-4-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5889,
+          "title": "Lecture 4: The Financial Market",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=b5H8D_wD2AY",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-4-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5891,
+          "title": "Lecture 4: The Financial Market (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1sWJWc4iYESuo4fu0vAqT8aS-KuSosPpq_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-4-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5866,
+          "title": "Problem Set 04",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5901,
+          "title": "Problem Set 04 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset4_solutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset4_solutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "IS-LM Model",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5840,
+          "title": "Lecture 5: IS-LM Model",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-5-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-5-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5841,
+          "title": "Lecture 5: IS-LM Model",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=qg_HT3CjFI4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-5-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5843,
+          "title": "Lecture 5: IS-LM Model (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1bSxsZeltjhghKGexIxnYoQygUdsGdCb8_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-5-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5824,
+          "title": "Problem Set 05 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset5_solutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset5_solutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5949,
+          "title": "Problem Set 05",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset5.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset5_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "IS-LM, continued",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5940,
+          "title": "Lecture 6: IS-LM, continued",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-6-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-6-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5941,
+          "title": "Lecture 6: IS-LM, continued",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=gYgARXwnZTk",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-6-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5943,
+          "title": "Lecture 6: IS-LM, continued (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1hOK5ZBsCI_XFnMIr6riF4BcbvVkQE1iD_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-6-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5875,
+          "title": "Problem Set 06 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset6_solutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset6_solutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5881,
+          "title": "Problem Set 06",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset6.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset6_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "An Extended IS-LM Model",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5844,
+          "title": "Lecture 7: An Extended IS-LM Model",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-7-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-7-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5845,
+          "title": "Lecture 7: An Extended IS-LM Model",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=fkiWQZPOHXk",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-7-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5847,
+          "title": "Lecture 7: An Extended IS-LM Model (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1D2J0hZ4OOK_64efyerSmZjyoO5QN56sd_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-7-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5852,
+          "title": "Problem Set 07",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset7_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5922,
+          "title": "Problem Set 07 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset7_solutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset7_solutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "The Labor Market",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5820,
+          "title": "Lecture 8: The Labor Market",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-8-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-8-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5821,
+          "title": "Lecture 8: The Labor Market",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=oQ2mTN1_bus",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-8-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5823,
+          "title": "Lecture 8: The Labor Market (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/13hvFLw5ipQ0BKvRiABfV-2oZ2Ec47RRe_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-8-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5835,
+          "title": "Problem Set 08 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset8_solutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset8_solutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5853,
+          "title": "Problem Set 08",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/mit14_02_s23_pset8.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/mit14_02_s23_pset8_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "The Phillips Curve and Inflation",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5854,
+          "title": "Lecture 9: The Phillips Curve and Inflation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-9-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-9-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5855,
+          "title": "Lecture 9: The Phillips Curve and Inflation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=mhqsslG9tyw",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-9-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5857,
+          "title": "Lecture 9: The Phillips Curve and Inflation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1m8XRqp-AVdS64CW-PlvQDH2AYNFPQguV_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-9-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Quiz 1 Review",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5892,
+          "title": "Lecture 10: Quiz 1 Review",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-10-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-10-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5893,
+          "title": "Lecture 10: Quiz 1 Review",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=XEETOp5jo9w",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-10-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5895,
+          "title": "Lecture 10: Quiz 1 Review (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1WW_8ClbjEYposUP-nfFvJVSEncP9KtCG_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-10-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "The IS-LM-PC Model",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5862,
+          "title": "Lecture 11: The IS-LM-PC Model",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-11-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-11-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5863,
+          "title": "Lecture 11: The IS-LM-PC Model",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=QMtbUSfRWBY",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-11-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5865,
+          "title": "Lecture 11: The IS-LM-PC Model (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1oarFHG8EzAqwYWeHi-Ax2yZLav_K8wMi_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-11-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "IS-LM-PC Model continued",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5936,
+          "title": "Lecture 12: IS-LM-PC Model continued",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-12-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-12-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5937,
+          "title": "Lecture 12: IS-LM-PC Model continued",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=yoq0ENMiR4w",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-12-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5939,
+          "title": "Lecture 12: IS-LM-PC Model continued (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1y3RaIn5PCaqTQqB9wr1zGvm020lTCRGC_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-12-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "The Facts of Growth",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5858,
+          "title": "Lecture 13: The Facts of Growth",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-13-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-13-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5859,
+          "title": "Lecture 13: The Facts of Growth",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=v3k6BbBLULI",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-13-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5861,
+          "title": "Lecture 13: The Facts of Growth (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1Dh5PCeHgt5IVPlpZNZ830fVtVq_OVeMn_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-13-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Saving, Capital Accumulation, and Output",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5951,
+          "title": "Lecture 14: Saving, Capital Accumulation, and Output",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-14-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-14-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5952,
+          "title": "Lecture 14: Saving, Capital Accumulation, and Output",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=VE4whF07w08",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-14-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5954,
+          "title": "Lecture 14: Saving, Capital Accumulation, and Output (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1MN1fctppJOBz1bU4DhHMBGu8YI0G4KN3_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-14-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Technological Progress and Growth",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5827,
+          "title": "Lecture 15: Technological Progress and Growth",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-15-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-15-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5828,
+          "title": "Lecture 15: Technological Progress and Growth",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=nNqnivVl8WI",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-15-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5830,
+          "title": "Lecture 15: Technological Progress and Growth (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1WXMiFOGzedp1kUnKNrFnpgotLI_VJYZi_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-15-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "Convergence and Cross-Country Variation",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5910,
+          "title": "Lecture 16: Convergence and Cross-Country Variation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-16-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-16-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5911,
+          "title": "Lecture 16: Convergence and Cross-Country Variation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=ijXdeJTL6OU",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-16-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5913,
+          "title": "Lecture 16: Convergence and Cross-Country Variation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1T-Ky7wVr1RIEdlr30m5gdLgYBN-k81B__transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-16-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "Introduction to Open Economy",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5961,
+          "title": "Lecture 17: Introduction to Open Economy",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-17-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-17-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5962,
+          "title": "Lecture 17: Introduction to Open Economy",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=5uygC4oJvCI",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-17-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5964,
+          "title": "Lecture 17: Introduction to Open Economy (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1ciz-6OL2VwZZSmosR8LRidy2fGGsMpkW_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-17-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Quiz 2 Review",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5957,
+          "title": "Lecture 18: Quiz 2 Review",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-18-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-18-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5958,
+          "title": "Lecture 18: Quiz 2 Review",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=yv0KsBKJzKY",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-18-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5960,
+          "title": "Lecture 18: Quiz 2 Review (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1yfJ6Hkt7twlJCN2jkmRIDRqD6gCqB1W4_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-18-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "The Goods Market in the Open Economy",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5945,
+          "title": "Lecture 19: The Goods Market in the Open Economy",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-19-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-19-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5946,
+          "title": "Lecture 19: The Goods Market in the Open Economy",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=f5ExlmDGdro",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-19-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5948,
+          "title": "Lecture 19: The Goods Market in the Open Economy (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1b62H3MDe4iXJREffk7GaxLY2EUjB2VlW_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-19-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "The Mundell-Fleming Model",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5915,
+          "title": "Lecture 20: The Mundell-Fleming Model",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-20-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-20-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5916,
+          "title": "Lecture 20: The Mundell-Fleming Model",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=ucPrWHF_5Lc",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-20-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5918,
+          "title": "Lecture 20: The Mundell-Fleming Model (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1m_9EveeUkKWjYkUTEIqDWFTceRUKX5Uy_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-20-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "Exchange Rate Regimes",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5848,
+          "title": "Lecture 21: Exchange Rate Regimes",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-21-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-21-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5849,
+          "title": "Lecture 21: Exchange Rate Regimes",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=84LF3ze7Yvw",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-21-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5851,
+          "title": "Lecture 21: Exchange Rate Regimes (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1kT1CcN5HJS123pHEj5OYMe9djf_Fw08M_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-21-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 22,
+      "title": "Financial Markets and Expectations",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5931,
+          "title": "Lecture 22: Financial Markets and Expectations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-22-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-22-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5932,
+          "title": "Lecture 22: Financial Markets and Expectations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=csWwk_MOLww",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-22-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5934,
+          "title": "Lecture 22: Financial Markets and Expectations (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/142bEaZ4frdcngq2QXCUewy-KLEW2hVW7_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-22-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "Asset Pricing",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5925,
+          "title": "Lecture 23: Asset Pricing",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-23-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-23-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5926,
+          "title": "Lecture 23: Asset Pricing",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=dCJEeSD7hKk",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-23-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5928,
+          "title": "Lecture 23: Asset Pricing (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1GG1xTAz2t3GNyYc5IpxPBUAxVo1DcR24_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-23-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 24,
+      "title": "IS-LM and Expectations",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5831,
+          "title": "Lecture 24: IS-LM and Expectations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-24-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-24-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5832,
+          "title": "Lecture 24: IS-LM and Expectations",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=bEWpXwflCoY",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-24-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5834,
+          "title": "Lecture 24: IS-LM and Expectations (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1ILKkx_udm4dRAXfOca7vKE1tl60LRd66_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-24-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 25,
+      "title": "Quiz 3 Review",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5871,
+          "title": "Lecture 25: Quiz 3 Review",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1402-sp23-lecture-25-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-25-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5872,
+          "title": "Lecture 25: Quiz 3 Review",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=spY5kl_EYDU",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-25-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5874,
+          "title": "Lecture 25: Quiz 3 Review (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-02-principles-of-macroeconomics-spring-2023/1QbzhY9YfW0yLAFv2SXkwFK3hqg-eh7oX_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/resources/1402-sp23-lecture-25-v2_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 5838,
+      "title": "*The Economist*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.economist.com/",
+      "local_path": null,
+      "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/external-resources/the-economist_1f4b847e-ef2f-4c01-906c-94121a3216ee/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5907,
+      "title": "Unsplash License",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://unsplash.com/license",
+      "local_path": null,
+      "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/external-resources/unsplash-license_a65ff1e5-0994-4473-bf3c-16d2644b1e7c/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5909,
+      "title": "*Financial Times*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.ft.com/",
+      "local_path": null,
+      "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/external-resources/financial-times_a6dfa822-7fa1-40b5-89f3-7a0219d8f1a2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5929,
+      "title": "*The Wall Street Journal*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.wsj.com/",
+      "local_path": null,
+      "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/external-resources/the-wall-street-journal_c172250d-6ab2-49a1-b677-4079895c1ef6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5944,
+      "title": "Jason Pofahl",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://unsplash.com/@jasonpofahlphotography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+      "local_path": null,
+      "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/external-resources/jason-pofahl_e81a8255-5d5a-4fd9-b866-56a3461dece8/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5955,
+      "title": "Jason Pofahl",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://unsplash.com/photos/opened-gray-stainless-steel-drawers-zLtXrNXJpKM",
+      "local_path": null,
+      "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/external-resources/jason-pofahl_f9ede06d-f0d7-4bdb-a4ab-e270a1ed709e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5956,
+      "title": "Unsplash",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://unsplash.com/photos/opened-gray-stainless-steel-drawers-zLtXrNXJpKM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+      "local_path": null,
+      "resource_path": "/courses/14-02-principles-of-macroeconomics-spring-2023/external-resources/unsplash_fb573986-1003-4d30-9599-ff12e2a07113/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

@@ -163,23 +163,36 @@ function normalizeSource(material) {
 }
 
 export function inferUnitNumbers(material) {
+  const metadata = parseJson(material.metadata_json, {});
   const text = [
     material.title,
     material.resource_path,
-    material.source_url
+    material.source_url,
+    metadata.parent_title
   ].filter(Boolean).join(' ');
 
   return uniqueNumbers([
+    ...inferMetadataNumbers(metadata),
     ...inferLectureNumbers(text),
+    ...inferScheduleSessionNumbers(metadata.session_text),
     ...inferAssessmentNumbers(material)
   ]);
+}
+
+function inferMetadataNumbers(metadata) {
+  const values = [
+    metadata.lecture_number,
+    metadata.unit_number,
+    ...(Array.isArray(metadata.session_unit_numbers) ? metadata.session_unit_numbers : [])
+  ];
+  return values.map(value => Number.parseInt(value, 10));
 }
 
 function inferLectureNumbers(text) {
   const numbers = [];
   const value = String(text || '');
   const lectureRange = /\blectures?\s+0*(\d{1,3})(?:\s*(?:,|and|&|-|to)\s*0*(\d{1,3}))?/gi;
-  const compactLecture = /(?:^|[._\-/\s])lec(?:ture)?[_\-\s]?0*(\d{1,3})(?:[a-z])?(?=[._\-/\s]|$)/gi;
+  const compactLecture = /(?:^|[._\-/\s])lec(?:ture)?[_\-\s]?0*(\d{1,3})(?:\.\d+)?(?:[a-z])?(?=[._\-/\s%]|$)/gi;
 
   for (const match of value.matchAll(lectureRange)) {
     numbers.push(...expandRange(match[1], match[2]));
@@ -188,6 +201,38 @@ function inferLectureNumbers(text) {
   for (const match of value.matchAll(compactLecture)) {
     numbers.push(Number.parseInt(match[1], 10));
   }
+
+  return numbers;
+}
+
+function inferScheduleSessionNumbers(text) {
+  const value = String(text || '');
+  if (!value) return [];
+
+  const numbers = [];
+  const normalized = value.replace(/\s+/g, ' ');
+
+  if (/\bWeek\s+1\b/i.test(normalized) && /\bIntroduction\b/i.test(normalized)) {
+    numbers.push(1);
+  }
+
+  const foundation = /\bFoundation\s+(\d{1,2})\b/i.exec(normalized)?.[1];
+  if (foundation) {
+    const n = Number.parseInt(foundation, 10);
+    if (n === 1) numbers.push(2);
+    if (n >= 3) numbers.push(n);
+  }
+
+  const multimodal = /\bMultimodal\s+(\d{1,2})\b/i.exec(normalized)?.[1];
+  if (multimodal) numbers.push(Number.parseInt(multimodal, 10) + 3);
+
+  const largeModels = /\bLarge\s+models\s+(\d{1,2})\b/i.exec(normalized)?.[1];
+  if (largeModels) numbers.push(Number.parseInt(largeModels, 10) + 6);
+
+  if (/\bGenerative\s+AI\b/i.test(normalized)) numbers.push(9);
+
+  const interaction = /\bInteraction\s+(\d{1,2})\b/i.exec(normalized)?.[1];
+  if (interaction) numbers.push(Number.parseInt(interaction, 10) + 9);
 
   return numbers;
 }
@@ -204,8 +249,10 @@ function inferAssessmentNumbers(material) {
 }
 
 function getUnitMatch(material, unitNumber) {
+  const metadata = parseJson(material.metadata_json, {});
   const text = [material.title, material.resource_path, material.source_url].filter(Boolean).join(' ');
   const padded = String(unitNumber).padStart(2, '0');
+  if (inferMetadataNumbers(metadata).includes(unitNumber)) return 'metadata_signal';
   if (new RegExp(`\\blec(?:ture)?[_\\-\\s]?0*${unitNumber}\\b`, 'i').test(text) ||
       new RegExp(`\\blec(?:ture)?[_\\-\\s]?${padded}\\b`, 'i').test(text)) {
     return 'lecture_token';
@@ -292,7 +339,7 @@ function countBy(items, field) {
 
 function renderCourseUnits(courseUnits) {
   const lines = [
-    `# Course Units: ${courseUnits.course.title}`,
+    `# Course Units: ${String(courseUnits.course.title || '').trim()}`,
     '',
     `Course ID: ${courseUnits.course.course_id}`,
     `NotebookLM: ${courseUnits.course.notebooklm_notebook_id || '-'}`,
@@ -322,6 +369,7 @@ function renderCourseUnits(courseUnits) {
     lines.push('');
   }
 
+  while (lines[lines.length - 1] === '') lines.pop();
   return `${lines.join('\n')}\n`;
 }
 

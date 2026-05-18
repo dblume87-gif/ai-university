@@ -1,0 +1,1681 @@
+{
+  "generated_at": "2026-05-18T20:51:01.831Z",
+  "course": {
+    "course_id": "9-35-perception-spring-2024",
+    "title": "Perception",
+    "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 104,
+    "unit_count": 23,
+    "assigned_sources": 76,
+    "unassigned_sources": 28
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "1: Introduction to Perception",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4783,
+          "title": "1: Introduction to Perception",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec01_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec01_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4784,
+          "title": "1: Introduction to Perception",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=IPJC8loEmd4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec01_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4786,
+          "title": "1: Introduction to Perception (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1uAh4w1U8gvMS2dK_eEOnOPhnGBxXxU2N_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec01_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4665,
+          "title": "PSET 1 Colab Notebook Template",
+          "media_type": "external",
+          "material_type": "Problem Sets",
+          "source_url": "https://colab.research.google.com/drive/1bAQG2QzgIbnLz8V7kXSiKO05tjFZS7_F?usp=sharing",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/external-resources/pset-1-colab-notebook-template/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4708,
+          "title": "Problem Set 1: All About Sound",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35_s24_pset1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35_s24_pset1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2,
+        "external": 1
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "2: Frequency Selectivity and Nonlinearity in Hearing",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4752,
+          "title": "2: Frequency Selectivity and Nonlinearity in Hearing",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec02_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec02_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4753,
+          "title": "2: Frequency Selectivity and Nonlinearity in Hearing",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=qzNJi4AO_Aw",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec02_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4755,
+          "title": "2: Frequency Selectivity and Nonlinearity in Hearing (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1luRI_TqC7tUoEcNRBoTxWLQ0l0woziF7_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec02_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4771,
+          "title": "Problem Set 2: Sound and Audition",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35_s24_pset2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35_s24_pset2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4777,
+          "title": "Problem Set 2 Colab Notebook Template",
+          "media_type": "html",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/external-resources/problem-set-2-colab-notebook-template/data.json",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/external-resources/problem-set-2-colab-notebook-template/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 4812,
+          "title": "Problem Set 2 Colab Notebook Template",
+          "media_type": "external",
+          "material_type": "Problem Sets",
+          "source_url": "https://colab.research.google.com/drive/12V_vq_v1-D1GBeoTkYMR9yTLxGixF82y?usp=sharing",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/external-resources/problem-set-2-colab-notebook-template2/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 6,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2,
+        "html": 1,
+        "external": 1
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "3: Sound Localization, Pitch, Timbre, and Loudness / Psychophysical Methods",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4787,
+          "title": "3: Sound Localization, Pitch, Timbre, and Loudness / Psychophysical Methods",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec03_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec03_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4788,
+          "title": "3: Sound Localization, Pitch, Timbre, and Loudness / Psychophysical Methods",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=pTe0A8ZOAGk",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec03_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4790,
+          "title": "3: Sound Localization, Pitch, Timbre, and Loudness / Psychophysical Methods (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1ErE6g4O7CNyBSHwyKRA3UUp5qabMXg_m_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec03_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4756,
+          "title": "Problem Set 3: Auditory Streaming and Early Vision",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35_s24_pset3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35_s24_pset3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "4: Pitch Perception and Scene Analysis",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4748,
+          "title": "4: Pitch Perception and Scene Analysis",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec04_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec04_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4749,
+          "title": "4: Pitch Perception and Scene Analysis",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=aCZi_b68GLw",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec04_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4751,
+          "title": "4: Pitch Perception and Scene Analysis (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/15iZacbpsFNeYmjfplBRMEczAuJkwCaEJ_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec04_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4699,
+          "title": "Problem Set 4: Early and Mid-Level Vision",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35_s24_pset4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35_s24_pset4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "5: Auditory Scene Analysis",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4767,
+          "title": "5: Auditory Scene Analysis",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec05_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec05_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4768,
+          "title": "5: Auditory Scene Analysis",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=_Pdlr0jOhbQ",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec05_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4770,
+          "title": "5: Auditory Scene Analysis (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1eGvHzsytIKzqaqKUqS1nBhycBiVa_mHi_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec05_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "6: Auditory Scene Analysis (cont'd) and Speech Perception",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4805,
+          "title": "6: Auditory Scene Analysis (cont'd) and Speech Perception",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec06_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec06_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4806,
+          "title": "6: Auditory Scene Analysis (cont'd) and Speech Perception",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=A9j5TFfysoU",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec06_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4808,
+          "title": "6: Auditory Scene Analysis (cont'd) and Speech Perception (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1zE7kwtgRIcMRSEz_ax9WWHUWaraikISL_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec06_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "7: The Eye and Retina",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4675,
+          "title": "7: The Eye and Retina",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec07_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec07_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4676,
+          "title": "7: The Eye and Retina",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=piG9-U9loXo",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec07_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4678,
+          "title": "7: The Eye and Retina (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1xeiJvt6NcEhjqBAGT8EUSSUt0ybpl8HF_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec07_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "8: The Eye and the Retina (cont'd)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4817,
+          "title": "8: The Eye and the Retina (cont'd)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec08_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec08_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4818,
+          "title": "8: The Eye and the Retina (cont'd)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=BxpmcOO2YqQ",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec08_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4820,
+          "title": "8: The Eye and the Retina (cont'd) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1pdXxs7eiaADqaDm9rHyzAI5hAqLccjYD_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec08_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "9: Lateral Geniculate Nucleus (LGN) / Primary Visual Cortex (V1)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4733,
+          "title": "9: Lateral Geniculate Nucleus (LGN) / Primary Visual Cortex (V1)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec09_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec09_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4734,
+          "title": "9: Lateral Geniculate Nucleus (LGN) / Primary Visual Cortex (V1)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=5XHGEOOYnzw",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec09_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4736,
+          "title": "9: Lateral Geniculate Nucleus (LGN) / Primary Visual Cortex (V1) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1nxk3OGaNNE17_QsTohWbvuv7sMbGMBcg_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec09_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "10: Mid-Level Vision",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4791,
+          "title": "10: Mid-Level Vision",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec10_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec10_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4792,
+          "title": "10: Mid-Level Vision",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=-I6-wJuPXk4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec10_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4794,
+          "title": "10: Mid-Level Vision (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1u-8A7FlrOncwcFu5mXhaEOL5D6ZH4gEV_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec10_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "11: Mid-Level Vision (cont'd)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4778,
+          "title": "11: Mid-Level Vision (cont'd)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec11_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec11_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4779,
+          "title": "11: Mid-Level Vision (cont'd)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=4FXDthnSA5c",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec11_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4781,
+          "title": "11: Mid-Level Vision (cont'd) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1H11TtrKSscUZf0iJElTAxz1eip4lix3T_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec11_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "12: Lightness Perception, Color Perception",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4671,
+          "title": "12: Lightness Perception, Color Perception",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec12_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec12_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4672,
+          "title": "12: Lightness Perception, Color Perception",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=uv2vYLFCgX0",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec12_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4674,
+          "title": "12: Lightness Perception, Color Perception (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1f-N4O9-tBzvba7-7g_ZJPP2otXozVQGM_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec12_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "13: Color Perception (cont'd), Motion Perception",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4797,
+          "title": "13: Color Perception (cont'd), Motion Perception",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec13_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec13_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4798,
+          "title": "13: Color Perception (cont'd), Motion Perception",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Aave3OyCGPc",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec13_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4800,
+          "title": "13: Color Perception (cont'd), Motion Perception (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1Oc1EnMUqQvUBOywZGOTnCrb2MzMS4FBV_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec13_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "14: Motion Perception (cont'd)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4667,
+          "title": "14: Motion Perception (cont'd)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec14_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec14_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4668,
+          "title": "14: Motion Perception (cont'd)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=ReKjU4ZUAjg",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec14_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4670,
+          "title": "14: Motion Perception (cont'd) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/19s7a438aGyrr1lu-nOwO5SU9au3D1BQm_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec14_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "15: Depth Perception",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4759,
+          "title": "15: Depth Perception",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec15_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec15_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4760,
+          "title": "15: Depth Perception",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=gaZTffZYyrg",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec15_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4762,
+          "title": "15: Depth Perception (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1wzKWVMpT1JKE_KupbgpdqFqAQ8PQcrHA_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec15_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "16: Depth Perception (cont'd)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4712,
+          "title": "16: Depth Perception (cont'd)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec16_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec16_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4713,
+          "title": "16: Depth Perception (cont'd)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=ZF7oiSWipB0",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec16_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4715,
+          "title": "16: Depth Perception (cont'd) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1sWHmMDzwfHHHZWc1G_enpNTZC3Iif0hB_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec16_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "17: The Generic Viewpoint Assumption; Object Recognition",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4702,
+          "title": "17: The Generic Viewpoint Assumption; Object Recognition",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec17_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec17_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4703,
+          "title": "17: The Generic Viewpoint Assumption; Object Recognition",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=7cEAX5gqd7o",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec17_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4706,
+          "title": "17: The Generic Viewpoint Assumption; Object Recognition (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1hysBtU4M8Lm7X936MC3uqHwn-dVoibec_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec17_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "18: Object Recognition (cont'd), Texture Perception",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4717,
+          "title": "18: Object Recognition (cont'd), Texture Perception",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec18_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec18_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4718,
+          "title": "18: Object Recognition (cont'd), Texture Perception",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=q-ukGIZt3Do",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec18_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4720,
+          "title": "18: Object Recognition (cont'd), Texture Perception (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1nAADIVWqdaezsfrfbRS5rZ_JdBXuDeDq_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec18_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "19: Texture Perception (cont'd)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4737,
+          "title": "19: Texture Perception (cont'd)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec19_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec19_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4738,
+          "title": "19: Texture Perception (cont'd)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=dSib18ws_jI",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec19_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4740,
+          "title": "19: Texture Perception (cont'd) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1zWBn5b4gmdQ-wJCO8AwtXu0iZOXLxO2T_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec19_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "20: Attention",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4721,
+          "title": "20: Attention",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec20_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec20_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4722,
+          "title": "20: Attention",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=v36j3rQaH-s",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec20_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4724,
+          "title": "20: Attention (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1ruXNEaH7vyvr28Wvnsi50BfYNpfDYgOz_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec20_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "21: Attention (cont'd)",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4742,
+          "title": "21: Attention (cont'd)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec21_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec21_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4743,
+          "title": "21: Attention (cont'd)",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=sdYDZeXzE5Q",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec21_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4745,
+          "title": "21: Attention (cont'd) (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/13pR3E9yYpqReTgZZ8bwpIzmImN4qpxG4_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec21_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 22,
+      "title": "22: Attention (cont'd), Touch",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4690,
+          "title": "22: Attention (cont'd), Touch",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec22_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec22_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4691,
+          "title": "22: Attention (cont'd), Touch",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=llVlVvk3KS0",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec22_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4693,
+          "title": "22: Attention (cont'd), Touch (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/1DuJ1lLILAouoBDxyN9n9iAO3pCVe9Hzn_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec22_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "23: Olfaction and Gustation",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4763,
+          "title": "23: Olfaction and Gustation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35s24_lec23_1080p_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec23_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4764,
+          "title": "23: Olfaction and Gustation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Mre84EsXY_Y",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec23_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 4766,
+          "title": "23: Olfaction and Gustation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/13ND8w16VSaPhmfBMI1Jm6ZwJy3V3zv31_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35s24_lec23_1080p_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 4666,
+      "title": "Detectabilityof interaural delay in high-frequency complex waveforms",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.1121/1.1928135",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/detectabilityof-interaural-delay-in-high-frequency-complex-waveforms/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4679,
+      "title": "Final Exam Practice Questions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35_s24_final_exam_practice_questions.pdf",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35_s24_final_exam_practice_questions_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4682,
+      "title": "Midterm 3 Practice Questions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35_s24_midterm3_practice_questions.pdf",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35_s24_midterm3_practice_questions_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4688,
+      "title": "Open Textbook",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://chooser.crossref.org/?doi=10.7551%2Fmitpress%2F9780262514620.001.0001",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/open-textbook/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4689,
+      "title": "Open Library link",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://openlibrary.org/books/OL1004103M/Signals_sound_and_sensation",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/open-library-link/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4694,
+      "title": "Open Library",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://openlibrary.org/works/OL7940906W/An_Introduction_to_the_Psychology_of_Hearing",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/open-library/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4695,
+      "title": "MATLAB provides a 30-day trial:",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.mathworks.com/products/matlab-online/matlab-online-versions.html",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/matlab-provides-a-30-day-trial/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4696,
+      "title": "Midterm 1 Practice Questions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35_s24_midterm1_practice_questions.pdf",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35_s24_midterm1_practice_questions_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4711,
+      "title": "The Sense of Hearing",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.routledge.com/The-Sense-of-Hearing/Plack/p/book/9781032299471",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/the-sense-of-hearing/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4716,
+      "title": "Open Library",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://openlibrary.org/works/OL3519712W/Foundations_of_vision?edition=key%3A/books/OL1116664M",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/open-library2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4725,
+      "title": "Open Library",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://openlibrary.org/works/OL16135098W/Sensation_perception?edition=key%3A/books/OL25019020M",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/open-library3/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4726,
+      "title": "YouTube Playlist",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP62-9RweyYBIpkqfo5dfcuS8",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/youtube-playlist/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4727,
+      "title": "Foundations of Vision",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://foundationsofvision.stanford.edu/",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/foundations-of-vision/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4731,
+      "title": "9.01 Introduction to Neuroscience",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/9-01-introduction-to-neuroscience-fall-2007/",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/901-introduction-to-neuroscience/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4732,
+      "title": "Open Access link to Ch. 1",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.7551/mitpress/8671.003.0006",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/open-access-link-to-ch-1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4741,
+      "title": "Auditory Neuroscience",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mitpress.mit.edu/9780262518024/auditory-neuroscience/",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/auditory-neuroscience/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4746,
+      "title": "Lexical Influences on Auditory Streaming",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.1016/j.cub.2013.06.042",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/lexical-influences-on-auditory-streaming/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4747,
+      "title": "Foundations of Vision",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://wandell.github.io/FOV-1995/",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/foundations-of-vision2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4774,
+      "title": "Midterm 4 Practice Questions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35_s24_midterm4_practice_questions.pdf",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35_s24_midterm4_practice_questions_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4782,
+      "title": "Vision by David Marr,",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.7551/mitpress/9780262514620.001.0001",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/vision-by-david-marr/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4795,
+      "title": "Python is free to download and use",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.python.org/downloads/",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/python-is-free-to-download-and-use/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4796,
+      "title": "Lightness Perception and Lightness Illusions",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://persci.mit.edu/gaz/publications/gazzan.dir/gazzan.htm",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/lightness-perception-and-lightness-illusions/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4801,
+      "title": "Sensation & Perception",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.1093/hesc/9780197663813.001.0001",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/sensation-perception/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4809,
+      "title": "Midterm 2 Practice Questions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/9-35-perception-spring-2024/mit9_35_s24_midterm2_practice_questions.pdf",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/resources/mit9_35_s24_midterm2_practice_questions_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 4813,
+      "title": "https://www.sciencedirect.com",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.sciencedirect.com/",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/httpswwwsciencedirectcom/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4814,
+      "title": "Open Access.",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.elsevier.com/about/policies-and-standards/open-access-licenses/elsevier-user",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/open-access/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4815,
+      "title": "Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Vision/D8XxCwAAQBAJ",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/google-books/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4816,
+      "title": "https://doi.org/10.1016/j.cub.2024.05.056",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://doi.org/10.1016/j.cub.2024.05.056",
+      "local_path": null,
+      "resource_path": "/courses/9-35-perception-spring-2024/external-resources/httpsdoiorg101016jcub202405056/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

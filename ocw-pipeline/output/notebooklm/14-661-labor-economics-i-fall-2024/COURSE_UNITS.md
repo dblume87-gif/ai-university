@@ -1,0 +1,323 @@
+# Course Units: Labor Economics I
+
+Course ID: 14-661-labor-economics-i-fall-2024
+NotebookLM: -
+Units: 5
+Assigned Sources: 5
+Unassigned Sources: 293
+
+## Unit 1: 14.661 Labor Economics I - Problem Set 1
+
+- [pdf] 14.661 Labor Economics I - Problem Set 1 — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_problem_set_1.pdf
+
+## Unit 2: 14.661 Labor Economics I - Problem Set 2
+
+- [pdf] 14.661 Labor Economics I - Problem Set 2 — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_problem_set_2.pdf
+
+## Unit 3: 14.661 Labor Economics I - Problem Set 3
+
+- [pdf] 14.661 Labor Economics I - Problem Set 3 — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_problem_set_3.pdf
+
+## Unit 4: 14.661 Labor Economics I - Problem Set 4
+
+- [pdf] 14.661 Labor Economics I - Problem Set 4 — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_problem_set_4.pdf
+
+## Unit 5: 14.661 Labor Economics I - Problem Set 5
+
+- [pdf] 14.661 Labor Economics I - Problem Set 5 — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_problem_set_5.pdf
+
+## Unassigned Sources
+
+- [pdf] 14.661 Labor Economics I - Problem Set 0 — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_problem_set_0.pdf
+- [external] “Estimating the Payoff to Attending a More Selective College: An Application of Selection on Observables and Unobservables.” — https://www.nber.org/papers/w7322
+- [pdf] “The Trend Is the Cycle: Job Polarization and Jobless Recoveries.” (PDF) — https://www.nber.org/system/files/working_papers/w18334/revisions/w18334.rev0.pdf
+- [pdf] “Do Better Schools Matter? Parental Evaluation of Elementary Education.” (PDF) — https://www.newyorkfed.org/medialibrary/media/research/staff_reports/research_papers/9729.pdf
+- [external] “Small Sample Bias in Synthetic Cohort Models of Labor Supply.” — https://onlinelibrary.wiley.com/doi/full/10.1002/jae.938
+- [pdf] ***Lectures in Labor Economics*****, Web notes** — https://economics.mit.edu/sites/default/files/inline-files/Lectures%20in%20Labor%20Economics.pdf
+- [pdf] 14.661 Labor Economics I – Unit 5 – Schooling, Experience, and Earnings — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit05_schooling.pdf
+- [external] “Black-White Differences in Returns to Schooling.” — https://dataspace.princeton.edu/handle/88435/dsp01mg74qm09j
+- [external] “What Do Fisherman Tell Us that Taxi Drivers Don’t? An Empirical Investigation of Labor Supply.” — https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2262677
+- [external] “Earning Losses of Displaced Workers.” — https://www.researchgate.net/publication/23695901_Earning_Losses_of_Displaced_Workers
+- [pdf] “The Unemployment Volatility Puzzle: Is Wage Stickiness the Answer?” (PDF) — https://eprints.lse.ac.uk/4460/1/The_Unemployment_Volatility_Puzzle_Is_Wage_Stickiness_the_Answer.pdf
+- [external] “Job Market Signaling.” — https://academic.oup.com/qje/article-abstract/87/3/355/1909092
+- [external] “Community Colleges and Upward Mobility.” — https://www.aeaweb.org/articles?id=10.1257/aer.20181756
+- [pdf] “Moral Hazard and Observability.” (PDF) — https://people.duke.edu/~qc2/BA532/1979%20Rand%20Holmstrom.pdf
+- [external] “Minimum Wages and On-the-Job Training." — https://dspace.mit.edu/handle/1721.1/63851
+- [external] “The Reasons for Wage Rigidity: Evidence from a Survey of Firms.” (PDF) — https://huskiecommons.lib.niu.edu/cgi/viewcontent.cgi?article=1837&context=allfaculty-peerpub
+- [external] "The Flow Approach to Labor Markets: New Data Sources and Micro-Macro Links." — https://www.aeaweb.org/articles?id=10.1257/jep.20.3.3
+- [external] “An Empirical Analysis of Welfare Dependence.” — https://dataspace.princeton.edu/handle/88435/dsp019880vq98f
+- [html] “How Much Do Immigrant and Trade Affect Labor Market Outcomes?” — https://www.brookings.edu/articles/how-much-do-immigration-and-trade-affect-labor-market-outcomes/
+- [pdf] “Lifetime Earnings and the Vietnam Era Draft Lottery: Evidence from Social Security Administrative Records.” (PDF) — https://economics.mit.edu/sites/default/files/publications/Angrist%201990%20-%20Lifetime%20Earnings%20and%20the%20Vietname%20.pdf
+- [pdf] 14.661 Labor Economics I - Unit 3 - Life Cycle Labor Supply — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit03_life_cycle.pdf
+- [pdf] “Merit Aid, College Quality, and College Completion: Massachusetts' Adams Scholarship as an In-Kind Subsidy.” (PDF) — https://scholar.harvard.edu/files/joshuagoodman/files/paper_2.pdf
+- [external] "The Costs and Benefits of Ownership: A Theory of Vertical and Lateral Integration." (PDF) — https://dash.harvard.edu/server/api/core/bitstreams/7312037c-527a-6bd4-e053-0100007fdf3b/content
+- [external] “Does Aid Matter? Measuring the Effect of Student Aid on College Attendance and Completion.” — https://www.nber.org/papers/w7422
+- [external] “Protective or Counter-Productive? Labor Market Institutions and the Effect of Immigration on EU Natives.” — https://onlinelibrary.wiley.com/doi/full/10.1111/1468-0297.00136
+- [pdf] 14.661 Labor Economics I - Unit 2 - Labor Supply Context — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit02_context.pdf
+- [pdf] 14.661 Labor Economics I – Unit 9 - Efficiency Wages — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit09_efficiency.pdf
+- [pdf] “Specific Capital, Mobility, and Wages: Wages Rise with Job Seniority.” (PDF) — https://www.nber.org/system/files/working_papers/w3294/w3294.pdf
+- [external] “New Evidence on the Causal Link between the Quantity and Quality of Children.” — https://www.nber.org/papers/w11835
+- [external] “Labor Supply: A Review of Alternative Approaches.” — https://www.sciencedirect.com/science/article/pii/S1573446399030084
+- [pdf] “Minimum Wages and Employment: A Case Study of the Fast Food Industry in New Jersey and Pennsylvania.” (PDF) — https://davidcard.berkeley.edu/papers/njmin-aer.pdf
+- [pdf] “Immigration and Inequality.” (PDF) — https://davidcard.berkeley.edu/papers/immigration-and-inequality.pdf
+- [pdf] “State Capacity and Economic Development: A Network Approach.” (PDF) — https://economics.mit.edu/sites/default/files/publications/State%20Capacity%20and%20Economic%20Development%20-%20A%20Networ.pdf
+- [pdf] “The Elite Illusion: Achievement Effects at Boston and New York Exam Schools.” (PDF) — https://economics.mit.edu/sites/default/files/inline-files/The%20elite%20illusion.pdf
+- [external] “The Effects of Minimum Wages on Employment: Theory and Evidence from Britain.” — https://www.journals.uchicago.edu/doi/10.1086/209911
+- [external] “Gender Differences in Labor Supply: Experimental Evidence from the Gig Economy.” — https://www.semanticscholar.org/paper/Gender-Differences-in-Labor-Supply%3A-Experimental-Caldwell/f930a96788aa07ba26ad45218ed0398d508e979e
+- [external] Bill Jacobus — https://www.flickr.com/photos/67513462@N00/122497423
+- [pdf] 14.661 Labor Economics I – Unit 6 - Labor Market Externalities — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit06_externalities.pdf
+- [pdf] 14.661 Labor Economics I – Unit 4 – Empirical Minimum Wage Effects — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit04_empirical.pdf
+- [external] “Is the EITC as Good as an NIT? Conditional Cash Transfers and Tax Incidence.” — https://www.aeaweb.org/articles?id=10.1257/pol.2.1.177
+- [pdf] “Equalizing Superstars: The Internet and the Democratization of Education.” (PDF) — https://economics.mit.edu/sites/default/files/publications/Equalizing%20Superstars%20-%20The%20Internet%20and%20the%20Democ.pdf
+- [pdf] “Beyond Becker: Training in Imperfect Labor Markets.” (PDF) — https://economics.mit.edu/sites/default/files/publications/beyond-becker-training-in-imperfect-labor-markets..pdf
+- [pdf] "Did Henry Ford Pay Efficiency Wages?" (PDF) — https://www.nber.org/system/files/working_papers/w2101/w2101.pdf
+- [pdf] “Good Jobs versus Bad Jobs.” (PDF) — https://web.mit.edu/daron/www/jole2.pdf
+- [pdf] “Human Capital Externalities in Cities.” (PDF) — https://eml.berkeley.edu/~moretti/cities4.pdf
+- [external] “The Limited Influence of Unemployment on the Wage Bargain.” — https://www.aeaweb.org/articles?id=10.1257/aer.98.4.1653
+- [external] “Wages, Rents, and the Quality of Life.” — https://www.journals.uchicago.edu/doi/abs/10.1086/261120
+- [external] “Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects.” — https://www.aeaweb.org/articles?id=10.1257/jel.20191450
+- [pdf] “Peer Effects and Multiple Equilibria in the Risky Behavior of Friends.” (PDF) — https://davidcard.berkeley.edu/papers/RESTAT-2013.pdf
+- [external] “From Natural Variation to Optimal Policy? The Lucas Critique Meets Peer Effects.” — https://www.nber.org/papers/w16865
+- [external] “Using Differences in Knowledge Across Neighborhoods to Uncover the Impacts of the EITC on Earnings.” — https://www.aeaweb.org/articles?id=10.1257/aer.103.7.2683
+- [external] “The Changing Nature of U.S. Wage Inequality.” — https://www.nber.org/papers/w13523
+- [html] “The Beveridge Curve.” — https://www.brookings.edu/articles/the-beveridge-curve/
+- [external] “How Wages Change: Micro Evidence from the International Flexibility Project.” — https://www.clevelandfed.org/publications/working-paper/2006/wp-0620-how-wages-change-micro-evidence-from-the-international-wage-flexibility-project
+- [external] “Estimating the Effect of Unearned Income on Labor Supply: Evidence from a Survey of Lottery Players.” — https://www.nber.org/papers/w7001
+- [external] “Contractual Mix in Southern Agriculture since the Civil War: Facts, Hypotheses, and Tests.” — https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/contractual-mix-in-southern-agriculture-since-the-civil-war-facts-hypotheses-and-tests/7649D54A3353D41032A9C0ACA363561F
+- [external] “Managerial Incentive Problems: A Dynamic Perspective.” — https://academic.oup.com/restud/article/66/1/169/1666374
+- [pdf] “Does Education Raise Productivity, or Just Reflect It?” (PDF) — https://www.ucd.ie/geary/static/publications/workingpapers/isscwp2003prod.pdf
+- [pdf] 14.661 Labor Economics I – Unit 4 – Key Ideas — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit04_ideas.pdf
+- [pdf] "Do Incentive Contracts Undermine Voluntary Cooperation?" (PDF) — https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/146576/eth-25538-01.pdf
+- [external] “Signaling and Employer Learning with Instruments.” — https://www.nber.org/papers/w25885
+- [html] *14.04 Intermediate Microeconomic Theory* — https://ocw.mit.edu/courses/14-04-intermediate-microeconomic-theory-fall-2020/
+- [pdf] “The Effect of Low-Skilled Immigration on US Prices: Evidence from CPI Data.” — https://www.economics.uci.edu/files/docs/colloqpapers/w06/Cortes.pdf
+- [external] “Do Labor Market Policies Have Displacement Effects? Evidence from a Clustered Randomized Experiment.” — https://dspace.mit.edu/handle/1721.1/76718
+- [html] *Personnel Economics* — https://mitpress.mit.edu/9780262512947/personnel-economics/
+- [pdf] 14.661 Labor Economics I - Unit 3 - Key Ideas — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit03_ideas.pdf
+- [external] “Estimating the Returns to Schooling: Some Econometric Problems.” — https://imf.primo.exlibrisgroup.com/discovery/fulldisplay?docid=cdi_proquest_journals_214680746&context=PC&vid=01TIMF_INST:Shared&lang=en&search_scope=MyInst_and_CI&adaptor=Primo%20Central&query=null,,2009&facet=citing,exact,cdi_FETCH-LOGICAL-c6007-503f535136148ab8ee84ee51a1b90d2853ee534a8e2ad5d057ff9546a093840f3&offset=10
+- [external] "Experimental Estimates of Education Production Functions.” — https://academic.oup.com/qje/article/114/2/497/1844226
+- [external] “Equilibrium Unemployment as Worker Discipline Device.” — https://www.jstor.org/stable/1804018?seq=1
+- [external] "Using Regional Variation to Measure the Effect of the Federal Minimum Wage.” — https://www.jstor.org/stable/2524736?seq=1
+- [html] “The Labor Market in the Great Recession.” — https://www.brookings.edu/articles/the-labor-market-in-the-great-recession/
+- [external] “Identification of Peer Effects through Social Networks.” — https://www.sciencedirect.com/science/article/pii/S0304407609000335
+- [pdf] "Outside Options, Bargaining, and Wages: Evidence from Coworker Networks." (PDF) — https://sydneec.github.io/Website/Caldwell_Harmon.pdf
+- [pdf] “Wayward Sons: The Emerging Gender Gap in Labor Markets and Education.” (PDF) — https://economics.mit.edu/sites/default/files/publications/wayward%20sons%202013.pdf
+- [external] “Productivity Gains from Geographic Concentration of Human Capital: Evidence from the Cities.” — https://www.sciencedirect.com/science/article/pii/S0094119083710429
+- [external] “The Effects of Collective Bargaining Rights on Public Employee Compensation: Evidence from Teachers, Fire Fighters, and Police.” — https://www.semanticscholar.org/paper/The-Effects-of-Collective-Bargaining-Rights-on-Frandsen/3faf4b375b96bc3e71fe45ee9cbf96dec7238d29?p2df
+- [external] “Do Workers Work More if Wages are High? Evidence from a Randomized Field Experiment.” — https://www.aeaweb.org/articles?id=10.1257/aer.97.1.298
+- [external] “Income Distribution, Communities and the Quality of Public Education.” — https://academic.oup.com/qje/article/111/1/135/1862177
+- [external] “Efficiency Wages and the Inter-Industry Wage Structure." — https://www.nber.org/papers/w1952
+- [external] “Human Capital Versus Signaling Models: University Access and High School Dropouts.” — https://www.journals.uchicago.edu/doi/full/10.1086/322089
+- [external] “Non-Parametric Estimates of the Labor Supply Effects of Negative Income Tax Programs.” — https://dataspace.princeton.edu/handle/88435/dsp01rv042t06t
+- [external] “Empirical Age-Earnings Profiles.” — https://www.journals.uchicago.edu/doi/abs/10.1086/298220
+- [pdf] “Educational Production.” (PDF) — https://www.nber.org/system/files/working_papers/w7349/w7349.pdf
+- [pdf] “Uber versus Taxi: A Driver’s Eye View.” — https://economics.mit.edu/sites/default/files/publications/AEJApp-2019-0655%20%281%29.pdf
+- [pdf] “Income Distribution and Macroeconomics.” (PDF) — https://economics.brown.edu/sites/default/files/papers/2013-12_paper.pdf
+- [external] “Firm-Specific Capital and Promotion Ladders.” — https://www.sciencedirect.com/science/article/pii/088915839290021U
+- [external] “Schools, Job Flexibility, and Married Women's Labor Supply.” — https://www.nber.org/papers/w29660
+- [external] “Who Pays for the Minimum Wage?” — https://www.aeaweb.org/articles?id=10.1257/aer.20171445
+- [pdf] “Workings of a City: Location, Education and Production.” (PDF) — https://www.princeton.edu/~rbenabou/papers/QJE1993.pdf
+- [external] “Vouchers for Private Schooling in Colombia: Evidence from a Randomized Natural Experiment.” — https://www.aeaweb.org/articles?id=10.1257/000282802762024629
+- [external] “Job Creation and Job Destruction in the Theory of Unemployment.” — https://academic.oup.com/restud/article-abstract/61/3/397/1589192?redirectedFrom=fulltext
+- [external] “Reference-Dependent Preferences and Labor Supply: The Case of New York City Taxi Drivers.” — https://www.aeaweb.org/articles?id=10.1257/aer.98.3.1069
+- [pdf] “Why Is the U.S. Unemployment Rate So Much Lower?” (PDF) — https://home.uchicago.edu/~shimer/wp/published/US_unemployment.pdf
+- [pdf] “Does Compulsory School Attendance Affect Schooling and Earnings?” (PDF) — https://www.nber.org/system/files/working_papers/w3572/w3572.pdf
+- [external] “Are Efficiency and Equity in School Finance Substitutes or Complements?” — https://www.aeaweb.org/articles?id=10.1257/jep.10.4.51
+- [pdf] "The Effect of Minimum Wages on Low-Wage Jobs.” (PDF) — https://www.nber.org/system/files/working_papers/w25434/w25434.pdf
+- [external] “The Estimation of Income and Substitution Effects in a Model of Family Labor Supply.” — https://dataspace.princeton.edu/handle/88435/dsp01r781wg015
+- [external] "Job Duration, Seniority, and Earnings." — https://dspace.mit.edu/bitstream/handle/1721.1/48282/jobdurationsenio00abra.pdf?sequence=1
+- [pdf] “Long-Run Impacts of Unions on Firms: New Evidence from Financial Markets, 1961–1999." (PDF) — https://www.princeton.edu/~davidlee/wp/w14709.pdf
+- [pdf] 14.661 Labor Economics I - Unit 2 - Key Ideas 2 — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit02_ideas.pdf
+- [external] “Identifying Human Capital Externalities: Theory with Applications.” — https://bse.eu/research/working-papers/identifying-human-capital-externalities-theory-applications
+- [external] “The Cyclical Behavior of Equilibrium Unemployment and Vacancies.” — https://www.aeaweb.org/articles?id=10.1257/0002828053828572
+- [pdf] “Estimating the Return to Schooling: Progress on Some Persistent Econometric Problems.” (PDF) — https://davidcard.berkeley.edu/papers/return-to-schooling.pdf
+- [external] “Education and Self-Selection.” — https://www.journals.uchicago.edu/doi/abs/10.1086/260821
+- [pdf] 14.661 Labor Economics I – Unit 4 – Labor Demand — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit04_labor_demand.pdf
+- [external] “Public Schooling for Young Children and Maternal Labor Supply.” — https://www.aeaweb.org/articles?id=10.1257/000282802760015748
+- [external] “Job Mobility and the Careers of Young Men.” — https://www.nber.org/papers/w2649
+- [external] “Work of the Past, Work of the Future.” — https://www.aeaweb.org/articles?id=10.1257/pandp.20191110
+- [external] “Estimating and Interpreting Peer and Role Model Effects from Randomly Assign Social Groups at West Point.” — https://direct.mit.edu/rest/article/89/2/289/57685/Estimating-and-Interpreting-Peer-and-Role-Model
+- [external] “Is Tomorrow Another Day? The Labor Supply of New York City Cab Drivers.” — https://dataspace.princeton.edu/handle/88435/dsp01wd375w30d
+- [external] "Labor Markets in the 20<sup>th</sup> Century." — https://www.nber.org/papers/h0058
+- [external] “Monopsony in the Labor Market. — https://econpapers.repec.org/article/aeajeclit/v_3a35_3ay_3a1997_3ai_3a1_3ap_3a86-112.htm
+- [external] “Identification of Endogenous Social Effects: The Reflection Problem.” — https://academic.oup.com/restud/article-abstract/60/3/531/1570385?redirectedFrom=fulltext
+- [external] “Minimum Wages, Wages, and Price Pass-Through: The Case of McDonald's.” — https://www.nber.org/papers/w28506
+- [external] “Real Wages, Employment, and Inflation.” — https://www.journals.uchicago.edu/doi/abs/10.1086/259559?journalCode=jpe
+- [pdf] “Why Do Temporary Help Firms Provide Free General Skills Training?” (PDF) — https://economics.mit.edu/sites/default/files/publications/why%20do%20temporary%20jobs%202001.pdf
+- [external] “The Demand for Labor in the Long Run.” — https://www.nber.org/papers/w1297
+- [external] “The Surprising Impacts of Unionization: Evidence from Matched Employer-Employee Data.” — https://www.journals.uchicago.edu/doi/10.1086/711852
+- [html] “Regression Toward Mediocrity in Economic Stature.” — https://ideas.repec.org/a/aea/aecrev/v82y1992i3p409-29.html
+- [external] “The Perils of Peer Effects.” — https://dspace.mit.edu/handle/1721.1/113693
+- [external] “Determining Participation in Income-Tested Social Programs.” — https://www.tandfonline.com/doi/abs/10.1080/01621459.1983.10478004
+- [pdf] “Welfare, the Earned Income Tax Credit, and the Labor Supply of Single Mothers.” (PDF) — http://piketty.pse.ens.fr/files/MeyerRosenbaum2001.pdf
+- [pdf] 14.661 Labor Economics I – Unit 7 - Social Mobility, Peer Effects, and Human Capital — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit07_social_peer_capital.pdf
+- [pdf] 14.661 Labor Economics I - Unit 3 - Uber vs. Taxi — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit03_uber_taxi.pdf
+- [pdf] “Schooling and the Vietnam-Era GI Bill: Evidence from the Draft Lottery.” (PDF) — https://economics.mit.edu/sites/default/files/publications/04_APP20090251_32corrected_mar8JA.pdf
+- [external] “The Effect of Fertility on Mothers’ Labour Supply Over the Last Two Centuries.” — https://cepr.org/voxeu/columns/effect-fertility-mothers-labour-supply-over-last-two-centuries#:~:text=The%20key%20finding%20is%20that,negligible%20one%20in%20developing%20countries.
+- [external] “An Interplant Test of the Efficiency Wage Hypothesis.” — https://kuscholarworks.ku.edu/entities/publication/544e7766-07dd-4c65-b6a6-c606e9f3924c
+- [pdf] “Multitask Principal-Agent Analyses: Incentive Contracts, Asset Ownership, and Job Design.” (PDF) — https://people.duke.edu/~qc2/BA532/1991%20JLEO%20Holmstrom%20Milgrom.pdf
+- [pdf] 14.661 Labor Economics I – Unit 11 - Search and Unemployment — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit11_search.pdf
+- [pdf] 14.661 Labor Economics I - Unit 1 - Labor Market Trends — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit01_trends.pdf
+- [external] “Leisure, Home Production, and Work—The Theory of the Allocation of Time Revisited.” — https://www.nber.org/papers/w0137
+- [external] “Interpreting Instrumental Variables Estimates of the Returns to Schooling.” — https://irs.princeton.edu/publications/working-papers/interpreting-instrumental-variables-estimates-returns-schooling
+- [external] “Intertemporal Labor Supply: An Assessment” — https://www.nber.org/papers/w3602
+- [external] “Why Has CEO Pay Increased so Much?” — https://xgabaix.scholars.harvard.edu/publications/why-has-ceo-pay-increased-so-much
+- [external] “Grouped-Data Estimation and Testing in Simple Labor Supply Models.” — https://dataspace.princeton.edu/handle/88435/dsp01v405s9384
+- [external] “The Economics of Superstars.” — https://www.jstor.org/stable/41210977
+- [external] “Human Capital Versus Sorting: The Effects of Compulsory Attendance Laws.” — https://academic.oup.com/qje/article-abstract/101/3/609/1899676
+- [pdf] “Wage Rigidities and Jobless Recoveries.” (PDF) — https://www.atlantafed.org/-/media/documents/news/conferences/2010/chcs/shimer.pdf
+- [external] “The Economics of Career Concerns, Part I: Comparing Information Structures.” — https://academic.oup.com/restud/article/66/1/183/1666377
+- [external] “The Wage Policy of a Firm.” — https://academic.oup.com/qje/article-abstract/109/4/921/1866492
+- [external] “The Transformation of Manufacturing and the Decline in US Employment.” — https://www.nber.org/papers/w24468
+- [external] “Specialization in Same-Sex and Different-Sex Couples.” — https://www.sciencedirect.com/science/article/pii/S0927537121000300#:~:text=We%20find%20that%20both%20same,most%20traditional%20different%2Dsex%20couples.
+- [pdf] “The Structure of Wages and Investment in General Training.” (PDF) — https://economics.mit.edu/sites/default/files/publications/structure-of-wages-and-investment-in-general-train.pdf
+- [pdf] “Accountability and Flexibility in Public Schools: Evidence from Boston's Charters and Pilots.” (PDF) — https://economics.mit.edu/sites/default/files/publications/The%20Quarterly%20Journal%20of%20Economics-2011-Abdulkadir.pdf
+- [pdf] “Social and Cognitive Peer Effects: Experimental Evidence from Selective High Schools in Peru.” (PDF) — https://conference.iza.org/conference_files/behavioral_2019/zarate_r8378.pdf
+- [pdf] "The Great Compression: The Wage Structure in the United States at Mid-century." (PDF) — https://www.nber.org/system/files/working_papers/w3817/w3817.pdf
+- [external] “Fiscal Year Ends and Nonlinear Incentive Contracts: The Effect on Business Seasonality.” — https://academic.oup.com/qje/article/113/1/149/1891996
+- [external] “Bargaining Theory, Trade Unions, and Industrial Strike Activity.” — https://www.semanticscholar.org/paper/Bargaining-Theory%2C-Trade-Unions%2C-and-Industrial-Ashenfelter-Johnson/ce528cc4e7af1d11f7d0c6c220f5e364a2503c85
+- [external] “Estimation and Testing of the Union Wage Effect Using Panel Data.” — https://academic.oup.com/restud/article-abstract/58/5/971/1599244?redirectedFrom=fulltext
+- [external] “Revisiting the Minimum Wage-Employment Debate: Throwing Out the Baby with the Bathwater?” — https://www.nber.org/papers/w18681
+- [pdf] 14.661 Labor Economics I – Unit 5 – Key Ideas — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit05_ideas.pdf
+- [external] “Peer Effects with Random Assignment: Results for Dartmouth Roommates.” — https://academic.oup.com/qje/article/116/2/681/1904199
+- [pdf] "Training and Innovation in an Imperfect Labour Market." (PDF) — https://economics.mit.edu/sites/default/files/publications/training-innovation-imperfect-labor-market.pdf
+- [external] “Unexpected Inflation, Real Wages, and Employment Determination in Union Contracts.” — https://dataspace.princeton.edu/handle/88435/dsp01cv43nw81x
+- [external] “Empirical Strategies in Labor Economics.” — https://www.sciencedirect.com/science/article/pii/S1573446399030047
+- [pdf] “The Labor Market Effects of Refugee Waves: Reconciling Conflicting Results.” (PDF) — https://www.nber.org/system/files/working_papers/w23433/w23433.pdf
+- [external] "A Theory of Dual Labor Markets with Application to Industrial Policy, Discrimination and Keynesian Unemployment." — https://www.journals.uchicago.edu/doi/abs/10.1086/298116
+- [pdf] “Estimating the Labor Market Signaling value of the GED.” (PDF) — https://files.eric.ed.gov/fulltext/ED508594.pdf
+- [pdf] “Methods for Measuring School Effectiveness.” (PDF) — https://economics.mit.edu/sites/default/files/2023-08/Methods%20for%20Measuring%20School%20Effectiveness_0.pdf
+- [external] “Learning and Wage Dynamics.” — https://dataspace.princeton.edu/handle/88435/dsp01mc87pq252
+- [pdf] “Changes in Relative Wages, 1963–87: Supply and Demand Factors." — https://scholar.harvard.edu/files/lkatz/files/changes_in_relative_wages_1963-1987_supply_and_demand_factors.pdf
+- [external] “The Wage Distribution in a Model of the Assignment of Skills to Jobs.” — https://www.journals.uchicago.edu/doi/abs/10.1086/261984
+- [external] “The Medium-Term Impacts of High-Achieving Charter Schools.” — https://www.nber.org/papers/w19581
+- [pdf] “The Labor Demand Curve is Downward Sloping: Reexamining the Impact of Immigration on the Labor Market.” (PDF) — https://www.nber.org/system/files/working_papers/w9755/w9755.pdf
+- [pdf] “Income Inequality in the United States: 1913–1998.” — https://eml.berkeley.edu/~saez/pikettyqje.pdf
+- [external] “Free to Choose: Can School Choice Reduce Achievement?” — https://www.aeaweb.org/articles?id=10.1257/app.20160634
+- [external] “An Empirical Analysis of the Daily Labor Supply of Stadium Vendors.” — https://www.journals.uchicago.edu/doi/abs/10.1086/250063
+- [pdf] “A Microfoundation for Social Increasing Returns in Human Capital Accumulation.” (PDF) — https://economics.mit.edu/sites/default/files/publications/microfoundation-for-social-increasing-returns.pdf
+- [external] “Short-Run Demand for Palestinian Labor.” — https://www.journals.uchicago.edu/doi/abs/10.1086/209817
+- [pdf] “Is the United States Still a Land of Opportunity? Recent Trends in Intergenerational Mobility.” (PDF) — https://eml.berkeley.edu/~saez/chettyetalAERPP2014.pdf
+- [external] “Employment, Hours, and Earnings Consequences of Job Loss; US Evidence from the Displaced Workers Survey.” — https://www.journals.uchicago.edu/doi/10.1086/692353
+- [external] “A Unified Framework for Measuring Preferences for Schools and Neighborhoods.” — https://www.journals.uchicago.edu/doi/full/10.1086/522381
+- [pdf] “Welfare Programs and Labor Supply.” (PDF) — https://www.nber.org/system/files/working_papers/w9168/w9168.pdf
+- [external] “How Large Are the External Returns to Education: Evidence from Compulsory Schooling Laws.” — https://www.journals.uchicago.edu/doi/abs/10.1086/654403
+- [external] “Economic Impacts of New Unionization on US Private Sector Employers: 1984–2001.” — https://www.nber.org/papers/w10598
+- [external] “Labor Supply Response to the Earned Income Tax Credit.” — https://academic.oup.com/qje/article/111/2/605/1938452
+- [pdf] 14.661 Labor Economics I - Unit 1 - Key Ideas — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit01_ideas.pdf
+- [pdf] 14.661 Labor Economics I – Unit 8 - Career Concerns and Multitasking — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit08_career_concerns.pdf
+- [pdf] “Why Do Firms Train?” (PDF) — https://www.nber.org/system/files/working_papers/w5605/w5605.pdf
+- [pdf] “Why Has the Natural Rate of Unemployment Increased over Time?" (PDF) — https://uh.edu/~cjuhn/Papers/docs/2534590.pdf
+- [external] “Labor Market Monopsony.” (PDF) — https://www.journals.uchicago.edu/doi/pdf/10.1086%2F653654
+- [external] “Intertemporal Substitution in Labor Supply: Evidence from Micro Data.” — https://www.journals.uchicago.edu/doi/abs/10.1086/261403
+- [pdf] “School Quality and Black-White Relative Earnings: A Direct Assessment.” (PDF) — https://davidcard.berkeley.edu/papers/school-quality-bw.pdf
+- [external] “Specific Capital, Mobility, and Wages: Wages Rise with Job Seniority.” — https://www.journals.uchicago.edu/doi/abs/10.1086/261744?journalCode=jpe
+- [pdf] “Using Maimonides' Rule to Estimate the Effects of Class Size on Academic Achievement.” (PDF) — http://piketty.pse.ens.fr/files/AngristLavy1999.pdf
+- [external] “The Role of Promotion in Inducing Specific Human Capital Acquisition.” — https://academic.oup.com/qje/article-abstract/108/2/523/1917584?redirectedFrom=fulltext
+- [pdf] “Consumption and Income Inequality in the U.S. Since the 1960s.” (PDF) — https://www.nber.org/system/files/working_papers/w23655/w23655.pdf
+- [pdf] “Peers at Work.” (PDF) — https://eml.berkeley.edu/~moretti/text20.pdf
+- [pdf] “The Wage Impact of the Marielitos: A Reappraisal.” (PDF) — https://www.nber.org/system/files/working_papers/w21588/revisions/w21588.rev0.pdf
+- [external] “Can Pay Regulation Kill? Panel Data Evidence on the Effect of Labor Markets on Hospital Performance.” — https://www.journals.uchicago.edu/doi/full/10.1086/653137
+- [external] “Testing the Efficiency of Employment Contracts.” — https://irs.princeton.edu/publications/working-papers/testing-efficiency-employment-contracts
+- [external] “Maimonides' Rule Redux.” — https://www.aeaweb.org/articles?id=10.1257/aeri.20180120
+- [external] “The Difference that CEOs Make: An Assignment Model Approach.” — https://www.aeaweb.org/articles?id=10.1257/aer.98.3.642
+- [pdf] “Career Concerns of Mutual Fund Managers." (PDF) — https://www.nber.org/system/files/working_papers/w6394/w6394.pdf
+- [external] “Robustness and Real Consequences of Nominal Wage Rigidity.” — https://www.sciencedirect.com/science/article/pii/S0304393205000462
+- [external] “Search Models of the Labor Market: A Survey.” — https://www.aeaweb.org/articles?id=10.1257/002205105775362014
+- [pdf] 14.661 Labor Economics I – Unit 5 – Human Capitalism — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit05_human.pdf
+- [pdf] “The Impact of Low-skilled Immigration on the Youth Labor Market.” (PDF) — https://www.federalreserve.gov/pubs/feds/2010/201003/201003pap.pdf
+- [pdf] 14.661 Labor Economics I - Unit 2 - Static Labor Supply — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit02_static.pdf
+- [pdf] “Can Falling Supply Explain the Rising Return to College for Younger Men? A Cohort-Based Analysis. — https://davidcard.berkeley.edu/papers/men-return-college.pdf
+- [external] “Evaluating Public Programs with Close Substitutes: The Case of Head Start.” — https://www.nber.org/papers/w21658
+- [pdf] “Nominal Wage Rigidity and the Rate of Inflation.” (PDF) — https://eprints.lse.ac.uk/20131/1/Nominal_Wage_Rigidity_and_the_Rate_of_Inflation.pdf
+- [html] “Is There an Effect of Incremental Welfare Benefits on Fertility Behavior? A Look at the Family Cap. — https://www.brookings.edu/articles/is-there-an-effect-of-incremental-welfare-benefits-on-fertility-behavior-a-look-at-the-family-cap/
+- [pdf] 14.661 Labor Economics I – Unit 10 - Investment in Skills — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit10_investment.pdf
+- [external] “Selection, Investment, and Women’s Relative Wages over Time.” — https://academic.oup.com/qje/article/123/3/1061/1928142
+- [pdf] “The Production of Human Capital and the Life Cycle of Earnings." (PDF) — https://www.ntaccounts.org/doc/repository/Ben-Porath_paper.pdf
+- [external] “Valuing Alternative Work Arrangements.” — https://www.aeaweb.org/articles?id=10.1257/aer.20161500
+- [external] “Performance Pay and Productivity.” — https://www.nber.org/papers/w5672
+- [external] “Systematic Misreporting and Effects of Income Maintenance Experiments on Work Effort: Evidence from the SIME-DIME.” — https://www.journals.uchicago.edu/doi/abs/10.1086/298019?journalCode=jole
+- [pdf] “Changes in Unemployment and Wage Inequality: An Alternative Theory and Some Evidence.” (PDF) — https://economics.mit.edu/sites/default/files/publications/changes-in-unemployment-and-wage-inequality.pdf
+- [pdf] “Machine Labor.” (PDF) — https://economics.mit.edu/sites/default/files/2022-11/Machine%20Labor.pdf
+- [external] “The Theory of Screening, Education, and the Distribution of Income.” — https://academiccommons.columbia.edu/doi/10.7916/D8PG22PM
+- [pdf] 14.661 Labor Economics I - Unit 2 - Home Production and Labor Supply — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit02_home_prod.pdf
+- [external] "Investment and Wages in the Absence of Binding Contracts: A Nash Bargaining Approach." — https://www.econometricsociety.org/publications/econometrica/1984/03/01/investment-and-wages-absence-binding-contracts-nash-bargaining
+- [pdf] “The Economic Benefits from Immigration.” (PDF) — https://gborjas.scholars.harvard.edu/sites/g/files/omnuum4696/files/gborjas/files/jep1995.pdf
+- [external] “School Segregation, Educational Attainment, and Crime: Evidence from the End of Busing in Charlotte-Mecklenburg.” — https://www.nber.org/papers/w18487
+- [external] “Unemployment and Labor Market Rigidities: Europe versus North America.” — https://www.aeaweb.org/articles?id=10.1257/jep.11.3.55
+- [pdf] “How Hybrid Work From Home Works Out.” (PDF) — https://cesi.econ.cuhk.edu.hk/wp-content/uploads/PPT_Han-Ruobing_How-Hybrid-Work-From-Home-Works-Out.pdf
+- [pdf] “Earnings Inequality and Mobility in the United States: Evidence from Social Security Data Since 1937.” (PDF) — https://eml.berkeley.edu/~saez/kopczuk-saez-songQJE10mobility.pdf
+- [external] “Revising Our Thinking about the Relationship Between Maternal Labor Supply and Preschool.” — https://jhr.uwpress.org/content/47/3/583.abstract
+- [pdf] “Equilibrium Wage Dispersion with Worker and Employer Heterogeneity.” (PDF) — https://discovery.ucl.ac.uk/id/eprint/17132/1/17132.pdf
+- [html] *Mostly Harmless Econometrics* — https://www.mostlyharmlesseconometrics.com/
+- [pdf] "Spurious Volatility in Historical Unemployment Data." — https://eml.berkeley.edu/~cromer/Reprints/Spurious%20Volatility.pdf
+- [external] *Equilibrium Unemployment Theory.* — https://archive.org/details/equilibriumunemp0000piss/page/n5/mode/2up
+- [external] “Wage Determinants.” — https://www.sciencedirect.com/science/article/pii/S1573446386010131
+- [external] “Labor Supply of New York City Cabdrivers: One Day at a Time.” — https://academic.oup.com/qje/article/112/2/407/1870919
+- [external] "Property Rights and the Nature of the Firm." (PDF) — https://dash.harvard.edu/server/api/core/bitstreams/7312037c-4b76-6bd4-e053-0100007fdf3b/content
+- [external] “Spillover Effects from Voluntary Employer Minimum Wages.” — https://www.nber.org/papers/w29425
+- [external] “Rethinking the Effects of Immigration on Wages.” — https://www.nber.org/papers/w12497
+- [external] “Firm-Specific Capital and Turnover.” — https://www.journals.uchicago.edu/doi/abs/10.1086/260834?journalCode=jpe
+- [pdf] “Incentives and Services for College Achievement: Evidence from a Randomized Trial.” (PDF) — https://economics.mit.edu/sites/default/files/publications/AEJ508.pdf
+- [pdf] “Closing the Gap: The Effect of Reducing Complexity and Uncertainty in College Pricing on the Choices of Low-Income Students.” (PDF) — https://stephanieowen.github.io/Dynarski_Libassi_Michelmore_Owen_HAIL.pdf
+- [external] *Mastering ‘Metrics.* Princeton University Press — https://press.princeton.edu/books/paperback/9780691152844/mastering-metrics?srsltid=AfmBOooB-SIC10f_t9Ovsf1h4qDjaUmmQ180D5ogn6mPBsdjSl0hm3MS
+- [external] “Demand for Education.” — https://www.sciencedirect.com/science/article/pii/S157344638601009X
+- [pdf] “Does Inflation 'Grease the Wheels of the Labor Market'?” (PDF) — https://www.nber.org/system/files/chapters/c8882/c8882.pdf
+- [external] “An Empirical Model of Labor Supply in a Life-Cycle Setting.” — https://www.journals.uchicago.edu/doi/abs/10.1086/261023
+- [external] “Employment Effects of Immigration to Germany: An Analysis Based on Local Labor Markets.” — https://direct.mit.edu/rest/article/79/4/594/57025/Employment-Effects-of-Immigration-to-Germany-An
+- [pdf] “Stochastic Implications of the Life Cycle–Permanent Income Hypothesis.” (PDF) — https://web.stanford.edu/~rehall/Stochastic-JPE-Dec-1978.pdf
+- [pdf] “Credible School Value-Added with Undersubscribed School Lotteries.” (PDF) — https://economics.mit.edu/sites/default/files/2022-08/Credible%20School%20Value-Added%20with%20Undersubscribed%20School%20Lotteries.pdf
+- [html] "Human Capital and the Rise and Fall of Families." — https://pubmed.ncbi.nlm.nih.gov/12146356/
+- [external] “Intergenerational Income Mobility in the United States.” — https://www.jstor.org/stable/2117312?seq=1
+- [external] "Nominal Wage Rigidity in Village Labor Markets." — https://www.aeaweb.org/articles?id=10.1257/aer.20141625
+- [html] “Incentives and Organizations in the Public Sector: An Interpretative Review.” — https://ideas.repec.org/a/uwp/jhriss/v37y2002i4p696-727.html
+- [pdf] “Incentives in Markets, Firms and Governments.” (PDF) — https://www.princeton.edu/~atif/MFG.pdf
+- [pdf] “Estimating Average and Local Average Treatment Effects of Education when Compulsory Schooling Laws Really Matter.” (PDF) — https://oreopoulos.faculty.economics.utoronto.ca/wp-content/uploads/2014/03/Estimating-Average-and-Local-Average-Treatment-Effects-of-Education-When-Compulsory-Schooling-Laws-Really-Matter.pdf
+- [pdf] “Incentive Contracts and Performance Measurement.” (PDF) — https://people.duke.edu/~qc2/BA532/1992%20JPE%20Baker.pdf
+- [external] “The Analysis of Union Behavior.” — https://www.sciencedirect.com/science/article/pii/S1573446386020084
+- [pdf] “The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment.” (PDF) — https://scholar.harvard.edu/files/lkatz/files/chk_aer_mto_0416.pdf
+- [external] “The Signaling Value of a High School Diploma.” — https://www.journals.uchicago.edu/doi/full/10.1086/675238
+- [external] “The Consequences of Rigid Wages in Search Models.” — https://papers.ssrn.com/sol3/papers.cfm?abstract_id=509857
+- [external] “An Empirical Investigation of Gaming Responses to Explicit Performance Incentives.” (PDF) — https://www.journals.uchicago.edu/doi/pdf/10.1086/380402
+- [external] “Children and Their Parents' Labor Supply: Evidence from Exogenous Variation in Family Size.” — https://www.nber.org/papers/w5778
+- [external] “On the Efficiency of Matching and Related Models of Search and Unemployment.” — https://academic.oup.com/restud/article-abstract/57/2/279/1551634
+- [external] “Do Wages Rise with Job Seniority?” — https://academic.oup.com/restud/article-abstract/54/3/437/1558385?redirectedFrom=PDF
+- [external] “Why Are There Still So Many Jobs? The History and Future of Workplace Automation.” — https://www.aeaweb.org/articles?id=10.1257/jep.29.3.3
+- [external] “Comparative Advantage and the Distribution of Earnings and Abilities.” (PDF) — https://www.researchgate.net/profile/Michael-Sattinger-2/publication/4813429_Comparative_Advantage_and_the_Distribution_of_Earnings_and_Abilities/links/5ba0fc93299bf13e6039c700/Comparative-Advantage-and-the-Distribution-of-Earnings-and-Abilities.pdf?origin=journalDetail&_tp=eyJwYWdlIjoiam91cm5hbERldGFpbCJ9
+- [pdf] “Desegregation and Black Dropout Rates.” (PDF) — https://www.nber.org/system/files/working_papers/w8345/w8345.pdf
+- [pdf] 14.661 Labor Economics I - Practice Final Exam — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_practice_final.pdf
+- [pdf] “Race and the Mismeasure of School Quality.” (PDF) — https://economics.mit.edu/sites/default/files/2025-02/angrist-et-al-2024-race-and-the-mismeasure-of-school-quality.pdf
+- [external] “Labor Supply and the Value of Non-Work Time: Experimental Estimates from the Field.” — https://www.aeaweb.org/articles?id=10.1257/aeri.20180070
+- [pdf] "The Labor Market and Corporate Structure." (PDF) — https://economics.mit.edu/sites/default/files/publications/labor-market-and-corporate-structure.pdf
+- [external] “Extrapolating: External Validity and Overidentification in the LATE Framework.” — https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2679701
+- [html] “Schooling and Parental Labor Supply: Evidence from COVID-19 School Closures in the United States.” — https://pmc.ncbi.nlm.nih.gov/articles/PMC9702976/
+- [pdf] “Where Is the Land of Opportunity? The Geography of Intergenerational Mobility in the United States.” (PDF) — https://scholar.harvard.edu/files/hendren/files/mobility_geo.pdf
+- [external] “A Profitable Approach to Labor Supply and Commodity Demand Over the Life-Cycle.” — https://www.jstor.org/stable/1911653?seq=1#page_scan_tab_contents
+- [pdf] “Heterogeneity, Stratification and Growth: Macroeconomic Implications of Community Structure in School Finance.” (PDF) — https://www.princeton.edu/~rbenabou/papers/AER_1996.pdf
+- [pdf] "The Impact of the Mariel Boatlift on the Miami Labor Market." — https://davidcard.berkeley.edu/papers/mariel-impact.pdf
+- [pdf] “Estimating the Effects of a Time-Limited Earnings Subsidy for Welfare-Leavers.” (PDF) — https://davidcard.berkeley.edu/papers/time-lim-earning-sub.pdf
+- [pdf] “Marginal Effects of Merit Aid for Low-Income Students.” (PDF) — https://economics.mit.edu/sites/default/files/2022-08/Marginal%20Effects%20of%20Merit%20Aid%20for%20Low-Income%20Students.pdf
+- [external] “Labor Market Polarization over the Business Cycle.” — https://www.journals.uchicago.edu/doi/full/10.1086/680656
+- [pdf] “Changes in the Distribution of Economic Well-Being During the COVID-19 Pandemic.” (PDF) — https://www.nber.org/system/files/working_papers/w29878/w29878.pdf
+- [pdf] “Oligopsony and Monopsonistic Competition in Labor Markets.” (PDF) — https://discovery.ucl.ac.uk/id/eprint/15468/1/15468.pdf
+- [pdf] “The Growth of Low-Skill Service Jobs and the Polarization of the US Labor Market.” (PDF) — https://www.ddorn.net/papers/Autor-Dorn-LowSkillServices-Polarization.pdf
+- [external] ”The Role of Application Assistance and Information in College Decisions.” — https://academic.oup.com/qje/article/127/3/1205/1921970
+- [external] “Estimating Labor Supply Responses Using Tax Reforms.” — https://www.jstor.org/stable/2999575?seq=1
+- [external] “Choice and Consequence: Assessing Mismatch at Chicago Exam Schools.” — https://www.nber.org/papers/w26137
+- [pdf] “Trends in U.S. Wage Inequality: Revising the Revisionists.” (PDF) — https://economics.mit.edu/sites/default/files/publications/trends%20in%20us%20wage%202008.pdf
+- [external] “Peer Effects in Academic Outcomes: Evidence from a Natural Experiment.” — https://direct.mit.edu/rest/article/85/1/9/57368/Peer-Effects-in-Academic-Outcomes-Evidence-from-a
+- [pdf] “Shadow Prices, Market Wages and Labor Supply.” — https://cehd.uchicago.edu/wp-content/uploads/2022/04/Heckman_1974_Shadow-Prices-HO_2022-04-29a_jbb.pdf
+- [pdf] 14.661 Labor Economics I – Unit 4 – DO Immigrants Take American Jobs? — https://ocw.mit.edu/courses/14-661-labor-economics-i-fall-2024/mit14_661_f24_unit04_immigrants.pdf
+- [external] “How Teachers' Unions Affect Education Production.” — https://academic.oup.com/qje/article/111/3/671/1839935
+- [external] "Job Matching and the Theory of Turnover." — https://www.journals.uchicago.edu/doi/abs/10.1086/260808
+- [html] “Supervision and Wages Across Industries.” — https://ideas.repec.org/a/tpr/restat/v75y1993i3p409-17.html
+- [external] “Wage Differentials, Employer Size, and Unemployment.” — https://econpapers.repec.org/article/ieriecrev/v_3a39_3ay_3a1998_3ai_3a2_3ap_3a257-73.htm
+- [external] “Firm-Specific Human Capital: A Skill Weights Approach.” — https://www.nber.org/papers/w9679
+- [external] “The Effect of Wealth on Individual and Household Labor Supply: Evidence from Swedish Lotteries.” — https://www.aeaweb.org/articles?id=10.1257/aer.20151589
+- [external] “Ownership, Agency, and Wages: An Examination of Franchising in the Fast Food Industry.” — https://academic.oup.com/qje/article-abstract/106/1/75/1928571
+- [external] “The Labor Market Effects of Immigration.” — https://journals.sagepub.com/doi/abs/10.1177/001979398003300304
+- [external] “Industry-Specific Human Capital: Evidence From Displaced Workers.” — https://www.journals.uchicago.edu/doi/abs/10.1086/298388?mobileUi=0&
+- [external] “Evaluating Welfare Reform in the United States.” — https://www.aeaweb.org/articles?id=10.1257/002205102762203576
+- [external] “The Effects of Immigration on the Labor Market Outcomes of Less-Skilled Natives” — https://www.nber.org/papers/w3123
+- [pdf] “Still Worth the Trip? School Busing Effects in Boston and New York.” (PDF) — https://economics.mit.edu/sites/default/files/2024-07/Busing_Working_Paper.pdf
+- [pdf] “Does School Integration Generate Peer Effects? Evidence from Boston’s Metco Program.” (PDF) — https://economics.mit.edu/sites/default/files/publications/metco.pdf

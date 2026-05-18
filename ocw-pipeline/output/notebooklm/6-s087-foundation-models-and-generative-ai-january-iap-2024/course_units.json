@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-05-18T20:51:01.823Z",
+  "course": {
+    "course_id": "6-s087-foundation-models-and-generative-ai-january-iap-2024",
+    "title": "Foundation Models and Generative AI",
+    "source_url": "https://ocw.mit.edu/courses/6-s087-foundation-models-and-generative-ai-january-iap-2024/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 6,
+    "unit_count": 0,
+    "assigned_sources": 0,
+    "unassigned_sources": 6
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [],
+  "unassigned_sources": [
+    {
+      "id": 4657,
+      "title": "What's Worth Making? with Prof. Hal Abelson captions",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=gW7BnC3jsVk",
+      "local_path": null,
+      "resource_path": "/courses/6-s087-foundation-models-and-generative-ai-january-iap-2024/resources/whats-worth-making-with-prof-hal-abelson-captions/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4659,
+      "title": "What's Worth Making? with Prof. Hal Abelson",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=gW7BnC3jsVk",
+      "local_path": null,
+      "resource_path": "/courses/6-s087-foundation-models-and-generative-ai-january-iap-2024/resources/whats-worth-making-with-prof-hal-abelson/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 4660,
+      "title": "What's Worth Making? with Prof. Hal Abelson",
+      "media_type": "video",
+      "material_type": "Lecture Videos",
+      "source_url": "https://archive.org/download/chalk-radio/S05E06_Hal_Abelson_360p.mp4",
+      "local_path": null,
+      "resource_path": "/courses/6-s087-foundation-models-and-generative-ai-january-iap-2024/resources/whats-worth-making-with-prof-hal-abelson/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 4662,
+      "title": "What's Worth Making? with Prof. Hal Abelson (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/6-s087-foundation-models-and-generative-ai-january-iap-2024/gW7BnC3jsVk_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/6-s087-foundation-models-and-generative-ai-january-iap-2024/resources/whats-worth-making-with-prof-hal-abelson/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 4663,
+      "title": "Course Website",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.futureofai.mit.edu/",
+      "local_path": null,
+      "resource_path": "/courses/6-s087-foundation-models-and-generative-ai-january-iap-2024/external-resources/course-website/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4664,
+      "title": "What's Worth Making? with Prof. Hal Abelson transcript",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=gW7BnC3jsVk",
+      "local_path": null,
+      "resource_path": "/courses/6-s087-foundation-models-and-generative-ai-january-iap-2024/resources/whats-worth-making-with-prof-hal-abelson-transcript/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}

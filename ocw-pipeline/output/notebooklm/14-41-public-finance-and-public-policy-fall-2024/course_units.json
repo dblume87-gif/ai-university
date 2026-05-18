@@ -1,0 +1,1822 @@
+{
+  "generated_at": "2026-05-18T20:51:01.732Z",
+  "course": {
+    "course_id": "14-41-public-finance-and-public-policy-fall-2024",
+    "title": "Public Finance and Public Policy",
+    "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 110,
+    "unit_count": 24,
+    "assigned_sources": 78,
+    "unassigned_sources": 32
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Why Study Public Finance?",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3186,
+          "title": "Lecture 01: Why Study Public Finance?",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec01_2024sep04_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec01_2024sep04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3187,
+          "title": "Lecture 01: Why Study Public Finance?",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=i30jbbk7yoQ",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec01_2024sep04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3189,
+          "title": "Lecture 01: Why Study Public Finance? (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1FoFrbS5AHv4CtqtL5a-mBtSqpqdPPF-Z_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec01_2024sep04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3217,
+          "title": "Problem Set 01 With Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_pset1_withsolutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_pset1_withsolutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Externalities in Theory",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3182,
+          "title": "Lecture 02: Externalities in Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec02_2024sep06_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec02_2024sep06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3183,
+          "title": "Lecture 02: Externalities in Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=bmpZwTUbjjI",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec02_2024sep06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3185,
+          "title": "Lecture 02: Externalities in Theory (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1JHAANL99sZQ0U34hGm5mOXPFInpSO4PK_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec02_2024sep06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3228,
+          "title": "Problem Set 02 With Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_pset2_withsolutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_pset2_withsolutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Externalities in Theory & Practice",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3261,
+          "title": "Lecture 03: Externalities in Theory & Practice",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec03_2024sep11_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec03_2024sep11_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3262,
+          "title": "Lecture 03: Externalities in Theory & Practice",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=SEQpTtfAhFA",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec03_2024sep11_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3264,
+          "title": "Lecture 03: Externalities in Theory & Practice (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1CJc_9DQF2VYKJdJ-EYOrU6fXpq1XAy_d_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec03_2024sep11_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3173,
+          "title": "Problem Set 03 With Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_pset3_withsolutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_pset3_withsolutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Externalities in Practice II",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3165,
+          "title": "Lecture 04: Externalities in Practice II",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec04_2024sep16_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec04_2024sep16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3166,
+          "title": "Lecture 04: Externalities in Practice II",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=v9-U8AoDsOY",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec04_2024sep16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3168,
+          "title": "Lecture 04: Externalities in Practice II (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1Rr_DjnI_7PLygHHTz1ALsghEdxpM1Fbl_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec04_2024sep16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3297,
+          "title": "Problem Set 04 With Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_pset4_withsolutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_pset4_withsolutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Public Goods Theory, Optimality, and Pricing",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3169,
+          "title": "Lecture 05: Public Goods Theory, Optimality, and Pricing",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec05_2024sep18_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec05_2024sep18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3170,
+          "title": "Lecture 05: Public Goods Theory, Optimality, and Pricing",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=LGwL42cUHC4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec05_2024sep18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3172,
+          "title": "Lecture 05: Public Goods Theory, Optimality, and Pricing (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1pIqH99D-YxwcN7FbFRwD2aO2JWo2NUiI_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec05_2024sep18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3249,
+          "title": "Problem Set 05 With Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_pset5_withsolutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_pset5_withsolutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Cost/Benefit Analysis",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3284,
+          "title": "Lecture 06: Cost/Benefit Analysis",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec06_2024sep23_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec06_2024sep23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3285,
+          "title": "Lecture 06: Cost/Benefit Analysis",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=924DTd14d0w",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec06_2024sep23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3287,
+          "title": "Lecture 06: Cost/Benefit Analysis (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1voB8hqylEuF44aa5q7i7Yu0XPRuyRnLr_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec06_2024sep23_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3177,
+          "title": "Problem Set 06 With Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_pset6_withsolutions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_pset6_withsolutions_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Political Economy",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3245,
+          "title": "Lecture 07: Political Economy",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec07_2024sep25_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec07_2024sep25_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3246,
+          "title": "Lecture 07: Political Economy",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=84uJc4N_LAg",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec07_2024sep25_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3248,
+          "title": "Lecture 07: Political Economy (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1yPZyg4YrJN19_v4pQEFtSG0glpac2y27_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec07_2024sep25_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Local Public Goods and Fiscal Federalism",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3241,
+          "title": "Lecture 08: Local Public Goods and Fiscal Federalism",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec08_2024sep30_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec08_2024sep30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3242,
+          "title": "Lecture 08: Local Public Goods and Fiscal Federalism",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=DIgqgbsg2dw",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec08_2024sep30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3244,
+          "title": "Lecture 08: Local Public Goods and Fiscal Federalism (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1dBcihERfkTdLtSWCv7JsYmfNlio2_LBb_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec08_2024sep30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Public Provision of Private Goods: Education",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3190,
+          "title": "Lecture 09: Public Provision of Private Goods: Education",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec09_2024oct02_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec09_2024oct02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3191,
+          "title": "Lecture 09: Public Provision of Private Goods: Education",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=v-ecwhrXsJ0",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec09_2024oct02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3193,
+          "title": "Lecture 09: Public Provision of Private Goods: Education (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1_wAURXLNzagfUbw1Q7ZioVgFPCvIqM3y_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec09_2024oct02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Social Insurance Theory",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3279,
+          "title": "Lecture 10: Social Insurance Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec10_2024oct07_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec10_2024oct07_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3280,
+          "title": "Lecture 10: Social Insurance Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=HrNxI5KqqiQ",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec10_2024oct07_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3282,
+          "title": "Lecture 10: Social Insurance Theory (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1Hw_qfV--j35jQOdpzwenSGR9yumShWEq_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec10_2024oct07_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Social Security",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3197,
+          "title": "Lecture 11: Social Security",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec11_2024oct09_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec11_2024oct09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3198,
+          "title": "Lecture 11: Social Security",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=tRxe4Pi8prU",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec11_2024oct09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3200,
+          "title": "Lecture 11: Social Security (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/17_MXGfnUGTXw32ZeGganz7-QiiKBbQJm_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec11_2024oct09_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Other Social Insurance Programs",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3224,
+          "title": "Lecture 12: Other Social Insurance Programs",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec12_2024oct16_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec12_2024oct16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3225,
+          "title": "Lecture 12: Other Social Insurance Programs",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=cK2wOO_o4qk",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec12_2024oct16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3227,
+          "title": "Lecture 12: Other Social Insurance Programs (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1mP7DmvoGVUacEuPjBCIR5-co2xpRaSCD_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec12_2024oct16_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Health Care I",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3237,
+          "title": "Lecture 13: Health Care I",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec13_2024oct24_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec13_2024oct24_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3238,
+          "title": "Lecture 13: Health Care I",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=O9CqPO9B6vg",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec13_2024oct24_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3240,
+          "title": "Lecture 13: Health Care I (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1GlH3i9SSpGDI_m339EckdArJXZQIqL2L_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec13_2024oct24_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Health Care II",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3207,
+          "title": "Lecture 14: Health Care II",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec14_2024oct28_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec14_2024oct28_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3208,
+          "title": "Lecture 14: Health Care II",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Jp8JNHPP7MA",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec14_2024oct28_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3210,
+          "title": "Lecture 14: Health Care II (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1IOQaJ3kvpI97FXfesafzwiLA6ZIXCFYV_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec14_2024oct28_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Health Care III, Redistribution",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3327,
+          "title": "Lecture 15: Health Care III, Redistribution",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec15_2024oct30_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec15_2024oct30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3328,
+          "title": "Lecture 15: Health Care III, Redistribution",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=dL7bXIUKzyg",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec15_2024oct30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3330,
+          "title": "Lecture 15: Health Care III, Redistribution (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/185rKK38UQP40V14LB1rXwuHNGbIyF8nv_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec15_2024oct30_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "Redistribution and Welfare Policy",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3229,
+          "title": "Lecture 16: Redistribution and Welfare Policy",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec16_2024nov04_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec16_2024nov04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3230,
+          "title": "Lecture 16: Redistribution and Welfare Policy",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=XJAz8eHes7g",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec16_2024nov04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3232,
+          "title": "Lecture 16: Redistribution and Welfare Policy (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1FBzdV71HW7uPKxlMbfLgXDTreMmXJm-B_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec16_2024nov04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "Redistribution and Welfare, Taxation Overview",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3178,
+          "title": "Lecture 17: Redistribution and Welfare, Taxation Overview",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec17_2024nov06_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec17_2024nov06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3179,
+          "title": "Lecture 17: Redistribution and Welfare, Taxation Overview",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=IB4J0K-Z7aA",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec17_2024nov06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3181,
+          "title": "Lecture 17: Redistribution and Welfare, Taxation Overview (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1DMbLLFf1GLwxdaR2H6rYqO10DcHfxkOD_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec17_2024nov06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Overview of Taxation and Tax Base, Tax Incidence",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3272,
+          "title": "Lecture 18: Overview of Taxation and Tax Base, Tax Incidence",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec18_2024nov13_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec18_2024nov13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3273,
+          "title": "Lecture 18: Overview of Taxation and Tax Base, Tax Incidence",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=_PpVlwIeYpg",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec18_2024nov13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3275,
+          "title": "Lecture 18: Overview of Taxation and Tax Base, Tax Incidence (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1s3Nw3pwBcyHFy1Q40_j3t9OttEguVphh_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec18_2024nov13_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "Tax Incidence and Tax Efficiency",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3323,
+          "title": "Lecture 19: Tax Incidence and Tax Efficiency",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec19_2024nov18_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec19_2024nov18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3324,
+          "title": "Lecture 19: Tax Incidence and Tax Efficiency",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=f5gzll6Bs-A",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec19_2024nov18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3326,
+          "title": "Lecture 19: Tax Incidence and Tax Efficiency (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/16NOg8-RbjTKhDgoixEK4wBAkZeT4kSGN_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec19_2024nov18_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "Taxation and Labor Supply",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3293,
+          "title": "Lecture 20: Taxation and Labor Supply",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec20_2024nov20_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec20_2024nov20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3294,
+          "title": "Lecture 20: Taxation and Labor Supply",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=9ZsLKIlEANc",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec20_2024nov20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3296,
+          "title": "Lecture 20: Taxation and Labor Supply (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1jwsLoo3dCpqm9nesiQFwZMlR_GT2yEz2_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec20_2024nov20_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "Taxation and Savings",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3233,
+          "title": "Lecture 21: Taxation and Savings",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec21_2024nov25_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec21_2024nov25_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3234,
+          "title": "Lecture 21: Taxation and Savings",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=GtVwgui6qAg",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec21_2024nov25_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3236,
+          "title": "Lecture 21: Taxation and Savings (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1UK-MClUGmMLvxLOh1_qEJ7atbrWQLPK5_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec21_2024nov25_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 22,
+      "title": "Wealth Taxation",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3315,
+          "title": "Lecture 22: Wealth Taxation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec22_2024dec02_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec22_2024dec02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3316,
+          "title": "Lecture 22: Wealth Taxation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=ryLF3uQ0W8g",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec22_2024dec02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3318,
+          "title": "Lecture 22: Wealth Taxation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1k1njE7nvPM2ITG-D0RkogzjiIZkDLFG2_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec22_2024dec02_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "Corporate Taxation",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3268,
+          "title": "Lecture 23: Corporate Taxation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec23_2024dec04_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec23_2024dec04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3269,
+          "title": "Lecture 23: Corporate Taxation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=_WSXIj-goO4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec23_2024dec04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3271,
+          "title": "Lecture 23: Corporate Taxation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1qF6eVZYcsp0I6tJMd3Fxxc782Ry13ybt_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec23_2024dec04_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 24,
+      "title": "Corporate Taxation and Tax Reform",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 3304,
+          "title": "Lecture 24: Corporate Taxation and Tax Reform",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec24_2024dec06_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec24_2024dec06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3305,
+          "title": "Lecture 24: Corporate Taxation and Tax Reform",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=NdVGXQnAGi0",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec24_2024dec06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 3307,
+          "title": "Lecture 24: Corporate Taxation and Tax Reform (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/1_EWIfmb6wMJh9RToz2ERUlgocWEe9Fd2_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec24_2024dec06_mp4/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 3153,
+      "title": "2022 Midterm Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_2022midterm_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_2022midterm_sol_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 3156,
+      "title": "Chapter 19 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap19.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap19_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3159,
+      "title": "Chapter 08 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap8.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap8_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3162,
+      "title": "Chapter 01 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap1.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap1_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3174,
+      "title": "Chapter 22 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap22.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap22_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3194,
+      "title": "Chapter 21 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap21.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap21_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3201,
+      "title": "Chapter 10 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap10.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap10_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3204,
+      "title": "Chapter 05 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap5.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap5_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3211,
+      "title": "Chapter 20 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap20.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap20_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3218,
+      "title": "Chapter 14 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap14.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap14_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3221,
+      "title": "Chapter 13 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap13.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap13_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3250,
+      "title": "Chapter 11 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap11.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap11_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3253,
+      "title": "Chapter 18 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap18.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap18_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3256,
+      "title": "Chapter 16 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap16.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap16_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3259,
+      "title": "14.41 2020 Final Exam",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_2020final.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_2020final_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 3260,
+      "title": "*14.01 Principles of Microeconomics*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/external-resources/1401-principles-of-microeconomics_a4073840-acb1-4bb1-a7f0-b5893ef04d5e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3265,
+      "title": "Chapter 25 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap25.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap25_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3276,
+      "title": "Chapter 23 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap23.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap23_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3283,
+      "title": "2020 Final Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_2020final_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_2020final_sol_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 3288,
+      "title": "U.S. Department of Agriculture",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.flickr.com/photos/usdagov/53219934934/in/dateposted/",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/external-resources/us-department-of-agriculture_b95f9da4-a3af-4f5d-8bdd-cca8620ee586/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3289,
+      "title": "2022 Midterm Exam",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_2022midterm.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_2022midterm_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 3290,
+      "title": "Chapter 06 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap6.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap6_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3298,
+      "title": "Chapter 07 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap7.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap7_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3301,
+      "title": "Chapter 12 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap12.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap12_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3308,
+      "title": "*Public Finance and Public Policy, Seventh Editio*",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.macmillanlearning.com/college/us/product/Public-Finance-and-Public-Policy/p/1319281109",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/external-resources/public-finance-and-public-policy-seventh-editio_ce2b232c-1100-497a-ba6f-03668ab66412/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3309,
+      "title": "Chapter 24 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap24.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap24_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3312,
+      "title": "Chapter 15 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap15.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap15_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3319,
+      "title": "Chapter 04 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap4.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap4_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3322,
+      "title": "Preview with Google Books",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://www.google.com/books/edition/Public_Finance_and_Public_Policy/phgD_KvT06UC?hl=en&gbpv=1&dq=public+finance+and+public+policy&printsec=frontcover",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/external-resources/preview-with-google-books_e7d59bf8-18e6-413c-a706-22572a1e3dc2/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 3331,
+      "title": "Chapter 09 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap9.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap9_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3334,
+      "title": "Chapter 17 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap17.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap17_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 3337,
+      "title": "Chapter 03 Handout",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/mit14_41_f24_handout_chap3.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/mit14_41_f24_handout_chap3_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    }
+  ]
+}

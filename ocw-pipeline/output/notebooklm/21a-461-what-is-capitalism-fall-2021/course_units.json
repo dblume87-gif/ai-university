@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-05-18T20:51:01.780Z",
+  "course": {
+    "course_id": "21a-461-what-is-capitalism-fall-2021",
+    "title": "What is Capitalism?",
+    "source_url": "https://ocw.mit.edu/courses/21a-461-what-is-capitalism-fall-2021/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 0,
+    "unit_count": 0,
+    "assigned_sources": 0,
+    "unassigned_sources": 0
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [],
+  "unassigned_sources": []
+}

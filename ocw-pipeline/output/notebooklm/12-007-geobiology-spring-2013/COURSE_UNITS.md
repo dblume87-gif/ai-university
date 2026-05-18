@@ -115,4 +115,3 @@ Unassigned Sources: 35
 - [external] Google Books — http://books.google.com/books?id=wqXhqLl5J50C&pg=PAfrontcover
 - [external] The Chicxulub Asteroid Impact and Mass Extinction at the Cretaceous-Paleogene Boundary — http://dx.doi.org/10.1126/science.1177265
 - [pdf] Geobiology, Assignments 3 Solution — https://ocw.mit.edu/courses/12-007-geobiology-spring-2013/f98ff5991180b66f5f2c02eae8b92563_MIT12_007S13_Solution_3.pdf
-

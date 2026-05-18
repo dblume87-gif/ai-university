@@ -105,23 +105,98 @@ export async function fetchCourseWebsite(contentMap) {
     const externalUrl = resourceData.external_url;
     if (!externalUrl) return null;
 
-    const scheduleUrl = externalUrl.replace(/\/?$/, '/') + 'schedule/';
+    const courseWebsiteUrl = externalUrl.replace(/\/?$/, '/');
+    const scheduleUrl = `${courseWebsiteUrl}schedule/`;
     console.log(`[SCREEN] Course Website gefunden: ${scheduleUrl}`);
     const { data: html } = await http.get(scheduleUrl, { timeout: 15000 });
+    const results = [parseScheduleHtml(html, scheduleUrl)];
 
-    return parseScheduleHtml(html, scheduleUrl);
+    for (const relatedUrl of collectRelatedCourseWebsiteUrls(html, scheduleUrl, courseWebsiteUrl)) {
+      try {
+        const { data: relatedHtml } = await http.get(relatedUrl, { timeout: 15000 });
+        results.push(parseScheduleHtml(relatedHtml, relatedUrl));
+      } catch (err) {
+        console.log(`[WARN] Course Website Unterseite fehlgeschlagen: ${relatedUrl} (${err.message})`);
+      }
+    }
+
+    return mergeCourseWebsiteResults(results);
   } catch (err) {
     console.log(`[WARN] Course Website fetch fehlgeschlagen: ${err.message}`);
     return null;
   }
 }
 
-function parseScheduleHtml(html, pageUrl = BASE_URL) {
+function collectRelatedCourseWebsiteUrls(html, pageUrl, courseWebsiteUrl) {
+  const $ = cheerio.load(html);
+  const pageOrigin = new URL(pageUrl).origin;
+  const currentUrl = new URL(pageUrl).href;
+  const urls = $('a[href]').map((_, a) => {
+    const label = normalizeText($(a).text()).toLowerCase();
+    const href = toAbsoluteUrl($(a).attr('href'), pageUrl);
+    if (!href) return null;
+
+    const url = new URL(href);
+    const path = `${url.pathname} ${label}`.toLowerCase();
+    if (url.origin !== pageOrigin) return null;
+    if (href === currentUrl || href === courseWebsiteUrl) return null;
+    if (/\.(pdf|pptx?|docx?|xlsx?|zip|mp4|mov|csv|tsv)$/i.test(url.pathname)) return null;
+    if (!/(schedule|lecture|slides?|videos?|calendar|sessions?)/i.test(path)) return null;
+    return href;
+  }).get().filter(Boolean);
+
+  return unique(urls).slice(0, 5);
+}
+
+function mergeCourseWebsiteResults(results) {
+  const materials = propagateSessionMetadata(dedupeMaterials(results.flatMap(result => result.materials || [])));
+  return {
+    sessions: results.reduce((sum, result) => sum + (result.sessions || 0), 0),
+    slides: materials.filter(material => isMaterialSlide(material)).length,
+    videos: materials.filter(material => isMaterialVideo(material)).length,
+    materials
+  };
+}
+
+function propagateSessionMetadata(materials) {
+  const byKey = new Map();
+  for (const material of materials) {
+    const key = material.metadata?.session_key;
+    if (!key) continue;
+    const current = byKey.get(key) || {
+      unitNumbers: [],
+      slideUrls: [],
+      videoUrls: []
+    };
+    current.unitNumbers.push(...(material.metadata.session_unit_numbers || []));
+    current.slideUrls.push(...(material.metadata.session_slide_urls || []));
+    current.videoUrls.push(...(material.metadata.session_video_urls || []));
+    byKey.set(key, current);
+  }
+
+  return materials.map(material => {
+    const key = material.metadata?.session_key;
+    const session = key ? byKey.get(key) : null;
+    if (!session) return material;
+    return {
+      ...material,
+      metadata: {
+        ...material.metadata,
+        session_unit_numbers: uniqueNumbers(session.unitNumbers),
+        session_slide_urls: unique(session.slideUrls),
+        session_video_urls: unique(session.videoUrls)
+      }
+    };
+  });
+}
+
+export function parseScheduleHtml(html, pageUrl = BASE_URL) {
   const $ = cheerio.load(html);
   let sessions = 0;
   let slides = 0;
   let videos = 0;
   const materials = [];
+  const sessionRows = [];
 
   $('table tr').each((i, row) => {
     if (i === 0) return; // Header überspringen
@@ -129,10 +204,10 @@ function parseScheduleHtml(html, pageUrl = BASE_URL) {
     if (!text) return;
     sessions++;
 
-    $(row).find('a').each((_, a) => {
+    const sessionLinks = $(row).find('a').map((_, a) => {
       const rawHref = $(a).attr('href') || '';
       const sourceUrl = toAbsoluteUrl(rawHref, pageUrl);
-      if (!sourceUrl) return;
+      if (!sourceUrl) return null;
 
       const label = normalizeText($(a).text()) || sourceUrl;
       const href = sourceUrl.toLowerCase();
@@ -146,24 +221,159 @@ function parseScheduleHtml(html, pageUrl = BASE_URL) {
         materialType
       });
 
-      if (mediaType === 'youtube' || mediaType === 'video' || labelLower.includes('video')) {
+      return {
+        label,
+        labelLower,
+        href,
+        sourceUrl,
+        materialType,
+        mediaType
+      };
+    }).get().filter(Boolean);
+    const sessionTitle = inferSessionTitle(text);
+    const sessionKey = getSessionKey(sessionTitle);
+    const sessionSlideUrls = sessionLinks
+      .filter(link => isSlideLink(link))
+      .map(link => link.sourceUrl);
+    const sessionVideoUrls = sessionLinks
+      .filter(link => isVideoLink(link))
+      .map(link => link.sourceUrl);
+
+    sessionRows.push({
+      text,
+      sessionIndex: sessions,
+      sessionTitle,
+      sessionKey,
+      links: sessionLinks,
+      slideUrls: sessionSlideUrls,
+      videoUrls: sessionVideoUrls,
+      ownUnitNumbers: inferSessionUnitNumbers(text, sessionLinks)
+    });
+  });
+
+  const unitNumbersBySessionKey = new Map();
+  for (const session of sessionRows) {
+    if (!session.sessionKey) continue;
+    unitNumbersBySessionKey.set(session.sessionKey, uniqueNumbers([
+      ...(unitNumbersBySessionKey.get(session.sessionKey) || []),
+      ...session.ownUnitNumbers
+    ]));
+  }
+
+  for (const session of sessionRows) {
+    const sessionUnitNumbers = uniqueNumbers([
+      ...session.ownUnitNumbers,
+      ...(unitNumbersBySessionKey.get(session.sessionKey) || [])
+    ]);
+
+    for (const link of session.links) {
+      if (isVideoLink(link)) {
         videos++;
-      } else if (mediaType === 'slides' || labelLower.includes('slides') || href.endsWith('.pdf')) {
+      } else if (isSlideLink(link)) {
         slides++;
       }
 
       materials.push(createMaterial({
-        title: label,
-        materialType,
-        mediaType,
+        title: link.label,
+        materialType: link.materialType,
+        mediaType: link.mediaType,
         sourceKind: 'external_course_website',
-        sourceUrl,
-        metadata: { session_text: text, schedule_url: pageUrl }
+        sourceUrl: link.sourceUrl,
+        metadata: {
+          session_text: session.text,
+          session_title: session.sessionTitle,
+          session_key: session.sessionKey,
+          schedule_url: pageUrl,
+          session_index: session.sessionIndex,
+          session_unit_numbers: sessionUnitNumbers,
+          session_slide_urls: session.slideUrls,
+          session_video_urls: session.videoUrls
+        }
       }));
-    });
-  });
+    }
+  }
 
   return { sessions, slides, videos, materials };
+}
+
+function inferSessionTitle(text) {
+  return normalizeText(String(text || '')
+    .replace(/\[(?:slides?|videos?)\]/gi, ' ')
+    .replace(/\s+/g, ' '));
+}
+
+function getSessionKey(text) {
+  return String(text || '')
+    .toLowerCase()
+    .replace(/https?:\/\/\S+/g, ' ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function inferSessionUnitNumbers(sessionText, links) {
+  const numbers = [
+    ...inferLectureNumbersFromText(sessionText),
+    ...links
+      .filter(link => isSlideLink(link))
+      .flatMap(link => inferLectureNumbersFromText(`${link.label} ${link.sourceUrl}`))
+  ];
+  return uniqueNumbers(numbers);
+}
+
+function inferLectureNumbersFromText(text) {
+  const value = String(text || '');
+  const numbers = [];
+  const lectureRange = /\blectures?\s+0*(\d{1,3})(?:\s*(?:,|and|&|-|to)\s*0*(\d{1,3}))?/gi;
+  const compactLecture = /(?:^|[._\-/\s])lec(?:ture)?[_\-\s]?0*(\d{1,3})(?:\.\d+)?(?:[a-z])?(?=[._\-/\s%]|$)/gi;
+
+  for (const match of value.matchAll(lectureRange)) {
+    numbers.push(...expandRange(match[1], match[2]));
+  }
+
+  for (const match of value.matchAll(compactLecture)) {
+    numbers.push(Number.parseInt(match[1], 10));
+  }
+
+  return numbers;
+}
+
+function expandRange(first, second) {
+  const start = Number.parseInt(first, 10);
+  const end = Number.parseInt(second, 10);
+  if (!Number.isInteger(start)) return [];
+  if (!Number.isInteger(end) || end === start) return [start];
+  if (end < start || end - start > 5) return [start, end];
+  return Array.from({ length: end - start + 1 }, (_, index) => start + index);
+}
+
+function uniqueNumbers(values) {
+  return [...new Set(values.filter(value => Number.isInteger(value) && value > 0))];
+}
+
+function isSlideLink(link) {
+  return link.mediaType === 'slides' ||
+    link.materialType === 'Lecture Slides' ||
+    link.labelLower.includes('slides') ||
+    link.href.endsWith('.pdf');
+}
+
+function isVideoLink(link) {
+  return link.mediaType === 'youtube' ||
+    link.mediaType === 'video' ||
+    link.labelLower.includes('video');
+}
+
+function isMaterialSlide(material) {
+  return material.media_type === 'slides' ||
+    material.material_type === 'Lecture Slides' ||
+    material.media_type === 'pdf' && /slides?/i.test(material.title || '');
+}
+
+function isMaterialVideo(material) {
+  return material.media_type === 'youtube' ||
+    material.media_type === 'video' ||
+    /videos?/i.test(material.title || '');
 }
 
 /**

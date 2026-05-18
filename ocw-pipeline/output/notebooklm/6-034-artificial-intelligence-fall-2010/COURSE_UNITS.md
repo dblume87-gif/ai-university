@@ -307,4 +307,3 @@ Unassigned Sources: 114
 - [pdf] Tutorial 5: Support vector machines, boosting — https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/5e183eb597b85504f2cd1391eaf92008_MIT6_034F10_tutor05.pdf
 - [pdf] Learning to Sing Like a Bird: Self-Supervised Acquisition of Birdsong (PDF) — http://people.csail.mit.edu/mhcoen/Papers/birdsong.pdf
 - [pdf] 3play pdf file — https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/697c66832f92f9006c96ced159a46f8c_SXBG3RGr_Rc.pdf
-

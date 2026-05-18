@@ -106,4 +106,3 @@ Unassigned Sources: 18
 - [html] MATLAB® Central — http://www.mathworks.com/matlabcentral/
 - [external] Nonlinear Inversions for Ocean Bottom Properties — http://dx.doi.org/10.1121/1.404394
 - [external] Google Books — http://books.google.com/books?id=Zbz5_UvERIIC&printsec=frontcover
-

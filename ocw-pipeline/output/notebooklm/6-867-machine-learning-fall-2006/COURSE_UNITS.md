@@ -125,4 +125,3 @@ Unassigned Sources: 25
 - [pdf] MIT6 867F06 midterm f04 — library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f04.pdf
 - [pdf] MIT6 867F06 midterm f04soln — library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f04soln.pdf
 - [pdf] MIT6 867F06 midterm f06soln — library/MIT-6.867-Machine-Learning/MIT6_867F06_midterm_f06soln.pdf
-

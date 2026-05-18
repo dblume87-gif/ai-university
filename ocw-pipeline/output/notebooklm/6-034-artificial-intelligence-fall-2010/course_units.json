@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T21:22:58.485Z",
+  "generated_at": "2026-05-18T20:51:01.801Z",
   "course": {
     "course_id": "6-034-artificial-intelligence-fall-2010",
     "title": "Artificial Intelligence",
@@ -35,7 +35,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec01.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 952,
@@ -158,7 +158,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec02.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 926,
@@ -323,7 +323,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec03.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 1092,
@@ -446,7 +446,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec04.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 1032,
@@ -527,7 +527,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec05.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 964,
@@ -636,7 +636,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec06.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 4,
@@ -661,7 +661,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec07.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 983,
@@ -770,7 +770,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec08.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 4,
@@ -837,7 +837,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec09.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 4,
@@ -862,7 +862,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec10.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 975,
@@ -929,7 +929,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec11.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 939,
@@ -1038,7 +1038,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec12a.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 912,
@@ -1159,7 +1159,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec12b.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7794,
@@ -1238,7 +1238,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec13.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7795,
@@ -1317,7 +1317,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec14.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7796,
@@ -1354,7 +1354,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec15.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 979,
@@ -1475,7 +1475,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec16.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7798,
@@ -1554,7 +1554,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec17.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7799,
@@ -1633,7 +1633,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec18.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 7800,
@@ -1670,7 +1670,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec19.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 1,
@@ -1735,7 +1735,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec21.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         }
       ],
       "source_count": 4,
@@ -1760,7 +1760,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec22.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 934,
@@ -1827,7 +1827,7 @@
           "resource_path": "library/MIT-6.034-Artificial-Intelligence/MIT6_034F10_Lec23.pdf",
           "parent_title": null,
           "learning_resource_types": [],
-          "unit_match": "lecture_token"
+          "unit_match": "metadata_signal"
         },
         {
           "id": 995,

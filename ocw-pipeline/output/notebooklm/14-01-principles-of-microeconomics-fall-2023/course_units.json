@@ -1,0 +1,2636 @@
+{
+  "generated_at": "2026-05-18T20:51:01.720Z",
+  "course": {
+    "course_id": "14-01-principles-of-microeconomics-fall-2023",
+    "title": "Principles of Microeconomics ",
+    "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 168,
+    "unit_count": 26,
+    "assigned_sources": 142,
+    "unassigned_sources": 26
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Handout",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5056,
+          "title": "Lecture 01 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5061,
+          "title": "Lecture Summary 01: Introduction to Microeconomics",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5064,
+          "title": "Lec 1: Introduction to Principles of Microeconomics and Supply & Demand",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture01-2023sep06_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-1-introduction-to-principles-of-microeconomics-and-supply-demand/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5065,
+          "title": "Lec 1: Introduction to Principles of Microeconomics and Supply & Demand",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=8ssjKR7nNck",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-1-introduction-to-principles-of-microeconomics-and-supply-demand/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5067,
+          "title": "Lec 1: Introduction to Principles of Microeconomics and Supply & Demand (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1eUcoskiOny7uj-hC8hI-l230fqqWeRCH_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-1-introduction-to-principles-of-microeconomics-and-supply-demand/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5000,
+          "title": "Problem Set 01 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset1sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset1sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5068,
+          "title": "Problem Set 01",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset1_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "pdf": 5,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "Handout",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5112,
+          "title": "Lec 2: Preferences and Utility Function",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture02-2023sep11_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-2-preferences-and-utility-function/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5113,
+          "title": "Lec 2: Preferences and Utility Function",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=uuY13aUtFUo",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-2-preferences-and-utility-function/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5115,
+          "title": "Lec 2: Preferences and Utility Function (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1nU4Ro98UoLiIgMeHhveAhCn8YIdan-FS_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-2-preferences-and-utility-function/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5121,
+          "title": "Lecture 02 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5133,
+          "title": "Lecture Summary 02: Preferences and Utility Functions",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5084,
+          "title": "Problem Set 2 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset2sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset2sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5171,
+          "title": "Problem Set 02",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset2_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 5
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Handouts",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5013,
+          "title": "Lec 3: Budget Constraints and Constrained Choice",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture03-2023sep13_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-3-budget-constraints-and-constrained-choice/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5014,
+          "title": "Lec 3: Budget Constraints and Constrained Choice",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=c8K_FSLtceQ",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-3-budget-constraints-and-constrained-choice/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5016,
+          "title": "Lec 3: Budget Constraints and Constrained Choice (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1njhKLz3mGyrDyuwDOModusR3qN08Oz_A_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-3-budget-constraints-and-constrained-choice/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5055,
+          "title": "Lecture 03 Handouts",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5097,
+          "title": "Lecture Summary 03: Budget Constraints",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5003,
+          "title": "Problem Set 03 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset3sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset3sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5100,
+          "title": "Problem Set 03",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset3_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 5
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Handout",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5040,
+          "title": "Lecture 04 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5122,
+          "title": "Lec 4: Demand Curves and Income/Substitution Effects",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture04-2023sep18_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-4-demand-curves-and-incomesubstitution-effects/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5123,
+          "title": "Lec 4: Demand Curves and Income/Substitution Effects",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Qj1HvrSKLqY",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-4-demand-curves-and-incomesubstitution-effects/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5125,
+          "title": "Lec 4: Demand Curves and Income/Substitution Effects (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1u7QgZleF_LElj3-IW_az5kyYaq1fvYfj_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-4-demand-curves-and-incomesubstitution-effects/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5183,
+          "title": "Lecture Summary 04: Demand Curves",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5062,
+          "title": "Problem Set 04",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset4_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5187,
+          "title": "Problem Set 04 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset4sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset4sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "pdf": 5,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "14.01-Lecture05-2023sep20-V2_transcript.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5009,
+          "title": "Lec 5: Production Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture05-2023sep20-v2_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-5-production-theory/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5010,
+          "title": "Lec 5: Production Theory",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Q7-mCKOzNUI",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-5-production-theory/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5012,
+          "title": "Lec 5: Production Theory (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1uHrL94_6Al349Wax149tfsBjQxUlFPl7_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-5-production-theory/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5111,
+          "title": "14.01-Lecture05-2023sep20-V2_transcript.pdf",
+          "media_type": "pdf",
+          "material_type": "Other",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture05-2023sep20-v2_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/1401-lecture05-2023sep20-v2_transcript_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5152,
+          "title": "Lecture 05 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout5.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout5_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5194,
+          "title": "Lecture Summary 05: Production",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec5.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec5_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5141,
+          "title": "Problem Set 05",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset5.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset5_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5185,
+          "title": "Problem Set 05 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset5sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset5sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 8,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 6
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Handout",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5004,
+          "title": "Lec 6: Costs",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture06-2023sep25_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-6-costs/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5005,
+          "title": "Lec 6: Costs",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=y1bnBxfNVkU",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-6-costs/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5007,
+          "title": "Lec 6: Costs (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1KjOoZ_6JHqDZnACIBCZQ_ie9bX0voSh7_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-6-costs/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5053,
+          "title": "Lecture 06 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout6.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout6_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5140,
+          "title": "Lecture Summary 06: From Production to Costs",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec6.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec6_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5048,
+          "title": "Problem Set 06 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset6sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset6sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5193,
+          "title": "Problem Set 06",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset6.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset6_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 5
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "Lecture Summary 07: Competition I",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5042,
+          "title": "Lecture Summary 07: Competition I",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec7_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5090,
+          "title": "Lecture 07 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout7_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5102,
+          "title": "Lec 7: Competition I",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture07-2023sep27_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-7-competition-i/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5103,
+          "title": "Lec 7: Competition I",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=IYwk6EwPmCg",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-7-competition-i/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5105,
+          "title": "Lec 7: Competition I (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1y6QvWT1dZb2asBpO5OFPKGI5y3hsnjjD_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-7-competition-i/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5083,
+          "title": "Problem Set 07",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset7_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5099,
+          "title": "Problem Set 07 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset7sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset7sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "pdf": 5,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Lecture Summary 08: Competition II",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5054,
+          "title": "Lecture Summary 08: Competition II",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec8.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec8_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5076,
+          "title": "Lec 8: Competition II",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture08-2023oct02_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-8-competition-ii/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5077,
+          "title": "Lec 8: Competition II",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=sHlazW9s_g8",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-8-competition-ii/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5079,
+          "title": "Lec 8: Competition II (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1veDeVvihAKTwJKAIHvygdJhlqp3EP90L_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-8-competition-ii/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5088,
+          "title": "Lecture 08 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout8.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout8_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5029,
+          "title": "Problem Set 08",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset8.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset8_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "assessment_number"
+        },
+        {
+          "id": 5166,
+          "title": "Problem Set 08 Solutions",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_pset8sol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_pset8sol_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Problem Sets",
+            "Problem Set Solutions"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 7,
+      "source_types": {
+        "pdf": 5,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Lecture Summary 09: Supply and Demand, Consumer and Producer Surplus",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5017,
+          "title": "Lec 9: Supply and Demand & Consumer/Producer Surplus",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture09-2023oct04_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-9-supply-and-demand-consumerproducer-surplus/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5018,
+          "title": "Lec 9: Supply and Demand & Consumer/Producer Surplus",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=-Z35m38qLd4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-9-supply-and-demand-consumerproducer-surplus/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5020,
+          "title": "Lec 9: Supply and Demand & Consumer/Producer Surplus (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1FpshsWObLbHaOCGWL32kg0JTpH-B8q7x_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-9-supply-and-demand-consumerproducer-surplus/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5043,
+          "title": "Lecture Summary 09: Supply and Demand, Consumer and Producer Surplus",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec9.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec9_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5151,
+          "title": "Lecture 09 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout9.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout9_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Lecture Summary 10: Welfare Economics",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5069,
+          "title": "Lecture Summary 10: Welfare Economics",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5135,
+          "title": "Lec 10: Welfare Economics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture10-2023oct11_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-10-welfare-economics/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5136,
+          "title": "Lec 10: Welfare Economics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=1zAuKwZ5PPE",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-10-welfare-economics/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5138,
+          "title": "Lec 10: Welfare Economics (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1ZH_qQNddnGOetdIaF0MVlQLwMXUbI6y__transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-10-welfare-economics/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5150,
+          "title": "Lecture 10 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout10_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "Lecture Summary 11: Monopoly I",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5071,
+          "title": "Lec 11: Monopoly I",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture11-2023oct16_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-11-monopoly-i/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5072,
+          "title": "Lec 11: Monopoly I",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=CD_HqiEdNOw",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-11-monopoly-i/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5074,
+          "title": "Lec 11: Monopoly I (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1L7QXz_ItqIraMVGmF7oeSgA3EhcJ7Pp1_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-11-monopoly-i/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5089,
+          "title": "Lecture Summary 11: Monopoly I",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec11_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5139,
+          "title": "Lecture 11 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout11_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Lecture Summary 12: Monopoly II",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5047,
+          "title": "Lecture Summary 12: Monopoly II",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec12_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5107,
+          "title": "Lec 12: Monopoly II",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture12-2023oct18_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-12-monopoly-ii/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5108,
+          "title": "Lec 12: Monopoly II",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=iBmoqczj7xs",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-12-monopoly-ii/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5110,
+          "title": "Lec 12: Monopoly II (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1xUj6f3FdvTawTf4BfUZhWhnnDiQB5yvl_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-12-monopoly-ii/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5128,
+          "title": "Lecture 12 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout12_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Lecture Summary 13: Oligopoly",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5094,
+          "title": "Lecture Summary 13: Oligopoly",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec13.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec13_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5101,
+          "title": "Lecture 13 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout13.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout13_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5172,
+          "title": "Lec 13: Oligopoly I",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture13-2023oct23_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-13-oligopoly-i/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5173,
+          "title": "Lec 13: Oligopoly I",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=_crDeSDpB20",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-13-oligopoly-i/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5175,
+          "title": "Lec 13: Oligopoly I (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/13jVQw-8s1W9AqlGDsTTcAkYLEOk-ZfpW_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-13-oligopoly-i/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Lecture Summary 14: Oligopoly cont'd",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5021,
+          "title": "Lec 14: Oligopoly II",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture14-2023oct25_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-14-oligopoly-ii/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5022,
+          "title": "Lec 14: Oligopoly II",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=omeBIMSJ89k",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-14-oligopoly-ii/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5024,
+          "title": "Lec 14: Oligopoly II (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1iNAZ_8vr72UE_NPRQQYix4RNzdyVqvKg_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-14-oligopoly-ii/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5082,
+          "title": "Lecture Summary 14: Oligopoly cont'd",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec14.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec14_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "Lecture Summary 15: Input Markets I: Labor",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 4990,
+          "title": "Lec 15: Input Markets I—Labor Market",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture15-2023oct30_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-15-input-markets-ilabor-market/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4991,
+          "title": "Lec 15: Input Markets I—Labor Market",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=kUt5rgd8kfc",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-15-input-markets-ilabor-market/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 4993,
+          "title": "Lec 15: Input Markets I—Labor Market (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/137py6c_brXus1J-LNHuKSJnoV7kshYLs_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-15-input-markets-ilabor-market/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5031,
+          "title": "Lecture Summary 15: Input Markets I: Labor",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec15.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec15_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5106,
+          "title": "Lecture 15 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout15.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout15_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "Handout",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5063,
+          "title": "Lecture 16 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout16.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout16_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5095,
+          "title": "Lecture Summary 16: Input Markets II: Labor and Capital",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec16.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec16_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5116,
+          "title": "Lec 16: Input Markets II—Labor and Capital",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture16-2023nov01_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-16-input-markets-iilabor-and-capital/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5117,
+          "title": "Lec 16: Input Markets II—Labor and Capital",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=Zl92WCm30bU",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-16-input-markets-iilabor-and-capital/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5119,
+          "title": "Lec 16: Input Markets II—Labor and Capital (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/14u5S_x3G67UVcw5cYf1jPpA4dAbhSnJ2_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-16-input-markets-iilabor-and-capital/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "Handout",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5070,
+          "title": "Lecture 17 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout17.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout17_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5142,
+          "title": "Lec 17: Making Choices over Time",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture17-2023nov06_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-17-making-choices-over-time/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5143,
+          "title": "Lec 17: Making Choices over Time",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=CZwgOqxScB4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-17-making-choices-over-time/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5145,
+          "title": "Lec 17: Making Choices over Time (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1Y-NeiZlohmPQGLJHEpvv62AasKDgpqVL_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-17-making-choices-over-time/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5165,
+          "title": "Lecture Summary 17: Making Choices Over Time",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec17.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec17_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Lecture Summary 18: International Trade",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5025,
+          "title": "Lec 18: Introduction to Trade",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture18-2023nov08_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-18-introduction-to-trade/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5026,
+          "title": "Lec 18: Introduction to Trade",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=KVV8pUOap2I",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-18-introduction-to-trade/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5028,
+          "title": "Lec 18: Introduction to Trade (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1ICSUYUeBPYe8MZ7ocD6c6XoDb6V8tFxB_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-18-introduction-to-trade/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5127,
+          "title": "Lecture Summary 18: International Trade",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec18.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec18_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5176,
+          "title": "Lecture 18 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout18.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout18_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "Handout",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5120,
+          "title": "Lecture 19 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout19.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout19_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5158,
+          "title": "Lec 19: International Trade: Welfare and Policy",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture19-2023nov13_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-19-international-trade-welfare-and-policy/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5159,
+          "title": "Lec 19: International Trade: Welfare and Policy",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=TxoAbm57ELE",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-19-international-trade-welfare-and-policy/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5161,
+          "title": "Lec 19: International Trade: Welfare and Policy (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1wiGq2YSQxXL3feT-PeKe6DnSdrD7vGTw_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-19-international-trade-welfare-and-policy/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5164,
+          "title": "Lecture Summary 19: International Trade: Welfare and Policy",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec19.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec19_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 20,
+      "title": "Lecture Summary 20: Uncertainty",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5098,
+          "title": "Lecture Summary 20: Uncertainty",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec20.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec20_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5126,
+          "title": "Lecture 20 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout20.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout20_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5189,
+          "title": "Lec 20: Uncertainty",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture20-2023nov15_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-20-uncertainty/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5190,
+          "title": "Lec 20: Uncertainty",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=qwNTv1tjKbA",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-20-uncertainty/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5192,
+          "title": "Lec 20: Uncertainty (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1cJ70aRnRvSeFryA5TlGJ_dJGUMguhEam_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-20-uncertainty/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "Lecture Summary 21: Asymmetric Information and Social Insurance",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5041,
+          "title": "Lecture Summary 21: Asymmetric Information and Social Insurance",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec21.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec21_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5167,
+          "title": "Lec 21: Social Insurance",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture21-2023nov27_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-21-social-insurance/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5168,
+          "title": "Lec 21: Social Insurance",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=rXwgo-9xZDo",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-21-social-insurance/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5170,
+          "title": "Lec 21: Social Insurance (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1W_mXc-kItia9nBLXHp-J2-wAKFsLcQxC_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-21-social-insurance/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 22,
+      "title": "Lecture Summary 22: Efficiency and Equity",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5032,
+          "title": "Lec 22: Efficiency and Equity",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture22-2023nov29_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-22-efficiency-and-equity/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5033,
+          "title": "Lec 22: Efficiency and Equity",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=8sgl_wzzQUY",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-22-efficiency-and-equity/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5035,
+          "title": "Lec 22: Efficiency and Equity (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1fDtk3zJCrxphYKcTVeYiRYyovgbwyqTr_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-22-efficiency-and-equity/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5059,
+          "title": "Lecture Summary 22: Efficiency and Equity",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec22.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec22_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5182,
+          "title": "Lecture 22 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout22.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout22_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "Lecture Summary 23: Taxation and Redistribution",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5049,
+          "title": "Lec 23: Government Redistribution and Taxation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture23-2023dec04_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-23-government-redistribution-and-taxation/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5050,
+          "title": "Lec 23: Government Redistribution and Taxation",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=DB7dSaro4cE",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-23-government-redistribution-and-taxation/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5052,
+          "title": "Lec 23: Government Redistribution and Taxation (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1q_yRcf6jnAFszMZOCYx0J01MX2CXGsds_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-23-government-redistribution-and-taxation/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5096,
+          "title": "Lecture Summary 23: Taxation and Redistribution",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec23.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec23_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5184,
+          "title": "Lecture 23 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout23.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout23_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 24,
+      "title": "Lecture Summary 24: Externalities",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5030,
+          "title": "Lecture Summary 24: Externalities",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec24.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec24_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5036,
+          "title": "Lec 24: Externalities",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture24-2023dec06_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-24-externalities/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5037,
+          "title": "Lec 24: Externalities",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=EDGRxqnILUM",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-24-externalities/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5039,
+          "title": "Lec 24: Externalities (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1fXujhNgXqv0tDS5gMpWig1mYXtL1OcYS_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-24-externalities/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5132,
+          "title": "Lecture 24 Handout",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_handout24.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_handout24_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 5,
+      "source_types": {
+        "pdf": 3,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 25,
+      "title": "Lecture Summary 25: Behavioral Economics",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5134,
+          "title": "Lecture Summary 25: Behavioral Economics",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_lec25.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_lec25_pdf/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_title"
+        },
+        {
+          "id": 5146,
+          "title": "Lec 25: Behavioral Economics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture25-2023dec11_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-25-behavioral-economics/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5147,
+          "title": "Lec 25: Behavioral Economics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=TT7ZUJGPqos",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-25-behavioral-economics/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5149,
+          "title": "Lec 25: Behavioral Economics (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1TibVtUY0LALfn3SgCCFeLLy_OOLk8vEG_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-25-behavioral-economics/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 4,
+      "source_types": {
+        "pdf": 2,
+        "youtube": 2
+      }
+    },
+    {
+      "unit_number": 26,
+      "title": "Lec 26: Health Care Economics",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 5177,
+          "title": "Lec 26: Health Care Economics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1401-lecture26-2023dec13_360p_16_9.mp4",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-26-health-care-economics/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5178,
+          "title": "Lec 26: Health Care Economics",
+          "media_type": "youtube",
+          "material_type": "Lecture Videos",
+          "source_url": "https://www.youtube.com/watch?v=VoLP28-OSRU",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-26-health-care-economics/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 5180,
+          "title": "Lec 26: Health Care Economics (video transcript file)",
+          "media_type": "pdf",
+          "material_type": "Lecture Videos",
+          "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/1D_iQiYpYoxBYre089q_2wT617N5p9lGP_transcript.pdf",
+          "local_path": null,
+          "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/lec-26-health-care-economics/data.json",
+          "parent_title": null,
+          "learning_resource_types": [
+            "Lecture Videos"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "youtube": 2,
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 4995,
+      "title": "Marek Slusarczyk",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://en.wikipedia.org/wiki/Automotive_industry#/media/File:002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice,_Poland.jpg",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/external-resources/marek-slusarczyk_06a6f4f1-aad7-4ae7-ba49-3440371d826e/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 4996,
+      "title": "Thinking Like an Economist with Prof. Jonathan Gruber",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=oMWvVcKdtco",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/thinking-like-an-economist-with-prof-jonathan-gruber/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 4997,
+      "title": "Thinking Like an Economist with Prof. Jonathan Gruber",
+      "media_type": "video",
+      "material_type": "Lecture Videos",
+      "source_url": "https://archive.org/download/chalk-radio/S01E09_Jonathan_Gruber_360p.mp4",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/thinking-like-an-economist-with-prof-jonathan-gruber/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 4999,
+      "title": "Thinking Like an Economist with Prof. Jonathan Gruber (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/oMWvVcKdtco_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/thinking-like-an-economist-with-prof-jonathan-gruber/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Podcasts"
+      ]
+    },
+    {
+      "id": 5008,
+      "title": "Full Lecture Summaries",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_full.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_full_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 5044,
+      "title": "Planning bachelor’s degree requirement",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "http://catalog.mit.edu/degree-charts/planning-course-11/",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/external-resources/planning-bachelors-degree-requirement_4804b548-7fd6-4de6-8a6b-e16b39819ada/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5045,
+      "title": "MIT Economist on AI, Trade-Offs & Healthcare captions",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/dLg9MK1hv2Y_captions.webvtt",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/dlg9mk1hv2y_captions/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5046,
+      "title": "MIT Economist on AI, Trade-Offs & Healthcare captions",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=dLg9MK1hv2Y",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/dlg9mk1hv2y_captions/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5058,
+      "title": "online introductory microeconomics class",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://mitxonline.mit.edu/courses/course-v1:MITxT+14.01x/",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/external-resources/online-introductory-microeconomics-class_56b67f6c-916f-4c61-b263-d9b1c7427916/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5060,
+      "title": "Student Support Services",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://studentlife.mit.edu/s3",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/external-resources/student-support-services_5df9aaad-00a0-4b92-8592-ed553cfe18a6/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5080,
+      "title": "Thinking Like an Economist with Prof. Jonathan Gruber captions",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/oMWvVcKdtco_captions.webvtt",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/omwvvckdtco_captions/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5081,
+      "title": "Thinking Like an Economist with Prof. Jonathan Gruber captions",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=oMWvVcKdtco",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/omwvvckdtco_captions/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5087,
+      "title": "MIT guidelines on Academic Misconduct and Dishonesty",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://policies.mit.edu/policies-procedures/100-academic-and-research-misconduct-and-dishonesty/102-procedures-dealing",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/external-resources/mit-guidelines-on-academic-misconduct-and-dishonesty_7d8844fc-d046-40e2-82ef-a5dfa01db9bc/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5091,
+      "title": "*18.01 Single Variable Calculus*",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/external-resources/1801-single-variable-calculus_87783b66-1ead-4253-a8fc-76fd8091e422/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5092,
+      "title": "Midterm Exam with Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_midterm.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_midterm_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 5093,
+      "title": "Humanities, Arts, and Social Sciences (HASS)",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://firstyear.mit.edu/academics-exploration/general-institute-requirements-girs/humanities-arts-and-social-sciences-hass-requirement/",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/external-resources/humanities-arts-and-social-sciences-hass_8adf7bea-a781-4a36-9dec-8c335a32f1b4/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5129,
+      "title": "Economics bachelor’s degree requirement",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://economics.mit.edu/under/majors/14-1",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/external-resources/economics-bachelors-degree-requirement_bfacf91a-a4b4-4d28-85a0-e328172a20b0/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5130,
+      "title": "MIT Economist on AI, Trade-Offs & Healthcare transcript",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/dLg9MK1hv2Y_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/dlg9mk1hv2y_transcript/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5131,
+      "title": "MIT Economist on AI, Trade-Offs & Healthcare transcript",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=dLg9MK1hv2Y",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/dlg9mk1hv2y_transcript/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5153,
+      "title": "MIT Economist on AI, Trade-Offs & Healthcare",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=dLg9MK1hv2Y",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit-economist-on-ai-trade-offs-healthcare/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Other Video"
+      ]
+    },
+    {
+      "id": 5156,
+      "title": "MIT Economist on AI, Trade-Offs & Healthcare (video transcript file)",
+      "media_type": "pdf",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/dLg9MK1hv2Y_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit-economist-on-ai-trade-offs-healthcare/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Other Video"
+      ]
+    },
+    {
+      "id": 5162,
+      "title": "Thinking Like an Economist with Prof. Jonathan Gruber transcript",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/oMWvVcKdtco_transcript.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/omwvvckdtco_transcript/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5163,
+      "title": "Thinking Like an Economist with Prof. Jonathan Gruber transcript",
+      "media_type": "youtube",
+      "material_type": "Lecture Videos",
+      "source_url": "https://www.youtube.com/watch?v=oMWvVcKdtco",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/omwvvckdtco_transcript/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5181,
+      "title": "Final Exam with Solutions",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/14-01-principles-of-microeconomics-fall-2023/mit14_01_f23_final.pdf",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/resources/mit14_01_f23_final_pdf/data.json",
+      "parent_title": null,
+      "learning_resource_types": [
+        "Exams",
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 5186,
+      "title": "MIT's Student Disability Services",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://studentlife.mit.edu/das",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/external-resources/mits-student-disability-services_f61b923d-1b2a-42c1-95d3-f3d41eed8187/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 5188,
+      "title": "General Institute Requirement (GIR)",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://firstyear.mit.edu/academics-exploration/general-institute-requirements-girs/",
+      "local_path": null,
+      "resource_path": "/courses/14-01-principles-of-microeconomics-fall-2023/external-resources/general-institute-requirement-gir_fb57e575-2d66-420b-a8e9-35b08208a883/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    }
+  ]
+}
