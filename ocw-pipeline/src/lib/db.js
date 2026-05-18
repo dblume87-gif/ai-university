@@ -22,6 +22,7 @@ function initSchema() {
       course_id            TEXT PRIMARY KEY,
       title                TEXT NOT NULL,
       source_url           TEXT,
+      course_number        TEXT,
       departments          TEXT,
       department_numbers   TEXT,
       as_taught_in         TEXT,
@@ -98,6 +99,7 @@ function migrateSchema() {
   const courseColumns = new Set(db.prepare('PRAGMA table_info(courses)').all().map(column => column.name));
   const courseMigrations = [
     ['departments', 'ALTER TABLE courses ADD COLUMN departments TEXT'],
+    ['course_number', 'ALTER TABLE courses ADD COLUMN course_number TEXT'],
     ['department_numbers', 'ALTER TABLE courses ADD COLUMN department_numbers TEXT'],
     ['as_taught_in', 'ALTER TABLE courses ADD COLUMN as_taught_in TEXT'],
     ['course_page_metadata', 'ALTER TABLE courses ADD COLUMN course_page_metadata TEXT'],
@@ -152,6 +154,7 @@ export function upsertCourse(courseId, data) {
       course_id,
       title,
       source_url,
+      course_number,
       departments,
       department_numbers,
       as_taught_in,
@@ -167,6 +170,7 @@ export function upsertCourse(courseId, data) {
       @course_id,
       @title,
       @source_url,
+      @course_number,
       COALESCE(@departments, '[]'),
       COALESCE(@department_numbers, '[]'),
       @as_taught_in,
@@ -181,6 +185,7 @@ export function upsertCourse(courseId, data) {
     ON CONFLICT(course_id) DO UPDATE SET
       title = excluded.title,
       source_url = COALESCE(excluded.source_url, courses.source_url),
+      course_number = COALESCE(excluded.course_number, courses.course_number),
       departments = COALESCE(@departments, courses.departments),
       department_numbers = COALESCE(@department_numbers, courses.department_numbers),
       as_taught_in = COALESCE(excluded.as_taught_in, courses.as_taught_in),
@@ -196,6 +201,7 @@ export function upsertCourse(courseId, data) {
     course_id: courseId,
     title: data.course_title || data.title || 'Unknown',
     source_url: data.source_url || null,
+    course_number: data.course_number || null,
     departments: jsonArrayOrNull(data.departments),
     department_numbers: jsonArrayOrNull(data.department_numbers),
     as_taught_in: data.as_taught_in || [data.term, data.year].filter(Boolean).join(' ') || null,
@@ -212,10 +218,13 @@ export function upsertCourse(courseId, data) {
 export function upsertDiscoveredCourse(courseId, data) {
   const db = getDb();
   const insertCourse = db.prepare(`
-    INSERT INTO courses (course_id, title, source_url)
-    VALUES (@course_id, @title, @source_url)
+    INSERT INTO courses (course_id, title, source_url, course_number, term, year)
+    VALUES (@course_id, @title, @source_url, @course_number, @term, @year)
     ON CONFLICT(course_id) DO UPDATE SET
-      source_url = excluded.source_url
+      source_url = excluded.source_url,
+      course_number = COALESCE(excluded.course_number, courses.course_number),
+      term = COALESCE(excluded.term, courses.term),
+      year = COALESCE(excluded.year, courses.year)
   `);
   const insertLog = db.prepare(`
     INSERT INTO discovery_log (course_id, source_url)
@@ -225,7 +234,10 @@ export function upsertDiscoveredCourse(courseId, data) {
   const course = {
     course_id: courseId,
     title: data.course_title || data.title || 'Unknown (pending scrape)',
-    source_url: data.source_url
+    source_url: data.source_url,
+    course_number: data.course_number || null,
+    term: data.term || null,
+    year: data.year || null
   };
 
   const tx = db.transaction(() => {

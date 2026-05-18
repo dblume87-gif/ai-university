@@ -7,7 +7,7 @@
  *   node src/scrape.js screen 6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016
  */
 
-import { discoverViaSearch, discoverAllDepartments } from './discovery/crawl.js';
+import { discoverViaSearch, discoverAllDepartments, discoverAllCourses } from './discovery/crawl.js';
 import { screenCourse, screenCourses, screenDiscovered } from './screening/screen.js';
 import { getShortlist, getShortlistOptions, printShortlist } from './curation/shortlist.js';
 import { getSimilarCourses, getSimilarOptions, printSimilarCourses } from './curation/similar.js';
@@ -35,8 +35,8 @@ const arg = args[1];
 
 const DISCOVER_SCHEMA = {
   stringFlags: ['--query'],
-  intFlags: ['--max'],
-  booleanFlags: ['--depts', '--headless', '--headed', '--dry-run', '--help', '-h']
+  intFlags: ['--max', '--offset', '--batch-size'],
+  booleanFlags: ['--all', '--depts', '--headless', '--headed', '--dry-run', '--help', '-h']
 };
 
 const SCREEN_SCHEMA = {
@@ -50,6 +50,7 @@ MIT OCW Pipeline
 
 Usage:
   node src/scrape.js discover --query "machine learning" [--max 5] [--headless|--headed] [--dry-run]
+  node src/scrape.js discover --all [--max 3000] [--offset 0] [--batch-size 250] [--dry-run]
   node src/scrape.js discover --depts [--max 5] [--headless|--headed] [--dry-run]
   node src/scrape.js screen --all [--fast|--deep] [--deep-tier 1,2]
   node src/scrape.js screen <course-id> [--fast|--deep] [--deep-tier 1,2]
@@ -78,10 +79,13 @@ function getDiscoverOptions() {
   const parsed = parseCliArgs(args.slice(1), DISCOVER_SCHEMA);
   return {
     maxCourses: parsed.getPositiveInt('--max', undefined),
+    offset: parsed.getPositiveInt('--offset', 0) || 0,
+    batchSize: parsed.getPositiveInt('--batch-size', undefined),
     headless: parsed.has('--headless') ? true : !parsed.has('--headed'),
     dryRun: parsed.has('--dry-run'),
     queryFromPositional: parsed.positional[0],
     queryFlag: parsed.getString('--query'),
+    isAll: parsed.has('--all'),
     isDepts: parsed.has('--depts')
   };
 }
@@ -116,7 +120,10 @@ async function main() {
       // discover --depts
       const options = getDiscoverOptions();
 
-      if (options.isDepts) {
+      if (options.isAll) {
+        console.log('[MAIN] Starte Vollkatalog-Discovery...');
+        await discoverAllCourses(options);
+      } else if (options.isDepts) {
         console.log('[MAIN] Starte Department-Discovery...');
         await discoverAllDepartments(options);
       } else {

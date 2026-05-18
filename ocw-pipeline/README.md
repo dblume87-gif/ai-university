@@ -61,6 +61,22 @@ Mehr Kontext: [../docs/ARCHITECTURE.md](../docs/ARCHITECTURE.md)
 
 Status und Datenmodell: [../docs/DATA_MODEL.md](../docs/DATA_MODEL.md)
 
+## Vollkatalog-Discovery in Batches
+
+Die Vollkatalog-Discovery liest die OCW-Sitemap und kann in fortsetzbaren
+Batches laufen. Das ist robuster als ein einzelner Lauf ueber alle Kurse.
+
+```bash
+# Erste 250 Kurse
+node src/scrape.js discover --all --offset 0 --batch-size 250
+
+# Naechste 250 Kurse
+node src/scrape.js discover --all --offset 250 --batch-size 250
+
+# Dry Run zum Pruefen
+node src/scrape.js discover --all --offset 500 --batch-size 10 --dry-run
+```
+
 ## Screening-Modi
 
 ```bash

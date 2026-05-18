@@ -9,19 +9,23 @@
  */
 
 import { PlaywrightCrawler } from 'crawlee';
+import axios from 'axios';
 import { upsertDiscoveredCourse } from '../lib/db.js';
 
 const BASE_URL = 'https://ocw.mit.edu';
 
 function recordDiscoveredCourse(courseId, sourceUrl, { dryRun }) {
+  const slugMetadata = parseCourseSlugMetadata(courseId);
+
   if (dryRun) {
-    console.log(`[DRY-RUN] + ${courseId} (${sourceUrl})`);
+    console.log(`[DRY-RUN] + ${courseId} (${sourceUrl}) ${JSON.stringify(slugMetadata)}`);
     return;
   }
 
   upsertDiscoveredCourse(courseId, {
     course_title: 'Unknown (pending scrape)',
-    source_url: sourceUrl
+    source_url: sourceUrl,
+    ...slugMetadata
   });
 }
 
@@ -78,6 +82,22 @@ export function extractCourseId(url) {
   return slug && /\d/.test(slug) ? slug : null;
 }
 
+export function parseCourseSlugMetadata(courseId) {
+  const termMatch = courseId.match(/-(fall|spring|summer|january-iap)-(\d{4})$/);
+  const courseNumberMatch = courseId.match(/^((?:[a-z]+-)?\d+[a-z]?(?:-(?:s?\d+[a-z]?))?|[a-z]+-s\d+[a-z]?|[a-z]+-\d+[a-z]?(?:-\d+)?)/i);
+
+  return {
+    course_number: courseNumberMatch ? courseNumberMatch[1] : null,
+    term: termMatch ? normalizeTerm(termMatch[1]) : null,
+    year: termMatch ? termMatch[2] : null
+  };
+}
+
+function normalizeTerm(term) {
+  if (term === 'january-iap') return 'January IAP';
+  return term.charAt(0).toUpperCase() + term.slice(1);
+}
+
 /**
  * Sucht nach Kursen über die MIT OCW Search
  */
@@ -129,6 +149,50 @@ export async function discoverViaSearch(searchQuery, options = {}) {
   await crawler.run([searchUrl]);
   
   console.log('[DISCOVERY] Crawling abgeschlossen');
+  return [...discovered];
+}
+
+/**
+ * Sammelt alle Kurslinks aus der OCW-Sitemap.
+ *
+ * Die Suche selbst ist JS/Infinite-Scroll-basiert und fuer einen Vollkatalog
+ * unnötig schwer. Die Sitemap enthält pro Kurs eine eigene Course-Sitemap und
+ * ist dadurch die stabilere Quelle fuer reine Discovery.
+ */
+export async function discoverAllCourses(options = {}) {
+  const { maxCourses = 3000, offset = 0, batchSize = null, dryRun = false } = options;
+  const discovered = new Set();
+  const sitemapUrl = `${BASE_URL}/sitemap.xml`;
+
+  console.log(`[DISCOVERY] Sitemap: ${sitemapUrl}`);
+
+  const response = await axios.get(sitemapUrl, {
+    timeout: 30000,
+    headers: {
+      'User-Agent': 'MIT-OCW-Scraper/1.0 (educational research)'
+    }
+  });
+
+  const allCourseLinks = [...String(response.data).matchAll(/<loc>(https:\/\/ocw\.mit\.edu\/courses\/[^<]+?\/)sitemap\.xml<\/loc>/g)]
+    .map(match => match[1])
+    .filter(link => extractCourseId(link));
+  const selectedCourseLinks = allCourseLinks
+    .slice(offset, maxCourses)
+    .slice(0, batchSize || maxCourses);
+
+  console.log(`[DISCOVERY] ${allCourseLinks.length} Kurs-Links in Sitemap gefunden`);
+  console.log(`[DISCOVERY] Batch: offset=${offset}, limit=${selectedCourseLinks.length}, max=${maxCourses}`);
+
+  for (const link of selectedCourseLinks) {
+    const courseId = extractCourseId(link);
+    if (courseId && !discovered.has(courseId)) {
+      recordDiscoveredCourse(courseId, link, { dryRun });
+      discovered.add(courseId);
+      console.log(`[DISCOVERY] + ${courseId}`);
+    }
+  }
+
+  console.log('[DISCOVERY] Vollkatalog-Discovery abgeschlossen');
   return [...discovered];
 }
 
@@ -202,4 +266,4 @@ export async function discoverAllDepartments(options = {}) {
   }
 }
 
-export default { discoverViaSearch, discoverViaDepartment, discoverAllDepartments };
+export default { discoverViaSearch, discoverViaDepartment, discoverAllDepartments, discoverAllCourses };
