@@ -743,15 +743,57 @@ export async function screenCourses(courseIds, { delayMs = DELAY_MS, deep = true
   return results;
 }
 
+function getTermRank(term) {
+  if (term === 'Fall') return 4;
+  if (term === 'Summer') return 3;
+  if (term === 'Spring') return 2;
+  if (term === 'January IAP') return 1;
+  return 0;
+}
+
+function byNewestCourseRun(a, b) {
+  return Number(b.year || 0) - Number(a.year || 0) ||
+    getTermRank(b.term) - getTermRank(a.term) ||
+    a.course_id.localeCompare(b.course_id);
+}
+
+function chunk(values, size) {
+  if (!size || size <= 0) return [values];
+  const chunks = [];
+  for (let i = 0; i < values.length; i += size) {
+    chunks.push(values.slice(i, i + size));
+  }
+  return chunks;
+}
+
 /**
  * Screent alle 'discovered' Kurse aus der DB
  */
 export async function screenDiscovered(options = {}) {
-  const discovered = getCoursesByStatus(SCREENING_STATUS.DISCOVERED);
-  const courseIds = discovered.map(c => c.course_id);
-  
+  const {
+    limit = null,
+    batchSize = null,
+    delayMs = DELAY_MS
+  } = options;
+  const discovered = getCoursesByStatus(SCREENING_STATUS.DISCOVERED)
+    .sort(byNewestCourseRun);
+  const courseIds = discovered
+    .slice(0, limit || discovered.length)
+    .map(c => c.course_id);
+  const batches = chunk(courseIds, batchSize);
+  const results = [];
+
   console.log(`[SCREEN] ${courseIds.length} entdeckte Kurse zum Screenen...`);
-  return screenCourses(courseIds, options);
+
+  for (let i = 0; i < batches.length; i++) {
+    const batch = batches[i];
+    if (batches.length > 1) {
+      console.log(`[SCREEN] Batch ${i + 1}/${batches.length}: ${batch.length} Kurse`);
+    }
+    results.push(...await screenCourses(batch, { ...options, delayMs }));
+  }
+
+  return results;
 }
 
 function shouldRunDeepScan(tier, deepTiers) {

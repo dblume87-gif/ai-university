@@ -41,6 +41,7 @@ const DISCOVER_SCHEMA = {
 
 const SCREEN_SCHEMA = {
   stringFlags: ['--deep-tier'],
+  intFlags: ['--limit', '--batch-size'],
   booleanFlags: ['--all', '--fast', '--deep', '--help', '-h']
 };
 
@@ -52,7 +53,7 @@ Usage:
   node src/scrape.js discover --query "machine learning" [--max 5] [--headless|--headed] [--dry-run]
   node src/scrape.js discover --all [--max 3000] [--offset 0] [--batch-size 250] [--dry-run]
   node src/scrape.js discover --depts [--max 5] [--headless|--headed] [--dry-run]
-  node src/scrape.js screen --all [--fast|--deep] [--deep-tier 1,2]
+  node src/scrape.js screen --all [--fast|--deep] [--deep-tier 1,2] [--limit 1000] [--batch-size 100]
   node src/scrape.js screen <course-id> [--fast|--deep] [--deep-tier 1,2]
   node src/scrape.js shortlist [--limit 5] [--topic "Economics"] [--department 18] [--material psets] [--min-videos 10] [--min-pdfs 5] [--include-hold] [--sort score|videos|pdfs|notes|psets|exams|title]
   node src/scrape.js similar <course-id> [--limit 5] [--include-hold]
@@ -103,6 +104,8 @@ function getScreenOptions() {
   return {
     deep: !isFast || selectedDeepTiers !== null,
     deepTiers: isFast ? selectedDeepTiers : null,
+    limit: parsed.getPositiveInt('--limit', null),
+    batchSize: parsed.getPositiveInt('--batch-size', null),
     courseIdFromPositional: parsed.positional[0],
     isAll: parsed.has('--all')
   };
