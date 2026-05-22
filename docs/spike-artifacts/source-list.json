@@ -1,0 +1,247 @@
+{
+  "notebook_id": "e9b29f80-838e-43d3-989d-e3416658b76a",
+  "notebook_title": "Introduction to Computer Science and Programming in Python (MIT 6.0001)",
+  "sources": [
+    {
+      "index": 1,
+      "id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "title": "1. What is Computation?",
+      "type": "SourceType.YOUTUBE",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:12"
+    },
+    {
+      "index": 2,
+      "id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "title": "10. Understanding Program Efficiency, Part 1",
+      "type": "SourceType.YOUTUBE",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:50"
+    },
+    {
+      "index": 3,
+      "id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "title": "11. Understanding Program Efficiency, Part 2",
+      "type": "SourceType.YOUTUBE",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:55"
+    },
+    {
+      "index": 4,
+      "id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "title": "12. Searching and Sorting",
+      "type": "SourceType.YOUTUBE",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:47:00"
+    },
+    {
+      "index": 5,
+      "id": "137cf8cb-85a2-409d-b066-9bb183b47b91",
+      "title": "2. Branching and Iteration",
+      "type": "SourceType.YOUTUBE",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:16"
+    },
+    {
+      "index": 6,
+      "id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "title": "3. String Manipulation, Guess and Check, Approximations, Bisection",
+      "type": "SourceType.YOUTUBE",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:20"
+    },
+    {
+      "index": 7,
+      "id": "867aad1d-59c1-4832-b970-7cc57cd1e43d",
+      "title": "4. Decomposition, Abstraction, and Functions",
+      "type": "SourceType.YOUTUBE",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:24"
+    },
+    {
+      "index": 8,
+      "id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "title": "5. Tuples, Lists, Aliasing, Mutability, and Cloning",
+      "type": "SourceType.YOUTUBE",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:28"
+    },
+    {
+      "index": 9,
+      "id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "title": "6. Recursion and Dictionaries",
+      "type": "SourceType.YOUTUBE",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:32"
+    },
+    {
+      "index": 10,
+      "id": "dc8c4d98-90e4-4001-ac37-0386cf1129cf",
+      "title": "7. Testing, Debugging, Exceptions, and Assertions",
+      "type": "SourceType.YOUTUBE",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:37"
+    },
+    {
+      "index": 11,
+      "id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "title": "8. Object Oriented Programming",
+      "type": "SourceType.YOUTUBE",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:41"
+    },
+    {
+      "index": 12,
+      "id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "title": "9. Python Classes and Inheritance",
+      "type": "SourceType.YOUTUBE",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:46"
+    },
+    {
+      "index": 13,
+      "id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "title": "MIT6_0001F16_Lec1.pdf",
+      "type": "SourceType.PDF",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:45:34"
+    },
+    {
+      "index": 14,
+      "id": "c0e6a96b-ae3c-4e6b-9687-2e25ea48522b",
+      "title": "MIT6_0001F16_Lec10.pdf",
+      "type": "SourceType.PDF",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:45:37"
+    },
+    {
+      "index": 15,
+      "id": "6dd1dee0-dd58-4da0-8fc5-d1fe8a88bc0d",
+      "title": "MIT6_0001F16_Lec11.pdf",
+      "type": "SourceType.PDF",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:45:40"
+    },
+    {
+      "index": 16,
+      "id": "e31fc5d6-bcea-47c8-b01f-6d872f84c7d2",
+      "title": "MIT6_0001F16_Lec12.pdf",
+      "type": "SourceType.PDF",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:45:43"
+    },
+    {
+      "index": 17,
+      "id": "4c056702-a3bb-47be-a739-29d2c95d698b",
+      "title": "MIT6_0001F16_Lec2.pdf",
+      "type": "SourceType.PDF",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:45:46"
+    },
+    {
+      "index": 18,
+      "id": "f215a355-5161-4063-98e0-22a4b313a1a3",
+      "title": "MIT6_0001F16_Lec3.pdf",
+      "type": "SourceType.PDF",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:45:49"
+    },
+    {
+      "index": 19,
+      "id": "0310709e-e1c6-416b-972c-b4740a44d2a8",
+      "title": "MIT6_0001F16_Lec4.pdf",
+      "type": "SourceType.PDF",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:45:53"
+    },
+    {
+      "index": 20,
+      "id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "title": "MIT6_0001F16_Lec5.pdf",
+      "type": "SourceType.PDF",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:45:56"
+    },
+    {
+      "index": 21,
+      "id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "title": "MIT6_0001F16_Lec6.pdf",
+      "type": "SourceType.PDF",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:45:59"
+    },
+    {
+      "index": 22,
+      "id": "10f78c70-b1da-4a99-935b-f437aa3aa079",
+      "title": "MIT6_0001F16_Lec7.pdf",
+      "type": "SourceType.PDF",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:03"
+    },
+    {
+      "index": 23,
+      "id": "fb46a2b2-6dc4-4782-978f-fbea5ecb894a",
+      "title": "MIT6_0001F16_Lec8.pdf",
+      "type": "SourceType.PDF",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:06"
+    },
+    {
+      "index": 24,
+      "id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "title": "MIT6_0001F16_Lec9.pdf",
+      "type": "SourceType.PDF",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-04-14T00:46:09"
+    }
+  ],
+  "count": 24
+}

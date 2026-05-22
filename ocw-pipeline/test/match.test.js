@@ -43,6 +43,79 @@ test('scoreNotebookCourseMatch: Match über Source-Codes wenn Title generisch is
   assert.ok(!result.reasons.includes('too-few-sources'));
 });
 
+test('scoreNotebookCourseMatch: starkes Match über OCW Source-URL-Slug', () => {
+  const course12740 = {
+    course_id: '12-740-paleoceanography-spring-2008',
+    title: 'Paleoceanography',
+    source_url: 'https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/'
+  };
+  const result = scoreNotebookCourseMatch(
+    {
+      title: 'Paleoceanography',
+      sources: [
+        {
+          title: 'https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/02f5d967ce637f066a1f68acf5e0bde0_lec01.pdf',
+          url: 'https://ocw.mit.edu/courses/12-740-paleoceanography-spring-2008/02f5d967ce637f066a1f68acf5e0bde0_lec01.pdf'
+        }
+      ]
+    },
+    course12740
+  );
+  assert.ok(result.confidence >= 0.9, `confidence: ${result.confidence}`);
+  assert.ok(result.reasons.includes('source-slug'));
+});
+
+test('scoreNotebookCourseMatch: Source-URLs ohne passenden Slug matchen nicht blind', () => {
+  const result = scoreNotebookCourseMatch(
+    {
+      title: 'Paleoceanography',
+      sources: [
+        {
+          title: 'https://example.com/other-course/lec01.pdf',
+          url: 'https://example.com/other-course/lec01.pdf'
+        }
+      ]
+    },
+    course6034
+  );
+  assert.ok(!result.reasons.includes('source-slug'));
+  assert.ok(result.confidence < 0.55, `confidence: ${result.confidence}`);
+});
+
+test('scoreNotebookCourseMatch: Course-Code matcht nicht als Prefix längerer Codes', () => {
+  const course600 = {
+    course_id: '6-00-introduction-to-computer-science-and-programming-fall-2008',
+    title: 'Introduction to Computer Science and Programming'
+  };
+  const result = scoreNotebookCourseMatch(
+    { title: 'MIT-6.0002 Computational Thinking and Data Science', sources: [] },
+    course600
+  );
+  assert.ok(!result.reasons.some(reason => reason.startsWith('code:')));
+});
+
+test('scoreNotebookCourseMatch: Penalty bei nur Source-Slug-Hit und einzelner Quelle', () => {
+  const course61200 = {
+    course_id: '6-1200j-mathematics-for-computer-science-spring-2024',
+    title: 'Mathematics for Computer Science'
+  };
+  const result = scoreNotebookCourseMatch(
+    {
+      title: 'Foundations of Logic: Predicates, Sets, and Mathematical Proofs',
+      sources: [
+        {
+          title: 'https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec01.pdf',
+          url: 'https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/mit6_1200j_s24_lec01.pdf'
+        }
+      ]
+    },
+    course61200
+  );
+  assert.ok(result.reasons.includes('source-slug'));
+  assert.ok(result.reasons.includes('too-few-sources'));
+  assert.ok(result.confidence <= 0.5, `confidence: ${result.confidence}`);
+});
+
 test('scoreNotebookCourseMatch: Penalty wenn nur Source-Code-Hit und <2 Sources', () => {
   const result = scoreNotebookCourseMatch(
     {

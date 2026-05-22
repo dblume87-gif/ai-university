@@ -190,3 +190,97 @@ Output:
 ocw-pipeline/output/notebooklm/assets/index.json
 ocw-pipeline/output/notebooklm/assets/INDEX.md
 ```
+
+## NotebookLM Chat-Integration pruefen
+
+Der vollstaendige Spike ist dokumentiert in:
+
+```text
+docs/NOTEBOOKLM_INTEGRATION_SPIKE.md
+docs/spike-artifacts/
+```
+
+Schnelle manuelle Checks:
+
+```bash
+notebooklm --version
+notebooklm list --json
+notebooklm source list -n <notebook-id> --json
+notebooklm ask "Was ist das zentrale Thema?" -n <notebook-id> --json
+```
+
+Source-gefilterte Frage:
+
+```bash
+notebooklm ask "Erklaere Rekursion einfach." \
+  -n <notebook-id> \
+  -s <source-id-1> \
+  -s <source-id-2> \
+  --json
+```
+
+Tutor-Modus:
+
+```bash
+notebooklm configure -n <notebook-id> --mode learning-guide
+notebooklm ask "Erklaer mir das fuer Anfaenger und stelle eine Kontrollfrage." -n <notebook-id> --json
+notebooklm configure -n <notebook-id> --mode default
+```
+
+Mindmap:
+
+```bash
+notebooklm generate mind-map -n <notebook-id> --json
+notebooklm download mind-map docs/spike-artifacts/mindmap.json -n <notebook-id> --json
+```
+
+Wichtige Erkenntnisse:
+
+- `ask --json` liefert `references[]` mit konkreten `source_id`s.
+- `-s` verhielt sich im Spike als strikter Source-Filter.
+- Nicht `-c new` verwenden. Fuer eine echte Conversation-ID erst ohne `-c`
+  fragen, dann die zurueckgegebene UUID fuer Follow-ups nutzen.
+- Mindmap-JSON enthaelt keine Source IDs und muss nachtraeglich auf Units/Sources
+  gemappt werden.
+
+## V0 Learning Path Walking Skeleton
+
+V0 soll bewusst klein bleiben und noch keine vollstaendige Lernpfad-Automation
+bauen.
+
+Empfohlener Ablauf:
+
+1. Bestehendes Notebook mit ready Sources auswaehlen.
+2. Kleine Unit- oder Source-Auswahl festlegen.
+3. User-Frage mit konkreten Sources an NotebookLM schicken:
+
+```bash
+notebooklm ask "<user question>" \
+  -n <notebook-id> \
+  -s <source-id-1> \
+  -s <source-id-2> \
+  --json
+```
+
+4. Antwort, `references[]`, `source_id`s und optional `conversation_id` speichern.
+5. Antwort mit Citations im Chat anzeigen.
+6. Optional aus derselben Source-Auswahl Material erzeugen:
+
+```bash
+notebooklm generate report \
+  "Erstelle einen kurzen Study Guide zu dieser Unit." \
+  -n <notebook-id> \
+  -s <source-id-1> \
+  -s <source-id-2> \
+  --format study-guide \
+  --language de \
+  --wait \
+  --json
+```
+
+Akzeptanz fuer V0:
+
+- Eine Frage wird mit festen Source IDs beantwortet.
+- Citations sind auf NotebookLM Sources mapbar.
+- Die Antwort kann als Chat-Turn gespeichert werden.
+- Aus denselben Sources kann ein erstes Material erzeugt werden.

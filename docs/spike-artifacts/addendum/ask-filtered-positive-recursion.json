@@ -1,0 +1,1304 @@
+{
+  "answer": "Rekursion ist im Kern ein Prozess, bei dem sich Dinge auf selbst\u00e4hnliche Weise wiederholen [1, 2]. In der Programmierung bedeutet das konkret, dass **eine Funktion sich innerhalb ihres eigenen Codes selbst aufruft** [2, 3].\n\nDer Ansatz basiert auf dem algorithmischen \"Teile und Herrsche\"-Prinzip (Divide-and-Conquer) [2, 4]. Anstatt ein komplexes Problem auf einmal zu l\u00f6sen, **reduziert man das Problem auf eine einfachere, kleinere Version exakt desselben Problems** [1, 2, 4, 5]. Diesen Schritt wiederholt man so lange, bis man eine Version des Problems erreicht, die so simpel ist, dass man sie direkt und ohne weiteren Aufruf l\u00f6sen kann [4, 5].\n\nJede funktionierende Rekursion besteht daher zwingend aus zwei Bausteinen:\n*   **Dem Basisfall (Base Case):** Dies ist die einfachste Form des Problems, die eine sofortige L\u00f6sung hat [4, 5]. Dieser Fall ist extrem wichtig, da er verhindert, dass die Funktion sich unendlich oft selbst aufruft (Endlosschleife) [2, 6].\n*   **Dem rekursiven Schritt:** Hier ruft die Funktion sich selbst mit einer verkleinerten Eingabe auf, um sich dem Basisfall schrittweise anzun\u00e4hern [2, 5].\n\nEin klassisches Beispiel zur Veranschaulichung ist die Berechnung der Fakult\u00e4t einer Zahl (`n!`) [7, 8]. Anstatt eine herk\u00f6mmliche Schleife zu nutzen, definiert man das Problem rekursiv als `n * (n-1)!` [8, 9]. \u00c4hnlich wie bei der mathematischen Induktion geht man davon aus, dass die kleinere Version des Problems die richtige Antwort liefert, und kombiniert diese dann einfach mit dem aktuellen Schritt, um das gro\u00dfe Ganze zu l\u00f6sen [10-13]. \n\nSoll ich Ihnen anhand von Python-Code aus den Vorlesungen zeigen, wie man ein Problem wie die Fakult\u00e4t oder die Fibonacci-Zahlen rekursiv programmiert?",
+  "conversation_id": "b7b5e1f3-2356-4265-b07a-154d1ab5d61c",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 1,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "5b7ec37a-4f5e-47e9-86a2-6b6ffdc276b1"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 2,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "d055c1b8-fe77-4373-9e79-bafc3351d1ec"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 3,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "d5583f6d-b9fd-4670-9007-b4828584b3d7"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 4,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "2aad5c21-f50f-4dd0-87d1-926ad131de45"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 5,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "8b6de9f1-31b0-4201-8ff3-f796b0dea0fa"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 6,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "b183aa78-9e55-4048-9ac3-66b5bce52a88"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 7,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "be38822f-f468-4cbb-ab0b-f21d7aa4ab6c"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 8,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "6ef940e3-471f-49d3-a4c5-ba6bc391784f"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 9,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "2f10404c-45d7-4158-bbc6-565e49c53e05"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 10,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "598fcc1f-c138-4bc6-b6f5-d74b1b3a6489"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 11,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "4525ca94-587e-4dcd-b10c-5ab7fa2cdc69"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 12,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "44a9cef4-0101-497f-91c9-f9869f2d8dcd"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 13,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "5e161e16-4bf7-4d17-9999-a9bb7a2a0743"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 14,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "170fea5a-15bc-4f65-bb8c-09ef87db1871"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 15,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "6e85c906-89a6-4a90-9acf-aa9818c00036"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 16,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "e69463b1-2bf1-4ff8-8da2-574286f48696"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 17,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "34f92282-fb43-4473-beb2-63409b987b8f"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 18,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "97d8e0cf-1500-4658-a555-5af55523a7d0"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 19,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "24948d18-816e-4f01-9fba-03f20a90e1cb"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 20,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "e0eded5d-342a-48b6-a65e-1abc823e36f5"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 21,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "babd94a4-b338-45c2-9306-44426ea57c4d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 22,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "afa6f9ad-dc12-4aa0-b9f7-4d3b744ed5cd"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 23,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "54ce0463-f021-4d22-bc34-a42f530ac09b"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 24,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "2169c2f7-3844-4c16-bf3a-e42489b2db7b"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 25,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "cbc195f3-3b0f-403e-b4e6-16fbab0ff805"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 26,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "c5f2ebab-5176-45c0-ba2d-2a0778351573"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 27,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "2642e740-daeb-41d5-aae4-8bf088f00f53"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 28,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "5ab697b0-e0ae-40e5-bcf1-56b6b0840b02"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 29,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "f1e03326-642c-4380-9dd4-40afa134cf24"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 30,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "8df2a6b4-d3db-4a1a-8d58-e8b499568080"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 31,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "e65f2a6c-f195-403d-9954-1a0e5ab96b69"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 32,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "c4b3acd2-f8eb-4d46-98c1-28c310c9f431"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 33,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "08575a92-a65c-42ed-9fac-43467c81b60d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 34,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "d57a4c1e-de73-4b62-88dd-626a791497b2"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 35,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "cd93a636-1c92-4373-85fe-516f42cc5e9b"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 36,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "a3a668e6-cdaa-40e0-87fc-9c87b8da1785"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 37,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "65589e06-44c4-473d-be66-bad96b08a6e9"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 38,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "f7829713-a895-4c96-9d42-2f998e2e96ab"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 39,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "75770aca-3fd2-4016-98a3-ddb1d583a9a1"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 40,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "561a2d45-f311-40ff-9141-9022ab7e5128"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 41,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "1d124cc1-eaad-4170-99af-eb0dae0716d8"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 42,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "0534a42c-0dbe-42b6-8cdc-b900e9c732d2"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 43,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "09b56b97-66a1-4c7e-ae2a-6c6215c1afa6"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 44,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "ce6c3782-2369-450f-b6d3-b5bb098d097b"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 45,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "a0869154-bf37-4f94-a432-6f43e8ee6082"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 46,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "5baac440-8660-4492-a5af-97823b5a9cc9"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 47,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "2b80ac04-214e-430d-8251-99a08825989f"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 48,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "a473f7fd-53ca-4878-a9dd-966e618b0ba0"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 49,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "e20cf365-f1f2-454f-98f5-3c8a3ac4264d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 50,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "3abf027e-a855-45cf-ae01-05caa52d1b20"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 51,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "91a2bcca-df89-45cc-a3e7-f187a9e4e9ad"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 52,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "9b79e3ca-4b39-48a6-a4ce-7d1635491bfd"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 53,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "1a853102-5b09-41b9-8a27-47e85d5ef92d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 54,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "84633a35-5253-47d7-8107-251569c7e941"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 55,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "806a7579-a06d-4ffb-a7ed-8fcc09ce0ade"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 56,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "77099046-94cf-4ecc-b93f-0b221b5ca897"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 57,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "b0c85340-b97b-40f6-be32-4263034f765a"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 58,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "465b22ca-2461-46af-ba77-4d76b2be1561"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 59,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "8ce01fd9-120b-4884-8cc2-8d4eac628ec1"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 60,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "abff7905-8680-4f1f-9304-2274d20ec531"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 61,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "53db4eb3-d8f6-45ad-82e3-1afa04e26afe"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 62,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "c74b7e75-501b-4d94-b4f7-16d456797521"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 63,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "836222f1-3b8b-4240-bbf4-c2698a379306"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 64,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "65f28477-3f24-410a-8063-2f70a4c0c624"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 65,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "39b35768-c1c8-4969-8658-3e591ef19bc8"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 66,
+      "cited_text": "the answer is just a.",
+      "start_char": 8354,
+      "end_char": 8375,
+      "chunk_id": "b24cbfde-5a51-4242-84ed-b031001594fa"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 67,
+      "cited_text": "else:",
+      "start_char": 2164,
+      "end_char": 2174,
+      "chunk_id": "65fc7a90-acd9-46e7-a707-b6d3e62e792f"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 68,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "a6256534-3456-4df2-9432-c9a7c9b8d5a2"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 69,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "0223656d-e47a-4a5c-9f12-45b69ddddfb5"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 70,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "4276b912-a3b1-4f3f-8b51-a1aaba9a1d21"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 71,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "5a270fd9-7d0a-429f-bc3a-4745b21bcf75"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 72,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "df3013b0-c64d-4680-9b88-1c4dcd6928fe"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 73,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "33c97b57-8baa-4206-8ea3-3a007748bd47"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 74,
+      "cited_text": "the answer is just a.",
+      "start_char": 8354,
+      "end_char": 8375,
+      "chunk_id": "274658ca-efb0-4476-af4d-334bb3bea948"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 75,
+      "cited_text": "else:",
+      "start_char": 2164,
+      "end_char": 2174,
+      "chunk_id": "4c8e87d6-b295-46f2-b1e5-59cfd27a8fd2"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 76,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "db70da5e-92bf-44ce-8f17-7c3b123831a8"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 77,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "e8625bb0-99a4-4717-86e9-42c779a47de5"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 78,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "88404ea9-5ebd-4c54-a310-00227d575e88"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 79,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "83de8ee7-9679-4641-b1ac-0c66f579c7dd"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 80,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "5483fc2e-0628-47d1-8f6f-cbd26f6341db"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 81,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "668a6e08-4ce8-48cd-ac6b-b63faa1b53f8"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 82,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "ae31c5e9-331d-47d8-9d8b-9b47b24ad213"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 83,
+      "cited_text": "the answer is just a.",
+      "start_char": 8354,
+      "end_char": 8375,
+      "chunk_id": "6ee68443-c68f-490f-95d6-219cbb8ad573"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 84,
+      "cited_text": "else:",
+      "start_char": 2164,
+      "end_char": 2174,
+      "chunk_id": "7efc9441-ac22-4d95-91d3-0cbb04298133"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 85,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "0cc46d3a-4e49-418e-af37-357dd6610e8c"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 86,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "4bbf23e9-acb3-44c4-b5ba-e2b59427e426"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 87,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "196fea78-8e39-4b44-b2a9-c841cd00cec9"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 88,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "6d95e3e0-680b-432c-affb-151b4743d3f5"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 89,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "b17fc884-8524-45f2-a5d3-e1f0fbe9577f"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 90,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "e0ec3fcc-5118-4ecc-9242-f7e9bdcfd88c"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 91,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "8c4a4cec-b7e3-4320-a473-2f07d84a5e92"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 92,
+      "cited_text": "the answer is just a.",
+      "start_char": 8354,
+      "end_char": 8375,
+      "chunk_id": "838229fe-119c-4139-9ba9-55d4009dcc65"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 93,
+      "cited_text": "else:",
+      "start_char": 2164,
+      "end_char": 2174,
+      "chunk_id": "778741ca-ebc2-4836-822c-6d9d955602d9"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 94,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "e785cf0b-0d50-4bdc-8f01-3d0b95f3ce96"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 95,
+      "cited_text": "and yes, all computer\nscience jokes are bad,",
+      "start_char": 15583,
+      "end_char": 15627,
+      "chunk_id": "2da9a7c6-2332-46d9-8ad4-cab8508f3ea4"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 96,
+      "cited_text": "plus 1, which is\nk plus 2 over 2.",
+      "start_char": 17652,
+      "end_char": 17685,
+      "chunk_id": "baac63a4-779a-498b-9924-8f011891dbab"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 97,
+      "cited_text": "does the right thing.",
+      "start_char": 18175,
+      "end_char": 18196,
+      "chunk_id": "6d17e25d-a491-4450-8f63-605b9802ee6e"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 98,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "33420fc4-f353-4e60-9b01-e1267a53838e"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 99,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "5796cafc-25c0-4db9-acf6-a0ebc29899b5"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 100,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "568fd8f0-7b59-401b-8c2c-edbb77042199"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 101,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "16419320-f883-4f7a-99ea-90c0e1bb4af4"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 102,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "bf448219-aafa-41e0-b59d-f1cd6b3e54d7"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 103,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "3a597f6f-3a60-4ac8-aefb-a15560508aee"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 104,
+      "cited_text": "the answer is just a.",
+      "start_char": 8354,
+      "end_char": 8375,
+      "chunk_id": "de20b8df-507f-440d-b329-4ea0e52745f5"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 105,
+      "cited_text": "else:",
+      "start_char": 2164,
+      "end_char": 2174,
+      "chunk_id": "8881235f-c6b9-4d91-8035-e3af31c62ca1"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 106,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "f9b28b17-a568-449e-bb2b-3547b7b6955e"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 107,
+      "cited_text": "and yes, all computer\nscience jokes are bad,",
+      "start_char": 15583,
+      "end_char": 15627,
+      "chunk_id": "13d14ecd-6b36-46e4-996b-076872c540dd"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 108,
+      "cited_text": "plus 1, which is\nk plus 2 over 2.",
+      "start_char": 17652,
+      "end_char": 17685,
+      "chunk_id": "adfb3079-ad32-4a1f-ad74-955610e2a41a"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 109,
+      "cited_text": "does the right thing.",
+      "start_char": 18175,
+      "end_char": 18196,
+      "chunk_id": "afcf0cde-de5f-407c-897a-3806d3cfdf3f"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 110,
+      "cited_text": "6.0001\tLECTURE\t6\t 15",
+      "start_char": 4252,
+      "end_char": 4272,
+      "chunk_id": "82aeea43-40ac-4bc9-a2d4-beba7cafbee3"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 111,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "f242602b-1cf0-4c84-9d67-2eaf4b0d1418"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 112,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "7c22ede1-66c9-48bf-886d-c09fff501ecc"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 113,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "0cbf558c-1ba9-42f2-9dee-06388027f75f"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 114,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "4fbb0419-9055-415a-8632-b8404aaa0d97"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 115,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "e2219c40-eb8c-4b33-a790-70bd6fe83d87"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 116,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "638b345c-f661-4c55-9265-b740b0dd71d4"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 117,
+      "cited_text": "the answer is just a.",
+      "start_char": 8354,
+      "end_char": 8375,
+      "chunk_id": "8b4606c7-f74c-4249-a3f2-92455ffae806"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 118,
+      "cited_text": "else:",
+      "start_char": 2164,
+      "end_char": 2174,
+      "chunk_id": "30184b58-7b30-4860-ba79-4d268651365c"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 119,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "268a536d-555f-4bba-9676-2dedf9dd0058"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 120,
+      "cited_text": "and yes, all computer\nscience jokes are bad,",
+      "start_char": 15583,
+      "end_char": 15627,
+      "chunk_id": "994d3040-b196-4ba9-84b7-5e6efcdcf343"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 121,
+      "cited_text": "plus 1, which is\nk plus 2 over 2.",
+      "start_char": 17652,
+      "end_char": 17685,
+      "chunk_id": "e56118c2-ac0f-47be-a68c-f525d1a9e249"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 122,
+      "cited_text": "does the right thing.",
+      "start_char": 18175,
+      "end_char": 18196,
+      "chunk_id": "1b3c695c-f589-4c83-8211-9a41f1c5dd5b"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 123,
+      "cited_text": "6.0001\tLECTURE\t6\t 15",
+      "start_char": 4252,
+      "end_char": 4272,
+      "chunk_id": "df4533c8-4af7-46f8-9756-410a277a0386"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 124,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "95848bee-5c36-4c49-9c98-905e8dbf2e66"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 125,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "c1139e10-d9e0-4ac4-bb49-41a25c0adaca"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 126,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "a1ef66cf-a3e1-4413-acd8-2b1dd9ce681d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 127,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "ac7a22e1-198b-4af9-beff-75d17314ab87"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 128,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "05e9143e-2862-4bd1-972c-e14b4228661f"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 129,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "6029e1b6-aca4-4301-a55a-08531db0ef1c"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 130,
+      "cited_text": "the answer is just a.",
+      "start_char": 8354,
+      "end_char": 8375,
+      "chunk_id": "a78bd1a8-fa85-4b90-9740-022d55fd57f6"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 131,
+      "cited_text": "else:",
+      "start_char": 2164,
+      "end_char": 2174,
+      "chunk_id": "543aca23-ec30-47a6-baf1-859ca8d3df48"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 132,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "28d0405a-09d8-4d34-b1ee-1ed90f16b3df"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 133,
+      "cited_text": "and yes, all computer\nscience jokes are bad,",
+      "start_char": 15583,
+      "end_char": 15627,
+      "chunk_id": "879e9695-640f-4051-a971-65b60bab69a0"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 134,
+      "cited_text": "plus 1, which is\nk plus 2 over 2.",
+      "start_char": 17652,
+      "end_char": 17685,
+      "chunk_id": "1a549432-f7cd-4a42-9b0b-0d03164bf5a6"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 135,
+      "cited_text": "does the right thing.",
+      "start_char": 18175,
+      "end_char": 18196,
+      "chunk_id": "c0bd5ce3-a4a6-4dc9-b843-209a9e81327a"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 136,
+      "cited_text": "6.0001\tLECTURE\t6\t 15",
+      "start_char": 4252,
+      "end_char": 4272,
+      "chunk_id": "481c86bb-df7d-4c7d-9ac1-6085fdd7a8a6"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 137,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "95848bee-5c36-4c49-9c98-905e8dbf2e66"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 138,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "c1139e10-d9e0-4ac4-bb49-41a25c0adaca"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 139,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "a1ef66cf-a3e1-4413-acd8-2b1dd9ce681d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 140,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "ac7a22e1-198b-4af9-beff-75d17314ab87"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 141,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "05e9143e-2862-4bd1-972c-e14b4228661f"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 142,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "6029e1b6-aca4-4301-a55a-08531db0ef1c"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 143,
+      "cited_text": "the answer is just a.",
+      "start_char": 8354,
+      "end_char": 8375,
+      "chunk_id": "a78bd1a8-fa85-4b90-9740-022d55fd57f6"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 144,
+      "cited_text": "else:",
+      "start_char": 2164,
+      "end_char": 2174,
+      "chunk_id": "543aca23-ec30-47a6-baf1-859ca8d3df48"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 145,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "28d0405a-09d8-4d34-b1ee-1ed90f16b3df"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 146,
+      "cited_text": "and yes, all computer\nscience jokes are bad,",
+      "start_char": 15583,
+      "end_char": 15627,
+      "chunk_id": "879e9695-640f-4051-a971-65b60bab69a0"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 147,
+      "cited_text": "plus 1, which is\nk plus 2 over 2.",
+      "start_char": 17652,
+      "end_char": 17685,
+      "chunk_id": "1a549432-f7cd-4a42-9b0b-0d03164bf5a6"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 148,
+      "cited_text": "does the right thing.",
+      "start_char": 18175,
+      "end_char": 18196,
+      "chunk_id": "c0bd5ce3-a4a6-4dc9-b843-209a9e81327a"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 149,
+      "cited_text": "6.0001\tLECTURE\t6\t 15",
+      "start_char": 4252,
+      "end_char": 4272,
+      "chunk_id": "481c86bb-df7d-4c7d-9ac1-6085fdd7a8a6"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 150,
+      "cited_text": "actually all computer\nscience jokes are bad,",
+      "start_char": 2081,
+      "end_char": 2125,
+      "chunk_id": "95848bee-5c36-4c49-9c98-905e8dbf2e66"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 151,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "c1139e10-d9e0-4ac4-bb49-41a25c0adaca"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 152,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "a1ef66cf-a3e1-4413-acd8-2b1dd9ce681d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 153,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "ac7a22e1-198b-4af9-beff-75d17314ab87"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 154,
+      "cited_text": "def mult_iter(a, b):     result = 0",
+      "start_char": 1662,
+      "end_char": 1698,
+      "chunk_id": "05e9143e-2862-4bd1-972c-e14b4228661f"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 155,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "6029e1b6-aca4-4301-a55a-08531db0ef1c"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 156,
+      "cited_text": "the answer is just a.",
+      "start_char": 8354,
+      "end_char": 8375,
+      "chunk_id": "a78bd1a8-fa85-4b90-9740-022d55fd57f6"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 157,
+      "cited_text": "else:",
+      "start_char": 2164,
+      "end_char": 2174,
+      "chunk_id": "543aca23-ec30-47a6-baf1-859ca8d3df48"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 158,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "28d0405a-09d8-4d34-b1ee-1ed90f16b3df"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 159,
+      "cited_text": "and yes, all computer\nscience jokes are bad,",
+      "start_char": 15583,
+      "end_char": 15627,
+      "chunk_id": "879e9695-640f-4051-a971-65b60bab69a0"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 160,
+      "cited_text": "plus 1, which is\nk plus 2 over 2.",
+      "start_char": 17652,
+      "end_char": 17685,
+      "chunk_id": "1a549432-f7cd-4a42-9b0b-0d03164bf5a6"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 161,
+      "cited_text": "does the right thing.",
+      "start_char": 18175,
+      "end_char": 18196,
+      "chunk_id": "c0bd5ce3-a4a6-4dc9-b843-209a9e81327a"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 162,
+      "cited_text": "6.0001\tLECTURE\t6\t 15",
+      "start_char": 4252,
+      "end_char": 4272,
+      "chunk_id": "481c86bb-df7d-4c7d-9ac1-6085fdd7a8a6"
+    }
+  ]
+}

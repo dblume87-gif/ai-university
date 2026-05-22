@@ -1,0 +1,193 @@
+{
+  "name": "Einführung in die Informatik und Programmiereffizienz",
+  "children": [
+    {
+      "name": "Informatik Grundlagen",
+      "children": [
+        {
+          "name": "Berechnungen ausführen"
+        },
+        {
+          "name": "Ergebnisse speichern"
+        },
+        {
+          "name": "Algorithmen als Rezepte"
+        },
+        {
+          "name": "Deklaratives vs. Imperatives Wissen"
+        }
+      ]
+    },
+    {
+      "name": "Python Basiselemente",
+      "children": [
+        {
+          "name": "Datentypen",
+          "children": [
+            {
+              "name": "Skalare Typen: int, float, bool, NoneType"
+            },
+            {
+              "name": "Nicht-skalare Typen: strings, lists, dicts"
+            }
+          ]
+        },
+        {
+          "name": "Kontrollfluss",
+          "children": [
+            {
+              "name": "Verzweigungen (if, elif, else)"
+            },
+            {
+              "name": "Iterationen (while- und for-Schleifen)"
+            },
+            {
+              "name": "Abbruchbedingungen (break)"
+            }
+          ]
+        },
+        {
+          "name": "Strukturierung",
+          "children": [
+            {
+              "name": "Funktionen: Dekomposition & Abstraktion"
+            },
+            {
+              "name": "Variablen-Scope (Global vs. Lokal)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Programmiereffizienz",
+      "children": [
+        {
+          "name": "Messmethoden",
+          "children": [
+            {
+              "name": "Zeitmessung (Timing)"
+            },
+            {
+              "name": "Operationen zählen"
+            },
+            {
+              "name": "Wachstumsrate (Orders of Growth)"
+            }
+          ]
+        },
+        {
+          "name": "Big O Notation",
+          "children": [
+            {
+              "name": "O(1) - Konstant"
+            },
+            {
+              "name": "O(log n) - Logarithmisch"
+            },
+            {
+              "name": "O(n) - Linear"
+            },
+            {
+              "name": "O(n log n) - Log-linear"
+            },
+            {
+              "name": "O(n^c) - Polynomial"
+            },
+            {
+              "name": "O(c^n) - Exponentiell"
+            }
+          ]
+        },
+        {
+          "name": "Trade-offs",
+          "children": [
+            {
+              "name": "Zeit vs. Speicherplatz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algorithmen: Suchen und Sortieren",
+      "children": [
+        {
+          "name": "Suchalgorithmen",
+          "children": [
+            {
+              "name": "Lineare Suche (O(n))"
+            },
+            {
+              "name": "Binäre Suche / Bisektion (O(log n))"
+            }
+          ]
+        },
+        {
+          "name": "Sortieralgorithmen",
+          "children": [
+            {
+              "name": "Bubble Sort (O(n^2))"
+            },
+            {
+              "name": "Selection Sort (O(n^2))"
+            },
+            {
+              "name": "Merge Sort (O(n log n))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Objektorientierte Programmierung (OOP)",
+      "children": [
+        {
+          "name": "Konzepte",
+          "children": [
+            {
+              "name": "Klassen als Baupläne"
+            },
+            {
+              "name": "Instanzen als konkrete Objekte"
+            },
+            {
+              "name": "Attribute (Daten & Methoden)"
+            }
+          ]
+        },
+        {
+          "name": "Mechanismen",
+          "children": [
+            {
+              "name": "Kapselung (Information Hiding)"
+            },
+            {
+              "name": "Vererbung (Inheritance)"
+            },
+            {
+              "name": "Spezialmethoden (__init__, __str__, __add__)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Softwarequalität",
+      "children": [
+        {
+          "name": "Testen (Unit, Regression, Integration)"
+        },
+        {
+          "name": "Debugging (Systematische Fehlersuche)"
+        },
+        {
+          "name": "Exception Handling (try-except)"
+        },
+        {
+          "name": "Assertionen (Defensive Programmierung)"
+        }
+      ]
+    }
+  ]
+}

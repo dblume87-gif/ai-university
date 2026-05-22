@@ -1,0 +1,648 @@
+{
+  "answer": "Rekursion bedeutet in der Programmierung ganz einfach, dass eine Funktion sich innerhalb ihres eigenen Codes selbst aufruft [1, 2]. Stell dir vor, du teilst ein gro\u00dfes Problem in immer kleinere Versionen desselben Problems auf, bis es so klein ist, dass du es direkt l\u00f6sen kannst [2, 3]. \n\nJede rekursive Funktion in Python braucht zwingend zwei Bestandteile [2]:\n1. **Einen Basisfall (Base Case):** Eine Bedingung, bei der die Funktion ein klares Ergebnis liefert und stoppt [2, 4].\n2. **Einen rekursiven Schritt:** Die Funktion ruft sich selbst mit einer verkleinerten Eingabe auf, um sich dem Basisfall anzun\u00e4hern [2, 4].\n\nEin klassisches Beispiel ist die Fakult\u00e4t. Wenn `n == 1` ist, gibt die Funktion einfach `1` zur\u00fcck (das ist der Basisfall) [5]. Andernfalls gibt sie `n * fact(n-1)` zur\u00fcck (das ist der rekursive Schritt) [6, 7]. \n\nDa du um eine Kontrollfrage gebeten hast, lass uns kurz dein Wissen testen: Was w\u00fcrde deiner Meinung nach passieren, wenn wir eine rekursive Funktion schreiben, aber vergessen, den Basisfall (Base Case) zu definieren? M\u00f6chtest du raten, oder soll ich dir dazu ein kurzes Code-Beispiel zeigen?",
+  "conversation_id": "new",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 1,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "3b626454-ddc8-4e11-b478-3ee5610efd71"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 2,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "bfd005bf-97c6-42c3-9b7b-6e07aa77c7e4"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 3,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "94d41052-83e6-48e8-8001-3fd0249bf4fd"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 4,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "92a62565-ec61-419c-86b9-8dfa1b57bcea"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 5,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "7f7ec83e-8de3-412b-ac73-83146608dc06"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 6,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "f63c643c-0dab-4e42-9776-a371b12239f0"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 7,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "16161f74-9786-41e5-9325-6543deaad9e6"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 8,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "183f976d-4d3a-4904-ad8f-fd2e0333780b"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 9,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "99dde099-3989-4799-a48f-909c422cde94"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 10,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "5e138e96-6420-400f-87c6-989f5294ccd7"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 11,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "dcd0a113-f5b4-43fc-a11a-0a3e6c13b8cb"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 12,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "0b6eca9a-060c-454d-bff7-0fd49d988e4f"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 13,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "9303d378-abcd-4406-8315-c90fbb83b23e"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 14,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "da113d91-a5f6-400f-b55d-75fa49927c05"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 15,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "6b0256dc-139a-4502-afbe-3cc3df03ed09"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 16,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "4cab9faa-bd5c-4bdc-a8e8-fee1056d5ef7"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 17,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "01c165ad-02bb-48f7-9a04-d22c39a56886"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 18,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "15041751-3b89-41cd-aef4-58fe2705f081"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 19,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "d795e1e9-51df-4cf4-bb8e-1b3a54b20bb4"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 20,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "4fa4a319-d6b7-495c-b44b-96d46023cc37"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 21,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "881db477-c466-4a75-a780-f68f034fcdbf"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 22,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "40bebb94-dd13-4720-8fca-9b14846679a2"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 23,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "087c3c81-9372-4a42-ae22-93e23f817b2d"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 24,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "1389cb4f-b84b-4376-b35e-ecf7a1138f0d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 25,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "276bf058-04de-42d2-af80-eedd4afbe6a6"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 26,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "ef9ac322-298b-4a1b-87f0-ede5bba24f0d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 27,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "0a24b66f-3885-475d-b9e2-3ce5851996bf"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 28,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "1d452168-ad21-4be3-b0b2-da610d188ed2"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 29,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "d1873c15-7b05-448c-a3fb-4cadef72477d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 30,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "5a1c2796-96cc-429b-8ae6-c25623c45ae3"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 31,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "534105b8-4ec6-4a13-852b-e861a68eb96c"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 32,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "7b019803-71ba-47bd-b328-d7b971d25166"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 33,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "2245a226-3c94-4f11-b4be-9895b4b89d61"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 34,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "9a7ade40-e64e-4d28-8fa0-750dcf4273f4"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 35,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "9ec7929e-0bc8-42de-9b04-48f96d825cf1"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 36,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "6f0a4402-bc52-40c2-81fb-49855974e6c1"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 37,
+      "cited_text": "I'm going to take it another\n180 degrees because you might",
+      "start_char": 9376,
+      "end_char": 9434,
+      "chunk_id": "e96b1ec8-7a1f-48b5-bbd9-9ecc0ca6c0cc"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 38,
+      "cited_text": "n\t 1",
+      "start_char": 2687,
+      "end_char": 2693,
+      "chunk_id": "3b63ea18-221f-4469-b565-24c665bc15a3"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 39,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "1bc9e75c-9d36-46e0-915f-6332b24759d0"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 40,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "75ba0837-7fc0-4961-b2d2-cc5b9b083757"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 41,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "7d242e97-a718-4754-8f6c-8faf98009618"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 42,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "cc91773e-1876-4002-a29b-1359e2ee49f9"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 43,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "4e138993-d8eb-42d5-afa0-42fa3a5ea626"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 44,
+      "cited_text": "I'm going to take it another\n180 degrees because you might",
+      "start_char": 9376,
+      "end_char": 9434,
+      "chunk_id": "d9353007-75d8-4595-9b77-3b0e589fda68"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 45,
+      "cited_text": "n\t 1",
+      "start_char": 2687,
+      "end_char": 2693,
+      "chunk_id": "b9309855-206f-4bf7-8af0-10fa343539d4"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 46,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "1bb3a0f9-7815-4fd1-b53d-e527fd55c86b"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 47,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "a78acb5c-f80b-4656-88eb-2790c13ed84c"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 48,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "0b54db82-76a2-494d-bfb4-6625396641d3"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 49,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "a28d43a5-61a3-4540-8eaf-71f2cb83a6bf"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 50,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "0c16f8b7-5f3e-4a73-b3ce-20c1916c8d41"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 51,
+      "cited_text": "I'm going to take it another\n180 degrees because you might",
+      "start_char": 9376,
+      "end_char": 9434,
+      "chunk_id": "7bc2110a-aa1d-411e-b2c7-f986b20cb032"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 52,
+      "cited_text": "n\t 1",
+      "start_char": 2687,
+      "end_char": 2693,
+      "chunk_id": "4aaf4f6e-5cf3-40c4-bbe4-c1825a3f5125"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 53,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "85c74dea-921f-4ce9-b046-4686f7403580"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 54,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "d7def4f8-56d4-48e8-b589-345bfd5e155c"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 55,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "ddee481b-ba0e-43dc-ab78-6bbbb30bb428"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 56,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "3917a02f-d16d-4a88-8697-46f9c10b573e"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 57,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "cbb5832f-1f11-4c4f-b9e6-48f6ef8dd349"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 58,
+      "cited_text": "I'm going to take it another\n180 degrees because you might",
+      "start_char": 9376,
+      "end_char": 9434,
+      "chunk_id": "551a1b3f-3273-4992-beb3-273d321777b6"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 59,
+      "cited_text": "n\t 1",
+      "start_char": 2687,
+      "end_char": 2693,
+      "chunk_id": "1a0441f0-55f0-4a99-9a8d-7dc5394a111f"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 60,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "f298db5c-f493-46de-a18d-d555453280b3"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 61,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "00b68597-ba1c-4ee8-9390-52abae1199fe"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 62,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "d3f858a5-04f5-44eb-865e-98dbb9443724"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 63,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "1b31e1b5-81a8-4979-986b-0e72b5387e9d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 64,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "bc5a7a09-ed17-45ab-80cf-84ff9b32bdc7"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 65,
+      "cited_text": "I'm going to take it another\n180 degrees because you might",
+      "start_char": 9376,
+      "end_char": 9434,
+      "chunk_id": "c196994e-7c48-492a-b763-1d1f9a8c0665"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 66,
+      "cited_text": "n\t 1",
+      "start_char": 2687,
+      "end_char": 2693,
+      "chunk_id": "a3c3aaa6-87f1-4003-83cf-c7cdc379cd1b"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 67,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "f298db5c-f493-46de-a18d-d555453280b3"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 68,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "00b68597-ba1c-4ee8-9390-52abae1199fe"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 69,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "d3f858a5-04f5-44eb-865e-98dbb9443724"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 70,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "1b31e1b5-81a8-4979-986b-0e72b5387e9d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 71,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "bc5a7a09-ed17-45ab-80cf-84ff9b32bdc7"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 72,
+      "cited_text": "I'm going to take it another\n180 degrees because you might",
+      "start_char": 9376,
+      "end_char": 9434,
+      "chunk_id": "c196994e-7c48-492a-b763-1d1f9a8c0665"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 73,
+      "cited_text": "n\t 1",
+      "start_char": 2687,
+      "end_char": 2693,
+      "chunk_id": "a3c3aaa6-87f1-4003-83cf-c7cdc379cd1b"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 74,
+      "cited_text": "to problems.",
+      "start_char": 4236,
+      "end_char": 4248,
+      "chunk_id": "f298db5c-f493-46de-a18d-d555453280b3"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 75,
+      "cited_text": "6.0001\tLECTURE\t6\t 4",
+      "start_char": 503,
+      "end_char": 523,
+      "chunk_id": "00b68597-ba1c-4ee8-9390-52abae1199fe"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 76,
+      "cited_text": "and semantically or, if you\nlike, in terms of programming.",
+      "start_char": 3682,
+      "end_char": 3740,
+      "chunk_id": "d3f858a5-04f5-44eb-865e-98dbb9443724"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 77,
+      "cited_text": "a way of stopping that\nunwinding of the problems,",
+      "start_char": 4769,
+      "end_char": 4818,
+      "chunk_id": "1b31e1b5-81a8-4979-986b-0e72b5387e9d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 78,
+      "cited_text": "up to n assuming n is\na positive integer.",
+      "start_char": 8858,
+      "end_char": 8899,
+      "chunk_id": "bc5a7a09-ed17-45ab-80cf-84ff9b32bdc7"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 79,
+      "cited_text": "I'm going to take it another\n180 degrees because you might",
+      "start_char": 9376,
+      "end_char": 9434,
+      "chunk_id": "c196994e-7c48-492a-b763-1d1f9a8c0665"
+    },
+    {
+      "source_id": "848489ba-074a-436b-a4af-5457b954e64d",
+      "citation_number": 80,
+      "cited_text": "n\t 1",
+      "start_char": 2687,
+      "end_char": 2693,
+      "chunk_id": "a3c3aaa6-87f1-4003-83cf-c7cdc379cd1b"
+    }
+  ]
+}

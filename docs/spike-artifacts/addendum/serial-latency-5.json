@@ -1,0 +1,816 @@
+{
+  "answer": "Der Kernunterschied zwischen einer Klasse (Class) und einer Instanz (Instance) l\u00e4sst sich am besten als das Verh\u00e4ltnis zwischen einem Bauplan und dem fertigen Produkt beschreiben:\n\n*   **Klasse (Class):** Sie fungiert als abstrakter **Bauplan** (Blueprint) oder Schablone f\u00fcr einen neuen Datentyp [1-3]. In der Klasse definieren Sie generisch die allgemeine Struktur: Welche Datenattribute (Eigenschaften) soll das Objekt haben und welche Methoden (Verhaltensweisen) definieren die Interaktion mit dem Objekt? [2-4].\n*   **Instanz (Instance):** Sie ist ein konkretes, **spezifisches Objekt**, das auf Basis der Klasse erzeugt wurde [3, 5]. Wenn Sie den in der Klasse definierten Datentyp in Ihrem Code verwenden, erstellen Sie eine Instanz [5]. \n\n**Das wichtigste Unterscheidungsmerkmal:** \nDie Klasse gibt die Struktur f\u00fcr *alle* Instanzen vor, sodass jede Instanz exakt denselben inneren Aufbau und dieselben Methoden besitzt [4]. Die Instanz selbst h\u00e4lt jedoch die **konkreten, individuellen Werte** f\u00fcr diese Struktur [6]. \n\nAm Beispiel einer Koordinate erkl\u00e4rt: Die *Klasse* `Coordinate` legt fest, dass jede Koordinate einen x-Wert und einen y-Wert ben\u00f6tigt [7]. Wenn Sie nun *Instanzen* dieser Klasse erstellen, hat jede einzelne Instanz ihre v\u00f6llig eigenen Werte \u2013 etwa eine Instanz mit x=3 und y=4 und eine v\u00f6llig andere Instanz mit x=0 und y=0 [6-8].\n\nM\u00f6chten Sie sehen, wie man in Python eine Klasse definiert und daraus eine erste Instanz ableitet?",
+  "conversation_id": "b7b5e1f3-2356-4265-b07a-154d1ab5d61c",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 1,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "f725313a-21ec-4fc4-824c-dc03a17031bc"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 2,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "c8238e6c-5f4c-48cc-8c5a-8fe9972ee2e7"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 3,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "1d6765bd-1726-4bb3-8e7e-f11ae071ba00"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 4,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "68c8bf14-0bd6-415d-b8a4-28ffd959156d"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 5,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "77bc0373-f83b-493a-9cbd-eebb08879133"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 6,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "3f771535-d3eb-4288-a1ea-8ea964779655"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 7,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "732a6d9a-af89-4c0e-9cd6-ece6c39335f3"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 8,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "c0ba7831-7cf5-4e26-93db-5f2633330238"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 9,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "e1c1151e-7ffb-4d79-8f96-939c6b438ad2"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 10,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "8cda049b-3f7c-472a-aa0d-ad30386808cf"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 11,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "0b69a6a6-14fa-47f9-8915-6593985967e8"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 12,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "bc07ff1c-9468-481f-8dfe-3777a91ad939"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 13,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "cb21c92c-6b7a-48bd-9be0-45d6e55ba515"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 14,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "172b29f3-96f7-4241-bf19-9f3a62f5fab5"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 15,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "77fffbdf-ecc4-40cd-8d35-a35778f0937f"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 16,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "e7131b4a-1b6b-409c-9af2-7c8a11eb1851"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 17,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "f19023b7-d1e0-4217-9b03-8b7589775631"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 18,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "6f83b4a6-8a4d-4b95-8d77-bb2e9fa4ec44"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 19,
+      "cited_text": "Once that's done, you\ncan then use your class.",
+      "start_char": 8326,
+      "end_char": 8372,
+      "chunk_id": "0e45d657-99a1-4ce6-9509-5a2ddd1fbf9b"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 20,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "ada692c5-d8fa-4d88-a2e8-3be12d3400e0"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 21,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "dcc49c4e-56e5-4816-9846-30361132c692"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 22,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "900717af-bb48-43d1-8da3-184a0260c0c2"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 23,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "ba1f5331-1b50-4c31-aa40-9ad9fe4957cd"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 24,
+      "cited_text": "Once that's done, you\ncan then use your class.",
+      "start_char": 8326,
+      "end_char": 8372,
+      "chunk_id": "52e46b5a-04ac-42e1-954f-93bf2ac9e8ff"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 25,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "227580f5-cae5-4bcf-b19d-36548b85011a"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 26,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "3f9b40e2-3256-4d6a-80fa-5dbfe4f88a88"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 27,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "aca3c3b1-816c-4d25-b0ce-51f369d7e35d"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 28,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "3a6cf72d-18eb-4450-afff-b59d4173c2b8"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 29,
+      "cited_text": "Once that's done, you\ncan then use your class.",
+      "start_char": 8326,
+      "end_char": 8372,
+      "chunk_id": "1a5de768-a1f1-4392-9ebb-6ee6a3590975"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 30,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "199c7931-1fe8-4430-a113-4ab2d8d1bd03"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 31,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "dab03486-0220-4708-91ca-c303259db465"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 32,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "3a53fe17-0998-4179-a578-af4af143a6ed"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 33,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "fa7e022f-ac12-43d3-91cb-884c2ee16cd2"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 34,
+      "cited_text": "Once that's done, you\ncan then use your class.",
+      "start_char": 8326,
+      "end_char": 8372,
+      "chunk_id": "55d30600-ebb5-4d0c-9483-5646c50c489a"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 35,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "74c87de9-607e-4069-91ef-82b2514b8405"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 36,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "ef66432c-aa04-421a-be4e-c79dcfc84993"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 37,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "6fa95be0-2d67-43dc-9c75-91d0cd5cfd0e"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 38,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "c87c37cf-0445-45a3-8769-11468bc5b1e2"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 39,
+      "cited_text": "Once that's done, you\ncan then use your class.",
+      "start_char": 8326,
+      "end_char": 8372,
+      "chunk_id": "1310ecfe-2c9e-4b6b-a8ed-e3348ba6d6f0"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 40,
+      "cited_text": "The difference is that\nevery instance's values",
+      "start_char": 4176,
+      "end_char": 4222,
+      "chunk_id": "b505a10c-113b-4614-85bb-52b0fe196469"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 41,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "90a6d6d5-2c23-470a-8168-8e2c1666fa54"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 42,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "9ad2a6fe-85d8-4682-bc94-2181f3aa034f"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 43,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "6007538b-299b-4109-84cf-2b5380612f70"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 44,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "35d6cfb5-3598-462b-a032-8f0cbc8e2806"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 45,
+      "cited_text": "Once that's done, you\ncan then use your class.",
+      "start_char": 8326,
+      "end_char": 8372,
+      "chunk_id": "e4b502cb-a836-4973-9e54-1719fa515825"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 46,
+      "cited_text": "The difference is that\nevery instance's values",
+      "start_char": 4176,
+      "end_char": 4222,
+      "chunk_id": "5881e829-910c-4ff0-b234-896e4415cfcd"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 47,
+      "cited_text": "value.",
+      "start_char": 4714,
+      "end_char": 4720,
+      "chunk_id": "3440573c-736b-4bbc-87f4-a6aee62c8ef0"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 48,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "9549c7a1-07eb-4c2f-9101-5d6791398d0a"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 49,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "0a389e2c-ed7f-4d3e-8c45-90d333cb5e5a"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 50,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "9e0e2a55-272b-43ab-85a2-b18e0dfa1abe"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 51,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "0754f8f2-07f3-4de5-9c4b-6638dffabcea"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 52,
+      "cited_text": "Once that's done, you\ncan then use your class.",
+      "start_char": 8326,
+      "end_char": 8372,
+      "chunk_id": "d28b7c7b-f8ec-4822-8abf-c69d4aa938dc"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 53,
+      "cited_text": "The difference is that\nevery instance's values",
+      "start_char": 4176,
+      "end_char": 4222,
+      "chunk_id": "8b175e6f-2097-487c-9c1c-e72b50876052"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 54,
+      "cited_text": "value.",
+      "start_char": 4714,
+      "end_char": 4720,
+      "chunk_id": "d18eafef-c2a2-4237-b6e7-3edfba61ff45"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 55,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "6ad27611-c3a7-42e2-95aa-c956e622b868"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 56,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "3476befa-e55a-44eb-af9c-4c8f2d8217ec"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 57,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "11295f53-0495-451f-bdff-8bece143f210"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 58,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "e4154dc7-fc73-4d9e-bc52-0dd1ec513770"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 59,
+      "cited_text": "Once that's done, you\ncan then use your class.",
+      "start_char": 8326,
+      "end_char": 8372,
+      "chunk_id": "aca21ec4-a1b8-4ddf-8e87-0ce563a8eb6a"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 60,
+      "cited_text": "The difference is that\nevery instance's values",
+      "start_char": 4176,
+      "end_char": 4222,
+      "chunk_id": "c32d9035-7060-46f4-8e6b-6587aec84af7"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 61,
+      "cited_text": "value.",
+      "start_char": 4714,
+      "end_char": 4720,
+      "chunk_id": "4db36db2-4d57-4d91-afa2-54cdd75773de"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 62,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "16a8abf6-0714-4823-991a-81658f3de2ab"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 63,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "1524ed28-57d5-4e8b-8c14-f86c0f9702c1"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 64,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "8df2fd82-6375-4f34-9130-22c82ee16847"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 65,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "0b451717-e6c3-4d5d-b2a3-4e5c8617fb9d"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 66,
+      "cited_text": "Once that's done, you\ncan then use your class.",
+      "start_char": 8326,
+      "end_char": 8372,
+      "chunk_id": "a71416ac-bc29-4724-aa39-fdb29075233f"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 67,
+      "cited_text": "The difference is that\nevery instance's values",
+      "start_char": 4176,
+      "end_char": 4222,
+      "chunk_id": "f584fab5-491c-4a9c-bc42-9342c9661c3b"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 68,
+      "cited_text": "value.",
+      "start_char": 4714,
+      "end_char": 4720,
+      "chunk_id": "25cc176f-19a9-4409-9dc6-565e077cc62a"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 69,
+      "cited_text": "\uf0a7 data attribute values vary between instances",
+      "start_char": 1022,
+      "end_char": 1069,
+      "chunk_id": "ed137e12-cdc8-4ffe-b13b-07027811034f"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 70,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "dde1f60e-10ff-456a-8740-82d5df4bd390"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 71,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "e3c95ba7-b8c9-46e5-affc-8269a99b25ca"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 72,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "8eb9d743-a54c-40ca-9bc4-224bd8542723"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 73,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "f0298d70-1df9-4c0f-99d2-3fa09b471d2b"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 74,
+      "cited_text": "Once that's done, you\ncan then use your class.",
+      "start_char": 8326,
+      "end_char": 8372,
+      "chunk_id": "4d94c676-8a9a-4597-9a01-29c2002362aa"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 75,
+      "cited_text": "The difference is that\nevery instance's values",
+      "start_char": 4176,
+      "end_char": 4222,
+      "chunk_id": "bfbe1053-8c59-43ff-85bb-402532843a59"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 76,
+      "cited_text": "value.",
+      "start_char": 4714,
+      "end_char": 4720,
+      "chunk_id": "1393c40f-238e-474c-b039-d6310d851244"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 77,
+      "cited_text": "\uf0a7 data attribute values vary between instances",
+      "start_char": 1022,
+      "end_char": 1069,
+      "chunk_id": "a49838a7-66c7-4327-9068-bc0793f9211a"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 78,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "d84b9708-583b-4b07-bf59-745b985ba96d"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 79,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "fd96e5a9-0054-4ff4-b96c-8f57c42d49cc"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 80,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "5bd85bb4-2457-4575-aa16-d15a077dff5f"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 81,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "e1489668-0256-4b82-b04c-f88320071447"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 82,
+      "cited_text": "Once that's done, you\ncan then use your class.",
+      "start_char": 8326,
+      "end_char": 8372,
+      "chunk_id": "b80fc755-3352-4254-8079-41999bcbe415"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 83,
+      "cited_text": "The difference is that\nevery instance's values",
+      "start_char": 4176,
+      "end_char": 4222,
+      "chunk_id": "a1719f2c-69f6-4c33-8720-d74ad1dde19d"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 84,
+      "cited_text": "value.",
+      "start_char": 4714,
+      "end_char": 4720,
+      "chunk_id": "7ea50e13-c050-4363-b361-3ae859d9ca40"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 85,
+      "cited_text": "\uf0a7 data attribute values vary between instances",
+      "start_char": 1022,
+      "end_char": 1069,
+      "chunk_id": "1e21a13c-e6e5-47fe-8dc8-fa5fbe4fb0f0"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 86,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "d84b9708-583b-4b07-bf59-745b985ba96d"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 87,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "fd96e5a9-0054-4ff4-b96c-8f57c42d49cc"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 88,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "5bd85bb4-2457-4575-aa16-d15a077dff5f"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 89,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "e1489668-0256-4b82-b04c-f88320071447"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 90,
+      "cited_text": "Once that's done, you\ncan then use your class.",
+      "start_char": 8326,
+      "end_char": 8372,
+      "chunk_id": "b80fc755-3352-4254-8079-41999bcbe415"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 91,
+      "cited_text": "The difference is that\nevery instance's values",
+      "start_char": 4176,
+      "end_char": 4222,
+      "chunk_id": "a1719f2c-69f6-4c33-8720-d74ad1dde19d"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 92,
+      "cited_text": "value.",
+      "start_char": 4714,
+      "end_char": 4720,
+      "chunk_id": "7ea50e13-c050-4363-b361-3ae859d9ca40"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 93,
+      "cited_text": "\uf0a7 data attribute values vary between instances",
+      "start_char": 1022,
+      "end_char": 1069,
+      "chunk_id": "1e21a13c-e6e5-47fe-8dc8-fa5fbe4fb0f0"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 94,
+      "cited_text": "or you can just\nforget about them",
+      "start_char": 2614,
+      "end_char": 2647,
+      "chunk_id": "d84b9708-583b-4b07-bf59-745b985ba96d"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 95,
+      "cited_text": "OK?",
+      "start_char": 7300,
+      "end_char": 7303,
+      "chunk_id": "fd96e5a9-0054-4ff4-b96c-8f57c42d49cc"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 96,
+      "cited_text": "create instances of the",
+      "start_char": 519,
+      "end_char": 544,
+      "chunk_id": "5bd85bb4-2457-4575-aa16-d15a077dff5f"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 97,
+      "cited_text": "we would say something like self\ndot to access a data attribute.",
+      "start_char": 3640,
+      "end_char": 3704,
+      "chunk_id": "e1489668-0256-4b82-b04c-f88320071447"
+    },
+    {
+      "source_id": "3de8eb0d-b58c-4f86-991f-2ab71e429db8",
+      "citation_number": 98,
+      "cited_text": "Once that's done, you\ncan then use your class.",
+      "start_char": 8326,
+      "end_char": 8372,
+      "chunk_id": "b80fc755-3352-4254-8079-41999bcbe415"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 99,
+      "cited_text": "The difference is that\nevery instance's values",
+      "start_char": 4176,
+      "end_char": 4222,
+      "chunk_id": "a1719f2c-69f6-4c33-8720-d74ad1dde19d"
+    },
+    {
+      "source_id": "efdc7745-ed80-4bce-9e6f-a45cf72afe20",
+      "citation_number": 100,
+      "cited_text": "value.",
+      "start_char": 4714,
+      "end_char": 4720,
+      "chunk_id": "7ea50e13-c050-4363-b361-3ae859d9ca40"
+    },
+    {
+      "source_id": "22d16b77-441b-40ac-9cea-7a0b9bde95ac",
+      "citation_number": 101,
+      "cited_text": "\uf0a7 data attribute values vary between instances",
+      "start_char": 1022,
+      "end_char": 1069,
+      "chunk_id": "1e21a13c-e6e5-47fe-8dc8-fa5fbe4fb0f0"
+    }
+  ]
+}

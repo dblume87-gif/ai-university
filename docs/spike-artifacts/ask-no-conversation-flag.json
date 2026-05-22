@@ -1,0 +1,72 @@
+{
+  "answer": "Dieser Kurs vermittelt die Grundlagen der Informatik und Programmierung in Python und lehrt algorithmisches Denken zur Probleml\u00f6sung, indem Themen wie Datenstrukturen, Such- und Sortieralgorithmen, Programmeffizienz und objektorientierte Programmierung behandelt werden [1, 2].",
+  "conversation_id": "b7b5e1f3-2356-4265-b07a-154d1ab5d61c",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 1,
+      "cited_text": "This is a class in programming.",
+      "start_char": 3560,
+      "end_char": 3591,
+      "chunk_id": "5871201e-1b4a-4c4f-867f-243e4f4ce28e"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 2,
+      "cited_text": "can\u2019t passively absorb programming as a skill",
+      "start_char": 1567,
+      "end_char": 1614,
+      "chunk_id": "599a3336-c3c3-4397-83c9-9b50795c5a36"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 3,
+      "cited_text": "This is a class in programming.",
+      "start_char": 3560,
+      "end_char": 3591,
+      "chunk_id": "518f1625-f9e6-4906-9438-bf19e8785283"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 4,
+      "cited_text": "can\u2019t passively absorb programming as a skill",
+      "start_char": 1567,
+      "end_char": 1614,
+      "chunk_id": "94ded7b9-f050-4193-aead-e213481ed863"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 5,
+      "cited_text": "This is a class in programming.",
+      "start_char": 3560,
+      "end_char": 3591,
+      "chunk_id": "518f1625-f9e6-4906-9438-bf19e8785283"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 6,
+      "cited_text": "can\u2019t passively absorb programming as a skill",
+      "start_char": 1567,
+      "end_char": 1614,
+      "chunk_id": "94ded7b9-f050-4193-aead-e213481ed863"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 7,
+      "cited_text": "This is a class in programming.",
+      "start_char": 3560,
+      "end_char": 3591,
+      "chunk_id": "518f1625-f9e6-4906-9438-bf19e8785283"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 8,
+      "cited_text": "can\u2019t passively absorb programming as a skill",
+      "start_char": 1567,
+      "end_char": 1614,
+      "chunk_id": "94ded7b9-f050-4193-aead-e213481ed863"
+    }
+  ]
+}

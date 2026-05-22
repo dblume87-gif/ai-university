@@ -27,13 +27,24 @@ export function scoreNotebookCourseMatch(notebook, course) {
   const courseTitle = normalizeMatchText(course.title);
   const courseCode = getCourseCode(course.course_id);
   const codeVariants = getCourseCodeVariants(courseCode);
-  const sourceText = normalizeMatchText((notebook.sources || []).map(source => source.title).join(' '));
+  const sourceText = normalizeMatchText((notebook.sources || [])
+    .map(source => [source.title, source.url].filter(Boolean).join(' '))
+    .join(' '));
+  const sourceSlugText = (notebook.sources || [])
+    .map(source => [source.title, source.url].filter(Boolean).join(' '))
+    .join(' ');
   const sourceCodeVariants = getSourceCodeVariants(courseCode);
   let confidence = 0;
   const reasons = [];
 
+  if (hasCourseSlug(sourceSlugText, course.course_id) ||
+      (course.source_url && hasCourseSlug(sourceSlugText, extractCourseSlug(course.source_url)))) {
+    confidence += 0.65;
+    reasons.push('source-slug');
+  }
+
   for (const variant of codeVariants) {
-    if (variant && title.includes(normalizeMatchText(variant))) {
+    if (variant && hasNormalizedCode(title, variant)) {
       confidence += 0.65;
       reasons.push(`code:${variant}`);
       break;
@@ -67,7 +78,7 @@ export function scoreNotebookCourseMatch(notebook, course) {
     reasons.push('mit');
   }
 
-  if (reasons.some(reason => reason.startsWith('source-code:')) &&
+  if (reasons.some(reason => reason.startsWith('source-code:') || reason === 'source-slug') &&
       !reasons.some(reason => reason.startsWith('code:') || reason.startsWith('title:')) &&
       (notebook.sources?.length || 0) < 2) {
     confidence = Math.min(confidence, 0.5);
@@ -145,10 +156,35 @@ function getSourceCodeVariants(code) {
   ];
 }
 
+function hasCourseSlug(text, courseId) {
+  if (!text || !courseId) return false;
+  return normalizeSlugText(text).includes(normalizeSlugText(courseId));
+}
+
+function extractCourseSlug(value) {
+  const match = String(value || '').match(/\/courses\/([^/?#]+)/);
+  return match?.[1] || value;
+}
+
+function normalizeSlugText(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/%2f/g, '/')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
 function hasNormalizedSourceCode(text, value) {
   const normalizedValue = normalizeMatchText(value);
   const escaped = normalizedValue.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   return new RegExp(`(^| )${escaped}[a-z0-9]*( |$)`).test(text);
+}
+
+function hasNormalizedCode(text, value) {
+  const normalizedValue = normalizeMatchText(value);
+  const escaped = normalizedValue.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`(^| )${escaped}( |$)`).test(text);
 }
 
 function normalizeMatchText(value) {

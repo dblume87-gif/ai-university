@@ -1,0 +1,856 @@
+{
+  "answer": "Bisection Search (die bin\u00e4re Suche) ist deshalb so effizient, weil sie den **Suchbereich mit jedem einzelnen Schritt halbiert** [1-3]. Voraussetzung daf\u00fcr ist, dass die zu durchsuchende Liste bereits sortiert ist [1, 4]. Anstatt wie bei einer linearen Suche jedes Element nacheinander zu \u00fcberpr\u00fcfen, betrachtet der Algorithmus zun\u00e4chst das mittlere Element und pr\u00fcft, ob der gesuchte Wert gr\u00f6\u00dfer oder kleiner ist [1, 5]. Daraufhin wird **die gesamte irrelevante H\u00e4lfte der restlichen Elemente sofort verworfen** [1, 2, 6].\n\nDurch diese kontinuierliche Halbierung reduziert sich die Problemgr\u00f6\u00dfe drastisch, was zu einer **logarithmischen Laufzeitkomplexit\u00e4t von O(log n)** f\u00fchrt [7-9]. Wenn man beispielsweise eine Zahl zwischen 0 und 100 erraten m\u00f6chte, ben\u00f6tigt man mit dieser Methode anstatt bis zu 100 Versuchen h\u00f6chstens etwa 7 Versuche [10, 11].\n\nM\u00f6chtest du, dass ich dir den genauen Unterschied zwischen Bisection Search und der linearen Suche anhand eines Code-Beispiels zeige?",
+  "conversation_id": "new",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 1,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "307a6afa-3cbb-4e2a-aa59-68fe6f58a509"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 2,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "2133afa5-c7dd-4af1-9846-f90ec5c9eadd"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 3,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "60942c02-33c0-454a-87a0-04770f79bd3c"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 4,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "b71542e3-9048-4ca3-9373-ecb652860adc"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 5,
+      "cited_text": "don't care about numbers\nany higher than my guess.",
+      "start_char": 31826,
+      "end_char": 31876,
+      "chunk_id": "7b939cd6-c85b-47e2-8b30-a0ab7039141b"
+    },
+    {
+      "source_id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "citation_number": 6,
+      "cited_text": "So they can be arbitrary size.",
+      "start_char": 41296,
+      "end_char": 41326,
+      "chunk_id": "04800520-9c9e-465f-8cd3-9cb8d127fc78"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 7,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "5a92ed4a-302b-4dee-a295-325e8ef7a7ff"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 8,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "707778d6-e999-469d-bb8c-066f919f1bc7"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 9,
+      "cited_text": "don't care about numbers\nany higher than my guess.",
+      "start_char": 31826,
+      "end_char": 31876,
+      "chunk_id": "6d96c35d-bd51-4bd1-9c77-01bf2090a04a"
+    },
+    {
+      "source_id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "citation_number": 10,
+      "cited_text": "So they can be arbitrary size.",
+      "start_char": 41296,
+      "end_char": 41326,
+      "chunk_id": "c606dbc3-334a-4d4d-8885-61d075291c24"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 11,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "22f2c2d2-ae01-4f90-b69d-b2d2be25a50f"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 12,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "f772aac8-9fe9-49d4-9564-8e3153fb838a"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 13,
+      "cited_text": "don't care about numbers\nany higher than my guess.",
+      "start_char": 31826,
+      "end_char": 31876,
+      "chunk_id": "84a957c6-8076-4d7f-8731-6d60803c9227"
+    },
+    {
+      "source_id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "citation_number": 14,
+      "cited_text": "So they can be arbitrary size.",
+      "start_char": 41296,
+      "end_char": 41326,
+      "chunk_id": "6adf85b5-9b64-4e7c-b63c-b666c83fa4c4"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 15,
+      "cited_text": "the thing I'm looking for?",
+      "start_char": 9493,
+      "end_char": 9519,
+      "chunk_id": "ba2a6f84-5881-4304-a84a-c4da1cbfd76c"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 16,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "af52358b-4150-418d-a361-adfede49a255"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 17,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "60e5e752-b6ee-487c-a461-92f19bd1cfbd"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 18,
+      "cited_text": "don't care about numbers\nany higher than my guess.",
+      "start_char": 31826,
+      "end_char": 31876,
+      "chunk_id": "5dd1f53b-e597-403c-b481-0eae14b0a056"
+    },
+    {
+      "source_id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "citation_number": 19,
+      "cited_text": "So they can be arbitrary size.",
+      "start_char": 41296,
+      "end_char": 41326,
+      "chunk_id": "3780c8c4-ec12-464a-acb8-ecc43967c6ff"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 20,
+      "cited_text": "the thing I'm looking for?",
+      "start_char": 9493,
+      "end_char": 9519,
+      "chunk_id": "e45de2e1-bda3-4723-861d-545f314fb77f"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 21,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "446885ac-3c77-4527-83a3-4f54aabf94e8"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 22,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "273a33b5-dd43-4be6-9ecc-c008f4a784d8"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 23,
+      "cited_text": "don't care about numbers\nany higher than my guess.",
+      "start_char": 31826,
+      "end_char": 31876,
+      "chunk_id": "3f844790-ee72-442e-b2f7-4bae2826777d"
+    },
+    {
+      "source_id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "citation_number": 24,
+      "cited_text": "So they can be arbitrary size.",
+      "start_char": 41296,
+      "end_char": 41326,
+      "chunk_id": "5ef5141a-47ec-4bb0-a52d-78d9ef9c3ad6"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 25,
+      "cited_text": "the thing I'm looking for?",
+      "start_char": 9493,
+      "end_char": 9519,
+      "chunk_id": "84ab7d38-8b08-4136-9d6c-9ce13c3afb0d"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 26,
+      "cited_text": "the thing I'm looking for is\nsmaller than that element.",
+      "start_char": 10554,
+      "end_char": 10609,
+      "chunk_id": "2948abc5-8b3e-4fe5-93bc-512eef810876"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 27,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "8965fc8a-8e3d-4143-842e-7f29550eac6c"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 28,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "8f321d4e-52b7-4cd0-8647-9d446ab617b1"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 29,
+      "cited_text": "don't care about numbers\nany higher than my guess.",
+      "start_char": 31826,
+      "end_char": 31876,
+      "chunk_id": "a21022d7-f928-4ce1-b522-48fdbf4c111c"
+    },
+    {
+      "source_id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "citation_number": 30,
+      "cited_text": "So they can be arbitrary size.",
+      "start_char": 41296,
+      "end_char": 41326,
+      "chunk_id": "502e0d0c-5644-4afb-9902-b5de5fe42adb"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 31,
+      "cited_text": "the thing I'm looking for?",
+      "start_char": 9493,
+      "end_char": 9519,
+      "chunk_id": "abf6841b-6a48-47b0-b7ef-beadc7a8894a"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 32,
+      "cited_text": "the thing I'm looking for is\nsmaller than that element.",
+      "start_char": 10554,
+      "end_char": 10609,
+      "chunk_id": "e759167c-82c8-4e1f-b8f5-1974757ca451"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 33,
+      "cited_text": "So I can ask, before we\nlook at the code, what's",
+      "start_char": 11587,
+      "end_char": 11635,
+      "chunk_id": "f76c77fb-79d5-40a6-8a4b-d53bf602f119"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 34,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "8d130dcf-7657-44d9-80f1-2e268a48a77b"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 35,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "2f35cb99-4b65-4344-a5e5-e114ce3f3e90"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 36,
+      "cited_text": "don't care about numbers\nany higher than my guess.",
+      "start_char": 31826,
+      "end_char": 31876,
+      "chunk_id": "d9f406a6-d4ae-4692-a08f-0cc42f5a34e6"
+    },
+    {
+      "source_id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "citation_number": 37,
+      "cited_text": "So they can be arbitrary size.",
+      "start_char": 41296,
+      "end_char": 41326,
+      "chunk_id": "407b2647-fc61-43fa-94c8-2b83528a25b3"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 38,
+      "cited_text": "the thing I'm looking for?",
+      "start_char": 9493,
+      "end_char": 9519,
+      "chunk_id": "8618ab16-020b-4447-8d2f-8570ca890065"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 39,
+      "cited_text": "the thing I'm looking for is\nsmaller than that element.",
+      "start_char": 10554,
+      "end_char": 10609,
+      "chunk_id": "1e748086-c5b0-4d88-baea-c3d4b7146d4c"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 40,
+      "cited_text": "So I can ask, before we\nlook at the code, what's",
+      "start_char": 11587,
+      "end_char": 11635,
+      "chunk_id": "08494895-577b-4c8a-9b96-fac50d71d9b3"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 41,
+      "cited_text": "in half the size of the list.",
+      "start_char": 6746,
+      "end_char": 6775,
+      "chunk_id": "bd05bde2-6c30-4e14-87d6-df35037773a1"
+    },
+    {
+      "source_id": "6dd1dee0-dd58-4da0-8fc5-d1fe8a88bc0d",
+      "citation_number": 42,
+      "cited_text": "6.0001\tLECTURE\t11\t 16",
+      "start_char": 5832,
+      "end_char": 5855,
+      "chunk_id": "32d3f13a-c6b4-4d6b-ad45-9dfdb74330c9"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 43,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "e923e2a2-d1ee-4611-bd64-26eb15ceeb88"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 44,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "5817580a-2aa8-47a6-adb1-b4da590b0e65"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 45,
+      "cited_text": "don't care about numbers\nany higher than my guess.",
+      "start_char": 31826,
+      "end_char": 31876,
+      "chunk_id": "bff36192-5e2f-4464-8844-a385ae59b086"
+    },
+    {
+      "source_id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "citation_number": 46,
+      "cited_text": "So they can be arbitrary size.",
+      "start_char": 41296,
+      "end_char": 41326,
+      "chunk_id": "e940ba1a-20e5-4919-bb81-e81489a4ceff"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 47,
+      "cited_text": "the thing I'm looking for?",
+      "start_char": 9493,
+      "end_char": 9519,
+      "chunk_id": "fed94e0c-ece7-4fe4-ace7-5b523deb1f73"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 48,
+      "cited_text": "the thing I'm looking for is\nsmaller than that element.",
+      "start_char": 10554,
+      "end_char": 10609,
+      "chunk_id": "f603089e-3834-4303-9266-867bf7f26000"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 49,
+      "cited_text": "So I can ask, before we\nlook at the code, what's",
+      "start_char": 11587,
+      "end_char": 11635,
+      "chunk_id": "5447d944-0bfa-45f4-947e-507f0f35829b"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 50,
+      "cited_text": "in half the size of the list.",
+      "start_char": 6746,
+      "end_char": 6775,
+      "chunk_id": "498ae9fc-9bb8-49f6-bf85-ae49e127323a"
+    },
+    {
+      "source_id": "6dd1dee0-dd58-4da0-8fc5-d1fe8a88bc0d",
+      "citation_number": 51,
+      "cited_text": "6.0001\tLECTURE\t11\t 16",
+      "start_char": 5832,
+      "end_char": 5855,
+      "chunk_id": "822e7f2f-7ba8-4a22-922c-907bb1acbcd8"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 52,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "2f71d776-3800-4c5a-8a57-939ea7a0e3bb"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 53,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "bedae71e-5a78-4600-a1c2-622e877fe54d"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 54,
+      "cited_text": "don't care about numbers\nany higher than my guess.",
+      "start_char": 31826,
+      "end_char": 31876,
+      "chunk_id": "81ae9392-90ce-46a5-9e3e-4b88b4b25b4d"
+    },
+    {
+      "source_id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "citation_number": 55,
+      "cited_text": "So they can be arbitrary size.",
+      "start_char": 41296,
+      "end_char": 41326,
+      "chunk_id": "cb32989b-5afe-41f1-b2e3-4eec565c5708"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 56,
+      "cited_text": "the thing I'm looking for?",
+      "start_char": 9493,
+      "end_char": 9519,
+      "chunk_id": "ce51fd3e-43ed-48f1-90da-1e17c1c824c5"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 57,
+      "cited_text": "the thing I'm looking for is\nsmaller than that element.",
+      "start_char": 10554,
+      "end_char": 10609,
+      "chunk_id": "dc58d030-1edc-4661-b183-5240dc0570f9"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 58,
+      "cited_text": "So I can ask, before we\nlook at the code, what's",
+      "start_char": 11587,
+      "end_char": 11635,
+      "chunk_id": "53b5d6e0-3629-42aa-97b8-0c4735e6883e"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 59,
+      "cited_text": "in half the size of the list.",
+      "start_char": 6746,
+      "end_char": 6775,
+      "chunk_id": "55f772da-6c66-4ed6-b594-5bb6215a5f1f"
+    },
+    {
+      "source_id": "6dd1dee0-dd58-4da0-8fc5-d1fe8a88bc0d",
+      "citation_number": 60,
+      "cited_text": "6.0001\tLECTURE\t11\t 16",
+      "start_char": 5832,
+      "end_char": 5855,
+      "chunk_id": "d126041a-f8bf-4231-9a84-56b267a98602"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 61,
+      "cited_text": "I also don't work for Google.",
+      "start_char": 27122,
+      "end_char": 27151,
+      "chunk_id": "7a7833d9-7c0d-45a1-91f8-e6b0a7bbfb35"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 62,
+      "cited_text": "N/2k, the k-th guess, let's say\nthat's the actual answer we're",
+      "start_char": 32326,
+      "end_char": 32388,
+      "chunk_id": "fea82959-c05b-49a2-8974-f9da26244b4a"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 63,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "2e8533cd-e31c-443c-bded-574254fe93b3"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 64,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "b68db331-6932-4a6b-9c86-bc9947d5b052"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 65,
+      "cited_text": "don't care about numbers\nany higher than my guess.",
+      "start_char": 31826,
+      "end_char": 31876,
+      "chunk_id": "87ae18c7-c5cb-4a09-b00d-d69b5c388a1b"
+    },
+    {
+      "source_id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "citation_number": 66,
+      "cited_text": "So they can be arbitrary size.",
+      "start_char": 41296,
+      "end_char": 41326,
+      "chunk_id": "b9062dae-c0d0-4568-bac2-6e7c7bc6a3a8"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 67,
+      "cited_text": "the thing I'm looking for?",
+      "start_char": 9493,
+      "end_char": 9519,
+      "chunk_id": "ddfceb6d-fc44-4277-8705-80b157c1f672"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 68,
+      "cited_text": "the thing I'm looking for is\nsmaller than that element.",
+      "start_char": 10554,
+      "end_char": 10609,
+      "chunk_id": "217cb387-dc06-4960-95f2-f294d7069bec"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 69,
+      "cited_text": "So I can ask, before we\nlook at the code, what's",
+      "start_char": 11587,
+      "end_char": 11635,
+      "chunk_id": "3022ac44-aa44-4d95-a251-cb04dc30eca7"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 70,
+      "cited_text": "in half the size of the list.",
+      "start_char": 6746,
+      "end_char": 6775,
+      "chunk_id": "5a3570dd-430a-4897-aa96-e7763a1c1523"
+    },
+    {
+      "source_id": "6dd1dee0-dd58-4da0-8fc5-d1fe8a88bc0d",
+      "citation_number": 71,
+      "cited_text": "6.0001\tLECTURE\t11\t 16",
+      "start_char": 5832,
+      "end_char": 5855,
+      "chunk_id": "c3f8063e-57d8-40f7-8310-47d0ab25e7a4"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 72,
+      "cited_text": "I also don't work for Google.",
+      "start_char": 27122,
+      "end_char": 27151,
+      "chunk_id": "a571290c-424f-4f96-9201-b3cca1964cce"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 73,
+      "cited_text": "N/2k, the k-th guess, let's say\nthat's the actual answer we're",
+      "start_char": 32326,
+      "end_char": 32388,
+      "chunk_id": "685c6e20-82b3-4927-83b3-a5c6e92e65fe"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 74,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "d0fa124c-d78d-4116-9928-3b0a0d6b2734"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 75,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "11087a94-5e74-4beb-abea-59778a0d91c6"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 76,
+      "cited_text": "don't care about numbers\nany higher than my guess.",
+      "start_char": 31826,
+      "end_char": 31876,
+      "chunk_id": "c09c5bf7-86ce-4843-bc45-909a69b75b08"
+    },
+    {
+      "source_id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "citation_number": 77,
+      "cited_text": "So they can be arbitrary size.",
+      "start_char": 41296,
+      "end_char": 41326,
+      "chunk_id": "0f57f95a-abe9-4ef9-9c6c-fdea087da162"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 78,
+      "cited_text": "the thing I'm looking for?",
+      "start_char": 9493,
+      "end_char": 9519,
+      "chunk_id": "7486e610-ca51-4b84-97cb-ce76bbae859b"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 79,
+      "cited_text": "the thing I'm looking for is\nsmaller than that element.",
+      "start_char": 10554,
+      "end_char": 10609,
+      "chunk_id": "77cfca61-4b53-415e-974e-2202ba101e6d"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 80,
+      "cited_text": "So I can ask, before we\nlook at the code, what's",
+      "start_char": 11587,
+      "end_char": 11635,
+      "chunk_id": "85fd643a-0fbe-4862-a45c-85ac33d96713"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 81,
+      "cited_text": "in half the size of the list.",
+      "start_char": 6746,
+      "end_char": 6775,
+      "chunk_id": "106bdc79-a51a-4ef9-aeb9-ffceacbd0bb1"
+    },
+    {
+      "source_id": "6dd1dee0-dd58-4da0-8fc5-d1fe8a88bc0d",
+      "citation_number": 82,
+      "cited_text": "6.0001\tLECTURE\t11\t 16",
+      "start_char": 5832,
+      "end_char": 5855,
+      "chunk_id": "bc3fdd15-83fb-494f-a578-6fee882cfa20"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 83,
+      "cited_text": "I also don't work for Google.",
+      "start_char": 27122,
+      "end_char": 27151,
+      "chunk_id": "0cb9adac-a29c-4976-9f55-61d7fef87b53"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 84,
+      "cited_text": "N/2k, the k-th guess, let's say\nthat's the actual answer we're",
+      "start_char": 32326,
+      "end_char": 32388,
+      "chunk_id": "e91a3c99-d75a-451e-b2fa-b5321e8cef41"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 85,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "d0fa124c-d78d-4116-9928-3b0a0d6b2734"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 86,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "11087a94-5e74-4beb-abea-59778a0d91c6"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 87,
+      "cited_text": "don't care about numbers\nany higher than my guess.",
+      "start_char": 31826,
+      "end_char": 31876,
+      "chunk_id": "c09c5bf7-86ce-4843-bc45-909a69b75b08"
+    },
+    {
+      "source_id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "citation_number": 88,
+      "cited_text": "So they can be arbitrary size.",
+      "start_char": 41296,
+      "end_char": 41326,
+      "chunk_id": "0f57f95a-abe9-4ef9-9c6c-fdea087da162"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 89,
+      "cited_text": "the thing I'm looking for?",
+      "start_char": 9493,
+      "end_char": 9519,
+      "chunk_id": "7486e610-ca51-4b84-97cb-ce76bbae859b"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 90,
+      "cited_text": "the thing I'm looking for is\nsmaller than that element.",
+      "start_char": 10554,
+      "end_char": 10609,
+      "chunk_id": "77cfca61-4b53-415e-974e-2202ba101e6d"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 91,
+      "cited_text": "So I can ask, before we\nlook at the code, what's",
+      "start_char": 11587,
+      "end_char": 11635,
+      "chunk_id": "85fd643a-0fbe-4862-a45c-85ac33d96713"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 92,
+      "cited_text": "in half the size of the list.",
+      "start_char": 6746,
+      "end_char": 6775,
+      "chunk_id": "106bdc79-a51a-4ef9-aeb9-ffceacbd0bb1"
+    },
+    {
+      "source_id": "6dd1dee0-dd58-4da0-8fc5-d1fe8a88bc0d",
+      "citation_number": 93,
+      "cited_text": "6.0001\tLECTURE\t11\t 16",
+      "start_char": 5832,
+      "end_char": 5855,
+      "chunk_id": "bc3fdd15-83fb-494f-a578-6fee882cfa20"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 94,
+      "cited_text": "I also don't work for Google.",
+      "start_char": 27122,
+      "end_char": 27151,
+      "chunk_id": "0cb9adac-a29c-4976-9f55-61d7fef87b53"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 95,
+      "cited_text": "N/2k, the k-th guess, let's say\nthat's the actual answer we're",
+      "start_char": 32326,
+      "end_char": 32388,
+      "chunk_id": "e91a3c99-d75a-451e-b2fa-b5321e8cef41"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 96,
+      "cited_text": "In the worst case,\nI'm still going",
+      "start_char": 5181,
+      "end_char": 5215,
+      "chunk_id": "d0fa124c-d78d-4116-9928-3b0a0d6b2734"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 97,
+      "cited_text": "eliminated half the search\nspace with every guess.",
+      "start_char": 29205,
+      "end_char": 29255,
+      "chunk_id": "11087a94-5e74-4beb-abea-59778a0d91c6"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 98,
+      "cited_text": "don't care about numbers\nany higher than my guess.",
+      "start_char": 31826,
+      "end_char": 31876,
+      "chunk_id": "c09c5bf7-86ce-4843-bc45-909a69b75b08"
+    },
+    {
+      "source_id": "2a9f3893-91ad-4d03-b659-1144d6b01179",
+      "citation_number": 99,
+      "cited_text": "So they can be arbitrary size.",
+      "start_char": 41296,
+      "end_char": 41326,
+      "chunk_id": "0f57f95a-abe9-4ef9-9c6c-fdea087da162"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 100,
+      "cited_text": "the thing I'm looking for?",
+      "start_char": 9493,
+      "end_char": 9519,
+      "chunk_id": "7486e610-ca51-4b84-97cb-ce76bbae859b"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 101,
+      "cited_text": "the thing I'm looking for is\nsmaller than that element.",
+      "start_char": 10554,
+      "end_char": 10609,
+      "chunk_id": "77cfca61-4b53-415e-974e-2202ba101e6d"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 102,
+      "cited_text": "So I can ask, before we\nlook at the code, what's",
+      "start_char": 11587,
+      "end_char": 11635,
+      "chunk_id": "85fd643a-0fbe-4862-a45c-85ac33d96713"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 103,
+      "cited_text": "in half the size of the list.",
+      "start_char": 6746,
+      "end_char": 6775,
+      "chunk_id": "106bdc79-a51a-4ef9-aeb9-ffceacbd0bb1"
+    },
+    {
+      "source_id": "6dd1dee0-dd58-4da0-8fc5-d1fe8a88bc0d",
+      "citation_number": 104,
+      "cited_text": "6.0001\tLECTURE\t11\t 16",
+      "start_char": 5832,
+      "end_char": 5855,
+      "chunk_id": "bc3fdd15-83fb-494f-a578-6fee882cfa20"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 105,
+      "cited_text": "I also don't work for Google.",
+      "start_char": 27122,
+      "end_char": 27151,
+      "chunk_id": "0cb9adac-a29c-4976-9f55-61d7fef87b53"
+    },
+    {
+      "source_id": "b7879119-7b29-4aa2-af61-17f4dce81611",
+      "citation_number": 106,
+      "cited_text": "N/2k, the k-th guess, let's say\nthat's the actual answer we're",
+      "start_char": 32326,
+      "end_char": 32388,
+      "chunk_id": "e91a3c99-d75a-451e-b2fa-b5321e8cef41"
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "answer": "Ein Computer ist im Grunde eine Maschine, die nur genau das ausf\u00fchrt, was man ihr durch spezifische Anweisungen vorgibt [1, 2]. Beim Programmieren schreiben wir diese Anweisungen wie ein detailliertes Rezept auf, um ein bestimmtes Problem Schritt f\u00fcr Schritt zu l\u00f6sen [3, 4]. Die Informatik besch\u00e4ftigt sich schlie\u00dflich damit, diese L\u00f6sungswege so effizient, schnell und \u00fcbersichtlich wie m\u00f6glich zu gestalten [5, 6]. \n\nSoll ich dir ein einfaches Beispiel f\u00fcr so ein programmierbares \"Rezept\" aus den Unterlagen zeigen?",
+  "conversation_id": "new",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 1,
+      "cited_text": "I think, one thing\nI want to stress--",
+      "start_char": 7169,
+      "end_char": 7206,
+      "chunk_id": "9c0d4302-11e4-4437-8d56-9fa3ec9a1c39"
+    },
+    {
+      "source_id": "137cf8cb-85a2-409d-b066-9bb183b47b91",
+      "citation_number": 2,
+      "cited_text": "the following content is provided under a Creative Commons license your support will help MIT open courseware continue to offer highquality educational resources for free to make a donation or view additional materials from hundreds of MIT courses visit MIT opencourseware at ocw.mit.edu",
+      "start_char": 0,
+      "end_char": 288,
+      "chunk_id": "051c9d1b-1146-4675-bd2c-2213f5613c7a"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 3,
+      "cited_text": "I think, one thing\nI want to stress--",
+      "start_char": 7169,
+      "end_char": 7206,
+      "chunk_id": "29febf18-9c14-410e-9cc2-ed01a2d7b17f"
+    },
+    {
+      "source_id": "137cf8cb-85a2-409d-b066-9bb183b47b91",
+      "citation_number": 4,
+      "cited_text": "the following content is provided under a Creative Commons license your support will help MIT open courseware continue to offer highquality educational resources for free to make a donation or view additional materials from hundreds of MIT courses visit MIT opencourseware at ocw.mit.edu",
+      "start_char": 0,
+      "end_char": 288,
+      "chunk_id": "e51d7951-d32e-4e62-8c32-9fad86ba6218"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 5,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "be590761-482e-4e2f-a851-4f33fb1da48a"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 6,
+      "cited_text": "I think, one thing\nI want to stress--",
+      "start_char": 7169,
+      "end_char": 7206,
+      "chunk_id": "8611da76-4f5a-4ca1-bf78-9c61649ce01b"
+    },
+    {
+      "source_id": "137cf8cb-85a2-409d-b066-9bb183b47b91",
+      "citation_number": 7,
+      "cited_text": "the following content is provided under a Creative Commons license your support will help MIT open courseware continue to offer highquality educational resources for free to make a donation or view additional materials from hundreds of MIT courses visit MIT opencourseware at ocw.mit.edu",
+      "start_char": 0,
+      "end_char": 288,
+      "chunk_id": "cff3073a-9244-4626-8f80-4b36f5a92f03"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 8,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "d0d58d11-d229-4c75-a6d9-b22abf13ab02"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 9,
+      "cited_text": "And we just spent\na week and a half",
+      "start_char": 40493,
+      "end_char": 40528,
+      "chunk_id": "0a68861b-9eee-43f7-ab14-ae1d3ab3f5eb"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 10,
+      "cited_text": "I think, one thing\nI want to stress--",
+      "start_char": 7169,
+      "end_char": 7206,
+      "chunk_id": "4e3b71cf-b1c4-48f2-8904-04d06402a1b4"
+    },
+    {
+      "source_id": "137cf8cb-85a2-409d-b066-9bb183b47b91",
+      "citation_number": 11,
+      "cited_text": "the following content is provided under a Creative Commons license your support will help MIT open courseware continue to offer highquality educational resources for free to make a donation or view additional materials from hundreds of MIT courses visit MIT opencourseware at ocw.mit.edu",
+      "start_char": 0,
+      "end_char": 288,
+      "chunk_id": "4607acaf-3751-42ff-a047-d6b9a12375b2"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 12,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "126c0cf4-fb20-4c63-8d4b-8f4aee89a3a0"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 13,
+      "cited_text": "And we just spent\na week and a half",
+      "start_char": 40493,
+      "end_char": 40528,
+      "chunk_id": "22cdfd3d-feda-4400-8561-f7e686655ebf"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 14,
+      "cited_text": "to Programming and\nComputer Science in Python.",
+      "start_char": 5598,
+      "end_char": 5644,
+      "chunk_id": "b33fc2dc-f9b2-4a29-9d40-117ba36e4442"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 15,
+      "cited_text": "to the algorithm,\nwhat does that do",
+      "start_char": 1573,
+      "end_char": 1608,
+      "chunk_id": "75d2d795-2792-4062-a0b2-434ec599cba1"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 16,
+      "cited_text": "I think, one thing\nI want to stress--",
+      "start_char": 7169,
+      "end_char": 7206,
+      "chunk_id": "32f24204-58a9-4002-b112-91c77ced03af"
+    },
+    {
+      "source_id": "137cf8cb-85a2-409d-b066-9bb183b47b91",
+      "citation_number": 17,
+      "cited_text": "the following content is provided under a Creative Commons license your support will help MIT open courseware continue to offer highquality educational resources for free to make a donation or view additional materials from hundreds of MIT courses visit MIT opencourseware at ocw.mit.edu",
+      "start_char": 0,
+      "end_char": 288,
+      "chunk_id": "26f58368-b28c-4c96-8e7e-41e0d9b0299e"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 18,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "2cbaef38-7acb-4156-8c88-2a30a395cb62"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 19,
+      "cited_text": "And we just spent\na week and a half",
+      "start_char": 40493,
+      "end_char": 40528,
+      "chunk_id": "0318dc0f-b1f5-4834-9813-c5624a58a676"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 20,
+      "cited_text": "to Programming and\nComputer Science in Python.",
+      "start_char": 5598,
+      "end_char": 5644,
+      "chunk_id": "33967410-b5f3-4b08-90ee-b9c5d2eebef3"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 21,
+      "cited_text": "to the algorithm,\nwhat does that do",
+      "start_char": 1573,
+      "end_char": 1608,
+      "chunk_id": "268a6c2f-44e2-4225-8093-3b3424900553"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 22,
+      "cited_text": "I think, one thing\nI want to stress--",
+      "start_char": 7169,
+      "end_char": 7206,
+      "chunk_id": "b78c81fe-0e6b-4023-a92e-f73a828c6800"
+    },
+    {
+      "source_id": "137cf8cb-85a2-409d-b066-9bb183b47b91",
+      "citation_number": 23,
+      "cited_text": "the following content is provided under a Creative Commons license your support will help MIT open courseware continue to offer highquality educational resources for free to make a donation or view additional materials from hundreds of MIT courses visit MIT opencourseware at ocw.mit.edu",
+      "start_char": 0,
+      "end_char": 288,
+      "chunk_id": "e563f86d-821f-4e5f-94ec-40d55d2b41b8"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 24,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "3fd3933f-d5d0-4ec2-ae97-9da1a6427f23"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 25,
+      "cited_text": "And we just spent\na week and a half",
+      "start_char": 40493,
+      "end_char": 40528,
+      "chunk_id": "d2b8d5a8-3c82-4415-a580-d5cf5963e2a5"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 26,
+      "cited_text": "to Programming and\nComputer Science in Python.",
+      "start_char": 5598,
+      "end_char": 5644,
+      "chunk_id": "2c2f7f0b-af27-4551-bed8-aea528d453a4"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 27,
+      "cited_text": "to the algorithm,\nwhat does that do",
+      "start_char": 1573,
+      "end_char": 1608,
+      "chunk_id": "19d79557-355a-4472-891c-7490512d9280"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 28,
+      "cited_text": "I think, one thing\nI want to stress--",
+      "start_char": 7169,
+      "end_char": 7206,
+      "chunk_id": "b78c81fe-0e6b-4023-a92e-f73a828c6800"
+    },
+    {
+      "source_id": "137cf8cb-85a2-409d-b066-9bb183b47b91",
+      "citation_number": 29,
+      "cited_text": "the following content is provided under a Creative Commons license your support will help MIT open courseware continue to offer highquality educational resources for free to make a donation or view additional materials from hundreds of MIT courses visit MIT opencourseware at ocw.mit.edu",
+      "start_char": 0,
+      "end_char": 288,
+      "chunk_id": "e563f86d-821f-4e5f-94ec-40d55d2b41b8"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 30,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "3fd3933f-d5d0-4ec2-ae97-9da1a6427f23"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 31,
+      "cited_text": "And we just spent\na week and a half",
+      "start_char": 40493,
+      "end_char": 40528,
+      "chunk_id": "d2b8d5a8-3c82-4415-a580-d5cf5963e2a5"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 32,
+      "cited_text": "to Programming and\nComputer Science in Python.",
+      "start_char": 5598,
+      "end_char": 5644,
+      "chunk_id": "2c2f7f0b-af27-4551-bed8-aea528d453a4"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 33,
+      "cited_text": "to the algorithm,\nwhat does that do",
+      "start_char": 1573,
+      "end_char": 1608,
+      "chunk_id": "19d79557-355a-4472-891c-7490512d9280"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 34,
+      "cited_text": "I think, one thing\nI want to stress--",
+      "start_char": 7169,
+      "end_char": 7206,
+      "chunk_id": "b78c81fe-0e6b-4023-a92e-f73a828c6800"
+    },
+    {
+      "source_id": "137cf8cb-85a2-409d-b066-9bb183b47b91",
+      "citation_number": 35,
+      "cited_text": "the following content is provided under a Creative Commons license your support will help MIT open courseware continue to offer highquality educational resources for free to make a donation or view additional materials from hundreds of MIT courses visit MIT opencourseware at ocw.mit.edu",
+      "start_char": 0,
+      "end_char": 288,
+      "chunk_id": "e563f86d-821f-4e5f-94ec-40d55d2b41b8"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 36,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "3fd3933f-d5d0-4ec2-ae97-9da1a6427f23"
+    },
+    {
+      "source_id": "20483940-5f06-4d22-a8e1-a2184c889b66",
+      "citation_number": 37,
+      "cited_text": "And we just spent\na week and a half",
+      "start_char": 40493,
+      "end_char": 40528,
+      "chunk_id": "d2b8d5a8-3c82-4415-a580-d5cf5963e2a5"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 38,
+      "cited_text": "to Programming and\nComputer Science in Python.",
+      "start_char": 5598,
+      "end_char": 5644,
+      "chunk_id": "2c2f7f0b-af27-4551-bed8-aea528d453a4"
+    },
+    {
+      "source_id": "5a54f398-3d95-4f2d-98eb-6507632862fd",
+      "citation_number": 39,
+      "cited_text": "to the algorithm,\nwhat does that do",
+      "start_char": 1573,
+      "end_char": 1608,
+      "chunk_id": "19d79557-355a-4472-891c-7490512d9280"
+    }
+  ]
+}

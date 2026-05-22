@@ -1,0 +1,1072 @@
+{
+  "answer": "Der Unterschied zwischen deklarativem und imperativem Wissen liegt darin, ob man Fakten beschreibt oder konkrete Handlungsanweisungen gibt:\n\n*   **Deklaratives Wissen** besteht aus Tatsachenbehauptungen (Fakten) [1, 2]. Es beschreibt eine gegebene Wahrheit, aber ein Computer wei\u00df nicht von selbst, was er mit dieser Art von Aussage anfangen soll [3]. Ein numerisches Beispiel f\u00fcr deklaratives Wissen ist die Definition der Quadratwurzel: \"Die Quadratwurzel einer Zahl x ist y, sodass y mal y gleich x ist\" [4, 5]. \n*   **Imperatives Wissen** ist hingegen ein \"Rezept\" oder eine Anleitung (ein \"how-to\"), das aus einer bestimmten Abfolge von Schritten besteht [2, 6]. Es beschreibt genau, *wie* man zu einem Ziel gelangt, und Computer sind in der Lage, solch einer Rezeptur zu folgen [3]. Ein Beispiel f\u00fcr imperatives Wissen ist der tats\u00e4chliche Algorithmus, um eine Quadratwurzel zu berechnen: Man beginnt mit einem Sch\u00e4tzwert, pr\u00fcft, ob dieser mit sich selbst multipliziert nah genug an x liegt, und falls nicht, berechnet man einen neuen Sch\u00e4tzwert, bis man das Ergebnis erreicht [3, 5, 7].\n\nEin solches \"Rezept\" (in der Informatik ein Algorithmus genannt) besteht typischerweise aus drei zentralen Elementen [8, 9]:\n1. Einer einfachen Abfolge von Schritten.\n2. Einem Kontrollfluss, der bestimmt, wann Schritte ausgef\u00fchrt oder wiederholt werden.\n3. Einer Bedingung, die festlegt, wann der Vorgang beendet werden soll.\n\nKurz gesagt: Deklaratives Wissen beschreibt, *was* etwas ist, w\u00e4hrend imperatives Wissen beschreibt, *wie* man etwas Schritt f\u00fcr Schritt tut oder berechnet [1, 2, 6]. \n\nM\u00f6chtest du genauer wissen, aus welchen grundlegenden Anweisungen (Primitiven) Computerprogramme aufgebaut werden, um solches imperatives Wissen umzusetzen?",
+  "conversation_id": "new",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 1,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "8cce93b0-ba8a-4767-8411-55d136ebcf54"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 2,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "3fb1cfec-3794-48f1-a0bb-4a947daabbfd"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 3,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "3556e36d-a8fe-42b9-9d7c-2ae5d54df2c1"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 4,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "cb731afa-4ef8-43ec-b45b-5125d41b8b09"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 5,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "9dd4395d-fa71-4007-9ca5-891e1bda3d83"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 6,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "36a28456-7175-4cb9-9f77-c7a25865d5c3"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 7,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "1f4f963f-9f62-4ce5-86af-5415e34612e1"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 8,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "4c6589ae-9f66-4b13-8770-57f9809e3e5b"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 9,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "11a4810c-002a-4987-876f-6752c6036c95"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 10,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "93b8ee25-9c97-4189-9051-07ff0df75db7"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 11,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "3aa313f1-c8fc-4635-98d0-a9aacd577f0b"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 12,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "507e5625-69b3-4bca-9871-ffe1e66de9bc"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 13,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "20b598dd-36e4-43f4-a97c-bf70719cee05"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 14,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "b2a086b8-7b3e-4563-b09d-08bcb4143c5f"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 15,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "3d58a9ef-ddfb-4a4a-93c5-75f4a39bb97a"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 16,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "012424c7-c3af-4641-bf1c-17c32a323999"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 17,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "8f794387-d8d6-44fd-90c1-63d0792aad37"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 18,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "0faafb6d-52b4-4213-a4ad-6bf6a0529f40"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 19,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "c74bf385-c1c6-4517-99d9-fa2d6b8d9011"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 20,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "b24fb04c-73ad-4cad-8914-eeac6344e5b3"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 21,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "c353de93-d483-4236-94c5-64d0767c64de"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 22,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "adec7cb9-14f8-421d-a1ad-48e1efeeaa2d"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 23,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "1ef404dc-ef42-491f-af78-07b4fb5f31d1"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 24,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "f11897e4-e6c2-4b9e-bf8e-5cc4ecbf5185"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 25,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "5f9799af-6a3f-4c47-998b-ff02d174bac4"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 26,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "20d8af2d-9dd3-45d7-9514-dfb358d6b72a"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 27,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "1b3b8af5-f5f9-441b-a62c-923385f97c0b"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 28,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "81eb423c-ffdb-46ee-bedf-4047b132e189"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 29,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "176f0c16-d6b9-4c9c-9892-7c2c4f88dce4"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 30,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "613aa4c2-be42-4270-9c9c-82bf57722559"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 31,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "fd3b3adf-115e-4ee4-819d-94df42caa3ea"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 32,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "af7b55d0-1cf8-4da5-99a1-7497cb527fab"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 33,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "3bde8b72-e03a-4060-aa3d-fe973019a2d8"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 34,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "75430504-e134-4672-a752-52c4cac0668d"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 35,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "cea0ad96-2e40-4ea2-90c4-5aa8ad3b960d"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 36,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "8383563e-50a2-4afc-a52c-1d848d284ee4"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 37,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "c2982bdd-5db3-4625-8054-e6f762f3db34"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 38,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "f5922730-d673-426f-97fe-1b4ed50b91a4"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 39,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "a7e5d89e-f66d-499e-bea6-756a59c29463"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 40,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "dbe74bfd-b7b9-46f2-a184-399791d9b657"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 41,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "ce138b58-c790-485f-950f-76a789e8bc5c"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 42,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "9fd68ec5-6cef-4d94-af13-3a5a89d027ed"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 43,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "05cd6f8f-2570-401f-8f0a-9ea2ac424667"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 44,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "3b3f272a-96c7-4968-9c07-5c18ce481ec4"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 45,
+      "cited_text": "I'm not really happy with\n9 being really close to 16.",
+      "start_char": 11328,
+      "end_char": 11381,
+      "chunk_id": "085d418e-386a-437c-9e22-dbbb01b35c3d"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 46,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "fb027258-5212-43e1-aa4e-b943f28238cf"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 47,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "585589b6-9eda-4ec3-bb6f-12c57de071d7"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 48,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "c242bc32-29e1-451c-b275-b7b987c573dd"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 49,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "1e893087-85ee-4942-bc36-6de2a0c60fb1"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 50,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "53867c2c-dc1e-49bb-88f7-e2d250777dc2"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 51,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "315ee990-672f-4261-9896-9a1bd00936fa"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 52,
+      "cited_text": "I'm not really happy with\n9 being really close to 16.",
+      "start_char": 11328,
+      "end_char": 11381,
+      "chunk_id": "9a443611-babf-468c-b2da-5bb9b8e5cb32"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 53,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "f2bc14af-2993-4bbc-933c-17cf593c953a"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 54,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "2e785cef-2382-4492-b584-0dd9a650911a"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 55,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "1defc5a6-b4b5-416a-8559-15b4d2e217d1"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 56,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "085ad52d-bef0-464a-a55d-d212d251f334"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 57,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "794f37d0-a1b5-43fc-8798-b7b35b6f48d1"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 58,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "233cdc5c-67ba-4b2e-a4e6-fdeff9f0622d"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 59,
+      "cited_text": "I'm not really happy with\n9 being really close to 16.",
+      "start_char": 11328,
+      "end_char": 11381,
+      "chunk_id": "52765724-1066-4caa-982d-d63b85b89cbd"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 60,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "75d4153f-046f-4551-89fa-08a56d6bfc27"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 61,
+      "cited_text": "4.0035 16.0277 3.997 4.000002",
+      "start_char": 3102,
+      "end_char": 3131,
+      "chunk_id": "75eadde3-6ca4-4a2a-90fe-a108d06b2e66"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 62,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "b9f5df95-2b86-4570-ae52-8e83dfd194ce"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 63,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "1941290f-517a-4797-a034-d5ee67c02c44"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 64,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "fdb6a5e0-c95f-48fe-a7c1-a13cee4d5500"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 65,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "83ba5b62-e585-4614-b2c8-eaf16ac5815c"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 66,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "c6b55bcb-b051-487e-a322-9eafc1244420"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 67,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "6d5f0f3a-3d4c-4287-855b-9d109b93f4c5"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 68,
+      "cited_text": "I'm not really happy with\n9 being really close to 16.",
+      "start_char": 11328,
+      "end_char": 11381,
+      "chunk_id": "f2d652a6-a417-4447-aa67-0726dbc2d9d6"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 69,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "98a7b26b-4469-4b8b-b461-72a921cd1a51"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 70,
+      "cited_text": "4.0035 16.0277 3.997 4.000002",
+      "start_char": 3102,
+      "end_char": 3131,
+      "chunk_id": "4643de94-a47b-4fca-92e8-32de449b77a3"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 71,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "23c43350-8a03-4458-ae4b-8b8157754096"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 72,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "61e437c4-1395-4fff-9f5f-36ae57416594"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 73,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "2d920c33-6b94-4629-9902-40f312f80aab"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 74,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "7e8ae60c-3e2c-4ea0-a2e2-404ca1c5e3d3"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 75,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "117be84f-2902-4186-b1fd-ba9eacbf0066"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 76,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "dbcac4e1-3803-4b93-9e7a-4c0711fb50ee"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 77,
+      "cited_text": "I'm not really happy with\n9 being really close to 16.",
+      "start_char": 11328,
+      "end_char": 11381,
+      "chunk_id": "bb666796-56ae-4159-ae15-4476e33e0cc7"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 78,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "157fadd7-7fb5-4584-b0da-dc23f2c54068"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 79,
+      "cited_text": "4.0035 16.0277 3.997 4.000002",
+      "start_char": 3102,
+      "end_char": 3131,
+      "chunk_id": "00dafb82-a1dd-4906-9048-bc06aa9dfcb2"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 80,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "73b59bc6-912e-4a6c-9be8-4ea32bdc405f"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 81,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "d7a4d49a-09b4-4d1d-864e-1bb1d191c7a3"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 82,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "d0389252-9d73-40c7-b913-688309693ed8"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 83,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "71aedc7e-c554-47b2-a7cb-b986d71f953b"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 84,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "4168cc41-6214-47ad-a650-d497d67819fa"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 85,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "8a4919b1-fd81-4b94-bee7-0359a4176e31"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 86,
+      "cited_text": "I'm not really happy with\n9 being really close to 16.",
+      "start_char": 11328,
+      "end_char": 11381,
+      "chunk_id": "46738dc2-293d-408c-bd02-39d4a3bde4a2"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 87,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "062d5b1d-8aef-4d53-8897-0ab1be046b8d"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 88,
+      "cited_text": "4.0035 16.0277 3.997 4.000002",
+      "start_char": 3102,
+      "end_char": 3131,
+      "chunk_id": "fa1060ca-1128-46f8-86b1-cc7c7c371170"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 89,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "2ee5750a-0d77-4036-b81c-f869d9d02515"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 90,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "b746929e-b508-4fd0-ba84-17bb16954a5f"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 91,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "75627a43-57e7-4f58-ad52-dbacc2fc3032"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 92,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "63962527-a5f1-4d30-8256-7001beff4ba6"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 93,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "f1ab87bf-0485-4d85-a9da-bebd9bcb1519"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 94,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "3baf77e8-00f0-4461-af64-b735115e41c4"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 95,
+      "cited_text": "I'm not really happy with\n9 being really close to 16.",
+      "start_char": 11328,
+      "end_char": 11381,
+      "chunk_id": "b5bd55ac-1050-4177-a305-ddd48b686b54"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 96,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "dc1f921e-3348-48a1-8574-687cbea48c7d"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 97,
+      "cited_text": "4.0035 16.0277 3.997 4.000002",
+      "start_char": 3102,
+      "end_char": 3131,
+      "chunk_id": "84243bf0-d6cb-4b22-a09e-396226a61864"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 98,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "1ac86d31-324e-4c2c-bb99-f080fb97a35f"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 99,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "20f5db6a-b21a-40b5-b0bf-9ccbafaef7fb"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 100,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "09527de7-c87e-4735-afca-563587f9acec"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 101,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "304e88ec-8a8c-466f-987a-18bcffc3b107"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 102,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "1c6d4c5c-0136-4abe-9705-2039ee0877c8"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 103,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "0ddacdcb-3866-4649-ac8a-4a713e7e6901"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 104,
+      "cited_text": "I'm not really happy with\n9 being really close to 16.",
+      "start_char": 11328,
+      "end_char": 11381,
+      "chunk_id": "5bb24e28-683c-46cc-9007-4e4f4355ba99"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 105,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "ea73407e-8518-4c15-b0bf-8cd57ee48282"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 106,
+      "cited_text": "4.0035 16.0277 3.997 4.000002",
+      "start_char": 3102,
+      "end_char": 3131,
+      "chunk_id": "7f5b00b4-92b0-45bd-a54c-40f0212453d3"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 107,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "0c515d2c-82fe-4201-ad9d-4f24cbb0bf3c"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 108,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "60489bff-2800-4f49-940a-42eceaad2b3b"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 109,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "c6d4bb37-b1c2-4510-b25a-1fb43ba6cbd1"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 110,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "33d69dd0-36b9-4fee-8815-bbfde342bbc1"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 111,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "0434d73b-99ff-48e1-8688-625770c73dc8"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 112,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "052f00e9-6230-46ee-80c7-944f09fe3f8c"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 113,
+      "cited_text": "I'm not really happy with\n9 being really close to 16.",
+      "start_char": 11328,
+      "end_char": 11381,
+      "chunk_id": "1c7bd3c4-83dc-4e01-b137-a6f2f33a53f7"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 114,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "dc267abc-c6d8-437e-95ec-ffc1dd2a03a9"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 115,
+      "cited_text": "4.0035 16.0277 3.997 4.000002",
+      "start_char": 3102,
+      "end_char": 3131,
+      "chunk_id": "afc807c4-08df-4ffa-8343-e26645c30527"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 116,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "0c515d2c-82fe-4201-ad9d-4f24cbb0bf3c"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 117,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "60489bff-2800-4f49-940a-42eceaad2b3b"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 118,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "c6d4bb37-b1c2-4510-b25a-1fb43ba6cbd1"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 119,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "33d69dd0-36b9-4fee-8815-bbfde342bbc1"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 120,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "0434d73b-99ff-48e1-8688-625770c73dc8"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 121,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "052f00e9-6230-46ee-80c7-944f09fe3f8c"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 122,
+      "cited_text": "I'm not really happy with\n9 being really close to 16.",
+      "start_char": 11328,
+      "end_char": 11381,
+      "chunk_id": "1c7bd3c4-83dc-4e01-b137-a6f2f33a53f7"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 123,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "dc267abc-c6d8-437e-95ec-ffc1dd2a03a9"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 124,
+      "cited_text": "4.0035 16.0277 3.997 4.000002",
+      "start_char": 3102,
+      "end_char": 3131,
+      "chunk_id": "afc807c4-08df-4ffa-8343-e26645c30527"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 125,
+      "cited_text": "And those are things\nlike statements of fact.",
+      "start_char": 7678,
+      "end_char": 7723,
+      "chunk_id": "0c515d2c-82fe-4201-ad9d-4f24cbb0bf3c"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 126,
+      "cited_text": "\uf0a7 complexity of algorithms",
+      "start_char": 2067,
+      "end_char": 2094,
+      "chunk_id": "60489bff-2800-4f49-940a-42eceaad2b3b"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 127,
+      "cited_text": "That's just a statement\nof fact It's true.",
+      "start_char": 10790,
+      "end_char": 10832,
+      "chunk_id": "c6d4bb37-b1c2-4510-b25a-1fb43ba6cbd1"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 128,
+      "cited_text": "Awesome.",
+      "start_char": 10281,
+      "end_char": 10289,
+      "chunk_id": "33d69dd0-36b9-4fee-8815-bbfde342bbc1"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 129,
+      "cited_text": "2) Ana opens her IDE",
+      "start_char": 2582,
+      "end_char": 2603,
+      "chunk_id": "0434d73b-99ff-48e1-8688-625770c73dc8"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 130,
+      "cited_text": "I know that you tell\nme this statement.",
+      "start_char": 8183,
+      "end_char": 8222,
+      "chunk_id": "052f00e9-6230-46ee-80c7-944f09fe3f8c"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 131,
+      "cited_text": "I'm not really happy with\n9 being really close to 16.",
+      "start_char": 11328,
+      "end_char": 11381,
+      "chunk_id": "1c7bd3c4-83dc-4e01-b137-a6f2f33a53f7"
+    },
+    {
+      "source_id": "dda154ab-abd4-42f9-ae2e-f404b3c85f1f",
+      "citation_number": 132,
+      "cited_text": "And you keep doing\nthis until you decide",
+      "start_char": 11850,
+      "end_char": 11890,
+      "chunk_id": "dc267abc-c6d8-437e-95ec-ffc1dd2a03a9"
+    },
+    {
+      "source_id": "332e7f9f-661e-44fe-a7dc-3eae3eb25bd4",
+      "citation_number": 133,
+      "cited_text": "4.0035 16.0277 3.997 4.000002",
+      "start_char": 3102,
+      "end_char": 3131,
+      "chunk_id": "afc807c4-08df-4ffa-8343-e26645c30527"
+    }
+  ]
+}

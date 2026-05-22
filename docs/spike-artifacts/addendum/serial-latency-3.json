@@ -1,0 +1,1048 @@
+{
+  "answer": "Aliasing bei Listen in Python bedeutet, dass zwei oder mehr Variablennamen auf exakt dasselbe Listenobjekt im Speicher verweisen [1, 2]. Da Listen in Python ver\u00e4nderbare (\"mutable\") Datenstrukturen sind, hat dieses Verhalten wichtige Konsequenzen f\u00fcr die Ausf\u00fchrung eines Programms [1, 2].\n\nWenn Sie eine bereits bestehende Liste einer neuen Variablen zuweisen (zum Beispiel mit dem Befehl `hot = warm`), erstellen Sie einen Alias f\u00fcr diese Liste [3]. Beide Variablen zeigen nun auf den exakt gleichen Speicherplatz [3]. Der wichtigste Effekt dabei ist: **Wenn das zugrundeliegende Listenobjekt \u00fcber eine der Variablen ver\u00e4ndert wird (etwa durch das Hinzuf\u00fcgen eines Elements mit `.append()`), ist diese \u00c4nderung sofort f\u00fcr alle anderen Variablen sichtbar, die als Alias f\u00fcr dieses Objekt dienen** [3-5]. \n\nIm Kurs wird dies anschaulich mit den Spitznamen einer Person (im Beispiel Justin Bieber) verglichen [6, 7]. Egal, mit welchem ihrer Aliasnamen oder Spitznamen Sie die Person ansprechen, Sie beziehen sich immer auf dieselbe Person [7]. Wenn dieser Person eine neue Eigenschaft zugewiesen wird, gilt diese \u00c4nderung logischerweise auch, wenn sie unter einem anderen Namen aufgerufen wird [7, 8]. \n\nUm unerw\u00fcnschte Seiteneffekte (Side Effects) bei der Bearbeitung von Listen zu vermeiden, bietet Python die M\u00f6glichkeit, Listen zu klonen (beispielsweise durch die Schreibweise `chill = cool[:]`) [9]. Dadurch wird eine neue, unabh\u00e4ngige Kopie der Liste mit den gleichen Elementen im Speicher erstellt, bei der \u00c4nderungen an der Kopie das Original nicht mehr beeintr\u00e4chtigen [9, 10].\n\nM\u00f6chten Sie tiefer in das Konzept des Klonens einsteigen, oder soll ich Ihnen den Unterschied zwischen ver\u00e4nderbaren (mutable) und unver\u00e4nderbaren (immutable) Datenstrukturen anhand von Listen und Tupeln genauer erkl\u00e4ren?",
+  "conversation_id": "b7b5e1f3-2356-4265-b07a-154d1ab5d61c",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 1,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "df0ba92e-2009-49da-bd18-69f8de039490"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 2,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "63fe8138-1978-4dc0-a37a-54a9e6c1a69c"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 3,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "02912fc8-6a63-4d81-8336-053378b9ff35"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 4,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "29c9e6b8-c819-4da6-9ab0-51f3cbac1125"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 5,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "9a599ed8-0770-44cf-aeee-efbae47eb394"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 6,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "4b56c889-ede8-45e0-8b7c-50488a633c91"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 7,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "7c21477f-5b6d-4214-aaf2-af01403e626b"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 8,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "8259bd0f-836b-42e5-8d52-4673b2ff9120"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 9,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "f79fcc8b-bf27-449b-babf-eb1073fbf713"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 10,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "26b4c0a9-4bce-4bbe-80ec-57e3354d11c7"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 11,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "fd1d2af7-a760-42d0-9840-daf5769bd471"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 12,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "5996fa2d-9eb2-4571-b08b-ce839a3db5bd"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 13,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "69f54f02-6b6f-498e-a83f-2b835dc8e776"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 14,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "da65c7a5-a3f7-4922-9971-c469fd7e2a31"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 15,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "346df574-f2b5-423e-91ab-3f4c5768f648"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 16,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "1a84ecf9-95df-415c-b036-3f64a76ccf3f"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 17,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "91d12c4b-9377-40e3-b149-eabf3f7d6b1e"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 18,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "3f9d2c32-e8c3-479a-ad41-bd25b5ded7dd"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 19,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "b8d32583-3993-4d03-9d6f-3373fd62ed56"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 20,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "9e82f192-39ef-4d6b-a606-ab1ce28fdd48"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 21,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "d146ed56-aab0-4de1-9950-94ab82fcffe1"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 22,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "a0f826d1-d2d7-4f3e-80c4-ddd7093b49f9"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 23,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "5fb630bb-be23-4d64-8a68-790617f62efe"
+    },
+    {
+      "source_id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "citation_number": 24,
+      "cited_text": "\uf0a7 variable name points to object",
+      "start_char": 4697,
+      "end_char": 4730,
+      "chunk_id": "862948b0-a617-4d7f-bdb2-323ed5da855e"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 25,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "1928efe6-8fef-4b45-b49f-7b80e7fdb136"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 26,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "1d75781e-a89b-4610-a87a-e4f0e8fb436d"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 27,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "6a37da10-2054-40fe-b5c4-5f39a12c1dee"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 28,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "52c230bc-20e7-4d72-b378-d9cbe7808b4e"
+    },
+    {
+      "source_id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "citation_number": 29,
+      "cited_text": "\uf0a7 variable name points to object",
+      "start_char": 4697,
+      "end_char": 4730,
+      "chunk_id": "578d0ff4-02c5-41e5-8a87-47b69030da60"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 30,
+      "cited_text": "Let's come back down\nto earth for a second.",
+      "start_char": 25008,
+      "end_char": 25051,
+      "chunk_id": "01c7ccec-2e3e-4702-a75a-c85d96283826"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 31,
+      "cited_text": "His full name, his stage\nname, all of the fan girls",
+      "start_char": 25531,
+      "end_char": 25582,
+      "chunk_id": "1081cc08-be8a-4553-af7f-04a771d4a590"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 32,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "e00e1f43-fda4-467b-99dc-f40c4afe82c8"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 33,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "a5c7c32c-377b-4f66-85f3-ee44ba2fdb42"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 34,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "a03594e5-8835-4198-a83c-fead2b4fd426"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 35,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "23c8175a-0d8a-4787-8d53-b8eedd1bf03c"
+    },
+    {
+      "source_id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "citation_number": 36,
+      "cited_text": "\uf0a7 variable name points to object",
+      "start_char": 4697,
+      "end_char": 4730,
+      "chunk_id": "f0098431-19c9-4691-b63f-f8a611bbac87"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 37,
+      "cited_text": "Let's come back down\nto earth for a second.",
+      "start_char": 25008,
+      "end_char": 25051,
+      "chunk_id": "0b0b5d40-39ac-44dc-9f6a-5a582c5d6728"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 38,
+      "cited_text": "His full name, his stage\nname, all of the fan girls",
+      "start_char": 25531,
+      "end_char": 25582,
+      "chunk_id": "90d2bac0-98c5-46a7-9329-b5beb2ab02e7"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 39,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "121088ed-a490-4fda-a923-cd4615487683"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 40,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "7d286165-af1a-4486-85df-ae48c9507ad3"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 41,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "8f753dd0-f59f-400f-bd07-7378c47b2198"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 42,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "ae354a16-48c1-4a83-b9b9-fb776fce0d52"
+    },
+    {
+      "source_id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "citation_number": 43,
+      "cited_text": "\uf0a7 variable name points to object",
+      "start_char": 4697,
+      "end_char": 4730,
+      "chunk_id": "1d41991e-a484-49b3-9f10-f34e36536728"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 44,
+      "cited_text": "Let's come back down\nto earth for a second.",
+      "start_char": 25008,
+      "end_char": 25051,
+      "chunk_id": "9c5bd955-99a8-4f6a-8228-bf4efc810b3c"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 45,
+      "cited_text": "His full name, his stage\nname, all of the fan girls",
+      "start_char": 25531,
+      "end_char": 25582,
+      "chunk_id": "d8b16fe2-3413-4aa8-b139-77f9037d74d5"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 46,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "d6f21eff-211e-4fde-b795-f86f2d11aba6"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 47,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "4e3cb4b3-2a39-4691-a5bf-1a794475500d"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 48,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "b19ba3a6-a5f0-49ac-9530-932f7a5fa6ed"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 49,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "22c7d4bf-fecd-414a-9ec1-458a7cd20228"
+    },
+    {
+      "source_id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "citation_number": 50,
+      "cited_text": "\uf0a7 variable name points to object",
+      "start_char": 4697,
+      "end_char": 4730,
+      "chunk_id": "01bcf401-acc5-4a8d-8640-255e46d7401c"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 51,
+      "cited_text": "Let's come back down\nto earth for a second.",
+      "start_char": 25008,
+      "end_char": 25051,
+      "chunk_id": "8c31009c-2455-4fa9-a897-ff35723e0d50"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 52,
+      "cited_text": "His full name, his stage\nname, all of the fan girls",
+      "start_char": 25531,
+      "end_char": 25582,
+      "chunk_id": "9dc1f12f-daba-4b8f-926d-c04e9030fe1f"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 53,
+      "cited_text": "I'm being kind here.",
+      "start_char": 26045,
+      "end_char": 26065,
+      "chunk_id": "709dc2b2-e0fb-4d77-83ed-c7314214360f"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 54,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "79a08336-e3de-4d08-a835-723dc2bdf505"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 55,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "4a6e31ee-71b2-4cca-a679-8cb4a47f315e"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 56,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "c06ff408-cefa-48dd-b382-9cf11bcad0fe"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 57,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "08540749-cfb8-4db8-82a5-84d95ba951ec"
+    },
+    {
+      "source_id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "citation_number": 58,
+      "cited_text": "\uf0a7 variable name points to object",
+      "start_char": 4697,
+      "end_char": 4730,
+      "chunk_id": "ffa7cafa-f076-4f26-945e-c1fc4bd4bc9a"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 59,
+      "cited_text": "Let's come back down\nto earth for a second.",
+      "start_char": 25008,
+      "end_char": 25051,
+      "chunk_id": "a5b7589e-73ef-4367-a3bb-e6faf309bc74"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 60,
+      "cited_text": "His full name, his stage\nname, all of the fan girls",
+      "start_char": 25531,
+      "end_char": 25582,
+      "chunk_id": "99dc5187-10b4-4bc0-abe1-38dd1063c3e0"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 61,
+      "cited_text": "I'm being kind here.",
+      "start_char": 26045,
+      "end_char": 26065,
+      "chunk_id": "07a5c93e-8b56-44bf-91f0-c9692b2252da"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 62,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "78d14eb4-f8cf-4407-af9e-0f5ebd493ebc"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 63,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "29e27c01-0631-4bdb-a60c-244594184074"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 64,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "b11aeba3-5c51-4cec-a7b9-f9efc7787c13"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 65,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "775b6915-8be6-4392-8225-3e7a924bb4a0"
+    },
+    {
+      "source_id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "citation_number": 66,
+      "cited_text": "\uf0a7 variable name points to object",
+      "start_char": 4697,
+      "end_char": 4730,
+      "chunk_id": "874aeb52-de74-44f1-ba8b-1f4ecd06130e"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 67,
+      "cited_text": "Let's come back down\nto earth for a second.",
+      "start_char": 25008,
+      "end_char": 25051,
+      "chunk_id": "fa62b9e3-0a44-4cc1-a3fb-470412c5d353"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 68,
+      "cited_text": "His full name, his stage\nname, all of the fan girls",
+      "start_char": 25531,
+      "end_char": 25582,
+      "chunk_id": "ba2a962f-8c1b-4c1c-a1c8-ad50fff44929"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 69,
+      "cited_text": "I'm being kind here.",
+      "start_char": 26045,
+      "end_char": 26065,
+      "chunk_id": "135a3163-a095-4028-a9d5-c1166952ee0f"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 70,
+      "cited_text": "And that's the side effect.",
+      "start_char": 27623,
+      "end_char": 27650,
+      "chunk_id": "467fb86f-ac66-469b-88f6-a23be32b02a8"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 71,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "ec5221fa-cd6d-4bcd-90e7-c00a765456cc"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 72,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "4a290489-2c0a-42c5-9712-5e1c94e6244a"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 73,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "3bd8dfe7-74c4-447a-aed8-29e5b755f08c"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 74,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "1bb8fb70-4eae-4e51-b47a-8474ed77070f"
+    },
+    {
+      "source_id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "citation_number": 75,
+      "cited_text": "\uf0a7 variable name points to object",
+      "start_char": 4697,
+      "end_char": 4730,
+      "chunk_id": "128ec8e9-5999-4f09-9691-04904cfc637a"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 76,
+      "cited_text": "Let's come back down\nto earth for a second.",
+      "start_char": 25008,
+      "end_char": 25051,
+      "chunk_id": "d4652c85-db59-4edf-8980-55d142b91c8b"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 77,
+      "cited_text": "His full name, his stage\nname, all of the fan girls",
+      "start_char": 25531,
+      "end_char": 25582,
+      "chunk_id": "868639b8-aad7-4fb6-b295-0d0ae43f787c"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 78,
+      "cited_text": "I'm being kind here.",
+      "start_char": 26045,
+      "end_char": 26065,
+      "chunk_id": "b7b01381-32df-46e0-83d6-c5dc1ea545c0"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 79,
+      "cited_text": "And that's the side effect.",
+      "start_char": 27623,
+      "end_char": 27650,
+      "chunk_id": "0bce08e7-480a-4c9c-aff6-cbf23dd85cd9"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 80,
+      "cited_text": "and assign it to\nthe variable chill.",
+      "start_char": 28145,
+      "end_char": 28181,
+      "chunk_id": "64308dc1-cec9-4a08-860e-f6c48b6ddb81"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 81,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "5cd7f2c6-18f9-40bb-a3a5-366de70e472d"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 82,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "988a9a2e-2df6-4f50-896b-404fac1eaaba"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 83,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "3fb027c2-2b77-47df-bdc8-054627cd1879"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 84,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "f00c63db-4485-4648-93cc-50099e21cc80"
+    },
+    {
+      "source_id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "citation_number": 85,
+      "cited_text": "\uf0a7 variable name points to object",
+      "start_char": 4697,
+      "end_char": 4730,
+      "chunk_id": "7fe5f1ba-8ee9-4910-83c9-5c1730358b89"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 86,
+      "cited_text": "Let's come back down\nto earth for a second.",
+      "start_char": 25008,
+      "end_char": 25051,
+      "chunk_id": "996589a6-7323-4b5f-9d04-e1e4587239a5"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 87,
+      "cited_text": "His full name, his stage\nname, all of the fan girls",
+      "start_char": 25531,
+      "end_char": 25582,
+      "chunk_id": "5c2d3643-2435-4002-b541-04d2bfbfdd30"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 88,
+      "cited_text": "I'm being kind here.",
+      "start_char": 26045,
+      "end_char": 26065,
+      "chunk_id": "16e2e5b0-e1af-418b-8e51-79613b89b6d9"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 89,
+      "cited_text": "And that's the side effect.",
+      "start_char": 27623,
+      "end_char": 27650,
+      "chunk_id": "1fa1e99c-5397-41c0-aa8b-c03b61712d0c"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 90,
+      "cited_text": "and assign it to\nthe variable chill.",
+      "start_char": 28145,
+      "end_char": 28181,
+      "chunk_id": "198f4228-a588-4c26-8cd2-ea38aca9dca0"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 91,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "0b12f40d-a3a4-42ff-94bf-e20c87043c04"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 92,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "d847b883-1d91-4de2-bf0c-53f1a8577b01"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 93,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "9e7b03e1-7f2a-4216-8419-2d4bf8de286d"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 94,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "1ffc4204-1269-465a-9fc5-26f4fb786601"
+    },
+    {
+      "source_id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "citation_number": 95,
+      "cited_text": "\uf0a7 variable name points to object",
+      "start_char": 4697,
+      "end_char": 4730,
+      "chunk_id": "70c408aa-77be-4f9b-bb8f-1832bbd3be53"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 96,
+      "cited_text": "Let's come back down\nto earth for a second.",
+      "start_char": 25008,
+      "end_char": 25051,
+      "chunk_id": "a6c3cf56-513e-41ab-888a-b5530a583b04"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 97,
+      "cited_text": "His full name, his stage\nname, all of the fan girls",
+      "start_char": 25531,
+      "end_char": 25582,
+      "chunk_id": "38e9b81a-476a-4310-9857-697e72ae9def"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 98,
+      "cited_text": "I'm being kind here.",
+      "start_char": 26045,
+      "end_char": 26065,
+      "chunk_id": "6cd4cc6e-5335-4ff8-96a0-f796491be74e"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 99,
+      "cited_text": "And that's the side effect.",
+      "start_char": 27623,
+      "end_char": 27650,
+      "chunk_id": "d096c7c1-9000-43c0-a961-c06ec5128345"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 100,
+      "cited_text": "and assign it to\nthe variable chill.",
+      "start_char": 28145,
+      "end_char": 28181,
+      "chunk_id": "22b23bb3-324d-4e66-b25c-065c1eaa4395"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 101,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "7b814ac2-8c20-4a95-82e0-1df55cb97dea"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 102,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "af956b45-2940-48d5-9123-aa1354301263"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 103,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "dba858a8-b694-48e9-b221-764d84f05f75"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 104,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "0d692dc6-bb66-4822-a96e-94fedccc82df"
+    },
+    {
+      "source_id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "citation_number": 105,
+      "cited_text": "\uf0a7 variable name points to object",
+      "start_char": 4697,
+      "end_char": 4730,
+      "chunk_id": "785f2d83-2382-49c7-a2e1-010a86775920"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 106,
+      "cited_text": "Let's come back down\nto earth for a second.",
+      "start_char": 25008,
+      "end_char": 25051,
+      "chunk_id": "add444d6-1f2f-43bc-9362-865903536988"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 107,
+      "cited_text": "His full name, his stage\nname, all of the fan girls",
+      "start_char": 25531,
+      "end_char": 25582,
+      "chunk_id": "460b8cbc-9370-4cfd-8493-f2db7e6e2306"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 108,
+      "cited_text": "I'm being kind here.",
+      "start_char": 26045,
+      "end_char": 26065,
+      "chunk_id": "98e0326a-10b8-42c4-87fa-fa197cb6be9f"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 109,
+      "cited_text": "And that's the side effect.",
+      "start_char": 27623,
+      "end_char": 27650,
+      "chunk_id": "f111d49f-7728-4a52-b4e6-cb111dabd2e6"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 110,
+      "cited_text": "and assign it to\nthe variable chill.",
+      "start_char": 28145,
+      "end_char": 28181,
+      "chunk_id": "dc2e6ff1-2a92-4a2d-9b12-13d30b42490c"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 111,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "7b814ac2-8c20-4a95-82e0-1df55cb97dea"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 112,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "af956b45-2940-48d5-9123-aa1354301263"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 113,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "dba858a8-b694-48e9-b221-764d84f05f75"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 114,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "0d692dc6-bb66-4822-a96e-94fedccc82df"
+    },
+    {
+      "source_id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "citation_number": 115,
+      "cited_text": "\uf0a7 variable name points to object",
+      "start_char": 4697,
+      "end_char": 4730,
+      "chunk_id": "785f2d83-2382-49c7-a2e1-010a86775920"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 116,
+      "cited_text": "Let's come back down\nto earth for a second.",
+      "start_char": 25008,
+      "end_char": 25051,
+      "chunk_id": "add444d6-1f2f-43bc-9362-865903536988"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 117,
+      "cited_text": "His full name, his stage\nname, all of the fan girls",
+      "start_char": 25531,
+      "end_char": 25582,
+      "chunk_id": "460b8cbc-9370-4cfd-8493-f2db7e6e2306"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 118,
+      "cited_text": "I'm being kind here.",
+      "start_char": 26045,
+      "end_char": 26065,
+      "chunk_id": "98e0326a-10b8-42c4-87fa-fa197cb6be9f"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 119,
+      "cited_text": "And that's the side effect.",
+      "start_char": 27623,
+      "end_char": 27650,
+      "chunk_id": "f111d49f-7728-4a52-b4e6-cb111dabd2e6"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 120,
+      "cited_text": "and assign it to\nthe variable chill.",
+      "start_char": 28145,
+      "end_char": 28181,
+      "chunk_id": "dc2e6ff1-2a92-4a2d-9b12-13d30b42490c"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 121,
+      "cited_text": "is the second one, and so on.",
+      "start_char": 23992,
+      "end_char": 24021,
+      "chunk_id": "7b814ac2-8c20-4a95-82e0-1df55cb97dea"
+    },
+    {
+      "source_id": "71e2d3b7-0b6c-4350-8e2e-60a733f243f6",
+      "citation_number": 122,
+      "cited_text": "This term, with\nAna and John, I'm",
+      "start_char": 525,
+      "end_char": 558,
+      "chunk_id": "af956b45-2940-48d5-9123-aa1354301263"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 123,
+      "cited_text": "And it's going to be\nequal to this list.",
+      "start_char": 27092,
+      "end_char": 27132,
+      "chunk_id": "dba858a8-b694-48e9-b221-764d84f05f75"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 124,
+      "cited_text": "that points to the exact\nsame object in memory.",
+      "start_char": 24505,
+      "end_char": 24552,
+      "chunk_id": "0d692dc6-bb66-4822-a96e-94fedccc82df"
+    },
+    {
+      "source_id": "93cbecf4-cbda-4d8b-ae13-4f93272e9d26",
+      "citation_number": 125,
+      "cited_text": "\uf0a7 variable name points to object",
+      "start_char": 4697,
+      "end_char": 4730,
+      "chunk_id": "785f2d83-2382-49c7-a2e1-010a86775920"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 126,
+      "cited_text": "Let's come back down\nto earth for a second.",
+      "start_char": 25008,
+      "end_char": 25051,
+      "chunk_id": "add444d6-1f2f-43bc-9362-865903536988"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 127,
+      "cited_text": "His full name, his stage\nname, all of the fan girls",
+      "start_char": 25531,
+      "end_char": 25582,
+      "chunk_id": "460b8cbc-9370-4cfd-8493-f2db7e6e2306"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 128,
+      "cited_text": "I'm being kind here.",
+      "start_char": 26045,
+      "end_char": 26065,
+      "chunk_id": "98e0326a-10b8-42c4-87fa-fa197cb6be9f"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 129,
+      "cited_text": "And that's the side effect.",
+      "start_char": 27623,
+      "end_char": 27650,
+      "chunk_id": "f111d49f-7728-4a52-b4e6-cb111dabd2e6"
+    },
+    {
+      "source_id": "dd73d4e6-c51b-42a3-ad0d-07a68a6b3dbd",
+      "citation_number": 130,
+      "cited_text": "and assign it to\nthe variable chill.",
+      "start_char": 28145,
+      "end_char": 28181,
+      "chunk_id": "dc2e6ff1-2a92-4a2d-9b12-13d30b42490c"
+    }
+  ]
+}

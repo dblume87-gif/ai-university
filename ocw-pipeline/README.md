@@ -202,6 +202,41 @@ exportiert. Quellen koennen aus `source_url` oder, bei lokal importierten Kursen
 aus `local_path` kommen. `upload --dry-run` schreibt keine NotebookLM-Statusänderung
 in `library.db`.
 
+## NotebookLM Chat und Mindmaps
+
+Der NotebookLM-Integration-Spike vom 2026-05-22 hat bestaetigt, dass die lokale
+`notebooklm` CLI fuer den V0-Learning-Loop genutzt werden kann:
+
+```bash
+# Quellen eines bestehenden Notebooks listen
+notebooklm source list -n <notebook-id> --json
+
+# Quellenbasierte Frage stellen
+notebooklm ask "Erklaere Rekursion einfach." \
+  -n <notebook-id> \
+  -s <source-id-1> \
+  -s <source-id-2> \
+  --json
+
+# Tutor-Modus aktivieren
+notebooklm configure -n <notebook-id> --mode learning-guide
+
+# Mindmap erzeugen und herunterladen
+notebooklm generate mind-map -n <notebook-id> --json
+notebooklm download mind-map output/notebooklm/assets/mindmap.json -n <notebook-id> --json
+```
+
+Wichtige Caveats:
+
+- `ask --json` liefert `references[]` mit konkreten `source_id`s.
+- `-s <source-id>` verhielt sich im Spike als strikter Source-Filter.
+- Nicht `-c new` verwenden. Fuer Follow-ups erst ohne `-c` fragen, echte
+  `conversation_id` speichern und dann mit `-c <uuid>` fortsetzen.
+- Mindmap-JSON enthaelt keine Source IDs; Mapping auf Units/Sources muss
+  separat erfolgen.
+
+Details: `../docs/NOTEBOOKLM_INTEGRATION_SPIKE.md`.
+
 ## Typische Fehlerquellen
 
 - **NotebookLM CLI fehlt:** `npm run notebooklm:install` ausfuehren und danach `npm run notebooklm:check`.

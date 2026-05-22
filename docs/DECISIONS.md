@@ -105,3 +105,35 @@ Dieses Dokument haelt kurze Architektur- und Produktentscheidungen fest. Es ist 
 **Warum:** Das Projekt ist noch klein genug, dass viele Modul-READMEs Pflegeaufwand erzeugen wuerden.
 
 **Konsequenz:** `ocw-pipeline/README.md` ist das Entwicklerhandbuch, `docs/ARCHITECTURE.md` erklaert die Module.
+
+## 2026-05-22: NotebookLM Chat ist ausreichend fuer V0
+
+**Entscheidung:** Der Learning Path V0 darf NotebookLM als source-grounded Chat-Backend nutzen.
+
+**Warum:** Der Integration-Spike gegen MIT 6.0001 hat gezeigt, dass `notebooklm ask --json` strukturierte References mit konkreten `source_id`s liefert. Inline-Citations sind ueber `citation_number` mapbar, und wiederholtes `-s <source-id>` verhielt sich im Test als strikter Source-Filter. `learning-guide` reicht fuer einen ersten Tutor-Modus.
+
+**Konsequenz:** Der naechste Build muss keinen eigenen Retrieval-Chat erfinden. Er soll zuerst eine kleine Adapter-/Walking-Skeleton-Schicht bauen: Source IDs auswaehlen, `ask --json` ausfuehren, Antwort und Citations speichern, dann optional Materialgeneration aus denselben Sources starten.
+
+## 2026-05-22: Learning Path V0 vor V1-Zielarchitektur
+
+**Entscheidung:** Der naechste Schritt ist ein V0-Walking-Skeleton, nicht die komplette Learning-Path-Zielarchitektur.
+
+**Warum:** Der Zielplan enthaelt viele Bausteine: Contract Normalizer, Candidate Selector, Screening Gate, Planner, Notebook Manager, Mindmap Indexer, Source Resolver, Chat Orchestrator und Production Router. Ohne einen kleinen End-to-End-Lernloop wuerde zu viel Architektur vor dem ersten echten Nutzerwert entstehen.
+
+**Konsequenz:** V0 beschraenkt sich auf ein bestehendes Notebook, feste oder einfach gemappte Source IDs, quellenbasierten Chat und eine optionale Materialproduktion. V1 darf danach Contract, Kursauswahl, Material-Screening, eigenes Path-Notebook und Mindmap-Routing ausbauen.
+
+## 2026-05-22: Mindmap ist Navigation, nicht Source of Truth
+
+**Entscheidung:** Mindmaps werden als Themenuebersicht und Navigationshilfe genutzt, aber nicht als primaere Quelle fuer Unit-/Source-Mapping.
+
+**Warum:** `download mind-map` liefert eine reine Text-Hierarchie aus `name` und `children`, ohne Source IDs, Citation IDs oder stabile Node IDs.
+
+**Konsequenz:** Mindmap-Knoten muessen heuristisch oder spaeter ueber Embeddings/LLM-Klassifikation auf Units und Sources gemappt werden. Fuer V0 ist Mindmap-Routing optional; V1 muss diesen Mapping-Schritt explizit modellieren und testen.
+
+## 2026-05-22: Learning-Path-Workflows brauchen Resume-State
+
+**Entscheidung:** Bevor lange Lernpfad-Workflows produktiv werden, braucht es einen eigenen Learning-Path-State mit Resume-Punkten.
+
+**Warum:** Contract -> Kursauswahl -> Material-Screening -> Lernplan -> Notebook -> Upload -> Mindmap -> Chat/Materialien kann Minuten bis Stunden dauern und enthaelt externe NotebookLM-Side-Effects.
+
+**Konsequenz:** V0 kann mit einem kleinen lokalen State starten. V1 sollte eigene Tabellen oder JSON-State-Dateien fuer Contracts, Paths, Units, Sources, Chat-Turns und Artefakte einfuehren.

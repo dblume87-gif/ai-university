@@ -1,0 +1,10 @@
+{
+  "operation": "download_single",
+  "artifact": {
+    "id": "e557b6b2-c88d-472a-b49c-074520d7070c",
+    "title": "Einf\u00fchrung in die Informatik und Programmiereffizienz",
+    "selection_reason": "only artifact"
+  },
+  "output_path": "docs/spike-artifacts/mindmap.json",
+  "status": "downloaded"
+}
