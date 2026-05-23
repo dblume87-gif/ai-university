@@ -23,6 +23,7 @@ export function parseCliArgs(args, schema = {}) {
   const allKnown = new Set([...valueFlags, ...booleanFlags]);
 
   const values = new Map();
+  const allValues = new Map();
   const flagsPresent = new Set();
   const positional = [];
 
@@ -36,6 +37,8 @@ export function parseCliArgs(args, schema = {}) {
         const next = args[i + 1];
         if (next !== undefined && !next.startsWith('--')) {
           values.set(token, next);
+          if (!allValues.has(token)) allValues.set(token, []);
+          allValues.get(token).push(next);
           i++;
         }
       } else if (!allKnown.has(token) && !schema.allowUnknownFlags) {
@@ -72,9 +75,13 @@ export function parseCliArgs(args, schema = {}) {
       .filter(Boolean);
   }
 
+  function getAll(flag, fallback = []) {
+    return allValues.has(flag) ? [...allValues.get(flag)] : fallback;
+  }
+
   function has(flag) {
     return flagsPresent.has(flag);
   }
 
-  return { positional, getString, getInt, getPositiveInt, getList, has };
+  return { positional, getString, getInt, getPositiveInt, getList, getAll, has };
 }

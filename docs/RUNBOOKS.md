@@ -284,3 +284,31 @@ Akzeptanz fuer V0:
 - Citations sind auf NotebookLM Sources mapbar.
 - Die Antwort kann als Chat-Turn gespeichert werden.
 - Aus denselben Sources kann ein erstes Material erzeugt werden.
+
+Pipeline-CLI fuer Schritt 1:
+
+```bash
+cd ocw-pipeline
+node src/scrape.js learn chat \
+  --message "Erklaer mir Rekursion fuer Python-Anfaenger." \
+  --source 71e2d3b7-0b6c-4350-8e2e-60a733f243f6 \
+  --source 848489ba-074a-436b-a4af-5457b954e64d
+```
+
+Folgefragen verwenden automatisch dieselbe NotebookLM-Conversation und die
+gespeicherten Sources:
+
+```bash
+node src/scrape.js learn chat \
+  --message "Ich rate: Ohne Base Case laeuft die Rekursion endlos?"
+```
+
+Default-State:
+
+```text
+ocw-pipeline/output/learning-paths/v0-mit-60001/chat_state.json
+```
+
+Der lokale Store speichert die echte `conversation_id` aus NotebookLM und nutzt
+sie beim naechsten Turn automatisch fuer Follow-ups. `conversation_id: "new"`
+wird nicht als echte Conversation gespeichert.

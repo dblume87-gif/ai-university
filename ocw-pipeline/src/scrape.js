@@ -28,6 +28,7 @@ import {
 import { getDb, getCoursesByStatus } from './lib/db.js';
 import { SCREENING_STATUS } from './lib/schema.js';
 import { parseCliArgs } from './lib/cli.js';
+import { getLearnChatOptions, printLearningChatResult, runLearningChatTurn } from './learning/chat.js';
 
 const args = process.argv.slice(2);
 const command = args[0];
@@ -65,6 +66,7 @@ Usage:
   node src/scrape.js notebooklm upload <course-id> [--notebook-id id|--create] [--max-sources 50] [--wait] [--dry-run] [--stop-on-error]
   node src/scrape.js notebooklm sync [--dry-run] [--with-metadata]
   node src/scrape.js notebooklm assets [course-id] [--download] [--dry-run] [--types video,audio,report]
+  node src/scrape.js learn chat --message "..." --source <source-id> [--source <source-id>] [--reset-conversation]
   node src/scrape.js test [course-id]
   node src/scrape.js status
       `);
@@ -256,6 +258,23 @@ async function main() {
         const assetOptions = getNotebookLmOptions(['assets', ...args.slice(2)]);
         const result = await indexNotebookLmAssets(assetOptions);
         printNotebookLmAssetIndex(result);
+      } else {
+        printUsage();
+      }
+      break;
+    }
+
+    case 'learn': {
+      const action = args[1] || 'chat';
+
+      if (action === 'chat') {
+        const options = getLearnChatOptions(args.slice(2));
+        if (options.help) {
+          printUsage();
+          break;
+        }
+        const result = await runLearningChatTurn(options);
+        printLearningChatResult(result);
       } else {
         printUsage();
       }
