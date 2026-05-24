@@ -26,7 +26,8 @@ Scope:
 - Antwort, `references[]`, `source_id`s und optional `conversation_id` speichern.
 - Antwort im Einmal-Turn oder im interaktiven Terminal-Chat anzeigen.
 - Folgefragen ueber gespeicherte `conversation_id` nahtlos fortfuehren.
-- Optional aus denselben Sources ein erstes Material erzeugen, z.B. Study Guide.
+- Optional aus denselben Sources ein erstes User-gewuenschtes Asset erzeugen,
+  z.B. Study Guide.
 
 Nicht in V0:
 
@@ -55,7 +56,8 @@ Akzeptanz:
 - Der Chat-Turn ist lokal reproduzierbar gespeichert. Erledigt.
 - Folgefragen laufen ohne erneuten CLI-Aufruf in `learn chat --interactive`.
   Erledigt.
-- Aus derselben Source-Auswahl kann optional ein Material erzeugt werden.
+- Aus derselben Source-Auswahl kann optional ein User-gewuenschtes Asset
+  erzeugt werden.
   Offen.
 
 Aktuelle V0-Kommandos:
@@ -102,6 +104,49 @@ Akzeptanz:
 - NotebookLM antwortet nur aus diesen Sources.
 - Ein fehlendes oder unsicheres Mapping wird explizit angezeigt.
 
+## V0.6: User-gesteuerte Asset-Erstellung
+
+Ziel: Der User kann aus einem bestehenden Chat-, Unit- oder Source-Kontext
+gezielt ein Lern-Asset erzeugen, statt dass Material automatisch im Hintergrund
+produziert wird.
+
+Asset-Typen fuer den ersten Ausbau:
+
+- Study Guide
+- Uebungen oder Quizfragen
+- Zusammenfassung
+- Lernplan fuer eine Unit
+
+Scope:
+
+- Asset-Erstellung explizit durch User-Befehl starten, z.B. "mach daraus
+  Uebungen" oder `learn asset --type quiz`.
+- Aktuelle `selected_source_ids` wiederverwenden oder aus einer Unit aufloesen.
+- Optional den letzten Chat-Turn als Instruktionskontext nutzen.
+- NotebookLM `generate` oder `ask` je nach passendem Asset-Typ nutzen.
+- Asset lokal speichern mit:
+  - `asset_id`
+  - `type`
+  - `prompt`
+  - `notebook_id`
+  - `selected_source_ids`
+  - optional `conversation_id`
+  - `references[]` oder erzeugtes Artifact-Metadata
+  - `created_at`
+
+Nicht in V0.6:
+
+- keine automatische Asset-Produktion nach jedem Chat
+- kein kompletter Asset-Katalog mit UI
+- keine Bewertung oder Scoring der erzeugten Assets
+
+Akzeptanz:
+
+- User kann aus dem aktuellen Chat-Kontext ein Asset anfordern.
+- Das Asset nutzt dieselben Sources wie der aktuelle Lernkontext.
+- Das Asset wird lokal reproduzierbar gespeichert.
+- Bei fehlenden Sources wird die Asset-Erstellung sichtbar abgelehnt.
+
 ## V0.7: Mindmap als Orientierung
 
 Ziel: Mindmap wird als Themenuebersicht nutzbar, ohne schon perfekte Source-ID
@@ -133,7 +178,7 @@ Akzeptanz:
 ## V1: Contract-Based Learning Path Orchestrator
 
 Ziel: Aus einem User Contract wird ein personalisierter Lernpfad mit eigenem
-Notebook, Mindmap, Chat und optionaler Materialproduktion.
+Notebook, Mindmap, Chat und user-gesteuerter Asset-Erstellung.
 
 Flow:
 
@@ -153,7 +198,7 @@ Flow:
 5. Eigenes NotebookLM-Notebook fuer den Lernpfad anlegen.
 6. Relevante Quellen hochladen und auf `ready` warten.
 7. Mindmap erzeugen und speichern.
-8. Chat und Materialproduktion fuer Units oder Themen anbieten.
+8. Chat und gezielte Asset-Erstellung fuer Units oder Themen anbieten.
 
 V1-Budgets:
 
@@ -169,7 +214,7 @@ V1-Akzeptanz:
 - Jeder Lernpfad hat genau ein eigenes Notebook.
 - Pflichtquellen muessen verarbeitet sein, bevor Mindmap erzeugt wird.
 - Chat kann auf Unit-, Topic- oder freie Frage-Kontexte routen.
-- Materialproduktion ist user-gesteuert, nicht automatisch.
+- Asset-Erstellung ist user-gesteuert, nicht automatisch.
 
 ## Adapter-Regeln aus dem Spike
 
@@ -219,7 +264,7 @@ Funktionale Checks:
 - Unit -> Source IDs -> `ask` funktioniert.
 - Citations sind auf konkrete Sources mapbar.
 - Source-Filter bleibt auf gewaehlte Sources begrenzt.
-- Materialproduktion nutzt dieselbe Source-Auswahl wie der Chat.
+- Asset-Erstellung nutzt dieselbe Source-Auswahl wie der Chat.
 
 Qualitative Golden Scenarios:
 
@@ -241,7 +286,7 @@ Qualitaetskriterien:
 1. V0 Chat Adapter und lokaler Turn Store. Erledigt.
 2. Interaktiver V0 Chat fuer nahtlose Follow-ups. Erledigt.
 3. Kleine Unit-Source-Mapping-Schicht fuer MIT 6.0001.
-4. Optionales Material aus derselben Source-Auswahl erzeugen.
+4. User-gesteuerte Asset-Erstellung aus Chat-/Unit-/Source-Kontext.
 5. Mindmap anzeigen und heuristisch auf Units/Sources mappen.
 6. Upload/Wait-Spike fuer neue Path-Notebooks durchfuehren.
 7. Contract Normalizer und Candidate Selector.
