@@ -15,13 +15,17 @@ Leitprinzip: Erst einen echten Lernloop beweisen, dann abstrahieren.
 Ziel: Ein User kann eine Frage zu einem bestehenden Kurs-Notebook stellen und
 bekommt eine quellenbasierte Antwort mit Citations.
 
+Status: umgesetzt als Pipeline-CLI mit lokalem JSON-State und interaktivem
+Terminal-Chat.
+
 Scope:
 
 - Ein vorhandenes Notebook verwenden, z.B. MIT 6.0001.
 - Source IDs manuell oder aus einer kleinen Unit-Source-Zuordnung auswaehlen.
 - `notebooklm ask --json -s <source-id...>` ausfuehren.
 - Antwort, `references[]`, `source_id`s und optional `conversation_id` speichern.
-- Antwort im Chat anzeigen.
+- Antwort im Einmal-Turn oder im interaktiven Terminal-Chat anzeigen.
+- Folgefragen ueber gespeicherte `conversation_id` nahtlos fortfuehren.
 - Optional aus denselben Sources ein erstes Material erzeugen, z.B. Study Guide.
 
 Nicht in V0:
@@ -46,10 +50,28 @@ Minimaler technischer Schnitt:
 
 Akzeptanz:
 
-- Eine Frage wird mit expliziten Source IDs beantwortet.
-- Citations lassen sich auf NotebookLM `source_id`s mappen.
-- Der Chat-Turn ist lokal reproduzierbar gespeichert.
+- Eine Frage wird mit expliziten Source IDs beantwortet. Erledigt.
+- Citations lassen sich auf NotebookLM `source_id`s mappen. Erledigt.
+- Der Chat-Turn ist lokal reproduzierbar gespeichert. Erledigt.
+- Folgefragen laufen ohne erneuten CLI-Aufruf in `learn chat --interactive`.
+  Erledigt.
 - Aus derselben Source-Auswahl kann optional ein Material erzeugt werden.
+  Offen.
+
+Aktuelle V0-Kommandos:
+
+```bash
+node src/scrape.js learn chat \
+  --message "Erklaer mir Rekursion fuer Python-Anfaenger." \
+  --source 71e2d3b7-0b6c-4350-8e2e-60a733f243f6 \
+  --source 848489ba-074a-436b-a4af-5457b954e64d
+```
+
+```bash
+node src/scrape.js learn chat --interactive
+```
+
+Der interaktive Chat unterstuetzt `/state`, `/reset` und `/exit`.
 
 ## V0.5: Units, Source Mapping und kleiner State Store
 
@@ -216,12 +238,13 @@ Qualitaetskriterien:
 
 ## Recommended Build Order
 
-1. V0 Chat Adapter und lokaler Turn Store.
-2. Kleine Unit-Source-Mapping-Schicht fuer MIT 6.0001.
-3. Optionales Material aus Chat-Kontext erzeugen.
-4. Mindmap anzeigen und heuristisch auf Units/Sources mappen.
-5. Upload/Wait-Spike fuer neue Path-Notebooks durchfuehren.
-6. Contract Normalizer und Candidate Selector.
-7. Hybrid Material Screening Gate.
-8. Eigenes Path-Notebook mit Upload/Wait/Resume.
-9. V1-End-to-End-Flow.
+1. V0 Chat Adapter und lokaler Turn Store. Erledigt.
+2. Interaktiver V0 Chat fuer nahtlose Follow-ups. Erledigt.
+3. Kleine Unit-Source-Mapping-Schicht fuer MIT 6.0001.
+4. Optionales Material aus derselben Source-Auswahl erzeugen.
+5. Mindmap anzeigen und heuristisch auf Units/Sources mappen.
+6. Upload/Wait-Spike fuer neue Path-Notebooks durchfuehren.
+7. Contract Normalizer und Candidate Selector.
+8. Hybrid Material Screening Gate.
+9. Eigenes Path-Notebook mit Upload/Wait/Resume.
+10. V1-End-to-End-Flow.
