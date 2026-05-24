@@ -303,6 +303,28 @@ node src/scrape.js learn chat \
   --message "Ich rate: Ohne Base Case laeuft die Rekursion endlos?"
 ```
 
+Interaktiver Chat fuer nahtlose Folgefragen ohne neuen CLI-Aufruf:
+
+```bash
+node src/scrape.js learn chat --interactive
+```
+
+Wenn noch keine Sources im State gespeichert sind, den ersten interaktiven Start
+mit Sources ausfuehren:
+
+```bash
+node src/scrape.js learn chat --interactive \
+  --source 71e2d3b7-0b6c-4350-8e2e-60a733f243f6 \
+  --source 848489ba-074a-436b-a4af-5457b954e64d
+```
+
+Session-Kommandos:
+
+- `/state` zeigt State-Pfad, Conversation-ID und aktuelle Sources.
+- `/reset` startet beim naechsten Turn eine neue NotebookLM-Conversation und
+  behaelt die Sources.
+- `/exit` beendet den interaktiven Chat.
+
 Default-State:
 
 ```text

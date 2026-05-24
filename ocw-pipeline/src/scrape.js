@@ -28,7 +28,12 @@ import {
 import { getDb, getCoursesByStatus } from './lib/db.js';
 import { SCREENING_STATUS } from './lib/schema.js';
 import { parseCliArgs } from './lib/cli.js';
-import { getLearnChatOptions, printLearningChatResult, runLearningChatTurn } from './learning/chat.js';
+import {
+  getLearnChatOptions,
+  printLearningChatResult,
+  runInteractiveLearningChat,
+  runLearningChatTurn
+} from './learning/chat.js';
 
 const args = process.argv.slice(2);
 const command = args[0];
@@ -67,6 +72,7 @@ Usage:
   node src/scrape.js notebooklm sync [--dry-run] [--with-metadata]
   node src/scrape.js notebooklm assets [course-id] [--download] [--dry-run] [--types video,audio,report]
   node src/scrape.js learn chat --message "..." --source <source-id> [--source <source-id>] [--reset-conversation]
+  node src/scrape.js learn chat --interactive [--source <source-id>] [--source <source-id>]
   node src/scrape.js test [course-id]
   node src/scrape.js status
       `);
@@ -271,6 +277,10 @@ async function main() {
         const options = getLearnChatOptions(args.slice(2));
         if (options.help) {
           printUsage();
+          break;
+        }
+        if (options.interactive) {
+          await runInteractiveLearningChat(options);
           break;
         }
         const result = await runLearningChatTurn(options);

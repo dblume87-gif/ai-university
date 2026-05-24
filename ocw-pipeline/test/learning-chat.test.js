@@ -6,6 +6,7 @@ import { tmpdir } from 'os';
 import {
   buildNotebookLmAskArgs,
   getLearnChatOptions,
+  runInteractiveLearningChat,
   runLearningChatTurn
 } from '../src/learning/chat.js';
 import {
@@ -26,6 +27,12 @@ test('getLearnChatOptions: akzeptiert wiederholte --source Flags', () => {
 
   assert.equal(options.message, 'Was ist Rekursion?');
   assert.deepEqual(options.sourceIds, ['s1', 's2', 's3', 's4']);
+});
+
+test('getLearnChatOptions: erkennt interaktiven Modus', () => {
+  const options = getLearnChatOptions(['--interactive']);
+
+  assert.equal(options.interactive, true);
 });
 
 test('buildNotebookLmAskArgs: baut source-gefilterten Ask ohne Conversation', () => {
@@ -175,3 +182,93 @@ test('runLearningChatTurn: Folgefrage ohne Sources nutzt gespeicherte Conversati
   assert.equal(result.session.mode, 'continued');
   assert.equal(result.session.source_context, 'stored');
 });
+
+test('runInteractiveLearningChat: ruft pro Eingabe Runner mit derselben State-Datei auf', async () => {
+  const dir = mkdtempSync(join(tmpdir(), 'learning-interactive-'));
+  const statePath = join(dir, 'chat_state.json');
+  saveChatState(statePath, createInitialChatState({ pathId: 'p1', notebookId: 'n1', sourceIds: ['s1'] }));
+
+  const questions = ['Was ist Rekursion?', 'Und einfacher?', '/exit'];
+  const capturedArgs = [];
+  const logs = [];
+
+  await runInteractiveLearningChat({
+    notebookId: 'n1',
+    pathId: 'p1',
+    sourceIds: [],
+    statePath
+  }, {
+    createReadline: () => fakeReadline(questions),
+    runner: async args => {
+      capturedArgs.push(args);
+      return {
+        answer: `Antwort ${capturedArgs.length}`,
+        conversation_id: 'c1',
+        references: [{ source_id: 's1', citation_number: 1 }]
+      };
+    },
+    logger: fakeLogger(logs)
+  });
+
+  assert.equal(capturedArgs.length, 2);
+  assert.deepEqual(capturedArgs[0], ['ask', 'Was ist Rekursion?', '-n', 'n1', '-s', 's1', '--json']);
+  assert.deepEqual(capturedArgs[1], ['ask', 'Und einfacher?', '-n', 'n1', '-s', 's1', '-c', 'c1', '--json']);
+
+  const saved = JSON.parse(readFileSync(statePath, 'utf8'));
+  assert.equal(saved.turns.length, 2);
+  assert.equal(saved.conversation_id, 'c1');
+});
+
+test('runInteractiveLearningChat: ignoriert leere Eingaben und behandelt Commands ohne Runner', async () => {
+  const dir = mkdtempSync(join(tmpdir(), 'learning-interactive-commands-'));
+  const statePath = join(dir, 'chat_state.json');
+  saveChatState(statePath, {
+    ...createInitialChatState({ pathId: 'p1', notebookId: 'n1', sourceIds: ['s1'] }),
+    conversation_id: 'c-existing'
+  });
+
+  const questions = ['', '   ', '/state', '/reset', 'Neue Frage', '/exit'];
+  const capturedArgs = [];
+  const logs = [];
+
+  await runInteractiveLearningChat({
+    notebookId: 'n1',
+    pathId: 'p1',
+    sourceIds: [],
+    statePath
+  }, {
+    createReadline: () => fakeReadline(questions),
+    runner: async args => {
+      capturedArgs.push(args);
+      return {
+        answer: 'Antwort',
+        conversation_id: 'c-next',
+        references: []
+      };
+    },
+    logger: fakeLogger(logs)
+  });
+
+  assert.equal(capturedArgs.length, 1);
+  assert.deepEqual(capturedArgs[0], ['ask', 'Neue Frage', '-n', 'n1', '-s', 's1', '--json']);
+  assert.ok(logs.some(line => line.includes('Conversation: c-existing')));
+  assert.ok(logs.some(line => line.includes('Conversation wird beim naechsten Turn neu gestartet.')));
+});
+
+function fakeReadline(questions) {
+  let index = 0;
+  return {
+    async question() {
+      return questions[index++];
+    },
+    close() {}
+  };
+}
+
+function fakeLogger(logs) {
+  return {
+    log(message = '') {
+      logs.push(String(message));
+    }
+  };
+}
