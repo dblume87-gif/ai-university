@@ -94,7 +94,12 @@ export function buildUnitSourceMap({ courseUnits, sourceList, pathId, courseId, 
 
 export function resolveUnitSourceIds({ unit, unitMapPath = DEFAULT_UNIT_MAP_PATH }) {
   if (!unit) return null;
-  const unitMap = readJson(resolve(unitMapPath));
+  let unitMap;
+  try {
+    unitMap = readJson(resolve(unitMapPath));
+  } catch {
+    throw new Error(`Unit-Map nicht gefunden: ${unitMapPath}\nZuerst "learn units map" ausfuehren.`);
+  }
   const normalizedUnit = normalizeUnitInput(unit);
   const match = unitMap.units.find(candidate =>
     String(candidate.unit_number) === normalizedUnit ||
