@@ -34,6 +34,11 @@ import {
   runInteractiveLearningChat,
   runLearningChatTurn
 } from './learning/chat.js';
+import {
+  buildAndSaveUnitSourceMap,
+  getLearnUnitMapOptions,
+  printUnitSourceMapResult
+} from './learning/unit-map.js';
 
 const args = process.argv.slice(2);
 const command = args[0];
@@ -72,7 +77,9 @@ Usage:
   node src/scrape.js notebooklm sync [--dry-run] [--with-metadata]
   node src/scrape.js notebooklm assets [course-id] [--download] [--dry-run] [--types video,audio,report]
   node src/scrape.js learn chat --message "..." --source <source-id> [--source <source-id>] [--reset-conversation]
+  node src/scrape.js learn chat --unit <unit-number> --message "..." [--reset-conversation]
   node src/scrape.js learn chat --interactive [--source <source-id>] [--source <source-id>]
+  node src/scrape.js learn units map [--course-units path] [--source-list path] [--out path]
   node src/scrape.js test [course-id]
   node src/scrape.js status
       `);
@@ -285,6 +292,14 @@ async function main() {
         }
         const result = await runLearningChatTurn(options);
         printLearningChatResult(result);
+      } else if (action === 'units' && (args[2] || 'map') === 'map') {
+        const options = getLearnUnitMapOptions(args.slice(3));
+        if (options.help) {
+          printUsage();
+          break;
+        }
+        const result = buildAndSaveUnitSourceMap(options);
+        printUnitSourceMapResult(result);
       } else {
         printUsage();
       }

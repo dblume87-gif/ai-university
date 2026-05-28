@@ -80,11 +80,15 @@ Der interaktive Chat unterstuetzt `/state`, `/reset` und `/exit`.
 Ziel: Der Chat bezieht sich nicht mehr nur auf manuell gewaehlte Sources,
 sondern auf Lernpfad-Units.
 
+Status: umgesetzt fuer MIT 6.0001 als ready-Source-Mapping der vorhandenen
+NotebookLM Sources auf 12 Units. Persistente DB-Tabellen bleiben V1-Arbeit.
+
 Scope:
 
 - `course_units.json` als Unit-Basis nutzen.
 - Unit IDs stabilisieren, z.B. `6-0001:u01`.
 - NotebookLM Source IDs aus `source list --json` mit Unit-Materialien matchen.
+- `learn chat --unit <nummer>` auf gemappte ready Sources routen.
 - Lokalen State Store einfuehren:
   - `learning_paths`
   - `learning_path_units`
@@ -99,10 +103,12 @@ Scope:
 
 Akzeptanz:
 
-- User kann "frage zu Unit 2" stellen.
-- System loest Unit -> Source IDs auf.
-- NotebookLM antwortet nur aus diesen Sources.
-- Ein fehlendes oder unsicheres Mapping wird explizit angezeigt.
+- User kann "frage zu Unit 2" stellen. Erledigt per `--unit`.
+- System loest Unit -> Source IDs auf. Erledigt fuer NotebookLM ready Sources.
+- NotebookLM antwortet nur aus diesen Sources. Erledigt ueber bestehendes `-s`
+  Routing.
+- Ein fehlendes oder unsicheres Mapping wird explizit angezeigt. Erledigt fuer
+  unbekannte oder leere Units.
 
 ## V0.6: User-gesteuerte Asset-Erstellung
 
@@ -285,7 +291,7 @@ Qualitaetskriterien:
 
 1. V0 Chat Adapter und lokaler Turn Store. Erledigt.
 2. Interaktiver V0 Chat fuer nahtlose Follow-ups. Erledigt.
-3. Kleine Unit-Source-Mapping-Schicht fuer MIT 6.0001.
+3. Kleine Unit-Source-Mapping-Schicht fuer MIT 6.0001. Erledigt.
 4. User-gesteuerte Asset-Erstellung aus Chat-/Unit-/Source-Kontext.
 5. Mindmap anzeigen und heuristisch auf Units/Sources mappen.
 6. Upload/Wait-Spike fuer neue Path-Notebooks durchfuehren.

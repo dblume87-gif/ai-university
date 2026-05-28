@@ -237,6 +237,25 @@ Wichtige Caveats:
 
 Details: `../docs/NOTEBOOKLM_INTEGRATION_SPIKE.md`.
 
+## Learning Chat V0
+
+Der V0-Learning-Loop nutzt ein bestehendes MIT-6.0001-Notebook und speichert
+Chat-State lokal unter `output/learning-paths/v0-mit-60001/`.
+
+```bash
+# Unit -> ready NotebookLM Sources mappen
+node src/scrape.js learn units map
+
+# Frage zu einer Unit stellen
+node src/scrape.js learn chat --unit 6 --message "Erklaer mir Rekursion einfach."
+
+# Nahtlose Folgefragen in einer offenen Session
+node src/scrape.js learn chat --unit 6 --interactive
+```
+
+Explizite `--source` Flags bleiben moeglich und haben Vorrang vor `--unit`.
+Das Unit-Mapping nutzt nur NotebookLM Sources mit Status `ready`.
+
 ## Typische Fehlerquellen
 
 - **NotebookLM CLI fehlt:** `npm run notebooklm:install` ausfuehren und danach `npm run notebooklm:check`.

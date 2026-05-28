@@ -325,10 +325,38 @@ Session-Kommandos:
   behaelt die Sources.
 - `/exit` beendet den interaktiven Chat.
 
+Unit -> NotebookLM Source Mapping fuer MIT 6.0001 erzeugen:
+
+```bash
+node src/scrape.js learn units map
+```
+
+Danach kann der Chat mit einer Unit statt manuellen Source IDs gestartet werden:
+
+```bash
+node src/scrape.js learn chat \
+  --unit 6 \
+  --message "Erklaer mir Rekursion einfach."
+```
+
+Auch interaktiv:
+
+```bash
+node src/scrape.js learn chat --unit 6 --interactive
+```
+
+Explizite `--source` Flags haben Vorrang vor `--unit`.
+
 Default-State:
 
 ```text
 ocw-pipeline/output/learning-paths/v0-mit-60001/chat_state.json
+```
+
+Default Unit-Map:
+
+```text
+ocw-pipeline/output/learning-paths/v0-mit-60001/unit_source_map.json
 ```
 
 Der lokale Store speichert die echte `conversation_id` aus NotebookLM und nutzt

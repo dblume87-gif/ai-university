@@ -7,14 +7,16 @@ import {
   DEFAULT_LEARNING_PATH_ID,
   DEFAULT_NOTEBOOK_ID,
   DEFAULT_STATE_PATH,
+  DEFAULT_UNIT_MAP_PATH,
   appendChatTurn,
   getPersistableConversationId,
   loadChatState,
   saveChatState
 } from './store.js';
+import { resolveUnitSourceIds } from './unit-map.js';
 
 const LEARN_CHAT_SCHEMA = {
-  stringFlags: ['--message', '--notebook-id', '--path-id', '--state', '--source', '--sources'],
+  stringFlags: ['--message', '--notebook-id', '--path-id', '--state', '--source', '--sources', '--unit', '--unit-map'],
   booleanFlags: ['--interactive', '--reset-conversation', '--help', '-h']
 };
 
@@ -30,6 +32,8 @@ export function getLearnChatOptions(args) {
     notebookId: parsed.getString('--notebook-id', DEFAULT_NOTEBOOK_ID),
     pathId: parsed.getString('--path-id', DEFAULT_LEARNING_PATH_ID),
     sourceIds,
+    unit: parsed.getString('--unit', null),
+    unitMapPath: parsed.getString('--unit-map', DEFAULT_UNIT_MAP_PATH),
     statePath: parsed.getString('--state', DEFAULT_STATE_PATH),
     interactive: parsed.has('--interactive'),
     resetConversation: parsed.has('--reset-conversation'),
@@ -59,10 +63,15 @@ export async function runLearningChatTurn(options, runner = runNotebookLmJson) {
     sourceIds: options.sourceIds || []
   });
   const optionSourceIds = options.sourceIds || [];
-  const sourceIds = optionSourceIds.length > 0 ? optionSourceIds : state.selected_source_ids;
+  const sourceSelection = resolveChatSourceSelection({
+    optionSourceIds,
+    storedSourceIds: state.selected_source_ids,
+    unit: options.unit,
+    unitMapPath: options.unitMapPath
+  });
+  const sourceIds = sourceSelection.sourceIds;
   const conversationId = options.resetConversation ? null : state.conversation_id;
   const continuedConversation = Boolean(getPersistableConversationId(conversationId));
-  const sourceContext = optionSourceIds.length > 0 ? 'explicit' : 'stored';
   const askArgs = buildNotebookLmAskArgs({
     message: options.message,
     notebookId: options.notebookId || state.notebook_id,
@@ -89,7 +98,8 @@ export async function runLearningChatTurn(options, runner = runNotebookLmJson) {
     turn,
     session: {
       mode: continuedConversation ? 'continued' : 'started',
-      source_context: sourceContext
+      source_context: sourceSelection.context,
+      unit: sourceSelection.unit
     }
   };
 }
@@ -104,6 +114,9 @@ export function printLearningChatResult(result) {
   console.log(`Mode: ${session?.mode || 'started'}`);
   console.log(`State: ${statePath}`);
   console.log(`Conversation: ${getPersistableConversationId(turn.conversation_id) || '(nicht gespeichert)'}`);
+  if (session?.unit) {
+    console.log(`Unit: ${session.unit.unit_number} (${session.unit.unit_id}) ${session.unit.title}`);
+  }
   console.log(`Sources (${session?.source_context || 'explicit'}): ${turn.selected_source_ids.join(', ')}`);
   if (referenceSourceIds.length > 0) {
     console.log(`Referenced source_ids: ${referenceSourceIds.join(', ')}`);
@@ -164,6 +177,9 @@ export function printInteractiveLearningChatTurn(result, logger = console) {
 
   logger.log(`\nNotebookLM: ${turn.answer || '(Keine Antwort erhalten.)'}`);
   logger.log(`Mode: ${session?.mode || 'started'}`);
+  if (session?.unit) {
+    logger.log(`Unit: ${session.unit.unit_number} (${session.unit.unit_id}) ${session.unit.title}`);
+  }
   if (referenceSourceIds.length > 0) {
     logger.log(`Referenced source_ids: ${referenceSourceIds.join(', ')}`);
   }
@@ -182,7 +198,13 @@ function printInteractiveChatState(options, logger) {
     notebookId: options.notebookId,
     sourceIds: options.sourceIds || []
   });
-  const activeSourceIds = (options.sourceIds || []).length > 0 ? options.sourceIds : state.selected_source_ids;
+  const sourceSelection = resolveChatSourceSelection({
+    optionSourceIds: options.sourceIds || [],
+    storedSourceIds: state.selected_source_ids,
+    unit: options.unit,
+    unitMapPath: options.unitMapPath
+  });
+  const activeSourceIds = sourceSelection.sourceIds;
   const conversationId = getPersistableConversationId(state.conversation_id) || '(nicht gespeichert)';
   const sources = activeSourceIds.length > 0
     ? activeSourceIds.join(', ')
@@ -190,9 +212,25 @@ function printInteractiveChatState(options, logger) {
 
   logger.log(`State: ${options.statePath}`);
   logger.log(`Conversation: ${conversationId}`);
+  if (sourceSelection.unit) {
+    logger.log(`Unit: ${sourceSelection.unit.unit_number} (${sourceSelection.unit.unit_id}) ${sourceSelection.unit.title}`);
+  }
   logger.log(`Sources: ${sources}`);
 }
 
 function isExitCommand(message) {
   return message === '/exit' || message === '/quit';
+}
+
+function resolveChatSourceSelection({ optionSourceIds, storedSourceIds, unit, unitMapPath }) {
+  if (optionSourceIds.length > 0) {
+    return { sourceIds: optionSourceIds, context: 'explicit', unit: null };
+  }
+
+  if (unit) {
+    const resolved = resolveUnitSourceIds({ unit, unitMapPath });
+    return { sourceIds: resolved.sourceIds, context: 'unit', unit: resolved.unit };
+  }
+
+  return { sourceIds: storedSourceIds, context: 'stored', unit: null };
 }

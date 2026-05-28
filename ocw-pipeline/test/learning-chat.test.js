@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtempSync, readFileSync } from 'fs';
+import { mkdtempSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { tmpdir } from 'os';
 import {
@@ -16,6 +16,10 @@ import {
   loadChatState,
   saveChatState
 } from '../src/learning/store.js';
+import {
+  buildUnitSourceMap,
+  inferLectureNumber
+} from '../src/learning/unit-map.js';
 
 test('getLearnChatOptions: akzeptiert wiederholte --source Flags', () => {
   const options = getLearnChatOptions([
@@ -33,6 +37,44 @@ test('getLearnChatOptions: erkennt interaktiven Modus', () => {
   const options = getLearnChatOptions(['--interactive']);
 
   assert.equal(options.interactive, true);
+});
+
+test('getLearnChatOptions: akzeptiert Unit und Unit-Map', () => {
+  const options = getLearnChatOptions(['--unit', '6', '--unit-map', '/tmp/unit-map.json']);
+
+  assert.equal(options.unit, '6');
+  assert.equal(options.unitMapPath, '/tmp/unit-map.json');
+});
+
+test('inferLectureNumber: erkennt NotebookLM Source-Titel und PDF-Namen', () => {
+  assert.equal(inferLectureNumber('1. What is Computation?'), 1);
+  assert.equal(inferLectureNumber('MIT6_0001F16_Lec6.pdf'), 6);
+});
+
+test('buildUnitSourceMap: mappt ready Sources auf stabile Unit IDs', () => {
+  const unitMap = buildUnitSourceMap({
+    pathId: 'v0-test',
+    courseId: '6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016',
+    notebookId: 'n1',
+    courseUnits: {
+      units: [
+        { unit_number: 6, title: 'Recursion, Dictionaries' },
+        { unit_number: 7, title: 'Testing' }
+      ]
+    },
+    sourceList: {
+      sources: [
+        { id: 's-youtube', title: '6. Recursion and Dictionaries', type: 'SourceType.YOUTUBE', status: 'ready', index: 1 },
+        { id: 's-pdf', title: 'MIT6_0001F16_Lec6.pdf', type: 'SourceType.PDF', status: 'ready', index: 2 },
+        { id: 's-processing', title: '7. Testing', type: 'SourceType.YOUTUBE', status: 'processing', index: 3 }
+      ]
+    }
+  });
+
+  assert.equal(unitMap.summary.ready_source_count, 2);
+  assert.deepEqual(unitMap.units[0].notebook_source_ids, ['s-youtube', 's-pdf']);
+  assert.equal(unitMap.units[0].unit_id, '6-0001:u06');
+  assert.deepEqual(unitMap.units[1].warnings, ['no_ready_notebook_sources']);
 });
 
 test('buildNotebookLmAskArgs: baut source-gefilterten Ask ohne Conversation', () => {
@@ -181,6 +223,107 @@ test('runLearningChatTurn: Folgefrage ohne Sources nutzt gespeicherte Conversati
   ]);
   assert.equal(result.session.mode, 'continued');
   assert.equal(result.session.source_context, 'stored');
+});
+
+test('runLearningChatTurn: Unit nutzt gemappte NotebookLM Sources', async () => {
+  const dir = mkdtempSync(join(tmpdir(), 'learning-unit-chat-'));
+  const statePath = join(dir, 'chat_state.json');
+  const unitMapPath = join(dir, 'unit_source_map.json');
+  writeFileSync(unitMapPath, JSON.stringify({
+    units: [
+      {
+        unit_id: '6-0001:u06',
+        unit_number: 6,
+        title: 'Recursion, Dictionaries',
+        notebook_source_ids: ['s-youtube', 's-pdf']
+      }
+    ]
+  }));
+
+  let capturedArgs;
+  const result = await runLearningChatTurn({
+    message: 'Was ist Rekursion?',
+    notebookId: 'n1',
+    pathId: 'p1',
+    sourceIds: [],
+    unit: '6',
+    unitMapPath,
+    statePath,
+    resetConversation: false
+  }, async args => {
+    capturedArgs = args;
+    return {
+      answer: 'Antwort',
+      conversation_id: 'c1',
+      references: [{ source_id: 's-youtube', citation_number: 1 }]
+    };
+  });
+
+  assert.deepEqual(capturedArgs, ['ask', 'Was ist Rekursion?', '-n', 'n1', '-s', 's-youtube', '-s', 's-pdf', '--json']);
+  assert.equal(result.session.source_context, 'unit');
+  assert.equal(result.session.unit.unit_id, '6-0001:u06');
+});
+
+test('runLearningChatTurn: explizite Sources ueberschreiben Unit', async () => {
+  const dir = mkdtempSync(join(tmpdir(), 'learning-unit-explicit-'));
+  const statePath = join(dir, 'chat_state.json');
+  const unitMapPath = join(dir, 'unit_source_map.json');
+  writeFileSync(unitMapPath, JSON.stringify({
+    units: [
+      {
+        unit_id: '6-0001:u06',
+        unit_number: 6,
+        title: 'Recursion, Dictionaries',
+        notebook_source_ids: ['s-youtube', 's-pdf']
+      }
+    ]
+  }));
+
+  let capturedArgs;
+  const result = await runLearningChatTurn({
+    message: 'Was ist Rekursion?',
+    notebookId: 'n1',
+    pathId: 'p1',
+    sourceIds: ['s-explicit'],
+    unit: '6',
+    unitMapPath,
+    statePath,
+    resetConversation: false
+  }, async args => {
+    capturedArgs = args;
+    return {
+      answer: 'Antwort',
+      conversation_id: 'c1',
+      references: []
+    };
+  });
+
+  assert.deepEqual(capturedArgs, ['ask', 'Was ist Rekursion?', '-n', 'n1', '-s', 's-explicit', '--json']);
+  assert.equal(result.session.source_context, 'explicit');
+  assert.equal(result.session.unit, null);
+});
+
+test('runLearningChatTurn: unbekannte Unit bricht vor Runner ab', async () => {
+  const dir = mkdtempSync(join(tmpdir(), 'learning-unit-missing-'));
+  const unitMapPath = join(dir, 'unit_source_map.json');
+  writeFileSync(unitMapPath, JSON.stringify({
+    units: [{ unit_id: '6-0001:u06', unit_number: 6, title: 'Recursion', notebook_source_ids: ['s1'] }]
+  }));
+
+  await assert.rejects(
+    () => runLearningChatTurn({
+      message: 'Q',
+      notebookId: 'n1',
+      pathId: 'p1',
+      sourceIds: [],
+      unit: '99',
+      unitMapPath,
+      statePath: join(dir, 'chat_state.json')
+    }, async () => {
+      throw new Error('runner should not be called');
+    }),
+    /Unbekannte Unit "99"/
+  );
 });
 
 test('runInteractiveLearningChat: ruft pro Eingabe Runner mit derselben State-Datei auf', async () => {

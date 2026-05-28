@@ -4,10 +4,15 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PIPELINE_ROOT = join(__dirname, '../..');
+const REPO_ROOT = join(PIPELINE_ROOT, '..');
 
 export const DEFAULT_LEARNING_PATH_ID = 'v0-mit-60001';
+export const DEFAULT_COURSE_ID = '6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016';
 export const DEFAULT_NOTEBOOK_ID = 'e9b29f80-838e-43d3-989d-e3416658b76a';
 export const DEFAULT_STATE_PATH = join(PIPELINE_ROOT, 'output', 'learning-paths', DEFAULT_LEARNING_PATH_ID, 'chat_state.json');
+export const DEFAULT_UNIT_MAP_PATH = join(PIPELINE_ROOT, 'output', 'learning-paths', DEFAULT_LEARNING_PATH_ID, 'unit_source_map.json');
+export const DEFAULT_COURSE_UNITS_PATH = join(PIPELINE_ROOT, 'output', 'notebooklm', DEFAULT_COURSE_ID, 'course_units.json');
+export const DEFAULT_SOURCE_LIST_PATH = join(REPO_ROOT, 'docs', 'spike-artifacts', 'source-list.json');
 
 export function createInitialChatState(options = {}) {
   return {
