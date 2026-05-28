@@ -51,7 +51,6 @@ export const NATIVE_ASSET_TYPES = new Set([
   'report'
 ]);
 
-const DOWNLOADABLE_TYPES = new Set(NATIVE_ASSET_TYPES);
 export function getLearnAssetOptions(args) {
   const parsed = parseCliArgs(args, ASSET_SCHEMA);
   const sourceIds = [
@@ -216,7 +215,7 @@ export async function downloadLearningAsset(options = {}, runner = runNotebookLm
   const root = getAssetRoot(options);
   const match = findAsset(root, options.assetId);
   const asset = match.asset;
-  if (!DOWNLOADABLE_TYPES.has(asset.type)) {
+  if (!NATIVE_ASSET_TYPES.has(asset.type)) {
     throw new Error(`Asset-Typ "${asset.type}" hat keinen NotebookLM-Download.`);
   }
 
@@ -342,7 +341,6 @@ function resolveAssetSourceSelection({ optionSourceIds, storedSourceIds, unit, u
 
 function getAssetRoot(options = {}) {
   if (options.outRoot) return resolve(options.outRoot);
-  if (options.statePath) return join(dirname(options.statePath), 'assets');
   return join(dirname(dirname(DEFAULT_STATE_PATH)), options.pathId || DEFAULT_LEARNING_PATH_ID, 'assets');
 }
 

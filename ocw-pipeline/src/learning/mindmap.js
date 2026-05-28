@@ -43,17 +43,24 @@ export async function ensureMindmap(options = {}, runner = runNotebookLmJson) {
   }
 
   const commands = [];
-  if (options.generate || !existsSync(mindmapPath)) {
+  let generatedArtifactId = null;
+  if (options.force || options.generate || !existsSync(mindmapPath)) {
     const generateArgs = ['generate', 'mind-map', '-n', options.notebookId || DEFAULT_NOTEBOOK_ID, '--wait', '--json'];
     commands.push(formatNotebookLmCommand(generateArgs));
-    await runner(generateArgs);
+    const generateResult = await runner(generateArgs);
+    generatedArtifactId = generateResult?.artifact?.id || generateResult?.id || generateResult?.artifact_id || null;
   }
 
-  if (options.download || options.generate || !existsSync(mindmapPath)) {
+  if (options.force || options.download || options.generate || !existsSync(mindmapPath)) {
     mkdirSync(dirname(mindmapPath), { recursive: true });
-    const downloadArgs = ['download', 'mind-map', mindmapPath, '-n', options.notebookId || DEFAULT_NOTEBOOK_ID, '--json'];
+    const downloadArgs = ['download', 'mind-map', mindmapPath, '-n', options.notebookId || DEFAULT_NOTEBOOK_ID];
+    if (generatedArtifactId) downloadArgs.push('-a', generatedArtifactId);
+    downloadArgs.push('--json');
     commands.push(formatNotebookLmCommand(downloadArgs));
     await runner(downloadArgs);
+    if (!existsSync(mindmapPath)) {
+      throw new Error(`Mindmap wurde nicht gespeichert: ${mindmapPath}. NotebookLM-Download ggf. noch nicht abgeschlossen.`);
+    }
   }
 
   return {

@@ -260,8 +260,7 @@ function scoreGoal(contract, row) {
     row.course_id,
     row.title,
     row.topics,
-    row.learning_resource_types,
-    row.screening_reason
+    row.learning_resource_types
   ].join(' '));
   const hits = goalTokens.filter(token => haystack.includes(token));
   return {
@@ -338,8 +337,10 @@ function scoreMaterialQuality(row) {
   };
 }
 
+const NOTEBOOKLM_READY_STATUSES = new Set(['ready_for_notebooklm', 'approved_for_notebooklm', 'uploaded_to_notebooklm', 'notebooklm_validated']);
+
 function scoreNotebookLm(row) {
-  const ready = row.notebooklm_status || row.notebooklm_manifest_path || ['ready_for_notebooklm', 'approved_for_notebooklm', 'uploaded_to_notebooklm', 'notebooklm_validated'].includes(row.status);
+  const ready = NOTEBOOKLM_READY_STATUSES.has(row.notebooklm_status) || Boolean(row.notebooklm_manifest_path) || NOTEBOOKLM_READY_STATUSES.has(row.status);
   return {
     contribution: ready ? 12 : 0,
     effect: ready ? 'positive' : 'neutral',
