@@ -1,0 +1,17 @@
+{
+  "notebook_id": "c8419458-101a-43e5-af4f-9f44ac386d11",
+  "notebook_title": "AIU Path Upload Wait Spike 2026-05-28",
+  "sources": [
+    {
+      "index": 1,
+      "id": "730a26d0-ddfc-44de-a67b-34c1c73c0350",
+      "title": "AIU Ticket 06 Controlled Text Source",
+      "type": "SourceType.PASTED_TEXT",
+      "url": null,
+      "status": "ready",
+      "status_id": 2,
+      "created_at": "2026-05-28T18:49:14"
+    }
+  ],
+  "count": 1
+}

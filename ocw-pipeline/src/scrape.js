@@ -35,6 +35,37 @@ import {
   runLearningChatTurn
 } from './learning/chat.js';
 import {
+  downloadLearningAsset,
+  getLearnAssetOptions,
+  getLearnAssetsOptions,
+  listLearningAssets,
+  printLearningAssetCreateResult,
+  printLearningAssetDownloadResult,
+  printLearningAssetsList,
+  printLearningAssetShowResult,
+  runLearningAssetCreate,
+  showLearningAsset
+} from './learning/assets.js';
+import {
+  ensureMindmap,
+  getLearnMindmapOptions,
+  loadMindmap,
+  loadUnitMap,
+  matchMindmapNode,
+  printMindmapMatchResult,
+  printMindmapResult
+} from './learning/mindmap.js';
+import {
+  getLearnCandidatesOptions,
+  getLearnContractOptions,
+  normalizeLearningContract,
+  printCandidateSelection,
+  printLearningContractResult,
+  saveCandidateSelection,
+  saveLearningContract,
+  selectCourseCandidates
+} from './learning/contract.js';
+import {
   buildAndSaveUnitSourceMap,
   getLearnUnitMapOptions,
   printUnitSourceMapResult
@@ -79,6 +110,13 @@ Usage:
   node src/scrape.js learn chat --message "..." --source <source-id> [--source <source-id>] [--reset-conversation]
   node src/scrape.js learn chat --unit <unit-number> --message "..." [--reset-conversation]
   node src/scrape.js learn chat --interactive [--source <source-id>] [--source <source-id>]
+  node src/scrape.js learn asset --type <type> [--unit <unit-number>|--source <source-id>] [--prompt "..."] [--wait]
+  node src/scrape.js learn assets list [--path-id v0-mit-60001]
+  node src/scrape.js learn assets show <asset-id> [--path-id v0-mit-60001]
+  node src/scrape.js learn assets download <asset-id> [--path-id v0-mit-60001] [--force]
+  node src/scrape.js learn mindmap show|match [--node "topic"] [--generate|--download]
+  node src/scrape.js learn contract --goal "..." [--current-level beginner] [--out path]
+  node src/scrape.js learn candidates --contract path [--limit 5] [--out path]
   node src/scrape.js learn units map [--course-units path] [--source-list path] [--out path]
   node src/scrape.js test [course-id]
   node src/scrape.js status
@@ -292,6 +330,62 @@ async function main() {
         }
         const result = await runLearningChatTurn(options);
         printLearningChatResult(result);
+      } else if (action === 'asset') {
+        const options = getLearnAssetOptions(args.slice(2));
+        if (options.help) {
+          printUsage();
+          break;
+        }
+        const result = await runLearningAssetCreate(options);
+        printLearningAssetCreateResult(result);
+      } else if (action === 'assets') {
+        const options = getLearnAssetsOptions(args.slice(2));
+        if (options.help) {
+          printUsage();
+          break;
+        }
+        if (options.action === 'list') {
+          printLearningAssetsList(listLearningAssets(options));
+        } else if (options.action === 'show') {
+          printLearningAssetShowResult(showLearningAsset(options));
+        } else if (options.action === 'download') {
+          const result = await downloadLearningAsset(options);
+          printLearningAssetDownloadResult(result);
+        } else {
+          printUsage();
+        }
+      } else if (action === 'mindmap') {
+        const options = getLearnMindmapOptions(args.slice(2));
+        if (options.help) {
+          printUsage();
+          break;
+        }
+        if (options.action === 'match') {
+          const mindmap = loadMindmap(options.mindmapPath);
+          const unitMap = loadUnitMap(options.unitMapPath);
+          printMindmapMatchResult(matchMindmapNode({ nodeText: options.node, mindmap, unitMap }));
+        } else {
+          const result = await ensureMindmap(options);
+          printMindmapResult(result);
+        }
+      } else if (action === 'contract') {
+        const options = getLearnContractOptions(args.slice(2));
+        if (options.help) {
+          printUsage();
+          break;
+        }
+        const contract = normalizeLearningContract(options);
+        const path = saveLearningContract(contract, options.outPath);
+        printLearningContractResult({ contract, path });
+      } else if (action === 'candidates') {
+        const options = getLearnCandidatesOptions(args.slice(2));
+        if (options.help) {
+          printUsage();
+          break;
+        }
+        const selection = selectCourseCandidates(options);
+        const path = saveCandidateSelection(selection, options.outPath);
+        printCandidateSelection({ selection, path });
       } else if (action === 'units' && (args[2] || 'map') === 'map') {
         const options = getLearnUnitMapOptions(args.slice(3));
         if (options.help) {
