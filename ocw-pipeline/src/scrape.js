@@ -83,6 +83,11 @@ import {
   runPathNotebookWorkflow
 } from './learning/path-notebook.js';
 import {
+  getV1RunOptions,
+  printV1RunResult,
+  runV1Harness
+} from './learning/v1-run.js';
+import {
   buildAndSaveUnitSourceMap,
   getLearnUnitMapOptions,
   printUnitSourceMapResult
@@ -137,6 +142,7 @@ Usage:
   node src/scrape.js learn screen-materials --candidates path [--out path]
   node src/scrape.js learn plan --materials path [--contract path] [--out path]
   node src/scrape.js learn notebook --plan path [--create] [--wait] [--dry-run]
+  node src/scrape.js learn v1 run --goal "..." [--out dir] [--live-notebook]
   node src/scrape.js learn units map [--course-units path] [--source-list path] [--out path]
   node src/scrape.js test [course-id]
   node src/scrape.js status
@@ -432,6 +438,14 @@ async function main() {
         }
         const result = await runPathNotebookWorkflow(options);
         printPathNotebookResult(result);
+      } else if (action === 'v1') {
+        const options = getV1RunOptions(args.slice(2));
+        if (options.help) {
+          printUsage();
+          break;
+        }
+        const result = await runV1Harness(options);
+        printV1RunResult(result);
       } else if (action === 'units' && (args[2] || 'map') === 'map') {
         const options = getLearnUnitMapOptions(args.slice(3));
         if (options.help) {
