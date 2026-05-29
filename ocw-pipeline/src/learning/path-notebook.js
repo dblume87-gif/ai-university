@@ -1,6 +1,9 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
+import { fileURLToPath } from 'url';
 import { dirname, join, resolve } from 'path';
 import { parseCliArgs } from '../lib/cli.js';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 import { formatNotebookLmCommand, runNotebookLmJson } from '../notebooklm/cli.js';
 import { loadLearningPathPlan } from './planner.js';
 
@@ -178,5 +181,5 @@ function buildNotebookTitle(plan) {
 }
 
 function defaultStatePath(plan) {
-  return join('output', 'learning-paths', plan.path_id, 'path-notebook-state.json');
+  return join(__dirname, '../../output/learning-paths', plan.path_id, 'path-notebook-state.json');
 }

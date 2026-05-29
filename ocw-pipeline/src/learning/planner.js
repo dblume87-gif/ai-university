@@ -1,10 +1,12 @@
 import { mkdirSync, readFileSync, writeFileSync } from 'fs';
+import { fileURLToPath } from 'url';
 import { dirname, join, resolve } from 'path';
 import { parseCliArgs } from '../lib/cli.js';
 import { loadContract } from './contract.js';
 import { loadMaterialScreening } from './material-screening.js';
 
-const DEFAULT_OUTPUT_ROOT = 'output/learning-paths';
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const DEFAULT_OUTPUT_ROOT = join(__dirname, '../../output/learning-paths');
 
 const PLAN_SCHEMA = {
   stringFlags: ['--contract', '--materials', '--out'],
@@ -34,6 +36,7 @@ export function buildLearningPathPlan(options = {}) {
   if (units.length === 0) throw new Error('Learning Path Planner: keine Units mit Sources oder markierbaren Gaps gefunden.');
 
   const pathId = options.pathId || buildPathId(screening.contract_id || contract.contract_id || 'path');
+  const sources = collectPlanSources(units);
   return {
     path_id: pathId,
     contract_id: screening.contract_id || contract.contract_id || null,
@@ -43,11 +46,11 @@ export function buildLearningPathPlan(options = {}) {
     status: 'planned',
     selected_courses: screening.candidate_courses || [],
     units,
-    sources: collectPlanSources(units),
+    sources,
     gaps: screening.gaps || [],
     source_limits: {
-      required_source_count: collectPlanSources(units).filter(source => source.required).length,
-      optional_source_count: collectPlanSources(units).filter(source => !source.required).length,
+      required_source_count: sources.filter(source => source.required).length,
+      optional_source_count: sources.filter(source => !source.required).length,
       max_sources_for_notebook: 60
     },
     markdown: renderLearningPathMarkdown({ contract, units, screening })
@@ -83,10 +86,9 @@ function selectPlanUnits({ screening, contract, maxUnits }) {
   for (const overview of screening.course_material_overviews || []) {
     const usableByMaterialId = new Map((overview.usable_sources || []).map(source => [Number(source.material_id), source]));
     for (const unit of overview.units || []) {
-      const matched = (unit.sources || [])
+      const sources = (unit.sources || [])
         .map(source => usableByMaterialId.get(Number(source.id)))
         .filter(Boolean);
-      const sources = matched.length > 0 ? matched : (overview.usable_sources || []).slice(0, 2);
       const required = sources.filter(source => source.required_hint || isPreferredSource(source, preferred)).slice(0, 4);
       const optional = sources.filter(source => !required.includes(source)).slice(0, 4);
       const gaps = [];
