@@ -1,6 +1,6 @@
 # 07 Contract Normalizer und Candidate Selector
 
-Status: Backlog
+Status: Done
 Build-Order-Punkt: 7
 Parallelisierbar: ja, vorbereitbar parallel zu 04-06
 
@@ -26,6 +26,9 @@ das Material-Screening dienen.
 - Signale nutzen: Topics, Course Title, Level, Materialqualitaet,
   NotebookLM-Tauglichkeit, vorhandene `course_units.json`, praktische oder
   konzeptuelle Passung.
+- Thematic-Fit-Gate anwenden: Materialqualitaet, Beginner-Fit und
+  Praxis-Signale duerfen nur Kurse boosten, die einen positiven Goal-/Topic-Fit
+  haben.
 - Jedes Contract-Feld muss im JSON-Output sichtbar bleiben und entweder als
   Scoring-Signal, Filter, Prompt-/Language-Metadatum oder dokumentierter Default
   erklaert werden.
@@ -48,6 +51,8 @@ Minimaler Test-Contract:
 Feldwirkung fuer die deterministische Baseline:
 
 - `goal`: erzeugt Keyword-/Synonym-Signale fuer Topics, Title und Description.
+  Ein positiver Goal-/Topic-Fit ist Gate fuer die Top-K-Auswahl; fachfremde
+  Kurse werden nicht nur wegen guter Materiallage aufgenommen.
 - `current_level`: beeinflusst Level-Passung, z.B. `beginner` bevorzugt
   einsteigerfreundliche Undergraduate-/Intro-Kurse.
 - `target_outcome`: beeinflusst Praxis-/Output-Passung, z.B. `prototype`
@@ -86,6 +91,9 @@ Feldwirkung fuer die deterministische Baseline:
 - Ausgabe als JSON speichern, damit Ticket 08 sie direkt lesen kann.
 - Score und Begruendung trennen: Score fuer Sortierung, Begruendung fuer Review.
 - Maximal 3-5 Kandidaten ausgeben, passend zum V1-Budget.
+- Kandidaten ohne positiven `goal`-Match werden aus der Top-K-Liste gefiltert.
+  Der Output enthaelt `thematic_fit.gate`, `has_goal_match` und
+  `matched_tokens`.
 - Fehlende Praeferenzen mit konservativen Defaults dokumentieren.
 - Selector ist deterministisch und regel-/signalbasiert; LLM/Agent kann spaeter
   als Re-Ranker ergaenzt werden, ist aber nicht Teil dieses Tickets.
@@ -102,12 +110,15 @@ Feldwirkung fuer die deterministische Baseline:
 - Jeder Kandidat enthaelt Score, zentrale Signale und Begruendung.
 - Jeder Kandidat enthaelt nachvollziehbare Field-Contributions fuer relevante
   Contract-Felder.
+- Jeder Kandidat in der Top-K-Liste hat `thematic_fit.gate: "passed"`.
 - Ausgabe ist stabil genug, um Ticket 08 ohne manuelle Interpretation zu starten.
 
 ## Tests / Verifikation
 
 - Golden Scenario "Ich will AI Apps bauen" priorisiert Python/GenAI/Prompting vor
   Deep-Learning-Mathe.
+- Golden Scenario "Ich will AI Apps bauen" nimmt fachfremde Kurse wie
+  Microeconomics trotz guter Materialien nicht in die Top 5 auf.
 - Derselbe Goal-Text mit `current_level: beginner` bevorzugt Intro- oder
   Undergraduate-Kurse gegenueber fortgeschrittenen Spezialkursen.
 - `target_outcome: prototype` und `style: practical` erhoehen Kurse mit Projects,

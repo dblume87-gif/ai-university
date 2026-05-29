@@ -117,7 +117,7 @@ export function selectCourseCandidates(options = {}) {
   const rows = readCandidateRows(dbPath);
   const candidates = rows
     .map(row => scoreCourse(contract, row))
-    .filter(candidate => candidate.score > 0)
+    .filter(candidate => candidate.score > 0 && candidate.thematic_fit.has_goal_match)
     .sort((left, right) => right.score - left.score || left.course_id.localeCompare(right.course_id))
     .slice(0, Math.min(options.limit || 5, 5));
 
@@ -234,6 +234,11 @@ function scoreCourse(contract, row) {
     course_id: row.course_id,
     title: row.title,
     score: Math.round(score * 10) / 10,
+    thematic_fit: {
+      has_goal_match: fields.goal.contribution > 0,
+      matched_tokens: fields.goal.matched_tokens || [],
+      gate: fields.goal.contribution > 0 ? 'passed' : 'filtered'
+    },
     reason: positive.slice(0, 4).join('; ') || 'weak baseline match',
     signals: {
       level: parseJsonArray(row.level),
@@ -263,10 +268,12 @@ function scoreGoal(contract, row) {
     row.learning_resource_types
   ].join(' '));
   const hits = goalTokens.filter(token => haystack.includes(token));
+  const uniqueHits = [...new Set(hits)];
   return {
     contribution: hits.length * 8,
     effect: hits.length > 0 ? 'positive' : 'neutral',
-    reason: hits.length > 0 ? `matched ${[...new Set(hits)].slice(0, 6).join(', ')}` : 'no keyword match'
+    reason: hits.length > 0 ? `matched ${uniqueHits.slice(0, 6).join(', ')}` : 'no keyword match',
+    matched_tokens: uniqueHits
   };
 }
 

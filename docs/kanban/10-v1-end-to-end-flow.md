@@ -1,83 +1,119 @@
-# 10 V1 End-to-End-Flow
+# 10 V1 End-to-End-Harness
 
-Status: Blocked
+Status: Ready
 Build-Order-Punkt: 10
 Parallelisierbar: nein, Integration nach 04-09 und 08b
 
 ## Ziel
 
-Der V1-Flow verbindet Contract, Kandidatenauswahl, Material-Screening,
-Lernplan, eigenes Path-Notebook, Mindmap, Chat und user-gesteuerte
-Asset-Erstellung zu einem durchgehenden Lernpfad.
+Ticket 10 baut keinen finalen Produkt-Flow und keine Agenten-Schicht. Es kapselt
+die vorhandenen V1-Bausteine in einen deterministischen End-to-End-Harness, der
+einen kompletten Run reproduzierbar ausfuehrt, Artefakte speichert und harte
+Gates prueft.
+
+Der Harness ist das Integrationsrueckgrat fuer die spaetere Agenten-Orchestrator-
+Schicht.
 
 ## Scope
 
-- Contract erfassen oder laden.
-- Top-3-5 Kandidaten aus Ticket 07 bestimmen.
-- Hybrid Material Screening aus Ticket 08 ausfuehren.
-- Learning Path Planner Baseline aus Ticket 08b ausfuehren.
-- Eigenes Path-Notebook ueber Ticket 09 erstellen und auf `sources_ready`
-  bringen.
-- Mindmap erzeugen, speichern und als Orientierung anbieten.
-- Chat auf Unit-, Topic- oder freie Frage-Kontexte routen.
-- User-gesteuerte Asset-Erstellung aus Unit-, Chat- oder Topic-Kontext anbieten.
-
-## Nicht im Scope
-
-- Automatische Asset-Produktion ohne User-Befehl.
-- Unbegrenzte Kurs- oder Source-Auswahl.
-- Produktions-UI, falls CLI/JSON fuer V1-Akzeptanz reicht.
-
-## Abhaengigkeiten
-
-- Ticket 04: Asset-Erstellung aus Kontext.
-- Ticket 05: Mindmap-Anzeige und Topic-Routing.
-- Ticket 06: Upload/Wait-Spike-Ergebnisse.
-- Ticket 07: Contract Normalizer und Candidate Selector.
-- Ticket 08: Material Screening Gate.
-- Ticket 08b: Learning Path Planner Baseline.
-- Ticket 09: Path-Notebook Upload/Wait/Resume.
-
-## Blocker
-
-- Kein stabiler End-to-End-Flow ohne Path-Notebook.
-- Kein Lernplan ohne Materialuebersicht und Planner-Baseline.
-- Kein Mindmap-Schritt ohne `sources_ready`.
-- Keine Asset-Integration ohne user-gesteuerte Asset-Erstellung.
-
-## Umsetzungshinweise
-
-- Flow muss die V1-Budgets erzwingen:
+- CLI-Einstieg fuer einen V1-Run, z.B.
+  `learn v1 run --goal "Ich will AI Apps bauen"`.
+- Pro Run einen eigenen Artefaktordner erzeugen, z.B.
+  `output/learning-paths/<run-id>/`.
+- Deterministisch ausfuehren:
+  - Contract normalisieren oder laden.
+  - Top-3-5 Kandidaten aus Ticket 07 bestimmen.
+  - Hybrid Material Screening aus Ticket 08 ausfuehren.
+  - Learning Path Planner Baseline aus Ticket 08b ausfuehren.
+  - Path-Notebook Workflow aus Ticket 09 im Default als Dry-Run ausfuehren.
+- Schrittstatus, Artefaktpfade, Gates, Warnungen und Fehler in `run.json` und
+  `RUN.md` speichern.
+- V1-Budgets erzwingen:
   - maximal 3-5 Kurskandidaten pro Contract
   - maximal 8-12 Units im ersten Lernplan
   - maximal 40-60 Sources pro Lernpfad-Notebook
   - keine unkontrollierten parallelen `ask`-Calls
-- NotebookLM-Chat mit sichtbarem Loading-State planen.
-- Lernplan erst nach Materialuebersicht ueber Ticket 08b finalisieren.
-- Jeder Lernpfad hat genau ein eigenes Notebook.
+- Optionaler Live-Notebook-Modus nur explizit, z.B. `--live-notebook` oder ohne
+  `--dry-run`, damit Tests standardmaessig keine externen NotebookLM-Side-
+  Effects haben.
+
+## Nicht im Scope
+
+- Agentische Zielklaerung, Re-Ranking oder freie Planoptimierung.
+- Produktions-UI.
+- Automatische Asset-Produktion.
+- Echter Chat als Teil des Harness-Defaults.
+- Mindmap-Erzeugung im Dry-Run, wenn kein echtes Notebook mit `sources_ready`
+  existiert.
+- Vollstaendige Qualitaetsbewertung des Lernplans.
+
+## Abhaengigkeiten
+
+- Ticket 04: Asset-Erstellung und Asset-Store fuer spaetere Handoffs.
+- Ticket 05: Mindmap-Anzeige und Topic-Routing fuer spaetere Handoffs.
+- Ticket 06: Upload/Wait-Spike-Ergebnisse.
+- Ticket 07: Contract Normalizer und Candidate Selector inklusive
+  Thematic-Fit-Gate.
+- Ticket 08: Material Screening Gate.
+- Ticket 08b: Learning Path Planner Baseline.
+- Ticket 09: Path-Notebook Upload/Wait/Resume.
+
+## Gates
+
+- Keine Kandidaten -> Run stoppt mit `failed:candidates`.
+- Keine usable Sources -> Run stoppt mit `failed:materials`.
+- Kein Lernplan mit Units -> Run stoppt mit `failed:plan`.
+- Notebook-State nicht `sources_ready` -> Run stoppt oder warnt je nach
+  Dry-Run-/Live-Modus.
+- Kandidaten ohne `thematic_fit.gate: "passed"` duerfen nicht in den Run
+  eingehen.
+
+## Handoffs
+
+- Mindmap: im Dry-Run als `skipped:live_notebook_required` dokumentieren; im
+  Live-Modus erst nach `sources_ready` anschliessen.
+- Chat: keine NotebookLM-Frage im Harness; pruefen, dass Units Source IDs fuer
+  spaeteres `learn chat` enthalten.
+- Assets: keine automatische Asset-Erzeugung; pruefen, dass Unit-/Source-
+  Kontexte fuer spaeteres `learn asset` vorhanden sind.
 
 ## Akzeptanzkriterien
 
-- Ein Contract erzeugt ueber Ticket 08b einen Lernpfad mit konkreten Units und
-  Quellen.
-- Lernplan wird erst nach Materialuebersicht finalisiert.
-- Jeder Lernpfad hat genau ein eigenes Notebook.
-- Pflichtquellen sind verarbeitet, bevor Mindmap erzeugt wird.
-- Chat kann auf Unit-, Topic- oder freie Frage-Kontexte routen.
-- Asset-Erstellung ist user-gesteuert und nutzt den aktuellen Lernkontext.
+- Ein einzelner CLI-Run erzeugt Contract, Candidates, Material-Screening,
+  Learning Path und Path-Notebook-State in einem Run-Ordner.
+- `run.json` enthaelt Schrittstatus, Artefaktpfade, Gate-Ergebnisse und
+  Warnungen.
+- `RUN.md` fasst denselben Run fuer Review lesbar zusammen.
+- Dry-Run endet fuer das Golden Scenario "Ich will AI Apps bauen" mit einem
+  Notebook-State `sources_ready`.
+- Der Run verwendet keine fachfremden Kandidaten, die am Thematic-Fit-Gate
+  scheitern.
+- Der Harness ist wiederholbar, ohne bestehende Run-Artefakte still zu
+  ueberschreiben.
 
 ## Tests / Verifikation
 
-- Golden Scenario "Ich will AI Apps bauen" erzeugt passenden Kurs-/Unit-Mix.
-- Golden Scenario "Ich will Backprop verstehen" erzeugt neural-network-nahe
-  Units und Quellen.
-- Chat-Frage zu einer Unit nutzt nur passende Source IDs.
-- Mindmap-Thema fuehrt zu Kandidaten statt stillem schwachem Routing.
-- Asset-Anforderung nutzt dieselben Sources wie der aktive Kontext.
+- Golden Scenario "Ich will AI Apps bauen" erzeugt einen Run-Ordner mit:
+  - `contract.json`
+  - `candidates.json`
+  - `material-screening.json`
+  - `learning-path.json`
+  - `learning-path.md`
+  - `path-notebook-state.json`
+  - `run.json`
+  - `RUN.md`
+- Candidate-Output enthaelt keine fachfremden Kurse wie Microeconomics.
+- Material-Screening enthaelt `candidate_courses`, `course_material_overviews`,
+  `usable_sources`, `gaps` und `recommendation_basis`.
+- Learning Path enthaelt 8-12 Units mit required/optional Source IDs.
+- Notebook Dry-Run erzeugt `sources_ready` und maximal 60 Sources.
+- Fehlerfall mit leerem oder zu vagem Contract schreibt einen fehlgeschlagenen
+  Run mit Diagnose.
 
 ## Uebergabe an Folge-Tickets
 
-- Nach Abschluss kann V1 in kleinere UX-, Qualitaets- und Persistenz-Tickets
-  zerlegt werden.
-- Offene Caveats aus NotebookLM-Latenz, Mindmap-Instabilitaet und Source-Fehlern
-  werden als Folgearbeit dokumentiert.
+- Agenten-Orchestrator nutzt diesen Harness als deterministische Toolchain.
+- UX-/Review-Tickets koennen `run.json`, `RUN.md` und die erzeugten Artefakte
+  anzeigen.
+- Offene Caveats aus NotebookLM-Live-Upload, Mindmap-Instabilitaet und
+  Source-Fehlern werden als Folgearbeit dokumentiert.

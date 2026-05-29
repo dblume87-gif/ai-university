@@ -79,6 +79,15 @@ test('selectCourseCandidates: AI Apps priorisiert Python/GenAI/Prompting vor Mat
       lectureVideos: 6,
       projects: 5,
       tier_score: 35
+    }),
+    course({
+      course_id: '14-01-microeconomics',
+      title: 'Principles of Microeconomics',
+      topics: [['Social Science', 'Economics']],
+      learning_resource_types: ['Lecture Videos', 'Problem Sets'],
+      lectureVideos: 24,
+      psets: 16,
+      tier_score: 40
     })
   ]);
   const contract = normalizeLearningContract({
@@ -91,10 +100,12 @@ test('selectCourseCandidates: AI Apps priorisiert Python/GenAI/Prompting vor Mat
 
   const selection = selectCourseCandidates({ contract, dbPath, limit: 3 });
 
-  assert.equal(selection.candidate_courses.length, 3);
-  assert.notEqual(selection.candidate_courses[0].course_id, '18-999-math');
+  assert.equal(selection.candidate_courses.length, 2);
+  assert.ok(!selection.candidate_courses.some(candidate => candidate.course_id === '18-999-math'));
+  assert.ok(!selection.candidate_courses.some(candidate => candidate.course_id === '14-01-microeconomics'));
   assert.ok(selection.candidate_courses.slice(0, 2).some(candidate => candidate.course_id === '6-0001-python'));
   assert.ok(selection.candidate_courses.slice(0, 2).some(candidate => candidate.course_id === '6-s087-genai'));
+  assert.ok(selection.candidate_courses.every(candidate => candidate.thematic_fit.gate === 'passed'));
 });
 
 test('selectCourseCandidates: Backprop priorisiert Neural-Network-/Calculus-nahe Kurse', () => {

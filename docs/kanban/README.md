@@ -12,8 +12,8 @@ Stand: 2026-05-28
 - Punkte 4-9 sind implementiert und per `npm test` verifiziert.
 - Punkt 6 hat zusaetzlich einen dokumentierten Live-Spike unter
   `docs/spike-artifacts/path-notebook-upload-wait-20260528/`.
-- Punkt 10 ist bewusst noch nicht umgesetzt; der End-to-End-Flow bleibt der
-  naechste Integrationsschritt.
+- Punkt 10 ist als deterministischer End-to-End-Harness zugeschnitten und als
+  naechster Integrationsschritt ready.
 
 ## Kanban-Spalten
 
@@ -31,16 +31,17 @@ Stand: 2026-05-28
 | 4 | [User-gesteuerte Asset-Erstellung](04-user-gesteuerte-asset-erstellung.md) | Done | umgesetzt mit Asset-Store und `learn assets` Zugriff |
 | 5 | [Mindmap Orientierung und Routing](05-mindmap-orientierung-und-routing.md) | Done | umgesetzt mit lokaler Hierarchie und heuristischem Matching |
 | 6 | [Upload/Wait-Spike fuer Path-Notebooks](06-upload-wait-spike-path-notebooks.md) | Done | Spike abgeschlossen; Empfehlung: Go with caveats |
-| 7 | [Contract Normalizer und Candidate Selector](07-contract-normalizer-und-candidate-selector.md) | Done | umgesetzt mit deterministischem Selector |
+| 7 | [Contract Normalizer und Candidate Selector](07-contract-normalizer-und-candidate-selector.md) | Done | umgesetzt mit deterministischem Selector und Thematic-Fit-Gate |
 | 8 | [Hybrid Material Screening Gate](08-hybrid-material-screening-gate.md) | Done | umgesetzt mit cached material overview und gaps |
 | 8b | [Learning Path Planner Baseline](08b-learning-path-planner-baseline.md) | Done | umgesetzt mit deterministischem JSON/Markdown-Plan |
 | 9 | [Path-Notebook Upload/Wait/Resume](09-path-notebook-upload-wait-resume.md) | Done | umgesetzt mit dry-run/resume-faehigem Notebook-State |
-| 10 | [V1 End-to-End-Flow](10-v1-end-to-end-flow.md) | Blocked | bewusst ausgespart; naechster Integrationsschritt |
+| 10 | [V1 End-to-End-Harness](10-v1-end-to-end-flow.md) | Ready | deterministischer Run-Harness vor Agenten-Orchestrator |
 
 ## Parallelisierungsuebersicht
 
 - Erledigt: 04, 05, 06, 07, 08, 08b, 09.
-- Naechster Schritt: 10, wenn der V1-End-to-End-Flow freigegeben wird.
+- Naechster Schritt: 10 als deterministischer Harness fuer Contract -> Candidates
+  -> Material-Screening -> Plan -> Notebook-Dry-Run.
 
 ## Implementierte CLI-Anker
 
