@@ -1,6 +1,6 @@
 # 08 Hybrid Material Screening Gate
 
-Status: Backlog
+Status: Done
 Build-Order-Punkt: 8
 Parallelisierbar: nein, harte Abhaengigkeit von 07
 

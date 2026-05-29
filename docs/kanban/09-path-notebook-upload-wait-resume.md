@@ -1,6 +1,6 @@
 # 09 Path-Notebook Upload/Wait/Resume
 
-Status: Blocked
+Status: Done
 Build-Order-Punkt: 9
 Parallelisierbar: nein, harte Abhaengigkeit von 06 und 08b
 

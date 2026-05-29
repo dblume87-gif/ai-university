@@ -66,6 +66,23 @@ import {
   selectCourseCandidates
 } from './learning/contract.js';
 import {
+  getScreenMaterialsOptions,
+  printMaterialScreeningResult,
+  saveMaterialScreening,
+  screenCandidateMaterials
+} from './learning/material-screening.js';
+import {
+  buildLearningPathPlan,
+  getLearnPlanOptions,
+  printLearningPathPlanResult,
+  saveLearningPathPlan
+} from './learning/planner.js';
+import {
+  getPathNotebookOptions,
+  printPathNotebookResult,
+  runPathNotebookWorkflow
+} from './learning/path-notebook.js';
+import {
   buildAndSaveUnitSourceMap,
   getLearnUnitMapOptions,
   printUnitSourceMapResult
@@ -117,6 +134,9 @@ Usage:
   node src/scrape.js learn mindmap show|match [--node "topic"] [--generate|--download]
   node src/scrape.js learn contract --goal "..." [--current-level beginner] [--out path]
   node src/scrape.js learn candidates --contract path [--limit 5] [--out path]
+  node src/scrape.js learn screen-materials --candidates path [--out path]
+  node src/scrape.js learn plan --materials path [--contract path] [--out path]
+  node src/scrape.js learn notebook --plan path [--create] [--wait] [--dry-run]
   node src/scrape.js learn units map [--course-units path] [--source-list path] [--out path]
   node src/scrape.js test [course-id]
   node src/scrape.js status
@@ -386,6 +406,32 @@ async function main() {
         const selection = selectCourseCandidates(options);
         const path = saveCandidateSelection(selection, options.outPath);
         printCandidateSelection({ selection, path });
+      } else if (action === 'screen-materials') {
+        const options = getScreenMaterialsOptions(args.slice(2));
+        if (options.help) {
+          printUsage();
+          break;
+        }
+        const screening = screenCandidateMaterials(options);
+        const path = saveMaterialScreening(screening, options.outPath);
+        printMaterialScreeningResult({ screening, path });
+      } else if (action === 'plan') {
+        const options = getLearnPlanOptions(args.slice(2));
+        if (options.help) {
+          printUsage();
+          break;
+        }
+        const plan = buildLearningPathPlan(options);
+        const paths = saveLearningPathPlan(plan, options.outPath);
+        printLearningPathPlanResult({ plan, paths });
+      } else if (action === 'notebook') {
+        const options = getPathNotebookOptions(args.slice(2));
+        if (options.help) {
+          printUsage();
+          break;
+        }
+        const result = await runPathNotebookWorkflow(options);
+        printPathNotebookResult(result);
       } else if (action === 'units' && (args[2] || 'map') === 'map') {
         const options = getLearnUnitMapOptions(args.slice(3));
         if (options.help) {

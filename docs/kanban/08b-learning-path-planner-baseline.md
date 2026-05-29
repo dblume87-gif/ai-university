@@ -1,6 +1,6 @@
 # 08b Learning Path Planner Baseline
 
-Status: Backlog
+Status: Done
 Build-Order-Punkt: V1 Flow 4
 Parallelisierbar: nein, harte Abhaengigkeit von 07 und 08
 
@@ -97,4 +97,3 @@ Gaps. Diese Baseline kommt ohne Agenten- oder LLM-Unterstuetzung aus.
 - Ticket 09 liest `required_source_ids` und `optional_source_ids` fuer den
   Path-Notebook-Upload.
 - Ticket 10 nutzt den fertigen Learning Path als Integrationsartefakt.
-
