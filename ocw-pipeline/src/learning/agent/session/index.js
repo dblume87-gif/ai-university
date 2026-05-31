@@ -85,6 +85,7 @@ const DEFAULT_RETRY_BUDGET = 2;
 const FREE_TEXT_PHASES = new Set(['ziel_verstehen', 'suchrichtung_festlegen']);
 const ACTION_ALIASES = new Map([
   ['broaden', 'broaden'],
+  ['broadn', 'broaden'],
   ['breiter suchen', 'broaden'],
   ['deep scan', 'recover_sources'],
   ['recover sources', 'recover_sources'],
@@ -1282,25 +1283,53 @@ function renderPlanMarkdown(plan) {
 }
 
 function buildSelectorTermsForRun(context, expansion) {
-  const baseTerms = expansion.selector_terms || [];
+  const baseTerms = uniqueStrings([
+    ...(expansion.selector_terms || []),
+    ...(expansion.domain_terms || []),
+    ...(expansion.translations || []),
+    ...(expansion.synonyms || []),
+    ...(expansion.topic_terms || [])
+  ]);
   const params = context.state.action_params?.course_discovery || {};
   if (!params.broaden) return baseTerms;
   const broadened = new Set(baseTerms);
-  for (const term of baseTerms) {
-    for (const extra of BROADENED_SELECTOR_TERMS[term] || []) broadened.add(extra);
-  }
+  for (const extra of getBroadeningTermsForExpansion(expansion)) broadened.add(extra);
   return [...broadened];
 }
 
 function broadeningAddsTerms(context) {
   const expansion = loadAcceptedJson(context, 'goal_expansion');
-  const base = new Set(expansion.selector_terms || []);
-  for (const term of base) {
-    for (const extra of BROADENED_SELECTOR_TERMS[term] || []) {
-      if (!base.has(extra)) return true;
+  const base = new Set(buildSelectorTermsForRun({ ...context, state: { ...context.state, action_params: {} } }, expansion));
+  return getBroadeningTermsForExpansion(expansion).some(term => !base.has(term));
+}
+
+function getBroadeningTermsForExpansion(expansion) {
+  const terms = uniqueStrings([
+    ...(expansion.selector_terms || []),
+    ...(expansion.domain_terms || []),
+    ...(expansion.translations || []),
+    ...(expansion.topic_terms || [])
+  ]);
+  const broadened = new Set();
+  for (const term of terms) {
+    for (const extra of BROADENED_SELECTOR_TERMS[String(term || '').toLowerCase()] || []) broadened.add(extra);
+    const text = String(term || '').toLowerCase();
+    if (text.includes('strategy') || text.includes('strategie') || text.includes('strategic')) {
+      [
+        'strategy',
+        'strategic management',
+        'management strategy',
+        'global strategy',
+        'advanced strategy',
+        'executing strategy',
+        'competitive advantage',
+        'organization strategy',
+        'business management',
+        'leadership'
+      ].forEach(extra => broadened.add(extra));
     }
   }
-  return false;
+  return [...broadened];
 }
 
 function consumeActionParams(context, stepName) {

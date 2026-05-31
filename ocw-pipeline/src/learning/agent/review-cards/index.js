@@ -55,10 +55,17 @@ function formatDetailLines(details = []) {
 }
 
 function renderAction(action, defaultAction) {
+  const label = actionLabel(action);
   if (action.action === defaultAction && action.safe_default) {
-    return `[yes] ${sanitizeText(action.label)}`;
+    return `[yes] ${label}`;
   }
-  return `[${formatActionInput(action.action)}] ${sanitizeText(action.label)}`;
+  return `[${formatActionInput(action.action)}] ${label}`;
+}
+
+function actionLabel(action) {
+  if (action.action === 'refine') return 'Ziel genauer eingeben';
+  if (action.action === 'broaden') return 'Breiter suchen und neue Kursliste erzeugen';
+  return sanitizeText(action.label);
 }
 
 function formatLine(label, value) {

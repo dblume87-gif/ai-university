@@ -141,11 +141,21 @@ test('dispatchActiveCardInput: yes nur fuer sichere Default-Aktionen, Actions bl
   const yes = dispatchActiveCardInput('yes', activeCard);
   const explicit = dispatchActiveCardInput('continue anyway', activeCard);
   const unavailable = dispatchActiveCardInput('deep scan', activeCard);
+  const typo = dispatchActiveCardInput('broadn', {
+    review: {
+      decision: 'retry',
+      default_action: null,
+      proposed_actions: [
+        { action: 'broaden', label: 'Breiter suchen', params: {}, safe_default: false }
+      ]
+    }
+  });
 
   assert.equal(yes.type, 'unavailable');
   assert.equal(explicit.type, 'action');
   assert.equal(explicit.action, 'continue_anyway');
   assert.equal(unavailable.type, 'unavailable');
+  assert.equal(typo.action, 'broaden');
 });
 
 test('dispatchActiveCardInput: nummerierte Kursauswahl uebernimmt nur sichtbare Optionen', () => {

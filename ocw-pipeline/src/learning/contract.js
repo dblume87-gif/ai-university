@@ -235,9 +235,9 @@ function scoreCourse(contract, row, options = {}) {
     title: row.title,
     score: Math.round(score * 10) / 10,
     thematic_fit: {
-      has_goal_match: fields.goal.contribution > 0,
+      has_goal_match: passesGoalGate(fields.goal),
       matched_tokens: fields.goal.matched_tokens || [],
-      gate: fields.goal.contribution > 0 ? 'passed' : 'filtered'
+      gate: passesGoalGate(fields.goal) ? 'passed' : 'filtered'
     },
     reason: positive.slice(0, 4).join('; ') || 'weak baseline match',
     signals: {
@@ -259,23 +259,67 @@ function scoreCourse(contract, row, options = {}) {
 }
 
 function scoreGoal(contract, row, options = {}) {
-  const goalTokens = options.selectorTerms?.length > 0
-    ? options.selectorTerms
+  const terms = options.selectorTerms?.length > 0
+    ? [...expandGoalTokens(contract.goal), ...options.selectorTerms]
     : expandGoalTokens(contract.goal);
-  const haystack = tokenize([
+  const haystackTokens = tokenize([
     row.course_id,
     row.title,
     row.topics,
     row.learning_resource_types
   ].join(' '));
-  const hits = goalTokens.filter(token => haystack.includes(token));
-  const uniqueHits = [...new Set(hits)];
+  const haystackTokenSet = new Set(haystackTokens);
+  const haystackText = ` ${haystackTokens.join(' ')} `;
+  const matches = new Map();
+
+  for (const term of terms) {
+    const tokens = tokenize(term);
+    if (tokens.length === 0) continue;
+
+    if (tokens.length === 1) {
+      const token = tokens[0];
+      if (!haystackTokenSet.has(token)) continue;
+      addGoalMatch(matches, token, tokenContribution(token));
+      continue;
+    }
+
+    const phrase = tokens.join(' ');
+    const phrasePresent = haystackText.includes(` ${phrase} `);
+    const allTermsPresent = tokens.every(token => haystackTokenSet.has(token));
+    if (phrasePresent || allTermsPresent) {
+      addGoalMatch(matches, phrase, phrasePresent ? 30 : 22);
+      continue;
+    }
+
+    for (const token of tokens) {
+      if (!haystackTokenSet.has(token) || LOW_SIGNAL_SELECTOR_TOKENS.has(token)) continue;
+      addGoalMatch(matches, token, tokenContribution(token));
+    }
+  }
+
+  const uniqueHits = [...matches.keys()];
+  const contribution = [...matches.values()].reduce((sum, value) => sum + value, 0);
   return {
-    contribution: hits.length * 8,
-    effect: hits.length > 0 ? 'positive' : 'neutral',
-    reason: hits.length > 0 ? `matched ${uniqueHits.slice(0, 6).join(', ')}` : 'no keyword match',
+    contribution,
+    effect: contribution > 0 ? 'positive' : 'neutral',
+    reason: contribution > 0 ? `matched ${uniqueHits.slice(0, 6).join(', ')}` : 'no keyword match',
     matched_tokens: uniqueHits
   };
+}
+
+function passesGoalGate(goalField) {
+  return Number(goalField?.contribution || 0) >= 12;
+}
+
+function addGoalMatch(matches, label, contribution) {
+  matches.set(label, Math.max(matches.get(label) || 0, contribution));
+}
+
+function tokenContribution(token) {
+  if (LOW_SIGNAL_SELECTOR_TOKENS.has(token)) return 4;
+  if (MEDIUM_SIGNAL_SELECTOR_TOKENS.has(token)) return 10;
+  if (HIGH_SIGNAL_SELECTOR_TOKENS.has(token)) return 18;
+  return 12;
 }
 
 function scoreLevel(contract, row) {
@@ -383,7 +427,7 @@ function expandGoalTokens(goal) {
 
 function normalizeSelectorTerms(value) {
   const values = Array.isArray(value) ? value : String(value || '').split(',');
-  return [...new Set(values.flatMap(item => tokenize(item)))];
+  return [...new Set(values.map(item => normalizeString(item)).filter(Boolean))];
 }
 
 function normalizeMaterials(value) {
@@ -456,4 +500,47 @@ const STOPWORDS = new Set([
   'grundlagen',
   'kurs',
   'kurse'
+]);
+
+const HIGH_SIGNAL_SELECTOR_TOKENS = new Set([
+  'strategy',
+  'strategic',
+  'competitive',
+  'advantage',
+  'diversification',
+  'portfolio',
+  'entrepreneurship',
+  'innovation',
+  'leadership',
+  'organization',
+  'organizations',
+  'organizational'
+]);
+
+const MEDIUM_SIGNAL_SELECTOR_TOKENS = new Set([
+  'growth'
+]);
+
+const LOW_SIGNAL_SELECTOR_TOKENS = new Set([
+  'analysis',
+  'advanced',
+  'based',
+  'business',
+  'management',
+  'matrix',
+  'model',
+  'models',
+  'value',
+  'chain',
+  'industry',
+  'market',
+  'entry',
+  'decision',
+  'making',
+  'implementation',
+  'formulation',
+  'development',
+  'corporate',
+  'resource',
+  'view'
 ]);

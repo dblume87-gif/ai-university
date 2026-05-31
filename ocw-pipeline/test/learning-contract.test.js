@@ -220,6 +220,73 @@ test('selectCourseCandidates: selector_terms ignorieren reine Kurs-Fuellwoerter'
   assert.equal(selection.candidate_courses.some(candidate => candidate.course_id === '6-0001-python'), false);
 });
 
+test('selectCourseCandidates: Strategy-Phrasen ranken Fachtreffer vor generischen Analyse-/Matrix-Treffern', () => {
+  const dbPath = createFixtureDb([
+    course({
+      course_id: '15-963-advanced-strategy',
+      title: 'Advanced Strategy',
+      topics: [['Business', 'Organizational Behavior'], ['Business', 'Management']],
+      learning_resource_types: ['Lecture Notes'],
+      documents: 1,
+      tier_score: 20
+    }),
+    course({
+      course_id: '15-902-strategic-management',
+      title: 'Strategic Management I',
+      topics: [['Business', 'Leadership'], ['Business', 'Management']],
+      learning_resource_types: ['Lecture Notes'],
+      documents: 1,
+      tier_score: 20
+    }),
+    course({
+      course_id: '18-s096-matrix-calculus',
+      title: 'Matrix Calculus for Machine Learning and Beyond',
+      topics: [['Mathematics', 'Calculus'], ['Engineering', 'Computer Science', 'Machine Learning']],
+      learning_resource_types: ['Lecture Notes', 'Problem Sets'],
+      psets: 12,
+      documents: 20,
+      tier_score: 45
+    }),
+    course({
+      course_id: '14-310-data-analysis',
+      title: 'Data Analysis for Social Scientists',
+      topics: [['Social Science', 'Economics']],
+      learning_resource_types: ['Lecture Videos', 'Problem Sets'],
+      lectureVideos: 12,
+      psets: 12,
+      tier_score: 45
+    })
+  ]);
+  const contract = normalizeLearningContract({
+    goal: 'corporate strategy',
+    current_level: 'beginner',
+    target_outcome: 'prototype',
+    style: 'practical'
+  });
+
+  const selection = selectCourseCandidates({
+    contract,
+    dbPath,
+    limit: 5,
+    selector_terms: [
+      'Porter Five Forces',
+      'SWOT analysis',
+      'BCG matrix',
+      'Ansoff matrix',
+      'strategic management',
+      'business strategy',
+      'growth strategy'
+    ]
+  });
+
+  assert.deepEqual(new Set(selection.candidate_courses.slice(0, 2).map(candidate => candidate.course_id)), new Set([
+    '15-902-strategic-management',
+    '15-963-advanced-strategy'
+  ]));
+  assert.equal(selection.candidate_courses.some(candidate => candidate.course_id === '18-s096-matrix-calculus'), false);
+  assert.equal(selection.candidate_courses.some(candidate => candidate.course_id === '14-310-data-analysis'), false);
+});
+
 test('saveLearningContract/saveCandidateSelection: schreibt JSON-Artefakte', () => {
   const dir = mkdtempSync(join(tmpdir(), 'learning-contract-save-'));
   const contract = normalizeLearningContract({ goal: 'Ich will AI Apps bauen', contractId: 'contract-1' });

@@ -48,6 +48,27 @@ test('renderReviewCard: unsichere Action wird nie als yes gerendert', () => {
   assert.match(card, /\[continue anyway\] Low-Confidence nutzen/);
 });
 
+test('renderReviewCard: refine und broaden Labels beschreiben die echte CLI-Wirkung', () => {
+  const card = renderReviewCard({
+    phase: 'Kurse waehlen',
+    searched: 'Corporate Strategy',
+    found: 'Keine sichere Freigabe',
+    review: {
+      decision: 'retry',
+      reasons: ['Kandidaten sind fachlich schwach.'],
+      default_action: 'refine',
+      proposed_actions: [
+        { action: 'refine', label: 'Suche auf Corporate Strategy einschraenken', params: {}, safe_default: true },
+        { action: 'broaden', label: 'Verwandte Management-Kurse einbeziehen', params: {}, safe_default: false }
+      ]
+    }
+  });
+
+  assert.match(card, /\[yes\] Ziel genauer eingeben/);
+  assert.match(card, /\[broaden\] Breiter suchen und neue Kursliste/);
+  assert.doesNotMatch(card, /Suche auf Corporate Strategy einschraenken/);
+});
+
 test('renderReviewCard: entfernt Backend-Begriffe aus der sichtbaren Card-Sprache', () => {
   const card = renderReviewCard({
     phase: 'Kurse waehlen',
