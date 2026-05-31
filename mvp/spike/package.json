@@ -1,0 +1,10 @@
+{
+  "name": "ai-university-mcp-tool-calling-spike",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node run.js",
+    "spike": "node run.js"
+  }
+}

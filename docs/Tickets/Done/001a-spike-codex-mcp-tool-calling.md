@@ -1,6 +1,6 @@
 # 001a - Spike: codex Tool-Calling via MCP beweisen
 
-Status: Ready
+Status: Done
 
 ## Kontext
 
@@ -82,7 +82,8 @@ Alles unter `mvp/spike/` (eigenes, throwaway `package.json`):
 
 **Ergebnis steuert 001b:**
 
-- **PASS** → 001b baut die Tool-Boundary nativ ueber MCP, wie geplant.
+- **PASS mit Approval-Bypass** → MCP-Mechanik ist bewiesen, aber 001b baut die
+  Produktlogik nicht direkt auf native headless MCP-Freigaben.
 - **FAIL bei Tool-Calling** → Fallback in 001b: „eigener Loop" ueber
   `--output-schema`, bei dem codex `{tool_call}` **oder** `{final}` ausgibt und
   wir den Tool-Aufruf selbst ausfuehren, das Ergebnis anhaengen und erneut
@@ -99,3 +100,17 @@ Alles unter `mvp/spike/` (eigenes, throwaway `package.json`):
 - Der Spike ist **Wegwerf-Code** und darf nach dem Beweis geloescht werden; nur
   die Erkenntnisse (Pass/Fail + exakter funktionierender `codex exec`-Aufruf)
   fliessen in 001b.
+
+## Ergebnis 2026-05-31
+
+- Subscription-Auth erkannt (`auth_mode: chatgpt`).
+- Lokaler MCP-Server wird von `codex exec` initialisiert und `tools/list`
+  funktioniert.
+- `codex exec --sandbox read-only` cancelled den MCP-Tool-Call im Headless-Lauf,
+  bevor `tools/call` den Server erreicht.
+- `codex exec --dangerously-bypass-approvals-and-sandbox` ruft
+  `search_courses` erfolgreich auf; beide Turns liefern echte `course_id`s aus
+  `mvp/data/library.db`.
+- Entscheidung fuer 001b: Adapter + eigener Agent-Tool-Loop. Die OCW-Suche ist
+  ein Agentenwerkzeug, aber der MVP ist nicht von nativer MCP-Approval-UI
+  abhaengig.
