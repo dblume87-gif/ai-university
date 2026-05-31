@@ -14,7 +14,8 @@ export function renderReviewCard({
   searched,
   found,
   review,
-  decisionText = null
+  decisionText = null,
+  details = []
 }) {
   const title = sanitizeText(phase || 'Review');
   const decision = sanitizeText(decisionText || review?.reasons?.[0] || decisionLabel(review?.decision));
@@ -26,7 +27,7 @@ export function renderReviewCard({
     ...formatActionLines(review),
     '+'.padEnd(64, '-') + '+'
   ];
-  return `${lines.join('\n')}\n`;
+  return `${[...lines, ...formatDetailLines(details)].join('\n')}\n`;
 }
 
 export function saveReviewCard(runDir, phaseSlug, cardText) {
@@ -42,6 +43,15 @@ function formatActionLines(review = {}) {
   if (actions.length === 0) return [formatLine('Du kannst:', '-')];
   const rendered = actions.map(action => renderAction(action, review.default_action));
   return rendered.map((item, index) => formatLine(index === 0 ? 'Du kannst:' : '', item));
+}
+
+function formatDetailLines(details = []) {
+  const lines = details
+    .map(item => sanitizeText(item))
+    .filter(Boolean)
+    .map(item => `  ${truncate(item, 110)}`);
+  if (lines.length === 0) return [];
+  return ['', 'Kurse:', ...lines];
 }
 
 function renderAction(action, defaultAction) {

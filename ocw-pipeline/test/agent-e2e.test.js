@@ -131,6 +131,34 @@ test('agent E2E: pure Low-Confidence wird erst nach continue anyway uebernommen'
   assert.match(turns.map(turn => turn.text).join('\n'), /Aktion angenommen: continue_anyway/);
 });
 
+test('agent E2E: Low-Confidence-Kurs kann per Nummer explizit ausgewaehlt werden', async () => {
+  const fixture = createFixture({ courses: [accountingTitleOnlyCourse()] });
+  const result = await runAgentChat({
+    action: 'chat',
+    newRun: true,
+    runId: 'agent-e2e-low-confidence-selection',
+    provider: 'deterministic',
+    goal: 'Accounting',
+    outDir: fixture.runDir,
+    dbPath: fixture.dbPath,
+    unitsRoot: fixture.unitsRoot,
+    dryRun: true
+  }, {
+    logger: silentLogger,
+    question: scriptedQuestion(['yes', '1', 'yes'])
+  });
+
+  const candidates = readJson(join(fixture.runDir, 'candidates.json'));
+  const card = readFileSync(join(fixture.runDir, 'cards', 'kurse_waehlen.md'), 'utf8');
+  const turns = readConversationLog(join(fixture.runDir, 'conversation.jsonl'));
+
+  assert.equal(result.state.status, 'completed');
+  assert.deepEqual(candidates.candidate_courses.map(candidate => candidate.course_id), ['15-title-only-accounting']);
+  assert.match(card, /\[1\] unsicher: Accounting for Strategic Decisions/);
+  assert.match(turns.map(turn => turn.text).join('\n'), /Kursauswahl angenommen: 15-title-only-accounting/);
+  assert.equal(result.state.steps.course_discovery.accepted_output.summary.selected_by_user, true);
+});
+
 test('agent E2E: Coverage-Retry startet erst nach yes und materialisiert Sources', async () => {
   const fixture = createFixture({ courses: [noSourceAccountingCourse()] });
   let rescreenCalls = 0;

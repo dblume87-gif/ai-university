@@ -148,6 +148,27 @@ test('dispatchActiveCardInput: yes nur fuer sichere Default-Aktionen, Actions bl
   assert.equal(unavailable.type, 'unavailable');
 });
 
+test('dispatchActiveCardInput: nummerierte Kursauswahl uebernimmt nur sichtbare Optionen', () => {
+  const activeCard = {
+    candidate_options: [
+      { index: 1, course_id: '15-title-only-accounting', title: 'Accounting for Strategic Decisions' },
+      { index: 2, course_id: '15-501-accounting', title: 'Financial Accounting' }
+    ],
+    review: {
+      decision: 'ask_user',
+      default_action: null,
+      proposed_actions: []
+    }
+  };
+
+  const selection = dispatchActiveCardInput('1, 2', activeCard);
+  const missing = dispatchActiveCardInput('3', activeCard);
+
+  assert.equal(selection.type, 'candidate_selection');
+  assert.deepEqual(selection.candidate_ids, ['15-title-only-accounting', '15-501-accounting']);
+  assert.equal(missing.type, 'unavailable');
+});
+
 function createFixtureDb(dir) {
   const dbPath = join(dir, 'library.db');
   const db = new Database(dbPath);

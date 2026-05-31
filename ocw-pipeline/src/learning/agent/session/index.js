@@ -225,6 +225,9 @@ export function dispatchActiveCardInput(input, activeCard) {
   if (text === 'status') return { type: 'status' };
   if (text === 'quit' || text === 'exit') return { type: 'quit' };
 
+  const candidateSelection = parseCandidateSelectionInput(text, activeCard?.candidate_options || []);
+  if (candidateSelection) return candidateSelection;
+
   const review = activeCard?.review || {};
   const proposedActions = review.proposed_actions || [];
 
@@ -283,7 +286,11 @@ export async function handleAgentInput(context, input) {
       persistState(context);
       return dispatch;
     }
-    await applyCardAction(context, dispatch);
+    if (dispatch.type === 'candidate_selection') {
+      applyCandidateSelection(context, dispatch);
+    } else {
+      await applyCardAction(context, dispatch);
+    }
     if (context.state.status === 'running') {
       while (context.state.status === 'running') {
         await advanceAgent(context);
@@ -549,11 +556,15 @@ async function runCourseDiscoveryStep(context) {
   }
 
   setDraftOutput(context, step, rawOutput, review);
+  const candidateDetails = buildCourseCandidateCardDetails(rawSelection, review.data);
+  const selectableCandidates = buildSelectableCourseCandidates(rawSelection, review.data);
   waitForUser(context, step, review, {
     searched: summarizeTerms(selectorTerms),
     found: rawSelection.candidate_courses.length > 0
       ? `${rawSelection.candidate_courses.length} Kandidat(en), aber keine sichere Freigabe`
-      : 'keine passenden Kandidaten'
+      : 'keine passenden Kandidaten',
+    details: candidateDetails,
+    candidate_options: selectableCandidates
   });
 }
 
@@ -811,6 +822,32 @@ function applyContinueAnyway(context, stepName) {
   }
 }
 
+function applyCandidateSelection(context, dispatch) {
+  const activeCard = context.state.active_card;
+  if (activeCard?.step !== 'course_discovery') {
+    appendAgentTurn(context, 'Kursauswahl ist nur in der Kurs-Review verfuegbar.');
+    context.state.status = 'waiting_for_user';
+    return;
+  }
+
+  const stepName = activeCard.step;
+  const step = STEP_BY_NAME.get(stepName);
+  const rawSelection = readJson(context.state.steps[stepName].draft_output.artifact_path);
+  const review = context.state.steps[stepName].review;
+  const selectedIds = dispatch.candidate_ids || [];
+  const selectedSelection = buildUserSelectedCandidateSelection(rawSelection, review.data, selectedIds);
+  const output = atomicWriteJson(join(context.runDir, 'candidates.json'), selectedSelection);
+
+  appendAgentTurn(context, `Kursauswahl angenommen: ${selectedIds.join(', ')}`);
+  acceptStep(context, step, output, review, {
+    candidate_count: selectedSelection.candidate_courses.length,
+    selected_by_user: true
+  });
+  context.state.steps[stepName].raw_output = context.state.steps[stepName].draft_output;
+  clearActiveCard(context);
+  context.state.status = 'running';
+}
+
 function applyNormalizeTitles(context) {
   const stepName = 'learning_path';
   const draftPlan = readJson(context.state.steps[stepName].draft_output.artifact_path);
@@ -1000,7 +1037,8 @@ function waitForUser(context, step, review, cardInput) {
     phase: humanPhase(step.phase),
     searched: cardInput.searched,
     found: cardInput.found,
-    review
+    review,
+    details: cardInput.details || []
   });
   const card = saveReviewCard(context.runDir, step.phase, cardText);
   context.state.steps[step.name] = {
@@ -1025,6 +1063,7 @@ function waitForUser(context, step, review, cardInput) {
         step: step.name,
         phase: step.phase,
         review,
+        candidate_options: cardInput.candidate_options || [],
         card_path: card.artifact_path,
         created_at: new Date().toISOString()
       };
@@ -1046,6 +1085,120 @@ function setDraftOutput(context, step, output, review) {
       schema: output.schema || step.schema
     }
   };
+}
+
+function buildCourseCandidateCardDetails(selection, reviewData = {}) {
+  const options = buildCourseCandidateOptions(selection, reviewData);
+  if (options.length === 0) return [];
+
+  const details = options.map(option => {
+    const parts = [
+      `[${option.index}] ${option.status_label}: ${option.title} (${option.course_id})`
+    ];
+    if (option.matched_terms.length > 0) parts.push(`Match: ${option.matched_terms.join(', ')}`);
+    if (option.reasons.length > 0) parts.push(`Hinweis: ${option.reasons.join(', ')}`);
+    if (!option.selectable) parts.push('nicht auswaehlbar');
+    return parts.join(' | ');
+  });
+
+  if (options.some(option => option.selectable)) {
+    details.push('Auswahl: Tippe 1 oder 1,2 fuer die Kurse, die du bewusst uebernehmen willst.');
+  }
+  return details;
+}
+
+function buildSelectableCourseCandidates(selection, reviewData = {}) {
+  return buildCourseCandidateOptions(selection, reviewData)
+    .filter(option => option.selectable)
+    .map(option => ({
+      index: option.index,
+      course_id: option.course_id,
+      title: option.title
+    }));
+}
+
+function buildCourseCandidateOptions(selection, reviewData = {}) {
+  const verdictsById = new Map((reviewData.verdicts || []).map(verdict => [verdict.course_id, verdict]));
+  const selectableIds = new Set(reviewData.low_confidence_candidate_ids || []);
+  return (selection.candidate_courses || []).map((candidate, index) => {
+    const verdict = verdictsById.get(candidate.course_id) || {};
+    const matchedTerms = uniqueStrings([
+      ...(verdict.matched_terms || []),
+      ...(candidate.thematic_fit?.matched_tokens || [])
+    ]);
+    return {
+      index: index + 1,
+      course_id: candidate.course_id,
+      title: candidate.title || 'Unbenannter Kurs',
+      status_label: courseVerdictLabel(verdict.verdict),
+      matched_terms: matchedTerms.slice(0, 5),
+      reasons: (verdict.reasons || []).map(courseReasonLabel).filter(Boolean).slice(0, 2),
+      selectable: selectableIds.has(candidate.course_id)
+    };
+  });
+}
+
+function parseCandidateSelectionInput(text, options = []) {
+  if (options.length === 0) return null;
+  const raw = text
+    .replace(/^select /, '')
+    .replace(/^auswahl /, '')
+    .replace(/^kurs /, '')
+    .trim();
+  if (!/^\d+(\s*,\s*\d+)*$/.test(raw)) return null;
+
+  const optionsByIndex = new Map(options.map(option => [String(option.index), option]));
+  const selected = raw.split(',')
+    .map(item => item.trim())
+    .filter(Boolean);
+  const missing = selected.filter(item => !optionsByIndex.has(item));
+  if (missing.length > 0) {
+    return {
+      type: 'unavailable',
+      message: `Diese Kursnummer ist nicht verfuegbar: ${missing.join(', ')}. Waehle eine sichtbare Kursnummer.`
+    };
+  }
+
+  const candidateIds = uniqueStrings(selected.map(item => optionsByIndex.get(item).course_id));
+  return {
+    type: 'candidate_selection',
+    candidate_ids: candidateIds,
+    via: 'numbered_course_selection'
+  };
+}
+
+function buildUserSelectedCandidateSelection(selection, reviewData, candidateIds) {
+  const selected = new Set(candidateIds || []);
+  const candidateCourses = (selection.candidate_courses || [])
+    .filter(candidate => selected.has(candidate.course_id));
+  return {
+    ...selection,
+    candidate_courses: candidateCourses,
+    agent_review: {
+      ...(selection.agent_review || {}),
+      topic_fit: reviewData,
+      user_selection: {
+        selected_candidate_ids: candidateIds || []
+      }
+    },
+    no_candidates: candidateCourses.length === 0
+  };
+}
+
+function courseVerdictLabel(verdict) {
+  if (verdict === 'accept') return 'passt';
+  if (verdict === 'low_confidence') return 'unsicher';
+  if (verdict === 'reject') return 'passt nicht';
+  return 'ungeprueft';
+}
+
+function courseReasonLabel(reason) {
+  if (reason === 'topic_path_confirmed') return 'Thema bestaetigt';
+  if (reason === 'specific_title_with_topic_context') return 'Titel passt zum Themenkontext';
+  if (reason === 'title_only_match') return 'nur Titel passt';
+  if (reason === 'high_score_without_topic_confirmation') return 'Themenbezug nicht eindeutig';
+  if (reason === 'no_topic_confirmation') return 'kein klarer Themenbezug';
+  return String(reason || '').replaceAll('_', ' ');
 }
 
 function resetStep(context, stepName) {
@@ -1264,6 +1417,18 @@ function humanPhase(phase) {
 function summarizeTerms(terms) {
   if (!Array.isArray(terms) || terms.length === 0) return '-';
   return terms.slice(0, 8).join(', ');
+}
+
+function uniqueStrings(values) {
+  const seen = new Set();
+  const result = [];
+  for (const value of values || []) {
+    const text = String(value || '').trim();
+    if (!text || seen.has(text)) continue;
+    seen.add(text);
+    result.push(text);
+  }
+  return result;
 }
 
 function normalizeCommand(value) {

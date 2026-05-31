@@ -66,6 +66,30 @@ test('renderReviewCard: entfernt Backend-Begriffe aus der sichtbaren Card-Sprach
   assert.doesNotMatch(card, /Scores/);
 });
 
+test('renderReviewCard: zeigt gefundene Kurse und Auswahlhinweis', () => {
+  const card = renderReviewCard({
+    phase: 'Kurse waehlen',
+    searched: 'strategy, business',
+    found: '2 Kandidaten, aber keine sichere Freigabe',
+    details: [
+      '[1] unsicher: Accounting for Strategic Decisions (15-title-only-accounting) | Match: accounting | Hinweis: nur Titel passt',
+      '[2] passt nicht: Principles of Microeconomics (14-01-microeconomics) | Hinweis: kein klarer Themenbezug | nicht auswaehlbar',
+      'Auswahl: Tippe 1 oder 1,2 fuer die Kurse, die du bewusst uebernehmen willst.'
+    ],
+    review: {
+      decision: 'ask_user',
+      reasons: ['Ich brauche deine Entscheidung.'],
+      default_action: null,
+      proposed_actions: []
+    }
+  });
+
+  assert.match(card, /Kurse:/);
+  assert.match(card, /\[1\] unsicher: Accounting for Strategic Decisions/);
+  assert.match(card, /Auswahl: Tippe 1/);
+  assert.doesNotMatch(card, /thematic_fit/);
+});
+
 test('saveReviewCard: schreibt cards/<phase>.md atomar', () => {
   const dir = mkdtempSync(join(tmpdir(), 'agent-card-'));
   const card = renderReviewCard({
