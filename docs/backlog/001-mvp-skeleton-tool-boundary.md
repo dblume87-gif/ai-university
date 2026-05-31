@@ -23,9 +23,14 @@ Einen neuen MVP-Ordner anlegen und einen ersten minimalen Agent-Loop bauen:
 
 ```text
 mvp/
+  package.json
   README.md
+  data/
+    library.db
   src/
     agent/
+      providers/
+        codex-cli.js
     tools/
       ocw-library.js
       ocw-materials.js
@@ -46,11 +51,14 @@ Dieses Ticket baut den Skeleton, ein erstes read-only Library-Tool und einen min
 
 Umfang:
 
+- `mvp/package.json` als eigenes Package erstellen.
 - `mvp/README.md` mit Architekturregeln erstellen.
+- `ocw-pipeline/library.db` als Startdatenbasis nach `mvp/data/library.db` kopieren.
 - Tool-Interface fuer Agent-Werkzeuge definieren.
 - Erstes Tool `searchCourses` als Adapter auf die vorhandene OCW-Library bauen.
 - Course-Evidence-Objekt definieren, das fachlichen Fit und Datengrundlage getrennt ausweist.
 - Minimalen CLI-Chat bauen, in dem der User frei fragt und der Agent bei Kursfragen `searchCourses` nutzen kann.
+- Provider-Adapter einfuehren und direkt die lokale Codex CLI als ersten echten Provider anschliessen.
 - Conversation-State lokal im MVP-Ordner persistieren, so dass der Chat nachvollziehbar bleibt.
 - Tests schreiben, die eine Library-Suche und einen einfachen Chat-Turn mit Tool-Nutzung pruefen.
 
@@ -80,14 +88,31 @@ Der Agent muss in diesem Ticket noch keinen Lernpfad bauen und keine Kurse endgu
 
 - `mvp` darf Werkzeuge aus `ocw-pipeline` importieren.
 - `ocw-pipeline` darf `mvp` nicht importieren.
+- `mvp` hat ein eigenes `package.json`.
+- `mvp/data/library.db` ist die lokale MVP-Datenbasis.
 - Deterministische Funktionen liefern Evidence oder Actions, aber keine endgueltige fachliche Entscheidung.
 - Agenten duerfen Tools mehrfach nutzen und Ergebnisse vergleichen.
 - Datenbankzugriff bleibt read-only und laeuft ueber kontrollierte Tool-Funktionen.
+- LLM-Zugriff laeuft ueber ein Provider-Interface; erster Provider ist die lokale Codex CLI.
+
+## Course Evidence Stabilisierung
+
+Course Evidence ist das normalisierte Objekt, das ein Tool dem Agenten zurueckgibt. Es trennt fachliche Passung, Materiallage und Recovery-Aufwand.
+
+Fuer dieses Ticket reicht eine pragmatische Stabilisierung ueber Tests. Ein formales JSON Schema wird erst angelegt, wenn sich die Felder in den ersten Chat-Tests bewaehren. Trotzdem sollen die Kernfelder stabil bleiben:
+
+- `fit_evidence`
+- `material_evidence`
+- `recovery_evidence`
+- `source`
 
 ## Akzeptanzkriterien
 
 - Ein neuer `mvp/` Ordner existiert mit README, `src/`, `test/` und `output/`.
+- `mvp/package.json` existiert und dokumentiert die relevanten Scripts.
+- `mvp/data/library.db` existiert als Kopie der aktuellen OCW-Library.
 - `mvp/src/tools/ocw-library.js` stellt mindestens `searchCourses(input)` bereit.
+- `mvp/src/agent/providers/codex-cli.js` stellt den ersten Provider-Adapter bereit.
 - `mvp/src/workflows/chat-loop.js` stellt einen minimalen Agent-Chat bereit.
 - Es gibt einen dokumentierten CLI-Befehl, um eine neue Chat-Session zu starten.
 - `searchCourses` gibt normalisierte Course Evidence zurueck:
@@ -105,9 +130,10 @@ Der Agent muss in diesem Ticket noch keinen Lernpfad bauen und keine Kurse endgu
 - Ein Test zeigt, dass ein Chat-Turn eine Kursfrage in einen Tool-Call und eine lesbare Antwort uebersetzt.
 - `npm test` oder ein MVP-spezifischer Testbefehl ist dokumentiert und gruen.
 
-## Offene Fragen
+## Entscheidungen
 
-- Soll `mvp` ein eigenes `package.json` bekommen oder zunaechst die Root-/`ocw-pipeline`-Dependencies nutzen?
-- Soll das erste Tool direkt gegen `ocw-pipeline/library.db` laufen oder einen expliziten `--db`/Config-Pfad verlangen?
-- Wollen wir Course Evidence zuerst als JSON Schema festziehen oder pragmatisch mit Tests stabilisieren?
-- Soll der erste Chat-Loop direkt einen echten LLM-Provider nutzen oder zuerst einen testbaren Agent-Driver mit austauschbarem Provider-Interface?
+- `mvp` bekommt ein eigenes `package.json`.
+- Die aktuelle `ocw-pipeline/library.db` wird nach `mvp/data/library.db` kopiert.
+- Course Evidence wird in diesem Ticket pragmatisch mit Tests stabilisiert, nicht sofort als formales JSON Schema festgezogen.
+- Der Chat-Loop bekommt ein austauschbares Provider-Interface.
+- Direkt angebunden wird die lokale Codex CLI.
