@@ -7,4 +7,5 @@ ocw-pipeline/output/learning-paths/
 ocw-pipeline/output/agent-provider-smoke/
 mvp/data/*.db-shm
 mvp/data/*.db-wal
+mvp/output/chat/
 mvp/spike/output/

@@ -6,6 +6,7 @@ This package is the clean MVP path for the AI University agent. It is separate f
 
 ```bash
 npm test
+npm run chat -- --new --message "Ich will Business Strategy lernen"
 ```
 
 ## Architecture Rules
@@ -20,8 +21,29 @@ npm test
 
 ## Current Scope
 
-This package currently contains only the skeleton and an import-boundary smoke test. Agent providers, tools, workflows, and artifact handling will be added in later tickets.
+This package currently contains the first search-agent happy path:
+
+- `searchCourses(input)` returns course evidence from the local library.
+- The Codex CLI provider asks the model for either a `searchCourses` tool request or a final answer.
+- The chat loop executes requested tools locally, appends results to `conversation.jsonl`, and replays the conversation into the next `codex exec` turn.
+- CLI sessions live under `mvp/output/chat/<session-id>/`.
 
 ## Data
 
 `mvp/data/library.db` is intentionally local to the MVP package so MVP tests and experiments do not depend on mutable prototype output paths.
+
+## Manual Chat Test
+
+Start a new session:
+
+```bash
+npm run chat -- --new --message "Ich will Business Strategy lernen"
+```
+
+Continue with a broader search using the printed session path:
+
+```bash
+npm run chat -- --session <session-dir> --message "Such breiter, auch strategic management und competitive advantage"
+```
+
+Expected behavior: the first turn requests `searchCourses`, the loop executes it, and the agent answers with fit judgments grounded in title, topics, material counts, and weak-signal notes. The second turn should request `searchCourses` again with a broader query.

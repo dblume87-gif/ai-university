@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["kind", "tool", "input", "message", "courses", "data_basis"],
+  "properties": {
+    "kind": {
+      "type": "string",
+      "enum": ["tool_call", "final"]
+    },
+    "tool": {
+      "type": ["string", "null"],
+      "enum": ["searchCourses", null]
+    },
+    "input": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["query", "level", "language", "limit"],
+      "properties": {
+        "query": { "type": ["string", "null"] },
+        "level": { "type": ["string", "null"] },
+        "language": { "type": ["string", "null"] },
+        "limit": { "type": ["integer", "null"], "minimum": 1, "maximum": 10 }
+      }
+    },
+    "message": {
+      "type": ["string", "null"]
+    },
+    "courses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["course_id", "title", "fit", "data_basis"],
+        "properties": {
+          "course_id": { "type": "string" },
+          "title": { "type": "string" },
+          "fit": { "type": "string" },
+          "data_basis": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "data_basis": {
+      "type": ["string", "null"]
+    }
+  }
+}

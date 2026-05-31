@@ -1,6 +1,6 @@
 # 001b - Search-Agent MVP
 
-Status: Blocked (haengt an Skeleton [000](000-mvp-package-skeleton.md) und Spike [001a](001a-spike-codex-mcp-tool-calling.md))
+Status: Done
 
 ## Kontext
 
@@ -156,3 +156,18 @@ irrefuehrend.
 - Tool liefert ehrliche Evidence, Agent urteilt.
 - Multi-Turn ueber Replay; `conversation.jsonl` ist Source of Truth.
 - Provider-Plumbing aus `ocw-pipeline/provider-runtime` wiederverwenden.
+
+## Ergebnis 2026-05-31
+
+- `searchCourses(input)` gebaut: nutzt `normalizeLearningContract` und
+  `selectCourseCandidates`, gibt Course Evidence mit Topics, Material-Counts,
+  Fit-Evidence und markierten Weak Signals zurueck.
+- Wegen 001a-Approval-Ergebnis: Produktpfad nutzt einen eigenen
+  Agent-Tool-Loop statt nativer headless MCP-Calls.
+- `conversation.jsonl` ist append-only Source of Truth pro Session unter
+  `mvp/output/chat/<session-id>/`.
+- CLI:
+  `npm run chat -- --new --message "Ich will Business Strategy lernen"`.
+- Live getestet: zweiter Turn mit „Such breiter..." loest eine neue Suche mit
+  breiterer Query aus.
+- `npm test` gruen.

@@ -5,6 +5,7 @@
   "description": "Clean MVP package for the AI University course search agent.",
   "type": "module",
   "scripts": {
+    "chat": "node src/cli.js chat",
     "test": "node --test test/*.test.js"
   },
   "engines": {
