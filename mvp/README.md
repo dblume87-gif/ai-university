@@ -6,6 +6,7 @@ This package is the clean MVP path for the AI University agent. It is separate f
 
 ```bash
 npm test
+npm run chat -- --help
 npm run chat -- --new --message "Ich will Business Strategy lernen"
 ```
 
@@ -28,6 +29,17 @@ This package currently contains the first search-agent happy path:
 - The chat loop executes requested tools locally, appends results to `conversation.jsonl`, and replays the conversation into the next `codex exec` turn.
 - CLI sessions live under `mvp/output/chat/<session-id>/`.
 
+## Architecture
+
+The MVP intentionally avoids embedding the old deterministic ranking flow as a hidden fallback. Deterministic code is exposed as agent-owned tools:
+
+- `searchCourses` reads `mvp/data/library.db` read-only and wraps `normalizeLearningContract` plus `selectCourseCandidates` from `ocw-pipeline`.
+- Tool output is Course Evidence: title, topics, material metadata counts, fit evidence, weak-signal notes, and source.
+- The agent decides which courses fit the user goal. The tool does not make the final recommendation.
+- `conversation.jsonl` is the replay source of truth for multi-turn chat.
+
+Native Codex MCP tool-calling was proven in `mvp/spike`, but headless `codex exec --sandbox read-only` cancels MCP tool calls before `tools/call` reaches the server. MCP works with approval/sandbox bypass, so the product path uses the explicit JSON tool-loop instead of depending on native MCP approval behavior.
+
 ## Data
 
 `mvp/data/library.db` is intentionally local to the MVP package so MVP tests and experiments do not depend on mutable prototype output paths.
@@ -47,3 +59,10 @@ npm run chat -- --session <session-dir> --message "Such breiter, auch strategic 
 ```
 
 Expected behavior: the first turn requests `searchCourses`, the loop executes it, and the agent answers with fit judgments grounded in title, topics, material counts, and weak-signal notes. The second turn should request `searchCourses` again with a broader query.
+
+## Current Caveats
+
+- Course material counts are metadata only and are marked as unverified; material screening is not part of this MVP slice yet.
+- Weak signals such as generic `business`, `management`, `analysis`, or `matrix` matches are returned deliberately so the agent can reject or qualify them.
+- Chat requires a working local Codex CLI subscription login.
+- Generated chat sessions under `mvp/output/chat/` are local artifacts and are ignored by git.

@@ -1,7 +1,7 @@
 # AI University — Project Summary
 
 **Start:** 2026-04-13  
-**Last Updated:** 2026-05-22  
+**Last Updated:** 2026-05-31  
 **Started by:** Dondi187 (Discord) in #ai-university  
 **Platform:** OpenClaw + Discord
 
@@ -19,7 +19,7 @@ Fuer den Einstieg ins Repo siehe [README.md](README.md). Fuer die aktive Pipelin
 
 AI University ist eine AI-powered Learning Platform fuer kuratierte Lernpfade aus hochwertigen Kursmaterialien. Der aktuelle Build konzentriert sich auf MIT OpenCourseWare und verwandte Kursquellen: Kurse werden entdeckt, gescreent, materialseitig bewertet, fuer NotebookLM vorbereitet und als Basis fuer personalisierte Lernpfade, source-grounded Chat, Mindmaps und spaetere deutschsprachige Erklaervideos genutzt.
 
-Der Fokus hat sich vom fruehen Lernpfad-First-Plan zu einer robusteren kurszentrierten Ingestion verschoben. Seit dem NotebookLM-Integration-Spike vom 2026-05-22 ist klar: Lernpfade koennen als naechster Layer agentisch aufgebaut werden, aber zuerst als kleiner V0-Walking-Skeleton statt als grosse Zielarchitektur.
+Der Fokus hat sich vom fruehen Lernpfad-First-Plan zu einer robusteren kurszentrierten Ingestion verschoben. Seit dem NotebookLM-Integration-Spike vom 2026-05-22 ist klar: Lernpfade koennen als naechster Layer agentisch aufgebaut werden. Am 2026-05-31 wurde dafuer ein sauber getrennter Search-Agent-MVP unter `mvp/` begonnen: Der Agent chattet mit dem User, fordert `searchCourses` als kontrolliertes Tool an, bekommt Course Evidence aus der lokalen Library und faellt erst danach das Fit-Urteil.
 
 Langfristig soll ein Nutzer nicht nur fertige Kursvideos sehen, sondern in einem eigenen Lernpfad-Notebook mit Quellen chatten, Themen per Mindmap erkunden und daraus massgeschneiderte Materialien bestellen koennen.
 
@@ -35,7 +35,11 @@ Langfristig soll ein Nutzer nicht nur fertige Kursvideos sehen, sondern in einem
 - [x] Bestehende Online-Notebooks mit `library.db` synchronisieren
 - [x] NotebookLM-Chat-/Mindmap-Spike gegen vorhandenes Kurs-Notebook durchfuehren
 - [x] Zielbild fuer Learning Path Orchestrator dokumentieren
-- [ ] V0-Walking-Skeleton fuer source-grounded Chat auf bestehendem Notebook bauen
+- [x] Eigenen `mvp/`-Pfad mit lokaler `library.db`-Kopie und Import-Boundary anlegen
+- [x] Codex-MCP-Tool-Calling-Spike durchfuehren und Approval-Grenze dokumentieren
+- [x] Search-Agent-MVP mit Codex-Provider-Adapter, eigenem Tool-Loop, `searchCourses` und `conversation.jsonl` bauen
+- [ ] Search-Agent-MVP fachlich verbessern: Query-Expansion, bessere Evidence und User-Freigabe fuer Kandidaten
+- [ ] Source-grounded Chat auf bestehendem Notebook auf die Course-Evidence-Schicht aufsetzen
 - [ ] Persistenten Learning-Path-State mit Resume-Punkten einfuehren
 - [ ] V1-Lernpfad-Orchestrator mit Contract, Kursauswahl, Material-Screening und eigenem Path-Notebook bauen
 - [ ] NotebookLM-Upload-Pipeline im Alltag stabilisieren und Duplikate bereinigen
@@ -77,11 +81,16 @@ Langfristig soll ein Nutzer nicht nur fertige Kursvideos sehen, sondern in einem
    - NotebookLM-Erklaervideos generieren; aktuelles Bottleneck: Tageslimit und Kuratierung.
    - Videos lokal sammeln, zu YouTube hochladen und spaeter auf Kursseiten anzeigen.
 
-7. **Learning Path Orchestrator (naechster Build)**
-   - V0 startet mit einem vorhandenen Notebook und einer kleinen Source-Auswahl.
-   - User-Frage wird mit `notebooklm ask --json -s <source-id...>` quellenbasiert beantwortet.
-   - Antwort, Citations und Source IDs werden gespeichert und koennen spaeter in Materialproduktion ueberfuehrt werden.
-   - V1 erweitert dies zu Contract -> Kursauswahl -> Material-Screening -> Lernplan -> eigenem Notebook -> Mindmap -> Chat/Materialien.
+7. **Search-Agent-MVP (`mvp/`)**
+   - User startet einen CLI-Chat und beschreibt, was er lernen will.
+   - Der Codex-Provider gibt entweder einen `searchCourses`-Tool-Request oder eine finale Antwort aus.
+   - Der lokale Tool-Loop fuehrt `searchCourses` read-only gegen `mvp/data/library.db` aus und schreibt User-, Tool- und Agent-Eintraege in `conversation.jsonl`.
+   - Der Agent bewertet die Evidence aus Titel, Topics, Material-Counts und markierten Weak Signals; die deterministische Suche liefert Evidence, nicht die endgueltige fachliche Entscheidung.
+
+8. **Learning Path Orchestrator (naechster Layer)**
+   - Course Evidence wird mit Material-Screening, Kandidaten-Freigabe und NotebookLM-Quellen verbunden.
+   - Source-grounded Chat nutzt spaeter `notebooklm ask --json -s <source-id...>` fuer konkrete Notebook-Quellen.
+   - V1 erweitert dies zu Contract -> Kursauswahl -> Material-Screening -> Lernplan -> eigenem Path-Notebook -> Mindmap -> Chat/Materialien.
 
 ---
 
@@ -94,6 +103,7 @@ Langfristig soll ein Nutzer nicht nur fertige Kursvideos sehen, sondern in einem
 | **NotebookLM** | aktiv | Kurs-Notebooks, Sources und AI-Content-Generierung |
 | **NotebookLM CLI** | aktiv | Online-Notebooks listen, Metadaten lesen, Sources uploaden, Sync mit `library.db`, source-grounded Chat, Mindmaps |
 | **SQLite** | aktiv | `ocw-pipeline/library.db` als Source of Truth fuer Kursstatus |
+| **Search-Agent-MVP** | aktiv | Eigenes `mvp/`-Package mit Codex-Provider-Adapter, Tool-Loop und lokaler `library.db`-Kopie |
 | **Node.js OCW Pipeline** | aktiv | Discovery, Screening, Shortlist, Similar, NotebookLM-Integration |
 | **YouTube** | geplant/teilweise aktiv | Kanal vorhanden, Upload-Pipeline noch ausbauen |
 | **Discord** | geplant/aktiv | Interface und Community-Kanal |
@@ -199,6 +209,8 @@ Lokal liegen aktuell **11 MP4-Dateien** in `downloads/`:
 |-------|-------|
 | `README.md` | Einstieg ins Gesamtprojekt und Links auf aktuelle Doku |
 | `ocw-pipeline/src/scrape.js` | Haupt-CLI fuer Discovery, Screening, Kuratierung und NotebookLM |
+| `mvp/` | Neuer Search-Agent-MVP: Chat, Codex-Provider-Adapter, `searchCourses`, Conversation-Artefakte |
+| `mvp/README.md` | Bedienung, Architekturregeln und manueller Happy-Path-Test des Search-Agent-MVP |
 | `ocw-pipeline/src/notebooklm/manifest.js` | NotebookLM Ready/Approve/Export/Upload/Sync |
 | `ocw-pipeline/library.db` | SQLite Source of Truth fuer Kursstatus, Materialien und NotebookLM-IDs |
 | `ocw-pipeline/README.md` | OCW-Pipeline- und NotebookLM-CLI-Dokumentation |
@@ -221,11 +233,11 @@ Lokal liegen aktuell **11 MP4-Dateien** in `downloads/`:
 
 ## Naechste Schritte
 
-1. V0-Walking-Skeleton fuer source-grounded Chat auf MIT 6.0001 bauen.
-2. Minimalen Learning-Path-State/Resume Store definieren.
-3. Unit-/Source-Auswahl aus `course_units.json` und NotebookLM `source_id`s verbinden.
-4. Aus Chat-Antworten optionale Unit-Materialien oder Topic-Deep-Dives erzeugen.
-5. V1 Contract -> Kursauswahl -> Material-Screening -> Lernplan implementieren.
+1. Search-Agent-MVP fachlich verbessern: Query-Expansion, bessere Kurs-Evidence und Kandidaten nur nach User-Freigabe behalten.
+2. Material-Screening und Source-Recovery additiv an `searchCourses`/Course Evidence anschliessen.
+3. Minimalen Learning-Path-State/Resume Store definieren.
+4. Source-grounded NotebookLM-Chat auf freigegebene Kurse und konkrete Source IDs aufsetzen.
+5. Aus Chat-Antworten optionale Unit-Materialien oder Topic-Deep-Dives erzeugen.
 6. Online-Notebook-Duplikat fuer MIT 6.0001 entscheiden: behalten, loeschen oder als Alias dokumentieren.
 7. YouTube-Upload- und Kursseiten-Publishing vorbereiten.
 
