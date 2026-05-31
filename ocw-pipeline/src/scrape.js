@@ -92,6 +92,12 @@ import {
   getLearnUnitMapOptions,
   printUnitSourceMapResult
 } from './learning/unit-map.js';
+import {
+  getAgentSessionOptions,
+  printAgentStatus,
+  runAgentStatus,
+  runInteractiveAgentChat
+} from './learning/agent/session/index.js';
 
 const args = process.argv.slice(2);
 const command = args[0];
@@ -143,6 +149,8 @@ Usage:
   node src/scrape.js learn plan --materials path [--contract path] [--out path]
   node src/scrape.js learn notebook --plan path [--create] [--wait] [--dry-run]
   node src/scrape.js learn v1 run --goal "..." [--out dir] [--live-notebook]
+  node src/scrape.js learn agent chat --new [--goal "..."] [--provider deterministic] [--out dir]
+  node src/scrape.js learn agent status --run <run-id>
   node src/scrape.js learn units map [--course-units path] [--source-list path] [--out path]
   node src/scrape.js test [course-id]
   node src/scrape.js status
@@ -446,6 +454,22 @@ async function main() {
         }
         const result = await runV1Harness(options);
         printV1RunResult(result);
+      } else if (action === 'agent') {
+        const options = getAgentSessionOptions(args.slice(2));
+        if (options.help) {
+          printUsage();
+          break;
+        }
+        if (options.action === 'status') {
+          printAgentStatus(runAgentStatus(options));
+          break;
+        }
+        if (options.action === 'chat') {
+          const result = await runInteractiveAgentChat(options);
+          printAgentStatus(result);
+          break;
+        }
+        printUsage();
       } else if (action === 'units' && (args[2] || 'map') === 'map') {
         const options = getLearnUnitMapOptions(args.slice(3));
         if (options.help) {
