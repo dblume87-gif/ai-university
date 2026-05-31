@@ -8,6 +8,7 @@ import {
   ProviderValidationError,
   buildCodexExecArgs,
   buildCodexPrompt,
+  buildCodexReviewOutputSchema,
   createCodexCliProvider,
   createDeterministicProvider,
   runCodexCliAuthSmoke,
@@ -175,6 +176,11 @@ test('buildCodexExecArgs/buildCodexPrompt: nutzt Result-Datei und constraintes T
   assert.ok(args.includes('--output-schema'));
   assert.ok(args.includes('--output-last-message'));
   assert.equal(args.at(-1), '-');
+  const outputSchema = buildCodexReviewOutputSchema('topic_fit');
+  assert.ok(outputSchema.properties.proposed_actions.items.required.includes('params'));
+  assert.equal(outputSchema.properties.proposed_actions.items.properties.params.additionalProperties, false);
+  assert.equal(outputSchema.properties.data.additionalProperties, false);
+  assert.ok(outputSchema.properties.data.required.includes('verdicts'));
   assert.match(prompt, /liest keine Dateien/);
   assert.match(prompt, /broaden, refine, continue_anyway/);
   assert.match(prompt, /Parent-Topic/);

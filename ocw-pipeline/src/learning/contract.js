@@ -434,4 +434,26 @@ function createContractId() {
   return `${DEFAULT_LEARNING_PATH_ID}-${randomUUID().slice(0, 8)}`;
 }
 
-const STOPWORDS = new Set(['ich', 'will', 'lernen', 'verstehen', 'bauen', 'und', 'oder', 'the', 'and', 'for', 'mit']);
+const STOPWORDS = new Set([
+  'ich',
+  'will',
+  'lernen',
+  'verstehen',
+  'bauen',
+  'und',
+  'oder',
+  'the',
+  'and',
+  'for',
+  'to',
+  'mit',
+  'course',
+  'courses',
+  'fundamental',
+  'fundamentals',
+  'beginner',
+  'beginners',
+  'grundlagen',
+  'kurs',
+  'kurse'
+]);

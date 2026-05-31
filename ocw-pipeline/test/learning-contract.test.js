@@ -191,6 +191,35 @@ test('selectCourseCandidates: selector_terms bringen uebersetztes Goal vor dem R
   assert.deepEqual(withBridge.candidate_courses[0].thematic_fit.matched_tokens, ['cardiology']);
 });
 
+test('selectCourseCandidates: selector_terms ignorieren reine Kurs-Fuellwoerter', () => {
+  const dbPath = createFixtureDb([
+    course({
+      course_id: '6-0001-python',
+      title: 'Introduction to Computer Science and Programming in Python',
+      topics: [['Engineering', 'Computer Science', 'Programming Languages']],
+      learning_resource_types: ['Lecture Videos', 'Problem Sets'],
+      lectureVideos: 12,
+      psets: 6,
+      tier_score: 40
+    })
+  ]);
+  const contract = normalizeLearningContract({
+    goal: 'Ich will Business Strategy lernen',
+    current_level: 'beginner',
+    target_outcome: 'prototype',
+    style: 'practical'
+  });
+
+  const selection = selectCourseCandidates({
+    contract,
+    dbPath,
+    limit: 5,
+    selector_terms: ['go-to-market strategy course', 'business strategy fundamentals']
+  });
+
+  assert.equal(selection.candidate_courses.some(candidate => candidate.course_id === '6-0001-python'), false);
+});
+
 test('saveLearningContract/saveCandidateSelection: schreibt JSON-Artefakte', () => {
   const dir = mkdtempSync(join(tmpdir(), 'learning-contract-save-'));
   const contract = normalizeLearningContract({ goal: 'Ich will AI Apps bauen', contractId: 'contract-1' });

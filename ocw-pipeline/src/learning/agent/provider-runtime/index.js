@@ -228,7 +228,7 @@ export function buildCodexPrompt({ task, input = {}, schema = REVIEW_RESULT_SCHE
     '',
     `Task: ${task}`,
     `Erlaubte Actions fuer diese Task: ${allowedActions.join(', ') || '(keine)'}`,
-    'Jede proposed_action muss safe_default boolean setzen.',
+    'Jede proposed_action muss params als leeres Objekt {} und safe_default boolean setzen.',
     'yes darf spaeter nur safe_default=true ausloesen; markiere riskante continue_anyway-Actions deshalb safe_default=false.',
     '',
     'Task-Anweisungen:',
@@ -261,6 +261,7 @@ function buildTaskInstructions(task) {
       '- Erweitere das Lernziel semantisch: Kernbegriffe, eng verwandte Suchbegriffe und sinnvolle deutsch/englische Uebersetzungen.',
       '- data muss domain_terms, synonyms, translations, topic_terms, selector_terms, language, level und exclusions enthalten.',
       '- selector_terms sind fuer die Course-Suche: waehle spezifische Begriffe, die gute Kurse finden, statt nur breite Parent-Kategorien.',
+      '- selector_terms duerfen keine Fuellwoerter wie course, fundamentals, beginner, Grundlagen oder Kurs brauchen, wenn diese allein nicht fachlich diskriminieren.',
       '- Breite Parent-Kategorien duerfen als Kontext in topic_terms bleiben, sollen selector_terms aber nicht allein dominieren.',
       '- Wenn das Ziel fachlich zu unklar ist oder du keine spezifische Suchrichtung ableiten kannst, gib decision="ask_user" mit default_action=null zurueck.'
     ].join('\n');
@@ -270,9 +271,11 @@ function buildTaskInstructions(task) {
     return [
       '- Bewerte jeden Kandidaten fachlich gegen das Lernziel, goal_expansion, Titel, Themenpfad, matched_tokens und Score.',
       '- Ein gemeinsamer grober Parent-Topic wie eine Department-/Fakultaets-Kategorie reicht nie allein fuer accept.',
-      '- Akzeptiere nur Kandidaten, deren Titel oder Themenpfad plausibel zum spezifischen Lernziel passt.',
-      '- Markiere plausible, aber schwach belegte Treffer als low_confidence; markiere Parent-only oder fachlich abwegige Treffer als reject.',
+      '- Akzeptiere nur Kandidaten, deren Titel oder Themenpfad das spezifische Lernziel direkt lehrt oder klar abdeckt.',
+      '- Kurse, die nur als Voraussetzung, Grundlage, Kontext oder indirekte Hilfe nuetzlich waeren, sind low_confidence oder reject, nie accept.',
+      '- Markiere plausible, aber schwach belegte Treffer als low_confidence; markiere Parent-only, Fuellwort-Treffer oder fachlich abwegige Treffer als reject.',
       '- data muss verdicts pro Kandidat, accepted_candidate_ids und low_confidence_candidate_ids enthalten.',
+      '- continue_anyway ist immer riskant und muss safe_default=false bleiben; setze es nie als default_action.',
       '- Wenn es akzeptierte Kandidaten gibt, decision="accepted"; wenn nur unsichere Kandidaten bleiben, decision="ask_user" mit continue_anyway safe_default=false.'
     ].join('\n');
   }
@@ -319,18 +322,114 @@ export function buildCodexReviewOutputSchema(task) {
         items: {
           type: 'object',
           additionalProperties: false,
-          required: ['action', 'label', 'safe_default'],
+          required: ['action', 'label', 'params', 'safe_default'],
           properties: {
             action: actionNameSchema,
             label: { type: 'string' },
-            params: { type: 'object' },
+            params: {
+              type: 'object',
+              additionalProperties: false,
+              required: [],
+              properties: {}
+            },
             safe_default: { type: 'boolean' }
           }
         }
       },
-      data: {}
+      data: buildCodexReviewDataSchema(task)
     }
   };
+}
+
+function buildCodexReviewDataSchema(task) {
+  if (task === 'goal_expansion') {
+    return strictObjectSchema({
+      domain_terms: stringArraySchema(),
+      synonyms: stringArraySchema(),
+      translations: stringArraySchema(),
+      topic_terms: stringArraySchema(),
+      selector_terms: stringArraySchema(),
+      language: { type: 'string' },
+      level: nullableStringSchema(),
+      exclusions: stringArraySchema()
+    });
+  }
+
+  if (task === 'topic_fit') {
+    return strictObjectSchema({
+      verdicts: {
+        type: 'array',
+        items: strictObjectSchema({
+          course_id: { type: 'string' },
+          verdict: { type: 'string', enum: ['accept', 'reject', 'low_confidence'] },
+          reasons: stringArraySchema(),
+          matched_terms: stringArraySchema(),
+          title_only: { type: 'boolean' }
+        })
+      },
+      accepted_candidate_ids: stringArraySchema(),
+      low_confidence_candidate_ids: stringArraySchema()
+    });
+  }
+
+  if (task === 'coverage_review') {
+    return strictObjectSchema({
+      course_coverage: {
+        type: 'array',
+        items: strictObjectSchema({
+          course_id: { type: 'string' },
+          title: nullableStringSchema(),
+          usable_source_count: { type: 'number' },
+          unit_count: { type: 'number' },
+          coverage_ratio: { type: 'number' },
+          gap_codes: stringArraySchema(),
+          empty: { type: 'boolean' },
+          thin: { type: 'boolean' }
+        })
+      },
+      empty_course_ids: stringArraySchema(),
+      thin_course_ids: stringArraySchema()
+    });
+  }
+
+  if (task === 'plan_review') {
+    return strictObjectSchema({
+      flags: {
+        type: 'array',
+        items: strictObjectSchema({
+          code: { type: 'string' },
+          unit_id: nullableStringSchema(),
+          course_id: nullableStringSchema(),
+          title: nullableStringSchema(),
+          normalized_title: nullableStringSchema()
+        })
+      },
+      flag_counts: strictObjectSchema({
+        raw_title: { type: 'number' },
+        unit_without_sources: { type: 'number' },
+        course_id_mismatch: { type: 'number' }
+      })
+    });
+  }
+
+  return strictObjectSchema({});
+}
+
+function strictObjectSchema(properties) {
+  return {
+    type: 'object',
+    additionalProperties: false,
+    required: Object.keys(properties),
+    properties
+  };
+}
+
+function stringArraySchema() {
+  return { type: 'array', items: { type: 'string' } };
+}
+
+function nullableStringSchema() {
+  return { anyOf: [{ type: 'string' }, { type: 'null' }] };
 }
 
 export function buildCodexExecArgs({ cwd = process.cwd(), schemaPath, resultPath } = {}) {
