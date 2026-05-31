@@ -37,7 +37,9 @@ export function createQualityReviewProvider() {
   return createDeterministicProvider({
     handlers: {
       goal_expansion: ({ input }) => reviewGoalExpansion(input),
-      topic_fit: ({ input }) => reviewTopicFit(input)
+      topic_fit: ({ input }) => reviewTopicFit(input),
+      coverage_review: ({ input }) => reviewSourceCoverage(input),
+      plan_review: ({ input }) => reviewPlanQuality(input)
     }
   });
 }
@@ -167,6 +169,159 @@ export function buildAcceptedCandidateSelection(selection, reviewData, { include
   };
 }
 
+export function reviewSourceCoverage(input = {}) {
+  const overviews = input.course_material_overviews || input.screening?.course_material_overviews || [];
+  const courseCoverage = overviews.map(overview => {
+    const usableSourceCount = (overview.usable_sources || []).length;
+    const unitCount = Number(overview.unit_count || overview.units?.length || 0);
+    const coverageRatio = unitCount > 0 ? usableSourceCount / unitCount : (usableSourceCount > 0 ? 1 : 0);
+    const gapCodes = (overview.gaps || []).map(gap => gap.code);
+    return {
+      course_id: overview.course_id,
+      title: overview.title || null,
+      usable_source_count: usableSourceCount,
+      unit_count: unitCount,
+      coverage_ratio: Math.round(coverageRatio * 100) / 100,
+      gap_codes: gapCodes,
+      empty: usableSourceCount === 0 || gapCodes.includes('no_usable_sources'),
+      thin: usableSourceCount > 0 && unitCount > 0 && coverageRatio < 0.5
+    };
+  });
+
+  const emptyCourses = courseCoverage.filter(item => item.empty);
+  const thinCourses = courseCoverage.filter(item => item.thin);
+
+  if (courseCoverage.length === 0 || emptyCourses.length === courseCoverage.length) {
+    return {
+      decision: 'retry',
+      reasons: ['Keine akzeptierten Kurse haben nutzbare Quellen.'],
+      default_action: 'recover_sources',
+      proposed_actions: [
+        { action: 'recover_sources', label: 'Deep Scan und Unit Export starten', params: {
+          rescreenMissing: true,
+          exportMissingUnits: true
+        }, safe_default: true }
+      ],
+      data: {
+        course_coverage: courseCoverage,
+        empty_course_ids: emptyCourses.map(item => item.course_id),
+        thin_course_ids: thinCourses.map(item => item.course_id)
+      }
+    };
+  }
+
+  if (emptyCourses.length > 0 || thinCourses.length > 0) {
+    return {
+      decision: 'ask_user',
+      reasons: ['Einzelne Kurse haben keine oder duenne Source-Coverage.'],
+      default_action: 'recover_sources',
+      proposed_actions: [
+        { action: 'recover_sources', label: 'Deep Scan und Unit Export starten', params: {
+          rescreenMissing: true,
+          exportMissingUnits: true
+        }, safe_default: true },
+        { action: 'continue_anyway', label: 'Trotzdem fortfahren', params: {
+          empty_course_ids: emptyCourses.map(item => item.course_id),
+          thin_course_ids: thinCourses.map(item => item.course_id)
+        }, safe_default: false }
+      ],
+      data: {
+        course_coverage: courseCoverage,
+        empty_course_ids: emptyCourses.map(item => item.course_id),
+        thin_course_ids: thinCourses.map(item => item.course_id)
+      }
+    };
+  }
+
+  return {
+    decision: 'accepted',
+    reasons: ['Alle akzeptierten Kurse haben nutzbare Source-Coverage.'],
+    default_action: null,
+    proposed_actions: [],
+    data: {
+      course_coverage: courseCoverage,
+      empty_course_ids: [],
+      thin_course_ids: []
+    }
+  };
+}
+
+export function reviewPlanQuality(input = {}) {
+  const plan = input.plan || input;
+  const selectedCourseIds = new Set((plan.selected_courses || []).map(course => course.course_id));
+  const flags = [];
+
+  for (const unit of plan.units || []) {
+    if (isRawTitle(unit.title)) {
+      flags.push({
+        code: 'raw_title',
+        unit_id: unit.unit_id || null,
+        course_id: unit.course_id || null,
+        title: unit.title,
+        normalized_title: normalizeUnitTitle(unit.title)
+      });
+    }
+    if ((unit.sources || []).length === 0 && (unit.source_ids || []).length === 0) {
+      flags.push({
+        code: 'unit_without_sources',
+        unit_id: unit.unit_id || null,
+        course_id: unit.course_id || null,
+        title: unit.title || null
+      });
+    }
+    if (unit.course_id && selectedCourseIds.size > 0 && !selectedCourseIds.has(unit.course_id)) {
+      flags.push({
+        code: 'course_id_mismatch',
+        unit_id: unit.unit_id || null,
+        course_id: unit.course_id,
+        title: unit.title || null
+      });
+    }
+  }
+
+  if (flags.length > 0) {
+    return {
+      decision: 'ask_user',
+      reasons: [`Der Lernpfad hat ${flags.length} Qualitaets-Flag(s).`],
+      default_action: 'normalize_titles',
+      proposed_actions: [
+        { action: 'normalize_titles', label: 'Titel normalisieren', params: {}, safe_default: true },
+        { action: 'drop_unit', label: 'Problematische Unit entfernen', params: {}, safe_default: false },
+        { action: 'continue_anyway', label: 'Trotzdem fortfahren', params: {}, safe_default: false }
+      ],
+      data: {
+        flags,
+        flag_counts: countByCode(flags)
+      }
+    };
+  }
+
+  return {
+    decision: 'accepted',
+    reasons: ['Der Lernpfad hat keine blockierenden Qualitaets-Flags.'],
+    default_action: null,
+    proposed_actions: [],
+    data: {
+      flags: [],
+      flag_counts: {}
+    }
+  };
+}
+
+export function normalizeUnitTitle(title) {
+  const withoutExtension = String(title || '').replace(/\.(pdf|pptx?|docx?)$/i, '');
+  const spaced = withoutExtension
+    .replace(/[_-]+/g, ' ')
+    .replace(/\blec(?:ture)?\s*0*(\d+)\b/i, 'Lecture $1')
+    .replace(/\bsession\s*0*(\d+)\b/i, 'Session $1')
+    .replace(/\b(?=[A-Za-z0-9]*[A-Za-z])(?=[A-Za-z0-9]*\d)[A-Za-z0-9]{4,}\b/g, '')
+    .replace(/([a-z])([A-Z])/g, '$1 $2')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (/^\d+$/.test(spaced)) return `Lecture ${Number(spaced)}`;
+  return toTitleCase(spaced || String(title || '').trim());
+}
+
 function buildCandidateVerdict(candidate, topicTerms) {
   const titleTokens = tokenize(candidate.title || '');
   const topicTokens = tokenize((candidate.signals?.topics || []).flat(Infinity).join(' '));
@@ -214,6 +369,32 @@ function extractCandidates(input) {
   return input.candidate_courses || input.candidates || input.selection?.candidate_courses || [];
 }
 
+function isRawTitle(title) {
+  const text = String(title || '').trim();
+  if (!text) return true;
+  const wordTokens = tokenize(text);
+  if (/\.(pdf|pptx?|docx?)$/i.test(text)) return true;
+  if (/[A-Z]{2,}\d/.test(text)) return true;
+  if (/_/.test(text)) return true;
+  if (/[a-z][A-Z]/.test(text)) return true;
+  if (/^\d+$/.test(text)) return true;
+  if (wordTokens.length < 3 && !/^lecture\s+\d+$/i.test(text)) return true;
+  return nonLinguisticRatio(text) > 0.35;
+}
+
+function nonLinguisticRatio(text) {
+  const chars = [...String(text || '')];
+  if (chars.length === 0) return 1;
+  const nonLinguistic = chars.filter(char => !/[a-zA-Z0-9\s:,'()&/-]/.test(char)).length;
+  return nonLinguistic / chars.length;
+}
+
+function countByCode(flags) {
+  const counts = {};
+  for (const flag of flags) counts[flag.code] = (counts[flag.code] || 0) + 1;
+  return counts;
+}
+
 function collectMappedTerms(goal, domainTerms) {
   const lowerGoal = normalizeText(goal);
   const synonyms = [];
@@ -246,6 +427,17 @@ function normalizeText(value) {
     .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
     .trim();
+}
+
+function toTitleCase(value) {
+  return String(value || '')
+    .split(/\s+/)
+    .filter(Boolean)
+    .map(word => {
+      if (/^\d+$/.test(word)) return word;
+      return `${word.slice(0, 1).toUpperCase()}${word.slice(1).toLowerCase()}`;
+    })
+    .join(' ');
 }
 
 const STOPWORDS = new Set(['ich', 'will', 'lernen', 'verstehen', 'bauen', 'und', 'oder', 'the', 'and', 'for', 'mit']);

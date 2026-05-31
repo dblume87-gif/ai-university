@@ -3,7 +3,10 @@ import assert from 'node:assert/strict';
 import {
   buildAcceptedCandidateSelection,
   createQualityReviewProvider,
+  normalizeUnitTitle,
   reviewGoalExpansion,
+  reviewPlanQuality,
+  reviewSourceCoverage,
   reviewTopicFit
 } from '../src/learning/agent/quality-review/index.js';
 
@@ -115,6 +118,87 @@ test('createQualityReviewProvider: exposed handler results validate through prov
   assert.equal(result.decision, 'accepted');
   assert.equal(result.metadata.provider, 'deterministic');
   assert.ok(result.data.topic_terms.includes('cardiology'));
+});
+
+test('reviewSourceCoverage: alle Kurse leer erzeugt retry mit recover_sources', () => {
+  const result = reviewSourceCoverage({
+    course_material_overviews: [
+      { course_id: 'course-a', title: 'Course A', usable_sources: [], unit_count: 0, gaps: [{ code: 'no_usable_sources' }] },
+      { course_id: 'course-b', title: 'Course B', usable_sources: [], unit_count: 2, gaps: [{ code: 'no_usable_sources' }] }
+    ]
+  });
+
+  assert.equal(result.decision, 'retry');
+  assert.equal(result.default_action, 'recover_sources');
+  assert.deepEqual(result.proposed_actions[0].params, {
+    rescreenMissing: true,
+    exportMissingUnits: true
+  });
+  assert.deepEqual(result.data.empty_course_ids, ['course-a', 'course-b']);
+});
+
+test('reviewSourceCoverage: per-Kurs Coverage maskiert leeren Nachbarkurs nicht', () => {
+  const result = reviewSourceCoverage({
+    course_material_overviews: [
+      { course_id: 'course-a', title: 'Course A', usable_sources: [{ source_id: 'a:m1' }, { source_id: 'a:m2' }], unit_count: 2, gaps: [] },
+      { course_id: 'course-b', title: 'Course B', usable_sources: [], unit_count: 2, gaps: [{ code: 'no_usable_sources' }] }
+    ]
+  });
+
+  assert.equal(result.decision, 'ask_user');
+  assert.equal(result.default_action, 'recover_sources');
+  assert.deepEqual(result.data.empty_course_ids, ['course-b']);
+  assert.equal(result.proposed_actions.find(action => action.action === 'continue_anyway').safe_default, false);
+});
+
+test('reviewPlanQuality: flaggt rohe Titel, Units ohne Sources und Course-Mismatch', () => {
+  const result = reviewPlanQuality({
+    selected_courses: [{ course_id: 'course-a' }],
+    units: [
+      {
+        unit_id: 'course-b:u01',
+        course_id: 'course-b',
+        title: 'MIT18_01SCF10_lec03.pdf',
+        source_ids: [],
+        sources: []
+      }
+    ],
+    sources: []
+  });
+
+  assert.equal(result.decision, 'ask_user');
+  assert.deepEqual(result.data.flag_counts, {
+    raw_title: 1,
+    unit_without_sources: 1,
+    course_id_mismatch: 1
+  });
+  assert.equal(result.default_action, 'normalize_titles');
+  assert.equal(result.proposed_actions.find(action => action.action === 'continue_anyway').safe_default, false);
+  assert.equal(result.data.flags.find(flag => flag.code === 'raw_title').normalized_title, 'Lecture 3');
+});
+
+test('reviewPlanQuality: akzeptiert sauberen Plan', () => {
+  const result = reviewPlanQuality({
+    selected_courses: [{ course_id: 'course-a' }],
+    units: [
+      {
+        unit_id: 'course-a:u01',
+        course_id: 'course-a',
+        title: 'Introduction to Accounting Concepts',
+        source_ids: ['course-a:m1'],
+        sources: [{ source_id: 'course-a:m1' }]
+      }
+    ],
+    sources: [{ source_id: 'course-a:m1' }]
+  });
+
+  assert.equal(result.decision, 'accepted');
+  assert.deepEqual(result.data.flags, []);
+});
+
+test('normalizeUnitTitle: normalisiert typische Rohdateinamen', () => {
+  assert.equal(normalizeUnitTitle('lec1.pdf'), 'Lecture 1');
+  assert.equal(normalizeUnitTitle('session_2_reading.pdf'), 'Session 2 Reading');
 });
 
 function candidate({
