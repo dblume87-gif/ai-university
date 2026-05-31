@@ -28,6 +28,7 @@ import {
   getAgentStatePath,
   loadAgentState,
   sha256Text,
+  validateAcceptedStep,
   writeAgentRunMarkdown,
   writeAgentState
 } from '../run-state/index.js';
@@ -158,9 +159,11 @@ export async function runAgentChat(options = {}, dependencies = {}) {
   const context = initializeContext(options, dependencies);
   announceRun(context);
 
-  while (context.state.status === 'running') {
-    await advanceAgent(context);
-    if (context.state.status !== 'waiting_for_user') continue;
+  while (context.state.status === 'running' || context.state.status === 'waiting_for_user') {
+    if (context.state.status === 'running') {
+      await advanceAgent(context);
+      continue;
+    }
 
     if (typeof context.question !== 'function') break;
     const answer = await context.question('Du: ');
@@ -325,7 +328,7 @@ function initializeContext(options, dependencies) {
   const runDir = resolveRunDir(options);
   const state = options.newRun || !existsSync(getAgentStatePath(runDir))
     ? createInitialState(options, runDir)
-    : loadAgentState(runDir);
+    : prepareResumeState(loadAgentState(runDir));
 
   const context = {
     options,
@@ -382,6 +385,39 @@ function createProvider(providerName, options = {}) {
   if (!providerName || providerName === 'deterministic') return createQualityReviewProvider();
   if (providerName === 'codex-cli') return createCodexCliProvider({ smokePath: options.smokePath || null });
   throw new Error(`Unbekannter Agent-Provider: ${providerName}`);
+}
+
+function prepareResumeState(state) {
+  const nextState = structuredClone(state);
+  const staleIndex = STEP_DEFINITIONS.findIndex(step => {
+    if (nextState.steps?.[step.name]?.status !== 'accepted') return false;
+    const result = validateAcceptedStep(nextState, step.name, {
+      step_version: step.version,
+      schema: step.schema
+    });
+    if (result.valid) return false;
+    nextState.steps[step.name].status = 'stale';
+    nextState.steps[step.name].stale_reason = result.reason;
+    nextState.resume_events = [
+      ...(nextState.resume_events || []),
+      {
+        step: step.name,
+        reason: result.reason,
+        detected_at: new Date().toISOString()
+      }
+    ];
+    return true;
+  });
+
+  if (staleIndex < 0) return nextState;
+
+  for (const step of STEP_DEFINITIONS.slice(staleIndex + 1)) {
+    delete nextState.steps[step.name];
+  }
+  nextState.status = 'running';
+  nextState.active_card = null;
+  nextState.phase = STEP_DEFINITIONS[staleIndex].phase;
+  return nextState;
 }
 
 async function advanceAgent(context) {

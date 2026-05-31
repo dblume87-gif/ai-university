@@ -82,6 +82,7 @@ export function atomicWriteArtifact(path, content) {
 export function appendConversationTurn(logPath, turn) {
   const target = resolve(logPath);
   mkdirSync(dirname(target), { recursive: true });
+  recoverPartialConversationLine(target);
   const normalized = {
     ...turn,
     turn_id: turn.turn_id || nextTurnId(target),
@@ -193,6 +194,14 @@ export function sha256File(path) {
 
 export function sha256Text(value) {
   return `sha256:${createHash('sha256').update(value).digest('hex')}`;
+}
+
+function recoverPartialConversationLine(logPath) {
+  if (!existsSync(logPath)) return;
+  const raw = readFileSync(logPath, 'utf8');
+  if (!raw || raw.endsWith('\n')) return;
+  const lastNewline = raw.lastIndexOf('\n');
+  writeFileSync(logPath, lastNewline >= 0 ? raw.slice(0, lastNewline + 1) : '', 'utf8');
 }
 
 function nextTurnId(logPath) {
