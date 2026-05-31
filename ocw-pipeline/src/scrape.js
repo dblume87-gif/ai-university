@@ -94,7 +94,9 @@ import {
 } from './learning/unit-map.js';
 import {
   getAgentSessionOptions,
+  printAgentProviderSmoke,
   printAgentStatus,
+  runAgentProviderSmoke,
   runAgentStatus,
   runInteractiveAgentChat
 } from './learning/agent/session/index.js';
@@ -151,6 +153,7 @@ Usage:
   node src/scrape.js learn v1 run --goal "..." [--out dir] [--live-notebook]
   node src/scrape.js learn agent chat --new [--goal "..."] [--provider deterministic] [--out dir]
   node src/scrape.js learn agent status --run <run-id>
+  node src/scrape.js learn agent smoke --provider codex-cli [--smoke-path path]
   node src/scrape.js learn units map [--course-units path] [--source-list path] [--out path]
   node src/scrape.js test [course-id]
   node src/scrape.js status
@@ -462,6 +465,10 @@ async function main() {
         }
         if (options.action === 'status') {
           printAgentStatus(runAgentStatus(options));
+          break;
+        }
+        if (options.action === 'smoke') {
+          printAgentProviderSmoke(await runAgentProviderSmoke(options));
           break;
         }
         if (options.action === 'chat') {

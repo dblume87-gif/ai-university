@@ -1,8 +1,17 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { mkdtempSync, readFileSync, writeFileSync } from 'fs';
+import { join } from 'path';
+import { tmpdir } from 'os';
 import {
+  ProviderUnavailableError,
   ProviderValidationError,
+  buildCodexExecArgs,
+  buildCodexPrompt,
+  createCodexCliProvider,
   createDeterministicProvider,
+  runCodexCliAuthSmoke,
+  sanitizeCodexReviewResult,
   reviewJsonWithRepair,
   validateReviewResult
 } from '../src/learning/agent/provider-runtime/index.js';
@@ -138,4 +147,97 @@ test('reviewJsonWithRepair: akzeptiert repariertes valides Ergebnis', async () =
   assert.equal(result.decision, 'accepted');
   assert.deepEqual(result.data, { repaired: true });
   assert.equal(result.metadata.attempts, 2);
+});
+
+test('createCodexCliProvider: bleibt ohne bestandenen Smoke gesperrt', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'codex-provider-gated-'));
+
+  assert.throws(
+    () => createCodexCliProvider({ smokePath: join(dir, 'missing-smoke.json') }),
+    ProviderUnavailableError
+  );
+});
+
+test('buildCodexExecArgs/buildCodexPrompt: nutzt Result-Datei und constraintes Task-Prompt', () => {
+  const args = buildCodexExecArgs({
+    cwd: 'ocw-pipeline',
+    schemaPath: '/tmp/schema.json',
+    resultPath: '/tmp/result.json'
+  });
+  const prompt = buildCodexPrompt({
+    task: 'topic_fit',
+    input: { candidate_courses: [] },
+    schema: { type: 'object' }
+  });
+
+  assert.deepEqual(args.slice(0, 5), ['exec', '--cd', 'ocw-pipeline', '--sandbox', 'read-only']);
+  assert.ok(args.includes('--output-schema'));
+  assert.ok(args.includes('--output-last-message'));
+  assert.equal(args.at(-1), '-');
+  assert.match(prompt, /liest keine Dateien/);
+  assert.match(prompt, /broaden, refine, continue_anyway/);
+});
+
+test('sanitizeCodexReviewResult: entfernt Actions ausserhalb der Task-Allowlist', () => {
+  const result = sanitizeCodexReviewResult('coverage_review', {
+    decision: 'ask_user',
+    reasons: ['Needs work.'],
+    default_action: 'broaden',
+    proposed_actions: [
+      { action: 'broaden', label: 'Breiter suchen', safe_default: true },
+      { action: 'recover_sources', label: 'Deep Scan', params: {}, safe_default: true }
+    ],
+    data: {}
+  });
+
+  assert.equal(result.default_action, null);
+  assert.deepEqual(result.proposed_actions.map(action => action.action), ['recover_sources']);
+});
+
+test('runCodexCliAuthSmoke/createCodexCliProvider: Fake-Smoke schaltet Adapter frei und liest Result-Datei', async () => {
+  const dir = mkdtempSync(join(tmpdir(), 'codex-provider-smoke-'));
+  const smokePath = join(dir, 'smoke.json');
+  const calls = [];
+  const smoke = await runCodexCliAuthSmoke({
+    smokePath,
+    tempRoot: dir,
+    runner: async (args, context) => {
+      calls.push({ args, prompt: context.prompt });
+      writeFileSync(context.resultPath, JSON.stringify({
+        status: 'passed',
+        auth_mode: 'subscription',
+        message: 'ok'
+      }));
+      return { stdout: '{"ignored":true}', stderr: '', exitCode: 0 };
+    }
+  });
+
+  assert.equal(smoke.enabled, true);
+  assert.equal(JSON.parse(readFileSync(smokePath, 'utf8')).status, 'passed');
+
+  const provider = createCodexCliProvider({
+    smokePath,
+    tempRoot: dir,
+    runner: async (args, context) => {
+      calls.push({ args, prompt: context.prompt });
+      writeFileSync(context.resultPath, JSON.stringify({
+        decision: 'accepted',
+        reasons: ['From result file.'],
+        default_action: null,
+        proposed_actions: [
+          { action: 'broaden', label: 'Not allowed here', params: {}, safe_default: true }
+        ],
+        data: { source: 'result-file' }
+      }));
+      return { stdout: '{"decision":"stop"}', stderr: '', exitCode: 0 };
+    }
+  });
+  const review = await provider.reviewJson({ task: 'goal_expansion', input: { goal: 'AI Apps' } });
+
+  assert.equal(review.decision, 'accepted');
+  assert.deepEqual(review.proposed_actions, []);
+  assert.equal(review.data.source, 'result-file');
+  assert.equal(review.metadata.provider, 'codex-cli');
+  assert.equal(review.metadata.attempts, 1);
+  assert.equal(calls.length, 2);
 });

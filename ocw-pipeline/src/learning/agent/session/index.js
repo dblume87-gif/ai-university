@@ -5,6 +5,10 @@ import { dirname, join, resolve } from 'path';
 import { randomUUID } from 'crypto';
 import { fileURLToPath } from 'url';
 import { parseCliArgs } from '../../../lib/cli.js';
+import {
+  createCodexCliProvider,
+  runCodexCliAuthSmoke
+} from '../provider-runtime/index.js';
 import { selectCourseCandidates } from '../../contract.js';
 import { screenCandidateMaterials } from '../../material-screening.js';
 import { buildLearningPathPlan } from '../../planner.js';
@@ -47,7 +51,8 @@ const AGENT_SCHEMA = {
     '--preferred-materials',
     '--out',
     '--db',
-    '--units-root'
+    '--units-root',
+    '--smoke-path'
   ],
   intFlags: ['--limit', '--top', '--max-units', '--max-sources', '--timeout'],
   booleanFlags: ['--new', '--dry-run', '--live-notebook', '--force', '--help', '-h']
@@ -112,6 +117,7 @@ export function getAgentSessionOptions(args) {
     newRun: parsed.has('--new'),
     runId: parsed.getString('--run', parsed.getString('--run-id', null)),
     provider: parsed.getString('--provider', 'deterministic'),
+    smokePath: parsed.getString('--smoke-path', null),
     goal: parsed.getString('--goal') || goalFromPositionals,
     contractPath: parsed.getString('--contract', null),
     currentLevel: parsed.getString('--current-level', null),
@@ -173,6 +179,29 @@ export function runAgentStatus(options = {}) {
     state,
     statePath: getAgentStatePath(runDir)
   };
+}
+
+export async function runAgentProviderSmoke(options = {}, dependencies = {}) {
+  const provider = options.provider || 'codex-cli';
+  if (provider !== 'codex-cli') {
+    throw new Error(`Kein Smoke fuer Provider ${provider} verfuegbar.`);
+  }
+  return runCodexCliAuthSmoke({
+    smokePath: options.smokePath || null,
+    runner: dependencies.runner,
+    cwd: dependencies.cwd,
+    tempRoot: dependencies.tempRoot
+  });
+}
+
+export function printAgentProviderSmoke(result, logger = console) {
+  logger.log('\n=== Agent Provider Smoke ===\n');
+  logger.log(`Provider: ${result.smoke.provider}`);
+  logger.log(`Status: ${result.smoke.status}`);
+  logger.log(`Auth: ${result.smoke.auth_mode}`);
+  logger.log(`Enabled: ${result.enabled ? 'yes' : 'no'}`);
+  logger.log(`Path: ${result.smokePath}`);
+  if (result.smoke.message) logger.log(`Message: ${result.smoke.message}`);
 }
 
 export function printAgentStatus(result, logger = console) {
@@ -304,7 +333,7 @@ function initializeContext(options, dependencies) {
     state,
     logger: dependencies.logger || console,
     question: dependencies.question || null,
-    provider: dependencies.provider || createProvider(options.provider || state.providers?.agent?.adapter),
+    provider: dependencies.provider || createProvider(options.provider || state.providers?.agent?.adapter, options),
     notebookRunner: dependencies.notebookRunner,
     rescreener: dependencies.rescreener,
     unitExporter: dependencies.unitExporter
@@ -349,11 +378,9 @@ function createInitialState(options, runDir) {
   return state;
 }
 
-function createProvider(providerName) {
+function createProvider(providerName, options = {}) {
   if (!providerName || providerName === 'deterministic') return createQualityReviewProvider();
-  if (providerName === 'codex-cli') {
-    throw new Error('Provider codex-cli ist gated und wird in Ticket 08 aktiviert.');
-  }
+  if (providerName === 'codex-cli') return createCodexCliProvider({ smokePath: options.smokePath || null });
   throw new Error(`Unbekannter Agent-Provider: ${providerName}`);
 }
 

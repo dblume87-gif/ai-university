@@ -1,3 +1,17 @@
+import { spawn } from 'child_process';
+import {
+  existsSync,
+  mkdtempSync,
+  mkdirSync,
+  readFileSync,
+  writeFileSync
+} from 'fs';
+import { dirname, join, resolve } from 'path';
+import { tmpdir } from 'os';
+import { fileURLToPath } from 'url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
 export const REVIEW_DECISIONS = Object.freeze(['accepted', 'retry', 'ask_user', 'stop']);
 
 export const REVIEW_TASKS = Object.freeze([
@@ -13,11 +27,27 @@ export const REVIEW_RESULT_SCHEMA = Object.freeze({
 
 const REVIEW_DECISION_SET = new Set(REVIEW_DECISIONS);
 const REVIEW_TASK_SET = new Set(REVIEW_TASKS);
+const CODEX_PROVIDER_NAME = 'codex-cli';
+
+const ALLOWED_ACTIONS_BY_TASK = Object.freeze({
+  goal_expansion: [],
+  topic_fit: ['broaden', 'refine', 'continue_anyway'],
+  coverage_review: ['recover_sources', 'continue_anyway'],
+  plan_review: ['normalize_titles', 'drop_unit', 'continue_anyway']
+});
 
 export class ProviderValidationError extends Error {
   constructor(message, details = {}) {
     super(message);
     this.name = 'ProviderValidationError';
+    this.details = details;
+  }
+}
+
+export class ProviderUnavailableError extends Error {
+  constructor(message, details = {}) {
+    super(message);
+    this.name = 'ProviderUnavailableError';
     this.details = details;
   }
 }
@@ -45,6 +75,264 @@ export function createDeterministicProvider({ handlers = {} } = {}) {
         attempts: 1
       });
     }
+  };
+}
+
+export function createCodexCliProvider(options = {}) {
+  const smokePath = options.smokePath || getCodexCliSmokePath();
+  const smoke = loadCodexCliSmoke(smokePath);
+  if (!isCodexCliSmokePassed(smoke)) {
+    throw new ProviderUnavailableError('Provider codex-cli ist gesperrt: Auth-Smoke fehlt oder ist nicht bestanden.', {
+      smokePath
+    });
+  }
+
+  return {
+    name: CODEX_PROVIDER_NAME,
+    async reviewJson(request) {
+      return reviewJsonWithRepair({
+        task: request?.task,
+        input: request?.input || {},
+        schema: request?.schema || REVIEW_RESULT_SCHEMA,
+        providerName: CODEX_PROVIDER_NAME,
+        execute: async ({ task, input, schema }) => runCodexCliReview({
+          task,
+          input,
+          schema,
+          runner: options.runner,
+          cwd: options.cwd,
+          tempRoot: options.tempRoot
+        }),
+        repair: async ({ task, input, schema, previous, error }) => runCodexCliReview({
+          task,
+          input,
+          schema,
+          previous,
+          error,
+          repair: true,
+          runner: options.runner,
+          cwd: options.cwd,
+          tempRoot: options.tempRoot
+        }),
+        maxRepairAttempts: 1
+      });
+    }
+  };
+}
+
+export async function runCodexCliAuthSmoke(options = {}) {
+  const smokePath = options.smokePath || getCodexCliSmokePath();
+  const schema = {
+    type: 'object',
+    additionalProperties: false,
+    required: ['status', 'auth_mode', 'message'],
+    properties: {
+      status: { type: 'string', enum: ['passed', 'failed'] },
+      auth_mode: { type: 'string', enum: ['subscription', 'api_key', 'unknown'] },
+      message: { type: 'string' }
+    }
+  };
+  const prompt = [
+    'Codex CLI auth smoke for AI University.',
+    'Return only JSON matching the schema.',
+    'Set status="passed" only if this headless codex exec is available and using local ChatGPT/Codex subscription auth.',
+    'If auth mode is unclear, return status="failed" and auth_mode="unknown".'
+  ].join('\n');
+
+  let smoke;
+  try {
+    const result = await runCodexExec({
+      prompt,
+      schema,
+      runner: options.runner,
+      cwd: options.cwd,
+      tempRoot: options.tempRoot
+    });
+    const parsed = readJsonFile(result.resultPath);
+    smoke = {
+      provider: CODEX_PROVIDER_NAME,
+      status: parsed.status === 'passed' && parsed.auth_mode === 'subscription' ? 'passed' : 'failed',
+      auth_mode: parsed.auth_mode || 'unknown',
+      message: parsed.message || '',
+      checked_at: new Date().toISOString(),
+      command: result.command,
+      result_path: result.resultPath,
+      debug_log_path: result.debugLogPath
+    };
+  } catch (err) {
+    smoke = {
+      provider: CODEX_PROVIDER_NAME,
+      status: 'failed',
+      auth_mode: 'unknown',
+      message: err.message,
+      checked_at: new Date().toISOString()
+    };
+  }
+
+  writeJsonFile(smokePath, smoke);
+  return {
+    smoke,
+    smokePath,
+    enabled: isCodexCliSmokePassed(smoke)
+  };
+}
+
+export function isCodexCliProviderEnabled(options = {}) {
+  return isCodexCliSmokePassed(loadCodexCliSmoke(options.smokePath || getCodexCliSmokePath()));
+}
+
+export function getCodexCliSmokePath() {
+  return resolve(process.env.AIU_CODEX_CLI_SMOKE_PATH || join(__dirname, '../../../../output/agent-provider-smoke/codex-cli.json'));
+}
+
+export function buildCodexPrompt({ task, input = {}, schema = REVIEW_RESULT_SCHEMA, repair = false, previous = null, error = null }) {
+  assertValidTask(task);
+  const allowedActions = ALLOWED_ACTIONS_BY_TASK[task] || [];
+  const sections = [
+    'System:',
+    'Du bewertest einen Pipeline-Output fuer einen Lernpfad-Agenten.',
+    'Du fuehrst keine Aktionen aus, liest keine Dateien und verwendest nur die Input-Daten in diesem Prompt.',
+    'Antworte ausschliesslich mit JSON nach dem Output-Schema.',
+    '',
+    `Task: ${task}`,
+    `Erlaubte Actions fuer diese Task: ${allowedActions.join(', ') || '(keine)'}`,
+    'Jede proposed_action muss safe_default boolean setzen.',
+    'yes darf spaeter nur safe_default=true ausloesen; markiere riskante continue_anyway-Actions deshalb safe_default=false.',
+    '',
+    'Output-Schema:',
+    JSON.stringify(schema, null, 2),
+    '',
+    'Input:',
+    JSON.stringify(input, null, 2)
+  ];
+
+  if (repair) {
+    sections.push(
+      '',
+      'Repair-Hinweis:',
+      'Die vorige Antwort war kein valides Review-JSON. Gib jetzt nur ein valides JSON-Objekt zurueck.',
+      `Validierungsfehler: ${error?.message || 'unknown'}`,
+      'Vorige Antwort:',
+      JSON.stringify(previous, null, 2)
+    );
+  }
+
+  return sections.join('\n');
+}
+
+export function buildCodexReviewOutputSchema(task) {
+  assertValidTask(task);
+  const allowedActions = ALLOWED_ACTIONS_BY_TASK[task] || [];
+  const actionNameSchema = allowedActions.length > 0
+    ? { type: 'string', enum: allowedActions }
+    : { type: 'string' };
+  const defaultActionSchema = allowedActions.length > 0
+    ? { anyOf: [{ type: 'string', enum: allowedActions }, { type: 'null' }] }
+    : { anyOf: [{ type: 'string' }, { type: 'null' }] };
+
+  return {
+    type: 'object',
+    additionalProperties: false,
+    required: REVIEW_RESULT_SCHEMA.required,
+    properties: {
+      decision: { type: 'string', enum: REVIEW_DECISIONS },
+      reasons: { type: 'array', items: { type: 'string' } },
+      default_action: defaultActionSchema,
+      proposed_actions: {
+        type: 'array',
+        items: {
+          type: 'object',
+          additionalProperties: false,
+          required: ['action', 'label', 'safe_default'],
+          properties: {
+            action: actionNameSchema,
+            label: { type: 'string' },
+            params: { type: 'object' },
+            safe_default: { type: 'boolean' }
+          }
+        }
+      },
+      data: {}
+    }
+  };
+}
+
+export function buildCodexExecArgs({ cwd = 'ocw-pipeline', schemaPath, resultPath } = {}) {
+  return [
+    'exec',
+    '--cd', cwd,
+    '--sandbox', 'read-only',
+    '--ask-for-approval', 'never',
+    '--ephemeral',
+    '--output-schema', schemaPath,
+    '--output-last-message', resultPath,
+    '-'
+  ];
+}
+
+export async function runCodexCliReview(options = {}) {
+  const schema = buildCodexReviewOutputSchema(options.task);
+  const prompt = buildCodexPrompt({
+    task: options.task,
+    input: options.input,
+    schema,
+    repair: options.repair,
+    previous: options.previous,
+    error: options.error
+  });
+  const result = await runCodexExec({
+    prompt,
+    schema,
+    runner: options.runner,
+    cwd: options.cwd,
+    tempRoot: options.tempRoot
+  });
+  const raw = readJsonFile(result.resultPath);
+  return sanitizeCodexReviewResult(options.task, raw);
+}
+
+export async function runCodexExec({ prompt, schema, runner = runCodexProcess, cwd = 'ocw-pipeline', tempRoot = tmpdir() }) {
+  const dir = mkdtempSync(join(resolve(tempRoot), 'codex-cli-review-'));
+  const schemaPath = join(dir, 'schema.json');
+  const resultPath = join(dir, 'result.json');
+  const debugLogPath = join(dir, 'codex-debug.json');
+  writeJsonFile(schemaPath, schema);
+  const args = buildCodexExecArgs({ cwd, schemaPath, resultPath });
+  const processResult = await runner(args, { prompt, schemaPath, resultPath, debugLogPath, cwd });
+  writeJsonFile(debugLogPath, {
+    command: ['codex', ...args],
+    stdout: processResult?.stdout || '',
+    stderr: processResult?.stderr || '',
+    exitCode: processResult?.exitCode ?? 0
+  });
+  if (!existsSync(resultPath)) {
+    throw new ProviderValidationError('codex-cli did not write the configured result file.', {
+      resultPath
+    });
+  }
+  return {
+    command: ['codex', ...args],
+    schemaPath,
+    resultPath,
+    debugLogPath
+  };
+}
+
+export function sanitizeCodexReviewResult(task, raw) {
+  assertValidTask(task);
+  const allowedActions = new Set(ALLOWED_ACTIONS_BY_TASK[task] || []);
+  const proposedActions = Array.isArray(raw?.proposed_actions)
+    ? raw.proposed_actions.filter(action => allowedActions.has(action?.action))
+    : [];
+  const defaultAction = proposedActions.some(action => action.action === raw?.default_action)
+    ? raw.default_action
+    : null;
+  return {
+    decision: raw?.decision,
+    reasons: raw?.reasons,
+    default_action: defaultAction,
+    proposed_actions: proposedActions,
+    data: raw?.data ?? null
   };
 }
 
@@ -170,6 +458,61 @@ function assertValidTask(task) {
   if (!REVIEW_TASK_SET.has(task)) {
     throw new ProviderValidationError(`Invalid review task: ${String(task)}.`, { field: 'task', value: task });
   }
+}
+
+async function runCodexProcess(args, { prompt }) {
+  return new Promise((resolvePromise, reject) => {
+    const child = spawn('codex', args, {
+      stdio: ['pipe', 'pipe', 'pipe']
+    });
+    let stdout = '';
+    let stderr = '';
+
+    child.stdout.on('data', chunk => {
+      stdout += chunk.toString('utf8');
+    });
+    child.stderr.on('data', chunk => {
+      stderr += chunk.toString('utf8');
+    });
+    child.on('error', reject);
+    child.on('close', exitCode => {
+      if (exitCode !== 0) {
+        const err = new Error(`codex exec failed with exit code ${exitCode}.`);
+        err.stdout = stdout;
+        err.stderr = stderr;
+        err.exitCode = exitCode;
+        reject(err);
+        return;
+      }
+      resolvePromise({ stdout, stderr, exitCode });
+    });
+    child.stdin.write(prompt);
+    child.stdin.end();
+  });
+}
+
+function loadCodexCliSmoke(path) {
+  if (!path || !existsSync(path)) return null;
+  try {
+    return readJsonFile(path);
+  } catch {
+    return null;
+  }
+}
+
+function isCodexCliSmokePassed(smoke) {
+  return smoke?.provider === CODEX_PROVIDER_NAME && smoke.status === 'passed' && smoke.auth_mode === 'subscription';
+}
+
+function readJsonFile(path) {
+  return JSON.parse(readFileSync(resolve(path), 'utf8'));
+}
+
+function writeJsonFile(path, data) {
+  const target = resolve(path);
+  mkdirSync(dirname(target), { recursive: true });
+  writeFileSync(target, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
+  return target;
 }
 
 function validateAction(action, index) {
