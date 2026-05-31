@@ -4,6 +4,7 @@ import {
   mkdtempSync,
   mkdirSync,
   readFileSync,
+  rmSync,
   writeFileSync
 } from 'fs';
 import { dirname, join, resolve } from 'path';
@@ -288,7 +289,17 @@ export async function runCodexCliReview(options = {}) {
     tempRoot: options.tempRoot
   });
   const raw = readJsonFile(result.resultPath);
-  return sanitizeCodexReviewResult(options.task, raw);
+  const sanitized = sanitizeCodexReviewResult(options.task, raw);
+  cleanupCodexTempDir(result.resultPath);
+  return sanitized;
+}
+
+function cleanupCodexTempDir(resultPath) {
+  try {
+    rmSync(dirname(resolve(resultPath)), { recursive: true, force: true });
+  } catch {
+    // Best-effort cleanup of the per-review temp dir; never fail a valid review on it.
+  }
 }
 
 export async function runCodexExec({ prompt, schema, runner = runCodexProcess, cwd = 'ocw-pipeline', tempRoot = tmpdir() }) {

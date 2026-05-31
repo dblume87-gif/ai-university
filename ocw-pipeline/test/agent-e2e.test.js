@@ -237,6 +237,28 @@ test('agent E2E: Resume erkennt manipuliertes Artefakt als stale und rerunnt ab 
   assert.equal(turns.some(turn => turn.turn_id === 'partial'), false);
 });
 
+test('agent E2E: vages Anfangsziel blockiert nicht, freie Ziel-Eingabe fuehrt durch', async () => {
+  const fixture = createFixture({ courses: [accountingCourse()] });
+  const result = await runAgentChat({
+    action: 'chat',
+    newRun: true,
+    runId: 'agent-e2e-vague-goal',
+    goal: 'lernen',
+    outDir: fixture.runDir,
+    dbPath: fixture.dbPath,
+    unitsRoot: fixture.unitsRoot,
+    dryRun: true
+  }, {
+    logger: silentLogger,
+    question: scriptedQuestion(['Ich will Accounting lernen', 'yes'])
+  });
+
+  const turns = readConversationLog(join(fixture.runDir, 'conversation.jsonl'));
+  assert.equal(result.state.status, 'completed');
+  assert.match(turns.map(turn => turn.text).join('\n'), /Lernziel aktualisiert: Ich will Accounting lernen/);
+  assert.ok(existsSync(join(fixture.runDir, 'reviews', 'goal_expansion.review.json')));
+});
+
 function createFixture({ courses }) {
   const dir = mkdtempSync(join(tmpdir(), 'agent-e2e-'));
   const dbPath = join(dir, 'library.db');

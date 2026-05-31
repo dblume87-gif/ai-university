@@ -82,10 +82,10 @@ export function atomicWriteArtifact(path, content) {
 export function appendConversationTurn(logPath, turn) {
   const target = resolve(logPath);
   mkdirSync(dirname(target), { recursive: true });
-  recoverPartialConversationLine(target);
+  const completedLineCount = recoverPartialConversationLine(target);
   const normalized = {
     ...turn,
-    turn_id: turn.turn_id || nextTurnId(target),
+    turn_id: turn.turn_id || `turn_${String(completedLineCount + 1).padStart(4, '0')}`,
     created_at: turn.created_at || new Date().toISOString()
   };
   appendFileSync(target, `${JSON.stringify(normalized)}\n`, 'utf8');
@@ -196,17 +196,26 @@ export function sha256Text(value) {
   return `sha256:${createHash('sha256').update(value).digest('hex')}`;
 }
 
+// Trims a trailing partial line (an aborted append without `\n`) and returns the
+// number of complete lines, so callers get the next turn index from a single read
+// instead of re-parsing the whole log on every append.
 function recoverPartialConversationLine(logPath) {
-  if (!existsSync(logPath)) return;
+  if (!existsSync(logPath)) return 0;
   const raw = readFileSync(logPath, 'utf8');
-  if (!raw || raw.endsWith('\n')) return;
+  if (!raw) return 0;
+  if (raw.endsWith('\n')) return countNewlines(raw);
   const lastNewline = raw.lastIndexOf('\n');
-  writeFileSync(logPath, lastNewline >= 0 ? raw.slice(0, lastNewline + 1) : '', 'utf8');
+  const recovered = lastNewline >= 0 ? raw.slice(0, lastNewline + 1) : '';
+  writeFileSync(logPath, recovered, 'utf8');
+  return countNewlines(recovered);
 }
 
-function nextTurnId(logPath) {
-  const turns = readConversationLog(logPath);
-  return `turn_${String(turns.length + 1).padStart(4, '0')}`;
+function countNewlines(text) {
+  let count = 0;
+  for (let index = 0; index < text.length; index++) {
+    if (text[index] === '\n') count += 1;
+  }
+  return count;
 }
 
 function fsyncDirectory(path) {

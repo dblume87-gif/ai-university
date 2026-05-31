@@ -135,8 +135,8 @@ export function getAgentSessionOptions(args) {
     maxUnits: Math.min(parsed.getPositiveInt('--max-units', 12), 12),
     maxSources: Math.min(parsed.getPositiveInt('--max-sources', 60), 60),
     timeout: parsed.getPositiveInt('--timeout', 180),
-    dryRun: parsed.has('--live-notebook') ? false : true,
-    liveNotebook: parsed.has('--live-notebook'),
+    dryRun: parsed.has('--dry-run') ? true : !parsed.has('--live-notebook'),
+    liveNotebook: parsed.has('--live-notebook') && !parsed.has('--dry-run'),
     force: parsed.has('--force'),
     help: parsed.has('--help') || parsed.has('-h')
   };
@@ -391,9 +391,11 @@ function prepareResumeState(state) {
   const nextState = structuredClone(state);
   const staleIndex = STEP_DEFINITIONS.findIndex(step => {
     if (nextState.steps?.[step.name]?.status !== 'accepted') return false;
+    const dependencies = nextState.steps[step.name].depends_on || [];
     const result = validateAcceptedStep(nextState, step.name, {
       step_version: step.version,
-      schema: step.schema
+      schema: step.schema,
+      input_fingerprint: computeStepInputFingerprint(nextState, step, dependencies)
     });
     if (result.valid) return false;
     nextState.steps[step.name].status = 'stale';
@@ -682,6 +684,13 @@ async function applyCardAction(context, dispatch) {
   }
 
   if (action === 'broaden' && stepName === 'course_discovery') {
+    if (!broadeningAddsTerms(context)) {
+      const hint = 'Breiter suchen bringt fuer dieses Thema keine neuen Suchbegriffe. Schaerfe lieber das Ziel (refine).';
+      appendAgentTurn(context, hint);
+      context.logger.log(hint);
+      context.state.status = 'waiting_for_user';
+      return;
+    }
     approveRetry(context, stepName, { broaden: true, ...params });
     return;
   }
@@ -934,16 +943,7 @@ function beginStep(context, step, dependencies = []) {
     step_version: step.version,
     depends_on: dependencies,
     started_at: new Date().toISOString(),
-    input_fingerprint: createInputFingerprint({
-      stepName: step.name,
-      stepVersion: step.version,
-      taskPolicyVersion: `${step.name}.policy.v1`,
-      inputs: context.state.inputs,
-      dependencyHashes: Object.fromEntries(dependencies.map(name => [
-        name,
-        context.state.steps[name]?.accepted_output?.artifact_sha256
-      ]).filter(([, value]) => value))
-    })
+    input_fingerprint: computeStepInputFingerprint(context.state, step, dependencies)
   };
   context.state.active_card = null;
   context.state.status = 'running';
@@ -963,6 +963,7 @@ function acceptStep(context, step, output, review, summary = {}) {
     phase: step.phase,
     step_version: step.version,
     review,
+    review_output: persistReview(context, step, review),
     accepted_output: acceptedOutput,
     completed_at: new Date().toISOString()
   };
@@ -986,18 +987,25 @@ function waitForUser(context, step, review, cardInput) {
     phase: step.phase,
     step_version: step.version,
     review,
+    review_output: persistReview(context, step, review),
     card_output: card,
     updated_at: new Date().toISOString()
   };
   context.state.phase = step.phase;
   context.state.status = 'waiting_for_user';
-  context.state.active_card = {
-    step: step.name,
-    phase: step.phase,
-    review,
-    card_path: card.artifact_path,
-    created_at: new Date().toISOString()
-  };
+  // A goal gate (Phase 1/2) without proposed actions can only move forward via a
+  // sharper free-text goal. Setting no active card lets handleAgentInput route
+  // that input into the free-text branch instead of rejecting it as "not available".
+  const freeTextGoalGate = (review.proposed_actions || []).length === 0 && FREE_TEXT_PHASES.has(step.phase);
+  context.state.active_card = freeTextGoalGate
+    ? null
+    : {
+        step: step.name,
+        phase: step.phase,
+        review,
+        card_path: card.artifact_path,
+        created_at: new Date().toISOString()
+      };
   appendAgentTurn(context, cardText);
   context.logger.log(`\n${cardText}`);
   persistState(context);
@@ -1109,10 +1117,38 @@ function buildSelectorTermsForRun(context, expansion) {
   return [...broadened];
 }
 
+function broadeningAddsTerms(context) {
+  const expansion = loadAcceptedJson(context, 'goal_expansion');
+  const base = new Set(expansion.selector_terms || []);
+  for (const term of base) {
+    for (const extra of BROADENED_SELECTOR_TERMS[term] || []) {
+      if (!base.has(extra)) return true;
+    }
+  }
+  return false;
+}
+
 function consumeActionParams(context, stepName) {
   const params = context.state.action_params?.[stepName] || {};
   if (context.state.action_params) delete context.state.action_params[stepName];
   return params;
+}
+
+function persistReview(context, step, review) {
+  const out = atomicWriteJson(join(context.runDir, 'reviews', `${step.name}.review.json`), review);
+  return { artifact_path: out.artifact_path, artifact_sha256: out.artifact_sha256 };
+}
+
+function computeStepInputFingerprint(state, step, dependencies = []) {
+  return createInputFingerprint({
+    stepName: step.name,
+    stepVersion: step.version,
+    taskPolicyVersion: `${step.name}.policy.v1`,
+    inputs: state.inputs,
+    dependencyHashes: Object.fromEntries(dependencies
+      .map(name => [name, state.steps?.[name]?.accepted_output?.artifact_sha256])
+      .filter(([, value]) => value))
+  });
 }
 
 function getRetryBudget(context, stepName) {
