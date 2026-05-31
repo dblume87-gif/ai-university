@@ -189,6 +189,7 @@ export function getCodexCliSmokePath() {
 export function buildCodexPrompt({ task, input = {}, schema = REVIEW_RESULT_SCHEMA, repair = false, previous = null, error = null }) {
   assertValidTask(task);
   const allowedActions = ALLOWED_ACTIONS_BY_TASK[task] || [];
+  const taskInstructions = buildTaskInstructions(task);
   const sections = [
     'System:',
     'Du bewertest einen Pipeline-Output fuer einen Lernpfad-Agenten.',
@@ -199,6 +200,9 @@ export function buildCodexPrompt({ task, input = {}, schema = REVIEW_RESULT_SCHE
     `Erlaubte Actions fuer diese Task: ${allowedActions.join(', ') || '(keine)'}`,
     'Jede proposed_action muss safe_default boolean setzen.',
     'yes darf spaeter nur safe_default=true ausloesen; markiere riskante continue_anyway-Actions deshalb safe_default=false.',
+    '',
+    'Task-Anweisungen:',
+    taskInstructions,
     '',
     'Output-Schema:',
     JSON.stringify(schema, null, 2),
@@ -219,6 +223,47 @@ export function buildCodexPrompt({ task, input = {}, schema = REVIEW_RESULT_SCHE
   }
 
   return sections.join('\n');
+}
+
+function buildTaskInstructions(task) {
+  if (task === 'goal_expansion') {
+    return [
+      '- Erweitere das Lernziel semantisch: Kernbegriffe, eng verwandte Suchbegriffe und sinnvolle deutsch/englische Uebersetzungen.',
+      '- data muss domain_terms, synonyms, translations, topic_terms, selector_terms, language, level und exclusions enthalten.',
+      '- selector_terms sind fuer die Course-Suche: waehle spezifische Begriffe, die gute Kurse finden, statt nur breite Parent-Kategorien.',
+      '- Breite Parent-Kategorien duerfen als Kontext in topic_terms bleiben, sollen selector_terms aber nicht allein dominieren.',
+      '- Wenn das Ziel fachlich zu unklar ist oder du keine spezifische Suchrichtung ableiten kannst, gib decision="ask_user" mit default_action=null zurueck.'
+    ].join('\n');
+  }
+
+  if (task === 'topic_fit') {
+    return [
+      '- Bewerte jeden Kandidaten fachlich gegen das Lernziel, goal_expansion, Titel, Themenpfad, matched_tokens und Score.',
+      '- Ein gemeinsamer grober Parent-Topic wie eine Department-/Fakultaets-Kategorie reicht nie allein fuer accept.',
+      '- Akzeptiere nur Kandidaten, deren Titel oder Themenpfad plausibel zum spezifischen Lernziel passt.',
+      '- Markiere plausible, aber schwach belegte Treffer als low_confidence; markiere Parent-only oder fachlich abwegige Treffer als reject.',
+      '- data muss verdicts pro Kandidat, accepted_candidate_ids und low_confidence_candidate_ids enthalten.',
+      '- Wenn es akzeptierte Kandidaten gibt, decision="accepted"; wenn nur unsichere Kandidaten bleiben, decision="ask_user" mit continue_anyway safe_default=false.'
+    ].join('\n');
+  }
+
+  if (task === 'coverage_review') {
+    return [
+      '- Pruefe, ob akzeptierte Kurse genug nutzbare Quellen fuer einen Lernpfad haben.',
+      '- Leere oder duenne Source-Coverage darf nicht still akzeptiert werden.',
+      '- continue_anyway ist riskant und muss safe_default=false bleiben.'
+    ].join('\n');
+  }
+
+  if (task === 'plan_review') {
+    return [
+      '- Pruefe, ob der Lernpfad fachlich konsistent ist, Units Quellen haben und keine rohen Dateinamen als Lerntitel durchrutschen.',
+      '- Kurs-/Unit-Mismatches und quellenlose Units muessen als Flags in data erscheinen.',
+      '- continue_anyway ist riskant und muss safe_default=false bleiben.'
+    ].join('\n');
+  }
+
+  return '- Gib ein valides Review-JSON fuer diese Task zurueck.';
 }
 
 export function buildCodexReviewOutputSchema(task) {

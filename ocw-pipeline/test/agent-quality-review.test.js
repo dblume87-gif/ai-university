@@ -70,6 +70,40 @@ test('reviewTopicFit: markiert Accounting-nur-im-Titel als low_confidence statt 
   assert.equal(result.proposed_actions.find(action => action.action === 'continue_anyway').safe_default, false);
 });
 
+test('reviewTopicFit: akzeptiert nicht allein denselben Parent-Topic in mehreren Kandidaten', () => {
+  const result = reviewTopicFit({
+    topic_terms: ['business', 'strategy'],
+    candidate_courses: [
+      candidate({
+        course_id: '15-501-accounting',
+        title: 'Introduction to Financial and Managerial Accounting',
+        topics: ['Business', 'Accounting', 'Management'],
+        matched_tokens: ['business'],
+        score: 84
+      }),
+      candidate({
+        course_id: '2-008-manufacturing',
+        title: 'Design and Manufacturing II',
+        topics: ['Business', 'Operations Management', 'Engineering'],
+        matched_tokens: ['business'],
+        score: 84
+      }),
+      candidate({
+        course_id: '15-010-strategy-info',
+        title: 'Strategy and Information',
+        topics: ['Business', 'Management'],
+        matched_tokens: ['business', 'strategy'],
+        score: 34
+      })
+    ]
+  });
+
+  assert.equal(result.decision, 'accepted');
+  assert.deepEqual(result.data.accepted_candidate_ids, ['15-010-strategy-info']);
+  assert.notEqual(result.data.verdicts.find(item => item.course_id === '15-501-accounting').verdict, 'accept');
+  assert.notEqual(result.data.verdicts.find(item => item.course_id === '2-008-manufacturing').verdict, 'accept');
+});
+
 test('reviewTopicFit: gemischter Satz uebernimmt nur accept-Kandidaten', () => {
   const selection = {
     contract_id: 'contract-1',

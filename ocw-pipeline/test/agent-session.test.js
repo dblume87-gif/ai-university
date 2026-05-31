@@ -15,7 +15,7 @@ const silentLogger = {
   log() {}
 };
 
-test('getAgentSessionOptions: parsed learn agent chat defaults to deterministic dry-run', () => {
+test('getAgentSessionOptions: parsed learn agent chat defaults to auto-provider dry-run', () => {
   const options = getAgentSessionOptions([
     'chat',
     '--new',
@@ -26,7 +26,7 @@ test('getAgentSessionOptions: parsed learn agent chat defaults to deterministic 
 
   assert.equal(options.action, 'chat');
   assert.equal(options.newRun, true);
-  assert.equal(options.provider, 'deterministic');
+  assert.equal(options.provider, 'auto');
   assert.equal(options.dryRun, true);
   assert.equal(options.goal, 'Ich will AI Apps bauen');
   assert.equal(options.limit, 5);
@@ -43,6 +43,7 @@ test('runAgentChat: deterministic happy path schreibt State und akzeptierte Arte
     action: 'chat',
     newRun: true,
     runId: 'agent-happy',
+    smokePath: join(dir, 'missing-smoke.json'),
     goal: 'Ich will AI Apps bauen',
     currentLevel: 'beginner',
     targetOutcome: 'prototype',
@@ -68,6 +69,8 @@ test('runAgentChat: deterministic happy path schreibt State und akzeptierte Arte
   assert.equal(result.state.status, 'completed');
   assert.equal(result.state.phase, 'loslernen');
   assert.equal(result.state.mode, 'dry_run');
+  assert.equal(result.state.providers.agent.requested_adapter, 'auto');
+  assert.equal(result.state.providers.agent.adapter, 'deterministic');
   assert.equal(result.state.active_card, null);
   assert.deepEqual(Object.keys(result.state.steps), [
     'learning_contract',
@@ -107,6 +110,7 @@ test('runAgentChat: Kardiologie ohne Kandidaten wartet mit gate-skopierter Recov
     action: 'chat',
     newRun: true,
     runId: 'agent-kardiologie',
+    smokePath: join(dir, 'missing-smoke.json'),
     goal: 'Kardiologie',
     outDir: runDir,
     dbPath,

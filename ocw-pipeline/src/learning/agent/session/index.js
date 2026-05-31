@@ -7,6 +7,7 @@ import { fileURLToPath } from 'url';
 import { parseCliArgs } from '../../../lib/cli.js';
 import {
   createCodexCliProvider,
+  isCodexCliProviderEnabled,
   runCodexCliAuthSmoke
 } from '../provider-runtime/index.js';
 import { selectCourseCandidates } from '../../contract.js';
@@ -117,7 +118,7 @@ export function getAgentSessionOptions(args) {
     action,
     newRun: parsed.has('--new'),
     runId: parsed.getString('--run', parsed.getString('--run-id', null)),
-    provider: parsed.getString('--provider', 'deterministic'),
+    provider: parsed.getString('--provider', 'auto'),
     smokePath: parsed.getString('--smoke-path', null),
     goal: parsed.getString('--goal') || goalFromPositionals,
     contractPath: parsed.getString('--contract', null),
@@ -329,6 +330,8 @@ function initializeContext(options, dependencies) {
   const state = options.newRun || !existsSync(getAgentStatePath(runDir))
     ? createInitialState(options, runDir)
     : prepareResumeState(loadAgentState(runDir));
+  const providerRequest = resolveProviderRequest(options, state);
+  const provider = dependencies.provider || createProvider(providerRequest, options);
 
   const context = {
     options,
@@ -336,10 +339,16 @@ function initializeContext(options, dependencies) {
     state,
     logger: dependencies.logger || console,
     question: dependencies.question || null,
-    provider: dependencies.provider || createProvider(options.provider || state.providers?.agent?.adapter, options),
+    provider,
     notebookRunner: dependencies.notebookRunner,
     rescreener: dependencies.rescreener,
     unitExporter: dependencies.unitExporter
+  };
+  context.state.providers = context.state.providers || {};
+  context.state.providers.agent = {
+    ...(context.state.providers.agent || {}),
+    requested_adapter: providerRequest || null,
+    adapter: provider.name || providerRequest || 'unknown'
   };
 
   persistState(context);
@@ -352,7 +361,7 @@ function createInitialState(options, runDir) {
     runId,
     mode: options.liveNotebook ? 'live_notebook' : 'dry_run',
     providers: {
-      agent: { adapter: options.provider || 'deterministic' },
+      agent: { adapter: options.provider || 'auto' },
       notebook: { adapter: 'notebooklm' }
     },
     phase: 'ziel_verstehen',
@@ -382,9 +391,22 @@ function createInitialState(options, runDir) {
 }
 
 function createProvider(providerName, options = {}) {
-  if (!providerName || providerName === 'deterministic') return createQualityReviewProvider();
+  if (!providerName || providerName === 'auto') {
+    if (isCodexCliProviderEnabled({ smokePath: options.smokePath || null })) {
+      return createCodexCliProvider({ smokePath: options.smokePath || null });
+    }
+    return createQualityReviewProvider();
+  }
+  if (providerName === 'deterministic') return createQualityReviewProvider();
   if (providerName === 'codex-cli') return createCodexCliProvider({ smokePath: options.smokePath || null });
   throw new Error(`Unbekannter Agent-Provider: ${providerName}`);
+}
+
+function resolveProviderRequest(options, state) {
+  if (options.provider && options.provider !== 'auto') return options.provider;
+  if (state.providers?.agent?.requested_adapter) return state.providers.agent.requested_adapter;
+  if (state.providers?.agent?.adapter && state.providers.agent.adapter !== 'deterministic') return state.providers.agent.adapter;
+  return options.provider || state.providers?.agent?.adapter || 'auto';
 }
 
 function prepareResumeState(state) {

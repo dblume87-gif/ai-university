@@ -95,7 +95,8 @@ export function reviewGoalExpansion(input = {}) {
 export function reviewTopicFit(input = {}) {
   const candidates = extractCandidates(input);
   const topicTerms = uniqueTerms(input.topic_terms || input.goal_expansion?.topic_terms || input.expansion?.topic_terms || []);
-  const verdicts = candidates.map(candidate => buildCandidateVerdict(candidate, topicTerms));
+  const termContext = buildTopicTermContext(candidates, topicTerms);
+  const verdicts = candidates.map(candidate => buildCandidateVerdict(candidate, topicTerms, termContext));
   const acceptedCandidateIds = verdicts
     .filter(verdict => verdict.verdict === 'accept')
     .map(verdict => verdict.course_id);
@@ -322,23 +323,33 @@ export function normalizeUnitTitle(title) {
   return toTitleCase(spaced || String(title || '').trim());
 }
 
-function buildCandidateVerdict(candidate, topicTerms) {
+function buildCandidateVerdict(candidate, topicTerms, termContext = buildTopicTermContext([candidate], topicTerms)) {
+  const nonDiscriminativeTerms = termContext.non_discriminative_terms || new Set();
   const titleTokens = tokenize(candidate.title || '');
   const topicTokens = tokenize((candidate.signals?.topics || []).flat(Infinity).join(' '));
   const matchedTokens = uniqueTerms(candidate.thematic_fit?.matched_tokens || []);
   const matchedInTitle = matchedTokens.filter(token => titleTokens.includes(token));
   const matchedInTopics = matchedTokens.filter(token => topicTokens.includes(token));
   const topicMatches = topicTerms.filter(term => topicTokens.includes(term));
-  const hasTopicConfirmation = topicMatches.length > 0;
+  const discriminativeTopicMatches = topicMatches.filter(term => !nonDiscriminativeTerms.has(term));
+  const nonDiscriminativeTopicMatches = topicMatches.filter(term => nonDiscriminativeTerms.has(term));
+  const discriminativeTitleMatches = matchedInTitle.filter(term => topicTerms.includes(term) && !nonDiscriminativeTerms.has(term));
+  const hasTopicConfirmation = discriminativeTopicMatches.length > 0;
+  const hasSpecificTitleWithTopicContext = discriminativeTitleMatches.length > 0 && topicMatches.length > 0;
   const titleOnly = matchedTokens.length > 0 && matchedInTitle.length > 0 && matchedInTopics.length === 0;
-  const highScoreWithoutTopicConfirmation = Number(candidate.score || 0) >= HIGH_SCORE_WITHOUT_TOPIC_CONFIRMATION && !hasTopicConfirmation;
+  const highScoreWithoutTopicConfirmation = Number(candidate.score || 0) >= HIGH_SCORE_WITHOUT_TOPIC_CONFIRMATION
+    && !(hasTopicConfirmation || hasSpecificTitleWithTopicContext);
 
-  if (hasTopicConfirmation) {
+  if (hasTopicConfirmation || hasSpecificTitleWithTopicContext) {
     return {
       course_id: candidate.course_id,
       verdict: 'accept',
-      reasons: ['topic_path_confirmed'],
-      matched_terms: topicMatches,
+      reasons: [hasTopicConfirmation ? 'topic_path_confirmed' : 'specific_title_with_topic_context'],
+      matched_terms: uniqueTerms([
+        ...discriminativeTopicMatches,
+        ...discriminativeTitleMatches,
+        ...nonDiscriminativeTopicMatches
+      ]),
       title_only: false
     };
   }
@@ -363,6 +374,26 @@ function buildCandidateVerdict(candidate, topicTerms) {
     matched_terms: matchedTokens,
     title_only: false
   };
+}
+
+function buildTopicTermContext(candidates, topicTerms) {
+  const topicCounts = new Map();
+  for (const candidate of candidates) {
+    const topicTokens = new Set(tokenize((candidate.signals?.topics || []).flat(Infinity).join(' ')));
+    for (const term of topicTerms) {
+      if (topicTokens.has(term)) topicCounts.set(term, (topicCounts.get(term) || 0) + 1);
+    }
+  }
+
+  const nonDiscriminativeTerms = new Set();
+  if (candidates.length > 1 && topicTerms.length > 1) {
+    const threshold = Math.max(2, Math.ceil(candidates.length / 2));
+    for (const [term, count] of topicCounts.entries()) {
+      if (count >= threshold) nonDiscriminativeTerms.add(term);
+    }
+  }
+
+  return { non_discriminative_terms: nonDiscriminativeTerms };
 }
 
 function extractCandidates(input) {

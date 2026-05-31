@@ -176,6 +176,8 @@ test('buildCodexExecArgs/buildCodexPrompt: nutzt Result-Datei und constraintes T
   assert.equal(args.at(-1), '-');
   assert.match(prompt, /liest keine Dateien/);
   assert.match(prompt, /broaden, refine, continue_anyway/);
+  assert.match(prompt, /Parent-Topic/);
+  assert.match(prompt, /accepted_candidate_ids/);
 });
 
 test('sanitizeCodexReviewResult: entfernt Actions ausserhalb der Task-Allowlist', () => {
