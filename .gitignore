@@ -4,3 +4,4 @@ library/
 downloads/
 .DS_Store
 ocw-pipeline/output/learning-paths/
+ocw-pipeline/output/agent-provider-smoke/

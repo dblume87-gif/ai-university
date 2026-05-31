@@ -31,9 +31,8 @@ und dieses Ticket wird die erste Post-MVP-Aufgabe.
   Result-Datei:
   ```bash
   codex exec \
-    --cd ocw-pipeline \
+    --cd <working-dir> \
     --sandbox read-only \
-    --ask-for-approval never \
     --ephemeral \
     --output-schema <schema-file> \
     --output-last-message <result-file> \

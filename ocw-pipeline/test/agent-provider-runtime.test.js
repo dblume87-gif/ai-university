@@ -171,6 +171,7 @@ test('buildCodexExecArgs/buildCodexPrompt: nutzt Result-Datei und constraintes T
   });
 
   assert.deepEqual(args.slice(0, 5), ['exec', '--cd', 'ocw-pipeline', '--sandbox', 'read-only']);
+  assert.equal(args.includes('--ask-for-approval'), false);
   assert.ok(args.includes('--output-schema'));
   assert.ok(args.includes('--output-last-message'));
   assert.equal(args.at(-1), '-');
@@ -203,6 +204,7 @@ test('runCodexCliAuthSmoke/createCodexCliProvider: Fake-Smoke schaltet Adapter f
   const smoke = await runCodexCliAuthSmoke({
     smokePath,
     tempRoot: dir,
+    authMode: 'subscription',
     runner: async (args, context) => {
       calls.push({ args, prompt: context.prompt });
       writeFileSync(context.resultPath, JSON.stringify({

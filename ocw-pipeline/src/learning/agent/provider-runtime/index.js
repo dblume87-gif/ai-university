@@ -8,7 +8,7 @@ import {
   writeFileSync
 } from 'fs';
 import { dirname, join, resolve } from 'path';
-import { tmpdir } from 'os';
+import { homedir, tmpdir } from 'os';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -123,6 +123,7 @@ export function createCodexCliProvider(options = {}) {
 
 export async function runCodexCliAuthSmoke(options = {}) {
   const smokePath = options.smokePath || getCodexCliSmokePath();
+  const authMode = options.authMode || detectCodexCliAuthMode(options.authPath);
   const schema = {
     type: 'object',
     additionalProperties: false,
@@ -136,8 +137,9 @@ export async function runCodexCliAuthSmoke(options = {}) {
   const prompt = [
     'Codex CLI auth smoke for AI University.',
     'Return only JSON matching the schema.',
-    'Set status="passed" only if this headless codex exec is available and using local ChatGPT/Codex subscription auth.',
-    'If auth mode is unclear, return status="failed" and auth_mode="unknown".'
+    'Set status="passed" if this headless codex exec invocation can return structured JSON.',
+    'Set auth_mode="unknown"; local auth mode is checked by the wrapper, not by the model.',
+    'Use a short message.'
   ].join('\n');
 
   let smoke;
@@ -150,11 +152,14 @@ export async function runCodexCliAuthSmoke(options = {}) {
       tempRoot: options.tempRoot
     });
     const parsed = readJsonFile(result.resultPath);
+    const enabled = authMode === 'subscription';
     smoke = {
       provider: CODEX_PROVIDER_NAME,
-      status: parsed.status === 'passed' && parsed.auth_mode === 'subscription' ? 'passed' : 'failed',
-      auth_mode: parsed.auth_mode || 'unknown',
-      message: parsed.message || '',
+      status: enabled ? 'passed' : 'failed',
+      auth_mode: authMode,
+      message: enabled
+        ? parsed.message || 'codex exec returned structured JSON with ChatGPT auth.'
+        : `codex exec returned structured JSON, but local auth mode is ${authMode}.`,
       checked_at: new Date().toISOString(),
       command: result.command,
       result_path: result.resultPath,
@@ -164,9 +169,11 @@ export async function runCodexCliAuthSmoke(options = {}) {
     smoke = {
       provider: CODEX_PROVIDER_NAME,
       status: 'failed',
-      auth_mode: 'unknown',
-      message: err.message,
-      checked_at: new Date().toISOString()
+      auth_mode: authMode,
+      message: formatCodexProcessError(err),
+      checked_at: new Date().toISOString(),
+      command: err?.command || undefined,
+      debug_log_path: err?.debugLogPath || undefined
     };
   }
 
@@ -176,6 +183,29 @@ export async function runCodexCliAuthSmoke(options = {}) {
     smokePath,
     enabled: isCodexCliSmokePassed(smoke)
   };
+}
+
+function detectCodexCliAuthMode(authPath = null) {
+  const target = authPath || join(process.env.CODEX_HOME || join(homedir(), '.codex'), 'auth.json');
+  try {
+    const auth = readJsonFile(target);
+    if (auth.auth_mode === 'chatgpt') return 'subscription';
+    if (auth.auth_mode === 'api_key') return 'api_key';
+    return auth.auth_mode || 'unknown';
+  } catch {
+    return 'unknown';
+  }
+}
+
+function formatCodexProcessError(err) {
+  const details = [err?.message || 'codex exec failed.'];
+  const stderr = String(err?.stderr || '')
+    .split(/\r?\n/)
+    .map(line => line.trim())
+    .filter(Boolean)
+    .find(line => !line.startsWith('WARNING:'));
+  if (stderr) details.push(stderr);
+  return details.join(' ');
 }
 
 export function isCodexCliProviderEnabled(options = {}) {
@@ -303,12 +333,11 @@ export function buildCodexReviewOutputSchema(task) {
   };
 }
 
-export function buildCodexExecArgs({ cwd = 'ocw-pipeline', schemaPath, resultPath } = {}) {
+export function buildCodexExecArgs({ cwd = process.cwd(), schemaPath, resultPath } = {}) {
   return [
     'exec',
     '--cd', cwd,
     '--sandbox', 'read-only',
-    '--ask-for-approval', 'never',
     '--ephemeral',
     '--output-schema', schemaPath,
     '--output-last-message', resultPath,
@@ -347,14 +376,30 @@ function cleanupCodexTempDir(resultPath) {
   }
 }
 
-export async function runCodexExec({ prompt, schema, runner = runCodexProcess, cwd = 'ocw-pipeline', tempRoot = tmpdir() }) {
+export async function runCodexExec({ prompt, schema, runner = runCodexProcess, cwd = process.cwd(), tempRoot = tmpdir() }) {
   const dir = mkdtempSync(join(resolve(tempRoot), 'codex-cli-review-'));
   const schemaPath = join(dir, 'schema.json');
   const resultPath = join(dir, 'result.json');
   const debugLogPath = join(dir, 'codex-debug.json');
   writeJsonFile(schemaPath, schema);
   const args = buildCodexExecArgs({ cwd, schemaPath, resultPath });
-  const processResult = await runner(args, { prompt, schemaPath, resultPath, debugLogPath, cwd });
+  let processResult;
+  try {
+    processResult = await runner(args, { prompt, schemaPath, resultPath, debugLogPath, cwd });
+  } catch (err) {
+    writeJsonFile(debugLogPath, {
+      command: ['codex', ...args],
+      stdout: err?.stdout || '',
+      stderr: err?.stderr || '',
+      exitCode: err?.exitCode ?? null,
+      error: err?.message || 'codex exec failed'
+    });
+    if (err && typeof err === 'object') {
+      err.command = ['codex', ...args];
+      err.debugLogPath = debugLogPath;
+    }
+    throw err;
+  }
   writeJsonFile(debugLogPath, {
     command: ['codex', ...args],
     stdout: processResult?.stdout || '',

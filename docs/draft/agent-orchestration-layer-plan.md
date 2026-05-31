@@ -209,9 +209,8 @@ subscription-backed non-interactive CLI Adapter. Der konkrete MVP-Aufruf nutzt
 
 ```bash
 codex exec \
-  --cd ocw-pipeline \
+  --cd <working-dir> \
   --sandbox read-only \
-  --ask-for-approval never \
   --ephemeral \
   --output-schema <schema-file> \
   --output-last-message <result-file> \
