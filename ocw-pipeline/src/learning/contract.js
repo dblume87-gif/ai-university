@@ -113,10 +113,11 @@ export function saveLearningContract(contract, outPath = null) {
 
 export function selectCourseCandidates(options = {}) {
   const contract = options.contract || normalizeLearningContract(options);
+  const selectorTerms = normalizeSelectorTerms(options.selectorTerms || options.selector_terms);
   const dbPath = resolve(options.dbPath || DEFAULT_DB_PATH);
   const rows = readCandidateRows(dbPath);
   const candidates = rows
-    .map(row => scoreCourse(contract, row))
+    .map(row => scoreCourse(contract, row, { selectorTerms }))
     .filter(candidate => candidate.score > 0 && candidate.thematic_fit.has_goal_match)
     .sort((left, right) => right.score - left.score || left.course_id.localeCompare(right.course_id))
     .slice(0, Math.min(options.limit || 5, 5));
@@ -201,9 +202,9 @@ function readCandidateRows(dbPath) {
   }
 }
 
-function scoreCourse(contract, row) {
+function scoreCourse(contract, row, options = {}) {
   const fields = {
-    goal: scoreGoal(contract, row),
+    goal: scoreGoal(contract, row, options),
     current_level: scoreLevel(contract, row),
     target_outcome: scoreTargetOutcome(contract, row),
     style: scoreStyle(contract, row),
@@ -257,8 +258,10 @@ function scoreCourse(contract, row) {
   };
 }
 
-function scoreGoal(contract, row) {
-  const goalTokens = expandGoalTokens(contract.goal);
+function scoreGoal(contract, row, options = {}) {
+  const goalTokens = options.selectorTerms?.length > 0
+    ? options.selectorTerms
+    : expandGoalTokens(contract.goal);
   const haystack = tokenize([
     row.course_id,
     row.title,
@@ -376,6 +379,11 @@ function expandGoalTokens(goal) {
     extra.push('neural', 'network', 'calculus', 'matrix', 'machine', 'learning', 'gradient');
   }
   return [...new Set([...tokens, ...extra])];
+}
+
+function normalizeSelectorTerms(value) {
+  const values = Array.isArray(value) ? value : String(value || '').split(',');
+  return [...new Set(values.flatMap(item => tokenize(item)))];
 }
 
 function normalizeMaterials(value) {

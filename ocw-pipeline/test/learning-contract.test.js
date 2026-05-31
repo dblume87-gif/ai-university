@@ -150,6 +150,47 @@ test('selectCourseCandidates: Backprop priorisiert Neural-Network-/Calculus-nahe
   assert.ok(selection.candidate_courses[0].field_contributions.goal.contribution > 0);
 });
 
+test('selectCourseCandidates: selector_terms bringen uebersetztes Goal vor dem Review durch den Selector', () => {
+  const dbPath = createFixtureDb([
+    course({
+      course_id: 'hstm-cardiology',
+      title: 'Cardiology Fundamentals',
+      topics: [['Health Sciences', 'Cardiology']],
+      learning_resource_types: ['Lecture Notes'],
+      documents: 8,
+      tier_score: 30
+    }),
+    course({
+      course_id: '18-999-math',
+      title: 'Advanced Abstract Mathematics',
+      topics: [['Mathematics']],
+      learning_resource_types: ['Lecture Notes'],
+      documents: 10,
+      tier_score: 40
+    })
+  ]);
+  const contract = normalizeLearningContract({
+    goal: 'Ich will Kardiologie lernen',
+    current_level: 'beginner',
+    target_outcome: 'mastery',
+    style: 'conceptual'
+  });
+
+  const withoutBridge = selectCourseCandidates({ contract, dbPath, limit: 3 });
+  const withBridge = selectCourseCandidates({
+    contract,
+    dbPath,
+    limit: 3,
+    selector_terms: ['cardiology', 'cardiovascular']
+  });
+
+  assert.equal(contract.goal, 'Ich will Kardiologie lernen');
+  assert.equal(withoutBridge.candidate_courses.length, 0);
+  assert.equal(withBridge.candidate_courses.length, 1);
+  assert.equal(withBridge.candidate_courses[0].course_id, 'hstm-cardiology');
+  assert.deepEqual(withBridge.candidate_courses[0].thematic_fit.matched_tokens, ['cardiology']);
+});
+
 test('saveLearningContract/saveCandidateSelection: schreibt JSON-Artefakte', () => {
   const dir = mkdtempSync(join(tmpdir(), 'learning-contract-save-'));
   const contract = normalizeLearningContract({ goal: 'Ich will AI Apps bauen', contractId: 'contract-1' });
