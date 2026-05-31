@@ -1,0 +1,16 @@
+{
+  "name": "ai-university-mvp",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Clean MVP package for the AI University course search agent.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.0.0"
+  }
+}
