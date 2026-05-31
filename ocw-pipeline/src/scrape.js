@@ -418,7 +418,7 @@ async function main() {
           printUsage();
           break;
         }
-        const screening = screenCandidateMaterials(options);
+        const screening = await screenCandidateMaterials(options);
         const path = saveMaterialScreening(screening, options.outPath);
         printMaterialScreeningResult({ screening, path });
       } else if (action === 'plan') {

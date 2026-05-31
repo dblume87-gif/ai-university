@@ -1,0 +1,872 @@
+{
+  "generated_at": "2026-05-29T12:06:05.977Z",
+  "course": {
+    "course_id": "15-501-introduction-to-financial-and-managerial-accounting-spring-2004",
+    "title": "Introduction to Financial and Managerial Accounting",
+    "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 54,
+    "unit_count": 12,
+    "assigned_sources": 12,
+    "unassigned_sources": 42
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "lecture1.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8298,
+          "title": "lecture1.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/ba3b08d9b4cb8c76d3f017030f790e2f_lecture1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture1/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "lecture3.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8241,
+          "title": "lecture3.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/2c10710815d31fe4986869b87901baf6_lecture3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture3/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "lecture4.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8292,
+          "title": "lecture4.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/b23153aa7d3f05bccddb2fb9ec087447_lecture4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture4/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "lecture5_feb18.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8291,
+          "title": "lecture5_feb18.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/a9b05c8a841255b21c741259fedb42fa_lecture5_feb18.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture5_feb18/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "lecture6.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8231,
+          "title": "lecture6.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/11340e7023ce5a26a0a304a2bbde5e1c_lecture6.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture6/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "lecture7.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8240,
+          "title": "lecture7.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/2bff0643c84da6645bfcd0c5cb32fc4b_lecture7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture7/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "lecture8.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8310,
+          "title": "lecture8.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/cb3a4dda24e8e01e1e95ece8b77a3011_lecture8.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture8/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "lecture9.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8254,
+          "title": "lecture9.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/381ce79679cc51313adfbe13884d2c56_lecture9.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture9/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "lecture10.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8245,
+          "title": "lecture10.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/2e2d6ae5c32c5c3b3d786732af5ac4f8_lecture10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture10/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "lecture11_mar15.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8328,
+          "title": "lecture11_mar15.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/fcb91184637a0040c59a421e833588f8_lecture11_mar15.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture11_mar15/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "lecture12.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8287,
+          "title": "lecture12.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/9b4ba53dee70a298bd7829b4918e6780_lecture12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture12/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "lecture14.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8277,
+          "title": "lecture14.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/6993fcbf2b52831f916eff3d1d8af643_lecture14.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture14/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 8223,
+      "title": "lecture16le_acc.pdf",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/00d9475e13490d2719cfe20c821be080_lecture16le_acc.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture16le_acc/data.json",
+      "parent_title": "Lecture Notes",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 8224,
+      "title": "mid1_f03_sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/081be1f0b42445702594cc761594c01b_mid1_f03_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/mid1_f03_sol/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 8227,
+      "title": "ps7.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/0da126bb0a8ffca019e1c789f6f61f35_ps7.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps7/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 8230,
+      "title": "lecture22seligra.pdf",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/0ee242cb553607c073a0493f7e6d798b_lecture22seligra.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture22seligra/data.json",
+      "parent_title": "Lecture Notes",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 8232,
+      "title": "final_exam_s04.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/12588379584d82b0d59337d2d2a5d80d_final_exam_s04.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/final_exam_s04/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 8233,
+      "title": "lecture2resaved.pdf",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/17d043d200b33db8b3eb36ce306a1f51_lecture2resaved.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture2resaved/data.json",
+      "parent_title": "Lecture Notes",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 8234,
+      "title": "ps5_sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/23509fe119b9ee12f45c570742397db5_ps5_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps5_sol/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 8237,
+      "title": "final_examf02sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/2bd1febe2a5f5c1f7a660f80ffed77f5_final_examf02sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/final_examf02sol/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 8242,
+      "title": "ps6.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/2cccd7592a8ba43469bce1adbe24f7f7_ps6.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps6/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 8246,
+      "title": "lec21cost_alloii.pdf",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/2f087dd985b6b46dd358a98d956643d1_lec21cost_alloii.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lec21cost_alloii/data.json",
+      "parent_title": "Lecture Notes",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 8247,
+      "title": "mid1_s04_sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/30804aa3d536d8ca7057b2f8713a5c10_mid1_s04_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/mid1_s04_sol/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 8250,
+      "title": "final_exam_f02.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/3086527c60da6564a3942379d27b0ac0_final_exam_f02.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/final_exam_f02/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 8251,
+      "title": "formula.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/33705399b5f95a8ee60976e2e64667c6_formula.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/formula/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Supplemental Exam Materials"
+      ]
+    },
+    {
+      "id": 8255,
+      "title": "ps4.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/418bd43fb2e25ef1af87ccc019f3d283_ps4.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps4/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 8258,
+      "title": "lecture15long.pdf",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/455790b743f6a574daf8a50385915d32_lecture15long.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture15long/data.json",
+      "parent_title": "Lecture Notes",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 8259,
+      "title": "ps8_seligram.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/488830e00eb359bd4682e47ff75b64e4_ps8_seligram.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps8_seligram/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 8262,
+      "title": "ps7_sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/4b92942562556110c645ffacf5e78c6d_ps7_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps7_sol/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 8265,
+      "title": "mid2_s04_q.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/5285fa7bebf53bbbf2f66386fbd30cd2_mid2_s04_q.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/mid2_s04_q/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 8266,
+      "title": "ps8_sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/528f54df850fc1075b8a49fe4e4deb18_ps8_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps8_sol/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 8270,
+      "title": "lec20cost_alloca.pdf",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/5f4d4f23a5daee37df63fef764e09f1e_lec20cost_alloca.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lec20cost_alloca/data.json",
+      "parent_title": "Lecture Notes",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 8271,
+      "title": "ps4_sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/6213f4a87e23744d9335d24c7c840eb2_ps4_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps4_sol/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 8274,
+      "title": "mid2_fall03_sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/6278388479be58487d6472053c6901da_mid2_fall03_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/mid2_fall03_sol/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 8278,
+      "title": "ps1_sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/74f40c676bd0b1171c235a64e1a573dd_ps1_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps1_sol/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 8281,
+      "title": "final_exam_s03.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/7b0662d1555c9f899965dd973a707967_final_exam_s03.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/final_exam_s03/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 8285,
+      "title": "lecture18bu_comb.pdf",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/85c3c71ae2b34a8641d3f945b9dd25ac_lecture18bu_comb.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture18bu_comb/data.json",
+      "parent_title": "Lecture Notes",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 8286,
+      "title": "mid2_fall03.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/8b8a6dbd593df2fe96bcedd949c0c40e_mid2_fall03.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/mid2_fall03/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 8288,
+      "title": "final_exas03_sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/9d47bb82c03ff731d3abaf978d63bf7c_final_exas03_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/final_exas03_sol/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 8293,
+      "title": "lec_final_review.pdf",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/b375957b74b6e5beb84395453aa77c4c_lec_final_review.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lec_final_review/data.json",
+      "parent_title": "Lecture Notes",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 8294,
+      "title": "ps3.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/b6cb03677b696ffdca0a8b371fa75b3c_ps3.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps3/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 8297,
+      "title": "lecture17sec_mid.pdf",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/b9c354f9539d0df4d889eca28a9bf9e8_lecture17sec_mid.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture17sec_mid/data.json",
+      "parent_title": "Lecture Notes",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 8299,
+      "title": "mid1_s04_q.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/bcd7810e893d2f4dd7ee2e914d8cfded_mid1_s04_q.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/mid1_s04_q/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 8300,
+      "title": "ps5.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/c6e7ffa4adbf1e011885f5d7bcb0f2e0_ps5.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps5/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 8303,
+      "title": "lec19cost_acc.pdf",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/c70a94f8d335a139ab947cc605b92fe2_lec19cost_acc.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lec19cost_acc/data.json",
+      "parent_title": "Lecture Notes",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 8304,
+      "title": "mid2_s04_sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/c9dcbc114943ca6efe60d90988aeb6c4_mid2_s04_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/mid2_s04_sol/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 8307,
+      "title": "ps2_sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/ca2690cfb3e9f044bdca1a48572c90af_ps2_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps2_sol/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 8311,
+      "title": "ps1.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/cd0b4e3308fac144a982fbd7af7b3855_ps1.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps1/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 8314,
+      "title": "ps6_sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/d1947952afb46847109cb93ec52cf940_ps6_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps6_sol/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 8317,
+      "title": "ps2.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/d5fe958fbcd639b8d63efe904ceb06e0_ps2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps2/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Sets"
+      ]
+    },
+    {
+      "id": 8320,
+      "title": "final_exas04_ans.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/de8acaa36de86f97d1a88c3f3a61e55b_final_exas04_ans.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/final_exas04_ans/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 8323,
+      "title": "mid1_f03.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/e7f2f38387fac9d3fe00dd6641a5d781_mid1_f03.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/mid1_f03/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 8324,
+      "title": "ps3_sol.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/e9e161a47b5a631d550147fc1e5d68fd_ps3_sol.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/ps3_sol/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Problem Set Solutions"
+      ]
+    },
+    {
+      "id": 8327,
+      "title": "lecture13market.pdf",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/f46442949105ec27adf5fcf3769a8180_lecture13market.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-501-introduction-to-financial-and-managerial-accounting-spring-2004/resources/lecture13market/data.json",
+      "parent_title": "Lecture Notes",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    }
+  ]
+}

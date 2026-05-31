@@ -1,0 +1,730 @@
+{
+  "generated_at": "2026-05-29T12:06:05.983Z",
+  "course": {
+    "course_id": "15-511-financial-accounting-summer-2004",
+    "title": "Financial Accounting",
+    "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 37,
+    "unit_count": 18,
+    "assigned_sources": 25,
+    "unassigned_sources": 12
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "lec1.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8335,
+          "title": "lec1.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/0e68f17b95eb3456dca61d44e36086d8_lec1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec1/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8337,
+          "title": "pset1.pdf",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/230365f1cb8d8dcf59ff87a6847b7602_pset1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/pset1/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "lec2.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8329,
+          "title": "lec2.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/04ce737dad8ddb0d8dd11beab57fc677_lec2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec2/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8373,
+          "title": "pset2.pdf",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/96169cfb7d0dbf580d80f67aaf39e1df_pset2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/pset2/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "lec3.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8372,
+          "title": "lec3.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/8c987b8e5c795b386ee4a3c0bcd0ec52_lec3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec3/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8343,
+          "title": "pset3.pdf",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/290b850819269ef1058983a71eaeae6a_pset3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/pset3/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "lec4.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8331,
+          "title": "lec4.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/07dfd16560e0d35cb2df104a99930813_lec4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec4/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8347,
+          "title": "pset4.pdf",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/2e9f19a4192623bc0268d01caf11c36d_pset4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/pset4/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "lec5.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8363,
+          "title": "lec5.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/5149d78ff98121ce3801f0b4f3f312c1_lec5.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec5/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8360,
+          "title": "pset5.pdf",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/4fbb562d88e1372dcca4c56cd5bd8bfa_pset5.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/pset5/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Problem Sets"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "lec7.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8336,
+          "title": "lec7.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/1a1aa8574f35422f7849529c561183e3_lec7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec7/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "lec8.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8350,
+          "title": "lec8.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/3194d8a51e842fa0c43b51963aff65e8_lec8.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec8/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "lec9.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8355,
+          "title": "lec9.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/3e2b947369e93d384bc611ba70b5d203_lec9.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec9/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "lec10.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8378,
+          "title": "lec10.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/af618368e4dd29b3a9c0856f1b2d69e0_lec10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec10/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "lec11.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8346,
+          "title": "lec11.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/2e0a8f0681b627456cbae06319aae443_lec11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec11/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "lec12.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8383,
+          "title": "lec12.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/d104816e68759e78a0439032e9dff48d_lec12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec12/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "lec13.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8393,
+          "title": "lec13.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/f0b25b3843f7d8b63ecae31617382c4a_lec13.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec13/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "lec14.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8330,
+          "title": "lec14.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/06956fb8d0a82384b2d0bdaa4bdc405a_lec14.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec14/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "lec15_debt.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8371,
+          "title": "lec15_debt.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/83fbdd71e083d311e0c7d55ca6fe08ea_lec15_debt.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec15_debt/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8377,
+          "title": "lec15_money.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/9f51e98c0dd3b696d2eb0b7170eb18af_lec15_money.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec15_money/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "lec16.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8364,
+          "title": "lec16.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/57ebcfbc1b0fe966003d21f64c4a8d21_lec16.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec16/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "lec17_taxes.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8354,
+          "title": "lec17_taxes.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/3e1260f33b642c746b7479fd575a6b53_lec17_taxes.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec17_taxes/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8394,
+          "title": "lec17_securities.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/f3d38d5e8c8a6517c4307a84280d3dba_lec17_securities.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec17_securities/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "lec18.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8382,
+          "title": "lec18.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/c75a74abc3ad31b54be8f8b5daec1f8d_lec18.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec18/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "lec19.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8353,
+          "title": "lec19.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/3aad6bd8a9d766a56fc1315cc56c38d0_lec19.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/lec19/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 8332,
+      "title": "rec4.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/09d5619de85ddac1c7d4fcd6738148da_rec4.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/rec4/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8340,
+      "title": "rec7.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/256cc6d48040d33e2e79d58d81b8cd0a_rec7.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/rec7/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8352,
+      "title": "final_2004.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/36fc58f76d914afc6d669edae0742b32_final_2004.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/final_2004/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 8356,
+      "title": "midterm_2004.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/42025aef1d302b4f5316015e63e90477_midterm_2004.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/midterm_2004/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exams"
+      ]
+    },
+    {
+      "id": 8357,
+      "title": "rec6.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/443e9cc25e91f3d094f51be142204103_rec6.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/rec6/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8365,
+      "title": "rec3.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/6999746eb764f48f432de3e55c4aacf1_rec3.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/rec3/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8368,
+      "title": "final_soln.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/78161e504124ba144755d49e12ff1f9d_final_soln.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/final_soln/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 8376,
+      "title": "deleteme.pdf",
+      "media_type": "pdf",
+      "material_type": "Lecture Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/9f22b7c603c5d2a6a3dd0d520385ee77_deleteme.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/deleteme/data.json",
+      "parent_title": "Lecture Notes",
+      "learning_resource_types": [
+        "Lecture Notes"
+      ]
+    },
+    {
+      "id": 8379,
+      "title": "midterm_soln.pdf",
+      "media_type": "pdf",
+      "material_type": "Exams",
+      "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/be58a7f2f49967cdd5fe7be9f79fe46b_midterm_soln.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/midterm_soln/data.json",
+      "parent_title": "Exams",
+      "learning_resource_types": [
+        "Exam Solutions"
+      ]
+    },
+    {
+      "id": 8384,
+      "title": "rec5.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/d11bc52335e0f51c3a2ce392345f7931_rec5.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/rec5/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8387,
+      "title": "rec1.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/d142be297859a4044c97e9a35b9e8f6a_rec1.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/rec1/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8390,
+      "title": "rec2.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-511-financial-accounting-summer-2004/dfb56b8319f1643181fa20f65a2d7fe3_rec2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-511-financial-accounting-summer-2004/resources/rec2/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    }
+  ]
+}

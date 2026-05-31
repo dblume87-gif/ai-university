@@ -1,0 +1,688 @@
+{
+  "generated_at": "2026-05-29T12:06:05.992Z",
+  "course": {
+    "course_id": "15-515-financial-accounting-fall-2003",
+    "title": "Financial Accounting",
+    "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 36,
+    "unit_count": 16,
+    "assigned_sources": 22,
+    "unassigned_sources": 14
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "lec1.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8504,
+          "title": "lec1.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/a479b1f740bf2ea59ca772614cc872d5_lec1.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec1/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "lec2.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8499,
+          "title": "lec2.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/9426da902857d5345807853134acdfd0_lec2.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec2/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "lec3.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8487,
+          "title": "lec3.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/506cf1d291bc02e916441f09edeafe12_lec3.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec3/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8505,
+          "title": "lec3_intel_questions.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/aac3fda6bf055031e0cb527aa138c492_lec3_intel_questions.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec3_intel_questions/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "lec4.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8485,
+          "title": "lec4.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/485b11fcec455af0584368c6ff5e83e8_lec4.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec4/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "lec6.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8520,
+          "title": "lec6.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/dee824c2cf0e555c8869dcf3205564b0_lec6.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec6/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 7,
+      "title": "lec7.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8508,
+          "title": "lec7.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/c14a0767af3d7544d85e4b20eb6be1bb_lec7.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec7/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "lec8_delta_pam_am.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8494,
+          "title": "lec8_delta_pam_am.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/7e963461c192c0edb26b298e6b28afdb_lec8_delta_pam_am.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec8_delta_pam_am/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "lec9_note_on_cfs.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8495,
+          "title": "lec9_note_on_cfs.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/90e7fb888389dbc3a74b971aad969ddf_lec9_note_on_cfs.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec9_note_on_cfs/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8503,
+          "title": "lec9.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/a3c6e7f008245e6fa3628111a221aa61_lec9.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec9/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8531,
+          "title": "lec9_xyz_company.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/fe163c5f5ab187eb6624dbf6913493ab_lec9_xyz_company.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec9_xyz_company/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 3,
+      "source_types": {
+        "pdf": 3
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "lec10.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8478,
+          "title": "lec10.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/31bb3401eb780a9507891814d7b39a45_lec10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec10/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8506,
+          "title": "lec10_example_nol.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/ae263812af241ca8cf9a9d175d0e9d0f_lec10_example_nol.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec10_example_nol/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 11,
+      "title": "lec11.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8484,
+          "title": "lec11.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/39f8877d7955b1424b6b4c0e12a31e21_lec11.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec11/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "lec12.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8510,
+          "title": "lec12.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/d239d03bf4aa9981a419da1a354affa5_lec12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec12/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        },
+        {
+          "id": 8521,
+          "title": "lec12_frequent_fliers.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/e0c1a3a700027e2dc2a14ac7ae4e38f3_lec12_frequent_fliers.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec12_frequent_fliers/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "lec13.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8474,
+          "title": "lec13.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/298cd5618a2b90d02d8159e1dfd2bfb7_lec13.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec13/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "lec14_first_national_bank.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8470,
+          "title": "lec14_first_national_bank.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/1e533ea50ad64831e993912d3abce395_lec14_first_national_bank.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec14_first_national_bank/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 15,
+      "title": "lec15_leases_problem.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8475,
+          "title": "lec15_leases_problem.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/29c4140c9adb7c62dc24403f93ac3650_lec15_leases_problem.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec15_leases_problem/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8507,
+          "title": "lec15.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/bebafa8267a8720cc2b58f3680cb34a2_lec15.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec15/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "lec16.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8469,
+          "title": "lec16.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/02da68d95d75db31f74743e14bcda724_lec16.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec16/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "lec17.pdf",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8483,
+          "title": "lec17.pdf",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/38c2387a4084f7d5ae6bfda8b83e80ba_lec17.pdf",
+          "local_path": null,
+          "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/lec17/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "lecture_token"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 8471,
+      "title": "rec2.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/1fa2d4ba20f072d3bcf3a1e39b5fc4ef_rec2.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/rec2/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8479,
+      "title": "Intel Corporation 2001 Annual Report",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "https://www.intel.com/content/www/us/en/history/history-2001-annual-report.html",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/external-resources/intel-corporation-2001-annual-report_332bc90d-9606-4dcc-9be9-2a81c79ea189/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8480,
+      "title": "rec5midterm_review.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/3649947a5c2d86775d6beb76c885c7b8_rec5midterm_review.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/rec5midterm_review/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8486,
+      "title": "PDF",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "https://www.intel.cn/content/dam/doc/report/history-2002-annual-report.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/external-resources/pdf_48c04206-7bb2-467a-af05-3d3550fcde3d/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8488,
+      "title": "rec9.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/6abd16f25422f88b75bf19209e628e55_rec9.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/rec9/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8491,
+      "title": "rec5.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/6c9912039553320b81fd776f36c65464_rec5.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/rec5/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8496,
+      "title": "rec3.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/90ecb6fa8b832181e4544cbaaa2af87b_rec3.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/rec3/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8500,
+      "title": "rec7.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/97bdc07449fe4c1389bacef36cf66619_rec7.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/rec7/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8511,
+      "title": "rec8.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/d6ebdf25f668cdd9e4f6294ae7951b8e_rec8.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/rec8/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8514,
+      "title": "rec4.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/dbafe71b0486f9b2f6c60aa70a3a71ba_rec4.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/rec4/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8517,
+      "title": "rec11final_review.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/de6d2151fe166828460a62fd6b3c5a13_rec11final_review.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/rec11final_review/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8522,
+      "title": "rec1.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/e1e84fbac759751cc229a93a58219b88_rec1.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/rec1/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8525,
+      "title": "rec10.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/ee0238be14266847fad3692dc197a411_rec10.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/rec10/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    },
+    {
+      "id": 8528,
+      "title": "rec6.pdf",
+      "media_type": "pdf",
+      "material_type": "Problem-solving Notes",
+      "source_url": "https://ocw.mit.edu/courses/15-515-financial-accounting-fall-2003/fceccf4f69d7ae6e7a3f135930e44e30_rec6.pdf",
+      "local_path": null,
+      "resource_path": "/courses/15-515-financial-accounting-fall-2003/resources/rec6/data.json",
+      "parent_title": "Recitations",
+      "learning_resource_types": [
+        "Problem-solving Notes"
+      ]
+    }
+  ]
+}

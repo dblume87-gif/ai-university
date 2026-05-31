@@ -219,8 +219,7 @@ function scoreCourse(contract, row) {
       reason: contract.time_budget ? 'stored for planner constraints' : 'default/no constraint for selector'
     },
     material_quality: scoreMaterialQuality(row),
-    notebooklm: scoreNotebookLm(row),
-    course_units: scoreCourseUnits(row)
+    notebooklm: scoreNotebookLm(row)
   };
   const score = Object.values(fields).reduce((sum, field) => sum + field.contribution, 0);
   const positive = Object.entries(fields)
@@ -251,8 +250,7 @@ function scoreCourse(contract, row) {
         problem_sets: row.problem_sets,
         documents: row.documents
       },
-      notebooklm_status: row.notebooklm_status || null,
-      has_course_units: hasCourseUnits(row.course_id)
+      notebooklm_status: row.notebooklm_status || null
     },
     field_contributions: fields,
     negatives: negative
@@ -353,19 +351,6 @@ function scoreNotebookLm(row) {
     effect: ready ? 'positive' : 'neutral',
     reason: ready ? 'NotebookLM-ready/uploaded signal' : 'no NotebookLM signal'
   };
-}
-
-function scoreCourseUnits(row) {
-  const exists = hasCourseUnits(row.course_id);
-  return {
-    contribution: exists ? 8 : 0,
-    effect: exists ? 'positive' : 'neutral',
-    reason: exists ? 'course_units.json available' : 'no course_units.json'
-  };
-}
-
-function hasCourseUnits(courseId) {
-  return existsSync(join(__dirname, '../../output/notebooklm', courseId, 'course_units.json'));
 }
 
 function normalizeCourseRow(row) {

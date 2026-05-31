@@ -4,6 +4,8 @@ import { dirname, join, resolve } from 'path';
 import { fileURLToPath } from 'url';
 import { parseCliArgs } from '../lib/cli.js';
 import { loadContract } from './contract.js';
+import { screenCourse } from '../screening/screen.js';
+import { exportCourseUnits } from '../curation/units.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DEFAULT_DB_PATH = join(__dirname, '../../library.db');
@@ -12,7 +14,7 @@ const DEFAULT_OUTPUT_ROOT = join(__dirname, '../../output/learning-paths');
 const SCREEN_MATERIALS_SCHEMA = {
   stringFlags: ['--candidates', '--contract', '--db', '--out'],
   intFlags: ['--top'],
-  booleanFlags: ['--help', '-h']
+  booleanFlags: ['--no-rescreen', '--no-unit-export', '--help', '-h']
 };
 
 export function getScreenMaterialsOptions(args) {
@@ -23,11 +25,13 @@ export function getScreenMaterialsOptions(args) {
     dbPath: parsed.getString('--db', DEFAULT_DB_PATH),
     outPath: parsed.getString('--out', null),
     top: Math.min(parsed.getPositiveInt('--top', 5), 5),
+    rescreenMissing: !parsed.has('--no-rescreen'),
+    exportMissingUnits: !parsed.has('--no-unit-export'),
     help: parsed.has('--help') || parsed.has('-h')
   };
 }
 
-export function screenCandidateMaterials(options = {}) {
+export async function screenCandidateMaterials(options = {}) {
   const candidateSelection = options.candidateSelection || loadJson(options.candidatesPath);
   const contract = options.contract ||
     candidateSelection.normalized_contract ||
@@ -36,7 +40,25 @@ export function screenCandidateMaterials(options = {}) {
   if (candidateCourses.length === 0) throw new Error('Keine Candidate Course IDs fuer Material-Screening gefunden.');
 
   const dbPath = resolve(options.dbPath || DEFAULT_DB_PATH);
-  const rowsByCourse = readMaterialsForCourses(dbPath, candidateCourses.map(course => course.course_id));
+  let rowsByCourse = readMaterialsForCourses(dbPath, candidateCourses.map(course => course.course_id));
+  const rescreen = await rescreenMissingMaterials({
+    candidateCourses,
+    rowsByCourse,
+    dbPath,
+    enabled: options.rescreenMissing !== false,
+    rescreener: options.rescreener
+  });
+  if (rescreen.attempted.length > 0) {
+    rowsByCourse = readMaterialsForCourses(dbPath, candidateCourses.map(course => course.course_id));
+  }
+  const unitExport = await exportMissingCourseUnits({
+    candidateCourses,
+    rowsByCourse,
+    dbPath,
+    unitsRoot: options.unitsRoot,
+    enabled: options.exportMissingUnits !== false,
+    unitExporter: options.unitExporter
+  });
   const courseMaterialOverviews = candidateCourses.map(candidate => buildCourseOverview({
     candidate,
     materialRows: rowsByCourse.get(candidate.course_id) || [],
@@ -58,6 +80,8 @@ export function screenCandidateMaterials(options = {}) {
     course_material_overviews: courseMaterialOverviews,
     usable_sources: usableSources,
     gaps,
+    rescreen,
+    unit_export: unitExport,
     recommendation_basis: buildRecommendationBasis(courseMaterialOverviews)
   };
 }
@@ -108,6 +132,119 @@ function buildCourseOverview({ candidate, materialRows, contract, unitsRoot }) {
     },
     units: units?.units || []
   };
+}
+
+async function rescreenMissingMaterials({ candidateCourses, rowsByCourse, dbPath, enabled, rescreener }) {
+  const candidates = candidateCourses.filter(candidate =>
+    (rowsByCourse.get(candidate.course_id) || []).length === 0 &&
+    hasDeclaredMaterials(candidate)
+  );
+  const defaultDbPath = resolve(DEFAULT_DB_PATH);
+  const canUseDefaultRescreener = resolve(dbPath) === defaultDbPath;
+  const activeRescreener = rescreener || (canUseDefaultRescreener ? defaultRescreener : null);
+  const skippedReason = !enabled
+    ? 'disabled'
+    : activeRescreener
+      ? null
+      : 'custom_db_without_rescreener';
+
+  const result = {
+    enabled,
+    attempted: [],
+    skipped: skippedReason
+      ? candidates.map(candidate => ({ course_id: candidate.course_id, reason: skippedReason }))
+      : [],
+    results: []
+  };
+
+  if (!enabled || !activeRescreener) return result;
+
+  for (const candidate of candidates) {
+    result.attempted.push(candidate.course_id);
+    try {
+      const item = await activeRescreener(candidate.course_id);
+      result.results.push({
+        course_id: candidate.course_id,
+        status: item?.error ? 'failed' : 'completed',
+        materials: Number(item?.materials || 0),
+        error: item?.error || null
+      });
+    } catch (err) {
+      result.results.push({
+        course_id: candidate.course_id,
+        status: 'failed',
+        materials: 0,
+        error: err.message
+      });
+    }
+  }
+
+  return result;
+}
+
+async function exportMissingCourseUnits({ candidateCourses, rowsByCourse, dbPath, unitsRoot, enabled, unitExporter }) {
+  const candidates = candidateCourses.filter(candidate =>
+    (rowsByCourse.get(candidate.course_id) || []).length > 0 &&
+    !loadCourseUnits(candidate.course_id, unitsRoot)
+  );
+  const defaultDbPath = resolve(DEFAULT_DB_PATH);
+  const canUseDefaultExporter = resolve(dbPath) === defaultDbPath;
+  const outRoot = unitsRoot ? resolve(unitsRoot) : undefined;
+  const activeExporter = unitExporter || (canUseDefaultExporter ? defaultUnitExporter : null);
+  const skippedReason = !enabled
+    ? 'disabled'
+    : activeExporter
+      ? null
+      : 'custom_db_without_unit_exporter';
+
+  const result = {
+    enabled,
+    attempted: [],
+    skipped: skippedReason
+      ? candidates.map(candidate => ({ course_id: candidate.course_id, reason: skippedReason }))
+      : [],
+    results: []
+  };
+
+  if (!enabled || !activeExporter || candidates.length === 0) return result;
+
+  const courseIds = candidates.map(candidate => candidate.course_id);
+  result.attempted.push(...courseIds);
+  try {
+    const items = await activeExporter(courseIds, { outRoot });
+    result.results.push(...items.map(item => ({
+      course_id: item.course_id,
+      status: 'completed',
+      unit_count: Number(item.unit_count || 0),
+      assigned_sources: Number(item.assigned_sources || 0),
+      jsonPath: item.jsonPath || null
+    })));
+  } catch (err) {
+    result.results.push(...courseIds.map(courseId => ({
+      course_id: courseId,
+      status: 'failed',
+      unit_count: 0,
+      assigned_sources: 0,
+      error: err.message
+    })));
+  }
+
+  return result;
+}
+
+function hasDeclaredMaterials(candidate) {
+  const types = candidate.signals?.learning_resource_types || [];
+  if (types.length > 0) return true;
+  const materials = candidate.signals?.materials || {};
+  return Object.values(materials).some(value => Number(value || 0) > 0);
+}
+
+async function defaultRescreener(courseId) {
+  return screenCourse(courseId, { deep: true, deepTiers: null });
+}
+
+async function defaultUnitExporter(courseIds, options) {
+  return exportCourseUnits(courseIds, options);
 }
 
 function readMaterialsForCourses(dbPath, courseIds) {

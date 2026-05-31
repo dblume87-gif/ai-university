@@ -1,0 +1,767 @@
+{
+  "generated_at": "2026-05-29T12:06:05.988Z",
+  "course": {
+    "course_id": "11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009",
+    "title": "Analyzing and Accounting for Regional Economic Growth",
+    "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/",
+    "status": "screened",
+    "notebooklm_status": null,
+    "notebooklm_notebook_id": null
+  },
+  "summary": {
+    "material_sources": 41,
+    "unit_count": 18,
+    "assigned_sources": 24,
+    "unassigned_sources": 17
+  },
+  "inference_rules": [
+    "Lecture/unit numbers are inferred from titles such as \"Lecture 7\", \"Lectures 5 and 6\", and file/path tokens such as \"lec07\" or \"Lec04\".",
+    "Problem sets and quizzes with explicit numbers are attached to the matching unit number.",
+    "Sources without a reliable unit signal are kept in unassigned_sources."
+  ],
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Introduction",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8451,
+          "title": "Introduction",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/7b392c529181bbca29ce761b76d7a32f_MIT11_481Js09_lec01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec01/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8453,
+          "title": "Problem Set 1",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/7ef536cd48015ed4618c1852d44e4dae_MIT11_481Js09_pset01.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_pset01/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Assignments"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 2,
+      "title": "History of Regional Science",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8462,
+          "title": "History of Regional Science",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/cc419ea9171fde70a4b5a8be9afc145e_MIT11_481Js09_lec02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec02/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8430,
+          "title": "Problem Set 2",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/33a044a35cc1ce434b875b68781b7a40_MIT11_481Js09_pset02.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_pset02/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Assignments"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 3,
+      "title": "Property Rights' Perspective on Regional-Development Strategies",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8433,
+          "title": "Property Rights' Perspective on Regional-Development Strategies",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/38bf2b981aed27cce2df648b360646d9_MIT11_481Js09_lec03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec03/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8452,
+          "title": "Problem Set 3",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/7b9fc83d3dccf623ea3a8214acb503b4_MIT11_481Js09_pset03.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_pset03/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Assignments"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 4,
+      "title": "Problem Set 4",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8450,
+          "title": "Problem Set 4",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/7861a987a71e62c01ed50b7c3167b404_MIT11_481Js09_pset04.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_pset04/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Assignments"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 5,
+      "title": "Alternative Regional Growth and Location Theories",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8457,
+          "title": "Alternative Regional Growth and Location Theories",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/9d3a460f6bbce47183cea84c589a6e7b_MIT11_481Js09_lec05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec05/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8444,
+          "title": "Problem Set 5",
+          "media_type": "pdf",
+          "material_type": "Problem Sets",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/67f146f3afbddd293dbd9ec252469cea_MIT11_481Js09_pset05.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_pset05/data.json",
+          "parent_title": "Assignments",
+          "learning_resource_types": [
+            "Assignments"
+          ],
+          "unit_match": "assessment_number"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 6,
+      "title": "Location Quotients and Economic-base Multiplier",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8459,
+          "title": "Location Quotients and Economic-base Multiplier",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/b8008f03f92405b5454e480d38e5dd1d_MIT11_481Js09_lec06.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec06/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 8,
+      "title": "Assumptions: Comparison of Factor-mobility and Goods-mobility Models",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8436,
+          "title": "Assumptions: Comparison of Factor-mobility and Goods-mobility Models",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/435d6d7deae672b12b99f75699842b1d_MIT11_481Js09_lec08.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec08/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 9,
+      "title": "Agglomeration Versus Dispersal Economies",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8456,
+          "title": "Agglomeration Versus Dispersal Economies",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/93ee7d96cf04bea321a1010ac578b4ff_MIT11_481Js09_lec09a.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec09a/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8460,
+          "title": "Industry Diversification and Concentration",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/c27c1cf2bc47c657a2ac044beb7fd83f_MIT11_481Js09_lec09b.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec09b/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 10,
+      "title": "Industries, Regions, and Restructuring",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8431,
+          "title": "Industries, Regions, and Restructuring",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/3493a3010c7b3bd261ba53cd029107ca_MIT11_481Js09_lec10.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec10/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 12,
+      "title": "Supply-Chain Management",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8446,
+          "title": "Supply-Chain Management",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/6f20af3e3562eb6931e38217c37e8bae_MIT11_481Js09_lec12.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec12/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 13,
+      "title": "Innovation, Invention, and Dispersion",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8468,
+          "title": "Innovation, Invention, and Dispersion",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/fe3aec05a8820c5b2e223ba836731d3c_MIT11_481Js09_lec13.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec13/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 14,
+      "title": "Regional Accounting",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8437,
+          "title": "Regional Accounting",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/4379971b278c9bd8f55a7f2b641da5f4_MIT11_481Js09_lec14.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec14/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 16,
+      "title": "Regional Input-Output Models",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8467,
+          "title": "Regional Input-Output Models",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/fc58ad91753be72bcaf99154059d81a9_MIT11_481Js09_lec16.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec16/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 17,
+      "title": "Linkages in the Construction Sector",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8448,
+          "title": "Linkages in the Construction Sector",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/73428ff063ba74bb7af59a1ea4a132ae_MIT11_481Js09_lec17.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec17/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 18,
+      "title": "Social Accounting Matrices and Structural Analyses",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8440,
+          "title": "Social Accounting Matrices and Structural Analyses",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/4d328a2666303e5d3296c2bd3387aae1_MIT11_481Js09_lec18.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec18/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 19,
+      "title": "Multipliers in Input-Output Model",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8441,
+          "title": "Multipliers in Input-Output Model",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/57831bde2e4d1e4bf6c9dbeb3c11cf48_MIT11_481Js09_lec19a.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec19a/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        },
+        {
+          "id": 8461,
+          "title": "Imputations",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/c554e2194bcd33fa1278c45333202191_MIT11_481Js09_lec19b.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec19b/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 2,
+      "source_types": {
+        "pdf": 2
+      }
+    },
+    {
+      "unit_number": 21,
+      "title": "Shift-Share Analysis",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8427,
+          "title": "Shift-Share Analysis",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/12e594e726ee0388bab7def7fa906bf2_MIT11_481Js09_lec21.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec21/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    },
+    {
+      "unit_number": 23,
+      "title": "China's Regional Energy-Intensity Issues",
+      "confidence": "inferred",
+      "sources": [
+        {
+          "id": 8454,
+          "title": "China's Regional Energy-Intensity Issues",
+          "media_type": "pdf",
+          "material_type": "Lecture Notes",
+          "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/8195ac2e038ca7078f26c3d9a569ee4e_MIT11_481Js09_lec23.pdf",
+          "local_path": null,
+          "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_lec23/data.json",
+          "parent_title": "Lecture Notes",
+          "learning_resource_types": [
+            "Lecture Notes"
+          ],
+          "unit_match": "inferred"
+        }
+      ],
+      "source_count": 1,
+      "source_types": {
+        "pdf": 1
+      }
+    }
+  ],
+  "unassigned_sources": [
+    {
+      "id": 8424,
+      "title": "Price Indices",
+      "media_type": "pdf",
+      "material_type": "Projects",
+      "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/006950fc9ca0e1eadf4b82cf911f56e5_MIT11_481Js09_sw03.pdf",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_sw03/data.json",
+      "parent_title": "Projects",
+      "learning_resource_types": [
+        "Projects"
+      ]
+    },
+    {
+      "id": 8425,
+      "title": "The Merrimack Valley: Challenges, Assets, and Potential for Growth",
+      "media_type": "slides",
+      "material_type": "Projects",
+      "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/01f8261cdc3209eb50b8a3617ec1908c_MIT11_481Js09_proj01_project_slides.pdf",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_proj01_project_slides/data.json",
+      "parent_title": "Projects",
+      "learning_resource_types": [
+        "Projects"
+      ]
+    },
+    {
+      "id": 8426,
+      "title": "The Merrimack Valley: Challenges, Assets, and Potential for Growth",
+      "media_type": "pdf",
+      "material_type": "Projects",
+      "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/0d3aaf5857f81393979c5bef341bb996_MIT11_481Js09_project01.pdf",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_project01/data.json",
+      "parent_title": "Projects",
+      "learning_resource_types": [
+        "Projects"
+      ]
+    },
+    {
+      "id": 8429,
+      "title": "PDF - 1.2MB",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "http://www.theatlantic.com/images/issues/200510/world-is-spiky.pdf",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/external-resources/pdf-12mb_296bea82-2935-480d-a40f-1a2b2eb3d9a1/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8434,
+      "title": "Buy at MIT Press",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://mitpress.mit.edu/9780262611350",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/external-resources/buy-at-mit-pressimagesmp_logogif_3a7e5202-0a71-46e5-bd68-27445aa33627/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8435,
+      "title": "PDF",
+      "media_type": "pdf",
+      "material_type": "Other",
+      "source_url": "http://www.bls.gov/opub/hom/pdf/homch17.pdf",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/external-resources/pdf_3e1d5eb8-d87c-4b55-9201-771514392433/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8438,
+      "title": "Suggest Readings",
+      "media_type": "pdf",
+      "material_type": "Readings",
+      "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/465add008e0158a6afa7a7dfe25b7af6_MIT11_481Js09_read01.pdf",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_read01/data.json",
+      "parent_title": "Readings",
+      "learning_resource_types": [
+        "Readings"
+      ]
+    },
+    {
+      "id": 8439,
+      "title": "Interdependence and Industrialization",
+      "media_type": "pdf",
+      "material_type": "Projects",
+      "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/4c8887c0d99f686f09399e272f9669a2_MIT11_481Js09_sw02.pdf",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_sw02/data.json",
+      "parent_title": "Projects",
+      "learning_resource_types": [
+        "Projects"
+      ]
+    },
+    {
+      "id": 8442,
+      "title": "The Economics of the Informal Sector: A Simple Model and Some Empirical Evidence from Latin America",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "http://ideas.repec.org/p/wbk/wbrwps/1727.html",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/external-resources/the-economics-of-the-informal-sector-a-simple-model-and-some-empirical-evidence-from-lati584d1832-335c-4e29-8732-0286838975dd/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8443,
+      "title": "The Merrimack Valley Region: Challenges, Assets and the Potential for Growth",
+      "media_type": "pdf",
+      "material_type": "Projects",
+      "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/5ceb8cc52b35bb931277d6cd25e4f06b_MIT11_481Js09_proj02_project_paper.pdf",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_proj02_project_paper/data.json",
+      "parent_title": "Projects",
+      "learning_resource_types": [
+        "Projects"
+      ]
+    },
+    {
+      "id": 8447,
+      "title": "Managing for Creativity",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "https://hbr.org/product/managing-for-creativity/R0507L-PDF-ENG",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/external-resources/managing-for-creativity_72ecd40c-0683-44b0-8abc-cd92b3f92818/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8455,
+      "title": "Presentation Instructions",
+      "media_type": "pdf",
+      "material_type": "Projects",
+      "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/8ebc474e7208b95fc1346f981f52a2dc_MIT11_481Js09_sw_info.pdf",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_sw_info/data.json",
+      "parent_title": "Projects",
+      "learning_resource_types": [
+        "Projects"
+      ]
+    },
+    {
+      "id": 8458,
+      "title": "_BLS Handbook of Methods_",
+      "media_type": "html",
+      "material_type": "Other",
+      "source_url": "http://www.bls.gov/opub/hom/",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/external-resources/bls-handbook-of-methods__9f6d65f9-f1ad-46c5-b867-64ed59292788/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8463,
+      "title": "How to invert a matrix in Microsoft Excel",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/de7f8a393c5e4a0735143c13f7a2239b_MIT11_481Js09_pset04_info.pdf",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_pset04_info/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Assignments"
+      ]
+    },
+    {
+      "id": 8464,
+      "title": "Determinants of City Growth in Brazil",
+      "media_type": "external",
+      "material_type": "Other",
+      "source_url": "http://www.nber.org/papers/w11585",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/external-resources/determinants-of-city-growth-in-brazil_e52d67b9-e189-4f05-934b-0a606364a580/data.json",
+      "parent_title": null,
+      "learning_resource_types": []
+    },
+    {
+      "id": 8465,
+      "title": "Suggestions for Writers",
+      "media_type": "pdf",
+      "material_type": "Problem Sets",
+      "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/e950d98a132ac49667a4c0ba4d640e80_MIT11_481Js09_write.pdf",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_write/data.json",
+      "parent_title": "Assignments",
+      "learning_resource_types": [
+        "Assignments"
+      ]
+    },
+    {
+      "id": 8466,
+      "title": "Regions and the New Economics of Competition",
+      "media_type": "pdf",
+      "material_type": "Projects",
+      "source_url": "https://ocw.mit.edu/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/eda7657127dc230cf8ef5225ec0a8804_MIT11_481Js09_sw01.pdf",
+      "local_path": null,
+      "resource_path": "/courses/11-481j-analyzing-and-accounting-for-regional-economic-growth-spring-2009/resources/mit11_481js09_sw01/data.json",
+      "parent_title": "Projects",
+      "learning_resource_types": [
+        "Projects"
+      ]
+    }
+  ]
+}

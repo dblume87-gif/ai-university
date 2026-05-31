@@ -37,7 +37,7 @@ const V1_SCHEMA = {
     '--units-root'
   ],
   intFlags: ['--limit', '--top', '--max-units', '--max-sources', '--timeout'],
-  booleanFlags: ['--dry-run', '--live-notebook', '--force', '--help', '-h']
+  booleanFlags: ['--dry-run', '--live-notebook', '--no-rescreen', '--no-unit-export', '--force', '--help', '-h']
 };
 
 export function getV1RunOptions(args) {
@@ -63,6 +63,8 @@ export function getV1RunOptions(args) {
     timeout: parsed.getPositiveInt('--timeout', 180),
     dryRun: parsed.has('--live-notebook') ? false : true,
     liveNotebook: parsed.has('--live-notebook'),
+    rescreenMissing: !parsed.has('--no-rescreen'),
+    exportMissingUnits: !parsed.has('--no-unit-export'),
     force: parsed.has('--force'),
     help: parsed.has('--help') || parsed.has('-h')
   };
@@ -96,12 +98,16 @@ export async function runV1Harness(options = {}, runner) {
       return { artifact_path: path, data };
     });
 
-    const screening = await runStep(run, 'materials', () => {
-      const data = screenCandidateMaterials({
+    const screening = await runStep(run, 'materials', async () => {
+      const data = await screenCandidateMaterials({
         candidateSelection: selection.data,
         contract: contract.data,
         dbPath: options.dbPath,
         unitsRoot: options.unitsRoot,
+        rescreenMissing: options.rescreenMissing,
+        rescreener: options.rescreener,
+        exportMissingUnits: options.exportMissingUnits,
+        unitExporter: options.unitExporter,
         top: options.top
       });
       checkGate(run, 'usable_sources_present', data.usable_sources.length > 0, 'failed:materials', 'No usable sources found.');

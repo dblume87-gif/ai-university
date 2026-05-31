@@ -106,6 +106,8 @@ test('selectCourseCandidates: AI Apps priorisiert Python/GenAI/Prompting vor Mat
   assert.ok(selection.candidate_courses.slice(0, 2).some(candidate => candidate.course_id === '6-0001-python'));
   assert.ok(selection.candidate_courses.slice(0, 2).some(candidate => candidate.course_id === '6-s087-genai'));
   assert.ok(selection.candidate_courses.every(candidate => candidate.thematic_fit.gate === 'passed'));
+  assert.ok(selection.candidate_courses.every(candidate => !('course_units' in candidate.field_contributions)));
+  assert.ok(selection.candidate_courses.every(candidate => !('has_course_units' in candidate.signals)));
 });
 
 test('selectCourseCandidates: Backprop priorisiert Neural-Network-/Calculus-nahe Kurse', () => {

@@ -45,7 +45,8 @@ test('runV1Harness: Golden Scenario erzeugt Run-Artefakte und sources_ready dry-
     maxSources: 10,
     limit: 5,
     top: 5,
-    dryRun: true
+    dryRun: true,
+    rescreenMissing: false
   }, async () => {
     throw new Error('runner should not be called in dry-run');
   });
@@ -60,6 +61,8 @@ test('runV1Harness: Golden Scenario erzeugt Run-Artefakte und sources_ready dry-
   assert.ok(candidates.candidate_courses.length > 0);
   assert.ok(!candidates.candidate_courses.some(candidate => candidate.course_id === '14-01-microeconomics'));
   assert.ok(candidates.candidate_courses.every(candidate => candidate.thematic_fit.gate === 'passed'));
+  assert.ok(candidates.candidate_courses.every(candidate => !('course_units' in candidate.field_contributions)));
+  assert.ok(candidates.candidate_courses.every(candidate => !('has_course_units' in candidate.signals)));
 
   const state = JSON.parse(readFileSync(join(runDir, 'path-notebook-state.json'), 'utf8'));
   assert.equal(state.status, 'sources_ready');
