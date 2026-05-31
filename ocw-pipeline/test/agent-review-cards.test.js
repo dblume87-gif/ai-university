@@ -1,0 +1,93 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { existsSync, mkdtempSync, readFileSync } from 'fs';
+import { join } from 'path';
+import { tmpdir } from 'os';
+import {
+  formatActionInput,
+  renderReviewCard,
+  saveReviewCard
+} from '../src/learning/agent/review-cards/index.js';
+
+test('renderReviewCard: sichere Default-Aktion erscheint als yes', () => {
+  const card = renderReviewCard({
+    phase: 'Quellen pruefen',
+    searched: 'Accounting fuer Fortgeschrittene',
+    found: 'Ein Kurs ohne nutzbare Quellen',
+    review: {
+      decision: 'retry',
+      reasons: ['Quellen fehlen.'],
+      default_action: 'recover_sources',
+      proposed_actions: [
+        { action: 'recover_sources', label: 'Deep Scan starten', params: {}, safe_default: true },
+        { action: 'continue_anyway', label: 'Trotzdem fortfahren', params: {}, safe_default: false }
+      ]
+    }
+  });
+
+  assert.match(card, /\[yes\] Deep Scan starten/);
+  assert.match(card, /\[continue anyway\] Trotzdem fortfahren/);
+});
+
+test('renderReviewCard: unsichere Action wird nie als yes gerendert', () => {
+  const card = renderReviewCard({
+    phase: 'Kurse waehlen',
+    searched: 'Kardiologie',
+    found: 'Nur unsichere Treffer',
+    review: {
+      decision: 'ask_user',
+      reasons: ['Ich brauche deine Entscheidung.'],
+      default_action: null,
+      proposed_actions: [
+        { action: 'continue_anyway', label: 'Low-Confidence nutzen', params: {}, safe_default: false }
+      ]
+    }
+  });
+
+  assert.doesNotMatch(card, /\[yes\]/);
+  assert.match(card, /\[continue anyway\] Low-Confidence nutzen/);
+});
+
+test('renderReviewCard: entfernt Backend-Begriffe aus der sichtbaren Card-Sprache', () => {
+  const card = renderReviewCard({
+    phase: 'Kurse waehlen',
+    searched: 'AI Apps',
+    found: 'Candidate Selector meldet Scores und Source IDs',
+    review: {
+      decision: 'ask_user',
+      reasons: ['Candidate Selector ist unsicher wegen Scores.'],
+      default_action: null,
+      proposed_actions: []
+    }
+  });
+
+  assert.doesNotMatch(card, /Candidate Selector/);
+  assert.doesNotMatch(card, /Source ID/);
+  assert.doesNotMatch(card, /Scores/);
+});
+
+test('saveReviewCard: schreibt cards/<phase>.md atomar', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'agent-card-'));
+  const card = renderReviewCard({
+    phase: 'Plan pruefen',
+    searched: 'Learning Path',
+    found: 'Rohe Titel',
+    review: {
+      decision: 'ask_user',
+      reasons: ['Titel normalisieren.'],
+      default_action: 'normalize_titles',
+      proposed_actions: [
+        { action: 'normalize_titles', label: 'Titel normalisieren', params: {}, safe_default: true }
+      ]
+    }
+  });
+  const result = saveReviewCard(dir, 'plan-review', card);
+
+  assert.equal(result.artifact_path, join(dir, 'cards', 'plan-review.md'));
+  assert.equal(existsSync(result.artifact_path), true);
+  assert.equal(readFileSync(result.artifact_path, 'utf8'), card);
+});
+
+test('formatActionInput: action ids werden zu Tipp-Kommandos', () => {
+  assert.equal(formatActionInput('continue_anyway'), 'continue anyway');
+});
